@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>KSK432 - Works</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <nav id="navbar">
+    <ul>
+      <li><a class="menu-link" href="index.html">Home</a></li>
+      <li><a class="menu-link active" href="works.html">Works</a></li>
+      <li><a class="menu-link" href="blog.html">Blog</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <section id="works">
+      <h1>Works</h1>
+      <div class="work-gallery">
+        <div class="work-item">
+          <img src="images/artwork1.jpg" alt="Artwork 1" onclick="openLightbox();currentSlide(1)">
+          <p>Whale Song Akabane<br><small>2024 | DESIGN ART2024<br>Movie Projection – Converting city sounds into whale song</small></p>
+        </div>      </div>
+    </section>
+  </main>
+
+  <div id="lightbox" class="lightbox">
+    <span class="close" onclick="closeLightbox()">&times;</span>
+    <div class="lightbox-content">
+      <img id="lightbox-img" src="" alt="">
+      <div id="caption"></div>
+    </div>
+  </div>
+
+  <footer>
+    <p>&copy; 2025 ksk432. All Rights Reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
