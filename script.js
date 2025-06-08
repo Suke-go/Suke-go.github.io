@@ -23,7 +23,3 @@ function showSlide(n) {
   lightboxImg.src = artImages[slideIndex - 1].src;
   captionText.innerText = artTitles[slideIndex - 1].innerText;
 }
-
-if (typeof module !== 'undefined') {
-  module.exports = { openLightbox, closeLightbox, showSlide, currentSlide };
-}
