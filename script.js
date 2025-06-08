@@ -14,8 +14,8 @@ function currentSlide(n) {
 }
 
 function showSlide(n) {
-  var artImages = document.querySelectorAll(".art-piece img");
-  var artTitles = document.querySelectorAll(".art-piece .art-info h2");
+  var artImages = document.querySelectorAll(".work-item img");
+  var artTitles = document.querySelectorAll(".work-item .art-info h2");
   var lightboxImg = document.getElementById("lightbox-img");
   var captionText = document.getElementById("caption");
   if(n > artImages.length) { slideIndex = 1; }
