@@ -5,6 +5,17 @@
   <title>KSK432 - Summary</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="style.css">
+  <style>
+    :root {
+      --accent-color: #ffd700;
+    }
+    h1 { color: var(--accent-color); }
+    #navbar { border-bottom-color: var(--accent-color); }
+    .menu-link::after { background-color: var(--accent-color); }
+    .menu-link:hover, .menu-link.active { color: var(--accent-color); }
+    .menu-link.active::after { background-color: var(--accent-color); }
+    .profile-photo { width: 200px; border-radius: 50%; margin: 0 auto 1rem; display: block; border: 3px solid var(--accent-color); }
+  </style>
 </head>
 <body>
   <nav id="navbar">
@@ -18,6 +29,7 @@
   <main class="container">
     <section>
       <h1>Profile</h1>
+      <img src="image/selfportrait.png" alt="Kosuke Shimizu" class="profile-photo">
       <p><strong>Name:</strong> Kosuke Shimizu</p>
       <p><strong>Affiliation:</strong> University of Tsukuba</p>
       <p><strong>Laboratories:</strong> Artificial Intelligence Laboratory, Kansei Design Lee Laboratory, Abe Laboratory</p>
@@ -32,6 +44,16 @@
         <li><strong>Autonomous Systems</strong> – Self-regulating systems with adaptive learning capabilities.</li>
       </ul>
     </section>
+    <section>
+      <h1>Research Projects</h1>
+      <p>Exploring new interactive technologies in collaboration with industry partners and academic labs.</p>
+      <ul>
+        <li><strong>Generative Interaction</strong> – applying generative AI to create novel user experiences.</li>
+        <li><strong>Virtual Heritage</strong> – preserving cultural rituals in immersive VR environments.</li>
+        <li><strong>Assistive Robotics</strong> – designing collaborative robots for everyday tasks.</li>
+      </ul>
+    </section>
+
 
     <section>
       <h1>Recent Publications</h1>
