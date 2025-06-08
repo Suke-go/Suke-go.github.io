@@ -263,7 +263,21 @@
             width: 120px;
             color: var(--accent-color-1);
         }
-        
+
+        /* Simple summary link */
+        #simple-summary-link {
+            position: fixed;
+            bottom: 10px;
+            right: 10px;
+            font-size: 0.8rem;
+            z-index: 1100;
+        }
+
+        #simple-summary-link a {
+            color: var(--accent-color-1);
+            text-decoration: none;
+        }
+
         /* Responsive design */
         @media (max-width: 768px) {
             #loading-screen, #terminal {
@@ -816,5 +830,6 @@ For technical support, contact system administrator.`;
             displayLoadingItems();
         };
     </script>
+    <div id="simple-summary-link"><a href="summary.html">Plain summary page</a></div>
 </body>
 </html>
