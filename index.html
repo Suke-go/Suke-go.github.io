@@ -474,7 +474,9 @@ NOTE: This information is classified. Unauthorized access will be logged.`
                 commands: [
                     { cmd: "help", desc: "Display available commands" },
                     { cmd: "ls", desc: "List available directories" },
-                    { cmd: "cd [dir]", desc: "Change to specified directory" },
+                    { cmd: "cd [dir]", desc: "Change directory" },
+                    { cmd: "cd ..", desc: "Go up one directory" },
+                    { cmd: "pwd", desc: "Print current directory" },
                     { cmd: "home", desc: "Return to home page" },
                     { cmd: "clear", desc: "Clear terminal screen" },
                     { cmd: "about", desc: "Display system information" },
@@ -652,6 +654,9 @@ NOTE: This information is classified. Unauthorized access will be logged.`
                 case 'cd':
                     changeDirectory(args[1]);
                     break;
+                case 'pwd':
+                    addOutput("SYSTEM", currentDirectory, true);
+                    break;
                 case 'clear':
                     clearTerminal();
                     break;
@@ -700,20 +705,27 @@ NOTE: This information is classified. Unauthorized access will be logged.`
                 addOutput("SYSTEM", "Usage: cd [directory]", true);
                 return;
             }
-            
+
             const directory = dir.toLowerCase();
+
+            if (directory === '..') {
+                currentDirectory = '~';
+                document.getElementById('current-path').textContent = currentDirectory;
+                return;
+            }
+
             const validDirs = ['home', 'profile', 'projects', 'publications', 'artwork', 'blog', 'misc', 'grades', '~'];
-            
+
             if (validDirs.includes(directory)) {
                 currentDirectory = directory === '~' ? '~' : `~/${directory}`;
                 document.getElementById('current-path').textContent = currentDirectory;
-                
+
                 // Display content if not returning to root
                 if (directory !== '~') {
                     displayContent(directory);
                 }
             } else {
-                addOutput("SYSTEM", `Directory not found: ${dir}`, true);
+                addOutput("SYSTEM", `Directory not found: ${dir}", true);
             }
         }
         
