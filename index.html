@@ -701,12 +701,13 @@ NOTE: This information is classified. Unauthorized access will be logged.`
             });
             
             helpOutput += `\nDirectories can also be accessed directly by typing their name.`;
+            helpOutput += `\nNote: Only root directories exist. Use 'cd ..' before changing between them.`;
             
             addOutput("SYSTEM", helpOutput, true);
         }
         
         function listDirectories() {
-            const dirs = ['home', 'profile', 'projects', 'publications', 'artwork', 'blog', 'misc'];
+            const dirs = ['home', 'profile', 'projects', 'publications', 'artwork', 'blog', 'misc', 'grades'];
             let output = 'Available directories:\n\n';
             dirs.forEach(dir => {
                 output += `${dir}    `;
@@ -723,25 +724,37 @@ NOTE: This information is classified. Unauthorized access will be logged.`
             const directory = dir.toLowerCase();
 
             if (directory === '..') {
+                if (currentDirectory === '~') {
+                    addOutput("SYSTEM", "Already at root.", true);
+                    return;
+                }
                 currentDirectory = '~';
                 document.getElementById('current-path').textContent = currentDirectory;
                 return;
             }
 
-            const validDirs = ['home', 'profile', 'projects', 'publications', 'artwork', 'blog', 'misc', 'grades', '~'];
+            if (directory === '~') {
+                currentDirectory = '~';
+                document.getElementById('current-path').textContent = currentDirectory;
+                return;
+            }
+
+            if (currentDirectory !== '~') {
+                addOutput("SYSTEM", "Use 'cd ..' to go up before changing directories.", true);
+                return;
+            }
+
+            const validDirs = ['home', 'profile', 'projects', 'publications', 'artwork', 'blog', 'misc', 'grades'];
 
             if (validDirs.includes(directory)) {
-                currentDirectory = directory === '~' ? '~' : `~/${directory}`;
+                currentDirectory = `~/${directory}`;
                 document.getElementById('current-path').textContent = currentDirectory;
-
-                // Display content if not returning to root
-                if (directory !== '~') {
-                    displayContent(directory);
-                }
+                displayContent(directory);
             } else {
-                addOutput("SYSTEM", `Directory not found: ${dir}`, true);
+                addOutput("SYSTEM", `Directory not found: ${dir}", true);
             }
         }
+
         
         function clearTerminal() {
             document.getElementById('terminal-output').innerHTML = '';
