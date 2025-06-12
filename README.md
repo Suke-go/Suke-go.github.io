@@ -16,7 +16,8 @@ Then open `http://localhost:8000/index.html` in your browser. The page will show
 
 - `index.html` – main page with embedded JavaScript
 - `works.html` – list of works
-- `summary.html` – plain summary page
+- `summary.html` – English summary page
+- `summary-ja.html` – Japanese introduction page
 - `style.css` – common styles
 - `script.js` – standalone script for lightbox functionality
 
