@@ -263,7 +263,21 @@
             width: 120px;
             color: var(--accent-color-1);
         }
-        
+
+        /* Simple summary link */
+        #simple-summary-link {
+            position: fixed;
+            bottom: 10px;
+            right: 10px;
+            font-size: 0.8rem;
+            z-index: 1100;
+        }
+
+        #simple-summary-link a {
+            color: var(--accent-color-1);
+            text-decoration: none;
+        }
+
         /* Responsive design */
         @media (max-width: 768px) {
             #loading-screen, #terminal {
@@ -331,7 +345,7 @@ System ready for operation.`
                 content: `# PROFILE
                 
 NAME: Kosuke Shimizu
-AFFLIATION: UNIVERSITY OF TSUKUBA
+AFFILIATION: UNIVERSITY OF TSUKUBA
 LABORATORY: ARTIFICIAL INTELLIGENCE LABORATORY/ KANSEI DESIGN LEE LABORATORY/ ABE LABORATORY
 STATUS: Active
 
@@ -474,7 +488,9 @@ NOTE: This information is classified. Unauthorized access will be logged.`
                 commands: [
                     { cmd: "help", desc: "Display available commands" },
                     { cmd: "ls", desc: "List available directories" },
-                    { cmd: "cd [dir]", desc: "Change to specified directory" },
+                    { cmd: "cd [dir]", desc: "Change directory" },
+                    { cmd: "cd ..", desc: "Go up one directory" },
+                    { cmd: "pwd", desc: "Print current directory" },
                     { cmd: "home", desc: "Return to home page" },
                     { cmd: "clear", desc: "Clear terminal screen" },
                     { cmd: "about", desc: "Display system information" },
@@ -652,6 +668,9 @@ NOTE: This information is classified. Unauthorized access will be logged.`
                 case 'cd':
                     changeDirectory(args[1]);
                     break;
+                case 'pwd':
+                    addOutput("SYSTEM", currentDirectory, true);
+                    break;
                 case 'clear':
                     clearTerminal();
                     break;
@@ -682,12 +701,13 @@ NOTE: This information is classified. Unauthorized access will be logged.`
             });
             
             helpOutput += `\nDirectories can also be accessed directly by typing their name.`;
+            helpOutput += `\nNote: Only root directories exist. Use 'cd ..' before changing between them.`;
             
             addOutput("SYSTEM", helpOutput, true);
         }
         
         function listDirectories() {
-            const dirs = ['home', 'profile', 'projects', 'publications', 'artwork', 'blog', 'misc'];
+            const dirs = ['home', 'profile', 'projects', 'publications', 'artwork', 'blog', 'misc', 'grades'];
             let output = 'Available directories:\n\n';
             dirs.forEach(dir => {
                 output += `${dir}    `;
@@ -700,22 +720,41 @@ NOTE: This information is classified. Unauthorized access will be logged.`
                 addOutput("SYSTEM", "Usage: cd [directory]", true);
                 return;
             }
-            
+
             const directory = dir.toLowerCase();
-            const validDirs = ['home', 'profile', 'projects', 'publications', 'artwork', 'blog', 'misc', 'grades', '~'];
-            
-            if (validDirs.includes(directory)) {
-                currentDirectory = directory === '~' ? '~' : `~/${directory}`;
-                document.getElementById('current-path').textContent = currentDirectory;
-                
-                // Display content if not returning to root
-                if (directory !== '~') {
-                    displayContent(directory);
+
+            if (directory === '..') {
+                if (currentDirectory === '~') {
+                    addOutput("SYSTEM", "Already at root.", true);
+                    return;
                 }
+                currentDirectory = '~';
+                document.getElementById('current-path').textContent = currentDirectory;
+                return;
+            }
+
+            if (directory === '~') {
+                currentDirectory = '~';
+                document.getElementById('current-path').textContent = currentDirectory;
+                return;
+            }
+
+            if (currentDirectory !== '~') {
+                addOutput("SYSTEM", "Use 'cd ..' to go up before changing directories.", true);
+                return;
+            }
+
+            const validDirs = ['home', 'profile', 'projects', 'publications', 'artwork', 'blog', 'misc', 'grades'];
+
+            if (validDirs.includes(directory)) {
+                currentDirectory = `~/${directory}`;
+                document.getElementById('current-path').textContent = currentDirectory;
+                displayContent(directory);
             } else {
-                addOutput("SYSTEM", `Directory not found: ${dir}`, true);
+                addOutput("SYSTEM", `Directory not found: ${dir}", true);
             }
         }
+
         
         function clearTerminal() {
             document.getElementById('terminal-output').innerHTML = '';
@@ -804,5 +843,6 @@ For technical support, contact system administrator.`;
             displayLoadingItems();
         };
     </script>
+    <div id="simple-summary-link"><a href="summary.html">Plain summary page</a></div>
 </body>
 </html>
