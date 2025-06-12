@@ -768,7 +768,7 @@ NOTE: This information is classified. Unauthorized access will be logged.`
                         displayContent(directory);
                     }
                 } else {
-                    addOutput("SYSTEM", `Directory not found: ${dir}", true);
+                    addOutput("SYSTEM", `Directory not found: ${directory}` , true);
                 }
             } else {
                 const parent = currentDirectory.replace('~/', '').split('/').pop();
@@ -778,7 +778,7 @@ NOTE: This information is classified. Unauthorized access will be logged.`
                     document.getElementById('current-path').textContent = currentDirectory;
                     displayContent(directory);
                 } else {
-                    addOutput("SYSTEM", `Directory not found: ${dir}", true);
+                    addOutput("SYSTEM", `Directory not found: ${directory}` , true);
                 }
             }
 
