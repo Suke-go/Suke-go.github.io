@@ -1,0 +1,877 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KSK432 Terminal</title>
+    <style>
+        :root {
+            /* Base colors */
+            --base-color-1: #252525;
+            --base-color-2: #302c29;
+            --base-color-3: #4a4a4a;
+            
+            /* Sub colors */
+            --sub-color-1: #7a7671;
+            --sub-color-2: #efebd6;
+            --sub-color-3: #f6f5ee;
+            
+            /* Accent colors */
+            --accent-color-1: #e3a19a;
+            --accent-color-2: #527e88;
+            
+            /* Additional colors */
+            --terminal-bg: rgba(10, 10, 10, 0.92);
+            --terminal-text: #c1c1c1;
+            --terminal-green: #6ebb9a;
+            --terminal-yellow: #d6c760;
+            --terminal-red: #d65f5f;
+        }
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Courier New', monospace;
+        }
+        
+        body {
+            background-color: var(--base-color-1);
+            color: var(--sub-color-3);
+            display: flex;
+            flex-direction: column;
+            height: 100vh;
+            overflow: hidden;
+        }
+        
+        /* Loading Screen */
+        #loading-screen {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: var(--terminal-bg);
+            z-index: 1000;
+            color: var(--terminal-text);
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            padding: 40px;
+            overflow: hidden;
+        }
+        
+        #loading-screen h1 {
+            font-size: 1.2rem;
+            margin-bottom: 20px;
+            color: var(--terminal-text);
+            letter-spacing: 2px;
+        }
+        
+        .loading-item {
+            margin: 6px 0;
+            font-size: 0.9rem;
+            opacity: 0;
+            animation: fadeIn 0.1s forwards;
+            display: flex;
+        }
+        
+        .loading-item-status {
+            margin-left: 10px;
+        }
+        
+        .status-green {
+            color: var(--terminal-green);
+        }
+        
+        .status-yellow {
+            color: var(--terminal-yellow);
+        }
+        
+        .status-red {
+            color: var(--terminal-red);
+        }
+        
+        .yorha-logo {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-size: 6rem;
+            opacity: 0.1;
+            color: var(--sub-color-3);
+            font-weight: bold;
+            letter-spacing: 10px;
+            pointer-events: none;
+        }
+        
+        /* Main Terminal */
+        #terminal {
+            display: none;
+            flex-direction: column;
+            height: 100vh;
+            padding: 20px;
+            background-color: var(--terminal-bg);
+            color: var(--terminal-text);
+            overflow-y: auto;
+            font-size: 1rem;
+            position: relative;
+        }
+        
+        #terminal-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 20px;
+            padding-bottom: 10px;
+            border-bottom: 1px solid var(--terminal-text);
+        }
+        
+        #terminal-header h2 {
+            font-size: 1.2rem;
+            letter-spacing: 2px;
+        }
+        
+        #terminal-status {
+            font-size: 0.8rem;
+        }
+        
+        #terminal-output {
+            flex-grow: 1;
+            margin-bottom: 20px;
+            overflow-y: auto;
+            white-space: pre-wrap;
+        }
+        
+        .terminal-line {
+            margin-bottom: 10px;
+            line-height: 1.5;
+        }
+        
+        .path {
+            color: var(--accent-color-1);
+        }
+        
+        .command {
+            color: var(--sub-color-2);
+        }
+        
+        .output-text {
+            margin-top: 5px;
+            margin-left: 20px;
+        }
+        
+        .content-section {
+            margin-left: 20px;
+            margin-bottom: 20px;
+        }
+        
+        .content-section h3 {
+            margin-bottom: 10px;
+            color: var(--accent-color-1);
+            border-bottom: 1px solid var(--terminal-text);
+            padding-bottom: 5px;
+            width: fit-content;
+        }
+        
+        .content-section p {
+            margin-bottom: 10px;
+            line-height: 1.5;
+        }
+        
+        #terminal-input-line {
+            display: flex;
+            align-items: center;
+        }
+        
+        #prompt {
+            margin-right: 10px;
+        }
+        
+        #current-path {
+            color: var(--accent-color-1);
+            margin-right: 5px;
+        }
+        
+        #cursor {
+            display: inline-block;
+            width: 10px;
+            height: 18px;
+            background-color: var(--terminal-text);
+            animation: blink 1s infinite;
+            vertical-align: middle;
+        }
+        
+        #terminal-input {
+            background: transparent;
+            border: none;
+            outline: none;
+            color: var(--terminal-text);
+            font-family: 'Courier New', monospace;
+            font-size: 1rem;
+            flex-grow: 1;
+            caret-color: transparent;
+        }
+        
+        /* Animations */
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+        
+        @keyframes blink {
+            0%, 49% { opacity: 1; }
+            50%, 100% { opacity: 0; }
+        }
+        
+        /* Content styling */
+        .project-item, .publication-item, .artwork-item, .blog-item {
+            margin-bottom: 15px;
+            padding-left: 15px;
+            border-left: 2px solid var(--accent-color-2);
+        }
+        
+        .project-item h4, .publication-item h4, .artwork-item h4, .blog-item h4 {
+            color: var(--sub-color-2);
+            margin-bottom: 5px;
+        }
+        
+        .artwork-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+            gap: 10px;
+            margin-top: 15px;
+        }
+        
+        .artwork-placeholder {
+            background-color: var(--base-color-3);
+            height: 100px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: var(--sub-color-3);
+            font-size: 0.8rem;
+            border: 1px solid var(--sub-color-1);
+        }
+        
+        .help-command {
+            display: flex;
+            margin-bottom: 8px;
+        }
+        
+        .help-cmd {
+            width: 120px;
+            color: var(--accent-color-1);
+        }
+
+        /* Simple summary link */
+        #simple-summary-link {
+            position: fixed;
+            bottom: 10px;
+            right: 10px;
+            font-size: 0.8rem;
+            z-index: 1100;
+        }
+
+        #simple-summary-link a {
+            color: var(--accent-color-1);
+            text-decoration: none;
+        }
+
+        /* Responsive design */
+        @media (max-width: 768px) {
+            #loading-screen, #terminal {
+                padding: 15px;
+            }
+            
+            .yorha-logo {
+                font-size: 3rem;
+            }
+            
+            .artwork-grid {
+                grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Loading Screen -->
+    <div id="loading-screen">
+        <h1>LOADING - BOOTING SYSTEM...</h1>
+        <div class="yorha-logo">KSK432</div>
+        <div id="loading-items">
+            <!-- Loading items will be added via JavaScript -->
+        </div>
+    </div>
+    
+    <!-- Main Terminal -->
+    <div id="terminal">
+        <div id="terminal-header">
+            <h2>KSK432Portfolio OS</h2>
+            <div id="terminal-status">
+                <span>Status: ONLINE</span> | 
+                <span>HP: 80%</span> | 
+                <span id="current-date">DATE: --/--/----</span>
+            </div>
+        </div>
+        
+        <div id="terminal-output">
+            <!-- Terminal output will appear here -->
+        </div>
+        
+        <div id="terminal-input-line">
+            <span id="prompt">></span>
+            <span id="current-path">~</span>
+            <input type="text" id="terminal-input" autocomplete="off" autofocus>
+            <span id="cursor"></span>
+        </div>
+    </div>
+    
+    <script>
+        // Content data
+        const content = {
+            home: {
+                title: "Home",
+                content: `Welcome to the KSK432 Terminal OS
+                
+This terminal provides access to all system files and information.
+Use commands to navigate and access data. Type 'help' for available commands.
+For advanced diagnostics, enter 'sudo' followed by your command.
+
+System ready for operation.`
+            },
+            profile: {
+                title: "Profile",
+                subdirs: ['skills'],
+                content: `# PROFILE
+                
+NAME: Kosuke Shimizu
+AFFILIATION: UNIVERSITY OF TSUKUBA
+LABORATORY: ARTIFICIAL INTELLIGENCE LABORATORY/ KANSEI DESIGN LEE LABORATORY/ ABE LABORATORY
+STATUS: Active
+
+SPECIALIZATION:
+- Human Computer Interaction
+- Computer-Mediated Communication
+- Virtual Reality
+.`
+            },
+            projects: {
+                title: "Projects",
+                items: [
+                    {
+                        title: "Insulin Device Projects",
+                        description: "A comprehensive system for data analysis and visualization. Implements advanced algorithms for pattern recognition in large datasets."
+                    },
+                    {
+                        title: "Quantum Interface",
+                        description: "Experimental interface design utilizing principles of quantum interaction. Currently in beta testing phase with promising results."
+                    },
+                    {
+                        title: "Autonomous Systems",
+                        description: "Development of self-regulating systems with adaptive learning capabilities. Focused on efficiency and resource optimization."
+                    }
+                ]
+            },
+                        publications: {
+                title: "Publications",
+                items: [
+                    {
+                        title: "Emotion Overflow: An Interactive System to Represent Emotion in Fluid Dynamics",
+                        authors: "Tsuyuguchi K., Shimizu K., Suzuki K.",
+                        year: "2025",
+                        journal: "INTERACTION 2025",
+                        type: "Conference Presentation",
+                        date: "2025-03"
+                    },
+                    {
+                        title: "Emotion Overflow: an Interactive System to Represent Emotion with Fluid",
+                        authors: "Tsuyuguchi K., Shimizu K., Suzuki K.",
+                        year: "2024",
+                        journal: "The 37th Annual ACM Symposium on User Interface Software and Technology",
+                        pages: "1-2",
+                        doi: "10.1145/3672539.3686779",
+                        links: ["https://doi.org/10.1145/3672539.3686779", "https://dl.acm.org/doi/pdf/10.1145/3672539.3686779"],
+                        type: "International Conference Proceedings",
+                        date: "2024-10-13"
+                    },
+                    {
+                        title: "MoodGroove: テキストと身体動作による対話型音楽生成・編集システム",
+                        authors: "Tsuchiya M., Shimizu K., Suzuki K.",
+                        year: "2024",
+                        journal: "WISS 2024: 第32回インタラクティブシステムとソフトウェアに関するワークショップ",
+                        type: "Workshop Presentation",
+                        date: "2024-12"
+                    },
+                    {
+                        title: "大和歌VR Recorder (YamatoUta VR Recorder)",
+                        authors: "Shimizu K., Ikura H.",
+                        year: "2024",
+                        journal: "第 29 回日本バーチャルリアリティ学会大会論文集",
+                        type: "Conference Presentation",
+                        date: "2024-09"
+                    },
+                    {
+                        title: "Effects of Binaural Audio on English Vocabulary Learning",
+                        authors: "Shimizu K., Fukushima S., Naemura T.",
+                        year: "2022",
+                        journal: "30th International Conference on Computers in Education Conference, ICCE 2022 - Proceedings",
+                        pages: "665-667",
+                        type: "International Conference Proceedings",
+                        date: "2022-10"
+                    }
+                ]
+            },
+            
+            artwork: {
+                    content: `not available`
+            //     title: "Artwork",
+            //     description: "A collection of digital and traditional artwork exploring themes of technology, humanity, and the spaces between."
+            },
+            blog: {
+                title: "Blog",
+                // items: [
+                //     {
+                //         title: "The Evolution of Interface Design",
+                //         date: "2025-03-15",
+                //         excerpt: "Exploring how user interfaces have evolved from command-line to natural language processing..."
+                //     },
+                //     {
+                //         title: "Digital Minimalism in Modern Design",
+                //         date: "2025-02-27",
+                //         excerpt: "An analysis of how minimalist principles continue to influence digital design practices..."
+                //     },
+                //     {
+                //         title: "The Ethics of Autonomous Systems",
+                //         date: "2025-01-19",
+                //         excerpt: "Considering the moral implications of systems that make decisions without human intervention..."
+                //     }
+                // ]
+                content: `not available`
+            },
+            misc: {
+                title: "Miscellaneous",
+                // content: `This section contains various utilities and resources that don't fit neatly into other categories.
+                content: `not available`
+            },
+            // Hidden page
+            grades: {
+                title: "Academic Performance",
+                content: `# CLASSIFIED INFORMATION
+                
+ACADEMIC RECORD - RESTRICTED ACCESS
+Last Updated: 2025/3/24 20:21
+
+==== CREDIT SUMMARY ====
+Total Credits Registered:    51.5
+Total Credits Earned:        17.5
+Transfer Credits:            0.0
+
+==== SEMESTER BREAKDOWN ====
+                TOTAL    FALL 2024    SPRING 2024
+Credits Taken:  51.5     33.0         18.5
+Credits Earned: 17.5     14.0         3.5
+GPA:           0.38      0.45         0.28
+
+==== PERFORMANCE ANALYSIS ====
+Current credit acquisition rate: 34.0%
+Current academic standing: PROBATION
+
+==== SYSTEM RECOMMENDATION ====
+Immediate academic intervention required.
+Schedule appointment with academic advisor.
+Consider reducing course load for upcoming term.
+                
+NOTE: This information is classified. Unauthorized access will be logged.`
+            },
+            help: {
+                title: "Help",
+                commands: [
+                    { cmd: "help", desc: "Display available commands" },
+                    { cmd: "ls", desc: "List available directories" },
+                    { cmd: "cd [dir]", desc: "Change directory" },
+                    { cmd: "cd ..", desc: "Go up one directory" },
+                    { cmd: "pwd", desc: "Print current directory" },
+                    { cmd: "home", desc: "Return to home page" },
+                    { cmd: "clear", desc: "Clear terminal screen" },
+                    { cmd: "about", desc: "Display system information" },
+                    { cmd: "exit", desc: "Logout of terminal session" }
+                ]
+            },
+
+
+            skills:{
+                title: "Skills",
+                content:`
+
+            <li>Code(skilled): Python, C#, Arduino, Unity, R, Heroku, webpage dev</li>
+            <li>Code(in the building): Rust, C++, JS</li>
+            <li>Virtual Reality Development</li>`
+            }
+        };
+        // Loading screen simulation
+        const loadingItems = [
+            { text: "Commencing System Check", status: "normal", delay: 500 },
+            { text: "Memory Unit", status: "green", statusText: "Green", delay: 800 },
+            { text: "Initializing Portfolio Log", status: "normal", delay: 1100 },
+            { text: "Loading Graphical Data", status: "normal", delay: 1400 },
+            { text: "Visuals", status: "green", statusText: "Green", delay: 1700 },
+            { text: "Remaining HP", status: "normal", statusText: "100%", delay: 2000 },
+            { text: "Activating Hidden Contents ", status: "normal", statusText: "Normal", delay: 2300 },
+            { text: "Loading Publication", status: "normal", statusText: "Normal", delay: 2600 },
+            { text: "Launching OS", status: "normal", delay: 3800 },
+            { text: "Activating Inertia Control System", status: "normal", delay: 4100 },
+            { text: "Equipment Authentication", status: "green", statusText: "Complete", delay: 4400 },
+            { text: "Equipment Status", status: "green", statusText: "Green", delay: 4700 },
+            { text: "All Systems", status: "green", statusText: "Green", delay: 5300 },
+            { text: "Combat Preparations", status: "green", statusText: "Complete", delay: 5600 }
+        ];
+        
+        const loadingItemsContainer = document.getElementById('loading-items');
+        let currentLoadingItem = 0;
+        
+        function displayLoadingItems() {
+            if (currentLoadingItem < loadingItems.length) {
+                const item = loadingItems[currentLoadingItem];
+                const loadingItem = document.createElement('div');
+                loadingItem.className = 'loading-item';
+                loadingItem.style.animationDelay = `${item.delay}ms`;
+                
+                loadingItem.innerHTML = `
+                    <div class="loading-item-text">${item.text}:</div>
+                    <div class="loading-item-status ${item.status === 'green' ? 'status-green' : ''}">${item.statusText || ''}</div>
+                `;
+                
+                loadingItemsContainer.appendChild(loadingItem);
+                currentLoadingItem++;
+                
+                setTimeout(displayLoadingItems, 300);
+            } else {
+                // All items displayed, now complete loading
+                setTimeout(() => {
+                    document.getElementById('loading-screen').style.display = 'none';
+                    document.getElementById('terminal').style.display = 'flex';
+                    initTerminal();
+                }, 1500);
+            }
+        }
+        
+        // Terminal functionality
+        const rootDirs = ['home', 'profile', 'projects', 'publications', 'artwork', 'blog', 'misc', 'grades'];
+        const subDirMap = {
+            profile: ['skills']
+        };
+        let currentDirectory = "~";
+        let commandHistory = [];
+        let historyIndex = -1;
+        
+        function initTerminal() {
+            const terminalInput = document.getElementById('terminal-input');
+            const output = document.getElementById('terminal-output');
+            const currentPathElement = document.getElementById('current-path');
+            
+            // Set current date
+            const now = new Date();
+            document.getElementById('current-date').textContent = `DATE: ${now.getDate().toString().padStart(2, '0')}/${(now.getMonth() + 1).toString().padStart(2, '0')}/${now.getFullYear()}`;
+            
+            // Welcome message
+            addOutput("SYSTEM", "KSK432 Terminal OS initialized. Type 'help' for available commands.");
+            addOutput("SYSTEM", "Welcome, Operator. You are now connected to the main terminal.");
+            
+            // Event handlers
+            terminalInput.addEventListener('keydown', function(e) {
+                if (e.key === 'Enter') {
+                    e.preventDefault();
+                    const command = terminalInput.value.trim();
+                    
+                    if (command) {
+                        // Add command to history
+                        commandHistory.push(command);
+                        historyIndex = commandHistory.length;
+                        
+                        // Process command
+                        addOutput(currentDirectory, command);
+                        processCommand(command);
+                        
+                        // Clear input
+                        terminalInput.value = '';
+                    }
+                } else if (e.key === 'ArrowUp') {
+                    e.preventDefault();
+                    if (historyIndex > 0) {
+                        historyIndex--;
+                        terminalInput.value = commandHistory[historyIndex];
+                    }
+                } else if (e.key === 'ArrowDown') {
+                    e.preventDefault();
+                    if (historyIndex < commandHistory.length - 1) {
+                        historyIndex++;
+                        terminalInput.value = commandHistory[historyIndex];
+                    } else {
+                        historyIndex = commandHistory.length;
+                        terminalInput.value = '';
+                    }
+                } else if (e.key === 'Tab') {
+                    e.preventDefault();
+                    // Simple tab completion for directories
+                    const command = terminalInput.value.trim();
+                    if (command.startsWith('cd ')) {
+                        const partial = command.substring(3).toLowerCase();
+                        const directories = [...rootDirs, 'skills'];
+                        
+                        const matches = directories.filter(dir => dir.toLowerCase().startsWith(partial));
+                        if (matches.length === 1) {
+                            terminalInput.value = `cd ${matches[0]}`;
+                        }
+                    }
+                }
+            });
+            
+            // Ensure input is focused
+            terminalInput.focus();
+            window.addEventListener('click', function() {
+                terminalInput.focus();
+            });
+            
+            // Update cursor position based on input
+            terminalInput.addEventListener('input', function() {
+                updateCursorPosition();
+            });
+            
+            function updateCursorPosition() {
+                // This is a simplified version; in a real implementation,
+                // you'd need to calculate the exact position based on input width
+            }
+        }
+        
+        function addOutput(directory, command, isOutput = false) {
+            const output = document.getElementById('terminal-output');
+            const line = document.createElement('div');
+            line.className = 'terminal-line';
+            
+            if (isOutput) {
+                line.innerHTML = `<div class="output-text">${command}</div>`;
+            } else {
+                line.innerHTML = `<span class="path">${directory}</span> <span class="command">> ${command}</span>`;
+            }
+            
+            output.appendChild(line);
+            output.scrollTop = output.scrollHeight;
+        }
+        
+        function processCommand(command) {
+            const cmd = command.trim().toLowerCase();
+            const args = cmd.split(' ');
+            
+            switch(args[0]) {
+                case 'help':
+                    displayHelp();
+                    break;
+                case 'ls':
+                    listDirectories();
+                    break;
+                case 'cd':
+                    changeDirectory(args[1]);
+                    break;
+                case 'pwd':
+                    addOutput("SYSTEM", currentDirectory, true);
+                    break;
+                case 'clear':
+                    clearTerminal();
+                    break;
+                case 'home':
+                    displayContent('home');
+                    break;
+                case 'about':
+                    displayAbout();
+                    break;
+                case 'exit':
+                    simulateExit();
+                    break;
+                default:
+                    // Check if command is a direct directory name
+                    if ([...rootDirs, 'skills'].includes(cmd)) {
+                        displayContent(cmd);
+                    } else {
+                        addOutput("SYSTEM", `Command not recognized: ${command}`, true);
+                    }
+            }
+        }
+        
+        function displayHelp() {
+            let helpOutput = `Available commands:\n\n`;
+            
+            content.help.commands.forEach(cmd => {
+                helpOutput += `<div class="help-command"><span class="help-cmd">${cmd.cmd}</span><span>${cmd.desc}</span></div>`;
+            });
+            
+            helpOutput += `\nDirectories can also be accessed directly by typing their name.`;
+            helpOutput += `\nUse 'ls' inside a directory to view its contents. Use 'cd ..' to return to the root.`;
+            
+            addOutput("SYSTEM", helpOutput, true);
+        }
+        
+        function listDirectories() {
+            if (currentDirectory === '~') {
+                let output = 'Available directories:\n\n';
+                rootDirs.forEach(dir => {
+                    output += `${dir}    `;
+                });
+                addOutput("SYSTEM", output, true);
+            } else {
+                const section = currentDirectory.replace('~/', '').split('/').pop();
+                const parent = currentDirectory.replace('~/', '').split('/')[0];
+                const subdirs = content[section]?.subdirs || subDirMap[parent];
+
+                if (subdirs && currentDirectory.endsWith(parent)) {
+                    let output = 'Available directories:\n\n';
+                    subdirs.forEach(dir => {
+                        output += `${dir}    `;
+                    });
+                    addOutput("SYSTEM", output, true);
+                } else {
+                    displayContent(section);
+                }
+            }
+        }
+        
+        function changeDirectory(dir) {
+            if (!dir) {
+                addOutput("SYSTEM", "Usage: cd [directory]", true);
+                return;
+            }
+            const directory = dir.toLowerCase();
+
+            if (directory === '..') {
+                if (currentDirectory === '~') {
+                    addOutput("SYSTEM", "Already at root.", true);
+                    return;
+                }
+                const parts = currentDirectory.split('/');
+                parts.pop();
+                currentDirectory = parts.join('/');
+                document.getElementById('current-path').textContent = currentDirectory;
+                return;
+            }
+
+            if (directory === '~') {
+                currentDirectory = '~';
+                document.getElementById('current-path').textContent = currentDirectory;
+                return;
+            }
+
+            if (currentDirectory === '~') {
+                if (rootDirs.includes(directory)) {
+                    currentDirectory = `~/${directory}`;
+                    document.getElementById('current-path').textContent = currentDirectory;
+                    if (!content[directory]?.subdirs) {
+                        displayContent(directory);
+                    }
+                } else {
+                    addOutput("SYSTEM", `Directory not found: ${directory}` , true);
+                }
+            } else {
+                const parent = currentDirectory.replace('~/', '').split('/').pop();
+                const subdirs = content[parent]?.subdirs || subDirMap[parent];
+                if (subdirs && subdirs.includes(directory)) {
+                    currentDirectory = `${currentDirectory}/${directory}`;
+                    document.getElementById('current-path').textContent = currentDirectory;
+                    displayContent(directory);
+                } else {
+                    addOutput("SYSTEM", `Directory not found: ${directory}` , true);
+                }
+            }
+
+        }
+
+        
+        function clearTerminal() {
+            document.getElementById('terminal-output').innerHTML = '';
+        }
+        
+        function displayContent(section) {
+            if (!content[section]) {
+                addOutput("SYSTEM", `Content not found: ${section}`, true);
+                return;
+            }
+            
+            let output = `# ${content[section].title}\n\n`;
+            
+            if (content[section].content) {
+                output += content[section].content;
+            } else if (section === 'projects') {
+                output += 'ACTIVE PROJECTS:\n\n';
+                content.projects.items.forEach(project => {
+                    output += `<div class="project-item">
+                        <h4>${project.title}</h4>
+                        <p>${project.description}</p>
+                    </div>`;
+                });
+            } else if (section === 'publications') {
+                output += 'PUBLISHED WORKS:\n\n';
+                content.publications.items.forEach(pub => {
+                    output += `<div class="publication-item">
+                        <h4>${pub.title} (${pub.year})</h4>
+                        <p>Published in: ${pub.journal}</p>
+                    </div>`;
+                });
+            } else if (section === 'artwork') {
+                output += `${content.artwork.description}\n\n`;
+                output += `<div class="artwork-grid">
+                    <div class="artwork-placeholder">Artwork 1</div>
+                    <div class="artwork-placeholder">Artwork 2</div>
+                    <div class="artwork-placeholder">Artwork 3</div>
+                    <div class="artwork-placeholder">Artwork 4</div>
+                    <div class="artwork-placeholder">Artwork 5</div>
+                    <div class="artwork-placeholder">Artwork 6</div>
+                </div>`;
+            } else if (section === 'blog') {
+                output += 'RECENT ENTRIES:\n\n';
+                content.blog.items.forEach(post => {
+                    const date = new Date(post.date);
+                    const formattedDate = `${date.getDate().toString().padStart(2, '0')}/${(date.getMonth() + 1).toString().padStart(2, '0')}/${date.getFullYear()}`;
+                    
+                    output += `<div class="blog-item">
+                        <h4>${post.title}</h4>
+                        <p>Date: ${formattedDate}</p>
+                        <p>${post.excerpt}</p>
+                    </div>`;
+                });
+            }
+            
+            addOutput("SYSTEM", output, true);
+        }
+        
+        function displayAbout() {
+            const aboutText = `KSK432 Terminal OS v3.7
+            
+Developed for: [REDACTED]
+Purpose: Information Management and Strategic Operations
+Status: Fully Operational
+            
+This terminal provides secure access to classified information.
+All interactions are logged and monitored.
+            
+For technical support, contact system administrator.`;
+            
+            addOutput("SYSTEM", aboutText, true);
+        }
+        
+        function simulateExit() {
+            addOutput("SYSTEM", "Logging out...", true);
+            setTimeout(() => {
+                addOutput("SYSTEM", "Session terminated.", true);
+                setTimeout(() => {
+                    window.location.reload();
+                }, 1500);
+            }, 1000);
+        }
+        
+        // Start loading sequence
+        window.onload = function() {
+            displayLoadingItems();
+        };
+    </script>
+    <div id="simple-summary-link"><a href="summary.html">Plain summary page</a> | <a href="../ja/summary.html">日本語</a></div>
+</body>
+</html>
