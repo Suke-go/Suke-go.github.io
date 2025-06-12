@@ -18,9 +18,9 @@ POST_TEMPLATE = '''<!DOCTYPE html>
 <body>
   <nav id="navbar">
     <ul>
-      <li><a class="menu-link" href="../index.html">Home</a></li>
-      <li><a class="menu-link" href="../works.html">Works</a></li>
-      <li><a class="menu-link" href="../summary.html">Summary</a></li>
+      <li><a class="menu-link" href="../en/index.html">Home</a></li>
+      <li><a class="menu-link" href="../en/works.html">Works</a></li>
+      <li><a class="menu-link" href="../en/summary.html">Summary</a></li>
       <li><a class="menu-link active" href="index.html">Blog</a></li>
     </ul>
   </nav>
@@ -47,9 +47,9 @@ INDEX_TEMPLATE = '''<!DOCTYPE html>
 <body>
   <nav id="navbar">
     <ul>
-      <li><a class="menu-link" href="../index.html">Home</a></li>
-      <li><a class="menu-link" href="../works.html">Works</a></li>
-      <li><a class="menu-link" href="../summary.html">Summary</a></li>
+      <li><a class="menu-link" href="../en/index.html">Home</a></li>
+      <li><a class="menu-link" href="../en/works.html">Works</a></li>
+      <li><a class="menu-link" href="../en/summary.html">Summary</a></li>
       <li><a class="menu-link active" href="index.html">Blog</a></li>
     </ul>
   </nav>

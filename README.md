@@ -1,6 +1,9 @@
 # Suke-go.github.io
 
-This repository contains the sources for the KSK432 personal website. The main `index.html` page features a loading screen followed by a terminal-like interface.
+This repository contains the sources for the KSK432 personal website. The root
+`index.html` now acts as a language selector. The full English site with the
+terminal interface lives under `en/`, while Japanese pages are placed under
+`ja/`.
 
 ## Running locally
 
@@ -10,14 +13,15 @@ For the JavaScript terminal to work properly, serve the files through a simple H
 python3 -m http.server 8000
 ```
 
-Then open `http://localhost:8000/index.html` in your browser. The page will show the loading messages and automatically switch to the terminal after the sequence completes.
+Then open `http://localhost:8000/en/index.html` in your browser. The page will show the loading messages and automatically switch to the terminal after the sequence completes.
 
 ## Repository contents
 
-- `index.html` – main page with embedded JavaScript
-- `works.html` – list of works
-- `summary.html` – English summary page
-- `summary-ja.html` – Japanese introduction page
+- `index.html` – language selector page
+- `en/index.html` – English terminal interface
+- `en/works.html` – works list (English)
+- `en/summary.html` – English summary page
+- `ja/summary.html` – Japanese introduction page
 - `style.css` – common styles
 - `script.js` – standalone script for lightbox functionality
 - `blog/` – simple markdown-based blog framework
