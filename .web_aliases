@@ -2,20 +2,13 @@
 # commands that open specific websites.
 # These commands are hidden by default because the file name begins with a dot.
 
-# Override the built-in cd command to handle custom shortcuts like
-# `cd comtech` and `cd yoyaku`
+# Override the built-in cd command to handle the `cd comtech` shortcut
 cd() {
   if [ "$1" = "comtech" ]; then
     if command -v xdg-open >/dev/null 2>&1; then
       xdg-open "http://ksk432.com/ComTech.github.io/" >/dev/null 2>&1 &
     else
       open "http://ksk432.com/ComTech.github.io/"
-    fi
-  elif [ "$1" = "yoyaku" ]; then
-    if command -v xdg-open >/dev/null 2>&1; then
-      xdg-open "https://calendar.app.google/9ByBTDMnoJqSTMrt5" >/dev/null 2>&1 &
-    else
-      open "https://calendar.app.google/9ByBTDMnoJqSTMrt5"
     fi
   else
     builtin cd "$@"
