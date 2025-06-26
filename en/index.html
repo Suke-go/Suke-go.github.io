@@ -492,6 +492,9 @@ NOTE: This information is classified. Unauthorized access will be logged.`
                     { cmd: "cd [dir]", desc: "Change directory" },
                     { cmd: "cd ..", desc: "Go up one directory" },
                     { cmd: "cd yoyaku", desc: "Open appointment calendar" },
+                    { cmd: "cd comtech", desc: "Open ComTech site" },
+                    { cmd: "mkomg", desc: "Open MKOMG site" },
+                    { cmd: "shinitai", desc: "Open Shinitai shop" },
                     { cmd: "pwd", desc: "Print current directory" },
                     { cmd: "home", desc: "Return to home page" },
                     { cmd: "clear", desc: "Clear terminal screen" },
@@ -686,6 +689,14 @@ NOTE: This information is classified. Unauthorized access will be logged.`
                 case 'about':
                     displayAbout();
                     break;
+                case 'mkomg':
+                    addOutput("SYSTEM", 'Opening website...', true);
+                    window.open('https://mkomg.lol', '_blank');
+                    break;
+                case 'shinitai':
+                    addOutput("SYSTEM", 'Opening website...', true);
+                    window.open('https://shinitai.shop', '_blank');
+                    break;
                 case 'exit':
                     simulateExit();
                     break;
@@ -746,6 +757,11 @@ function changeDirectory(dir) {
     if (directory === 'yoyaku') {
         addOutput("SYSTEM", 'Opening calendar...', true);
         window.open('https://calendar.app.google/9ByBTDMnoJqSTMrt5', '_blank');
+        return;
+    }
+    if (directory === 'comtech') {
+        addOutput("SYSTEM", 'Opening website...', true);
+        window.open('http://ksk432.com/ComTech.github.io/', '_blank');
         return;
     }
 
