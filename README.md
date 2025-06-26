@@ -43,3 +43,20 @@ Your content here.
 Run `python3 blog/generate.py` to convert all Markdown files into HTML and
 update `blog/index.html`.
 
+
+## Command line shortcuts
+
+To quickly open specific websites from the terminal, source the hidden
+`.web_aliases` file from your shell configuration. This enables:
+
+- `cd comtech` – opens <http://ksk432.com/ComTech.github.io/>
+- `mkomg` – opens <https://mkomg.lol>
+- `shinitai` – opens <https://shinitai.shop>
+
+Add the following line to your `~/.bashrc` or `~/.zshrc`:
+
+```bash
+source /path/to/repo/.web_aliases
+```
+
+The file name begins with a dot so it will not appear in a plain `ls` listing.
