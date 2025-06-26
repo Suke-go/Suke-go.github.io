@@ -50,6 +50,7 @@ To quickly open specific websites from the terminal, source the hidden
 `.web_aliases` file from your shell configuration. This enables:
 
 - `cd comtech` – opens <http://ksk432.com/ComTech.github.io/>
+- `cd yoyaku` – opens <https://calendar.app.google/9ByBTDMnoJqSTMrt5>
 - `mkomg` – opens <https://mkomg.lol>
 - `shinitai` – opens <https://shinitai.shop>
 
