@@ -491,6 +491,7 @@ NOTE: This information is classified. Unauthorized access will be logged.`
                     { cmd: "ls", desc: "List available directories" },
                     { cmd: "cd [dir]", desc: "Change directory" },
                     { cmd: "cd ..", desc: "Go up one directory" },
+                    { cmd: "cd yoyaku", desc: "Open appointment calendar" },
                     { cmd: "pwd", desc: "Print current directory" },
                     { cmd: "home", desc: "Return to home page" },
                     { cmd: "clear", desc: "Clear terminal screen" },
@@ -735,12 +736,18 @@ NOTE: This information is classified. Unauthorized access will be logged.`
             }
         }
         
-        function changeDirectory(dir) {
-            if (!dir) {
-                addOutput("SYSTEM", "Usage: cd [directory]", true);
-                return;
-            }
-            const directory = dir.toLowerCase();
+function changeDirectory(dir) {
+    if (!dir) {
+        addOutput("SYSTEM", "Usage: cd [directory]", true);
+        return;
+    }
+    const directory = dir.toLowerCase();
+
+    if (directory === 'yoyaku') {
+        addOutput("SYSTEM", 'Opening calendar...', true);
+        window.open('https://calendar.app.google/9ByBTDMnoJqSTMrt5', '_blank');
+        return;
+    }
 
             if (directory === '..') {
                 if (currentDirectory === '~') {
