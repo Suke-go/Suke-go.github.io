@@ -1,0 +1,34 @@
+# Source this file from your shell configuration to enable custom
+# commands that open specific websites.
+# These commands are hidden by default because the file name begins with a dot.
+
+# Override the built-in cd command to handle 'cd comtech'
+cd() {
+  if [ "$1" = "comtech" ]; then
+    if command -v xdg-open >/dev/null 2>&1; then
+      xdg-open "http://ksk432.com/ComTech.github.io/" >/dev/null 2>&1 &
+    else
+      open "http://ksk432.com/ComTech.github.io/"
+    fi
+  else
+    builtin cd "$@"
+  fi
+}
+
+# Aliases for quick website access
+mkomg() {
+  if command -v xdg-open >/dev/null 2>&1; then
+    xdg-open "https://mkomg.lol" >/dev/null 2>&1 &
+  else
+    open "https://mkomg.lol"
+  fi
+}
+
+shinitai() {
+  if command -v xdg-open >/dev/null 2>&1; then
+    xdg-open "https://shinitai.shop" >/dev/null 2>&1 &
+  else
+    open "https://shinitai.shop"
+  fi
+}
+
