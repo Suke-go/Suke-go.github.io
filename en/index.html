@@ -344,17 +344,21 @@ System ready for operation.`
                 title: "Profile",
                 subdirs: ['skills'],
                 content: `# PROFILE
-                
-NAME: Kosuke Shimizu
-AFFILIATION: UNIVERSITY OF TSUKUBA
-LABORATORY: ARTIFICIAL INTELLIGENCE LABORATORY/ KANSEI DESIGN LEE LABORATORY/ ABE LABORATORY
-STATUS: Active
 
-SPECIALIZATION:
-- Human Computer Interaction
-- Computer-Mediated Communication
-- Virtual Reality
-.`
+Name: Kosuke Shimizu
+Affiliation: University of Tsukuba, School of Informatics, College of Media Arts, Science and Technology
+
+Research Interests: Technology-Enhanced Learning; Human–Computer Interaction
+Research Areas: Cognitive sciences; Learning support systems; Sensitivity informatics; Human interfaces and interactions
+
+Education:
+- University of Tsukuba (Apr 2024–Present)
+- Yamagata Prefectural Touohgakkan Junior and Senior Highschool (Apr 2021–Mar 2024)
+
+Contact:
+- X/Twitter: https://x.com/hong_shui26288
+- Email: shimizu [at] ai.iit.tsukuba.ac.jp
+`
             },
             projects: {
                 title: "Projects",
@@ -376,6 +380,25 @@ SPECIALIZATION:
                         publications: {
                 title: "Publications",
                 items: [
+                    {
+                        title: "The Effect of an Avatar on Gaze Guidance: An Eye-Tracking Study of Historical Photograph Appreciation",
+                        authors: "Komatsu S., Shimizu K., Watanave H.",
+                        year: "2025",
+                        journal: "HAI 2025 (International Conference on Human-Agent Interaction), Poster Papers",
+                        location: "Keio University Hiyoshi Campus, Yokohama, Japan",
+                        type: "Poster",
+                        date: "2025-11"
+                    },
+                    {
+                        title: "Floating Captions: Eyetracking-based Context-aware Captioning System for Immersive VR Contents",
+                        authors: "Shimizu K., (and collaborators)",
+                        year: "2025",
+                        journal: "ETRA 2025",
+                        type: "International Conference Proceedings",
+                        doi: "10.1145/3715669.3726816",
+                        links: ["https://doi.org/10.1145/3715669.3726816", "https://dl.acm.org/doi/10.1145/3715669.3726816"],
+                        date: "2025-"
+                    },
                     {
                         title: "Emotion Overflow: An Interactive System to Represent Emotion in Fluid Dynamics",
                         authors: "Tsuyuguchi K., Shimizu K., Suzuki K.",
@@ -666,6 +689,16 @@ NOTE: This information is classified. Unauthorized access will be logged.`
         function processCommand(command) {
             const cmd = command.trim().toLowerCase();
             const args = cmd.split(' ');
+
+            // Quick keyword routing within publications directory
+            if (currentDirectory && currentDirectory.toLowerCase().includes('publications')) {
+                const normalized = command.trim().toLowerCase();
+                if (normalized.includes('floating caption')) { // matches both singular and plural
+                    addOutput("SYSTEM", 'Opening: Floating Captions (ETRA 2025)', true);
+                    window.open('https://dl.acm.org/doi/10.1145/3715669.3726816', '_blank');
+                    return;
+                }
+            }
             
             switch(args[0]) {
                 case 'help':
@@ -833,9 +866,16 @@ function changeDirectory(dir) {
             } else if (section === 'publications') {
                 output += 'PUBLISHED WORKS:\n\n';
                 content.publications.items.forEach(pub => {
+                    let linksHtml = '';
+                    if (pub.links && pub.links.length) {
+                        const first = pub.links[0];
+                        linksHtml = ` <span>- <a href="${first}" target=\"_blank\" rel=\"noopener\">link</a></span>`;
+                    } else if (pub.doi) {
+                        linksHtml = ` <span>- <a href=\"https://doi.org/${pub.doi}\" target=\"_blank\" rel=\"noopener\">doi</a></span>`;
+                    }
                     output += `<div class="publication-item">
                         <h4>${pub.title} (${pub.year})</h4>
-                        <p>Published in: ${pub.journal}</p>
+                        <p>Published in: ${pub.journal || ''}${linksHtml}</p>
                     </div>`;
                 });
             } else if (section === 'artwork') {

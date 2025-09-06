@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>KSK432 - Exhibition</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="../style.css">
+  <style>
+    :root { --accent-color: #9ad8ff; }
+    h1, h2 { color: var(--accent-color); }
+    #navbar { border-bottom-color: var(--accent-color); }
+    .menu-link::after { background-color: var(--accent-color); }
+    .menu-link:hover, .menu-link.active { color: var(--accent-color); }
+    .menu-link.active::after { background-color: var(--accent-color); }
+    .card { background: rgba(255,255,255,0.05); padding: 1rem; border-left: 4px solid var(--accent-color); margin-bottom: 1.5rem; }
+    .subtle { color: #ccc; font-size: 0.95rem; }
+  </style>
+</head>
+<body>
+  <nav id="navbar">
+    <ul>
+      <li><a class="menu-link" href="../en/index.html">Home</a></li>
+      <li><a class="menu-link" href="../en/works.html">Works</a></li>
+      <li><a class="menu-link" href="../en/summary.html">English</a></li>
+      <li><a class="menu-link" href="../ja/summary.html">日本語</a></li>
+      <li><a class="menu-link active" href="./">Exhibition</a></li>
+    </ul>
+  </nav>
+
+  <main class="container">
+    <section>
+      <h1>Exhibition / 展示</h1>
+      <p class="subtle">このページでは展示情報をまとめています。</p>
+    </section>
+
+    <section>
+      <h2>2025</h2>
+      <div class="card">
+        <p><strong>東京大学大学院 渡邉英徳研究室：「ミライの平和活動展」</strong></p>
+        <p>会場: 長崎原爆資料館</p>
+        <p>会期: 2025年8月10日〜17日</p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 ksk432. All Rights Reserved.</p>
+  </footer>
+</body>
+</html>
+
