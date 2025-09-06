@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>KSK432 - Research: Binaural Audio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="../../style.css">
+  <style>
+    :root { --accent-color: #00ffea; }
+    h1, h2 { color: var(--accent-color); }
+    #navbar { border-bottom-color: var(--accent-color); }
+    .menu-link::after { background-color: var(--accent-color); }
+    .menu-link:hover, .menu-link.active { color: var(--accent-color); }
+    .menu-link.active::after { background-color: var(--accent-color); }
+    .subtle { color: #ccc; font-size: 0.95rem; }
+    .card { background: rgba(255,255,255,0.05); padding: 1rem; border-left: 4px solid var(--accent-color); margin-bottom: 1.5rem; }
+  </style>
+  <meta name="description" content="Binaural Audio research notes and outcomes by ksk432.">
+  <meta name="robots" content="index,follow">
+  <link rel="canonical" href="https://ksk432.com/research/binauralaudio/">
+  <meta property="og:title" content="Research: Binaural Audio - KSK432">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://ksk432.com/research/binauralaudio/">
+  <meta property="og:site_name" content="KSK432">
+</head>
+<body>
+  <nav id="navbar">
+    <ul>
+      <li><a class="menu-link" href="../../en/index.html">Home</a></li>
+      <li><a class="menu-link" href="../../en/works.html">Works</a></li>
+      <li><a class="menu-link" href="../../en/summary.html">English</a></li>
+      <li><a class="menu-link" href="../../ja/summary.html">日本語</a></li>
+      <li><a class="menu-link active" href="./">Research</a></li>
+    </ul>
+  </nav>
+
+  <main class="container">
+    <section>
+      <h1>語彙学習を支援するバイノーラル音響</h1>
+      <p class="subtle">URL: ksk432.com/research/binauralaudio</p>
+      <p>本ページは、英語語彙学習における「語の意味を表す音」をバイノーラル音響で提示する研究の解説とデモをまとめたものです。</p>
+      <p class="subtle">Paper: Enhancing of Vocabulary Learning by the Representation of the Meaning of Words with Binaural Audio</p>
+      <p class="subtle">Authors: Kosuke Shimizu, Shogo Fukushima, Hirokazu Doi, Takeshi Naemura</p>
+    </section>
+
+    <section>
+      <h2>概要（日本語要約）</h2>
+      <div class="card">
+        <p>
+          本研究は、語の意味を表す音を<b>バイノーラル音響</b>で提示することで、英語の語彙学習が促進されるかを検証しました。
+          理論背景として、言語的表象と感覚的表象の相互作用に基づく<b>二重符号化理論</b>（Bilingual Dual Coding Theory）を採用しています。
+        </p>
+        <p>
+          40語の英単語に対し、意味を想起させる<b>表現的サウンドアーカイブ</b>を制作し、<b>同一被験者内</b>（within-participant）デザインで、
+          高校生20名が<b>バイノーラル条件</b>と<b>モノラル条件</b>の両方で学習しました。学習直後および1週間後に多肢選択式テストを実施したところ、
+          <b>バイノーラル条件で一貫して高い保持率</b>が得られました。二要因の反復測定ANOVAでは、音条件と時間の主効果が確認され、交互作用は非有意でした。
+        </p>
+        <p>
+          行動観察では、被験者の身振りや発声反復が見られ、<b>多次元的・相互作用的な感覚入力</b>が記憶形成を補強し得ることが示唆されました。
+          予備的なEEG解析では、正答時のシータ波（ERSP）に関連する<b>非有意傾向</b>が観察され、記憶研究の知見と整合する結果が得られました。
+        </p>
+        <p>
+          以上より、バイノーラル音響は<b>CALL（Computer-Assisted Language Learning）</b>における有望な手法であり、長期効果や神経基盤の解明に向けて更なる検討の余地があります。
+        </p>
+      </div>
+    </section>
+
+    <section>
+      <h2>研究の目的</h2>
+      <div class="card">
+        <p>語の音形だけでなく<b>意味に対応する音の空間的提示</b>によって、語彙の記銘・保持を強化できるかを明らかにすること。</p>
+      </div>
+    </section>
+
+    <section>
+      <h2>方法</h2>
+      <div class="card">
+        <ul>
+          <li><b>刺激制作:</b> 40語の英単語について、意味を表す<b>表現的サウンド</b>を<b>バイノーラル録音</b>で作成</li>
+          <li><b>参加者:</b> 高校生20名</li>
+          <li><b>実験計画:</b> 同一被験者内デザイン。<b>バイノーラル</b>と<b>モノラル</b>の両条件で学習</li>
+          <li><b>評価:</b> 学習直後と1週間後に多肢選択式テストを実施</li>
+          <li><b>分析:</b> 二要因反復測定ANOVA（音条件 × 時間）</li>
+        </ul>
+      </div>
+    </section>
+
+    <section>
+      <h2>結果</h2>
+      <div class="card">
+        <ul>
+          <li>いずれの時点でも<b>バイノーラル条件が有意に高い保持</b>を示した</li>
+          <li>音条件と時間の<b>主効果</b>が確認され、<b>交互作用は非有意</b></li>
+          <li>行動観察から、身振りや発声反復などの<b>相互作用的学習行動</b>が示唆</li>
+          <li>EEG解析では、正答と関連する<b>シータ波ERSPの非有意傾向</b>を観察</li>
+        </ul>
+      </div>
+    </section>
+
+    <section>
+      <h2>考察・今後の展望</h2>
+      <div class="card">
+        <ul>
+          <li><b>長期効果・一般化</b>の検証（被験者数・語彙規模の拡大）</li>
+          <li><b>音響要因の分離</b>（距離・残響・運動など、どの要素が効果的か）</li>
+          <li><b>多様な評価</b>（自由再生・口頭産出など、より深い習得の測定）</li>
+          <li><b>VR/ARとの統合</b>や、Involvement Load Hypothesisに基づく<b>認知負荷の操作</b>との相互作用</li>
+        </ul>
+      </div>
+    </section>
+
+    <section>
+      <h2>デモ音源</h2>
+      <p class="subtle">ヘッドホン推奨。各トラックはステレオのWAVです。</p>
+      <div class="card">
+        <p><b>Sample: aerate.wav</b></p>
+        <audio controls preload="none" src="audio/aerate.wav"></audio>
+      </div>
+      <div class="card">
+        <p><b>Sample: grotto.wav</b></p>
+        <audio controls preload="none" src="audio/grotto.wav"></audio>
+      </div>
+      <div class="card">
+        <p><b>Sample: loony.wav</b></p>
+        <audio controls preload="none" src="audio/loony.wav"></audio>
+      </div>
+      <div class="card">
+        <p><b>Sample: snoop.wav</b></p>
+        <audio controls preload="none" src="audio/snoop.wav"></audio>
+      </div>
+      <div class="card">
+        <p><b>Sample: whirl.wav</b></p>
+        <audio controls preload="none" src="audio/whirl.wav"></audio>
+      </div>
+    </section>
+
+    <section>
+      <h2>論文・資料</h2>
+      <ul>
+        <li><a href="paper/compiled/hissympset_overleaf_utf-5.pdf" target="_blank" rel="noopener">PDF（最新コンパイル）</a></li>
+        <li><a href="../../">Top</a></li>
+        <li><a href="../../blog">Blog</a></li>
+      </ul>
+    </section>
+
+  </main>
+
+  <footer>
+    <p>&copy; 2025 ksk432. All Rights Reserved.</p>
+  </footer>
+</body>
+</html>
