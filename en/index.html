@@ -362,20 +362,34 @@ Contact:
             },
             projects: {
                 title: "Projects",
+                subdirs: ['binauralaudio', 'taccel', 'floating-captions'],
                 items: [
                     {
-                        title: "Insulin Device Projects",
-                        description: "A comprehensive system for data analysis and visualization. Implements advanced algorithms for pattern recognition in large datasets."
+                        title: "Binaural Audio Vocabulary Learning",
+                        description: "Context-sound based English vocabulary learning with spatialized binaural audio. Study design, stimuli, and results."
                     },
                     {
-                        title: "Quantum Interface",
-                        description: "Experimental interface design utilizing principles of quantum interaction. Currently in beta testing phase with promising results."
+                        title: "TACCEL: Tactile Accent Learning Interface",
+                        description: "Haptic-assisted prosody training for second language learners. Syllable boundary detection and tactile mapping design notes."
                     },
                     {
-                        title: "Autonomous Systems",
-                        description: "Development of self-regulating systems with adaptive learning capabilities. Focused on efficiency and resource optimization."
+                        title: "Floating Captions (ETRA 2025)",
+                        description: "Eye-tracking based, context-aware captions for immersive VR. DOI-linked project overview."
                     }
                 ]
+            },
+            // Project sub-pages
+            binauralaudio: {
+                title: "Binaural Audio",
+                content: `Open: Research introduction directory (Binaural Audio).\n\nIf a tab didn't open, use this link: <a href="../research/binauralaudio/" target="_blank" rel="noopener">/research/binauralaudio/</a>`
+            },
+            taccel: {
+                title: "TACCEL",
+                content: `Open: Research introduction directory (TACCEL).\n\nIf a tab didn't open, use this link: <a href="../research/taccel/" target="_blank" rel="noopener">/research/taccel/</a>`
+            },
+            'floating-captions': {
+                title: "Floating Captions",
+                content: `Open: DOI link for Floating Captions (ETRA 2025).\n\nIf a tab didn't open, use this link: <a href="https://dl.acm.org/doi/10.1145/3715669.3726816" target="_blank" rel="noopener">dl.acm.org/doi/10.1145/3715669.3726816</a>`
             },
                         publications: {
                 title: "Publications",
@@ -516,6 +530,10 @@ NOTE: This information is classified. Unauthorized access will be logged.`
                     { cmd: "cd ..", desc: "Go up one directory" },
                     { cmd: "cd yoyaku", desc: "Open appointment calendar" },
                     { cmd: "cd comtech", desc: "Open ComTech site" },
+                    { cmd: "cd projects", desc: "Open projects directory" },
+                    { cmd: "cd binauralaudio", desc: "Open Binaural Audio research page" },
+                    { cmd: "cd taccel", desc: "Open TACCEL research page" },
+                    { cmd: "cd floating-captions", desc: "Open Floating Captions DOI" },
                     { cmd: "mkomg", desc: "Open MKOMG site" },
                     // { cmd: "shinitai", desc: "Open Shinitai shop" },
                     { cmd: "pwd", desc: "Print current directory" },
@@ -586,7 +604,8 @@ NOTE: This information is classified. Unauthorized access will be logged.`
         // Terminal functionality
         const rootDirs = ['home', 'profile', 'projects', 'publications', 'artwork', 'blog', 'misc', 'grades'];
         const subDirMap = {
-            profile: ['skills']
+            profile: ['skills'],
+            projects: ['binauralaudio', 'taccel', 'floating-captions']
         };
         let currentDirectory = "~";
         let commandHistory = [];
@@ -644,7 +663,7 @@ NOTE: This information is classified. Unauthorized access will be logged.`
                     const command = terminalInput.value.trim();
                     if (command.startsWith('cd ')) {
                         const partial = command.substring(3).toLowerCase();
-                        const directories = [...rootDirs, 'skills'];
+                        const directories = [...rootDirs, 'skills', ...(content.projects?.subdirs || [])];
                         
                         const matches = directories.filter(dir => dir.toLowerCase().startsWith(partial));
                         if (matches.length === 1) {
@@ -823,6 +842,10 @@ function changeDirectory(dir) {
                     if (!content[directory]?.subdirs) {
                         displayContent(directory);
                     }
+                } else if ((content.projects?.subdirs || subDirMap.projects)?.includes(directory)) {
+                    currentDirectory = `~/projects/${directory}`;
+                    document.getElementById('current-path').textContent = currentDirectory;
+                    displayContent(directory);
                 } else {
                     addOutput("SYSTEM", `Directory not found: ${directory}` , true);
                 }
@@ -902,6 +925,15 @@ function changeDirectory(dir) {
                 });
             }
             
+            // Auto-open target pages for specific project subpages
+            if (section === 'binauralaudio') {
+                setTimeout(() => { try { window.open('../research/binauralaudio/', '_blank'); } catch (e) {} }, 0);
+            } else if (section === 'taccel') {
+                setTimeout(() => { try { window.open('../research/taccel/', '_blank'); } catch (e) {} }, 0);
+            } else if (section === 'floating-captions') {
+                setTimeout(() => { try { window.open('https://dl.acm.org/doi/10.1145/3715669.3726816', '_blank'); } catch (e) {} }, 0);
+            }
+
             addOutput("SYSTEM", output, true);
         }
         
