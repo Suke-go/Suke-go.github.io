@@ -901,6 +901,7 @@ function changeDirectory(dir) {
                         <p>Published in: ${pub.journal || ''}${linksHtml}</p>
                     </div>`;
                 });
+                output += `\nSee also: <a href=\"summary.html\" target=\"_blank\" rel=\"noopener\">Summary page</a>`;
             } else if (section === 'artwork') {
                 output += `${content.artwork.description}\n\n`;
                 output += `<div class="artwork-grid">
