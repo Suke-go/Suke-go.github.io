@@ -1,0 +1,205 @@
+\documentclass[a4paper,twocolumn,dvipdfmx]{jsarticle}
+%\documentclass[a4paper,twocolumn,dvipdfmx,uplatex]{jsarticle} % uplatex を使う場合はこちらを利用
+%\documentclass[a4j,twocolumn,dvipdfmx]{jarticle} % 'jsarticle' が使えない場合はこちらを利用
+
+% 上記 documentclass のオプションは自由に追加してもよい．
+
+% 芸術科学会論文用スタイルパッケージ
+\usepackage{artsci}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%% 学会・会議関係設定
+
+% 論文誌モード false
+\JOURNALfalse
+
+% 日本語モード true
+\JAPANESEtrue
+
+% 学会・会議名
+\newcommand{\conferencename}{NICOGRAPH}
+
+% 年
+\newcommand{\conferenceyear}{2025}
+
+% 論文番号
+\newcommand{\articlenumber}{F99}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%% ヘッダー・ページ番号設定
+
+% 最初のページ番号
+\newcounter{FirstPage}
+\setcounter{FirstPage}{1}
+\setcounter{page}{\theFirstPage}
+
+% ヘッダー書式
+\newcommand{\asheader}{
+\footnotesize{\textbf{
+	\conferencename \conferenceyear, \(\;\)
+	pp. \articlenumber:\theFirstPage \(\,\) -- \articlenumber:\pageref{LastPage}
+	}}
+}
+
+% ページ番号書式
+\newcommand{\aspagenum}{-- \articlenumber:\thepage \(\,\) --}
+
+% 各設定を反映
+\pagestyle{aspagestyle}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%% 各種間隔設定 (体裁を大きく崩さない程度に著者側で調整してもらって構いません．)
+
+%%% 論文全体の間隔設定
+\setlength{\headsep}{11mm}		% ヘッダと本文の間隔
+\setlength{\footskip}{12mm}		% フッタ位置調整
+\setlength{\abovecaptionskip}{-0.5mm}	% 図キャプションと図との間隔
+\setlength{\belowcaptionskip}{1.5mm}	% 表キャプションと表との間隔
+\setlength{\columnsep}{6mm}		% 二段組みの間隔
+
+%%% 表紙の間隔設定
+\setlength{\headtitlesep}{5mm}		% ヘッダとタイトルの間隔
+\setlength{\jtitlejnamesep}{0mm}	% 日本語タイトルと日本語著者名の間隔
+\setlength{\jnamejaffsep}{-3mm}		% 日本語著者名と日本語所属の間隔
+\setlength{\jaffetitlesep}{4mm}		% 日本語所属と英語タイトルの間隔
+\setlength{\etitleenamesep}{0mm}	% 英語タイトルと英語著者名の間隔
+\setlength{\enameeaffsep}{-3mm}		% 英語著者名と英語所属の間隔
+\setlength{\eaffemailsep}{-3mm}		% 英語所属とメールアドレスの間隔
+\setlength{\emailabstsep}{1mm}		% メールアドレスと日本語概要の間隔
+\setlength{\abstmainsep}{7mm}		% 概要と本文の間隔
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%% パッケージ一覧 (必要なパッケージを任意に追加してよい)
+
+\usepackage{amsmath, amssymb}	% AMS-LaTeX
+\usepackage[dvipdfmx]{graphicx}	% 「graphics」パッケージに変更してもよい．
+\usepackage{float}		% 図表が記述位置から飛ばないためのパッケージ
+\usepackage{url}		% URL 表記用パッケージ
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%% 画像ファイルの include path
+\graphicspath{{fig/}} %% グラフィック用
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%% マクロ一覧 (必要なマクロをこの部分に記述)
+
+\newcommand{\bA}{\mathbf{A}}
+\newcommand{\bB}{\mathbf{B}}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%% タイトル，著者，所属，概要
+
+% 日本語タイトル
+\jtitle{
+KNOT — あいだに現れる像
+}
+
+% 英語タイトル
+\etitle{
+KNOT - Emergent Figure Between Us
+}
+
+% 日本語著者
+% 所属参照は好みに応じて \dagger などを用いてもよい．
+\jauthor{
+清水紘輔\(^{1)}\)
+松原正樹\(^{2)}\)
+}
+
+% 英語著者
+\eauthor{
+Kosuke Shimizu\(^{1)}\)
+~~~
+Masaki Matsubara\(^{2)}\)
+}
+
+% 日本語所属
+\jaffiliation{
+1) 筑波大学 情報学群情報メディア創成学類
+~~~
+2) 筑波大学 図書館情報メディア系
+}
+
+% 英語所属
+\eaffiliation{
+1) College of Media Arts, Science and Technology, The University of Tsukuba\\
+2) Institute of Library, Information and Media Science, The University of Tsukuba
+}
+
+% 連絡先電子メールアドレス（省略可）
+% (スパム対策は著者自身の判断によって措置すること．
+% このサンプルでは「＠」を2バイト文字にすることで対応してある．)
+\email{
+shimizu＠ai.iit.tsukuba.ac.jp
+}
+
+% 日本語概要
+\jabstract{
+本作品は，ジャン＝リュック・ナンシーの singular plural の考えに着目し，「私とあなたは異なる存在である」という前提のもと，互いの隔たりとわからなさを認め合う関係性を問うコミュニケーションを可視化することをめざす．二人それぞれの心拍を電子聴診器で計測し，音と振動で相互にフィードバックを行う．さらに，計測データから「平均拍との差分」と「拍動の遅延」を含む同調指標を計算し，その指標に応じてスクリーン上のグラフィックが連続的に変形する．身体的リズムの違いを素材とし，違いを維持した関係が生成する像を，観者に「共在する隔たり」の体験として提示する．
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% ここより論文本体
+
+\begin{document}
+\maketitle
+\thispagestyle{aspagestyle}
+
+\section{Introduction}
+本作品は，「完全な理解や融合ではなく，隔たりとわからなさを抱えたまま共にある」という関係の様式を，二者の心拍を素材に可聴化・可視化して経験化することを目的とする．哲学的背景としてジャン＝リュック・ナンシーの議論を参照し，存在はつねに「ともにある (being‑with)」として成り立ち，「私 (I)」は「私たち (we)」に先立たないという枠組みを前提に置く\cite{Nancy2000}．同時に，ナンシーは自己が他者や外部によって侵入・攪乱される経験を『L’Intrus』で強調し，共在は統合ではなく，隔たりや不在を不可避の条件として孕むことを示している\cite{Nancy2002Intrus}．本作はこの「共在と不在」の観点から，同じにならない共在を生理信号の時間構造として立ち上げる．
+
+身体信号を媒体にしたアート実践は1960年代から継続し，心拍・呼吸などの生体機能は様々な処理手法が確立し\cite{Li2020Review}，作品生成の入力として用いられてきた．Boltanskiは世界中の人々の心臓音を恒久的に保存し、それらの心臓音を聴くことができる「心臓音のアーカイブ」を展示している\cite{archiveofheart}。一方，近年の生理同期研究は，対話や協働時に心拍の同期や遅延パターンが生じ，注意・理解・共同意思決定と関係する可能性を報告している\cite{Sharika2024PNAS}．
+
+本作は，二者の心拍を電子聴診・ワイヤレス収音で同時取得し，短い導入で自他の拍動を個別に体感させた後，相互に心拍音を交換して聴取させる．主部では，広帯域ホワイトノイズの音場に両者の拍動を浅い変調として埋め込み，過度の前景化を避けつつ注意の定常性を保つ聴取条件をつくる．同時に，平均拍からの偏差と二者間の遅延にもとづく同調指標で駆動される像を提示し，円環を基調とした外縁の変形，内部の流れの質感，時間残像という三層で，差異を保ったまま立ち上がる共在を経験化する．
+
+本作は，二者の心拍を電子聴診・ワイヤレス収音で同時取得し，短い導入で自他の拍動を個別に体感させた後，相互に心拍音を交換して聴取させる．主部では，広帯域ホワイトノイズの音場に両者の拍動を浅い変調として埋め込む．同時に，平均拍からの偏差と二者間の遅延にもとづく同調指標で駆動される像を提示し，円環を基調とした外縁の変形（乖離の可視化），内部の流れの質感（非対称な影響の可視化），時間残像（関係の履歴）という三層で，\textit{差異を保ったまま立ち上がる共在}を経験化する．
+
+
+\section{手法}
+本作品は，二者の心拍を同時取得し，相互フィードバック（音／振動）と可視化により「差異を保った共在」を提示するためのリアルタイム処理系で構成する．取得は，ダブルタイプ聴診器（FOCAL社）の胸件に小型マイクを埋め込んだ3Dプリント製ホルダを介して行い，マイク信号はLark A1（Hollyland社｜ワイヤレス送受信機）で無線伝送して収録系へ入力する．送出系はヘッドホン（MDR-CD900ST｜Sony社）とスピーカー型振動子（Bass Shaker｜Dayton社）を用い，双方が自他の拍動を身体的に知覚できるようにした．また，解析・ビジュアリゼーションはMac mini（Apple社）にてTouch Designer（Derivative社）を用いて行った．
+
+\begin{figure}
+    \centering
+    \includegraphics[width=0.5\linewidth]{img1.png}
+    \caption{録音に用いるマイク}
+    \label{fig:placeholder}
+\end{figure}
+
+前処理は，直流成分除去のうえで心音帯域（概ね20–200\,Hz）に整形し，整流＋ローパスによる振幅包絡を抽出する．包絡列からピーク候補を閾値で抽出し，不応期（200–300\,ms）条件で過検出を抑制して拍時刻列を得る．得られた拍列から拍間隔（IBI）と瞬時心拍数を算出し，数秒窓の移動平均を基準として安定化する．
+
+生成する像は，円を基調とした外縁と，内部の流れ（質感）と，時間残像の三層で構成する．まず，各参加者の心音から得た包絡と拍時刻列を用いて拍間隔の移動平均を求め，その平均からの偏差と二者間の遅延を時系列として計算する．外縁は基準円を起点に，二者の平均拍からの偏差が大きいほど半径が膨張・歪むように変換し，二者の差と遅延に応じて歪みの向きと偏りを与える．内部は二者のエネルギ（正規化包絡）の比率で駆動される流れの質感として描く．時間方向には前フレームを少量だけ混合して残像を持たせ，短期的な収斂や逸脱の軌跡を知覚できるようにした．全体の強度は，平均からの偏差と遅延から作る同調度の指標で緩やかにゲーティングし，平均から離れるほど形状・質感が豊かに立ち上がる設計とした．
+
+
+\section{Exhibition Timeline}
+展示は一回あたり約4分30秒のセッションとして設計した．参加者は着席し，胸部に当てたぬいぐるみ越しの電子聴診器で心音を収音する．来場者の入替や騒音条件に左右されないよう，装置はヘッドホン主体のクローズド音響系とし，センサはぬいぐるみ内で一体化されたホルダーにより安定した接触を保つ．運営上は一回あたり数分のセッションを単位とし，待ち行列が生じた場合でもシーン開始時点から体験できるようループ設計としている．
+
+導入は30秒間である．参加者は着席し，胸部に当てた聴診インタフェースを通して収録された自身の拍動を聴きつつ，拍動に同期した低周波振動のみを受ける．ここでは身体感覚と装置の応答関係を短時間で確立し，以降の相互提示に向けて聴取・触覚の基準を整える．続く1分間は相互聴取のフェーズである．参加者Aは参加者Bの心拍音を，参加者Bは参加者Aの心拍音をヘッドホンで聴取する．振動は各自の包絡に基づく自覚的な「鼓動の型」を保ちながら提示される．主部は3分間である．広帯域ホワイトノイズを基調音とし，両者の心拍包絡でごく浅いゲイン変調を施して混在させる（心拍そのものが前景化しすぎないよう変調深度を制限する）．同時に，平均拍との差分と拍時刻遅延から算出した同調指標に応じて，スクリーン上の像が連続的に変形する．像は収斂と歪みを併置し，合一に向かわない共在を可視化する．
+
+セッションはそのままフェードアウトして終了し，機材のリセットを挟まずに次の来場者を受け入れる．
+
+
+
+
+
+%% Introduction で参照した文献（BibTeX を使わない版）
+\begin{thebibliography}{99}
+ \bibitem{Nancy2000}
+ Jean‑Luc Nancy．\newblock *Being Singular Plural*．Stanford University Press，2000．\cite{Goodreads_BSP}．
+
+ \bibitem{Nancy2002Intrus}
+ Jean‑Luc Nancy．\newblock “L’Intrus”．2002．
+
+ \bibitem{Sharika2024PNAS}
+ K.\,M.\ Sharika, C.\,D.\ Honey, M.\,A.\ Glaser, 他．\newblock “Interpersonal heart rate synchrony predicts effective collective decision‑making”．PNAS, 2024．\cite{turn0search1,turn0search3,turn0search16}．
+
+ \bibitem{Li2020Review}
+ S.\ Li, M.\ Abdullah, R.\ Jafari, N.\ Kehtarnavaz．\newblock “A Review of Computer‑Aided Heart Sound Detection Techniques”．\emph{Biocybernetics and Biomedical Engineering}, 2020．\cite{turn0search16}．
+
+
+ \bibitem{archiveofheart}
+ C.\ Boltanski.\ \newblock “Les Archives du C\oe ur (Archive of Heartbeats).”\ Benesse Art Site Naoshima, Teshima (permanent installation), 2010–.
+
+\end{thebibliography}
+\end{document}

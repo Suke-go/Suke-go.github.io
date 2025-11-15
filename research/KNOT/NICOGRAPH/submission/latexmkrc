@@ -1,0 +1,40 @@
+#!/usr/bin/env perl
+$latex = 'platex';
+$bibtex = 'pbibtex';
+$dvipdf = 'dvipdfmx %O -o %D %S';
+$makeindex = 'mendex %O -o %D %S';
+# my $for_upLaTeX = 'true'; # uplatex を使う場合はこちら
+my $for_upLaTeX = 'false'; # platex を使う場合はこちら
+
+my $latexCom = 'platex';
+my $bibCom = 'pbibtex';
+
+if($for_upLaTeX eq 'true') {
+	$latexCom = 'uplatex';
+	$bibCom = 'upbibtex';
+}
+
+$latex = $latexCom . ' -synctex=1 -halt-on-error';
+$latex_silent = $latexCom . ' -synctex=1 -halt-on-error -interaction=batchmode';
+$bibtex = $bibCom;
+
+$dvipdf = 'dvipdfmx -d 5 %O -o %D %S';
+$makeindex = 'mendex %O -o %D %S';
+$max_repeat = 5;
+$pdf_mode = 3; # generates pdf via dvipdfmx
+
+$pvc_view_file_via_temporary = 0;
+
+if ($^O eq 'linux' || $^O eq 'freebsd') {
+	$dvi_previewer = "xdg-open %S";
+	$pdf_previewer = "xdg-open %S";
+} elsif ($^O eq 'darwin') {
+	$dvi_previewer = "open %S";
+	$pdf_previewer = "open %S";
+} else {
+	$dvi_previewer = "start %S";
+	$pdf_previewer = "start %S";
+}
+
+# clean up
+$clean_full_ext = "%R.synctex.gz"
