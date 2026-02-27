@@ -2,20 +2,15 @@
 # commands that open specific websites.
 # These commands are hidden by default because the file name begins with a dot.
 
-# Override the built-in cd command to handle the `cd comtech` shortcut
-cd() {
-  if [ "$1" = "comtech" ]; then
-    if command -v xdg-open >/dev/null 2>&1; then
-      xdg-open "http://ksk432.com/ComTech.github.io/" >/dev/null 2>&1 &
-    else
-      open "http://ksk432.com/ComTech.github.io/"
-    fi
+# Quick website openers
+comtech() {
+  if command -v xdg-open >/dev/null 2>&1; then
+    xdg-open "http://ksk432.com/ComTech.github.io/" >/dev/null 2>&1 &
   else
-    builtin cd "$@"
+    open "http://ksk432.com/ComTech.github.io/"
   fi
 }
 
-# Aliases for quick website access
 mkomg() {
   if command -v xdg-open >/dev/null 2>&1; then
     xdg-open "https://mkomg.lol" >/dev/null 2>&1 &
@@ -31,4 +26,3 @@ shinitai() {
     open "https://shinitai.shop"
   fi
 }
-

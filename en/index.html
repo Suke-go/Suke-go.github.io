@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,16 +11,16 @@
             --base-color-1: #252525;
             --base-color-2: #302c29;
             --base-color-3: #4a4a4a;
-            
+
             /* Sub colors */
             --sub-color-1: #7a7671;
             --sub-color-2: #efebd6;
             --sub-color-3: #f6f5ee;
-            
+
             /* Accent colors */
             --accent-color-1: #e3a19a;
             --accent-color-2: #527e88;
-            
+
             /* Additional colors */
             --terminal-bg: rgba(10, 10, 10, 0.92);
             --terminal-text: #c1c1c1;
@@ -27,14 +28,14 @@
             --terminal-yellow: #d6c760;
             --terminal-red: #d65f5f;
         }
-        
+
         * {
             margin: 0;
             padding: 0;
             box-sizing: border-box;
             font-family: 'Courier New', monospace;
         }
-        
+
         body {
             background-color: var(--base-color-1);
             color: var(--sub-color-3);
@@ -43,7 +44,7 @@
             height: 100vh;
             overflow: hidden;
         }
-        
+
         /* Loading Screen */
         #loading-screen {
             position: fixed;
@@ -60,14 +61,14 @@
             padding: 40px;
             overflow: hidden;
         }
-        
+
         #loading-screen h1 {
             font-size: 1.2rem;
             margin-bottom: 20px;
             color: var(--terminal-text);
             letter-spacing: 2px;
         }
-        
+
         .loading-item {
             margin: 6px 0;
             font-size: 0.9rem;
@@ -75,23 +76,23 @@
             animation: fadeIn 0.1s forwards;
             display: flex;
         }
-        
+
         .loading-item-status {
             margin-left: 10px;
         }
-        
+
         .status-green {
             color: var(--terminal-green);
         }
-        
+
         .status-yellow {
             color: var(--terminal-yellow);
         }
-        
+
         .status-red {
             color: var(--terminal-red);
         }
-        
+
         .yorha-logo {
             position: absolute;
             top: 50%;
@@ -104,7 +105,7 @@
             letter-spacing: 10px;
             pointer-events: none;
         }
-        
+
         /* Main Terminal */
         #terminal {
             display: none;
@@ -117,7 +118,7 @@
             font-size: 1rem;
             position: relative;
         }
-        
+
         #terminal-header {
             display: flex;
             justify-content: space-between;
@@ -126,46 +127,46 @@
             padding-bottom: 10px;
             border-bottom: 1px solid var(--terminal-text);
         }
-        
+
         #terminal-header h2 {
             font-size: 1.2rem;
             letter-spacing: 2px;
         }
-        
+
         #terminal-status {
             font-size: 0.8rem;
         }
-        
+
         #terminal-output {
             flex-grow: 1;
             margin-bottom: 20px;
             overflow-y: auto;
             white-space: pre-wrap;
         }
-        
+
         .terminal-line {
             margin-bottom: 10px;
             line-height: 1.5;
         }
-        
+
         .path {
             color: var(--accent-color-1);
         }
-        
+
         .command {
             color: var(--sub-color-2);
         }
-        
+
         .output-text {
             margin-top: 5px;
             margin-left: 20px;
         }
-        
+
         .content-section {
             margin-left: 20px;
             margin-bottom: 20px;
         }
-        
+
         .content-section h3 {
             margin-bottom: 10px;
             color: var(--accent-color-1);
@@ -173,26 +174,26 @@
             padding-bottom: 5px;
             width: fit-content;
         }
-        
+
         .content-section p {
             margin-bottom: 10px;
             line-height: 1.5;
         }
-        
+
         #terminal-input-line {
             display: flex;
             align-items: center;
         }
-        
+
         #prompt {
             margin-right: 10px;
         }
-        
+
         #current-path {
             color: var(--accent-color-1);
             margin-right: 5px;
         }
-        
+
         #cursor {
             display: inline-block;
             width: 10px;
@@ -201,7 +202,7 @@
             animation: blink 1s infinite;
             vertical-align: middle;
         }
-        
+
         #terminal-input {
             background: transparent;
             border: none;
@@ -212,37 +213,56 @@
             flex-grow: 1;
             caret-color: transparent;
         }
-        
+
         /* Animations */
         @keyframes fadeIn {
-            from { opacity: 0; }
-            to { opacity: 1; }
+            from {
+                opacity: 0;
+            }
+
+            to {
+                opacity: 1;
+            }
         }
-        
+
         @keyframes blink {
-            0%, 49% { opacity: 1; }
-            50%, 100% { opacity: 0; }
+
+            0%,
+            49% {
+                opacity: 1;
+            }
+
+            50%,
+            100% {
+                opacity: 0;
+            }
         }
-        
+
         /* Content styling */
-        .project-item, .publication-item, .artwork-item, .blog-item {
+        .project-item,
+        .publication-item,
+        .artwork-item,
+        .blog-item {
             margin-bottom: 15px;
             padding-left: 15px;
             border-left: 2px solid var(--accent-color-2);
         }
-        
-        .project-item h4, .publication-item h4, .artwork-item h4, .blog-item h4 {
+
+        .project-item h4,
+        .publication-item h4,
+        .artwork-item h4,
+        .blog-item h4 {
             color: var(--sub-color-2);
             margin-bottom: 5px;
         }
-        
+
         .artwork-grid {
             display: grid;
             grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
             gap: 10px;
             margin-top: 15px;
         }
-        
+
         .artwork-placeholder {
             background-color: var(--base-color-3);
             height: 100px;
@@ -253,12 +273,12 @@
             font-size: 0.8rem;
             border: 1px solid var(--sub-color-1);
         }
-        
+
         .help-command {
             display: flex;
             margin-bottom: 8px;
         }
-        
+
         .help-cmd {
             width: 120px;
             color: var(--accent-color-1);
@@ -280,20 +300,23 @@
 
         /* Responsive design */
         @media (max-width: 768px) {
-            #loading-screen, #terminal {
+
+            #loading-screen,
+            #terminal {
                 padding: 15px;
             }
-            
+
             .yorha-logo {
                 font-size: 3rem;
             }
-            
+
             .artwork-grid {
                 grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
             }
         }
     </style>
 </head>
+
 <body>
     <!-- Loading Screen -->
     <div id="loading-screen">
@@ -303,22 +326,22 @@
             <!-- Loading items will be added via JavaScript -->
         </div>
     </div>
-    
+
     <!-- Main Terminal -->
     <div id="terminal">
         <div id="terminal-header">
             <h2>KSK432Portfolio OS</h2>
             <div id="terminal-status">
-                <span>Status: ONLINE</span> | 
-                <span>HP: 80%</span> | 
+                <span>Status: ONLINE</span> |
+                <span>HP: 80%</span> |
                 <span id="current-date">DATE: --/--/----</span>
             </div>
         </div>
-        
+
         <div id="terminal-output">
             <!-- Terminal output will appear here -->
         </div>
-        
+
         <div id="terminal-input-line">
             <span id="prompt">></span>
             <span id="current-path">~</span>
@@ -326,7 +349,7 @@
             <span id="cursor"></span>
         </div>
     </div>
-    
+
     <script>
         // Content data
         const content = {
@@ -362,15 +385,11 @@ Contact:
             },
             projects: {
                 title: "Projects",
-                subdirs: ['binauralaudio', 'taccel', 'floating-captions'],
+                subdirs: ['binauralaudio', 'floating-captions'],
                 items: [
                     {
                         title: "Binaural Audio Vocabulary Learning",
                         description: "Context-sound based English vocabulary learning with spatialized binaural audio. Study design, stimuli, and results."
-                    },
-                    {
-                        title: "TACCEL: Tactile Accent Learning Interface",
-                        description: "Haptic-assisted prosody training for second language learners. Syllable boundary detection and tactile mapping design notes."
                     },
                     {
                         title: "Floating Captions (ETRA 2025)",
@@ -383,15 +402,11 @@ Contact:
                 title: "Binaural Audio",
                 content: `Open: Research introduction directory (Binaural Audio).\n\nIf a tab didn't open, use this link: <a href="../research/binauralaudio/" target="_blank" rel="noopener">/research/binauralaudio/</a>`
             },
-            taccel: {
-                title: "TACCEL",
-                content: `Open: Research introduction directory (TACCEL).\n\nIf a tab didn't open, use this link: <a href="../research/taccel/" target="_blank" rel="noopener">/research/taccel/</a>`
-            },
             'floating-captions': {
                 title: "Floating Captions",
                 content: `Open: DOI link for Floating Captions (ETRA 2025).\n\nIf a tab didn't open, use this link: <a href="https://dl.acm.org/doi/10.1145/3715669.3726816" target="_blank" rel="noopener">dl.acm.org/doi/10.1145/3715669.3726816</a>`
             },
-                        publications: {
+            publications: {
                 title: "Publications",
                 items: [
                     {
@@ -459,11 +474,11 @@ Contact:
                     }
                 ]
             },
-            
+
             artwork: {
-                    content: `not available`
-            //     title: "Artwork",
-            //     description: "A collection of digital and traditional artwork exploring themes of technology, humanity, and the spaces between."
+                content: `not available`
+                //     title: "Artwork",
+                //     description: "A collection of digital and traditional artwork exploring themes of technology, humanity, and the spaces between."
             },
             blog: {
                 title: "Blog",
@@ -526,16 +541,11 @@ NOTE: This information is classified. Unauthorized access will be logged.`
                 commands: [
                     { cmd: "help", desc: "Display available commands" },
                     { cmd: "ls", desc: "List available directories" },
-                    { cmd: "cd [dir]", desc: "Change directory" },
+                    { cmd: "cd [dir]", desc: "Change directory and view contents" },
                     { cmd: "cd ..", desc: "Go up one directory" },
-                    { cmd: "cd yoyaku", desc: "Open appointment calendar" },
-                    { cmd: "cd comtech", desc: "Open ComTech site" },
-                    { cmd: "cd projects", desc: "Open projects directory" },
-                    { cmd: "cd binauralaudio", desc: "Open Binaural Audio research page" },
-                    { cmd: "cd taccel", desc: "Open TACCEL research page" },
-                    { cmd: "cd floating-captions", desc: "Open Floating Captions DOI" },
-                    { cmd: "mkomg", desc: "Open MKOMG site" },
-                    // { cmd: "shinitai", desc: "Open Shinitai shop" },
+                    { cmd: "cat [file]", desc: "Display file contents" },
+                    { cmd: "whoami", desc: "Display current user" },
+                    { cmd: "open [target]", desc: "Open external site (yoyaku, comtech, mkomg)" },
                     { cmd: "pwd", desc: "Print current directory" },
                     { cmd: "home", desc: "Return to home page" },
                     { cmd: "clear", desc: "Clear terminal screen" },
@@ -545,9 +555,9 @@ NOTE: This information is classified. Unauthorized access will be logged.`
             },
 
 
-            skills:{
+            skills: {
                 title: "Skills",
-                content:`
+                content: `
 
             <li>Code(skilled): Python, C#, Arduino, Unity, R, Heroku, webpage dev</li>
             <li>Code(in the building): Rust, C++, JS</li>
@@ -571,25 +581,25 @@ NOTE: This information is classified. Unauthorized access will be logged.`
             { text: "All Systems", status: "green", statusText: "Green", delay: 5300 },
             { text: "Combat Preparations", status: "green", statusText: "Complete", delay: 5600 }
         ];
-        
+
         const loadingItemsContainer = document.getElementById('loading-items');
         let currentLoadingItem = 0;
-        
+
         function displayLoadingItems() {
             if (currentLoadingItem < loadingItems.length) {
                 const item = loadingItems[currentLoadingItem];
                 const loadingItem = document.createElement('div');
                 loadingItem.className = 'loading-item';
                 loadingItem.style.animationDelay = `${item.delay}ms`;
-                
+
                 loadingItem.innerHTML = `
                     <div class="loading-item-text">${item.text}:</div>
                     <div class="loading-item-status ${item.status === 'green' ? 'status-green' : ''}">${item.statusText || ''}</div>
                 `;
-                
+
                 loadingItemsContainer.appendChild(loadingItem);
                 currentLoadingItem++;
-                
+
                 setTimeout(displayLoadingItems, 300);
             } else {
                 // All items displayed, now complete loading
@@ -600,45 +610,110 @@ NOTE: This information is classified. Unauthorized access will be logged.`
                 }, 1500);
             }
         }
-        
+
         // Terminal functionality
-        const rootDirs = ['home', 'profile', 'projects', 'publications', 'artwork', 'blog', 'misc', 'grades'];
+        const visibleRootDirs = ['home', 'profile', 'projects', 'publications', 'artwork', 'blog', 'misc'];
+        const hiddenRootDirs = ['grades', '.ssh', '.config'];
+        const rootDirs = [...visibleRootDirs, ...hiddenRootDirs];
         const subDirMap = {
             profile: ['skills'],
-            projects: ['binauralaudio', 'taccel', 'floating-captions']
+            projects: ['binauralaudio', 'floating-captions']
         };
+        const hiddenSubDirMap = {
+            projects: ['.wip']
+        };
+        const externalLinks = {
+            yoyaku: 'https://calendar.app.google/9ByBTDMnoJqSTMrt5',
+            comtech: 'http://ksk432.com/ComTech.github.io/',
+            mkomg: 'https://mkomg.lol',
+            shinitai: 'https://shinitai.shop'
+        };
+
+        // ===== WIP PROJECTS (easy to update — just edit this array) =====
+        const wipProjects = [
+            { title: "Project Kireme", status: "IN PROGRESS", description: "Interactive art installation — audio synthesis driven by real-time data." },
+            { title: "LombardEar", status: "PROTOTYPE", description: "Adaptive beamforming assistive listening device with spatial audio." },
+        ];
+
+        // Virtual filesystem — files and hidden files per directory
+        const virtualFS = {
+            '~': {
+                files: [],
+                hidden: ['.bash_history', '.plan', '.ssh/', '.config/']
+            },
+            '~/profile': {
+                files: ['contact.txt'],
+                hidden: []
+            },
+            '~/projects': {
+                files: [],
+                hidden: ['.wip/']
+            },
+            '~/publications': {
+                files: ['list.bib'],
+                hidden: []
+            },
+            '~/misc': {
+                files: [],
+                hidden: ['.easter_egg']
+            },
+            '~/.ssh': {
+                files: ['authorized_keys', 'known_hosts'],
+                hidden: []
+            },
+            '~/.config': {
+                files: ['settings.json'],
+                hidden: []
+            }
+        };
+
+        // Virtual file contents
+        const fileContents = {
+            'contact.txt': `Name: Kosuke Shimizu\nEmail: shimizu [at] ai.iit.tsukuba.ac.jp\nX/Twitter: @hong_shui26288\n\n"The quieter you become, the more you can hear." — Ram Dass`,
+            '.bash_history': `cd projects\nls -la\ncat .plan\nssh yorha\nsudo su\nchmod 777 grades\nfind / -name "*.secret"\nnano TODO.md\nexit`,
+            '.plan': `=== CURRENT OBJECTIVES ===\n1. Finish ETRA paper revisions\n2. Complete BCI demo for Ogino-sensei\n3. Sleep more than 4 hours\n4. [REDACTED]\n\n"Everything not saved will be lost." — Nintendo quit screen`,
+            '.easter_egg': `\n  🥚 You found it!\n\n  Congratulations, you are one of the few who explored deep enough.\n\n  Here's a secret: try 'ssh yorha' or 'sudo su' for more surprises.\n  Also try: neofetch, vim, rm -rf /\n\n  — KSK432`,
+            'authorized_keys': `ssh-rsa AAAA[REDACTED]== operator@bunker\nssh-ed25519 AAAA[REDACTED] 9S@yorha\nssh-ed25519 AAAA[REDACTED] 2B@yorha`,
+            'known_hosts': `yorha.bunker.local,192.168.9.2 ssh-ed25519 AAAA[REDACTED]\nmoonbase.ksk432.internal,10.0.0.1 ssh-ed25519 AAAA[REDACTED]`,
+            'settings.json': `{\n  "theme": "dark",\n  "font": "Courier New",\n  "cursor_blink": true,\n  "hidden_mode": false,\n  "sudo_attempts": 0,\n  "secrets_found": "???",\n  "hint": "Have you tried reading .bash_history?"\n}`,
+            'list.bib': `@inproceedings{shimizu2025floating,\n  title={Floating Captions: Eyetracking-based Context-aware Captioning System for Immersive VR Contents},\n  author={Shimizu, Kosuke and collaborators},\n  booktitle={ETRA 2025},\n  year={2025},\n  doi={10.1145/3715669.3726816}\n}`
+        };
+
         let currentDirectory = "~";
         let commandHistory = [];
         let historyIndex = -1;
-        
+        let isSudo = false;
+        let isVimMode = false;
+        let gradesUnlocked = false;
+
         function initTerminal() {
             const terminalInput = document.getElementById('terminal-input');
             const output = document.getElementById('terminal-output');
             const currentPathElement = document.getElementById('current-path');
-            
+
             // Set current date
             const now = new Date();
             document.getElementById('current-date').textContent = `DATE: ${now.getDate().toString().padStart(2, '0')}/${(now.getMonth() + 1).toString().padStart(2, '0')}/${now.getFullYear()}`;
-            
+
             // Welcome message
             addOutput("SYSTEM", "KSK432 Terminal OS initialized. Type 'help' for available commands.");
             addOutput("SYSTEM", "Welcome, Operator. You are now connected to the main terminal.");
-            
+
             // Event handlers
-            terminalInput.addEventListener('keydown', function(e) {
+            terminalInput.addEventListener('keydown', function (e) {
                 if (e.key === 'Enter') {
                     e.preventDefault();
                     const command = terminalInput.value.trim();
-                    
+
                     if (command) {
                         // Add command to history
                         commandHistory.push(command);
                         historyIndex = commandHistory.length;
-                        
+
                         // Process command
                         addOutput(currentDirectory, command);
                         processCommand(command);
-                        
+
                         // Clear input
                         terminalInput.value = '';
                     }
@@ -664,7 +739,7 @@ NOTE: This information is classified. Unauthorized access will be logged.`
                     if (command.startsWith('cd ')) {
                         const partial = command.substring(3).toLowerCase();
                         const directories = [...rootDirs, 'skills', ...(content.projects?.subdirs || [])];
-                        
+
                         const matches = directories.filter(dir => dir.toLowerCase().startsWith(partial));
                         if (matches.length === 1) {
                             terminalInput.value = `cd ${matches[0]}`;
@@ -672,65 +747,123 @@ NOTE: This information is classified. Unauthorized access will be logged.`
                     }
                 }
             });
-            
+
             // Ensure input is focused
             terminalInput.focus();
-            window.addEventListener('click', function() {
+            window.addEventListener('click', function () {
                 terminalInput.focus();
             });
-            
+
             // Update cursor position based on input
-            terminalInput.addEventListener('input', function() {
+            terminalInput.addEventListener('input', function () {
                 updateCursorPosition();
             });
-            
+
             function updateCursorPosition() {
                 // This is a simplified version; in a real implementation,
                 // you'd need to calculate the exact position based on input width
             }
         }
-        
+
         function addOutput(directory, command, isOutput = false) {
             const output = document.getElementById('terminal-output');
             const line = document.createElement('div');
             line.className = 'terminal-line';
-            
+
             if (isOutput) {
                 line.innerHTML = `<div class="output-text">${command}</div>`;
             } else {
                 line.innerHTML = `<span class="path">${directory}</span> <span class="command">> ${command}</span>`;
             }
-            
+
             output.appendChild(line);
             output.scrollTop = output.scrollHeight;
         }
-        
+
         function processCommand(command) {
-            const cmd = command.trim().toLowerCase();
-            const args = cmd.split(' ');
+            const cmd = command.trim();
+            const cmdLower = cmd.toLowerCase();
+            const args = cmd.split(/\s+/);
+            const argsLower = cmdLower.split(/\s+/);
+
+            // Vim mode intercept
+            if (isVimMode) {
+                if (cmd === ':q' || cmd === ':q!' || cmd === ':wq') {
+                    isVimMode = false;
+                    addOutput("SYSTEM", "Exited vim. (You are one of the few who escaped.)", true);
+                } else {
+                    addOutput("SYSTEM", `-- INSERT -- (type :q to exit vim)`, true);
+                }
+                return;
+            }
 
             // Quick keyword routing within publications directory
             if (currentDirectory && currentDirectory.toLowerCase().includes('publications')) {
-                const normalized = command.trim().toLowerCase();
-                if (normalized.includes('floating caption')) { // matches both singular and plural
+                if (cmdLower.includes('floating caption')) {
                     addOutput("SYSTEM", 'Opening: Floating Captions (ETRA 2025)', true);
                     window.open('https://dl.acm.org/doi/10.1145/3715669.3726816', '_blank');
                     return;
                 }
             }
-            
-            switch(args[0]) {
+
+            // Handle sudo prefix
+            if (argsLower[0] === 'sudo') {
+                if (argsLower[1] === 'su') {
+                    isSudo = true;
+                    document.getElementById('prompt').textContent = '#';
+                    document.getElementById('current-path').style.color = 'var(--terminal-red)';
+                    addOutput("SYSTEM", `root@ksk432-os:${currentDirectory}# Access granted. You are now root.\n\n⚠ WARNING: With great power comes great responsibility.\nType 'exit' to return to normal user mode.`, true);
+                    return;
+                }
+                if (argsLower.length > 1) {
+                    addOutput("SYSTEM", `[sudo] executing: ${args.slice(1).join(' ')}`, true);
+                    const sudoCmd = args.slice(1).join(' ');
+                    processCommand(sudoCmd);
+                    return;
+                }
+                addOutput("SYSTEM", "Usage: sudo [command] or sudo su", true);
+                return;
+            }
+
+            switch (argsLower[0]) {
                 case 'help':
                     displayHelp();
                     break;
                 case 'ls':
-                    listDirectories();
+                    handleLs(argsLower.slice(1));
                     break;
                 case 'cd':
-                    changeDirectory(args[1]);
+                    changeDirectory(argsLower[1]);
+                    break;
+                case 'open':
+                    openExternal(argsLower[1]);
+                    break;
+                case 'cat':
+                    handleCat(args.slice(1).join(' '));
                     break;
                 case 'pwd':
                     addOutput("SYSTEM", currentDirectory, true);
+                    break;
+                case 'whoami':
+                    addOutput("SYSTEM", isSudo ? "root" : "operator@ksk432-os", true);
+                    break;
+                case 'echo':
+                    addOutput("SYSTEM", args.slice(1).join(' ') || '', true);
+                    break;
+                case 'history':
+                    handleHistory();
+                    break;
+                case 'tree':
+                    handleTree();
+                    break;
+                case 'find':
+                    handleFind(args.slice(1));
+                    break;
+                case 'grep':
+                    handleGrep(args.slice(1));
+                    break;
+                case 'man':
+                    handleMan(argsLower[1]);
                     break;
                 case 'clear':
                     clearTerminal();
@@ -741,81 +874,152 @@ NOTE: This information is classified. Unauthorized access will be logged.`
                 case 'about':
                     displayAbout();
                     break;
-                case 'mkomg':
-                    addOutput("SYSTEM", 'Opening website...', true);
-                    window.open('https://mkomg.lol', '_blank');
+                case 'neofetch':
+                    handleNeofetch();
                     break;
-                case 'shinitai':
-                    addOutput("SYSTEM", 'Opening website...', true);
-                    window.open('https://shinitai.shop', '_blank');
+                case 'ssh':
+                    handleSsh(argsLower[1]);
+                    break;
+                case 'vim':
+                case 'nano':
+                case 'vi':
+                    handleVim(argsLower[0]);
+                    break;
+                case 'rm':
+                    handleRm(cmd);
+                    break;
+                case 'chmod':
+                    handleChmod(argsLower.slice(1));
+                    break;
+                case 'curl':
+                    handleCurl(argsLower[1]);
+                    break;
+                case 'ping':
+                    handlePing(argsLower[1]);
+                    break;
+                case 'date':
+                    addOutput("SYSTEM", new Date().toString(), true);
+                    break;
+                case 'uname':
+                    addOutput("SYSTEM", argsLower.includes('-a') ? "KSK432-OS 3.7.0 YoRHa-Kernel x86_64 GNU/Linux" : "KSK432-OS", true);
+                    break;
+                case 'touch':
+                    addOutput("SYSTEM", `touch: cannot create '${args[1] || ''}': Read-only file system`, true);
+                    break;
+                case 'mkdir':
+                    addOutput("SYSTEM", `mkdir: cannot create directory: Read-only file system`, true);
                     break;
                 case 'exit':
-                    simulateExit();
+                    if (isSudo) {
+                        isSudo = false;
+                        document.getElementById('prompt').textContent = '>';
+                        document.getElementById('current-path').style.color = 'var(--accent-color-1)';
+                        addOutput("SYSTEM", "Returned to normal user mode.", true);
+                    } else {
+                        simulateExit();
+                    }
                     break;
                 default:
-                    // Check if command is a direct directory name
-                    if ([...rootDirs, 'skills'].includes(cmd)) {
-                        displayContent(cmd);
+                    if ([...rootDirs, 'skills'].includes(cmdLower)) {
+                        displayContent(cmdLower);
                     } else {
-                        addOutput("SYSTEM", `Command not recognized: ${command}`, true);
+                        addOutput("SYSTEM", `Command not recognized: ${cmd}. Type 'help' for available commands.`, true);
                     }
             }
         }
-        
+
         function displayHelp() {
             let helpOutput = `Available commands:\n\n`;
-            
+
             content.help.commands.forEach(cmd => {
                 helpOutput += `<div class="help-command"><span class="help-cmd">${cmd.cmd}</span><span>${cmd.desc}</span></div>`;
             });
-            
+
             helpOutput += `\nDirectories can also be accessed directly by typing their name.`;
             helpOutput += `\nUse 'ls' inside a directory to view its contents. Use 'cd ..' to return to the root.`;
-            
+            helpOutput += `\n\n<span style="color:var(--sub-color-1)">Hint: Experienced users may find that other commands work too...</span>`;
+
             addOutput("SYSTEM", helpOutput, true);
         }
-        
-        function listDirectories() {
+
+        function handleLs(flags) {
+            const showAll = flags.some(f => f === '-a' || f === '-la' || f === '-al');
+            const showLong = flags.some(f => f === '-l' || f === '-la' || f === '-al');
+            const fsEntry = virtualFS[currentDirectory] || { files: [], hidden: [] };
+
+            let dirs = [];
+            let hiddenDirs = [];
+            let files = fsEntry.files || [];
+            let hiddenFiles = fsEntry.hidden || [];
+
             if (currentDirectory === '~') {
-                let output = 'Available directories:\n\n';
-                rootDirs.forEach(dir => {
-                    output += `${dir}    `;
-                });
-                addOutput("SYSTEM", output, true);
+                dirs = visibleRootDirs;
+                hiddenDirs = hiddenRootDirs;
             } else {
                 const section = currentDirectory.replace('~/', '').split('/').pop();
-                const parent = currentDirectory.replace('~/', '').split('/')[0];
-                const subdirs = content[section]?.subdirs || subDirMap[parent];
+                dirs = content[section]?.subdirs || subDirMap[section] || [];
+                hiddenDirs = hiddenSubDirMap[section] || [];
+            }
 
-                if (subdirs && currentDirectory.endsWith(parent)) {
-                    let output = 'Available directories:\n\n';
-                    subdirs.forEach(dir => {
-                        output += `${dir}    `;
+            if (showLong) {
+                let output = `total ${dirs.length + files.length + (showAll ? hiddenDirs.length + hiddenFiles.length + 2 : 0)}\n`;
+                const now = 'Feb 27 19:00';
+                if (showAll) {
+                    output += `drwxr-xr-x  2 operator operator 4096 ${now} <span style="color:var(--accent-color-2)">.  </span>\n`;
+                    output += `drwxr-xr-x  2 operator operator 4096 ${now} <span style="color:var(--accent-color-2)">.. </span>\n`;
+                }
+                dirs.forEach(d => {
+                    output += `drwxr-xr-x  2 operator operator 4096 ${now} <span style="color:var(--accent-color-2)">${d}/</span>\n`;
+                });
+                if (showAll) {
+                    hiddenDirs.forEach(d => {
+                        const name = d.endsWith('/') ? d : d + '/';
+                        output += `drwx------  2 operator operator 4096 ${now} <span style="color:var(--terminal-yellow)">${name}</span>\n`;
                     });
-                    addOutput("SYSTEM", output, true);
+                }
+                files.forEach(f => {
+                    output += `-rw-r--r--  1 operator operator  ${(fileContents[f]?.length || 128).toString().padStart(4)} ${now} ${f}\n`;
+                });
+                if (showAll) {
+                    hiddenFiles.forEach(f => {
+                        const name = f.endsWith('/') ? f : f;
+                        output += `-rw-------  1 operator operator  ${(fileContents[name.replace('/', '')]?.length || 256).toString().padStart(4)} ${now} <span style="color:var(--terminal-yellow)">${name}</span>\n`;
+                    });
+                }
+                if (currentDirectory === '~' && showAll && !gradesUnlocked) {
+                    output += `-r--------  1 root     root      2048 ${now} <span style="color:var(--terminal-red)">grades (locked)</span>\n`;
+                } else if (currentDirectory === '~' && showAll && gradesUnlocked) {
+                    output += `drwxrwxrwx  1 operator operator  2048 ${now} <span style="color:var(--terminal-green)">grades/</span>\n`;
+                }
+                addOutput("SYSTEM", output, true);
+            } else {
+                let items = dirs.map(d => `<span style="color:var(--accent-color-2)">${d}/</span>`);
+                if (showAll) {
+                    items = items.concat(hiddenDirs.map(d => `<span style="color:var(--terminal-yellow)">${d.endsWith('/') ? d : d + '/'}</span>`));
+                }
+                items = items.concat(files);
+                if (showAll) {
+                    items = items.concat(hiddenFiles.map(f => `<span style="color:var(--terminal-yellow)">${f}</span>`));
+                    if (currentDirectory === '~') {
+                        items.push(gradesUnlocked ?
+                            `<span style="color:var(--terminal-green)">grades/</span>` :
+                            `<span style="color:var(--terminal-red)">grades (locked)</span>`);
+                    }
+                }
+                if (items.length === 0) {
+                    addOutput("SYSTEM", "(empty directory)", true);
                 } else {
-                    displayContent(section);
+                    addOutput("SYSTEM", items.join('    '), true);
                 }
             }
         }
-        
-function changeDirectory(dir) {
-    if (!dir) {
-        addOutput("SYSTEM", "Usage: cd [directory]", true);
-        return;
-    }
-    const directory = dir.toLowerCase();
 
-    if (directory === 'yoyaku') {
-        addOutput("SYSTEM", 'Opening calendar...', true);
-        window.open('https://calendar.app.google/9ByBTDMnoJqSTMrt5', '_blank');
-        return;
-    }
-    if (directory === 'comtech') {
-        addOutput("SYSTEM", 'Opening website...', true);
-        window.open('http://ksk432.com/ComTech.github.io/', '_blank');
-        return;
-    }
+        function changeDirectory(dir) {
+            if (!dir) {
+                addOutput("SYSTEM", "Usage: cd [directory]", true);
+                return;
+            }
+            const directory = dir.toLowerCase();
 
             if (directory === '..') {
                 if (currentDirectory === '~') {
@@ -829,53 +1033,317 @@ function changeDirectory(dir) {
                 return;
             }
 
-            if (directory === '~') {
+            if (directory === '~' || directory === '/') {
                 currentDirectory = '~';
                 document.getElementById('current-path').textContent = currentDirectory;
                 return;
             }
 
+            // Handle grades specially
+            if (directory === 'grades') {
+                if (!gradesUnlocked && !isSudo) {
+                    addOutput("SYSTEM", `cd: grades: Permission denied`, true);
+                    return;
+                }
+                currentDirectory = '~/grades';
+                document.getElementById('current-path').textContent = currentDirectory;
+                displayContent('grades');
+                return;
+            }
+
+            // All known dirs: visible + hidden + sub + hidden sub
+            const allRootDirs = [...visibleRootDirs, ...hiddenRootDirs];
+
             if (currentDirectory === '~') {
-                if (rootDirs.includes(directory)) {
+                if (allRootDirs.includes(directory)) {
                     currentDirectory = `~/${directory}`;
                     document.getElementById('current-path').textContent = currentDirectory;
-                    if (!content[directory]?.subdirs) {
-                        displayContent(directory);
-                    }
-                } else if ((content.projects?.subdirs || subDirMap.projects)?.includes(directory)) {
+                    displayContent(directory);
+                } else if ([...(subDirMap.projects || []), ...(hiddenSubDirMap.projects || [])].includes(directory)) {
                     currentDirectory = `~/projects/${directory}`;
                     document.getElementById('current-path').textContent = currentDirectory;
                     displayContent(directory);
                 } else {
-                    addOutput("SYSTEM", `Directory not found: ${directory}` , true);
+                    addOutput("SYSTEM", `Directory not found: ${directory}. Type 'ls' to list available directories.`, true);
                 }
             } else {
                 const parent = currentDirectory.replace('~/', '').split('/').pop();
-                const subdirs = content[parent]?.subdirs || subDirMap[parent];
-                if (subdirs && subdirs.includes(directory)) {
+                const subdirs = [...(content[parent]?.subdirs || subDirMap[parent] || []), ...(hiddenSubDirMap[parent] || [])];
+                if (subdirs.includes(directory)) {
                     currentDirectory = `${currentDirectory}/${directory}`;
                     document.getElementById('current-path').textContent = currentDirectory;
                     displayContent(directory);
                 } else {
-                    addOutput("SYSTEM", `Directory not found: ${directory}` , true);
+                    addOutput("SYSTEM", `Directory not found: ${directory}. Type 'ls' to list available directories.`, true);
                 }
             }
-
         }
 
-        
+        function openExternal(target) {
+            if (!target) {
+                let output = 'Usage: open [target]\n\nAvailable targets:\n';
+                Object.keys(externalLinks).forEach(key => {
+                    output += `  ${key}\n`;
+                });
+                addOutput("SYSTEM", output, true);
+                return;
+            }
+            const name = target.toLowerCase();
+            if (externalLinks[name]) {
+                addOutput("SYSTEM", `Opening ${name}...`, true);
+                window.open(externalLinks[name], '_blank');
+            } else {
+                addOutput("SYSTEM", `Unknown target: ${target}. Type 'open' to list available targets.`, true);
+            }
+        }
+
+
+        // ===== NEW COMMAND HANDLERS =====
+
+        function handleCat(filename) {
+            if (!filename) { addOutput("SYSTEM", "Usage: cat [filename]", true); return; }
+            const f = filename.trim();
+            if (fileContents[f]) {
+                addOutput("SYSTEM", fileContents[f], true);
+            } else if (f === 'grades' && !gradesUnlocked && !isSudo) {
+                addOutput("SYSTEM", "cat: grades: Permission denied", true);
+            } else if (content[f]?.content) {
+                addOutput("SYSTEM", content[f].content, true);
+            } else {
+                addOutput("SYSTEM", `cat: ${f}: No such file or directory`, true);
+            }
+        }
+
+        function handleHistory() {
+            let out = '';
+            commandHistory.forEach((cmd, i) => { out += `  ${(i + 1).toString().padStart(4)}  ${cmd}\n`; });
+            addOutput("SYSTEM", out || '(empty history)', true);
+        }
+
+        function handleTree() {
+            let out = '<span style="color:var(--accent-color-2)">.</span>\n';
+            const drawDir = (path, prefix, name) => {
+                const fs = virtualFS[path] || { files: [], hidden: [] };
+                const subs = subDirMap[name] || content[name]?.subdirs || [];
+                const hidSubs = hiddenSubDirMap[name] || [];
+                const allItems = [...subs.map(s => ({ n: s + '/', dir: true })), ...hidSubs.map(s => ({ n: s + '/', dir: true, hid: true })), ...fs.files.map(f => ({ n: f })), ...fs.hidden.map(f => ({ n: f, hid: true }))];
+                allItems.forEach((item, i) => {
+                    const isLast = i === allItems.length - 1;
+                    const connector = isLast ? '└── ' : '├── ';
+                    const color = item.hid ? 'var(--terminal-yellow)' : item.dir ? 'var(--accent-color-2)' : 'var(--terminal-text)';
+                    out += `${prefix}${connector}<span style="color:${color}">${item.n}</span>\n`;
+                });
+            };
+            visibleRootDirs.forEach((d, i) => {
+                const isLast = i === visibleRootDirs.length - 1;
+                out += `${isLast ? '└── ' : '├── '}<span style="color:var(--accent-color-2)">${d}/</span>\n`;
+                drawDir(`~/${d}`, isLast ? '    ' : '│   ', d);
+            });
+            addOutput("SYSTEM", out, true);
+        }
+
+        function handleFind(args) {
+            let out = 'Search results:\n\n';
+            let count = 0;
+            const nameFilter = args.includes('-name') ? args[args.indexOf('-name') + 1]?.replace(/"/g, '') : null;
+            Object.entries(virtualFS).forEach(([path, fs]) => {
+                [...fs.files, ...fs.hidden].forEach(f => {
+                    const fname = f.replace('/', '');
+                    if (!nameFilter || fname.includes(nameFilter.replace('*', ''))) {
+                        const color = f.startsWith('.') ? 'var(--terminal-yellow)' : 'var(--terminal-text)';
+                        out += `<span style="color:${color}">${path}/${fname}</span>\n`;
+                        count++;
+                    }
+                });
+            });
+            out += `\n${count} file(s) found.`;
+            addOutput("SYSTEM", out, true);
+        }
+
+        function handleGrep(args) {
+            if (!args.length) { addOutput("SYSTEM", "Usage: grep [pattern]", true); return; }
+            const pattern = args[0].toLowerCase();
+            let out = '';
+            let count = 0;
+            Object.entries(fileContents).forEach(([fname, fContent]) => {
+                const lines = fContent.split('\\n');
+                lines.forEach((line, i) => {
+                    if (line.toLowerCase().includes(pattern)) {
+                        const highlighted = line.replace(new RegExp(`(${pattern})`, 'gi'), '<span style="color:var(--terminal-red);font-weight:bold">$1</span>');
+                        out += `<span style="color:var(--accent-color-2)">${fname}</span>:${i + 1}: ${highlighted}\n`;
+                        count++;
+                    }
+                });
+            });
+            if (count === 0) out = `No matches found for "${pattern}".`;
+            else out += `\n${count} match(es) found.`;
+            addOutput("SYSTEM", out, true);
+        }
+
+        function handleMan(cmd) {
+            const manPages = {
+                ls: "LS(1)\n\nNAME\n    ls - list directory contents\n\nSYNOPSIS\n    ls [-a] [-l] [-la]\n\nDESCRIPTION\n    List files and directories.\n    -a    Show hidden files (starting with .)\n    -l    Long format (permissions, size, date)\n    -la   Combine both options",
+                cat: "CAT(1)\n\nNAME\n    cat - concatenate and print files\n\nSYNOPSIS\n    cat [filename]\n\nDESCRIPTION\n    Display the contents of a file.\n    Works with both visible and hidden files.",
+                cd: "CD(1)\n\nNAME\n    cd - change directory\n\nSYNOPSIS\n    cd [directory | .. | ~]\n\nDESCRIPTION\n    Navigate the virtual filesystem.\n    Use '..' to go up one level.\n    Use '~' to return to home.",
+                find: "FIND(1)\n\nNAME\n    find - search for files\n\nSYNOPSIS\n    find [-name pattern]\n\nDESCRIPTION\n    Recursively search the filesystem.\n    Use -name to filter by filename pattern.",
+                grep: "GREP(1)\n\nNAME\n    grep - search file contents\n\nSYNOPSIS\n    grep [pattern]\n\nDESCRIPTION\n    Search all files for matching text.\n    Results are highlighted in context.",
+                chmod: "CHMOD(1)\n\nNAME\n    chmod - change file permissions\n\nSYNOPSIS\n    chmod [mode] [file]\n\nDESCRIPTION\n    Modify access permissions.\n    Try: chmod 777 grades",
+                ssh: "SSH(1)\n\nNAME\n    ssh - secure shell client\n\nSYNOPSIS\n    ssh [host]\n\nDESCRIPTION\n    Connect to a remote server.\n    Known hosts: check ~/.ssh/known_hosts"
+            };
+            if (!cmd) { addOutput("SYSTEM", "What manual page do you want?\nUsage: man [command]", true); return; }
+            if (manPages[cmd]) { addOutput("SYSTEM", manPages[cmd], true); }
+            else { addOutput("SYSTEM", `No manual entry for ${cmd}`, true); }
+        }
+
+
+        function handleNeofetch() {
+            const ascii = `<span style="color:var(--accent-color-1)">
+    ██╗  ██╗███████╗██╗  ██╗
+    ██║ ██╔╝██╔════╝██║ ██╔╝
+    █████╔╝ ███████╗█████╔╝
+    ██╔═██╗ ╚════██║██╔═██╗
+    ██║  ██╗███████║██║  ██╗
+    ╚═╝  ╚═╝╚══════╝╚═╝  ╚═╝</span>
+                           <span style="color:var(--accent-color-2)">operator</span>@<span style="color:var(--accent-color-2)">ksk432-os</span>
+                           ─────────────────
+                           <span style="color:var(--accent-color-1)">OS:</span> KSK432-OS 3.7 YoRHa-Kernel
+                           <span style="color:var(--accent-color-1)">Host:</span> University of Tsukuba
+                           <span style="color:var(--accent-color-1)">Kernel:</span> 3.7.0-yorha
+                           <span style="color:var(--accent-color-1)">Uptime:</span> ${Math.floor(Math.random() * 365)} days
+                           <span style="color:var(--accent-color-1)">Shell:</span> ksk-term 1.0
+                           <span style="color:var(--accent-color-1)">Resolution:</span> ${window.innerWidth}x${window.innerHeight}
+                           <span style="color:var(--accent-color-1)">Terminal:</span> KSK432 Terminal
+                           <span style="color:var(--accent-color-1)">CPU:</span> YoRHa Processing Unit
+                           <span style="color:var(--accent-color-1)">Memory:</span> ${Math.floor(Math.random() * 8 + 8)}GB / 16GB
+                           <span style="color:var(--accent-color-1)">HP:</span> 80%`;
+            addOutput("SYSTEM", ascii, true);
+        }
+
+        function handleSsh(host) {
+            if (!host) { addOutput("SYSTEM", "Usage: ssh [host]\nKnown hosts: yorha, moonbase", true); return; }
+            if (host === 'yorha') {
+                addOutput("SYSTEM", `Connecting to yorha.bunker.local...\nAuthentication successful (key: 9S@yorha)\n\n<span style="color:var(--terminal-green)">═══════════════════════════════════════</span>\n<span style="color:var(--terminal-green)">  Welcome to the YoRHa Bunker Terminal</span>\n<span style="color:var(--terminal-green)">═══════════════════════════════════════</span>\n\n  "Everything that lives is designed to end."\n  "We are perpetually trapped in a never-ending\n   spiral of life and death."\n\n  — Pod 042\n\n  BUNKER STATUS: Operational\n  UNIT 9S: Active\n  UNIT 2B: [DATA EXPUNGED]\n  BLACK BOX: Signal detected\n\n  <span style="color:var(--sub-color-1)">Connection terminated by remote host.</span>`, true);
+            } else if (host === 'moonbase') {
+                addOutput("SYSTEM", `Connecting to moonbase.ksk432.internal...\n<span style="color:var(--terminal-red)">Connection refused: No route to host\n(The moon server is currently offline.)</span>`, true);
+            } else {
+                addOutput("SYSTEM", `ssh: Could not resolve hostname ${host}: Name or service not known`, true);
+            }
+        }
+
+        function handleVim(editor) {
+            isVimMode = true;
+            addOutput("SYSTEM", `${editor} 0.1.0\n\n<span style="color:var(--terminal-yellow)">~\n~\n~\n~     ${editor === 'vim' ? 'VIM - Vi IMproved' : editor.toUpperCase()}\n~\n~     How to exit: type  :q  then press Enter\n~     (Many have tried. Few have succeeded.)\n~\n~</span>\n\n-- INSERT --`, true);
+        }
+
+        function handleRm(cmd) {
+            if (cmd.includes('-rf') && (cmd.includes('/') || cmd.includes('*'))) {
+                addOutput("SYSTEM", `<span style="color:var(--terminal-red)">rm: destroying filesystem...</span>`, true);
+                const terminal = document.getElementById('terminal');
+                terminal.style.transition = 'all 0.5s';
+                terminal.style.filter = 'blur(2px)';
+                terminal.style.transform = 'skewX(-2deg)';
+                setTimeout(() => {
+                    const lines = document.querySelectorAll('.terminal-line');
+                    let i = lines.length - 1;
+                    const destroyInterval = setInterval(() => {
+                        if (i >= 0 && lines[i]) {
+                            lines[i].style.color = 'var(--terminal-red)';
+                            lines[i].style.textDecoration = 'line-through';
+                            lines[i].style.opacity = '0.3';
+                            i--;
+                        } else {
+                            clearInterval(destroyInterval);
+                            setTimeout(() => {
+                                terminal.style.filter = 'none';
+                                terminal.style.transform = 'none';
+                                addOutput("SYSTEM", `<span style="color:var(--terminal-green)">\n\n  Just kidding. This is a read-only filesystem.\n  Nice try though! 😏\n\n  System restored.</span>`, true);
+                                lines.forEach(l => { l.style.color = ''; l.style.textDecoration = ''; l.style.opacity = ''; });
+                            }, 1500);
+                        }
+                    }, 50);
+                }, 500);
+            } else {
+                addOutput("SYSTEM", `rm: cannot remove '${cmd.split(' ').slice(1).join(' ')}': Read-only file system`, true);
+            }
+        }
+
+        function handleChmod(args) {
+            if (args.length < 2) { addOutput("SYSTEM", "Usage: chmod [mode] [file]", true); return; }
+            const mode = args[0];
+            const file = args[1];
+            if (file === 'grades' && (mode === '777' || mode === '+rwx')) {
+                gradesUnlocked = true;
+                addOutput("SYSTEM", `<span style="color:var(--terminal-green)">chmod: permissions of 'grades' changed to ${mode}\nFile unlocked. You can now access grades with 'cd grades' or 'cat grades'.</span>`, true);
+            } else {
+                addOutput("SYSTEM", `chmod: changing permissions of '${file}': Operation not permitted`, true);
+            }
+        }
+
+        function handleCurl(url) {
+            if (!url) { addOutput("SYSTEM", "Usage: curl [url]", true); return; }
+            if (url.includes('localhost') || url.includes('127.0.0.1')) {
+                addOutput("SYSTEM", `HTTP/1.1 200 OK\nContent-Type: application/json\nServer: ksk432-os/3.7\n\n{\n  "status": "operational",\n  "message": "Welcome to the KSK432 API",\n  "endpoints": [\n    "/api/projects",\n    "/api/publications",\n    "/api/secrets (403 Forbidden)"\n  ],\n  "easter_egg": "You found the local API! Try: curl localhost/api/secrets"\n}`, true);
+            } else if (url.includes('/api/secrets')) {
+                if (isSudo) {
+                    addOutput("SYSTEM", `HTTP/1.1 200 OK\n\n{\n  "secrets": [\n    "The cake is a lie",\n    "Try 'ssh yorha' for a surprise",\n    "This site was built at 3AM",\n    "GPA is classified for a reason"\n  ]\n}`, true);
+                } else {
+                    addOutput("SYSTEM", `HTTP/1.1 403 Forbidden\n\n{"error": "Insufficient privileges. Try: sudo curl ${url}"}`, true);
+                }
+            } else {
+                addOutput("SYSTEM", `curl: (6) Could not resolve host: ${url}`, true);
+            }
+        }
+
+        function handlePing(host) {
+            if (!host) { addOutput("SYSTEM", "Usage: ping [host]", true); return; }
+            addOutput("SYSTEM", `PING ${host} (${Math.floor(Math.random() * 223 + 1)}.${Math.floor(Math.random() * 255)}.${Math.floor(Math.random() * 255)}.${Math.floor(Math.random() * 255)}): 56 data bytes`, true);
+            let count = 0;
+            const pingInterval = setInterval(() => {
+                const time = (Math.random() * 50 + 5).toFixed(3);
+                addOutput("SYSTEM", `64 bytes from ${host}: icmp_seq=${count} ttl=64 time=${time} ms`, true);
+                count++;
+                if (count >= 4) {
+                    clearInterval(pingInterval);
+                    addOutput("SYSTEM", `\n--- ${host} ping statistics ---\n4 packets transmitted, 4 received, 0% packet loss`, true);
+                }
+            }, 800);
+        }
+
         function clearTerminal() {
             document.getElementById('terminal-output').innerHTML = '';
         }
-        
+
         function displayContent(section) {
+            // Handle hidden directories with virtual file content
+            if (section === '.wip') {
+                let out = '# <span style="color:var(--terminal-yellow)">Work In Progress</span>\n\n';
+                out += '<span style="color:var(--sub-color-1)">⚠ CLASSIFIED — Unreleased projects</span>\n\n';
+                wipProjects.forEach(p => {
+                    out += `<div class="project-item"><h4>[${p.status}] ${p.title}</h4><p>${p.description}</p></div>`;
+                });
+                addOutput("SYSTEM", out, true);
+                return;
+            }
+            if (section === '.ssh') {
+                addOutput("SYSTEM", '# <span style="color:var(--terminal-yellow)">.ssh</span>\n\nFiles: authorized_keys  known_hosts\n\nUse \'cat authorized_keys\' or \'cat known_hosts\' to view.', true);
+                return;
+            }
+            if (section === '.config') {
+                addOutput("SYSTEM", '# <span style="color:var(--terminal-yellow)">.config</span>\n\nFiles: settings.json\n\nUse \'cat settings.json\' to view.', true);
+                return;
+            }
+            if (section === 'grades' && !gradesUnlocked && !isSudo) {
+                addOutput("SYSTEM", 'Permission denied: grades\nTry: chmod 777 grades', true);
+                return;
+            }
+
             if (!content[section]) {
                 addOutput("SYSTEM", `Content not found: ${section}`, true);
                 return;
             }
-            
+
             let output = `# ${content[section].title}\n\n`;
-            
+
             if (content[section].content) {
                 output += content[section].content;
             } else if (section === 'projects') {
@@ -917,7 +1385,7 @@ function changeDirectory(dir) {
                 content.blog.items.forEach(post => {
                     const date = new Date(post.date);
                     const formattedDate = `${date.getDate().toString().padStart(2, '0')}/${(date.getMonth() + 1).toString().padStart(2, '0')}/${date.getFullYear()}`;
-                    
+
                     output += `<div class="blog-item">
                         <h4>${post.title}</h4>
                         <p>Date: ${formattedDate}</p>
@@ -925,19 +1393,17 @@ function changeDirectory(dir) {
                     </div>`;
                 });
             }
-            
+
             // Auto-open target pages for specific project subpages
             if (section === 'binauralaudio') {
-                setTimeout(() => { try { window.open('../research/binauralaudio/', '_blank'); } catch (e) {} }, 0);
-            } else if (section === 'taccel') {
-                setTimeout(() => { try { window.open('../research/taccel/', '_blank'); } catch (e) {} }, 0);
+                setTimeout(() => { try { window.open('../research/binauralaudio/', '_blank'); } catch (e) { } }, 0);
             } else if (section === 'floating-captions') {
-                setTimeout(() => { try { window.open('https://dl.acm.org/doi/10.1145/3715669.3726816', '_blank'); } catch (e) {} }, 0);
+                setTimeout(() => { try { window.open('https://dl.acm.org/doi/10.1145/3715669.3726816', '_blank'); } catch (e) { } }, 0);
             }
 
             addOutput("SYSTEM", output, true);
         }
-        
+
         function displayAbout() {
             const aboutText = `KSK432 Terminal OS v3.7
             
@@ -949,10 +1415,10 @@ This terminal provides secure access to classified information.
 All interactions are logged and monitored.
             
 For technical support, contact system administrator.`;
-            
+
             addOutput("SYSTEM", aboutText, true);
         }
-        
+
         function simulateExit() {
             addOutput("SYSTEM", "Logging out...", true);
             setTimeout(() => {
@@ -962,12 +1428,14 @@ For technical support, contact system administrator.`;
                 }, 1500);
             }, 1000);
         }
-        
+
         // Start loading sequence
-        window.onload = function() {
+        window.onload = function () {
             displayLoadingItems();
         };
     </script>
-    <div id="simple-summary-link"><a href="summary.html">Plain summary page</a> | <a href="../ja/summary.html">日本語</a></div>
+    <div id="simple-summary-link"><a href="summary.html">Plain summary page</a> | <a href="../ja/summary.html">日本語</a>
+    </div>
 </body>
+
 </html>

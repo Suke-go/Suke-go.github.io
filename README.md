@@ -49,7 +49,7 @@ update `blog/index.html`.
 To quickly open specific websites from the terminal, source the hidden
 `.web_aliases` file from your shell configuration. This enables:
 
-- `cd comtech` – opens <http://ksk432.com/ComTech.github.io/>
+- `comtech` – opens <http://ksk432.com/ComTech.github.io/>
 - `mkomg` – opens <https://mkomg.lol>
 - `shinitai` – opens <https://shinitai.shop>
 
