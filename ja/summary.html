@@ -434,6 +434,84 @@
       padding: 0 13px 12px;
     }
 
+    .cv-focus-grid {
+      display: grid;
+      grid-template-columns: minmax(0, 1.1fr) minmax(0, 0.9fr);
+      gap: 14px;
+      margin-top: 18px;
+    }
+
+    .cv-focus-card {
+      border: 1px solid rgba(36, 35, 31, 0.34);
+      background: rgba(222, 217, 199, 0.22);
+      padding: 16px;
+    }
+
+    .cv-focus-card.primary {
+      grid-row: span 2;
+    }
+
+    .cv-focus-meta {
+      display: inline-flex;
+      margin-bottom: 10px;
+      background: rgba(36, 35, 31, 0.84);
+      color: var(--paper);
+      padding: 4px 7px;
+      font-family: "Courier New", monospace;
+      font-size: 11px;
+      font-weight: 700;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+    }
+
+    .cv-focus-card h3 {
+      margin: 0;
+      color: var(--ink);
+      font-size: 18px;
+      line-height: 1.45;
+    }
+
+    .cv-focus-card p {
+      margin: 10px 0 0;
+      color: var(--muted);
+      line-height: 1.75;
+    }
+
+    .cv-focus-list {
+      display: grid;
+      gap: 8px;
+      margin: 14px 0 0;
+      padding: 0;
+      list-style: none;
+    }
+
+    .cv-focus-list li {
+      border-top: 1px solid rgba(36, 35, 31, 0.22);
+      padding-top: 8px;
+      color: var(--muted);
+      font-size: 13px;
+      line-height: 1.65;
+    }
+
+    .cv-focus-links {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-top: 14px;
+    }
+
+    .cv-focus-links a {
+      border: 1px solid var(--line);
+      color: var(--line);
+      padding: 6px 8px;
+      font-family: "Courier New", monospace;
+      font-size: 11px;
+      font-weight: 700;
+      letter-spacing: 0.08em;
+      text-decoration: none;
+      text-transform: uppercase;
+    }
+
     .decode-text {
       display: inline;
       min-height: 1em;
@@ -458,6 +536,33 @@
       color: var(--ink);
       font-size: 12px;
       font-weight: 700;
+    }
+
+    .cv-skill-grid {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 14px;
+      margin-top: 18px;
+    }
+
+    .cv-skill-group {
+      border: 1px solid rgba(36, 35, 31, 0.34);
+      background: rgba(222, 217, 199, 0.22);
+      padding: 14px;
+    }
+
+    .cv-skill-group h3 {
+      margin: 0 0 10px;
+      color: var(--ink);
+      font-size: 15px;
+      line-height: 1.4;
+    }
+
+    .cv-link {
+      color: var(--ink);
+      text-decoration: underline;
+      text-underline-offset: 3px;
+      text-decoration-thickness: 1px;
     }
 
     .cv-timeline {
@@ -561,6 +666,11 @@
       .cv-grid,
       .cv-card-grid,
       .cv-two-column {
+        grid-template-columns: 1fr;
+      }
+
+      .cv-focus-grid,
+      .cv-skill-grid {
         grid-template-columns: 1fr;
       }
 
@@ -729,21 +839,40 @@
     </section>
 
     <section class="cv-box cv-section">
-      <h2>Selected Work</h2>
-      <ul class="cv-list">
-        <li>
-          <strong>Floating Captions</strong>
-          <span class="work-body">Eyetracking-based context-aware captioning system for immersive VR contents.</span>
-        </li>
-        <li>
-          <strong>Let's Pray / Play for Peace 2026</strong>
-          <span class="work-body">観客参加型リアルタイム映像を含むチャリティコンサートのバックエンド / インフラ支援。nginx、Web サーバ設定、オンプレミス寄りのローカルネットワークサーバー運用を担当。</span>
-        </li>
-        <li>
-          <strong>ミライの平和活動展 in 長崎</strong>
-          <span class="work-body">長崎原爆資料館での展示活動。Researchmap の works に基づく制作・展示関連の記録。</span>
-        </li>
-      </ul>
+      <h2>Research Vision</h2>
+      <div class="cv-focus-grid">
+        <article class="cv-focus-card primary">
+          <span class="cv-focus-meta">Research Stance</span>
+          <h3>Virtual Modeling</h3>
+          <p>
+            論じようとする現象や体験を構成する重要な変数や切り口を、観測・実験・考察によって捉え、
+            それらを工学的な変数へ落とし込み、再現可能なインターフェースとして設計することを研究の姿勢としています。
+          </p>
+          <ul class="cv-focus-list">
+            <li><strong>Observe:</strong> 行動、メディアの痕跡、身体反応、利用状況から体験の構造を捉える。</li>
+            <li><strong>Model:</strong> 体験の変数や切り口を、計算機で扱える制御可能なパラメータに変換する。</li>
+            <li><strong>Reproduce:</strong> 体験を再訪・比較・実験できるインターフェースとして構成する。</li>
+          </ul>
+        </article>
+        <article class="cv-focus-card">
+          <span class="cv-focus-meta">Research Vision</span>
+          <h3>Resonating Computer</h3>
+          <p>
+            コンピュータを、情報を処理するだけでなく、人間の体験と共鳴するシステムとして捉えます。
+            刺激や手がかり、インタラクションを通じて、ある体験の想起を早めたり、良い体験を記録したり、人間理解を深めることを目指します。
+          </p>
+          <div class="cv-tags"><span>Stimulation</span><span>Recall</span><span>Recording</span><span>Human Understanding</span></div>
+        </article>
+        <article class="cv-focus-card">
+          <span class="cv-focus-meta">Design Target</span>
+          <h3>価値ある体験を支えるインターフェース</h3>
+          <p>
+            体性感覚刺激、記憶の手がかり、創造的システム、公共空間での実装を横断しながら、
+            人が「よい」と感じる体験の創発・想起・記録を支援するインターフェースを設計します。
+          </p>
+          <div class="cv-tags"><span>Somatosensory Interface</span><span>Memory Cue</span><span>Creative System</span><span>Public Interface</span></div>
+        </article>
+      </div>
     </section>
 
     <section class="cv-box cv-section">
@@ -753,35 +882,35 @@
           <span class="cv-year">2026</span>
           <span>
             <strong class="cv-entry-title">Detecting Cross-Area Concept Links in HCI Using Persistent Homology</strong>
-            <span class="cv-entry-sub">CHI EA 2026. DOI: 10.1145/3772363.3798751</span>
+            <span class="cv-entry-sub">CHI EA 2026. DOI: <a class="cv-link" href="https://doi.org/10.1145/3772363.3798751" target="_blank" rel="noopener">10.1145/3772363.3798751</a></span>
           </span>
         </div>
         <div class="cv-timeline-item">
           <span class="cv-year">2026</span>
           <span>
             <strong class="cv-entry-title">Visceral Resonance: Augmenting Speech Listening with Prominence-Synchronized Electrical Muscle Stimulation</strong>
-            <span class="cv-entry-sub">Augmented Humans 2026. DOI: 10.1145/3795011.3797423</span>
+            <span class="cv-entry-sub">Augmented Humans 2026. DOI: <a class="cv-link" href="https://doi.org/10.1145/3795011.3797423" target="_blank" rel="noopener">10.1145/3795011.3797423</a></span>
           </span>
         </div>
         <div class="cv-timeline-item">
           <span class="cv-year">2025</span>
           <span>
             <strong class="cv-entry-title">Enhancing Vocabulary Learning by the Representation of the Meaning of Words with Binaural Audio</strong>
-            <span class="cv-entry-sub">Transactions of Human Interface Society, 27(4). DOI: 10.11184/his.27.4_249</span>
+            <span class="cv-entry-sub">Transactions of Human Interface Society, 27(4). DOI: <a class="cv-link" href="https://doi.org/10.11184/his.27.4_249" target="_blank" rel="noopener">10.11184/his.27.4_249</a></span>
           </span>
         </div>
         <div class="cv-timeline-item">
           <span class="cv-year">2025</span>
           <span>
             <strong class="cv-entry-title">Floating Captions: Eyetracking-based Context-aware Captioning System for Immersive VR Contents</strong>
-            <span class="cv-entry-sub">ETRA 2025. DOI: 10.1145/3715669.3726816</span>
+            <span class="cv-entry-sub">ETRA 2025. DOI: <a class="cv-link" href="https://doi.org/10.1145/3715669.3726816" target="_blank" rel="noopener">10.1145/3715669.3726816</a></span>
           </span>
         </div>
         <div class="cv-timeline-item">
           <span class="cv-year">2025</span>
           <span>
             <strong class="cv-entry-title">The Effect of an Avatar on Gaze Guidance: An Eye-Tracking Study of Historical Photograph Appreciation</strong>
-            <span class="cv-entry-sub">HAI 2025. DOI: 10.1145/3765766.3765857</span>
+            <span class="cv-entry-sub">HAI 2025. DOI: <a class="cv-link" href="https://doi.org/10.1145/3765766.3765857" target="_blank" rel="noopener">10.1145/3765766.3765857</a></span>
           </span>
         </div>
       </div>
@@ -797,28 +926,27 @@
 
     <section class="cv-box cv-section">
       <h2>Skills</h2>
-      <div class="cv-tags">
-        <span>Interface Prototyping</span>
-        <span>Experiment Design</span>
-        <span>Creative Coding</span>
-        <span>Eye Tracking</span>
-        <span>Python / JavaScript</span>
-        <span>TypeScript</span>
-        <span>Rust</span>
-        <span>Nim</span>
-        <span>C++ / C#</span>
-        <span>PyTorch</span>
-        <span>Unity</span>
-        <span>openFrameworks</span>
-        <span>Arduino</span>
-        <span>Docker</span>
-        <span>nginx</span>
-        <span>CI/CD</span>
-        <span>Cloud Deployment</span>
-        <span>Local Network Server</span>
-        <span>Small-scale Infrastructure</span>
-        <span>Japanese Native</span>
-        <span>English Eiken Grade 1</span>
+      <div class="cv-skill-grid">
+        <div class="cv-skill-group">
+          <h3>Languages</h3>
+          <div class="cv-tags"><span>Japanese Native</span><span>English Eiken Grade 1</span></div>
+        </div>
+        <div class="cv-skill-group">
+          <h3>Programming</h3>
+          <div class="cv-tags"><span>Python</span><span>JavaScript / TypeScript</span><span>Rust</span><span>Nim</span><span>C++ / C#</span></div>
+        </div>
+        <div class="cv-skill-group">
+          <h3>Frameworks / Devices</h3>
+          <div class="cv-tags"><span>PyTorch</span><span>Unity</span><span>openFrameworks</span><span>Arduino</span></div>
+        </div>
+        <div class="cv-skill-group">
+          <h3>Infrastructure</h3>
+          <div class="cv-tags"><span>Docker</span><span>nginx</span><span>CI/CD</span><span>Cloud Deployment</span><span>Local Network Server</span><span>Small-scale Infrastructure</span></div>
+        </div>
+        <div class="cv-skill-group">
+          <h3>Domain</h3>
+          <div class="cv-tags"><span>Interface Prototyping</span><span>Experiment Design</span><span>Creative Coding</span><span>Eye Tracking</span><span>Signal Processing</span><span>Human-Computer Interaction</span><span>Virtual Reality</span></div>
+        </div>
       </div>
     </section>
 
