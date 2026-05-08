@@ -289,13 +289,77 @@
             position: fixed;
             bottom: 10px;
             right: 10px;
+            display: flex;
+            gap: 8px;
             font-size: 0.8rem;
             z-index: 1100;
         }
 
         #simple-summary-link a {
-            color: var(--accent-color-1);
+            position: relative;
+            border: 1px solid rgba(193, 193, 193, 0.45);
+            background: rgba(10, 10, 10, 0.74);
+            color: var(--terminal-text);
+            overflow: hidden;
+            padding: 7px 9px;
             text-decoration: none;
+            text-transform: uppercase;
+            letter-spacing: 0.08em;
+            isolation: isolate;
+        }
+
+        #simple-summary-link a::before,
+        #simple-summary-link a::after {
+            content: attr(data-label);
+            position: absolute;
+            inset: 7px 9px auto;
+            opacity: 0;
+            pointer-events: none;
+        }
+
+        #simple-summary-link a::before {
+            color: var(--terminal-green);
+            transform: translateX(-2px);
+        }
+
+        #simple-summary-link a::after {
+            color: var(--terminal-red);
+            transform: translateX(2px);
+        }
+
+        #simple-summary-link a:hover,
+        #simple-summary-link a:focus-visible {
+            animation: navGlitch 420ms steps(2, end) both;
+            border-color: var(--terminal-green);
+        }
+
+        #simple-summary-link a:hover::before,
+        #simple-summary-link a:hover::after,
+        #simple-summary-link a:focus-visible::before,
+        #simple-summary-link a:focus-visible::after {
+            opacity: 0.86;
+            animation: textSplit 560ms steps(2, end) both;
+        }
+
+        #simple-summary-link a:hover span,
+        #simple-summary-link a:focus-visible span {
+            opacity: 0.7;
+        }
+
+        @keyframes navGlitch {
+            0% { transform: translate(0) skewX(0deg); filter: none; }
+            25% { transform: translate(-2px, 1px) skewX(-8deg); filter: contrast(1.5); }
+            50% { transform: translate(3px, -1px) skewX(7deg); }
+            75% { transform: translate(-1px, 0) skewX(-3deg); }
+            100% { transform: translate(0) skewX(0deg); filter: none; }
+        }
+
+        @keyframes textSplit {
+            0% { clip-path: inset(0 0 75% 0); }
+            25% { clip-path: inset(22% 0 46% 0); }
+            50% { clip-path: inset(54% 0 18% 0); }
+            75% { clip-path: inset(8% 0 68% 0); }
+            100% { clip-path: inset(0 0 0 0); opacity: 0; }
         }
 
         /* Responsive design */
@@ -1432,6 +1496,10 @@ For technical support, contact system administrator.`;
         // Start loading sequence
         window.onload = function () {
             displayLoadingItems();
+            const summaryLinks = document.getElementById('simple-summary-link');
+            if (summaryLinks) {
+                summaryLinks.innerHTML = '<a href="summary.html" data-label="Home"><span>Home</span></a><a href="../ja/summary.html" data-label="JP"><span>JP</span></a>';
+            }
         };
     </script>
     <div id="simple-summary-link"><a href="summary.html">Plain summary page</a> | <a href="../ja/summary.html">日本語</a>

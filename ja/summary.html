@@ -2,96 +2,907 @@
 <html lang="ja">
 <head>
   <meta charset="UTF-8">
-  <title>KSK432 - 紹介</title>
+  <title>KSK432 - CV</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="../style.css">
   <style>
     :root {
-      --accent-color: #ffd700;
+      --paper: #f2f0e6;
+      --paper-deep: #ded9c7;
+      --ink: #151512;
+      --muted: #5f5b50;
+      --line: #24231f;
+      --signal: #00f0ff;
+      --signal-2: #ff2d95;
+      --warn: #d2b15f;
     }
-    h1 { color: var(--accent-color); }
-    #navbar { border-bottom-color: var(--accent-color); }
-    .menu-link::after { background-color: var(--accent-color); }
-    .menu-link:hover, .menu-link.active { color: var(--accent-color); }
-    .menu-link.active::after { background-color: var(--accent-color); }
-    .profile-photo { width: 200px; border-radius: 50%; margin: 0 auto 1rem; display: block; border: 3px solid var(--accent-color); }
+
+    body.cv-body {
+      min-height: 100vh;
+      background:
+        linear-gradient(rgba(20, 20, 18, 0.02) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(20, 20, 18, 0.018) 1px, transparent 1px),
+        var(--paper);
+      background-size: 32px 32px;
+      color: var(--ink);
+      font-family: "Segoe UI", "Hiragino Sans", "Yu Gothic", Meiryo, sans-serif;
+      letter-spacing: 0;
+    }
+
+    body.cv-body::before {
+      content: "";
+      position: fixed;
+      inset: 0;
+      pointer-events: none;
+      background: repeating-linear-gradient(
+        0deg,
+        rgba(255, 255, 255, 0.14) 0,
+        rgba(255, 255, 255, 0.14) 1px,
+        transparent 1px,
+        transparent 5px
+      );
+      mix-blend-mode: multiply;
+      opacity: 0.11;
+      z-index: 2;
+    }
+
+    #navbar.cv-nav {
+      background: rgba(242, 240, 230, 0.94);
+      border-bottom: 2px solid var(--line);
+      backdrop-filter: blur(10px);
+    }
+
+    .cv-nav .menu-link {
+      color: var(--ink);
+      font-size: 0.9rem;
+      font-weight: 700;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      text-shadow: none;
+    }
+
+    .cv-nav .menu-link::after,
+    .cv-nav .menu-link.active::after {
+      background: var(--line);
+    }
+
+    .cv-nav .menu-link:hover,
+    .cv-nav .menu-link.active {
+      color: var(--ink);
+    }
+
+    .cv-stage {
+      width: min(1120px, calc(100% - 32px));
+      margin: 0 auto;
+      padding: 112px 0 56px;
+    }
+
+    .cv-grid {
+      display: grid;
+      grid-template-columns: minmax(0, 1.35fr) 330px;
+      gap: 18px;
+      align-items: stretch;
+    }
+
+    .cv-box {
+      position: relative;
+      border: 1px solid var(--line);
+      background: rgba(248, 246, 236, 0.94);
+      color: var(--ink);
+      box-shadow: none;
+      overflow: hidden;
+      animation: cvMaterialize 520ms cubic-bezier(0.16, 1, 0.3, 1) both;
+    }
+
+    .cv-box::before {
+      content: "";
+      position: absolute;
+      inset: 0 auto 0 0;
+      width: 3px;
+      background: rgba(36, 35, 31, 0.74);
+    }
+
+    .cv-box::after {
+      content: "";
+      position: absolute;
+      inset: 0;
+      pointer-events: none;
+      background:
+        linear-gradient(90deg, rgba(36, 35, 31, 0.035), transparent 18%),
+        radial-gradient(circle at 100% 0, rgba(36, 35, 31, 0.045), transparent 32%);
+    }
+
+    .cv-hero {
+      padding: 42px 46px 40px 56px;
+    }
+
+    .cv-panel {
+      display: flex;
+      flex-direction: column;
+      min-height: 100%;
+      padding: 28px 26px 26px 34px;
+      animation-delay: 120ms;
+    }
+
+    .cv-kicker {
+      margin: 0 0 12px;
+      color: var(--muted);
+      font-size: 12px;
+      font-weight: 800;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+    }
+
+    .cv-hero h1 {
+      margin: 0;
+      color: var(--ink);
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: clamp(48px, 8vw, 96px);
+      font-weight: 500;
+      line-height: 0.9;
+    }
+
+    .cv-title {
+      max-width: 780px;
+      margin: 26px 0 0;
+      color: var(--ink);
+      font-size: clamp(20px, 2.5vw, 28px);
+      font-weight: 800;
+      line-height: 1.5;
+    }
+
+    .cv-lead {
+      max-width: 780px;
+      margin: 18px 0 0;
+      color: var(--muted);
+      font-size: 15px;
+      line-height: 1.9;
+    }
+
+    .cv-motion {
+      position: absolute;
+      top: 20px;
+      right: 20px;
+      width: 150px;
+      height: 150px;
+      pointer-events: none;
+      opacity: 0.32;
+    }
+
+    .cv-motion span {
+      position: absolute;
+      display: block;
+    }
+
+    .cv-motion .ring {
+      inset: 18px;
+      border: 1px solid rgba(36, 35, 31, 0.34);
+      border-radius: 50%;
+    }
+
+    .cv-motion .ring::before,
+    .cv-motion .ring::after {
+      content: "";
+      position: absolute;
+      border: 1px solid rgba(36, 35, 31, 0.34);
+      border-radius: 50%;
+    }
+
+    .cv-motion .ring::before {
+      inset: 19px;
+    }
+
+    .cv-motion .ring::after {
+      inset: -13px;
+      border-style: dashed;
+    }
+
+    .cv-motion .scan {
+      left: 30px;
+      right: 30px;
+      top: 50%;
+      height: 1px;
+      background: rgba(36, 35, 31, 0.32);
+    }
+
+    .cv-motion .node {
+      width: 12px;
+      height: 12px;
+      right: 18px;
+      bottom: 22px;
+      border: 1px solid var(--line);
+    }
+
+    .cv-actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin-top: 30px;
+    }
+
+    .glitch-button {
+      position: relative;
+      display: inline-flex;
+      align-items: center;
+      min-height: 42px;
+      border: 1px solid var(--line);
+      background: var(--line);
+      color: var(--paper);
+      padding: 10px 14px;
+      overflow: hidden;
+      text-decoration: none;
+      font-family: "Courier New", monospace;
+      font-size: 13px;
+      font-weight: 700;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      isolation: isolate;
+    }
+
+    .glitch-button.secondary {
+      background: transparent;
+      color: var(--line);
+      opacity: 0.82;
+    }
+
+    .glitch-button.secondary:hover,
+    .glitch-button.secondary:focus-visible {
+      opacity: 1;
+    }
+
+    .glitch-button::before,
+    .glitch-button::after {
+      content: attr(data-label);
+      position: absolute;
+      inset: 10px 14px auto;
+      opacity: 0;
+      pointer-events: none;
+    }
+
+    .glitch-button::before {
+      color: var(--signal);
+      transform: translateX(-2px);
+    }
+
+    .glitch-button::after {
+      color: var(--signal-2);
+      transform: translateX(2px);
+    }
+
+    .glitch-button span {
+      position: relative;
+      z-index: 2;
+    }
+
+    .glitch-button:hover,
+    .glitch-button:focus-visible {
+      background: rgba(36, 35, 31, 0.92);
+    }
+
+    .glitch-button:hover::before,
+    .glitch-button:hover::after,
+    .glitch-button:focus-visible::before,
+    .glitch-button:focus-visible::after {
+      opacity: 0.36;
+    }
+
+    .glitch-button:hover span,
+    .glitch-button:focus-visible span {
+      opacity: 0.76;
+    }
+
+    .cv-panel h2,
+    .cv-section h2,
+    .cv-card h3,
+    .cv-body strong,
+    .cv-body b,
+    .cv-body h1,
+    .cv-body h2,
+    .cv-body h3 {
+      margin: 0;
+      color: var(--ink);
+      text-shadow: none;
+    }
+
+    .cv-panel h2 {
+      font-size: 20px;
+      letter-spacing: 0.02em;
+    }
+
+    .cv-portrait {
+      width: 108px;
+      height: 108px;
+      object-fit: cover;
+      display: block;
+      margin: 0 0 18px;
+      border: 1px solid rgba(36, 35, 31, 0.58);
+      filter: grayscale(0.18) contrast(0.94);
+    }
+
+    .cv-panel p,
+    .cv-card p,
+    .cv-list li {
+      color: var(--muted);
+      line-height: 1.8;
+    }
+
+    .cv-meta {
+      display: grid;
+      gap: 12px;
+      margin-top: 22px;
+      font-size: 13px;
+    }
+
+    .cv-meta div {
+      border-top: 1px solid rgba(36, 35, 31, 0.2);
+      padding-top: 10px;
+    }
+
+    .cv-meta strong {
+      display: block;
+      color: var(--ink);
+      font-size: 11px;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+    }
+
+    .cv-section {
+      margin-top: 18px;
+      padding: 24px 28px 28px 34px;
+    }
+
+    .cv-section h2 {
+      border-top: 1px solid rgba(36, 35, 31, 0.42);
+      padding-top: 10px;
+      padding-left: 0;
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: 25px;
+      font-weight: 500;
+      line-height: 1.2;
+    }
+
+    .cv-card-grid {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 12px;
+      margin-top: 18px;
+    }
+
+    .cv-card {
+      border: 1px solid rgba(36, 35, 31, 0.34);
+      background: rgba(222, 217, 199, 0.22);
+      padding: 14px;
+      animation: cvCardRise 420ms ease both;
+    }
+
+    .cv-card:nth-child(2) {
+      animation-delay: 80ms;
+    }
+
+    .cv-card:nth-child(3) {
+      animation-delay: 160ms;
+    }
+
+    .cv-card .tag {
+      display: inline-flex;
+      margin-bottom: 10px;
+      background: rgba(36, 35, 31, 0.82);
+      color: var(--paper);
+      padding: 4px 7px;
+      font-family: "Courier New", monospace;
+      font-size: 11px;
+      font-weight: 700;
+    }
+
+    .cv-card h3 {
+      font-size: 16px;
+      line-height: 1.45;
+    }
+
+    .cv-list {
+      display: grid;
+      gap: 10px;
+      margin: 18px 0 0;
+      padding: 0;
+      list-style: none;
+    }
+
+    .cv-list li {
+      border: 1px solid rgba(36, 35, 31, 0.32);
+      background:
+        linear-gradient(90deg, rgba(36, 35, 31, 0.055), transparent 34%),
+        rgba(222, 217, 199, 0.22);
+      padding: 0;
+      overflow: hidden;
+    }
+
+    .cv-list strong {
+      display: block;
+      margin: 0 0 8px;
+      background: rgba(36, 35, 31, 0.88);
+      color: var(--ink);
+      color: var(--paper);
+      padding: 7px 10px;
+      font-family: "Courier New", monospace;
+      font-size: 12px;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+    }
+
+    .cv-list .work-body {
+      display: block;
+      padding: 0 13px 12px;
+    }
+
+    .decode-text {
+      display: inline;
+      min-height: 1em;
+    }
+
+    .decode-text.is-decoding {
+      color: var(--ink);
+      text-shadow: none;
+    }
+
+    .cv-tags {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-top: 18px;
+    }
+
+    .cv-tags span {
+      border: 1px solid rgba(36, 35, 31, 0.5);
+      background: rgba(248, 246, 236, 0.72);
+      padding: 6px 8px;
+      color: var(--ink);
+      font-size: 12px;
+      font-weight: 700;
+    }
+
+    .cv-timeline {
+      display: grid;
+      gap: 10px;
+      margin: 18px 0 0;
+    }
+
+    .cv-timeline-item {
+      display: grid;
+      grid-template-columns: 120px minmax(0, 1fr);
+      gap: 14px;
+      border-top: 1px solid rgba(36, 35, 31, 0.22);
+      padding-top: 10px;
+    }
+
+    .cv-year {
+      color: var(--muted);
+      font-family: "Courier New", monospace;
+      font-size: 12px;
+      font-weight: 700;
+    }
+
+    .cv-entry-title {
+      display: block;
+      color: var(--ink);
+      font-weight: 800;
+      line-height: 1.5;
+    }
+
+    .cv-entry-sub {
+      display: block;
+      color: var(--muted);
+      font-size: 13px;
+      line-height: 1.7;
+    }
+
+    .cv-two-column {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 18px;
+    }
+
+    footer.cv-footer {
+      border-top: 1px solid var(--line);
+      background: rgba(242, 240, 230, 0.92);
+      color: var(--muted);
+    }
+
+    @keyframes cvMaterialize {
+      0% {
+        opacity: 0;
+        clip-path: inset(0 100% 0 0);
+        transform: translateY(12px);
+        filter: contrast(1.5);
+      }
+      38% {
+        opacity: 1;
+        transform: translate(-2px, 2px);
+      }
+      58% {
+        clip-path: inset(0 0 0 0);
+        transform: translate(2px, -1px);
+      }
+      100% {
+        opacity: 1;
+        clip-path: inset(0 0 0 0);
+        transform: translateY(0);
+        filter: none;
+      }
+    }
+
+    @keyframes cvCardRise {
+      from {
+        opacity: 0;
+        transform: translateY(10px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+
+    @media (max-width: 860px) {
+      #navbar ul {
+        flex-wrap: wrap;
+        gap: 8px 14px;
+        padding: 0.8rem 1rem;
+      }
+
+      #navbar li {
+        margin: 0;
+      }
+
+      .cv-stage {
+        width: min(100% - 20px, 1120px);
+        padding-top: 126px;
+      }
+
+      .cv-grid,
+      .cv-card-grid,
+      .cv-two-column {
+        grid-template-columns: 1fr;
+      }
+
+      .cv-timeline-item {
+        grid-template-columns: 1fr;
+        gap: 4px;
+      }
+
+      .cv-hero {
+        padding: 34px 24px 30px 34px;
+      }
+
+      .cv-motion {
+        position: relative;
+        top: auto;
+        right: auto;
+        margin: 20px 0 0 auto;
+      }
+    }
   </style>
 </head>
-<body>
-  <nav id="navbar">
+<body class="cv-body">
+  <nav id="navbar" class="cv-nav">
     <ul>
-      <li><a class="menu-link" href="../en/index.html">Home</a></li>
       <li><a class="menu-link" href="../en/works.html">Works</a></li>
-      <li><a class="menu-link" href="../en/summary.html">English</a></li>
-      <li><a class="menu-link active" href="summary.html">日本語</a></li>
+      <li><a class="menu-link" href="publications.html">Publications</a></li>
+      <li><a class="menu-link active" href="summary.html">Home</a></li>
+      <li><a class="menu-link" href="../en/index.html">Terminal DB</a></li>
+      <li><a class="menu-link" href="../en/summary.html">EN</a></li>
     </ul>
   </nav>
 
-  <main class="container">
-    <section>
-      <h1>プロフィール</h1>
-      <img src="../image/selfportrait.png" alt="Kosuke Shimizu" class="profile-photo">
-      <p><strong>氏名:</strong> 清水紘輔</p>
-      <p><strong>所属:</strong> 筑波大学 情報学群情報メディア創成学類</p>
-      <p><strong>研究キーワード:</strong> Technology-Enhanced Learning, ヒューマンコンピュータインタラクション</p>
-      <p><strong>研究分野:</strong> 認知科学・学習支援システム・感性情報学・ヒューマンインタフェース</p>
+  <main class="cv-stage">
+    <div class="cv-grid">
+      <section class="cv-box cv-hero" aria-labelledby="cv-title">
+        <div class="cv-motion" aria-hidden="true">
+          <span class="ring"></span>
+          <span class="scan"></span>
+          <span class="node"></span>
+        </div>
+        <p class="cv-kicker">Portfolio / Curriculum Vitae</p>
+        <h1 id="cv-title">Kosuke Shimizu</h1>
+        <p class="cv-title decode-text" data-text="体験の創発・想起・記録を支えるインターフェースを設計する。">体験の創発・想起・記録を支えるインターフェースを設計する。</p>
+        <p class="cv-lead decode-text" data-text="論じようとする現象や体験を構成する重要な変数を、観測・実験・考察によって捉え、それらを工学的な変数へ落とし込み、再現可能なインターフェースとして設計することを研究の姿勢としています。">
+          論じようとする現象や体験を構成する重要な変数を、観測・実験・考察によって捉え、
+          それらを工学的な変数へ落とし込み、再現可能なインターフェースとして設計することを研究の姿勢としています。
+        </p>
+        <div class="cv-actions">
+          <a class="glitch-button" data-label="VIEW WORKS" href="../en/works.html">
+            <span>VIEW WORKS</span>
+          </a>
+          <a class="glitch-button secondary" data-label="DETAIL TERMINAL" href="../en/index.html">
+            <span>DETAIL TERMINAL</span>
+          </a>
+        </div>
+      </section>
+
+      <aside class="cv-box cv-panel">
+        <img src="../image/cv-portrait.jpg" alt="Kosuke Shimizu portrait" class="cv-portrait">
+        <h2>Current Status</h2>
+        <p class="decode-text" data-text="筑波大学で HCI とメディア技術を軸に、身体・記憶・目標達成を支えるインターフェースの研究と制作を行っています。詳細な記録や実験的なノートは、補助的な Terminal DB から探索できます。">
+          筑波大学で HCI とメディア技術を軸に、身体・記憶・目標達成を支えるインターフェースの研究と制作を行っています。
+          詳細な記録や実験的なノートは、補助的な Terminal DB から探索できます。
+        </p>
+        <div class="cv-meta">
+          <div>
+            <strong>Affiliation</strong>
+            筑波大学 情報学群 情報メディア創成学類
+          </div>
+          <div>
+            <strong>Status</strong>
+            Undergraduate Student / Interface Researcher
+          </div>
+          <div>
+            <strong>Fields</strong>
+            HCI / Human Augmentation / Ubiquitous Systems / Media Technology
+          </div>
+          <div>
+            <strong>Current Focus</strong>
+            Experience design, memory cues, somatosensory interfaces, and creative systems.
+          </div>
+          <div>
+            <strong>Contact</strong>
+            shimizu [at] ai.iit.tsukuba.ac.jp
+          </div>
+        </div>
+      </aside>
+    </div>
+
+    <section class="cv-box cv-section">
+      <h2>Research Threads</h2>
+      <div class="cv-card-grid">
+        <article class="cv-card">
+          <span class="tag">T1</span>
+          <h3>体性感覚刺激インターフェース</h3>
+          <p>人間の身体にどのような刺激を送ることで、体験している感覚を誘発できるのかを検討します。</p>
+        </article>
+        <article class="cv-card">
+          <span class="tag">T2</span>
+          <h3>記憶と再接続する環境</h3>
+          <p>ユーザーが過去の思い出と再びつながれるよう、さりげなく促すユビキタスなインターフェースを設計します。</p>
+        </article>
+        <article class="cv-card">
+          <span class="tag">T3</span>
+          <h3>能力を拡張する計算機システム</h3>
+          <p>目標達成を支えるために、人間が本来備えている能力や特性を強化する AI / 人間拡張システムを扱います。</p>
+        </article>
+      </div>
+      <p class="cv-entry-sub" style="margin-top: 18px;">
+        Other adjacent interests include:
+      </p>
+      <div class="cv-tags">
+        <span>Science of Science</span>
+        <span>Media Criticism</span>
+        <span>Artificial Life</span>
+        <span>Creative Interface</span>
+      </div>
     </section>
 
-    <section>
-      <h1>学歴</h1>
-      <ul>
-        <li>筑波大学 情報学群情報メディア創成学類 (2024年4月〜 在学中)</li>
-        <li>山形県立東桜学館高等学校 (2021年4月〜2024年3月)</li>
+    <section class="cv-box cv-section">
+      <h2>Experience / Education</h2>
+      <div class="cv-two-column">
+        <div>
+          <div class="cv-timeline">
+            <div class="cv-timeline-item">
+              <span class="cv-year">2025 -- Present</span>
+              <span>
+                <strong class="cv-entry-title">Visiting Researcher, Kochi University</strong>
+                <span class="cv-entry-sub">Research activity around interfaces, sensing, and human augmentation.</span>
+              </span>
+            </div>
+            <div class="cv-timeline-item">
+              <span class="cv-year">2025 -- Present</span>
+              <span>
+                <strong class="cv-entry-title">Part-time Engineer, Hobonichi Co., Ltd.</strong>
+                <span class="cv-entry-sub">Science-Magic Department / Engineering.</span>
+              </span>
+            </div>
+            <div class="cv-timeline-item">
+              <span class="cv-year">2024</span>
+              <span>
+                <strong class="cv-entry-title">Visiting Scholar, Tsinghua University</strong>
+                <span class="cv-entry-sub">Academy of Arts &amp; Design, China.</span>
+              </span>
+            </div>
+          </div>
+        </div>
+        <div>
+          <div class="cv-timeline">
+            <div class="cv-timeline-item">
+              <span class="cv-year">2024 -- Present</span>
+              <span>
+                <strong class="cv-entry-title">University of Tsukuba</strong>
+                <span class="cv-entry-sub">School of Informatics, College of Media Arts, Science and Technology.</span>
+              </span>
+            </div>
+            <div class="cv-timeline-item">
+              <span class="cv-year">2021 -- 2024</span>
+              <span>
+                <strong class="cv-entry-title">Yamagata Prefectural Touohgakkan Senior High School</strong>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="cv-box cv-section">
+      <h2>Selected Work</h2>
+      <ul class="cv-list">
+        <li>
+          <strong>Floating Captions</strong>
+          <span class="work-body">Eyetracking-based context-aware captioning system for immersive VR contents.</span>
+        </li>
+        <li>
+          <strong>Let's Pray / Play for Peace 2026</strong>
+          <span class="work-body">観客参加型リアルタイム映像を含むチャリティコンサートのバックエンド / インフラ支援。nginx、Web サーバ設定、オンプレミス寄りのローカルネットワークサーバー運用を担当。</span>
+        </li>
+        <li>
+          <strong>ミライの平和活動展 in 長崎</strong>
+          <span class="work-body">長崎原爆資料館での展示活動。Researchmap の works に基づく制作・展示関連の記録。</span>
+        </li>
       </ul>
     </section>
 
-    <section>
-      <h1>最近の発表</h1>
-      <ul>
-        <li>Floating Captions: Eyetracking-based Context-aware Captioning System for Immersive VR Contents (ETRA&nbsp;2025)</li>
-        <li>The Effect of an Avatar on Gaze Guidance: An Eye-Tracking Study of Historical Photograph Appreciation (HAI&nbsp;2025, Poster)</li>
-        <li>Emotion Overflow: An Interactive System to Represent Emotion in Fluid Dynamics (INTERACTION&nbsp;2025)</li>
-        <li>Emotion Overflow: an Interactive System to Represent Emotion with Fluid (UIST&nbsp;2024)</li>
-        <li>MoodGroove: テキストと身体動作による対話型音楽生成・編集システム (WISS&nbsp;2024)</li>
-        <li>大和歌VR Recorder (VR学会大会&nbsp;2024)</li>
-        <li>Effects of Binaural Audio on English Vocabulary Learning (ICCE&nbsp;2022)</li>
-      </ul>
+    <section class="cv-box cv-section">
+      <h2>Selected Publications</h2>
+      <div class="cv-timeline">
+        <div class="cv-timeline-item">
+          <span class="cv-year">2026</span>
+          <span>
+            <strong class="cv-entry-title">Detecting Cross-Area Concept Links in HCI Using Persistent Homology</strong>
+            <span class="cv-entry-sub">CHI EA 2026. DOI: 10.1145/3772363.3798751</span>
+          </span>
+        </div>
+        <div class="cv-timeline-item">
+          <span class="cv-year">2026</span>
+          <span>
+            <strong class="cv-entry-title">Visceral Resonance: Augmenting Speech Listening with Prominence-Synchronized Electrical Muscle Stimulation</strong>
+            <span class="cv-entry-sub">Augmented Humans 2026. DOI: 10.1145/3795011.3797423</span>
+          </span>
+        </div>
+        <div class="cv-timeline-item">
+          <span class="cv-year">2025</span>
+          <span>
+            <strong class="cv-entry-title">Enhancing Vocabulary Learning by the Representation of the Meaning of Words with Binaural Audio</strong>
+            <span class="cv-entry-sub">Transactions of Human Interface Society, 27(4). DOI: 10.11184/his.27.4_249</span>
+          </span>
+        </div>
+        <div class="cv-timeline-item">
+          <span class="cv-year">2025</span>
+          <span>
+            <strong class="cv-entry-title">Floating Captions: Eyetracking-based Context-aware Captioning System for Immersive VR Contents</strong>
+            <span class="cv-entry-sub">ETRA 2025. DOI: 10.1145/3715669.3726816</span>
+          </span>
+        </div>
+        <div class="cv-timeline-item">
+          <span class="cv-year">2025</span>
+          <span>
+            <strong class="cv-entry-title">The Effect of an Avatar on Gaze Guidance: An Eye-Tracking Study of Historical Photograph Appreciation</strong>
+            <span class="cv-entry-sub">HAI 2025. DOI: 10.1145/3765766.3765857</span>
+          </span>
+        </div>
+      </div>
+      <div class="cv-actions">
+        <a class="glitch-button secondary" data-label="PUBLICATION ONLY" href="publications.html">
+          <span>PUBLICATION ONLY</span>
+        </a>
+        <a class="glitch-button secondary" data-label="RESEARCHMAP" href="https://researchmap.jp/ksk432" target="_blank" rel="noopener">
+          <span>RESEARCHMAP</span>
+        </a>
+      </div>
     </section>
 
-    <section>
-      <h1>所属学会</h1>
-      <ul>
-        <li>日本バーチャルリアリティ学会</li>
-        <li>Institute of Electrical and Electronics Engineers</li>
-        <li>情報処理学会</li>
-        <li>Association for Computing Machinery</li>
-        <li>人工知能学会（全国大会委員）</li>
-      </ul>
+    <section class="cv-box cv-section">
+      <h2>Skills</h2>
+      <div class="cv-tags">
+        <span>Interface Prototyping</span>
+        <span>Experiment Design</span>
+        <span>Creative Coding</span>
+        <span>Eye Tracking</span>
+        <span>Python / JavaScript</span>
+        <span>TypeScript</span>
+        <span>Rust</span>
+        <span>Nim</span>
+        <span>C++ / C#</span>
+        <span>PyTorch</span>
+        <span>Unity</span>
+        <span>openFrameworks</span>
+        <span>Arduino</span>
+        <span>Docker</span>
+        <span>nginx</span>
+        <span>CI/CD</span>
+        <span>Cloud Deployment</span>
+        <span>Local Network Server</span>
+        <span>Small-scale Infrastructure</span>
+        <span>Japanese Native</span>
+        <span>English Eiken Grade 1</span>
+      </div>
     </section>
 
-    <section>
-      <h1>作品</h1>
-      <ul>
-        <li>赤羽鯨の詩 (2024)</li>
-      </ul>
+    <section class="cv-box cv-section">
+      <h2>Programs / Service</h2>
+      <div class="cv-two-column">
+        <div>
+          <div class="cv-timeline">
+            <div class="cv-timeline-item">
+              <span class="cv-year">2025 -- 2026</span>
+              <span>
+                <strong class="cv-entry-title">The Nippon Foundation HUMAI Program</strong>
+                <span class="cv-entry-sub">Principal Investigator.</span>
+              </span>
+            </div>
+            <div class="cv-timeline-item">
+              <span class="cv-year">2023 -- 2024</span>
+              <span>
+                <strong class="cv-entry-title">SICA Program / MiTOHOKU Program</strong>
+                <span class="cv-entry-sub">METI AKATSUKI Project.</span>
+              </span>
+            </div>
+          </div>
+        </div>
+        <div>
+          <div class="cv-timeline">
+            <div class="cv-timeline-item">
+              <span class="cv-year">2025 --</span>
+              <span>
+                <strong class="cv-entry-title">National Conference Committee Member</strong>
+                <span class="cv-entry-sub">The Japanese Society for Artificial Intelligence.</span>
+              </span>
+            </div>
+            <div class="cv-timeline-item">
+              <span class="cv-year">Memberships</span>
+              <span>
+                <strong class="cv-entry-title">ACM / IEEE / IPSJ / VRSJ / JSAI</strong>
+                <span class="cv-entry-sub">Academic and professional societies.</span>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
-    
-    <section>
-      <h1>展示</h1>
-      <ul>
-        <li>東京大学大学院 渡邉英徳研究室：「ミライの平和活動展」；長崎原爆資料館，2025年8月10日〜17日</li>
-      </ul>
-    </section>
-
-    <section>
-      <h1>問い合わせ</h1>
-      <p>お問い合わせは <a href="https://x.com/hong_shui26288" target="_blank" rel="noopener">Twitter/X (@hong_shui26288)</a> または shimizu[at]ai.iit.tsukuba.ac.jp まで（スパム対策のため表記を一部変更しています）。</p>
-    </section>
-
   </main>
 
-  <footer>
-    <p>&copy; 2025 ksk432. All Rights Reserved.</p>
+  <footer class="cv-footer">
+    <p>&copy; 2026 ksk432. All Rights Reserved.</p>
   </footer>
+  <script>
+    const glyphs = '縺繧螟荳譁譛諠蜿髢險倬鹸0123456789::/[]{}';
+    const decodeTargets = document.querySelectorAll('.decode-text[data-text]');
+
+    decodeTargets.forEach((target, targetIndex) => {
+      const finalText = target.dataset.text;
+      let frame = 0;
+      target.classList.add('is-decoding');
+      target.textContent = '';
+
+      const tick = () => {
+        const progress = Math.min(frame / 22, 1);
+        const clearCount = Math.floor(finalText.length * progress);
+        let nextText = finalText.slice(0, clearCount);
+
+        for (let i = clearCount; i < finalText.length; i += 1) {
+          const source = finalText.charAt(i);
+          nextText += source === ' ' || source === '\n'
+            ? source
+            : glyphs.charAt((i + frame + targetIndex * 7) % glyphs.length);
+        }
+
+        target.textContent = nextText;
+        frame += 1;
+
+        if (progress < 1) {
+          window.setTimeout(tick, 18 + targetIndex * 4);
+        } else {
+          target.textContent = finalText;
+          target.classList.remove('is-decoding');
+        }
+      };
+
+      window.setTimeout(tick, 120 + targetIndex * 90);
+    });
+  </script>
 </body>
 </html>

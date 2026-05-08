@@ -5,44 +5,109 @@
   <title>KSK432 - Works</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="../style.css">
+  <style>
+    :root { --paper: #f2f0e6; --ink: #151512; --muted: #5f5b50; --line: #24231f; }
+    body.works-body { min-height: 100vh; background: linear-gradient(rgba(20,20,18,.02) 1px, transparent 1px), linear-gradient(90deg, rgba(20,20,18,.018) 1px, transparent 1px), var(--paper); background-size: 32px 32px; color: var(--ink); font-family: "Segoe UI", "Helvetica Neue", Arial, sans-serif; letter-spacing: 0; }
+    #navbar.works-nav { background: rgba(242,240,230,.94); border-bottom: 2px solid var(--line); backdrop-filter: blur(10px); }
+    .works-nav .menu-link { color: var(--ink); font-size: .9rem; font-weight: 700; letter-spacing: .08em; text-shadow: none; text-transform: uppercase; }
+    .works-nav .menu-link::after, .works-nav .menu-link.active::after { background: var(--line); }
+    .works-stage { width: min(1080px, calc(100% - 32px)); margin: 0 auto; padding: 112px 0 56px; }
+    .works-hero, .work-card { position: relative; border: 1px solid var(--line); background: rgba(248,246,236,.94); color: var(--ink); }
+    .works-hero::before, .work-card::before { content: ""; position: absolute; inset: 0 auto 0 0; width: 3px; background: rgba(36,35,31,.74); }
+    h1, h2, h3, strong { text-shadow: none; }
+    .works-hero { padding: 36px 40px 38px 48px; }
+    .works-kicker { margin: 0 0 10px; color: var(--muted); font-size: 12px; font-weight: 800; letter-spacing: .14em; text-transform: uppercase; }
+    h1 { margin: 0; font-family: Georgia, "Times New Roman", serif; font-size: clamp(42px, 7vw, 82px); font-weight: 500; line-height: .95; }
+    .works-lead { max-width: 760px; margin: 20px 0 0; color: var(--muted); line-height: 1.8; }
+    .works-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 16px; margin-top: 18px; }
+    .work-card { display: grid; grid-template-columns: 180px minmax(0, 1fr); min-height: 190px; overflow: hidden; }
+    .work-card.no-image { grid-template-columns: 1fr; }
+    .work-card img { width: 100%; height: 100%; object-fit: cover; filter: grayscale(.15) contrast(.94); border-right: 1px solid rgba(36,35,31,.36); }
+    .work-content { padding: 20px 22px 22px 28px; }
+    .work-meta { display: inline-flex; margin-bottom: 10px; background: rgba(36,35,31,.84); color: var(--paper); padding: 4px 7px; font-family: "Courier New", monospace; font-size: 11px; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; }
+    .work-card h2 { margin: 0; font-size: 20px; line-height: 1.35; }
+    .work-card p { margin: 10px 0 0; color: var(--muted); line-height: 1.75; }
+    .work-tags { display: flex; flex-wrap: wrap; gap: 7px; margin-top: 14px; }
+    .work-tags span { border: 1px solid rgba(36,35,31,.45); padding: 5px 7px; font-size: 12px; font-weight: 700; }
+    .work-links { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 14px; }
+    .work-links a { border: 1px solid var(--line); color: var(--line); padding: 6px 8px; font-family: "Courier New", monospace; font-size: 11px; font-weight: 700; letter-spacing: .08em; text-decoration: none; text-transform: uppercase; }
+    .work-links a:hover { background: var(--line); color: var(--paper); }
+    footer { border-top: 1px solid var(--line); background: rgba(242,240,230,.92); color: var(--muted); }
+    @media (max-width: 860px) { #navbar ul { flex-wrap: wrap; gap: 8px 14px; padding: .8rem 1rem; } #navbar li { margin: 0; } .works-stage { width: min(100% - 20px, 1080px); padding-top: 126px; } .works-grid, .work-card { grid-template-columns: 1fr; } .work-card img { height: 220px; border-right: 0; border-bottom: 1px solid rgba(36,35,31,.36); } }
+  </style>
 </head>
-<body>
-  <nav id="navbar">
+<body class="works-body">
+  <nav id="navbar" class="works-nav">
     <ul>
-      <li><a class="menu-link" href="index.html">Home</a></li>
       <li><a class="menu-link active" href="works.html">Works</a></li>
-      <li><a class="menu-link" href="summary.html">Summary</a></li>
-      <li><a class="menu-link" href="../ja/summary.html">日本語</a></li>
+      <li><a class="menu-link" href="publications.html">Publications</a></li>
+      <li><a class="menu-link" href="summary.html">Home</a></li>
+      <li><a class="menu-link" href="index.html">Terminal DB</a></li>
+      <li><a class="menu-link" href="../ja/summary.html">JP</a></li>
     </ul>
   </nav>
 
-  <main>
-    <section id="works">
+  <main class="works-stage">
+    <section class="works-hero">
+      <p class="works-kicker">Portfolio / Works</p>
       <h1>Works</h1>
-      <div class="gallery">
-        <div class="art-piece">
-          <img src="../akabanewhale.webp" alt="Whale Song Akabane" onclick="openLightbox();currentSlide(1)">
-          <div class="art-info">
-            <h2>Whale Song Akabane</h2>
-            <p>2024 | DESIGN ART2024<br>Movie Projection – Converting city sounds into whale song</p>
+      <p class="works-lead">
+        Selected creative works, exhibitions, and engineering activities around media technology,
+        embodied interfaces, and public-facing interactive systems.
+      </p>
+    </section>
+
+    <div class="works-grid">
+      <article class="work-card">
+        <img src="../akabanewhale.webp" alt="Song of Akabane Whale">
+        <div class="work-content">
+          <span class="work-meta">2024 / Artistic Activity</span>
+          <h2>Song of Akabane Whale</h2>
+          <p>Field recordings around Akabane are treated as the voice of an imagined urban whale and translated into sonic and visual expression.</p>
+          <div class="work-tags"><span>Projection</span><span>Sound</span><span>Urban Media</span></div>
+          <div class="work-links">
+            <a href="https://kujiranokoe.studio.site/" target="_blank" rel="noopener">Project Site</a>
+            <a href="https://100banch.com/magazine/65808/" target="_blank" rel="noopener">100BANCH</a>
           </div>
         </div>
-      </div>
-    </section>
+      </article>
+
+      <article class="work-card no-image">
+        <div class="work-content">
+          <span class="work-meta">2025 / Exhibition + ADADA Paper</span>
+          <h2>Mirai no Heiwa Katsudo-ten in Nagasaki</h2>
+          <p>Exhibition and research activity around historical understanding, self-salience, and media experience. Related to the ADADA 2025 paper on face morphing and viewing a Nagasaki atomic bomb film.</p>
+          <div class="work-tags"><span>Exhibition</span><span>Public Memory</span><span>ADADA 2025</span></div>
+        </div>
+      </article>
+
+      <article class="work-card no-image">
+        <div class="work-content">
+          <span class="work-meta">2025 / Artistic Activity</span>
+          <h2>The Music of the Sphere</h2>
+          <p>Creative activity developed around media expression, experiential composition, and speculative cosmological imagination.</p>
+          <div class="work-tags"><span>Media Art</span><span>Experience</span><span>Composition</span></div>
+          <div class="work-links">
+            <a href="https://note.com/tasty_cosmos44/n/n4b2f41c865d2?magazine_key=md7080ab74980" target="_blank" rel="noopener">Note</a>
+            <a href="http://elmagick.com" target="_blank" rel="noopener">ELMAGICK</a>
+          </div>
+        </div>
+      </article>
+
+      <article class="work-card no-image">
+        <div class="work-content">
+          <span class="work-meta">2026 / Backend + Infrastructure</span>
+          <h2>Let's Pray / Play for Peace 2026</h2>
+          <p>Backend and infrastructure support for a charity concert with audience-participatory realtime visuals, including nginx, web server configuration, and local network server operation.</p>
+          <div class="work-tags"><span>nginx</span><span>Local Network</span><span>Realtime Visuals</span></div>
+          <div class="work-links">
+            <a href="https://letsplayforpeace.com/" target="_blank" rel="noopener">Project Site</a>
+          </div>
+        </div>
+      </article>
+    </div>
   </main>
 
-  <div id="lightbox" class="lightbox">
-    <span class="close" onclick="closeLightbox()">&times;</span>
-    <div class="lightbox-content">
-      <img id="lightbox-img" src="" alt="">
-      <div id="caption"></div>
-    </div>
-  </div>
-
-  <footer>
-    <p>&copy; 2025 ksk432. All Rights Reserved.</p>
-  </footer>
-
-  <script src="../script.js"></script>
+  <footer><p>&copy; 2026 ksk432. All Rights Reserved.</p></footer>
 </body>
 </html>

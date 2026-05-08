@@ -2,96 +2,414 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>KSK432 - Summary</title>
+  <title>KSK432 - CV</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="../style.css">
   <style>
     :root {
-      --accent-color: #ffd700;
+      --paper: #f2f0e6;
+      --ink: #151512;
+      --muted: #5f5b50;
+      --line: #24231f;
     }
-    h1 { color: var(--accent-color); }
-    #navbar { border-bottom-color: var(--accent-color); }
-    .menu-link::after { background-color: var(--accent-color); }
-    .menu-link:hover, .menu-link.active { color: var(--accent-color); }
-    .menu-link.active::after { background-color: var(--accent-color); }
-    .profile-photo { width: 200px; border-radius: 50%; margin: 0 auto 1rem; display: block; border: 3px solid var(--accent-color); }
+
+    body.cv-body {
+      min-height: 100vh;
+      background:
+        linear-gradient(rgba(20, 20, 18, 0.02) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(20, 20, 18, 0.018) 1px, transparent 1px),
+        var(--paper);
+      background-size: 32px 32px;
+      color: var(--ink);
+      font-family: "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+      letter-spacing: 0;
+    }
+
+    #navbar.cv-nav {
+      background: rgba(242, 240, 230, 0.94);
+      border-bottom: 2px solid var(--line);
+      backdrop-filter: blur(10px);
+    }
+
+    .cv-nav .menu-link {
+      color: var(--ink);
+      font-size: 0.9rem;
+      font-weight: 700;
+      letter-spacing: 0.08em;
+      text-shadow: none;
+      text-transform: uppercase;
+    }
+
+    .cv-nav .menu-link::after,
+    .cv-nav .menu-link.active::after {
+      background: var(--line);
+    }
+
+    .cv-stage {
+      width: min(1120px, calc(100% - 32px));
+      margin: 0 auto;
+      padding: 112px 0 56px;
+    }
+
+    .cv-grid {
+      display: grid;
+      grid-template-columns: minmax(0, 1.35fr) 330px;
+      gap: 18px;
+      align-items: stretch;
+    }
+
+    .cv-box {
+      position: relative;
+      border: 1px solid var(--line);
+      background: rgba(248, 246, 236, 0.94);
+      color: var(--ink);
+      overflow: hidden;
+    }
+
+    .cv-box::before {
+      content: "";
+      position: absolute;
+      inset: 0 auto 0 0;
+      width: 3px;
+      background: rgba(36, 35, 31, 0.74);
+    }
+
+    h1,
+    h2,
+    h3,
+    strong {
+      text-shadow: none;
+    }
+
+    .cv-hero {
+      padding: 42px 46px 40px 56px;
+    }
+
+    .cv-panel {
+      min-height: 100%;
+      padding: 28px 26px 26px 34px;
+    }
+
+    .cv-portrait {
+      width: 108px;
+      height: 108px;
+      object-fit: cover;
+      display: block;
+      margin: 0 0 18px;
+      border: 1px solid rgba(36, 35, 31, 0.58);
+      filter: grayscale(0.18) contrast(0.94);
+    }
+
+    .cv-kicker {
+      margin: 0 0 12px;
+      color: var(--muted);
+      font-size: 12px;
+      font-weight: 800;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+    }
+
+    .cv-hero h1 {
+      margin: 0;
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: clamp(48px, 8vw, 96px);
+      font-weight: 500;
+      line-height: 0.9;
+    }
+
+    .cv-title {
+      max-width: 780px;
+      margin: 26px 0 0;
+      font-size: clamp(20px, 2.5vw, 28px);
+      font-weight: 800;
+      line-height: 1.5;
+    }
+
+    .cv-lead,
+    .cv-panel p,
+    .cv-entry-sub {
+      color: var(--muted);
+      line-height: 1.8;
+    }
+
+    .cv-actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin-top: 30px;
+    }
+
+    .cv-button {
+      border: 1px solid var(--line);
+      background: var(--line);
+      color: var(--paper);
+      padding: 10px 14px;
+      font-family: "Courier New", monospace;
+      font-size: 12px;
+      font-weight: 700;
+      letter-spacing: 0.08em;
+      text-decoration: none;
+      text-transform: uppercase;
+    }
+
+    .cv-button.secondary {
+      background: transparent;
+      color: var(--line);
+    }
+
+    .cv-meta,
+    .cv-timeline {
+      display: grid;
+      gap: 12px;
+      margin-top: 22px;
+      font-size: 13px;
+    }
+
+    .cv-meta div,
+    .cv-timeline-item {
+      border-top: 1px solid rgba(36, 35, 31, 0.22);
+      padding-top: 10px;
+    }
+
+    .cv-meta strong {
+      display: block;
+      color: var(--ink);
+      font-size: 11px;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+    }
+
+    .cv-section {
+      margin-top: 18px;
+      padding: 24px 28px 28px 34px;
+    }
+
+    .cv-section h2 {
+      border-top: 1px solid rgba(36, 35, 31, 0.42);
+      padding-top: 10px;
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: 25px;
+      font-weight: 500;
+      line-height: 1.2;
+    }
+
+    .cv-card-grid,
+    .cv-two-column {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 12px;
+      margin-top: 18px;
+    }
+
+    .cv-two-column {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 18px;
+    }
+
+    .cv-card {
+      border: 1px solid rgba(36, 35, 31, 0.34);
+      background: rgba(222, 217, 199, 0.22);
+      padding: 14px;
+    }
+
+    .cv-card .tag {
+      display: inline-flex;
+      margin-bottom: 10px;
+      background: rgba(36, 35, 31, 0.82);
+      color: var(--paper);
+      padding: 4px 7px;
+      font-family: "Courier New", monospace;
+      font-size: 11px;
+      font-weight: 700;
+    }
+
+    .cv-card h3 {
+      margin: 0;
+      font-size: 16px;
+      line-height: 1.45;
+    }
+
+    .cv-card p {
+      color: var(--muted);
+      line-height: 1.8;
+    }
+
+    .cv-tags {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-top: 18px;
+    }
+
+    .cv-tags span {
+      border: 1px solid rgba(36, 35, 31, 0.5);
+      background: rgba(248, 246, 236, 0.72);
+      padding: 6px 8px;
+      color: var(--ink);
+      font-size: 12px;
+      font-weight: 700;
+    }
+
+    .cv-timeline-item {
+      display: grid;
+      grid-template-columns: 120px minmax(0, 1fr);
+      gap: 14px;
+    }
+
+    .cv-year {
+      color: var(--muted);
+      font-family: "Courier New", monospace;
+      font-size: 12px;
+      font-weight: 700;
+    }
+
+    .cv-entry-title {
+      display: block;
+      color: var(--ink);
+      font-weight: 800;
+      line-height: 1.5;
+    }
+
+    footer {
+      border-top: 1px solid var(--line);
+      background: rgba(242, 240, 230, 0.92);
+      color: var(--muted);
+    }
+
+    @media (max-width: 860px) {
+      #navbar ul {
+        flex-wrap: wrap;
+        gap: 8px 14px;
+        padding: 0.8rem 1rem;
+      }
+
+      #navbar li {
+        margin: 0;
+      }
+
+      .cv-stage {
+        width: min(100% - 20px, 1120px);
+        padding-top: 126px;
+      }
+
+      .cv-grid,
+      .cv-card-grid,
+      .cv-two-column,
+      .cv-timeline-item {
+        grid-template-columns: 1fr;
+      }
+    }
   </style>
 </head>
-<body>
-  <nav id="navbar">
+<body class="cv-body">
+  <nav id="navbar" class="cv-nav">
     <ul>
-      <li><a class="menu-link" href="index.html">Home</a></li>
       <li><a class="menu-link" href="works.html">Works</a></li>
-      <li><a class="menu-link active" href="summary.html">Summary</a></li>
-      <li><a class="menu-link" href="../ja/summary.html">日本語</a></li>
+      <li><a class="menu-link" href="publications.html">Publications</a></li>
+      <li><a class="menu-link active" href="summary.html">Home</a></li>
+      <li><a class="menu-link" href="index.html">Terminal DB</a></li>
+      <li><a class="menu-link" href="../ja/summary.html">JP</a></li>
     </ul>
   </nav>
 
-  <main class="container">
-    <section>
-      <h1>Profile</h1>
-      <img src="../image/selfportrait.png" alt="Kosuke Shimizu" class="profile-photo">
-      <p><strong>Name:</strong> Kosuke Shimizu</p>
-      <p><strong>Affiliation:</strong> University of Tsukuba, School of Informatics, College of Media Arts, Science and Technology</p>
-      <p><strong>Research Interests:</strong> Technology-Enhanced Learning, Human-Computer Interaction</p>
-      <p><strong>Research Areas:</strong> Cognitive sciences; Learning support systems; Sensitivity informatics; Human interfaces and interactions</p>
+  <main class="cv-stage">
+    <div class="cv-grid">
+      <section class="cv-box cv-hero">
+        <p class="cv-kicker">Portfolio / Curriculum Vitae</p>
+        <h1>Kosuke Shimizu</h1>
+        <p class="cv-title">Designing interfaces that help create, recall, and record meaningful experiences.</p>
+        <p class="cv-lead">
+          I study the variables that compose experiences through observation, experiments, and reflection,
+          then translate them into engineering parameters for reproducible interactive systems.
+        </p>
+        <div class="cv-actions">
+          <a class="cv-button" href="works.html">View Works</a>
+          <a class="cv-button secondary" href="publications.html">Publications</a>
+          <a class="cv-button secondary" href="index.html">Terminal DB</a>
+        </div>
+      </section>
+
+      <aside class="cv-box cv-panel">
+        <img src="../image/cv-portrait.jpg" alt="Kosuke Shimizu portrait" class="cv-portrait">
+        <h2>Current Status</h2>
+        <p>
+          Undergraduate student at the University of Tsukuba, working across HCI, media technology,
+          human augmentation, and creative interface research.
+        </p>
+        <div class="cv-meta">
+          <div><strong>Affiliation</strong>University of Tsukuba, School of Informatics, College of Media Arts, Science and Technology</div>
+          <div><strong>Status</strong>Undergraduate Student / Interface Researcher</div>
+          <div><strong>Contact</strong>shimizu [at] ai.iit.tsukuba.ac.jp</div>
+        </div>
+      </aside>
+    </div>
+
+    <section class="cv-box cv-section">
+      <h2>Research Threads</h2>
+      <div class="cv-card-grid">
+        <article class="cv-card">
+          <span class="tag">T1</span>
+          <h3>Somatosensory Stimulation Interfaces</h3>
+          <p>How can bodily stimulation induce or modulate felt experience?</p>
+        </article>
+        <article class="cv-card">
+          <span class="tag">T2</span>
+          <h3>Interfaces for Reconnecting with Memory</h3>
+          <p>How can ubiquitous systems gently prompt users to reconnect with past memories?</p>
+        </article>
+        <article class="cv-card">
+          <span class="tag">T3</span>
+          <h3>Computational Systems for Human Capability</h3>
+          <p>How can AI and augmentation systems strengthen human abilities toward goal achievement?</p>
+        </article>
+      </div>
+      <p class="cv-entry-sub" style="margin-top: 18px;">Other adjacent interests include:</p>
+      <div class="cv-tags">
+        <span>Science of Science</span>
+        <span>Media Criticism</span>
+        <span>Artificial Life</span>
+        <span>Creative Interface</span>
+      </div>
     </section>
 
-    <section>
-      <h1>Education</h1>
-      <ul>
-        <li>University of Tsukuba (Apr&nbsp;2024–Present)</li>
-        <li>Yamagata Prefectural Touohgakkan Junior and Senior Highschool (Apr&nbsp;2021–Mar&nbsp;2024)</li>
-      </ul>
+    <section class="cv-box cv-section">
+      <h2>Experience / Education</h2>
+      <div class="cv-two-column">
+        <div class="cv-timeline">
+          <div class="cv-timeline-item"><span class="cv-year">2025 -- Present</span><span><strong class="cv-entry-title">Visiting Researcher, Kochi University</strong><span class="cv-entry-sub">Research activity around interfaces, sensing, and human augmentation.</span></span></div>
+          <div class="cv-timeline-item"><span class="cv-year">2025 -- Present</span><span><strong class="cv-entry-title">Part-time Engineer, Hobonichi Co., Ltd.</strong><span class="cv-entry-sub">Science-Magic Department / Engineering.</span></span></div>
+          <div class="cv-timeline-item"><span class="cv-year">2024</span><span><strong class="cv-entry-title">Visiting Scholar, Tsinghua University</strong><span class="cv-entry-sub">Academy of Arts & Design, China.</span></span></div>
+        </div>
+        <div class="cv-timeline">
+          <div class="cv-timeline-item"><span class="cv-year">2024 -- Present</span><span><strong class="cv-entry-title">University of Tsukuba</strong><span class="cv-entry-sub">School of Informatics, College of Media Arts, Science and Technology.</span></span></div>
+          <div class="cv-timeline-item"><span class="cv-year">2021 -- 2024</span><span><strong class="cv-entry-title">Yamagata Prefectural Touohgakkan Senior High School</strong></span></div>
+        </div>
+      </div>
     </section>
 
-    <section>
-      <h1>Recent Publications</h1>
-      <ul>
-        <li>Floating Captions: Eyetracking-based Context-aware Captioning System for Immersive VR Contents (ETRA&nbsp;2025)</li>
-        <li>The Effect of an Avatar on Gaze Guidance: An Eye-Tracking Study of Historical Photograph Appreciation (HAI&nbsp;2025, Poster)</li>
-        <li>Emotion Overflow: An Interactive System to Represent Emotion in Fluid Dynamics (INTERACTION&nbsp;2025)</li>
-        <li>Emotion Overflow: an Interactive System to Represent Emotion with Fluid (UIST&nbsp;2024)</li>
-        <li>MoodGroove: テキストと身体動作による対話型音楽生成・編集システム (WISS&nbsp;2024)</li>
-        <li>大和歌VR Recorder (VR学会大会&nbsp;2024)</li>
-        <li>Effects of Binaural Audio on English Vocabulary Learning (ICCE&nbsp;2022)</li>
-      </ul>
+    <section class="cv-box cv-section">
+      <h2>Selected Publications</h2>
+      <div class="cv-timeline">
+        <div class="cv-timeline-item"><span class="cv-year">2026</span><span><strong class="cv-entry-title">Detecting Cross-Area Concept Links in HCI Using Persistent Homology</strong><span class="cv-entry-sub">CHI EA 2026. DOI: 10.1145/3772363.3798751</span></span></div>
+        <div class="cv-timeline-item"><span class="cv-year">2026</span><span><strong class="cv-entry-title">Visceral Resonance: Augmenting Speech Listening with Prominence-Synchronized Electrical Muscle Stimulation</strong><span class="cv-entry-sub">Augmented Humans 2026. DOI: 10.1145/3795011.3797423</span></span></div>
+        <div class="cv-timeline-item"><span class="cv-year">2025</span><span><strong class="cv-entry-title">Enhancing Vocabulary Learning by the Representation of the Meaning of Words with Binaural Audio</strong><span class="cv-entry-sub">Transactions of Human Interface Society, 27(4). DOI: 10.11184/his.27.4_249</span></span></div>
+        <div class="cv-timeline-item"><span class="cv-year">2025</span><span><strong class="cv-entry-title">Floating Captions: Eyetracking-based Context-aware Captioning System for Immersive VR Contents</strong><span class="cv-entry-sub">ETRA 2025. DOI: 10.1145/3715669.3726816</span></span></div>
+      </div>
     </section>
 
-    <section>
-      <h1>Memberships</h1>
-      <ul>
-        <li>Virtual Reality Society Japan</li>
-        <li>Institute of Electrical and Electronics Engineers</li>
-        <li>Information Processing Society of Japan</li>
-        <li>Association for Computing Machinery</li>
-      </ul>
-    </section>
-
-    <section>
-      <h1>Works</h1>
-      <ul>
-        <li>Song of Akabane Whale (2024)</li>
-      </ul>
-    </section>
-
-    <section>
-      <h1>Exhibitions</h1>
-      <ul>
-        <li>Mirai no Heiwa Katsudō-ten (Exhibition by Watanave Lab, The University of Tokyo) — Nagasaki Atomic Bomb Museum, Aug 10–17, 2025</li>
-      </ul>
-    </section>
-
-    <section>
-      <h1>Contact</h1>
-      <p>For details see <a href="http://ksk432.com">ksk432.com</a>.</p>
-      <p>Twitter/X: <a href="https://x.com/hong_shui26288" rel="noopener" target="_blank">@hong_shui26288</a><br>
-      Email: shimizu [at] ai.iit.tsukuba.ac.jp</p>
+    <section class="cv-box cv-section">
+      <h2>Skills</h2>
+      <div class="cv-tags">
+        <span>Python</span><span>TypeScript</span><span>Rust</span><span>Nim</span><span>C++ / C#</span>
+        <span>PyTorch</span><span>Unity</span><span>openFrameworks</span><span>Arduino</span>
+        <span>Docker</span><span>nginx</span><span>CI/CD</span><span>Cloud Deployment</span>
+        <span>Japanese Native</span><span>English Eiken Grade 1</span>
+      </div>
     </section>
   </main>
 
   <footer>
-    <p>&copy; 2025 ksk432. All Rights Reserved.</p>
+    <p>&copy; 2026 ksk432. All Rights Reserved.</p>
   </footer>
 </body>
 </html>
