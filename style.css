@@ -67,7 +67,7 @@ body {
 /* 各セクション */
 section {
   padding: 6rem 2rem 4rem;
-  margin-top: 4rem;
+  margin-top: 0rem;
   border-bottom: 1px solid #333;
 }
 section h1, section h2 {
