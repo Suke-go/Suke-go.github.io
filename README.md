@@ -40,8 +40,31 @@ date: 2025-01-01
 Your content here.
 ```
 
-Run `python3 blog/generate.py` to convert all Markdown files into HTML and
-update `blog/index.html`.
+Install `blog/requirements.txt`, then run `python3 blog/generate.py` to convert
+Markdown files into HTML and update `blog/index.html`. The generated files are
+committed so GitHub Pages serves them without a server or JavaScript build.
+
+```bash
+python3 -m pip install -r blog/requirements.txt
+python3 blog/generate.py
+```
+
+The blog uses its own `blog/blog.css` for a responsive reading layout, an
+automatically generated table of contents, reading-time estimates, and print
+styles. Article dates are required (`YYYY-MM-DD`); the index lists the newest
+articles first. Optional front matter includes `lang` (`ja` or `en`), `category`,
+`tags` (comma-separated), `description`, `title_lines` (optional title breaks
+separated by `|`; the parts must reproduce the title), `cover_mark`, `cover_caption`, and
+`cover_note`. `unlisted: true` hides an entry from the index while keeping its
+URL accessible; it is not a private draft. The original Hello World sample is
+unlisted.
+
+For a paper introduction, copy `blog/templates/research-note.md` into
+`blog/posts/` with a new filename. Fill in `publication_title`,
+`publication_venue`, and either `doi` or `publication_url` to display a paper
+reference panel above the article. Keep the discussion in the Markdown body;
+the template itself is not published. Images can live under `blog/images/` and
+be referenced as `![Description](images/example.png)`.
 
 
 ## Command line shortcuts

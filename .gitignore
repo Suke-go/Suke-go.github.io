@@ -1,2 +1,4 @@
 __pycache__/
+.venv/
+.audit/
 server-3001.*.log

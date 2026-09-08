@@ -1,29 +1,64 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ja">
 <head>
   <meta charset="UTF-8">
-  <title>Blog</title>
-  <link rel="stylesheet" href="../style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="清水紘輔のブログ。研究と制作のあいだで考えたこと、立ち止まったことを書き留める。">
+  <meta name="theme-color" content="#f2f0e6">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Blog — 思考の余白。">
+  <meta property="og:description" content="清水紘輔のブログ。研究と制作のあいだで考えたこと、立ち止まったことを書き留める。">
+  <meta property="og:site_name" content="KSK432 — Blog">
+  <title>Blog — 思考の余白。 — KSK432</title>
+  <link rel="stylesheet" href="blog.css">
 </head>
-<body>
-  <nav id="navbar">
-    <ul>
-      <li><a class="menu-link" href="../en/index.html">Home</a></li>
-      <li><a class="menu-link" href="../en/works.html">Works</a></li>
-      <li><a class="menu-link" href="../en/summary.html">Summary</a></li>
-      <li><a class="menu-link active" href="index.html">Blog</a></li>
-    </ul>
-  </nav>
-  <main class="container">
-    <section>
-      <h1>Blog</h1>
-      <ul>
-        <li><a href="first-post.html">Hello World</a> <small>2025-01-01</small></li>
-      </ul>
+<body id="top">
+  <a class="skip-link" href="#main">本文へスキップ</a>
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="wordmark" href="../ja/summary.html" aria-label="KSK432 ホーム">KSK432<span> / JOURNAL</span></a>
+      <nav aria-label="メインナビゲーション">
+        <a href="../ja/summary.html">Home</a>
+        <a href="../en/works.html">Works</a>
+        <a href="../en/publications.html">Publications</a>
+        <a href="index.html" aria-current="page">Blog</a>
+        <a href="../en/index.html">Terminal</a>
+      </nav>
+    </div>
+  </header>
+  <main id="main" class="journal-page">
+    <header class="journal-intro">
+      <div class="intro-topline"><p class="eyebrow">Blog / Field notes</p><span class="eyebrow">BY KOSUKE SHIMIZU</span></div>
+      <h1>思考の余白<span>。</span></h1>
+      <div class="intro-bottomline"><p>研究と制作のあいだで、<br>考えたこと、立ち止まったことを書き留める。</p><span class="intro-topics">HUMAN / EXPERIENCE / TECHNOLOGY</span></div>
+    </header>
+    <section class="journal-entries" aria-labelledby="entries-title">
+      <div class="section-label"><h2 id="entries-title">記事一覧 <span>ENTRIES</span></h2><span>01</span></div>
+      <ol class="entry-list">
+        <li>
+          <article class="entry">
+            <div class="entry-copy">
+              <p class="eyebrow"><span>01</span><span class="label-rule"></span>Essay</p>
+              <h3><a href="vr-society-30-years.html"><span class="title-line">VR学会が30年を迎えた今、</span><span class="title-line">感じること</span></a></h3>
+              <p class="entry-description">実験を実施し、差を示し、論文にまとめることと、問いに答えることの間には距離がある。VR学会の30年を機に、人間理解へつながる研究と、工学が生み出す問いを考える。</p>
+              <div class="entry-meta"><time datetime="2026-09-08">2026.09.08</time><span>約5分</span></div>
+              <a class="read-link" href="vr-society-30-years.html" aria-label="VR学会が30年を迎えた今、感じること を読む">続きを読む <span aria-hidden="true">↗</span></a>
+            </div>
+            <a class="entry-cover" href="vr-society-30-years.html" tabindex="-1" aria-hidden="true">
+              <span class="cover-topline">YEARS OF VR <span>FIELD NOTE / 01</span></span>
+              <span class="cover-mark">30<span class="cover-orbit"></span></span>
+              <span class="cover-bottomline">人間を理解する、その先へ。<span>↗</span></span>
+            </a>
+          </article>
+        </li>
+      </ol>
     </section>
+    <aside class="journal-note"><span class="eyebrow">ABOUT THIS NOTEBOOK</span><p>論文になる前の問いも、<br>制作のあとに残る考えも。</p><a href="../ja/summary.html">書き手について <span aria-hidden="true">↗</span></a></aside>
   </main>
-  <footer>
-    <p>&copy; 2025 ksk432. All Rights Reserved.</p>
+  <footer class="site-footer">
+    <a class="wordmark" href="../ja/summary.html">KSK432</a>
+    <span>Research, making, and the thoughts in between.</span>
+    <a href="#top">ページの先頭へ <span aria-hidden="true">↑</span></a>
   </footer>
 </body>
 </html>
