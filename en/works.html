@@ -22,6 +22,8 @@
     .works-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 16px; margin-top: 18px; }
     .work-card { display: grid; grid-template-columns: 180px minmax(0, 1fr); min-height: 190px; overflow: hidden; }
     .work-card.no-image { grid-template-columns: 1fr; }
+    .work-card--studemia { grid-column: 1 / -1; grid-template-columns: minmax(0, 1.2fr) minmax(0, 1fr); scroll-margin-top: 100px; }
+    .work-card--studemia .work-poster-link img { height: auto; }
     .work-card img { width: 100%; height: 100%; object-fit: cover; filter: grayscale(.15) contrast(.94); border-right: 1px solid rgba(36,35,31,.36); }
     .work-poster-link { display: flex; align-items: center; background: #262626; border-right: 1px solid rgba(36,35,31,.36); }
     .work-poster-link img { height: auto; object-fit: contain; filter: none; border: 0; }
@@ -63,7 +65,11 @@
     </section>
 
     <div class="works-grid">
-      <article class="work-card no-image">
+      <article class="work-card work-card--studemia" id="studemia">
+        <!-- Photo supplied from https://pbs.twimg.com/media/GU0276CaIAAu1yg?format=jpg&name=large -->
+        <a class="work-poster-link" href="../image/studemia-gathering.jpg" target="_blank" rel="noopener">
+          <img src="../image/studemia-gathering.jpg" alt="Studemia participants attending a talk in a classroom with laptops and a projected presentation" width="1477" height="1108">
+        </a>
         <div class="work-content">
           <span class="work-meta">Academic Community</span>
           <h2>Studemia</h2>
