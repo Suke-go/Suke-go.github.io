@@ -27,7 +27,7 @@ HCIは、人間が使うインタラクティブな計算システムの設計�
 
 暦本先生はさらに、AIに仕事を「投げる」ことができるようになった今、新しい時代を象徴するキーワードは「indirect interface」かもしれないと述べ、SIGCHI自体が直接操作パラダイムの結果として成立したことを踏まえて、これを「CHI創設以来のグレートリセット」と呼んでいる。この見立てが正しければ、人間とコンピュータの関係がこれからどうなりうるのかという問いは、今のHCIが扱うべき中心的な問いの一つになる。
 
-この道の研究の多くは、ビジョンを示す研究になる。そこで求められるのは、作って動かしたときに初めて見える人間の変化を捉えることである。人間の知覚や行為や判断がどう変わるのかは、思考実験だけでは見えにくい。一方で、この道には失敗しやすい点が二つある。一つは評価のすり替えである。GreenbergとBuxtonは、初期段階の発明的な研究にユーザビリティ評価を課すことが、かえって研究を歪めうると指摘した[4]。未来の人間とコンピュータの関係を示す研究で使いやすさの尺度を測っても、ビジョンの価値を示したことにはならない。もう一つは、新しい技術を既存の領域に当てはめただけで終わることである。「LLM Wrapper Papers are Hurting HCI Research」[5]が批判しているように、LLMを使ってみた結果を報告するだけでは、人間とコンピュータの関係について何がわかったのかが残らない。
+この道の研究の多くは、ビジョンを示す研究になる。そこで求められるのは、作って動かしたときに初めて見える人間の変化を捉えることである。人間の知覚や行為や判断がどう変わるのかは、思考実験だけでは見えにくい。一方で、この道には失敗しやすい点が二つある。一つは評価のすり替えである。GreenbergとBuxtonは、初期段階の発明的な研究にユーザビリティ評価を課すことが、かえって研究を歪めうると指摘した[4]。未来の人間とコンピュータの関係を示す研究で使いやすさの尺度を測っても、ビジョンの価値を示したことにはならない。もう一つは、新しい技術を既存の領域に当てはめただけで終わることである。Arawjoが「LLM Wrapper Papers are Hurting HCI Research」で批判しているように[5]、LLMを使ってみた結果を報告するだけでは、人間とコンピュータの関係について何がわかったのかが残らない。
 
 ## 2. 他分野の問いを、コンピュータを用いて扱う
 
@@ -61,13 +61,13 @@ HCIでは研究者がそれぞれ独自の山を造ることが求められる�
 
 ## 参考文献
 
-1. Hewett, T. T. et al. *ACM SIGCHI Curricula for Human-Computer Interaction*. ACM, 1992.
+1. Hewett, T. T., Baecker, R., Card, S., Carey, T., Gasen, J., Mantei, M., Perlman, G., Strong, G. and Verplank, W. *ACM SIGCHI Curricula for Human-Computer Interaction*. ACM, 1992.
 2. 稲見昌彦「[HCI研究に対する私見 - CHI2024参加を終えて](https://note.com/drinami/n/nfd4921806ad3)」note, 2024.
 3. 暦本純一「[CHI2024を振り返って](https://medium.com/blog-two/chi2024%E3%82%92%E6%8C%AF%E3%82%8A%E8%BF%94%E3%81%A3%E3%81%A6-1a3bc3b60b1f)」Medium, 2024.
 4. Greenberg, S. and Buxton, B. "Usability Evaluation Considered Harmful (Some of the Time)." *Proc. CHI 2008*.
-5. "LLM Wrapper Papers are Hurting HCI Research."
-6. Chen, X. A. et al. "HCI Papers Cite HCI Papers, Increasingly So." *CHI 2024 alt.chi*.
+5. Arawjo, I. "[LLM Wrapper Papers are Hurting HCI Research](https://ianarawjo.medium.com/llm-wrapper-papers-are-hurting-hci-research-8ad416a5d59a)." Medium, 2024.
+6. Chen, X. A. "[HCI Papers Cite HCI Papers, Increasingly So](https://doi.org/10.1145/3613905.3644070)." *Extended Abstracts of CHI 2024* (alt.chi).
 7. 加藤淳「[HCI research in the wild, why not?](https://blog.junkato.jp/ja/posts/2024-01-01-hci-research-in-the-wild/)」2024.
-8. 中小路久美代「ヒューマンコンピュータインタラクション研究会紹介」情報処理学会, 2007.
+8. 中小路久美代. 情報処理学会ヒューマンコンピュータインタラクション研究会の紹介記事（ヒューマンインタフェース研究会からの改称に際して）, 2007.
 9. Dourish, P. "Implications for Design." *Proc. CHI 2006*.
 10. 荒川陸「[CHI2024 参加を振り返って](https://note.com/hciphds/n/nc34efd8b1e7b)」note, 2024.
