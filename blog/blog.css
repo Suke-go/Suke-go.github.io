@@ -103,6 +103,8 @@ a:focus-visible, summary:focus-visible { outline: 2px solid var(--accent); outli
 .article-body pre { overflow-x: auto; padding: 20px; background: #e6e5da; font-size: 13px; line-height: 1.7; }
 .article-body blockquote { margin: 28px 0; padding: 3px 0 3px 24px; border-left: 2px solid var(--accent); color: var(--muted); }
 .article-body table { display: block; overflow-x: auto; border-collapse: collapse; font-size: 14px; }
+.article-body .video-embed { position: relative; width: 100%; aspect-ratio: 16 / 9; margin: 28px 0; background: #000; }
+.article-body .video-embed iframe { position: absolute; inset: 0; width: 100%; height: 100%; border: 0; }
 .article-body td, .article-body th { border: 1px solid var(--rule); padding: 8px 14px; }
 .publication-card { background: #e5e7db; padding: 24px; margin-bottom: 32px; border-left: 2px solid var(--accent); font-size: 12px; }
 .publication-card p { margin: 0 0 12px; }

@@ -27,7 +27,11 @@ HCIは、人間が使うインタラクティブな計算システムの設計�
 
 暦本先生はさらに、AIに仕事を「投げる」ことができるようになった今、新しい時代を象徴するキーワードは「indirect interface」かもしれないと述べ、SIGCHI自体が直接操作パラダイムの結果として成立したことを踏まえて、これを「CHI創設以来のグレートリセット」と呼んでいる。この見立てが正しければ、人間とコンピュータの関係がこれからどうなりうるのかという問いは、今のHCIが扱うべき中心的な問いの一つになる。
 
-この種の問いは、AIに限らず、身体や生活の場面でも立てられる。鈴木健嗣先生らのQoloは、受動的な下肢外骨格と電動の車輪を組み合わせ、下肢に麻痺のある人が座った姿勢から立ち上がり、立ったまま移動できるようにする装置である[12]。伊藤香織、小泉直也、苗村健によるCoPletは、ミュージアムツアーの参加者とスタッフが録音した声で感想を匿名のまま共有し、参加者は自分の鑑賞体験を反映したリーフレットを持ち帰れるようにするシステムで、日本科学未来館での実験を通して評価されている[13]。前者はリハビリテーション工学で、後者は博物館学や科学コミュニケーションの分野でも扱える主題である。ただ、装置やシステムを作って実際の生活や展示の場に置き、そこで人の振る舞いや他者との関係がどう変わるのかを見るという進め方は、HCIの作法に近いと思う。
+この種の問いは、AIに限らず、身体や生活の場面でも立てられる。鈴木健嗣先生らのQoloは、受動的な下肢外骨格と電動の車輪を組み合わせ、下肢に麻痺のある人が座った姿勢から立ち上がり、立ったまま移動できるようにする装置である[12]。操作には手を使わず、上半身の自然な姿勢の変化によって進む方向を指示する[18]。Qoloは、座って手で操作する車椅子に代えて、立った姿勢で身体を傾けて移動するというインタラクションを提示している点で、移動支援の新しいパラダイムを示していると思う。
+
+<div class="video-embed"><iframe src="https://www.youtube-nocookie.com/embed/yxKV41hNMKE" title="The Qolo by Team Qolo of the University of Tsukuba" loading="lazy" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+
+伊藤香織、小泉直也、苗村健によるCoPletは、ミュージアムツアーの参加者とスタッフが録音した声で感想を匿名のまま共有し、参加者は自分の鑑賞体験を反映したリーフレットを持ち帰れるようにするシステムで、日本科学未来館での実験を通して評価されている[13]。ここでは、個人の内側で完結しがちな鑑賞という体験を、その場で他者と共有し、あとから持ち帰れる記録にするというインタラクションが提示されている。Qoloはリハビリテーション工学で、CoPletは博物館学や科学コミュニケーションの分野でも扱える主題である。ただ、装置やシステムを作って実際の生活や展示の場に置き、そこで人の振る舞いや他者との関係がどう変わるのかを見るという進め方は、HCIの作法に近いと思う。
 
 この道の研究の多くは、ビジョンを示す研究になる。そこで求められるのは、作って動かしたときに初めて見える人間の変化を捉えることである。人間の知覚や行為や判断がどう変わるのかは、思考実験だけでは見えにくい。一方で、この道には失敗しやすい点が二つある。一つは評価のすり替えである。GreenbergとBuxtonは、初期段階の発明的な研究にユーザビリティ評価を課すことが、かえって研究を歪めうると指摘した[4]。未来の人間とコンピュータの関係を示す研究で使いやすさの尺度を測っても、ビジョンの価値を示したことにはならない。もう一つは、新しい技術を既存の領域に当てはめただけで終わることである。Arawjoが「LLM Wrapper Papers are Hurting HCI Research」で批判しているように[5]、LLMを使ってみた結果を報告するだけでは、人間とコンピュータの関係について何がわかったのかが残らない。
 
@@ -84,3 +88,4 @@ HCIでは研究者がそれぞれ独自の山を造ることが求められる�
 15. Kasahara, S., Nishida, J. and Lopes, P. "[Preemptive Action: Accelerating Human Reaction using Electrical Muscle Stimulation Without Compromising Agency](https://doi.org/10.1145/3290605.3300873)." *Proc. CHI 2019*.
 16. Lopes, P. "[Electrical Muscle Stimulation in HCI: 10 years later... what about the question of agency?](https://medium.com/acm-chi/electrical-muscle-stimulation-in-hci-10-years-later-what-about-the-question-of-agency-34516f0b05e2)" ACM CHI Blog (Medium), 2019.
 17. Kato, J. and Goto, M. "[Lyric App Framework: A Web-based Framework for Developing Interactive Lyric-driven Musical Applications](https://doi.org/10.1145/3544548.3580931)." *Proc. CHI 2023*.
+18. Chen, Y., Paez-Granados, D., Kadone, H. and Suzuki, K. "Control Interface for Hands-free Navigation of Standing Mobility Vehicles based on Upper-Body Natural Movements." *Proc. IROS 2020*.
