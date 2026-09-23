@@ -39,15 +39,27 @@ HCIは、人間が使うインタラクティブな計算システムの設計�
 
 二つ目の道は、心理学、脳科学、認知科学などの問いに、コンピュータを用いて正面から取り組むことである。これはサイエンスの顔をする研究であり、心理学のジャーナルに投稿してもおおむね通用する水準にあることが基準になる。コンピュータが加えられるのは、これまで作れなかった実験条件である。たとえばVRでは、身体と視点の関係や、動くことと感じることの関係のように、普段は切り離せないものを操作できる。これは心理学や認知科学にとって、新しい実験パラダイムになりうる。Kasahara、Nishida、Lopesの研究はその一例である。彼らは、電気刺激（EMS）で身体を先回りして動かすとき、視覚刺激から160 ms後という時間窓で刺激を与えれば、反応時間を80 ms短縮しながら、ユーザが「自分で動いた」と感じる主体感を保てることを示した[15]。Lopesはこの研究を紹介する記事で、EMSがHCIに持ち込まれて10年が経ったいま、外部の力で身体を動かされることは「feels weird」であり、主体感について議論すべきときだと書いている[16]。計算機が人間より先に身体を動かすという条件は、HCIが装置を作るまで存在しなかった。Lopesらはこの問いを、EEGやfMRIを用いて脳がどのように感覚情報を統合するのかを調べる研究へと広げており、主体感をめぐる認知科学や神経科学の議論に接続している[16]。
 
+VRを用いた身体の研究には、心理学や神経科学の主要な雑誌に掲載されてきたものも多い。Slaterらは、VRで一人称視点から仮想の身体を見せることで、自分とは異なる身体に対しても身体所有感が生じることを示した[19]。Banakou、Groten、Slaterは、VRで子どもの身体を与えられた参加者が、物体の大きさを過大に見積もり、自分を子どもらしい属性と結びつけやすくなることをPNASで報告している[20]。いずれも、VRで作れる条件を使いながら、身体所有感と知覚や態度の関係という、心理学や神経科学がもともと持っていた問いに答えを返している。
+
 ただし、HCIで行われる心理学的な研究には、背後にある心理物理の蓄積を踏まえていないものが多いように見える。閾値の求め方、応答バイアスの扱い、主観評定が何を測っているのかといった点には、長い議論の蓄積がある。刺激を与えて質問紙で条件間の傾向を比べるだけで終わると、心理学がすでに知っていることの手前で止まってしまう。Nature Human Behaviourに載るような研究を含め、その分野の論文を読み、何がわかっていて何が対立しているのかを押さえる必要がある。そうして初めて、自分の結果がどの説明を支持し、どの説明を退けるのかを言えるようになる。この点で気になるのは、HCIの論文がHCIの論文ばかりを引用する傾向が強まっているという報告である[6]。心理学の問いを扱いながらHCIの先行研究しか参照していなければ、心理学ではすでに決着した問題を、別の装置で繰り返すことになりかねない。
 
 ## 3. まだ扱えないものを扱う
 
 三つ目の道は、自分にとって最も面白く、同時に最も危うい。全体としては何を示しているのかよくわからないが、局所局所に強いこだわりが見える実装がある。たとえば、触れたときの素材の硬さを何度も作り直している、振動が立ち上がるまでの数十ミリ秒を理由を説明できないまま調整し続けている、装置を身体のどこにどの向きで付けるかに固執している、といったものである。作り手自身が当事者である場合もあり、自分の困りごとのために作った道具には、外から設計した人には思いつかない判断が入る。こうした判断は、論文では実装の詳細として数行で片づけられることが多い。しかし一つずつ拾っていくと、知覚、身体、社会にまたがる問いや、人間とコンピュータはどうあるべきかという問いを示唆していることがある。Ars ElectronicaやSIGGRAPHのような芸術寄り、デザイン寄りの場と相性がいいのも、そのためだと思う。自分は、アーティストや当事者が作り込んだものの先には、まだ定式化されていないポテンシャルがあると考えている。
 
+岩田洋夫先生のFloating Eye（2000）は、その例だと思う。飛行船に取り付けたカメラの映像を、体験者がかぶる広視野のドーム型ディスプレイに映すことで、体験者は自分の身体を上空から見下ろしながら歩くことになる。この作品はArs Electronica 2001などで展示され、岩田先生はその後、2004年にデバイスアート・プロジェクトを立ち上げている[21]。自分の身体を外から見るという体験は、その後、EhrssonやLenggenhagerらが2007年に体外離脱体験を実験的に誘発する研究をScienceに発表したことで、認知神経科学の主題にもなった[22][23]。両者のあいだに直接の影響関係があったかどうかは分からない。ただ、作品が先にその体験を成立させ、あとから別の分野がそれを問いとして定式化したという順序は、三つ目の道が持つ可能性をよく示していると思う。
+
+<div class="video-embed"><iframe src="https://www.youtube-nocookie.com/embed/cJmD1DrSvao" title="Floating Eye (VR Lab, University of Tsukuba)" loading="lazy" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+
+同じような関係は、メディアアートの歴史の中にいくつも見つかる。Myron Kruegerは1970年代から、カメラで捉えた人のシルエットがスクリーン上のグラフィックスと反応し合うVIDEOPLACEを制作し、それを「Artificial Reality」と呼んだ[29]。道具を持たずに身体の動きそのものでコンピュータと関わるという体験は、のちのジェスチャ入力や身体を用いたインタラクションの研究に先行していた。Char DaviesのOsmose（1995）は、頭部搭載型ディスプレイと、呼吸と身体の傾きを計測するベストを組み合わせ、息を吸うと上昇し、吐くと下降するという仕方で仮想空間を漂う作品である[30]。ここでは、手で操作する代わりに呼吸とバランスで空間を移動するという、身体の内側に近い感覚を使った移動のインタラクションが提示されている。児玉幸子と竹野美奈子のProtrude, Flow（2001）は、磁性流体を電磁石で制御し、音に合わせて黒い液体が棘のように立ち上がる作品で、岩田先生のデバイスアートの文脈にも位置づけられている[31]。素材そのものの振る舞いにこだわり抜いた作品が、形状を変えるディスプレイや物質的なインタフェースの研究と重なる領域を先に示していた例だと思う。いずれの作品も、発表の時点では工学的な課題を解くことを目的としていなかった。それでも、作品に込められたこだわりの断片を拾っていくと、身体、知覚、素材とインタラクションの関係について、あとから研究が問うことになる問いが含まれている。
+
+<div class="video-embed"><iframe src="https://www.youtube-nocookie.com/embed/c4rLG5Aaie4" title="Protrude, Flow (Sachiko Kodama Studio)" loading="lazy" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+
 この種の研究は、査読で「ニッチだ」「一般化できない」と批判されやすい。加藤淳先生自身も、歌詞が魅力的にアニメーションするインタラクティブなビジュアルアート「リリックアプリ」を提案したCHI 2023の論文[17]について、応用領域がニッチであるという批判を受けたことを書いている[7]。この研究は、歌詞に合わせて動くタイポグラフィを制作する環境TextAlive[14]から続く一連の取り組みの上にある。加藤先生はこの批判に対して、次のように応じている[7]。
 
 > ニッチで当たり前じゃないですか。世の中にまだないから、初音ミク「マジカルミライ」のプログラミング・コンテストを通してその可能性を検証しているわけです
+
+<div class="video-embed"><iframe src="https://www.youtube-nocookie.com/embed/lOdt-pf5U8Q" title="TextAlive: Integrated Design Environment for Kinetic Typography" loading="lazy" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
 
 そのうえで加藤先生は、一般化可能性を重視するHCIの評価慣行に異議を唱え、HCI研究は例外なく何らかの文化的文脈に置かれ、特定のドメインを扱っていると論じている[7]。加藤先生は、研究室に大学院生を集めて行う実験もまたWEIRDと呼ばれる特定の文脈の上にあることを指摘し、文脈やドメインが極端であるほど技術への要求は厳しくなり、得られる知見も豊かになるとも述べている。自分の考えでは、当事者やアーティストが一つの作品のために詰めたこだわりは、まさにそうした極端なドメインにあたる。また、中小路久美代先生は、E.A.T.を創始したBilly Klüverの「Artists have helped make technology more human.」という言葉を引きながら、次のように書いている[8]。
 
@@ -55,7 +67,13 @@ HCIは、人間が使うインタラクティブな計算システムの設計�
 
 この道の研究を評価するときには、無理に設定した課題の達成度よりも、それが示唆するところを見るべきだということである。
 
-この道の研究は、多くの場合デザイン研究として発表される。ただ、HCIでは「デザイン」という言葉が広く使われすぎていて、何でも包めてしまうように感じる。デザイン研究を名乗る以上は、概念、経験、意味、形式、批評性に応える必要がある。その手がかりの一つは、HCIでよく使われるDesign Spaceの考え方にあると思う。自分は、この概念には工学設計の議論に由来する部分があると考えている。工学設計の分野では、要求を本質的な機能に分解し、解決原理を組み合わせて設計空間を作り、そこから評価基準で解を絞り込むという手法が論じられてきた。良い設計空間は、問題を「車か自転車か」という製品の単位で分けずに、「動力、支持、操舵」のような独立した次元に分解するので、既存の製品にない組み合わせが見えるようになる。作品のこだわりを研究にするには、そのこだわりがどの次元の上での選択であり、その次元のどこがまだ試されていないのかを示す必要がある。振動の立ち上がりを調整したという事実だけでは、研究としては読めない。Dourishは、エスノグラフィの価値を設計への示唆の箇条書きで測ることの問題を論じた[9]。作品についても同じことが言え、作ったものの最後に「今後の設計への示唆」を並べるだけでは、作品に凝縮されていたこだわりは言葉にならない。
+この道の研究は、多くの場合デザイン研究として発表される。ただ、HCIでは「デザイン」という言葉が広く使われすぎていて、何でも包めてしまうように感じる。デザイン研究を名乗る以上は、概念、経験、意味、形式、批評性に応える必要がある。その手がかりの一つは、HCIでよく使われるDesign Spaceの考え方にあると思う。
+
+Design Spaceという考え方は、もともと工学設計の議論とつながっている。PahlとBeitzらの工学設計の教科書では、要求を本質的な機能に分解し、機能ごとの解決原理を組み合わせて解の候補を網羅的に作り、そこから技術的・経済的な評価基準で絞り込むという手順が体系化されている[24]。機能と解決原理を表の縦横に並べて組み合わせを列挙する「形態ボックス」は、天文学者Zwickyの形態分析に由来する。HCIでは、CardとMackinlayとRobertsonが入力デバイスのDesign Spaceを論じた際に、このZwickyの形態分析を直接参照し、個々の入力デバイスを、パラメータで定義された空間の中の点として扱った[25][26]。同じ時期にMacLeanらは、設計上の問い（Questions）、その選択肢（Options）、選択肢を比べる基準（Criteria）によって設計の根拠を記述するDesign Space Analysisを提案している[27]。
+
+どちらにも共通しているのは、Design Spaceが、既存のものを分類するためだけではなく、まだ存在しない組み合わせを見つけるための道具として考えられていたことである。良い設計空間は、問題を「車か自転車か」という製品の単位で分けずに、「動力、支持、操舵」のような独立した次元に分解するので、既存の製品にない組み合わせが見えるようになる。一方で、近年のHCIでは、既存の論文を体系的にレビューしてコーディングし、そこから次元を抽出する形のDesign Space論文も多い。たとえばLeeらは、執筆支援ツールに関する115本の論文をレビューして、知的で対話的な執筆支援のDesign Spaceを構成している[28]。これは分野の整理として有用だが、次元が既存研究から作られている以上、そこから見えるのは主にすでにあるものの配置である。自分は、Design Spaceという言葉が、未探索の空白を示す道具から、既存研究の分類を指す言葉へと広がってきたことも、「デザイン」が何でも包めてしまう状況の一部だと感じている。その一方で、生成AIの登場によって、Design Spaceを組み合わせの生成に使うという元来の発想が、別の形で戻ってきてもいる。Suhらによる Luminate は、大規模言語モデルを用いて、あるタスクに関わる次元とその値を自動的に生成し、利用者がその空間を探索しながら多様な案を作れるようにするシステムである[32]。ここでのDesign Spaceは、まだ試されていない組み合わせを見つけるための道具として使われている。
+
+作品のこだわりを研究にするには、そのこだわりがどの次元の上での選択であり、その次元のどこがまだ試されていないのかを示す必要がある。振動の立ち上がりを調整したという事実だけでは、研究としては読めない。Dourishは、エスノグラフィの価値を設計への示唆の箇条書きで測ることの問題を論じた[9]。作品についても同じことが言え、作ったものの最後に「今後の設計への示唆」を並べるだけでは、作品に凝縮されていたこだわりは言葉にならない。
 
 ## implicationを言うために
 
@@ -89,3 +107,17 @@ HCIでは研究者がそれぞれ独自の山を造ることが求められる�
 16. Lopes, P. "[Electrical Muscle Stimulation in HCI: 10 years later... what about the question of agency?](https://medium.com/acm-chi/electrical-muscle-stimulation-in-hci-10-years-later-what-about-the-question-of-agency-34516f0b05e2)" ACM CHI Blog (Medium), 2019.
 17. Kato, J. and Goto, M. "[Lyric App Framework: A Web-based Framework for Developing Interactive Lyric-driven Musical Applications](https://doi.org/10.1145/3544548.3580931)." *Proc. CHI 2023*.
 18. Chen, Y., Paez-Granados, D., Kadone, H. and Suzuki, K. "Control Interface for Hands-free Navigation of Standing Mobility Vehicles based on Upper-Body Natural Movements." *Proc. IROS 2020*.
+19. Slater, M., Spanlang, B., Sanchez-Vives, M. V. and Blanke, O. "First Person Experience of Body Transfer in Virtual Reality." *PLoS ONE*, 5(5), e10564, 2010.
+20. Banakou, D., Groten, R. and Slater, M. "Illusory Ownership of a Virtual Child Body Causes Overestimation of Object Sizes and Implicit Attitude Changes." *PNAS*, 110(31), pp. 12846–12851, 2013.
+21. 岩田洋夫「Floating Eye」2000.（Ars Electronica 2001 展示）
+22. Ehrsson, H. H. "The Experimental Induction of Out-of-Body Experiences." *Science*, 317(5841), p. 1048, 2007.
+23. Lenggenhager, B., Tadi, T., Metzinger, T. and Blanke, O. "Video Ergo Sum: Manipulating Bodily Self-Consciousness." *Science*, 317(5841), pp. 1096–1099, 2007.
+24. Pahl, G., Beitz, W., Feldhusen, J. and Grote, K.-H. *Engineering Design: A Systematic Approach*. 3rd ed. Springer, 2007.（邦訳：『エンジニアリングデザイン：工学設計の体系的アプローチ』第3版, 森北出版, 2015）
+25. Card, S. K., Mackinlay, J. D. and Robertson, G. G. "The Design Space of Input Devices." *Proc. CHI 1990*.
+26. Card, S. K., Mackinlay, J. D. and Robertson, G. G. "[A Morphological Analysis of the Design Space of Input Devices](https://doi.org/10.1145/123078.128726)." *ACM Transactions on Information Systems*, 9(2), pp. 99–122, 1991.
+27. MacLean, A., Young, R. M., Bellotti, V. M. E. and Moran, T. P. "Questions, Options, and Criteria: Elements of Design Space Analysis." *Human–Computer Interaction*, 6(3–4), pp. 201–250, 1991.
+28. Lee, M. et al. "[A Design Space for Intelligent and Interactive Writing Assistants](https://doi.org/10.1145/3613904.3642697)." *Proc. CHI 2024*.
+29. Krueger, M. W., Gionfriddo, T. and Hinrichsen, K. "VIDEOPLACE—An Artificial Reality." *Proc. CHI 1985*.
+30. Davies, C. and Harrison, J. "Osmose: Towards Broadening the Aesthetics of Virtual Reality." *ACM SIGGRAPH Computer Graphics*, 30(4), 1996.
+31. 児玉幸子, 竹野美奈子「Protrude, Flow」2001.（ACM SIGGRAPH 2001 Art Gallery 展示）
+32. Suh, S., Chen, M., Min, B., Li, T. J.-J. and Xia, H. "[Luminate: Structured Generation and Exploration of Design Space with Large Language Models for Human-AI Co-Creation](https://arxiv.org/abs/2310.12953)." *Proc. CHI 2024*.
