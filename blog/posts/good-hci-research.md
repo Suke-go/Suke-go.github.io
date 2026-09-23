@@ -59,7 +59,9 @@ VRを用いた身体の研究には、心理学や神経科学の主要な雑誌
 
 <div class="video-embed"><iframe src="https://www.youtube-nocookie.com/embed/c4rLG5Aaie4" title="Protrude, Flow (Sachiko Kodama Studio)" loading="lazy" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
 
-一方で、作品が示すものは、未来の研究を先取りすることに限らない。Paul DeMarinisの作品はその例である。DeMarinisは、忘れられた技術や電気通信の発明の歴史を掘り起こしながら作品を作ってきた[33]。The Edison Effectは、古いレコードの溝をレーザーで読み取って音にする一連の彫刻で、そのうちの一つでは、レーザーの経路に置かれた金魚鉢の中を泳ぐ金魚が光を遮り、ワルツの再生に「作曲されていない休符」を挟み込む[34]。RainDanceでは、音声信号で変調された水流の下で、来場者が傘を差すと、傘の表面から音楽が聞こえてくる。2006年には、電気通信の神話を扱ったThe MessengerでPrix Ars Electronicaのインタラクティブアート部門のゴールデン・ニカを受賞している[33]。これらの作品は、新しい技術を先取りするというより、すでにある技術の使われ方をずらして、ありえたかもしれない別のインタフェースを具体的に作ってみせている。自分は、こうした作品のimplicationは、HCIの将来の研究よりも、技術の歴史やメディア論の側に向いていると考えている。
+一方で、作品が示すものは、未来の研究を先取りすることに限らない。Paul DeMarinisの作品はその例である。DeMarinisは、忘れられた技術や電気通信の発明の歴史を掘り起こしながら作品を作ってきた[33]。The Edison Effectは、古いレコードの溝をレーザーで読み取って音にする一連の彫刻で、そのうちの一つでは、レーザーの経路に置かれた金魚鉢の中を泳ぐ金魚が光を遮り、ワルツの再生に「作曲されていない休符」を挟み込む[34]。RainDance（1998）では、音声信号で変調された水流の下で、来場者が傘を差すと、傘の表面から音楽が聞こえてくる[36]。2006年には、電気通信の神話を扱ったThe MessengerでPrix Ars Electronicaのインタラクティブアート部門のゴールデン・ニカを受賞している[33]。これらの作品は、新しい技術を先取りするというより、すでにある技術の使われ方をずらして、ありえたかもしれない別のインタフェースを具体的に作ってみせている。自分は、こうした作品のimplicationは、HCIの将来の研究よりも、技術の歴史やメディア論の側に向いていると考えている。
+
+<div class="video-embed"><iframe src="https://player.vimeo.com/video/245354797" title="RainDance (1998) Paul DeMarinis" loading="lazy" allow="fullscreen; picture-in-picture" allowfullscreen></iframe></div>
 
 三つ目の道の研究は、HCIの論文として発表されると、査読で「ニッチだ」「一般化できない」と批判されやすい。加藤淳先生自身も、歌詞が魅力的にアニメーションするインタラクティブなビジュアルアート「リリックアプリ」を提案したCHI 2023の論文[17]について、応用領域がニッチであるという批判を受けたことを書いている[7]。この研究は、歌詞に合わせて動くタイポグラフィを制作する環境TextAlive[14]から続く一連の取り組みの上にある。加藤先生はこの批判に対して、次のように応じている[7]。
 
@@ -130,3 +132,4 @@ HCIでは研究者がそれぞれ独自の山を造ることが求められる�
 33. "[Paul DeMarinis](https://en.wikipedia.org/wiki/Paul_DeMarinis)." Wikipedia.（作品についての詳細は Beirer, I., Himmelsbach, S. and Seiffarth, C. (eds.) *Paul DeMarinis: Buried in Noise*. Kehrer Verlag, 2010 を参照）
 34. DeMarinis, P. "[The Edison Effect](https://pauldemarinis.org/EdisonEffect.html)." 1989–.
 35. 暦本純一「[最終講義 Homo Cyberneticus：Human–AI Integrationの時代へ](https://www.youtube.com/watch?v=-xa-O9BPlaY)」RekimotoLab, YouTube.
+36. DeMarinis, P. "[RainDance](https://vimeo.com/245354797)." 1998.
