@@ -1,0 +1,81 @@
+{
+  "source": "Barry Schwartz: The Paradox of Choice (TED 2005)",
+  "segment": "Two negative effects of choice: paralysis and opportunity costs/regret",
+  "segment_time": "~7:30 to ~10:30",
+  "duration_s": 180,
+  "audio": "pretest_audio.mp3",
+  "note": "Audio-only (no video). 5 comprehension questions after listening.",
+  "question_types": {
+    "main_idea": 1,
+    "supporting_detail": 2,
+    "inference": 1,
+    "vocabulary_attitude": 1
+  },
+  "questions": [
+    {
+      "id": "PT01",
+      "type": "main_idea",
+      "question": "What is the main argument of this segment?",
+      "hint_ja": "この区間の主な主張は何ですか？",
+      "options": [
+        "More choices lead to better decisions",
+        "Having too many options has negative psychological consequences",
+        "People should avoid making any choices",
+        "Choice is only problematic for indecisive people"
+      ],
+      "correct": 1
+    },
+    {
+      "id": "PT02",
+      "type": "supporting_detail",
+      "question": "What example does the speaker give about retirement savings?",
+      "hint_ja": "退職貯蓄（retirement savings）について話者はどんな例を挙げましたか？",
+      "options": [
+        "Employees invest too aggressively when given many options",
+        "Participation rates decrease when more fund options are offered",
+        "Most employees choose the safest fund regardless of options",
+        "Employers should not offer retirement plans"
+      ],
+      "correct": 1
+    },
+    {
+      "id": "PT03",
+      "type": "supporting_detail",
+      "question": "What happened when the speaker went to buy jeans?",
+      "hint_ja": "話者がジーンズを買いに行ったときどうなりましたか？",
+      "options": [
+        "He couldn't find his size",
+        "He had to choose among many fits and styles",
+        "The store was out of stock",
+        "He decided to buy online instead"
+      ],
+      "correct": 1
+    },
+    {
+      "id": "PT04",
+      "type": "inference",
+      "question": "Why does the speaker suggest that people might feel worse even when they make objectively better choices?",
+      "hint_ja": "客観的に良い選択をしても気分が悪くなるのはなぜですか？",
+      "options": [
+        "Because better choices are more expensive",
+        "Because comparing with alternatives creates regret about what was given up",
+        "Because people cannot recognize quality",
+        "Because society pressures people to be unhappy"
+      ],
+      "correct": 1
+    },
+    {
+      "id": "PT05",
+      "type": "vocabulary_attitude",
+      "question": "When the speaker says he was 'paralyzed' by the choice of jeans, he most likely means he:",
+      "hint_ja": "paralyzed（麻痺した）とはここではどういう意味ですか？",
+      "options": [
+        "Was physically unable to move",
+        "Found it extremely difficult to make a decision",
+        "Was frightened by the store layout",
+        "Could not afford the jeans"
+      ],
+      "correct": 1
+    }
+  ]
+}

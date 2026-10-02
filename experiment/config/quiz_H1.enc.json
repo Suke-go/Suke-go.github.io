@@ -1,0 +1,154 @@
+{
+  "comprehension": [
+    {
+      "id": "H1_C01",
+      "type": "content",
+      "question": "What was the little girl drawing in the lesson?",
+      "options": [
+        "A picture of her family",
+        "A picture of God",
+        "A self-portrait",
+        "A picture of her school"
+      ],
+      "is_dummy": false,
+      "hint_ja": "授業で女の子は何を描いていましたか？",
+      "correct_enc": "SA==",
+      "question_ja": "授業中、女の子は何の絵を描いていましたか？",
+      "options_ja": [
+        "家族の絵",
+        "神様の絵",
+        "自画像",
+        "学校の絵"
+      ]
+    },
+    {
+      "id": "H1_C02",
+      "type": "content",
+      "question": "How did the teacher react when she saw the girl was paying attention?",
+      "options": [
+        "She was annoyed",
+        "She was fascinated",
+        "She was confused",
+        "She ignored it"
+      ],
+      "is_dummy": false,
+      "hint_ja": "女の子が集中しているのを見て先生はどう反応しましたか？",
+      "correct_enc": "SA==",
+      "question_ja": "女の子が集中しているのを見て、先生はどう反応しましたか？",
+      "options_ja": [
+        "いらいらした",
+        "興味をひかれた",
+        "困惑した",
+        "無視した"
+      ],
+      "focus_critical": true
+    },
+    {
+      "id": "H1_C03",
+      "type": "content",
+      "question": "How old was the speaker's son James during the Nativity play?",
+      "options": [
+        "Three",
+        "Four",
+        "Five",
+        "Six"
+      ],
+      "is_dummy": false,
+      "hint_ja": "息子のJamesはキリスト降誕劇のとき何歳でしたか？",
+      "correct_enc": "SA==",
+      "question_ja": "キリスト降誕劇のとき、話者の息子ジェームズは何歳でしたか？",
+      "options_ja": [
+        "3歳",
+        "4歳",
+        "5歳",
+        "6歳"
+      ]
+    },
+    {
+      "id": "H1_C04",
+      "type": "content",
+      "question": "What role did James get in the Nativity play?",
+      "options": [
+        "A shepherd",
+        "One of the wise men",
+        "Joseph",
+        "An angel"
+      ],
+      "is_dummy": false,
+      "hint_ja": "Jamesはキリスト降誕劇（Nativity play）で何の役をもらいましたか？",
+      "correct_enc": "SQ==",
+      "question_ja": "ジェームズは降誕劇でどの役をもらいましたか？",
+      "options_ja": [
+        "羊飼い",
+        "三賢者の一人",
+        "ヨセフ",
+        "天使"
+      ]
+    },
+    {
+      "id": "H1_C06",
+      "type": "content",
+      "question": "What did the girl say when the teacher told her nobody knows what God looks like?",
+      "options": [
+        "She stopped drawing",
+        "She said they will in a minute",
+        "She started crying",
+        "She drew something else"
+      ],
+      "is_dummy": false,
+      "hint_ja": "「誰も神様の顔を知らない」と言われて女の子は何と答えましたか？",
+      "correct_enc": "SA==",
+      "question_ja": "「神様の姿は誰も知らない」と先生に言われて、女の子は何と言いましたか？",
+      "options_ja": [
+        "描くのをやめた",
+        "「もうすぐわかるよ」と言った",
+        "泣き出した",
+        "別のものを描き始めた"
+      ],
+      "focus_critical": true
+    }
+  ],
+  "speaker_intent": {
+    "emphasis_identification": {
+      "sentence": "And the girl said, they will in a minute.",
+      "question": "Which word did the speaker emphasize most in this sentence?",
+      "options": [
+        "girl",
+        "said",
+        "will",
+        "minute"
+      ],
+      "hint_ja": "この文で話者が最も強調した語はどれですか？",
+      "correct_enc": "SQ=="
+    },
+    "attitude_estimation": {
+      "question": "What was the speaker's overall tone in this segment?",
+      "options": [
+        "Serious",
+        "Humorous",
+        "Sarcastic",
+        "Neutral"
+      ],
+      "hint_ja": "この区間での話者の全体的なトーンは？",
+      "correct_enc": "SA==",
+      "question_ja": "この区間での話者の全体的なトーンは？",
+      "options_ja": [
+        "真剣",
+        "ユーモラス",
+        "皮肉っぽい",
+        "中立的"
+      ]
+    },
+    "prosodic_structure": {
+      "question": "After telling the joke about Mel Gibson, the speaker...",
+      "options": [
+        "Took a long pause for laughter",
+        "Continued immediately to the next point",
+        "Raised his voice dramatically",
+        "Slowed down significantly"
+      ],
+      "hint_ja": "メル・ギブソンの冗談のあと、話者は…",
+      "correct_enc": "Rw=="
+    }
+  }
+}

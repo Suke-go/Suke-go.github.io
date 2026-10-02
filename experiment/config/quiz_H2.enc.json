@@ -1,0 +1,154 @@
+{
+  "comprehension": [
+    {
+      "id": "H2_C01",
+      "type": "content",
+      "question": "What did the speaker find the 'wholehearted' people had in common?",
+      "options": [
+        "Intelligence",
+        "A sense of courage",
+        "Financial success",
+        "Large social networks"
+      ],
+      "is_dummy": false,
+      "hint_ja": "wholehearted（心から生きる）な人々の共通点は？",
+      "correct_enc": "SA==",
+      "question_ja": "「wholehearted（全身全霊）」な人々に共通していたものは何でしたか？",
+      "options_ja": [
+        "知性",
+        "勇気",
+        "経済的成功",
+        "広い人脈"
+      ],
+      "focus_critical": true
+    },
+    {
+      "id": "H2_C02",
+      "type": "content",
+      "question": "According to the speaker, what is the original Latin meaning of the word 'courage'?",
+      "options": [
+        "Strength",
+        "Bravery",
+        "Heart",
+        "Mind"
+      ],
+      "is_dummy": false,
+      "hint_ja": "courage（勇気）のラテン語の本来の意味は？",
+      "correct_enc": "SQ==",
+      "question_ja": "「courage（勇気）」という語のラテン語での元の意味は？",
+      "options_ja": [
+        "力",
+        "勇敢さ",
+        "心臓（心）",
+        "精神"
+      ]
+    },
+    {
+      "id": "H2_C03",
+      "type": "content",
+      "question": "What did the speaker say the original definition of courage meant?",
+      "options": [
+        "To fight fearlessly against any enemy",
+        "To tell the story of who you are with your whole heart",
+        "To overcome the hardest physical challenges",
+        "To stand up and protect other people"
+      ],
+      "is_dummy": false,
+      "hint_ja": "courage の本来の定義はどのような意味ですか？",
+      "correct_enc": "SA==",
+      "question_ja": "courage の元々の定義はどういう意味だったと話者は言いましたか？",
+      "options_ja": [
+        "どんな敵にも恐れず立ち向かうこと",
+        "自分が何者かの物語を心から語ること",
+        "最も過酷な身体的困難を乗り越えること",
+        "立ち上がって他者を守ること"
+      ],
+      "focus_critical": true
+    },
+    {
+      "id": "H2_C05",
+      "type": "content",
+      "question": "Why did the speaker say we cannot practice compassion with others?",
+      "options": [
+        "Because we lack time",
+        "If we can't treat ourselves kindly",
+        "Because society discourages it",
+        "If we don't have enough resources"
+      ],
+      "is_dummy": false,
+      "hint_ja": "なぜ他者に compassion を実践できないのですか？",
+      "correct_enc": "SA==",
+      "question_ja": "どんな場合に他人への思いやりを実践できないと話者は言いましたか？",
+      "options_ja": [
+        "時間が足りない場合",
+        "自分自身に優しくできない場合",
+        "社会がそれを妨げる場合",
+        "資源が足りない場合"
+      ]
+    },
+    {
+      "id": "H2_C07",
+      "type": "content",
+      "question": "How did the speaker describe her data analysis process?",
+      "options": [
+        "Calm and methodical",
+        "Like a Jackson Pollock crazy thing",
+        "Quick and efficient",
+        "Collaborative with colleagues"
+      ],
+      "is_dummy": false,
+      "hint_ja": "話者はデータ分析の過程をどう表現しましたか？",
+      "correct_enc": "SA==",
+      "question_ja": "話者は自身のデータ分析の過程をどう表現しましたか？",
+      "options_ja": [
+        "冷静で秩序立っている",
+        "ジャクソン・ポロックの絵のように滅茶苦茶",
+        "素早く効率的",
+        "同僚と協力的"
+      ]
+    }
+  ],
+  "speaker_intent": {
+    "emphasis_identification": {
+      "sentence": "And the original definition was to tell the story of who you are with your whole heart.",
+      "question": "Which word did the speaker emphasize most?",
+      "options": [
+        "original",
+        "story",
+        "whole",
+        "heart"
+      ],
+      "hint_ja": "この文で話者が最も強調した語はどれですか？",
+      "correct_enc": "Sg=="
+    },
+    "attitude_estimation": {
+      "question": "What was the speaker's tone while describing the wholehearted people?",
+      "options": [
+        "Serious",
+        "Humorous",
+        "Sarcastic",
+        "Reverent and earnest"
+      ],
+      "hint_ja": "wholehearted な人々を描写するときの話者のトーンは？",
+      "correct_enc": "Sg==",
+      "question_ja": "wholehearted な人々を描写するときの話者のトーンは？",
+      "options_ja": [
+        "真剣",
+        "ユーモラス",
+        "皮肉っぽい",
+        "敬意がこもって真摯"
+      ]
+    },
+    "prosodic_structure": {
+      "question": "When the speaker mentioned 'the courage to be imperfect,' she...",
+      "options": [
+        "Paused after the phrase for emphasis",
+        "Spoke rapidly without pause",
+        "Lowered her voice to a whisper",
+        "Repeated the phrase twice"
+      ],
+      "hint_ja": "「不完全である勇気」に言及したとき、話者は…",
+      "correct_enc": "Rw=="
+    }
+  }
+}

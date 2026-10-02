@@ -1,0 +1,14 @@
+{
+  "name": "L1",
+  "speaker": "Hans Rosling",
+  "title": "The Best Stats You've Ever Seen",
+  "year": 2006,
+  "note": "数値・国名の列挙、平坦",
+  "group": "",
+  "duration": 90.0,
+  "words": 269,
+  "source": "L1.wav",
+  "D_new": 0.748,
+  "r_pb": 0.252,
+  "p_val": 0.0
+}

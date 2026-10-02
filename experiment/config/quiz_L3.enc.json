@@ -1,0 +1,164 @@
+{
+  "comprehension": [
+    {
+      "id": "L3_N01",
+      "type": "main_idea",
+      "question": "What is this segment mainly about?",
+      "options": [
+        "A joke that was reported as real news",
+        "The launch of a family restaurant chain",
+        "A policy speech about energy in Africa",
+        "A disagreement with a former colleague"
+      ],
+      "is_dummy": false,
+      "hint_ja": "この区間は主に何についての話ですか？",
+      "correct_enc": "Rw==",
+      "question_ja": "この区間は主に何についての話ですか？",
+      "options_ja": [
+        "冗談が本当のニュースとして報道された出来事",
+        "ファミリーレストランチェーンの開業",
+        "アフリカでのエネルギー政策演説",
+        "かつての同僚との仲たがい"
+      ]
+    },
+    {
+      "id": "L3_N02",
+      "type": "content",
+      "question": "According to the false story, what had the speaker opened?",
+      "options": [
+        "A low-cost family restaurant",
+        "A luxury hotel in Lagos",
+        "A fast-food franchise",
+        "A small coffee shop"
+      ],
+      "is_dummy": false,
+      "hint_ja": "誤報では、話者は何を開業したことになっていましたか？",
+      "correct_enc": "Rw==",
+      "question_ja": "誤報の記事では、話者は何を開業したことになっていましたか？",
+      "options_ja": [
+        "低価格のファミリーレストラン",
+        "ラゴスの高級ホテル",
+        "ファストフードのフランチャイズ",
+        "小さなコーヒーショップ"
+      ],
+      "focus_critical": true
+    },
+    {
+      "id": "L3_N03",
+      "type": "content",
+      "question": "Which TV hosts made fun of the story?",
+      "options": [
+        "Jon Stewart and Stephen Colbert",
+        "David Letterman and Jay Leno",
+        "Jay Leno and Conan O'Brien",
+        "David Letterman and Oprah"
+      ],
+      "is_dummy": false,
+      "hint_ja": "この話をネタにしたテレビ司会者は誰ですか？",
+      "correct_enc": "SA==",
+      "question_ja": "この誤報をネタにしたテレビ司会者は誰と誰ですか？",
+      "options_ja": [
+        "ジョン・スチュワートとスティーヴン・コルベア",
+        "デイヴィッド・レターマンとジェイ・レノ",
+        "ジェイ・レノとコナン・オブライエン",
+        "デイヴィッド・レターマンとオプラ"
+      ]
+    },
+    {
+      "id": "L3_N04",
+      "type": "content",
+      "question": "In the TV joke image, what was the speaker wearing?",
+      "options": [
+        "A waiter's bow tie",
+        "A striped apron",
+        "A big white chef's hat",
+        "A paper crown"
+      ],
+      "is_dummy": false,
+      "hint_ja": "テレビのジョーク画像で話者は何を身につけていましたか？",
+      "correct_enc": "SQ==",
+      "question_ja": "テレビのジョーク画像で、話者は何を身につけていましたか？",
+      "options_ja": [
+        "ウェイターの蝶ネクタイ",
+        "しま模様のエプロン",
+        "大きな白いシェフ帽",
+        "紙の王冠"
+      ],
+      "focus_critical": true
+    },
+    {
+      "id": "L3_N05",
+      "type": "content",
+      "question": "Who sent the speaker a handwritten letter?",
+      "options": [
+        "George Bush",
+        "Jay Leno",
+        "Al Gore's staff",
+        "Bill Clinton"
+      ],
+      "is_dummy": false,
+      "hint_ja": "手書きの手紙を送ってきたのは誰ですか？",
+      "correct_enc": "Sg==",
+      "question_ja": "話者に手書きの手紙を送ってきたのは誰ですか？",
+      "options_ja": [
+        "ジョージ・ブッシュ",
+        "ジェイ・レノ",
+        "ゴアのスタッフ",
+        "ビル・クリントン"
+      ]
+    },
+    {
+      "id": "L3_N06",
+      "type": "inference",
+      "question": "Why was the speaker's staff extremely upset?",
+      "options": [
+        "His flight had been delayed overnight",
+        "A news service reported his joke as fact",
+        "His speech had been poorly received",
+        "A restaurant deal had fallen through"
+      ],
+      "is_dummy": false,
+      "hint_ja": "スタッフが動揺していた理由は？",
+      "correct_enc": "SA==",
+      "question_ja": "話者のスタッフがひどく動揺していたのはなぜですか？",
+      "options_ja": [
+        "飛行機が一晩遅延したから",
+        "通信社が冗談を事実として報道したから",
+        "演説の評判が悪かったから",
+        "レストランの契約が破談になったから"
+      ]
+    }
+  ],
+  "speaker_intent": {
+    "emphasis_identification": {
+      "sentence": "Tipper was saying, one more burger with fries.",
+      "question": "Which word did the speaker emphasize most in this sentence?",
+      "options": [
+        "Tipper",
+        "saying",
+        "burger",
+        "fries"
+      ],
+      "hint_ja": "この文で話者が最も強調した語はどれですか？",
+      "correct_enc": "Sg=="
+    },
+    "attitude_estimation": {
+      "question": "What was the speaker's overall tone in this segment?",
+      "options": [
+        "Self-deprecating and humorous",
+        "Angry and defensive",
+        "Solemn and serious",
+        "Flat and neutral"
+      ],
+      "hint_ja": "この区間での話者の全体的なトーンは？",
+      "correct_enc": "Rw==",
+      "question_ja": "この区間での話者の全体的なトーンは？",
+      "options_ja": [
+        "自虐的でユーモラス",
+        "怒って弁解的",
+        "厳粛で真剣",
+        "平板で中立的"
+      ]
+    }
+  }
+}

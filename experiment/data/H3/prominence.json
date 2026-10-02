@@ -1,0 +1,1250 @@
+[
+  {
+    "word": "Um,",
+    "start": 0.0,
+    "end": 0.52,
+    "prominence": 0.6722
+  },
+  {
+    "word": "me",
+    "start": 1.32,
+    "end": 1.52,
+    "prominence": 0.4698
+  },
+  {
+    "word": "too.",
+    "start": 1.52,
+    "end": 1.9,
+    "prominence": 0.5385
+  },
+  {
+    "word": "But",
+    "start": 2.46,
+    "end": 2.68,
+    "prominence": 0.4308
+  },
+  {
+    "word": "that",
+    "start": 2.68,
+    "end": 2.9,
+    "prominence": 0.504
+  },
+  {
+    "word": "is",
+    "start": 2.9,
+    "end": 3.06,
+    "prominence": 0.429
+  },
+  {
+    "word": "not",
+    "start": 3.06,
+    "end": 3.24,
+    "prominence": 0.4296
+  },
+  {
+    "word": "my",
+    "start": 3.24,
+    "end": 3.44,
+    "prominence": 0.4383
+  },
+  {
+    "word": "confession.",
+    "start": 3.44,
+    "end": 3.88,
+    "prominence": 0.6163
+  },
+  {
+    "word": "My",
+    "start": 4.62,
+    "end": 4.92,
+    "prominence": 0.4504
+  },
+  {
+    "word": "confession",
+    "start": 4.92,
+    "end": 5.32,
+    "prominence": 0.5507
+  },
+  {
+    "word": "is",
+    "start": 5.32,
+    "end": 5.6,
+    "prominence": 0.4503
+  },
+  {
+    "word": "this.",
+    "start": 5.6,
+    "end": 6.02,
+    "prominence": 0.4816
+  },
+  {
+    "word": "I",
+    "start": 6.48,
+    "end": 6.74,
+    "prominence": 0.4572
+  },
+  {
+    "word": "am",
+    "start": 6.74,
+    "end": 6.92,
+    "prominence": 0.381
+  },
+  {
+    "word": "a",
+    "start": 6.92,
+    "end": 7.08,
+    "prominence": 0.4054
+  },
+  {
+    "word": "health",
+    "start": 7.08,
+    "end": 7.34,
+    "prominence": 0.4788
+  },
+  {
+    "word": "psychologist,",
+    "start": 7.34,
+    "end": 8.1,
+    "prominence": 0.5605
+  },
+  {
+    "word": "and",
+    "start": 8.5,
+    "end": 8.74,
+    "prominence": 0.4298
+  },
+  {
+    "word": "my",
+    "start": 8.74,
+    "end": 8.94,
+    "prominence": 0.3934
+  },
+  {
+    "word": "mission",
+    "start": 8.94,
+    "end": 9.32,
+    "prominence": 0.6559
+  },
+  {
+    "word": "is",
+    "start": 9.32,
+    "end": 9.56,
+    "prominence": 0.4374
+  },
+  {
+    "word": "to",
+    "start": 9.56,
+    "end": 9.74,
+    "prominence": 0.3878
+  },
+  {
+    "word": "help",
+    "start": 9.74,
+    "end": 9.88,
+    "prominence": 0.4449
+  },
+  {
+    "word": "people",
+    "start": 9.88,
+    "end": 10.4,
+    "prominence": 0.5659
+  },
+  {
+    "word": "be",
+    "start": 10.4,
+    "end": 10.82,
+    "prominence": 0.5795
+  },
+  {
+    "word": "happier",
+    "start": 10.82,
+    "end": 11.18,
+    "prominence": 0.4417
+  },
+  {
+    "word": "and",
+    "start": 11.18,
+    "end": 11.48,
+    "prominence": 0.437
+  },
+  {
+    "word": "healthier.",
+    "start": 11.48,
+    "end": 11.88,
+    "prominence": 0.4895
+  },
+  {
+    "word": "But",
+    "start": 13.36,
+    "end": 13.58,
+    "prominence": 0.4589
+  },
+  {
+    "word": "I",
+    "start": 13.58,
+    "end": 13.88,
+    "prominence": 0.4448
+  },
+  {
+    "word": "fear",
+    "start": 13.88,
+    "end": 14.38,
+    "prominence": 0.4906
+  },
+  {
+    "word": "that",
+    "start": 14.38,
+    "end": 15.02,
+    "prominence": 0.5024
+  },
+  {
+    "word": "something",
+    "start": 15.02,
+    "end": 15.38,
+    "prominence": 0.4665
+  },
+  {
+    "word": "I've",
+    "start": 15.38,
+    "end": 15.66,
+    "prominence": 0.4779
+  },
+  {
+    "word": "been",
+    "start": 15.66,
+    "end": 15.82,
+    "prominence": 0.404
+  },
+  {
+    "word": "teaching",
+    "start": 15.82,
+    "end": 16.38,
+    "prominence": 0.6424
+  },
+  {
+    "word": "for",
+    "start": 16.6,
+    "end": 16.8,
+    "prominence": 0.4252
+  },
+  {
+    "word": "the",
+    "start": 16.8,
+    "end": 16.96,
+    "prominence": 0.4874
+  },
+  {
+    "word": "last",
+    "start": 16.96,
+    "end": 17.14,
+    "prominence": 0.4214
+  },
+  {
+    "word": "10",
+    "start": 17.14,
+    "end": 17.4,
+    "prominence": 0.4911
+  },
+  {
+    "word": "years",
+    "start": 17.4,
+    "end": 18.0,
+    "prominence": 0.5503
+  },
+  {
+    "word": "is",
+    "start": 18.0,
+    "end": 18.66,
+    "prominence": 0.4842
+  },
+  {
+    "word": "doing",
+    "start": 18.66,
+    "end": 18.88,
+    "prominence": 0.4337
+  },
+  {
+    "word": "more",
+    "start": 18.88,
+    "end": 19.2,
+    "prominence": 0.458
+  },
+  {
+    "word": "harm",
+    "start": 19.2,
+    "end": 19.56,
+    "prominence": 0.5079
+  },
+  {
+    "word": "than",
+    "start": 19.56,
+    "end": 19.76,
+    "prominence": 0.3772
+  },
+  {
+    "word": "good,",
+    "start": 19.76,
+    "end": 20.2,
+    "prominence": 0.5172
+  },
+  {
+    "word": "and",
+    "start": 20.34,
+    "end": 21.04,
+    "prominence": 0.5049
+  },
+  {
+    "word": "it",
+    "start": 21.04,
+    "end": 21.16,
+    "prominence": 0.3645
+  },
+  {
+    "word": "has",
+    "start": 21.16,
+    "end": 21.4,
+    "prominence": 0.6779
+  },
+  {
+    "word": "to",
+    "start": 21.4,
+    "end": 21.56,
+    "prominence": 0.3808
+  },
+  {
+    "word": "do",
+    "start": 21.56,
+    "end": 21.68,
+    "prominence": 0.3963
+  },
+  {
+    "word": "with",
+    "start": 21.68,
+    "end": 21.88,
+    "prominence": 0.504
+  },
+  {
+    "word": "stress.",
+    "start": 21.88,
+    "end": 22.34,
+    "prominence": 0.7184
+  },
+  {
+    "word": "For",
+    "start": 23.38,
+    "end": 23.62,
+    "prominence": 0.4399
+  },
+  {
+    "word": "years,",
+    "start": 23.62,
+    "end": 23.92,
+    "prominence": 0.5366
+  },
+  {
+    "word": "I've",
+    "start": 24.02,
+    "end": 24.14,
+    "prominence": 0.378
+  },
+  {
+    "word": "been",
+    "start": 24.14,
+    "end": 24.26,
+    "prominence": 0.4647
+  },
+  {
+    "word": "telling",
+    "start": 24.26,
+    "end": 24.46,
+    "prominence": 0.4688
+  },
+  {
+    "word": "people",
+    "start": 24.46,
+    "end": 24.76,
+    "prominence": 0.4598
+  },
+  {
+    "word": "stress",
+    "start": 24.76,
+    "end": 25.18,
+    "prominence": 0.6333
+  },
+  {
+    "word": "makes",
+    "start": 25.18,
+    "end": 25.42,
+    "prominence": 0.4078
+  },
+  {
+    "word": "you",
+    "start": 25.42,
+    "end": 25.66,
+    "prominence": 0.4082
+  },
+  {
+    "word": "sick.",
+    "start": 25.66,
+    "end": 26.06,
+    "prominence": 0.5211
+  },
+  {
+    "word": "It",
+    "start": 26.54,
+    "end": 26.74,
+    "prominence": 0.3699
+  },
+  {
+    "word": "increases",
+    "start": 26.74,
+    "end": 27.1,
+    "prominence": 0.616
+  },
+  {
+    "word": "the",
+    "start": 27.1,
+    "end": 27.32,
+    "prominence": 0.4548
+  },
+  {
+    "word": "risk",
+    "start": 27.32,
+    "end": 27.5,
+    "prominence": 0.5013
+  },
+  {
+    "word": "of",
+    "start": 27.5,
+    "end": 27.7,
+    "prominence": 0.4852
+  },
+  {
+    "word": "everything,",
+    "start": 27.7,
+    "end": 28.1,
+    "prominence": 0.5518
+  },
+  {
+    "word": "from",
+    "start": 28.16,
+    "end": 28.36,
+    "prominence": 0.4716
+  },
+  {
+    "word": "the",
+    "start": 28.36,
+    "end": 28.64,
+    "prominence": 0.502
+  },
+  {
+    "word": "common",
+    "start": 28.64,
+    "end": 28.94,
+    "prominence": 0.4265
+  },
+  {
+    "word": "cold",
+    "start": 28.94,
+    "end": 29.3,
+    "prominence": 0.5043
+  },
+  {
+    "word": "to",
+    "start": 29.3,
+    "end": 29.68,
+    "prominence": 0.4439
+  },
+  {
+    "word": "cardiovascular",
+    "start": 29.68,
+    "end": 30.38,
+    "prominence": 0.6955
+  },
+  {
+    "word": "disease.",
+    "start": 30.38,
+    "end": 31.06,
+    "prominence": 0.4707
+  },
+  {
+    "word": "Basically,",
+    "start": 31.7,
+    "end": 32.44,
+    "prominence": 0.5142
+  },
+  {
+    "word": "I've",
+    "start": 32.86,
+    "end": 33.22,
+    "prominence": 0.4985
+  },
+  {
+    "word": "turned",
+    "start": 33.22,
+    "end": 33.54,
+    "prominence": 0.4686
+  },
+  {
+    "word": "stress",
+    "start": 33.54,
+    "end": 34.06,
+    "prominence": 0.6629
+  },
+  {
+    "word": "into",
+    "start": 34.06,
+    "end": 34.38,
+    "prominence": 0.4197
+  },
+  {
+    "word": "the",
+    "start": 34.38,
+    "end": 34.7,
+    "prominence": 0.5291
+  },
+  {
+    "word": "enemy.",
+    "start": 34.7,
+    "end": 35.1,
+    "prominence": 0.4294
+  },
+  {
+    "word": "But",
+    "start": 35.96,
+    "end": 36.22,
+    "prominence": 0.5519
+  },
+  {
+    "word": "I've",
+    "start": 36.22,
+    "end": 36.54,
+    "prominence": 0.4782
+  },
+  {
+    "word": "changed",
+    "start": 36.54,
+    "end": 36.84,
+    "prominence": 0.4338
+  },
+  {
+    "word": "my",
+    "start": 36.84,
+    "end": 37.06,
+    "prominence": 0.4328
+  },
+  {
+    "word": "mind",
+    "start": 37.06,
+    "end": 37.28,
+    "prominence": 0.4455
+  },
+  {
+    "word": "about",
+    "start": 37.28,
+    "end": 37.56,
+    "prominence": 0.4963
+  },
+  {
+    "word": "stress,",
+    "start": 37.56,
+    "end": 38.22,
+    "prominence": 0.7037
+  },
+  {
+    "word": "and",
+    "start": 38.26,
+    "end": 39.02,
+    "prominence": 0.4067
+  },
+  {
+    "word": "today,",
+    "start": 39.02,
+    "end": 39.56,
+    "prominence": 0.6828
+  },
+  {
+    "word": "I",
+    "start": 39.98,
+    "end": 40.24,
+    "prominence": 0.4256
+  },
+  {
+    "word": "want",
+    "start": 40.24,
+    "end": 40.44,
+    "prominence": 0.4188
+  },
+  {
+    "word": "to",
+    "start": 40.44,
+    "end": 40.64,
+    "prominence": 0.4139
+  },
+  {
+    "word": "change",
+    "start": 40.64,
+    "end": 40.96,
+    "prominence": 0.4743
+  },
+  {
+    "word": "yours.",
+    "start": 40.96,
+    "end": 41.6,
+    "prominence": 0.5514
+  },
+  {
+    "word": "Let",
+    "start": 42.6,
+    "end": 42.8,
+    "prominence": 0.4433
+  },
+  {
+    "word": "me",
+    "start": 42.8,
+    "end": 43.04,
+    "prominence": 0.4306
+  },
+  {
+    "word": "start",
+    "start": 43.04,
+    "end": 43.3,
+    "prominence": 0.532
+  },
+  {
+    "word": "with",
+    "start": 43.3,
+    "end": 43.5,
+    "prominence": 0.3988
+  },
+  {
+    "word": "the",
+    "start": 43.5,
+    "end": 43.68,
+    "prominence": 0.3959
+  },
+  {
+    "word": "study",
+    "start": 43.68,
+    "end": 43.97,
+    "prominence": 0.6054
+  },
+  {
+    "word": "that",
+    "start": 43.97,
+    "end": 44.26,
+    "prominence": 0.4393
+  },
+  {
+    "word": "made",
+    "start": 44.26,
+    "end": 44.44,
+    "prominence": 0.3836
+  },
+  {
+    "word": "me",
+    "start": 44.44,
+    "end": 44.78,
+    "prominence": 0.5026
+  },
+  {
+    "word": "rethink",
+    "start": 44.78,
+    "end": 45.08,
+    "prominence": 0.4444
+  },
+  {
+    "word": "my",
+    "start": 45.08,
+    "end": 45.4,
+    "prominence": 0.4951
+  },
+  {
+    "word": "whole",
+    "start": 45.4,
+    "end": 45.76,
+    "prominence": 0.4561
+  },
+  {
+    "word": "approach",
+    "start": 45.76,
+    "end": 46.2,
+    "prominence": 0.5223
+  },
+  {
+    "word": "to",
+    "start": 46.2,
+    "end": 46.4,
+    "prominence": 0.3993
+  },
+  {
+    "word": "stress.",
+    "start": 46.4,
+    "end": 46.84,
+    "prominence": 0.6033
+  },
+  {
+    "word": "This",
+    "start": 47.62,
+    "end": 47.84,
+    "prominence": 0.4028
+  },
+  {
+    "word": "study",
+    "start": 47.84,
+    "end": 48.14,
+    "prominence": 0.5315
+  },
+  {
+    "word": "tracked",
+    "start": 48.14,
+    "end": 48.56,
+    "prominence": 0.5163
+  },
+  {
+    "word": "30,000",
+    "start": 48.56,
+    "end": 49.4,
+    "prominence": 0.6708
+  },
+  {
+    "word": "adults",
+    "start": 49.4,
+    "end": 49.72,
+    "prominence": 0.4409
+  },
+  {
+    "word": "in",
+    "start": 49.72,
+    "end": 49.9,
+    "prominence": 0.3758
+  },
+  {
+    "word": "the",
+    "start": 49.9,
+    "end": 50.02,
+    "prominence": 0.5404
+  },
+  {
+    "word": "United",
+    "start": 50.02,
+    "end": 50.34,
+    "prominence": 0.6503
+  },
+  {
+    "word": "States",
+    "start": 50.34,
+    "end": 50.7,
+    "prominence": 0.4372
+  },
+  {
+    "word": "for",
+    "start": 50.7,
+    "end": 51.06,
+    "prominence": 0.4733
+  },
+  {
+    "word": "eight",
+    "start": 51.06,
+    "end": 51.32,
+    "prominence": 0.4375
+  },
+  {
+    "word": "years,",
+    "start": 51.32,
+    "end": 51.86,
+    "prominence": 0.5589
+  },
+  {
+    "word": "and",
+    "start": 52.28,
+    "end": 52.46,
+    "prominence": 0.4645
+  },
+  {
+    "word": "they",
+    "start": 52.46,
+    "end": 52.66,
+    "prominence": 0.4054
+  },
+  {
+    "word": "started",
+    "start": 52.66,
+    "end": 53.0,
+    "prominence": 0.5543
+  },
+  {
+    "word": "by",
+    "start": 53.0,
+    "end": 53.22,
+    "prominence": 0.4036
+  },
+  {
+    "word": "asking",
+    "start": 53.22,
+    "end": 53.58,
+    "prominence": 0.5992
+  },
+  {
+    "word": "people,",
+    "start": 53.58,
+    "end": 54.2,
+    "prominence": 0.4493
+  },
+  {
+    "word": "how",
+    "start": 54.76,
+    "end": 55.1,
+    "prominence": 0.4581
+  },
+  {
+    "word": "much",
+    "start": 55.1,
+    "end": 55.44,
+    "prominence": 0.4992
+  },
+  {
+    "word": "stress",
+    "start": 55.44,
+    "end": 55.9,
+    "prominence": 0.5902
+  },
+  {
+    "word": "have",
+    "start": 55.9,
+    "end": 56.06,
+    "prominence": 0.3772
+  },
+  {
+    "word": "you",
+    "start": 56.06,
+    "end": 56.14,
+    "prominence": 0.3824
+  },
+  {
+    "word": "experienced",
+    "start": 56.14,
+    "end": 56.78,
+    "prominence": 0.756
+  },
+  {
+    "word": "in",
+    "start": 56.78,
+    "end": 56.98,
+    "prominence": 0.3939
+  },
+  {
+    "word": "the",
+    "start": 56.98,
+    "end": 57.1,
+    "prominence": 0.5338
+  },
+  {
+    "word": "last",
+    "start": 57.1,
+    "end": 57.34,
+    "prominence": 0.5154
+  },
+  {
+    "word": "year?",
+    "start": 57.34,
+    "end": 57.68,
+    "prominence": 0.4333
+  },
+  {
+    "word": "They",
+    "start": 58.64,
+    "end": 58.9,
+    "prominence": 0.4623
+  },
+  {
+    "word": "also",
+    "start": 58.9,
+    "end": 59.34,
+    "prominence": 0.5169
+  },
+  {
+    "word": "asked,",
+    "start": 59.34,
+    "end": 59.89,
+    "prominence": 0.569
+  },
+  {
+    "word": "do",
+    "start": 59.89,
+    "end": 60.62,
+    "prominence": 0.468
+  },
+  {
+    "word": "you",
+    "start": 60.62,
+    "end": 60.98,
+    "prominence": 0.4155
+  },
+  {
+    "word": "believe",
+    "start": 60.98,
+    "end": 61.66,
+    "prominence": 0.5518
+  },
+  {
+    "word": "that",
+    "start": 61.66,
+    "end": 62.2,
+    "prominence": 0.5102
+  },
+  {
+    "word": "stress",
+    "start": 62.2,
+    "end": 62.66,
+    "prominence": 0.5901
+  },
+  {
+    "word": "is",
+    "start": 62.66,
+    "end": 62.92,
+    "prominence": 0.4558
+  },
+  {
+    "word": "harmful",
+    "start": 62.92,
+    "end": 63.42,
+    "prominence": 0.5843
+  },
+  {
+    "word": "for",
+    "start": 63.42,
+    "end": 63.74,
+    "prominence": 0.4336
+  },
+  {
+    "word": "your",
+    "start": 63.74,
+    "end": 63.9,
+    "prominence": 0.3777
+  },
+  {
+    "word": "health?",
+    "start": 63.9,
+    "end": 64.26,
+    "prominence": 0.5517
+  },
+  {
+    "word": "And",
+    "start": 66.18,
+    "end": 66.36,
+    "prominence": 0.4429
+  },
+  {
+    "word": "then",
+    "start": 66.36,
+    "end": 66.62,
+    "prominence": 0.448
+  },
+  {
+    "word": "they",
+    "start": 66.62,
+    "end": 66.8,
+    "prominence": 0.4059
+  },
+  {
+    "word": "used",
+    "start": 66.8,
+    "end": 66.98,
+    "prominence": 0.4519
+  },
+  {
+    "word": "public",
+    "start": 66.98,
+    "end": 67.32,
+    "prominence": 0.476
+  },
+  {
+    "word": "death",
+    "start": 67.32,
+    "end": 67.6,
+    "prominence": 0.5074
+  },
+  {
+    "word": "records",
+    "start": 67.6,
+    "end": 67.86,
+    "prominence": 0.4735
+  },
+  {
+    "word": "to",
+    "start": 67.86,
+    "end": 68.06,
+    "prominence": 0.4329
+  },
+  {
+    "word": "find",
+    "start": 68.06,
+    "end": 68.36,
+    "prominence": 0.6558
+  },
+  {
+    "word": "out",
+    "start": 68.36,
+    "end": 68.58,
+    "prominence": 0.3823
+  },
+  {
+    "word": "who",
+    "start": 68.58,
+    "end": 68.76,
+    "prominence": 0.4496
+  },
+  {
+    "word": "died.",
+    "start": 68.76,
+    "end": 69.1,
+    "prominence": 0.5148
+  },
+  {
+    "word": "Okay.",
+    "start": 70.9,
+    "end": 71.2,
+    "prominence": 0.4595
+  },
+  {
+    "word": "Some",
+    "start": 72.78,
+    "end": 73.0,
+    "prominence": 0.3795
+  },
+  {
+    "word": "bad",
+    "start": 73.0,
+    "end": 73.36,
+    "prominence": 0.6642
+  },
+  {
+    "word": "news",
+    "start": 73.36,
+    "end": 73.72,
+    "prominence": 0.4443
+  },
+  {
+    "word": "first.",
+    "start": 73.72,
+    "end": 74.3,
+    "prominence": 0.5638
+  },
+  {
+    "word": "People",
+    "start": 74.8,
+    "end": 75.08,
+    "prominence": 0.3956
+  },
+  {
+    "word": "who",
+    "start": 75.08,
+    "end": 75.46,
+    "prominence": 0.4707
+  },
+  {
+    "word": "experienced",
+    "start": 75.46,
+    "end": 75.96,
+    "prominence": 0.5439
+  },
+  {
+    "word": "a",
+    "start": 75.96,
+    "end": 76.16,
+    "prominence": 0.4759
+  },
+  {
+    "word": "lot",
+    "start": 76.16,
+    "end": 76.48,
+    "prominence": 0.5523
+  },
+  {
+    "word": "of",
+    "start": 76.48,
+    "end": 76.58,
+    "prominence": 0.3589
+  },
+  {
+    "word": "stress",
+    "start": 76.58,
+    "end": 76.94,
+    "prominence": 0.7377
+  },
+  {
+    "word": "in",
+    "start": 76.94,
+    "end": 77.26,
+    "prominence": 0.4064
+  },
+  {
+    "word": "the",
+    "start": 77.26,
+    "end": 77.42,
+    "prominence": 0.4407
+  },
+  {
+    "word": "previous",
+    "start": 77.42,
+    "end": 77.66,
+    "prominence": 0.5081
+  },
+  {
+    "word": "year",
+    "start": 77.66,
+    "end": 77.93,
+    "prominence": 0.5521
+  },
+  {
+    "word": "had",
+    "start": 77.93,
+    "end": 78.2,
+    "prominence": 0.4308
+  },
+  {
+    "word": "a",
+    "start": 78.2,
+    "end": 78.44,
+    "prominence": 0.4066
+  },
+  {
+    "word": "43%",
+    "start": 78.44,
+    "end": 78.9,
+    "prominence": 0.4935
+  },
+  {
+    "word": "increased",
+    "start": 79.56,
+    "end": 79.86,
+    "prominence": 0.5081
+  },
+  {
+    "word": "risk",
+    "start": 79.86,
+    "end": 80.14,
+    "prominence": 0.5046
+  },
+  {
+    "word": "of",
+    "start": 80.14,
+    "end": 80.3,
+    "prominence": 0.4529
+  },
+  {
+    "word": "dying.",
+    "start": 80.3,
+    "end": 80.66,
+    "prominence": 0.5888
+  },
+  {
+    "word": "But",
+    "start": 82.24,
+    "end": 82.76,
+    "prominence": 0.5504
+  },
+  {
+    "word": "that",
+    "start": 82.76,
+    "end": 83.72,
+    "prominence": 0.5085
+  },
+  {
+    "word": "was",
+    "start": 83.72,
+    "end": 84.04,
+    "prominence": 0.4694
+  },
+  {
+    "word": "only",
+    "start": 84.04,
+    "end": 84.54,
+    "prominence": 0.4553
+  },
+  {
+    "word": "true",
+    "start": 84.54,
+    "end": 85.14,
+    "prominence": 0.5578
+  },
+  {
+    "word": "for",
+    "start": 85.14,
+    "end": 85.62,
+    "prominence": 0.4453
+  },
+  {
+    "word": "the",
+    "start": 85.62,
+    "end": 85.86,
+    "prominence": 0.4623
+  },
+  {
+    "word": "people",
+    "start": 85.86,
+    "end": 85.88,
+    "prominence": 0.2822
+  },
+  {
+    "word": "who",
+    "start": 85.88,
+    "end": 86.42,
+    "prominence": 0.6913
+  },
+  {
+    "word": "also",
+    "start": 86.42,
+    "end": 86.96,
+    "prominence": 0.4716
+  },
+  {
+    "word": "believed",
+    "start": 86.96,
+    "end": 87.6,
+    "prominence": 0.4964
+  },
+  {
+    "word": "that",
+    "start": 87.6,
+    "end": 87.98,
+    "prominence": 0.4596
+  },
+  {
+    "word": "stress",
+    "start": 87.98,
+    "end": 88.26,
+    "prominence": 0.5277
+  },
+  {
+    "word": "is",
+    "start": 88.26,
+    "end": 88.42,
+    "prominence": 0.4943
+  },
+  {
+    "word": "harmful",
+    "start": 88.42,
+    "end": 88.78,
+    "prominence": 0.5746
+  },
+  {
+    "word": "for",
+    "start": 88.78,
+    "end": 89.0,
+    "prominence": 0.425
+  },
+  {
+    "word": "your",
+    "start": 89.0,
+    "end": 89.18,
+    "prominence": 0.4174
+  },
+  {
+    "word": "health.",
+    "start": 89.18,
+    "end": 89.46,
+    "prominence": 0.4748
+  }
+]

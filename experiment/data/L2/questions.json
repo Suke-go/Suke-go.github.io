@@ -1,0 +1,177 @@
+{
+  "comprehension": [
+    {
+      "id": "L2_C01",
+      "type": "content",
+      "question": "What law of thermodynamics does the speaker reference?",
+      "options": [
+        "First law",
+        "Second law",
+        "Third law",
+        "Zeroth law"
+      ],
+      "correct": 1,
+      "is_dummy": false,
+      "hint_ja": "話者が言及する熱力学（thermodynamics）の法則は？"
+    },
+    {
+      "id": "L2_C02",
+      "type": "content",
+      "question": "What term did the speaker's colleague Fred Spear use?",
+      "options": [
+        "Sweet spot conditions",
+        "Goldilocks conditions",
+        "Perfect storm conditions",
+        "Equilibrium conditions"
+      ],
+      "correct": 1,
+      "is_dummy": false,
+      "hint_ja": "同僚のフレッド・スピアが使った用語は？"
+    },
+    {
+      "id": "L2_C03",
+      "type": "content",
+      "question": "What does 'Goldilocks conditions' mean in this context?",
+      "options": [
+        "Extremely hot",
+        "Not too hot, not too cold, just right",
+        "Constantly changing",
+        "Very cold"
+      ],
+      "correct": 1,
+      "is_dummy": false,
+      "hint_ja": "Goldilocks conditions（ちょうどいい条件）とはこの文脈で何を意味しますか？"
+    },
+    {
+      "id": "L2_C04",
+      "type": "content",
+      "question": "What term does 'big history' use for moments when complexity increases?",
+      "options": [
+        "Turning points",
+        "Threshold moments",
+        "Breaking points",
+        "Milestone events"
+      ],
+      "correct": 1,
+      "is_dummy": false,
+      "hint_ja": "big history で複雑さが増す瞬間を何と呼びますか？"
+    },
+    {
+      "id": "L2_C05",
+      "type": "content",
+      "question": "According to the speaker, what happens as things get more complex?",
+      "options": [
+        "They become more stable",
+        "They become more fragile and vulnerable",
+        "They become simpler",
+        "They become less interesting"
+      ],
+      "correct": 1,
+      "is_dummy": false,
+      "hint_ja": "物事がより複雑になるとどうなりますか？"
+    },
+    {
+      "id": "L2_C06",
+      "type": "content",
+      "question": "What does complexity create the impression of, according to the speaker?",
+      "options": [
+        "Something predictable",
+        "Something utterly new appearing out of nowhere",
+        "Something familiar",
+        "Something dangerous"
+      ],
+      "correct": 1,
+      "is_dummy": false,
+      "hint_ja": "複雑さはどのような印象を生み出しますか？"
+    },
+    {
+      "id": "L2_C07",
+      "type": "content",
+      "question": "What does the speaker say happens at each threshold?",
+      "options": [
+        "The going gets easier",
+        "Nothing changes",
+        "The going gets tougher",
+        "Progress stops"
+      ],
+      "correct": 2,
+      "is_dummy": false,
+      "hint_ja": "各 threshold（転換点）で何が起こると話者は言いますか？"
+    },
+    {
+      "id": "L2_D01",
+      "type": "dummy",
+      "question": "What specific example of complexity did the speaker describe in detail?",
+      "options": [
+        "The human brain",
+        "DNA molecules",
+        "Stars forming",
+        "No specific example was given in this segment"
+      ],
+      "correct": 3,
+      "is_dummy": true
+    },
+    {
+      "id": "L2_D02",
+      "type": "dummy",
+      "question": "How many threshold moments did the speaker identify in history?",
+      "options": [
+        "Four",
+        "Eight",
+        "Twelve",
+        "Not specified in this segment"
+      ],
+      "correct": 3,
+      "is_dummy": true
+    },
+    {
+      "id": "L2_D03",
+      "type": "dummy",
+      "question": "What book did the speaker recommend?",
+      "options": [
+        "A Brief History of Time",
+        "Maps of Time",
+        "The Origin of Species",
+        "No book was mentioned"
+      ],
+      "correct": 3,
+      "is_dummy": true
+    }
+  ],
+  "speaker_intent": {
+    "emphasis_identification": {
+      "sentence": "And why complexity means vulnerability and fragility.",
+      "question": "Which word did the speaker emphasize most?",
+      "options": [
+        "complexity",
+        "means",
+        "vulnerability",
+        "fragility"
+      ],
+      "correct": 2,
+      "hint_ja": "この文で話者が最も強調した語はどれですか？"
+    },
+    "attitude_estimation": {
+      "question": "What was the speaker's tone in this segment?",
+      "options": [
+        "Alarming",
+        "Humorous",
+        "Explanatory and measured",
+        "Emotional"
+      ],
+      "correct": 2,
+      "hint_ja": "この区間での話者のトーンは？"
+    },
+    "prosodic_structure": {
+      "question": "When describing 'Goldilocks conditions,' the speaker...",
+      "options": [
+        "Paused before explaining the phrase",
+        "Rushed through the explanation",
+        "Used a dramatically different voice",
+        "Repeated it several times"
+      ],
+      "correct": 0,
+      "hint_ja": "Goldilocks conditions を説明するとき、話者は…"
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "name": "H2",
+  "speaker": "Brené Brown",
+  "title": "The Power of Vulnerability",
+  "year": 2010,
+  "note": "感情的語り、引用会話、自己言及強調",
+  "group": "",
+  "duration": 90.0,
+  "words": 256,
+  "source": "H2.wav",
+  "D_new": 0.75,
+  "r_pb": 0.25,
+  "p_val": 0.0001
+}

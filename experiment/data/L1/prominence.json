@@ -1,0 +1,1616 @@
+[
+  {
+    "word": "Latin",
+    "start": 0.08,
+    "end": 0.34,
+    "prominence": 0.4576
+  },
+  {
+    "word": "American",
+    "start": 0.34,
+    "end": 0.78,
+    "prominence": 0.5572
+  },
+  {
+    "word": "countries,",
+    "start": 0.78,
+    "end": 1.3,
+    "prominence": 0.6028
+  },
+  {
+    "word": "they",
+    "start": 1.6,
+    "end": 1.62,
+    "prominence": 0.2724
+  },
+  {
+    "word": "are",
+    "start": 1.62,
+    "end": 1.72,
+    "prominence": 0.3745
+  },
+  {
+    "word": "moving",
+    "start": 1.72,
+    "end": 1.94,
+    "prominence": 0.5312
+  },
+  {
+    "word": "towards",
+    "start": 1.94,
+    "end": 2.26,
+    "prominence": 0.5281
+  },
+  {
+    "word": "smaller",
+    "start": 2.26,
+    "end": 2.6,
+    "prominence": 0.4451
+  },
+  {
+    "word": "families.",
+    "start": 2.6,
+    "end": 3.04,
+    "prominence": 0.6469
+  },
+  {
+    "word": "The",
+    "start": 3.28,
+    "end": 3.48,
+    "prominence": 0.3703
+  },
+  {
+    "word": "yellow",
+    "start": 3.48,
+    "end": 3.76,
+    "prominence": 0.5109
+  },
+  {
+    "word": "ones",
+    "start": 3.76,
+    "end": 4.02,
+    "prominence": 0.4652
+  },
+  {
+    "word": "here",
+    "start": 4.02,
+    "end": 4.24,
+    "prominence": 0.481
+  },
+  {
+    "word": "are",
+    "start": 4.24,
+    "end": 4.42,
+    "prominence": 0.3876
+  },
+  {
+    "word": "the",
+    "start": 4.42,
+    "end": 4.58,
+    "prominence": 0.4877
+  },
+  {
+    "word": "Arabic",
+    "start": 4.58,
+    "end": 4.96,
+    "prominence": 0.5222
+  },
+  {
+    "word": "countries,",
+    "start": 4.96,
+    "end": 5.36,
+    "prominence": 0.5026
+  },
+  {
+    "word": "and",
+    "start": 5.46,
+    "end": 5.58,
+    "prominence": 0.3924
+  },
+  {
+    "word": "they",
+    "start": 5.58,
+    "end": 5.72,
+    "prominence": 0.4101
+  },
+  {
+    "word": "get",
+    "start": 5.72,
+    "end": 5.92,
+    "prominence": 0.4708
+  },
+  {
+    "word": "larger",
+    "start": 5.92,
+    "end": 6.3,
+    "prominence": 0.5324
+  },
+  {
+    "word": "families.",
+    "start": 6.3,
+    "end": 6.8,
+    "prominence": 0.6056
+  },
+  {
+    "word": "But",
+    "start": 7.0,
+    "end": 7.18,
+    "prominence": 0.4193
+  },
+  {
+    "word": "they,",
+    "start": 7.18,
+    "end": 7.42,
+    "prominence": 0.4609
+  },
+  {
+    "word": "no,",
+    "start": 7.7,
+    "end": 7.8,
+    "prominence": 0.4705
+  },
+  {
+    "word": "longer",
+    "start": 7.86,
+    "end": 8.04,
+    "prominence": 0.4393
+  },
+  {
+    "word": "life,",
+    "start": 8.04,
+    "end": 8.32,
+    "prominence": 0.5887
+  },
+  {
+    "word": "but",
+    "start": 8.48,
+    "end": 8.58,
+    "prominence": 0.355
+  },
+  {
+    "word": "not",
+    "start": 8.58,
+    "end": 8.78,
+    "prominence": 0.4755
+  },
+  {
+    "word": "larger",
+    "start": 8.78,
+    "end": 9.0,
+    "prominence": 0.4792
+  },
+  {
+    "word": "families.",
+    "start": 9.0,
+    "end": 9.34,
+    "prominence": 0.5765
+  },
+  {
+    "word": "The",
+    "start": 9.44,
+    "end": 9.66,
+    "prominence": 0.4973
+  },
+  {
+    "word": "Africans",
+    "start": 9.66,
+    "end": 9.98,
+    "prominence": 0.4612
+  },
+  {
+    "word": "are",
+    "start": 9.98,
+    "end": 10.18,
+    "prominence": 0.4123
+  },
+  {
+    "word": "the",
+    "start": 10.18,
+    "end": 10.32,
+    "prominence": 0.4784
+  },
+  {
+    "word": "green",
+    "start": 10.32,
+    "end": 10.5,
+    "prominence": 0.4504
+  },
+  {
+    "word": "down",
+    "start": 10.5,
+    "end": 10.72,
+    "prominence": 0.4652
+  },
+  {
+    "word": "here,",
+    "start": 10.72,
+    "end": 10.88,
+    "prominence": 0.4288
+  },
+  {
+    "word": "they",
+    "start": 10.92,
+    "end": 11.1,
+    "prominence": 0.4948
+  },
+  {
+    "word": "still",
+    "start": 11.1,
+    "end": 11.3,
+    "prominence": 0.4533
+  },
+  {
+    "word": "remain",
+    "start": 11.3,
+    "end": 11.6,
+    "prominence": 0.5143
+  },
+  {
+    "word": "here.",
+    "start": 11.6,
+    "end": 11.8,
+    "prominence": 0.3949
+  },
+  {
+    "word": "This",
+    "start": 12.02,
+    "end": 12.2,
+    "prominence": 0.4315
+  },
+  {
+    "word": "is",
+    "start": 12.2,
+    "end": 12.38,
+    "prominence": 0.4272
+  },
+  {
+    "word": "India,",
+    "start": 12.38,
+    "end": 12.68,
+    "prominence": 0.6202
+  },
+  {
+    "word": "Indonesia",
+    "start": 12.9,
+    "end": 13.26,
+    "prominence": 0.467
+  },
+  {
+    "word": "is",
+    "start": 13.26,
+    "end": 13.44,
+    "prominence": 0.4686
+  },
+  {
+    "word": "moving",
+    "start": 13.44,
+    "end": 13.68,
+    "prominence": 0.4688
+  },
+  {
+    "word": "on",
+    "start": 13.68,
+    "end": 13.94,
+    "prominence": 0.4379
+  },
+  {
+    "word": "pretty",
+    "start": 13.94,
+    "end": 14.18,
+    "prominence": 0.4302
+  },
+  {
+    "word": "fast.",
+    "start": 14.18,
+    "end": 14.5,
+    "prominence": 0.5376
+  },
+  {
+    "word": "And",
+    "start": 14.74,
+    "end": 14.92,
+    "prominence": 0.3669
+  },
+  {
+    "word": "in",
+    "start": 14.92,
+    "end": 15.06,
+    "prominence": 0.399
+  },
+  {
+    "word": "the",
+    "start": 15.06,
+    "end": 15.22,
+    "prominence": 0.4419
+  },
+  {
+    "word": "80s",
+    "start": 15.22,
+    "end": 15.6,
+    "prominence": 0.5781
+  },
+  {
+    "word": "here,",
+    "start": 15.6,
+    "end": 15.78,
+    "prominence": 0.3848
+  },
+  {
+    "word": "you",
+    "start": 15.96,
+    "end": 16.1,
+    "prominence": 0.3963
+  },
+  {
+    "word": "have",
+    "start": 16.1,
+    "end": 16.26,
+    "prominence": 0.4384
+  },
+  {
+    "word": "Bangladesh",
+    "start": 16.26,
+    "end": 16.9,
+    "prominence": 0.7015
+  },
+  {
+    "word": "still",
+    "start": 16.9,
+    "end": 17.26,
+    "prominence": 0.4695
+  },
+  {
+    "word": "among",
+    "start": 17.26,
+    "end": 17.62,
+    "prominence": 0.4213
+  },
+  {
+    "word": "the",
+    "start": 17.62,
+    "end": 17.84,
+    "prominence": 0.4712
+  },
+  {
+    "word": "African",
+    "start": 17.84,
+    "end": 18.16,
+    "prominence": 0.4499
+  },
+  {
+    "word": "countries",
+    "start": 18.16,
+    "end": 18.6,
+    "prominence": 0.5893
+  },
+  {
+    "word": "there.",
+    "start": 18.6,
+    "end": 18.84,
+    "prominence": 0.4236
+  },
+  {
+    "word": "But",
+    "start": 18.98,
+    "end": 19.16,
+    "prominence": 0.4096
+  },
+  {
+    "word": "now",
+    "start": 19.16,
+    "end": 19.36,
+    "prominence": 0.4806
+  },
+  {
+    "word": "Bangladesh,",
+    "start": 19.36,
+    "end": 19.76,
+    "prominence": 0.648
+  },
+  {
+    "word": "it's",
+    "start": 19.84,
+    "end": 20.08,
+    "prominence": 0.4359
+  },
+  {
+    "word": "a",
+    "start": 20.08,
+    "end": 20.32,
+    "prominence": 0.4497
+  },
+  {
+    "word": "miracle",
+    "start": 20.32,
+    "end": 20.62,
+    "prominence": 0.4567
+  },
+  {
+    "word": "that",
+    "start": 20.62,
+    "end": 20.9,
+    "prominence": 0.455
+  },
+  {
+    "word": "happens",
+    "start": 20.9,
+    "end": 21.14,
+    "prominence": 0.4934
+  },
+  {
+    "word": "in",
+    "start": 21.14,
+    "end": 21.3,
+    "prominence": 0.3705
+  },
+  {
+    "word": "the",
+    "start": 21.3,
+    "end": 21.46,
+    "prominence": 0.4366
+  },
+  {
+    "word": "80s.",
+    "start": 21.46,
+    "end": 21.84,
+    "prominence": 0.532
+  },
+  {
+    "word": "The",
+    "start": 22.04,
+    "end": 22.3,
+    "prominence": 0.4197
+  },
+  {
+    "word": "imams",
+    "start": 22.3,
+    "end": 22.68,
+    "prominence": 0.5573
+  },
+  {
+    "word": "start",
+    "start": 22.68,
+    "end": 23.02,
+    "prominence": 0.4514
+  },
+  {
+    "word": "to",
+    "start": 23.02,
+    "end": 23.32,
+    "prominence": 0.4162
+  },
+  {
+    "word": "promote",
+    "start": 23.32,
+    "end": 23.74,
+    "prominence": 0.4596
+  },
+  {
+    "word": "family",
+    "start": 23.74,
+    "end": 24.2,
+    "prominence": 0.5076
+  },
+  {
+    "word": "planning,",
+    "start": 24.2,
+    "end": 24.46,
+    "prominence": 0.5075
+  },
+  {
+    "word": "and",
+    "start": 24.54,
+    "end": 24.64,
+    "prominence": 0.3133
+  },
+  {
+    "word": "they",
+    "start": 24.64,
+    "end": 24.74,
+    "prominence": 0.3403
+  },
+  {
+    "word": "move",
+    "start": 24.74,
+    "end": 24.98,
+    "prominence": 0.6245
+  },
+  {
+    "word": "up",
+    "start": 24.98,
+    "end": 25.16,
+    "prominence": 0.4041
+  },
+  {
+    "word": "into",
+    "start": 25.16,
+    "end": 25.34,
+    "prominence": 0.4387
+  },
+  {
+    "word": "that",
+    "start": 25.34,
+    "end": 25.58,
+    "prominence": 0.4231
+  },
+  {
+    "word": "corner.",
+    "start": 25.58,
+    "end": 25.96,
+    "prominence": 0.6251
+  },
+  {
+    "word": "And",
+    "start": 26.3,
+    "end": 26.56,
+    "prominence": 0.4598
+  },
+  {
+    "word": "in",
+    "start": 26.56,
+    "end": 26.86,
+    "prominence": 0.4067
+  },
+  {
+    "word": "90s,",
+    "start": 26.86,
+    "end": 27.6,
+    "prominence": 0.6538
+  },
+  {
+    "word": "we",
+    "start": 27.7,
+    "end": 27.78,
+    "prominence": 0.3332
+  },
+  {
+    "word": "have",
+    "start": 27.78,
+    "end": 27.96,
+    "prominence": 0.4981
+  },
+  {
+    "word": "the",
+    "start": 27.96,
+    "end": 28.14,
+    "prominence": 0.4554
+  },
+  {
+    "word": "terrible",
+    "start": 28.14,
+    "end": 28.58,
+    "prominence": 0.6113
+  },
+  {
+    "word": "HIV",
+    "start": 28.58,
+    "end": 28.96,
+    "prominence": 0.4795
+  },
+  {
+    "word": "epidemic",
+    "start": 28.96,
+    "end": 29.56,
+    "prominence": 0.4911
+  },
+  {
+    "word": "that",
+    "start": 29.56,
+    "end": 29.92,
+    "prominence": 0.4323
+  },
+  {
+    "word": "takes",
+    "start": 29.92,
+    "end": 30.34,
+    "prominence": 0.471
+  },
+  {
+    "word": "down",
+    "start": 30.34,
+    "end": 30.78,
+    "prominence": 0.5138
+  },
+  {
+    "word": "the",
+    "start": 30.78,
+    "end": 31.14,
+    "prominence": 0.4419
+  },
+  {
+    "word": "life",
+    "start": 31.14,
+    "end": 31.48,
+    "prominence": 0.4688
+  },
+  {
+    "word": "expectancy",
+    "start": 31.48,
+    "end": 32.1,
+    "prominence": 0.5339
+  },
+  {
+    "word": "of",
+    "start": 32.1,
+    "end": 32.28,
+    "prominence": 0.4176
+  },
+  {
+    "word": "the",
+    "start": 32.28,
+    "end": 32.42,
+    "prominence": 0.4893
+  },
+  {
+    "word": "African",
+    "start": 32.42,
+    "end": 32.74,
+    "prominence": 0.4774
+  },
+  {
+    "word": "countries.",
+    "start": 32.74,
+    "end": 33.18,
+    "prominence": 0.5536
+  },
+  {
+    "word": "And",
+    "start": 33.42,
+    "end": 33.7,
+    "prominence": 0.4941
+  },
+  {
+    "word": "all",
+    "start": 33.7,
+    "end": 33.92,
+    "prominence": 0.4342
+  },
+  {
+    "word": "the",
+    "start": 33.92,
+    "end": 34.04,
+    "prominence": 0.3555
+  },
+  {
+    "word": "rest",
+    "start": 34.04,
+    "end": 34.3,
+    "prominence": 0.5602
+  },
+  {
+    "word": "of",
+    "start": 34.3,
+    "end": 34.48,
+    "prominence": 0.4075
+  },
+  {
+    "word": "the",
+    "start": 34.48,
+    "end": 34.66,
+    "prominence": 0.4064
+  },
+  {
+    "word": "world",
+    "start": 34.66,
+    "end": 34.94,
+    "prominence": 0.4711
+  },
+  {
+    "word": "moves",
+    "start": 34.94,
+    "end": 35.6,
+    "prominence": 0.6294
+  },
+  {
+    "word": "up",
+    "start": 35.6,
+    "end": 35.92,
+    "prominence": 0.4506
+  },
+  {
+    "word": "into",
+    "start": 35.92,
+    "end": 36.14,
+    "prominence": 0.3814
+  },
+  {
+    "word": "the",
+    "start": 36.14,
+    "end": 36.4,
+    "prominence": 0.4821
+  },
+  {
+    "word": "corner",
+    "start": 36.4,
+    "end": 36.74,
+    "prominence": 0.5409
+  },
+  {
+    "word": "where",
+    "start": 36.74,
+    "end": 37.06,
+    "prominence": 0.4147
+  },
+  {
+    "word": "we",
+    "start": 37.06,
+    "end": 37.2,
+    "prominence": 0.4126
+  },
+  {
+    "word": "have",
+    "start": 37.2,
+    "end": 37.36,
+    "prominence": 0.4555
+  },
+  {
+    "word": "long",
+    "start": 37.36,
+    "end": 37.62,
+    "prominence": 0.4356
+  },
+  {
+    "word": "lives",
+    "start": 37.62,
+    "end": 37.98,
+    "prominence": 0.6169
+  },
+  {
+    "word": "and",
+    "start": 37.98,
+    "end": 38.38,
+    "prominence": 0.4842
+  },
+  {
+    "word": "small",
+    "start": 38.38,
+    "end": 38.72,
+    "prominence": 0.4468
+  },
+  {
+    "word": "family.",
+    "start": 38.72,
+    "end": 39.16,
+    "prominence": 0.5904
+  },
+  {
+    "word": "And",
+    "start": 39.36,
+    "end": 39.5,
+    "prominence": 0.4122
+  },
+  {
+    "word": "we",
+    "start": 39.5,
+    "end": 39.6,
+    "prominence": 0.3332
+  },
+  {
+    "word": "have",
+    "start": 39.6,
+    "end": 39.76,
+    "prominence": 0.443
+  },
+  {
+    "word": "a",
+    "start": 39.76,
+    "end": 40.04,
+    "prominence": 0.488
+  },
+  {
+    "word": "completely",
+    "start": 40.04,
+    "end": 40.3,
+    "prominence": 0.4555
+  },
+  {
+    "word": "new",
+    "start": 40.3,
+    "end": 40.56,
+    "prominence": 0.4399
+  },
+  {
+    "word": "world.",
+    "start": 40.56,
+    "end": 40.94,
+    "prominence": 0.4918
+  },
+  {
+    "word": "Let",
+    "start": 41.36,
+    "end": 42.9,
+    "prominence": 0.7352
+  },
+  {
+    "word": "me",
+    "start": 42.9,
+    "end": 43.32,
+    "prominence": 0.5149
+  },
+  {
+    "word": "make",
+    "start": 43.32,
+    "end": 43.74,
+    "prominence": 0.6249
+  },
+  {
+    "word": "a",
+    "start": 43.74,
+    "end": 44.68,
+    "prominence": 0.6756
+  },
+  {
+    "word": "comparison",
+    "start": 44.68,
+    "end": 44.7,
+    "prominence": 0.3279
+  },
+  {
+    "word": "directly",
+    "start": 44.7,
+    "end": 45.46,
+    "prominence": 0.7319
+  },
+  {
+    "word": "between",
+    "start": 45.46,
+    "end": 45.7,
+    "prominence": 0.3899
+  },
+  {
+    "word": "United",
+    "start": 45.7,
+    "end": 45.98,
+    "prominence": 0.4926
+  },
+  {
+    "word": "States",
+    "start": 45.98,
+    "end": 46.58,
+    "prominence": 0.664
+  },
+  {
+    "word": "of",
+    "start": 46.58,
+    "end": 46.68,
+    "prominence": 0.297
+  },
+  {
+    "word": "America",
+    "start": 46.68,
+    "end": 47.16,
+    "prominence": 0.7127
+  },
+  {
+    "word": "and",
+    "start": 47.16,
+    "end": 47.36,
+    "prominence": 0.3577
+  },
+  {
+    "word": "Vietnam,",
+    "start": 47.36,
+    "end": 48.12,
+    "prominence": 0.6918
+  },
+  {
+    "word": "1964.",
+    "start": 48.12,
+    "end": 48.35,
+    "prominence": 0.4014
+  },
+  {
+    "word": "America",
+    "start": 48.35,
+    "end": 48.37,
+    "prominence": 0.2529
+  },
+  {
+    "word": "had",
+    "start": 48.37,
+    "end": 48.39,
+    "prominence": 0.2058
+  },
+  {
+    "word": "small",
+    "start": 48.39,
+    "end": 48.41,
+    "prominence": 0.2096
+  },
+  {
+    "word": "families",
+    "start": 48.41,
+    "end": 48.92,
+    "prominence": 0.7287
+  },
+  {
+    "word": "and",
+    "start": 48.92,
+    "end": 49.14,
+    "prominence": 0.3766
+  },
+  {
+    "word": "long",
+    "start": 49.14,
+    "end": 49.52,
+    "prominence": 0.5823
+  },
+  {
+    "word": "life.",
+    "start": 49.52,
+    "end": 49.88,
+    "prominence": 0.508
+  },
+  {
+    "word": "Vietnam",
+    "start": 51.34,
+    "end": 51.36,
+    "prominence": 0.2627
+  },
+  {
+    "word": "had",
+    "start": 51.36,
+    "end": 51.38,
+    "prominence": 0.2092
+  },
+  {
+    "word": "large",
+    "start": 51.38,
+    "end": 51.4,
+    "prominence": 0.2154
+  },
+  {
+    "word": "families",
+    "start": 51.4,
+    "end": 51.52,
+    "prominence": 0.3751
+  },
+  {
+    "word": "and",
+    "start": 51.52,
+    "end": 52.64,
+    "prominence": 0.7258
+  },
+  {
+    "word": "short",
+    "start": 52.64,
+    "end": 52.84,
+    "prominence": 0.3907
+  },
+  {
+    "word": "lives.",
+    "start": 52.84,
+    "end": 53.52,
+    "prominence": 0.6846
+  },
+  {
+    "word": "And",
+    "start": 54.12,
+    "end": 54.14,
+    "prominence": 0.2846
+  },
+  {
+    "word": "this",
+    "start": 54.14,
+    "end": 54.28,
+    "prominence": 0.4577
+  },
+  {
+    "word": "is",
+    "start": 54.28,
+    "end": 54.44,
+    "prominence": 0.427
+  },
+  {
+    "word": "what",
+    "start": 54.44,
+    "end": 54.84,
+    "prominence": 0.4945
+  },
+  {
+    "word": "happens.",
+    "start": 54.84,
+    "end": 56.2,
+    "prominence": 0.7289
+  },
+  {
+    "word": "The",
+    "start": 57.46,
+    "end": 58.18,
+    "prominence": 0.5598
+  },
+  {
+    "word": "data",
+    "start": 58.18,
+    "end": 58.66,
+    "prominence": 0.4715
+  },
+  {
+    "word": "during",
+    "start": 58.66,
+    "end": 59.4,
+    "prominence": 0.5279
+  },
+  {
+    "word": "the",
+    "start": 59.4,
+    "end": 59.84,
+    "prominence": 0.4564
+  },
+  {
+    "word": "war",
+    "start": 59.84,
+    "end": 60.2,
+    "prominence": 0.4753
+  },
+  {
+    "word": "indicate",
+    "start": 60.2,
+    "end": 61.84,
+    "prominence": 0.6421
+  },
+  {
+    "word": "that",
+    "start": 61.84,
+    "end": 62.3,
+    "prominence": 0.5589
+  },
+  {
+    "word": "the",
+    "start": 62.3,
+    "end": 62.32,
+    "prominence": 0.2656
+  },
+  {
+    "word": "African",
+    "start": 62.32,
+    "end": 62.34,
+    "prominence": 0.1899
+  },
+  {
+    "word": "countries",
+    "start": 62.34,
+    "end": 62.36,
+    "prominence": 0.1911
+  },
+  {
+    "word": "are",
+    "start": 62.36,
+    "end": 62.38,
+    "prominence": 0.2085
+  },
+  {
+    "word": "moving",
+    "start": 62.38,
+    "end": 62.4,
+    "prominence": 0.1945
+  },
+  {
+    "word": "towards",
+    "start": 62.4,
+    "end": 62.42,
+    "prominence": 0.1964
+  },
+  {
+    "word": "larger",
+    "start": 62.42,
+    "end": 62.44,
+    "prominence": 0.1945
+  },
+  {
+    "word": "families.",
+    "start": 62.44,
+    "end": 62.66,
+    "prominence": 0.5769
+  },
+  {
+    "word": "And",
+    "start": 63.7,
+    "end": 63.82,
+    "prominence": 0.4101
+  },
+  {
+    "word": "the",
+    "start": 63.82,
+    "end": 64.24,
+    "prominence": 0.7417
+  },
+  {
+    "word": "African",
+    "start": 64.24,
+    "end": 64.26,
+    "prominence": 0.2667
+  },
+  {
+    "word": "countries",
+    "start": 64.26,
+    "end": 64.38,
+    "prominence": 0.4411
+  },
+  {
+    "word": "are",
+    "start": 64.38,
+    "end": 64.8,
+    "prominence": 0.6093
+  },
+  {
+    "word": "moving",
+    "start": 64.8,
+    "end": 64.82,
+    "prominence": 0.2886
+  },
+  {
+    "word": "towards",
+    "start": 64.82,
+    "end": 64.84,
+    "prominence": 0.2287
+  },
+  {
+    "word": "smaller",
+    "start": 64.84,
+    "end": 65.12,
+    "prominence": 0.6053
+  },
+  {
+    "word": "families.",
+    "start": 65.12,
+    "end": 65.74,
+    "prominence": 0.6647
+  },
+  {
+    "word": "And",
+    "start": 67.08,
+    "end": 67.22,
+    "prominence": 0.3761
+  },
+  {
+    "word": "this",
+    "start": 67.22,
+    "end": 67.4,
+    "prominence": 0.5073
+  },
+  {
+    "word": "is",
+    "start": 67.4,
+    "end": 67.52,
+    "prominence": 0.432
+  },
+  {
+    "word": "what",
+    "start": 67.52,
+    "end": 67.68,
+    "prominence": 0.4484
+  },
+  {
+    "word": "happens.",
+    "start": 67.68,
+    "end": 68.12,
+    "prominence": 0.5955
+  },
+  {
+    "word": "The",
+    "start": 68.46,
+    "end": 68.64,
+    "prominence": 0.4414
+  },
+  {
+    "word": "data",
+    "start": 68.64,
+    "end": 69.18,
+    "prominence": 0.6435
+  },
+  {
+    "word": "during",
+    "start": 69.18,
+    "end": 69.84,
+    "prominence": 0.5135
+  },
+  {
+    "word": "the",
+    "start": 69.84,
+    "end": 70.12,
+    "prominence": 0.4686
+  },
+  {
+    "word": "war",
+    "start": 70.12,
+    "end": 70.52,
+    "prominence": 0.451
+  },
+  {
+    "word": "indicate",
+    "start": 70.52,
+    "end": 71.5,
+    "prominence": 0.6176
+  },
+  {
+    "word": "that",
+    "start": 71.5,
+    "end": 72.36,
+    "prominence": 0.5243
+  },
+  {
+    "word": "even",
+    "start": 72.36,
+    "end": 72.84,
+    "prominence": 0.4886
+  },
+  {
+    "word": "with",
+    "start": 72.84,
+    "end": 73.08,
+    "prominence": 0.4036
+  },
+  {
+    "word": "all",
+    "start": 73.08,
+    "end": 73.3,
+    "prominence": 0.4752
+  },
+  {
+    "word": "the",
+    "start": 73.3,
+    "end": 73.42,
+    "prominence": 0.3993
+  },
+  {
+    "word": "death,",
+    "start": 73.42,
+    "end": 73.68,
+    "prominence": 0.5377
+  },
+  {
+    "word": "there",
+    "start": 73.84,
+    "end": 73.9,
+    "prominence": 0.3145
+  },
+  {
+    "word": "was",
+    "start": 73.9,
+    "end": 74.12,
+    "prominence": 0.6118
+  },
+  {
+    "word": "an",
+    "start": 74.12,
+    "end": 74.4,
+    "prominence": 0.4434
+  },
+  {
+    "word": "improvement",
+    "start": 74.4,
+    "end": 74.7,
+    "prominence": 0.4879
+  },
+  {
+    "word": "of",
+    "start": 74.7,
+    "end": 74.94,
+    "prominence": 0.4507
+  },
+  {
+    "word": "life",
+    "start": 74.94,
+    "end": 75.18,
+    "prominence": 0.4504
+  },
+  {
+    "word": "expectancy.",
+    "start": 75.18,
+    "end": 75.78,
+    "prominence": 0.5453
+  },
+  {
+    "word": "By",
+    "start": 75.98,
+    "end": 76.2,
+    "prominence": 0.4991
+  },
+  {
+    "word": "the",
+    "start": 76.2,
+    "end": 76.34,
+    "prominence": 0.3438
+  },
+  {
+    "word": "end",
+    "start": 76.34,
+    "end": 76.52,
+    "prominence": 0.4519
+  },
+  {
+    "word": "of",
+    "start": 76.52,
+    "end": 76.68,
+    "prominence": 0.3964
+  },
+  {
+    "word": "the",
+    "start": 76.68,
+    "end": 76.82,
+    "prominence": 0.3918
+  },
+  {
+    "word": "year,",
+    "start": 76.82,
+    "end": 76.94,
+    "prominence": 0.3789
+  },
+  {
+    "word": "the",
+    "start": 77.02,
+    "end": 77.16,
+    "prominence": 0.5283
+  },
+  {
+    "word": "family",
+    "start": 77.16,
+    "end": 77.42,
+    "prominence": 0.4439
+  },
+  {
+    "word": "planning",
+    "start": 77.42,
+    "end": 77.7,
+    "prominence": 0.5603
+  },
+  {
+    "word": "started",
+    "start": 77.7,
+    "end": 78.08,
+    "prominence": 0.4587
+  },
+  {
+    "word": "in",
+    "start": 78.08,
+    "end": 78.3,
+    "prominence": 0.4468
+  },
+  {
+    "word": "Vietnam",
+    "start": 78.3,
+    "end": 78.62,
+    "prominence": 0.5503
+  },
+  {
+    "word": "and",
+    "start": 78.62,
+    "end": 78.8,
+    "prominence": 0.3769
+  },
+  {
+    "word": "they",
+    "start": 78.8,
+    "end": 78.9,
+    "prominence": 0.3661
+  },
+  {
+    "word": "went",
+    "start": 78.9,
+    "end": 79.12,
+    "prominence": 0.5386
+  },
+  {
+    "word": "for",
+    "start": 79.12,
+    "end": 79.34,
+    "prominence": 0.439
+  },
+  {
+    "word": "smaller",
+    "start": 79.34,
+    "end": 79.64,
+    "prominence": 0.473
+  },
+  {
+    "word": "families.",
+    "start": 79.64,
+    "end": 80.1,
+    "prominence": 0.6485
+  },
+  {
+    "word": "And",
+    "start": 80.4,
+    "end": 80.52,
+    "prominence": 0.428
+  },
+  {
+    "word": "the",
+    "start": 80.52,
+    "end": 80.74,
+    "prominence": 0.5452
+  },
+  {
+    "word": "United",
+    "start": 80.74,
+    "end": 81.06,
+    "prominence": 0.5035
+  },
+  {
+    "word": "States",
+    "start": 81.06,
+    "end": 81.38,
+    "prominence": 0.4682
+  },
+  {
+    "word": "up",
+    "start": 81.38,
+    "end": 81.58,
+    "prominence": 0.418
+  },
+  {
+    "word": "there",
+    "start": 81.58,
+    "end": 81.76,
+    "prominence": 0.4473
+  },
+  {
+    "word": "is",
+    "start": 81.76,
+    "end": 81.92,
+    "prominence": 0.4304
+  },
+  {
+    "word": "getting",
+    "start": 81.92,
+    "end": 82.14,
+    "prominence": 0.4645
+  },
+  {
+    "word": "for",
+    "start": 82.14,
+    "end": 82.42,
+    "prominence": 0.4596
+  },
+  {
+    "word": "longer",
+    "start": 82.42,
+    "end": 82.62,
+    "prominence": 0.4711
+  },
+  {
+    "word": "life,",
+    "start": 82.62,
+    "end": 82.96,
+    "prominence": 0.5896
+  },
+  {
+    "word": "keeping",
+    "start": 83.26,
+    "end": 83.32,
+    "prominence": 0.3465
+  },
+  {
+    "word": "family",
+    "start": 83.32,
+    "end": 83.74,
+    "prominence": 0.7356
+  },
+  {
+    "word": "size.",
+    "start": 83.74,
+    "end": 84.04,
+    "prominence": 0.5393
+  },
+  {
+    "word": "And",
+    "start": 84.26,
+    "end": 84.46,
+    "prominence": 0.4313
+  },
+  {
+    "word": "in",
+    "start": 84.46,
+    "end": 84.62,
+    "prominence": 0.3898
+  },
+  {
+    "word": "the",
+    "start": 84.62,
+    "end": 84.82,
+    "prominence": 0.4348
+  },
+  {
+    "word": "80s",
+    "start": 84.82,
+    "end": 85.3,
+    "prominence": 0.5492
+  },
+  {
+    "word": "now,",
+    "start": 85.3,
+    "end": 85.5,
+    "prominence": 0.3959
+  },
+  {
+    "word": "they",
+    "start": 85.74,
+    "end": 85.84,
+    "prominence": 0.3993
+  },
+  {
+    "word": "give",
+    "start": 85.84,
+    "end": 86.22,
+    "prominence": 0.7498
+  },
+  {
+    "word": "up",
+    "start": 86.22,
+    "end": 87.08,
+    "prominence": 0.4693
+  },
+  {
+    "word": "communist",
+    "start": 87.08,
+    "end": 87.6,
+    "prominence": 0.4868
+  },
+  {
+    "word": "planning",
+    "start": 87.6,
+    "end": 87.94,
+    "prominence": 0.492
+  },
+  {
+    "word": "and",
+    "start": 87.94,
+    "end": 88.14,
+    "prominence": 0.4151
+  },
+  {
+    "word": "they",
+    "start": 88.14,
+    "end": 88.24,
+    "prominence": 0.3525
+  },
+  {
+    "word": "go",
+    "start": 88.24,
+    "end": 88.38,
+    "prominence": 0.4558
+  },
+  {
+    "word": "for",
+    "start": 88.38,
+    "end": 88.54,
+    "prominence": 0.4044
+  },
+  {
+    "word": "market",
+    "start": 88.54,
+    "end": 88.8,
+    "prominence": 0.4693
+  },
+  {
+    "word": "economy",
+    "start": 88.8,
+    "end": 89.22,
+    "prominence": 0.5751
+  },
+  {
+    "word": "and",
+    "start": 89.22,
+    "end": 89.44,
+    "prominence": 0.4204
+  },
+  {
+    "word": "it",
+    "start": 89.44,
+    "end": 89.58,
+    "prominence": 0.3945
+  },
+  {
+    "word": "moves",
+    "start": 89.58,
+    "end": 89.82,
+    "prominence": 0.4834
+  },
+  {
+    "word": "fast.",
+    "start": 89.82,
+    "end": 90.1,
+    "prominence": 0.6383
+  }
+]

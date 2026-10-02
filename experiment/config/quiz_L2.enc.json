@@ -1,0 +1,133 @@
+{
+  "comprehension": [
+    {
+      "id": "L2_C03",
+      "type": "content",
+      "question": "What does 'Goldilocks conditions' mean in this context?",
+      "options": [
+        "Conditions that are extremely hot everywhere",
+        "Conditions not too hot, not too cold, just right",
+        "Conditions that keep changing all the time",
+        "Conditions that are permanently frozen cold"
+      ],
+      "is_dummy": false,
+      "hint_ja": "Goldilocks conditions（ちょうどいい条件）とはこの文脈で何を意味しますか？",
+      "correct_enc": "SA==",
+      "question_ja": "この文脈で「ゴルディロックス条件」とはどういう意味ですか？",
+      "options_ja": [
+        "あらゆる場所が極端に高温な状態",
+        "熱すぎず冷たすぎず、ちょうどよい状態",
+        "常に変化し続けている状態",
+        "恒久的に凍りついた低温の状態"
+      ]
+    },
+    {
+      "id": "L2_C05",
+      "type": "content",
+      "question": "According to the speaker, what happens as things get more complex?",
+      "options": [
+        "They become more stable",
+        "They become more fragile and vulnerable",
+        "They become simpler",
+        "They become less interesting"
+      ],
+      "is_dummy": false,
+      "hint_ja": "物事がより複雑になるとどうなりますか？",
+      "correct_enc": "SA==",
+      "question_ja": "物事が複雑になるとどうなると話者は言いましたか？",
+      "options_ja": [
+        "より安定する",
+        "より壊れやすく脆弱になる",
+        "より単純になる",
+        "より面白くなくなる"
+      ],
+      "focus_critical": true
+    },
+    {
+      "id": "L2_C06",
+      "type": "content",
+      "question": "What does complexity create the impression of, according to the speaker?",
+      "options": [
+        "Something predictable following known rules",
+        "Something utterly new appearing out of nowhere",
+        "Something familiar returning from the past",
+        "Something dangerous threatening its surroundings"
+      ],
+      "is_dummy": false,
+      "hint_ja": "複雑さはどのような印象を生み出しますか？",
+      "correct_enc": "SA==",
+      "question_ja": "複雑性は何の印象を生むと話者は言いましたか？",
+      "options_ja": [
+        "既知の法則に従う予測可能な何か",
+        "どこからともなく現れるまったく新しい何か",
+        "過去から戻ってきた見覚えのある何か",
+        "周囲を脅かす危険な何か"
+      ],
+      "focus_critical": true
+    },
+    {
+      "id": "L2_C07",
+      "type": "content",
+      "question": "What does the speaker say happens at each threshold?",
+      "options": [
+        "The going gets easier",
+        "Nothing changes",
+        "The going gets tougher",
+        "Progress stops"
+      ],
+      "is_dummy": false,
+      "hint_ja": "各 threshold（転換点）で何が起こると話者は言いますか？",
+      "correct_enc": "SQ==",
+      "question_ja": "それぞれの閾値で何が起きると話者は言いましたか？",
+      "options_ja": [
+        "進むのが楽になる",
+        "何も変わらない",
+        "進むのが難しくなる",
+        "進歩が止まる"
+      ]
+    }
+  ],
+  "speaker_intent": {
+    "emphasis_identification": {
+      "sentence": "And why complexity means vulnerability and fragility.",
+      "question": "Which word did the speaker emphasize most?",
+      "options": [
+        "complexity",
+        "means",
+        "vulnerability",
+        "fragility"
+      ],
+      "hint_ja": "この文で話者が最も強調した語はどれですか？",
+      "correct_enc": "SQ=="
+    },
+    "attitude_estimation": {
+      "question": "What was the speaker's tone in this segment?",
+      "options": [
+        "Alarming",
+        "Humorous",
+        "Explanatory and measured",
+        "Emotional"
+      ],
+      "hint_ja": "この区間での話者のトーンは？",
+      "correct_enc": "SQ==",
+      "question_ja": "この区間での話者のトーンは？",
+      "options_ja": [
+        "警告的",
+        "ユーモラス",
+        "説明的で落ち着いている",
+        "感情的"
+      ]
+    },
+    "prosodic_structure": {
+      "question": "When describing 'Goldilocks conditions,' the speaker...",
+      "options": [
+        "Paused before explaining the phrase",
+        "Rushed through the explanation",
+        "Used a dramatically different voice",
+        "Repeated it several times"
+      ],
+      "hint_ja": "Goldilocks conditions を説明するとき、話者は…",
+      "correct_enc": "Rw=="
+    }
+  }
+}

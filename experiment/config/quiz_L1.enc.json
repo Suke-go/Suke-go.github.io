@@ -1,0 +1,164 @@
+{
+  "comprehension": [
+    {
+      "id": "L1_N01",
+      "type": "main_idea",
+      "question": "What is the speaker's main point in this segment?",
+      "options": [
+        "Regions that look alike hide huge internal differences",
+        "African countries all face identical challenges",
+        "Health statistics cannot be trusted for comparisons",
+        "Rich countries should send much more foreign aid"
+      ],
+      "is_dummy": false,
+      "hint_ja": "この区間の主な主張は何ですか？",
+      "correct_enc": "Rw==",
+      "question_ja": "この区間での話者の主な主張は何ですか？",
+      "options_ja": [
+        "似て見える地域の内部には大きな差が隠れている",
+        "アフリカ諸国はみな同じ課題を抱えている",
+        "健康統計は国際比較には信頼できない",
+        "先進国はもっと多くの援助を送るべきだ"
+      ]
+    },
+    {
+      "id": "L1_N02",
+      "type": "content",
+      "question": "Which country did the speaker connect with development aid?",
+      "options": [
+        "Sierra Leone",
+        "Uganda",
+        "Ghana",
+        "Singapore"
+      ],
+      "is_dummy": false,
+      "hint_ja": "開発援助と結びつけられた国はどこですか？",
+      "correct_enc": "SA==",
+      "question_ja": "話者が「開発援助」の段階だと述べた国はどこですか？",
+      "options_ja": [
+        "シエラレオネ",
+        "ウガンダ",
+        "ガーナ",
+        "シンガポール"
+      ]
+    },
+    {
+      "id": "L1_N03",
+      "type": "content",
+      "question": "What contrast did the speaker point out within South Asia?",
+      "options": [
+        "Between India and Pakistan",
+        "Between Bangladesh and Nepal",
+        "Between Afghanistan and Sri Lanka",
+        "Between India and China"
+      ],
+      "is_dummy": false,
+      "hint_ja": "南アジア内の対比としてどの2国が挙げられましたか？",
+      "correct_enc": "SQ==",
+      "question_ja": "南アジアの中の大きな差として、どの2国が対比されましたか？",
+      "options_ja": [
+        "インドとパキスタン",
+        "バングラデシュとネパール",
+        "アフガニスタンとスリランカ",
+        "インドと中国"
+      ]
+    },
+    {
+      "id": "L1_N04",
+      "type": "content",
+      "question": "What did the speaker say Arab states have in common?",
+      "options": [
+        "Language, borders, and history",
+        "Climate, culture, and religion",
+        "Oil wealth and trade routes",
+        "Population size and geography"
+      ],
+      "is_dummy": false,
+      "hint_ja": "アラブ諸国に共通するものとして挙げられたのは？",
+      "correct_enc": "SA==",
+      "question_ja": "アラブ諸国が共通して持つものとして挙げられたのは何ですか？",
+      "options_ja": [
+        "言語・国境・歴史",
+        "気候・文化・宗教",
+        "石油資源と交易路",
+        "人口規模と地理"
+      ],
+      "focus_critical": true
+    },
+    {
+      "id": "L1_N05",
+      "type": "content",
+      "question": "Which country was mentioned as having a civil war?",
+      "options": [
+        "Yemen",
+        "Cambodia",
+        "Sri Lanka",
+        "Sierra Leone"
+      ],
+      "is_dummy": false,
+      "hint_ja": "内戦があると言及された国はどこですか？",
+      "correct_enc": "Rw==",
+      "question_ja": "内戦があると言及された国はどこですか？",
+      "options_ja": [
+        "イエメン",
+        "カンボジア",
+        "スリランカ",
+        "シエラレオネ"
+      ]
+    },
+    {
+      "id": "L1_N06",
+      "type": "inference",
+      "question": "What was the speaker's conclusion about data quality?",
+      "options": [
+        "Uncertainty makes comparison impossible",
+        "Only wealthy countries collect usable data",
+        "Country differences outweigh the data's weakness",
+        "Data should be replaced by field visits"
+      ],
+      "is_dummy": false,
+      "hint_ja": "データの質について話者の結論は？",
+      "correct_enc": "SQ==",
+      "question_ja": "データの質について、話者はどう結論づけましたか？",
+      "options_ja": [
+        "不確実性のせいで比較は不可能だ",
+        "使えるデータを集められるのは豊かな国だけだ",
+        "国どうしの差はデータの弱点より大きい",
+        "データより現地視察を重視すべきだ"
+      ],
+      "focus_critical": true
+    }
+  ],
+  "speaker_intent": {
+    "emphasis_identification": {
+      "sentence": "Same climate, same culture, same religion, huge difference even between neighbours.",
+      "question": "Which word did the speaker emphasize most in this sentence?",
+      "options": [
+        "climate",
+        "culture",
+        "religion",
+        "difference"
+      ],
+      "hint_ja": "この文で話者が最も強調した語はどれですか？",
+      "correct_enc": "SA=="
+    },
+    "attitude_estimation": {
+      "question": "What was the speaker's overall tone in this segment?",
+      "options": [
+        "Enthusiastic",
+        "Solemn",
+        "Sarcastic",
+        "Detached"
+      ],
+      "hint_ja": "この区間での話者の全体的なトーンは？",
+      "correct_enc": "Rw==",
+      "question_ja": "この区間での話者の全体的なトーンは？",
+      "options_ja": [
+        "熱意にあふれている",
+        "厳粛",
+        "皮肉っぽい",
+        "突き放している"
+      ]
+    }
+  }
+}

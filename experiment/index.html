@@ -1,13 +1,665 @@
-<!doctype html>
+﻿<!DOCTYPE html>
 <html lang="ja">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta http-equiv="refresh" content="0; url=https://ksk432.com/prominence-subtitle.github.io/experiments/subtitle_experiment/">
-  <link rel="canonical" href="https://ksk432.com/prominence-subtitle.github.io/experiments/subtitle_experiment/">
-  <title>字幕実験へ移動します</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Prosodic Captioning Experiment</title>
+  <meta name="description" content="A study on subtitle presentation for video content.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300;400;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+
+  <!-- jsPsych 7 -->
+  <script src="https://unpkg.com/jspsych@7.3.4"></script>
+  <link rel="stylesheet" href="https://unpkg.com/jspsych@7.3.4/css/jspsych.css">
+  <script src="https://unpkg.com/@jspsych/plugin-html-button-response@1.1.3"></script>
+  <script src="https://unpkg.com/@jspsych/plugin-html-keyboard-response@1.1.3"></script>
+  <script src="https://unpkg.com/@jspsych/plugin-survey-multi-choice@1.1.3"></script>
+  <script src="https://unpkg.com/@jspsych/plugin-survey-likert@1.1.3"></script>
+  <script src="https://unpkg.com/@jspsych/plugin-survey-text@1.1.3"></script>
+  <script src="https://unpkg.com/@jspsych/plugin-preload@1.1.3"></script>
+  <script src="plugins/plugin-video-subtitle.js"></script>
+  <link rel="stylesheet" href="css/experiment.css">
 </head>
 <body>
-  <p><a href="https://ksk432.com/prominence-subtitle.github.io/experiments/subtitle_experiment/">字幕実験を開く</a></p>
+  <div id="jspsych-target"></div>
+
+  <script type="module">
+    import { t, setLang, getLang } from './js/i18n.js';
+    import { pushToSheet, uploadFileToDrive, getNextParticipantNum } from './js/jsPsychSheet.js';
+    import { decrypt } from './js/crypto.js';
+    window._t = t; window._setLang = setLang; window._getLang = getLang;
+
+    // ── Load all data upfront (encrypted quiz files) ─────
+    const config = await fetch('config/experiment_config.json').then(r => r.json());
+    const practiceQ = await fetch('config/quiz_practice.enc.json').then(r => r.json());
+
+    // Pre-load ALL clip questions (encrypted) + subtitles
+    const clipData = {};
+    for (const clipId of config.clip_order) {
+      const legacyDir = config.data_dir_map[clipId];
+      try {
+        const [qRes, sRes] = await Promise.all([
+          fetch(`config/quiz_${legacyDir}.enc.json`),
+          fetch(`data/${legacyDir}/subtitle.json`),
+        ]);
+        clipData[clipId] = {
+          questions: await qRes.json(),
+          subtitles: await sRes.json(),
+          legacyDir,
+        };
+      } catch (e) {
+        console.warn(`Failed to load data for ${clipId}/${legacyDir}`, e);
+        clipData[clipId] = { questions: null, subtitles: null, legacyDir };
+      }
+    }
+
+    // Pre-load practice subtitle
+    let practiceSubtitle = [];
+    try {
+      const ps = await fetch('data/practice/subtitle.json').then(r => r.json());
+      practiceSubtitle = ps.conditions?.normal || [];
+    } catch (e) { console.warn('No practice subtitle', e); }
+
+    // ── jsPsych init ─────────────────────────────────
+    const jsPsych = initJsPsych({
+      display_element: 'jspsych-target',
+      show_progress_bar: true,
+      on_finish: async function () {
+        // Fallback: also try to push data when jsPsych finishes
+        // (may not fire if completion trial is terminal with choices:[])
+        const data = jsPsych.data.get().json();
+        window._experimentData = data;
+      }
+    });
+
+    // ── Helpers ───────────────────────────────────────
+    // Sequential assignment guarantees perfect counterbalancing:
+    //   pattern = (participantNum - 1) % 4  → Latin Square row A/B/C/D
+    //   order   = (participantNum - 1) % 6  → Williams presentation order
+    function assignFromNumber(num) {
+      const patterns = Object.keys(config.latin_square);
+      const patternIdx = (num - 1) % patterns.length;
+      const orderIdx = (num - 1) % PRESENTATION_ORDERS.length;
+      return { pattern: patterns[patternIdx], orderIdx };
+    }
+
+    function shuffle(arr) {
+      const a = [...arr];
+      for (let i = a.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [a[i], a[j]] = [a[j], a[i]];
+      }
+      return a;
+    }
+
+    // ── Emphasis word-click task ──────────────────────
+    // Shows a transcript sentence; participant clicks the word(s) they
+    // perceived as emphasized (max 3). Per-word acoustic prominence is
+    // looked up from the subtitle data and stored alongside the response,
+    // so graded agreement (e.g. F1 vs. top-k prominence) can be computed offline.
+    function normTok(w) {
+      return w.toLowerCase().replace(/[^a-z0-9']/g, '');
+    }
+
+    // Align sentence tokens to the subtitle word stream (best contiguous window)
+    function alignProminence(sentence, subtitleWords) {
+      const toks = sentence.split(/\s+/).map(normTok).filter(Boolean);
+      if (!subtitleWords?.length || !toks.length) return toks.map(() => null);
+      const subToks = subtitleWords.map(w => normTok(w.text));
+      let best = { score: -1, start: 0 };
+      for (let s = 0; s + toks.length <= subToks.length; s++) {
+        let score = 0;
+        for (let i = 0; i < toks.length; i++) if (subToks[s + i] === toks[i]) score++;
+        if (score > best.score) best = { score, start: s };
+      }
+      if (best.score < Math.ceil(toks.length * 0.5)) return toks.map(() => null);
+      return toks.map((tok, i) => {
+        const w = subtitleWords[best.start + i];
+        return (w && normTok(w.text) === tok) ? (w.prominence ?? null) : null;
+      });
+    }
+
+    // Auto-select a second emphasis probe: segment the word stream at pauses
+    // (>0.5s gap), pick the 6–14-word segment with the highest peak prominence
+    // that doesn't overlap the quiz sentence.
+    function pickAutoSentence(subtitleWords, excludeSentence) {
+      if (!subtitleWords?.length) return null;
+      const exclude = new Set((excludeSentence || '').split(/\s+/).map(normTok).filter(Boolean));
+      const segments = [];
+      let seg = [];
+      for (let i = 0; i < subtitleWords.length; i++) {
+        const w = subtitleWords[i];
+        const prev = subtitleWords[i - 1];
+        if (prev && (w.start - prev.end) > 0.5 && seg.length) { segments.push(seg); seg = []; }
+        seg.push(w);
+        if (/[.?!]$/.test(w.text)) { segments.push(seg); seg = []; }
+      }
+      if (seg.length) segments.push(seg);
+      let best = null, bestScore = -1;
+      for (const s of segments) {
+        if (s.length < 6 || s.length > 14) continue;
+        const overlap = s.filter(w => exclude.has(normTok(w.text))).length;
+        if (overlap > s.length * 0.5) continue;
+        const peak = Math.max(...s.map(w => w.prominence ?? 0));
+        if (peak > bestScore) { bestScore = peak; best = s; }
+      }
+      return best ? best.map(w => w.text).join(' ') : null;
+    }
+
+    function makeEmphasisClickTrial(sentence, subtitleWords, counterLabel, extraData) {
+      const words = sentence.split(/\s+/).filter(Boolean);
+      const prominences = alignProminence(sentence, subtitleWords);
+      let selected = new Set();
+      return {
+        type: jsPsychHtmlButtonResponse,
+        stimulus: () => `
+          <p class="question-counter">${typeof counterLabel === 'function' ? counterLabel() : counterLabel}</p>
+          <h2>${t('emph_click_title')}</h2>
+          <p class="phase-subtitle">${t('emph_click_instr')}</p>
+          <div class="word-select" id="word-select">
+            ${words.map((w, i) => `<span class="ws-word" data-idx="${i}">${w}</span>`).join(' ')}
+          </div>
+          <p class="ws-count" id="ws-count"></p>`,
+        choices: () => [t('btn_next')],
+        on_load: () => {
+          selected = new Set();
+          const btn = document.querySelector('.jspsych-btn');
+          const countEl = document.getElementById('ws-count');
+          const update = () => {
+            btn.disabled = selected.size === 0;
+            btn.style.opacity = selected.size === 0 ? 0.4 : 1;
+            countEl.textContent = t('emph_click_count', { n: selected.size });
+          };
+          update();
+          document.querySelectorAll('.ws-word').forEach(el => {
+            el.addEventListener('click', () => {
+              const idx = parseInt(el.dataset.idx);
+              if (selected.has(idx)) { selected.delete(idx); el.classList.remove('sel'); }
+              else if (selected.size < 3) { selected.add(idx); el.classList.add('sel'); }
+              update();
+            });
+          });
+        },
+        on_finish: (data) => {
+          const idxs = [...selected].sort((a, b) => a - b);
+          data.sentence = sentence;
+          data.sentence_words = words;
+          data.word_prominences = prominences;
+          data.selected_indices = idxs;
+          data.selected_words = idxs.map(i => words[i]);
+        },
+        data: { phase: 'intent', intent_type: 'emphasis_click', ...extraData },
+      };
+    }
+
+    // Williams Latin Square for 6 clips (counterbalances order effects)
+    // Each row is a presentation order; 6 rows cover all necessary counterbalancing
+    const PRESENTATION_ORDERS = [
+      ['C1','C2','C6','C3','C5','C4'],
+      ['C2','C3','C1','C4','C6','C5'],
+      ['C3','C4','C2','C5','C1','C6'],
+      ['C4','C5','C3','C6','C2','C1'],
+      ['C5','C6','C4','C1','C3','C2'],
+      ['C6','C1','C5','C2','C4','C3'],
+    ];
+
+    // ═══════════════════════════════════════════════════
+    // PHASE 1: Language Selection
+    // ═══════════════════════════════════════════════════
+    const langSelect = {
+      type: jsPsychHtmlButtonResponse,
+      stimulus: `
+        <div class="phase-card" style="text-align:center">
+          <h1 style="margin-bottom:1.5rem;font-size:2.5rem">🌐</h1>
+          <h2>Select Language / 言語を選択</h2>
+        </div>`,
+      choices: ['English', '日本語'],
+      on_finish: (data) => {
+        const lang = data.response === 0 ? 'en' : 'ja';
+        setLang(lang);
+        jsPsych.data.addProperties({ language: lang });
+      }
+    };
+
+    // ═══════════════════════════════════════════════════
+    // PHASE 1b: Participant Number (fully automatic) + ID
+    // ═══════════════════════════════════════════════════
+    // The number is fetched from GAS (sequential counter → perfect
+    // counterbalancing). Participants never type it. If GAS is unreachable
+    // after retries, fall back to a random number and flag it in the data.
+    async function obtainParticipantNum() {
+      for (let attempt = 0; attempt < 3; attempt++) {
+        const n = await getNextParticipantNum(6000);
+        if (n) return { num: n, source: 'gas' };
+      }
+      return { num: 1 + Math.floor(Math.random() * 36), source: 'random_fallback' };
+    }
+    const pidPromise = obtainParticipantNum();
+
+    // Loading screen: waits until the number is available
+    const pidWait = {
+      type: jsPsychHtmlKeyboardResponse,
+      stimulus: () => `<div class="phase-card" style="text-align:center">
+        <p class="phase-subtitle">${t('pid_loading')}</p></div>`,
+      choices: 'NO_KEYS',
+      on_load: async () => {
+        const { num, source } = await pidPromise;
+        window._pid = { num, source };
+        jsPsych.finishTrial({ participant_num: num, pid_source: source });
+      },
+      data: { phase: 'pid_assign' },
+    };
+
+    const participantId = {
+      type: jsPsychSurveyText,
+      preamble: () => `<p class="phase-subtitle">${t('pid_auto_assigned', { n: window._pid.num })}</p>
+        <p>${t('pid_contact_intro')}</p>`,
+      questions: () => [
+        { prompt: t('pid_name_prompt'), name: 'participant_name', required: true, placeholder: t('pid_name_placeholder') },
+        { prompt: t('pid_email_prompt'), name: 'participant_email', required: true, placeholder: 'email@example.com' },
+      ],
+      on_finish: (data) => {
+        const num = window._pid.num;
+        const { pattern, orderIdx } = assignFromNumber(num);
+        jsPsych.data.addProperties({
+          participant_num: num,
+          pid_source: window._pid.source,
+          participant_id: `P${String(num).padStart(2, '0')}`,
+          participant_name: data.response.participant_name,
+          participant_email: data.response.participant_email,
+          latin_square_pattern: pattern,
+          presentation_order: orderIdx,
+        });
+        console.log(`Assignment: #${num} (${window._pid.source}) → pattern=${pattern}, order=${orderIdx}`);
+      }
+    };
+
+    // ═══════════════════════════════════════════════════
+    // PHASE 2: Consent
+    // ═══════════════════════════════════════════════════
+    const consent = {
+      type: jsPsychHtmlButtonResponse,
+      stimulus: () => `<div class="phase-card consent-card">${t('consent_body')}<label class="consent-check"><input type="checkbox" id="consent-cb"> ${t('consent_checkbox')}</label></div>`,
+      choices: () => [t('consent_agree')],
+      on_load: () => {
+        const btn = document.querySelector('.jspsych-btn');
+        btn.disabled = true; btn.style.opacity = 0.4;
+        document.getElementById('consent-cb')?.addEventListener('change', function() {
+          btn.disabled = !this.checked;
+          btn.style.opacity = this.checked ? 1 : 0.4;
+        });
+      }
+    };
+
+    // ═══════════════════════════════════════════════════
+    // PHASE 2b: Consent form download + signed scan upload
+    // ═══════════════════════════════════════════════════
+    let _consentFile = null; // { name, mime, base64 }
+    const consentUpload = {
+      type: jsPsychHtmlButtonResponse,
+      stimulus: () => `<div class="phase-card">
+        <h2>${t('cupload_title')}</h2>
+        <p>${t('cupload_body')}</p>
+        <p style="margin:1rem 0">
+          <a class="download-btn" href="docs/consent_form.pdf" download>${t('cupload_dl_consent')}</a>
+        </p>
+        <hr style="margin:1.25rem 0">
+        <p>${t('cupload_upload_prompt')}</p>
+        <input type="file" id="consent-file" accept="image/*,application/pdf">
+        <p id="consent-file-status" style="color:#666;font-size:0.9rem;margin-top:0.5rem"></p>
+      </div>`,
+      choices: () => [t('cupload_submit'), t('cupload_later')],
+      on_load: () => {
+        const btn = document.querySelectorAll('.jspsych-btn')[0];
+        btn.disabled = true; btn.style.opacity = 0.4;
+        const statusEl = document.getElementById('consent-file-status');
+        document.getElementById('consent-file').addEventListener('change', function() {
+          const f = this.files[0];
+          if (!f) return;
+          if (f.size > 10 * 1024 * 1024) {
+            statusEl.textContent = t('cupload_too_large');
+            return;
+          }
+          const reader = new FileReader();
+          reader.onload = () => {
+            _consentFile = {
+              name: f.name,
+              mime: f.type || 'application/octet-stream',
+              base64: reader.result.split(',')[1],
+            };
+            statusEl.textContent = t('cupload_selected', { name: f.name });
+            btn.disabled = false; btn.style.opacity = 1;
+          };
+          reader.readAsDataURL(f);
+        });
+      },
+      on_finish: (data) => {
+        const skipped = data.response === 1;
+        data.consent_file_name = (!skipped && _consentFile) ? _consentFile.name : null;
+        data.consent_upload_deferred = skipped || !_consentFile;
+        if (!skipped && _consentFile) {
+          const pid = jsPsych.data.get().select('participant_id').values.slice(-1)[0] || 'unknown';
+          // Fire-and-forget: upload in background so the experiment continues
+          uploadFileToDrive(_consentFile.name, _consentFile.mime, _consentFile.base64, String(pid));
+        }
+      },
+      data: { phase: 'consent_upload' },
+    };
+
+    // ═══════════════════════════════════════════════════
+    // PHASE 3: Demographics (compact)
+    // ═══════════════════════════════════════════════════
+    const demographics = {
+      type: jsPsychSurveyMultiChoice,
+      preamble: () => `<h2>${t('demo_title')}</h2>`,
+      questions: () => [
+        { prompt: t('demo_age'), name: 'age', options: t('demo_age_opts'), required: true },
+        { prompt: t('demo_gender'), name: 'gender', options: t('demo_gender_opts'), required: true },
+        { prompt: t('demo_l1'), name: 'l1', options: t('demo_l1_opts'), required: true },
+        { prompt: t('demo_subtitle_freq'), name: 'subtitle_freq', options: t('demo_subtitle_opts'), required: true },
+      ],
+      data: { phase: 'demographics' },
+    };
+
+    // ═══════════════════════════════════════════════════
+    // PHASE 3b: English Proficiency
+    // ═══════════════════════════════════════════════════
+    const cefrAssessment = {
+      type: jsPsychSurveyMultiChoice,
+      preamble: () => `<h2>${t('cefr_title')}</h2><p class="phase-subtitle">${t('cefr_instr')}</p>`,
+      questions: () => [
+        { prompt: t('cefr_overall'), name: 'cefr_overall', options: t('cefr_overall_opts'), required: true },
+        { prompt: t('cefr_listening'), name: 'cefr_listening', options: t('cefr_listening_opts'), required: true },
+      ],
+      data: { phase: 'cefr' },
+    };
+
+    // Test score — same page, text input (no separate page)
+    const cefrTestScore = {
+      type: jsPsychSurveyText,
+      preamble: () => `<p class="phase-subtitle">${t('cefr_test_score')}</p>`,
+      questions: () => [
+        { prompt: '', name: 'test_score', placeholder: t('pid_score_placeholder'), required: false },
+      ],
+      data: { phase: 'cefr_score' },
+    };
+
+    // ═══════════════════════════════════════════════════
+    // PHASE 5: Practice Trial (Normal condition, no subtitle variation)
+    // ═══════════════════════════════════════════════════
+    const practiceIntro = {
+      type: jsPsychHtmlButtonResponse,
+      stimulus: () => `<div class="phase-card"><h2>${t('practice_title')}</h2><p>${t('practice_instr')}</p></div>`,
+      choices: () => [t('btn_start_video')],
+    };
+
+    const practiceVideo = {
+      type: jsPsychVideoSubtitle,
+      video_src: 'data/practice/video.mp4',
+      subtitle_words: [],  // Practice uses Normal condition (no size variation)
+      clip_label: () => t('practice_title'),
+      lookback_s: config.presentation.lookback_window_s,
+      instruction: () => t('trial_video_instr'),
+      auto_advance: true,
+      data: { phase: 'practice' },
+    };
+
+    // Practice quiz: emphasis-click practice only (the one unfamiliar task)
+    const practiceQuizTrials = [];
+    if (practiceQ.speaker_intent?.emphasis_identification) {
+      const emp = practiceQ.speaker_intent.emphasis_identification;
+      practiceQuizTrials.push(makeEmphasisClickTrial(
+        emp.sentence, practiceSubtitle,
+        () => t('practice_title'),
+        { clip_id: 'practice' }
+      ));
+    }
+
+    // ═══════════════════════════════════════════════════
+    // PHASE 6: Main Trials — built from pre-loaded data
+    // ═══════════════════════════════════════════════════
+    function buildMainTrials(participantNum) {
+      const { pattern, orderIdx } = assignFromNumber(participantNum);
+      const assignment = config.latin_square[pattern];
+      const clipOrder = PRESENTATION_ORDERS[orderIdx];
+      const trials = [];
+
+      clipOrder.forEach((clipId, idx) => {
+        const condition = assignment[clipId];
+        const cd = clipData[clipId];
+        const clipInfo = config.clips[clipId];
+        const subtitleWords = cd.subtitles?.conditions?.[condition] || [];
+        const qData = cd.questions;
+
+        // 6a. Video
+        trials.push({
+          type: jsPsychVideoSubtitle,
+          video_src: `data/${cd.legacyDir}/video.mp4`,
+          subtitle_words: subtitleWords,
+          clip_label: t('trial_counter', { n: idx + 1 }),
+          lookback_s: config.presentation.lookback_window_s,
+          instruction: t('trial_video_instr'),
+          auto_advance: true,
+          data: { phase: 'trial_video', clip_id: clipId, legacy_id: cd.legacyDir, condition, D_new: clipInfo.D_new, trial_index: idx },
+        });
+
+        // 6b. Emphasis word-click probes — immediately after the video, while
+        // prosody is still fresh in memory (before other questions interfere)
+        const emp = qData?.speaker_intent?.emphasis_identification;
+        if (emp) {
+          trials.push(makeEmphasisClickTrial(
+            emp.sentence, subtitleWords,
+            () => `${t('trial_intent_title')} — 1/2`,
+            { clip_id: clipId, condition, probe_source: 'quiz', correct_enc: emp.correct_enc }
+          ));
+        }
+        const autoSentence = pickAutoSentence(subtitleWords, emp?.sentence);
+        if (autoSentence) {
+          trials.push(makeEmphasisClickTrial(
+            autoSentence, subtitleWords,
+            () => `${t('trial_intent_title')} — 2/2`,
+            { clip_id: clipId, condition, probe_source: 'auto' }
+          ));
+        }
+
+        // 6c. Prior exposure check
+        trials.push({
+          type: jsPsychSurveyMultiChoice,
+          questions: [{ prompt: t('clip_prior_exposure'), name: `prior_exposure_${clipId}`, options: t('clip_prior_opts'), required: true }],
+          data: { phase: 'prior_exposure', clip_id: clipId, condition },
+        });
+
+        // 6c. Comprehension quiz — stratified draw: 2 emphasis-aligned
+        // (focus_critical: content overlaps high-prominence words) + 2 general
+        // (4 items/60s clip, in line with TOEFL iBT listening density).
+        // The condition × question-type interaction is the a-priori test of
+        // whether prosodic captions aid comprehension of emphasized content.
+        if (qData?.comprehension) {
+          const pool = qData.comprehension.filter(q => !q.is_dummy);
+          const focus = shuffle(pool.filter(q => q.focus_critical));
+          const general = shuffle(pool.filter(q => !q.focus_critical));
+          const selected = shuffle([...focus.slice(0, 2), ...general.slice(0, 2)]);
+          selected.forEach((q, qi) => {
+            // Ask in the participant's language: comprehension of the CONTENT
+            // is the DV — English reading of the question must not confound it.
+            const useJa = getLang() === 'ja' && q.question_ja && q.options_ja;
+            const optSrc = useJa ? q.options_ja : q.options;
+            const order = shuffle(optSrc.map((_, i) => i));
+            trials.push({
+              type: jsPsychSurveyMultiChoice,
+              preamble: `<p class="question-counter">${t('trial_quiz_title')} — Q${qi + 1}/${selected.length}</p>`,
+              questions: [{ prompt: useJa ? q.question_ja : q.question, name: q.id, options: order.map(i => optSrc[i]), required: true }],
+              data: { phase: 'quiz', clip_id: clipId, condition, question_id: q.id, question_type: q.type, is_dummy: !!q.is_dummy, focus_critical: !!q.focus_critical, option_order: order, quiz_lang: useJa ? 'ja' : 'en', correct_enc: q.correct_enc },
+            });
+          });
+        }
+
+        // 6d. Speaker attitude
+        if (qData?.speaker_intent?.attitude_estimation) {
+          const att = qData.speaker_intent.attitude_estimation;
+          const useJa = getLang() === 'ja' && att.question_ja && att.options_ja;
+          trials.push({
+            type: jsPsychSurveyMultiChoice,
+            preamble: `<p class="question-counter">${t('trial_intent_title')}</p>`,
+            questions: [{ prompt: useJa ? att.question_ja : att.question, name: `intent_attitude_${clipId}`, options: useJa ? att.options_ja : att.options, required: true }],
+            data: { phase: 'intent', clip_id: clipId, intent_type: 'attitude', quiz_lang: useJa ? 'ja' : 'en', correct_enc: att.correct_enc },
+          });
+        }
+
+        // 6d. Subjective ratings (3 items; understanding is measured by the quiz)
+        trials.push({
+          type: jsPsychSurveyLikert,
+          preamble: () => `<h2>${t('trial_rating_title')}</h2>`,
+          questions: () => {
+            const labels7 = [t('rating_low'), '', '', '', '', '', t('rating_high')];
+            return [
+              { prompt: t('rating_readability'), name: 'readability', labels: labels7, required: true },
+              { prompt: t('rating_engagement'), name: 'engagement', labels: labels7, required: true },
+              { prompt: t('rating_prosody'), name: 'prosody_perception', labels: labels7, required: true },
+            ];
+          },
+          data: { phase: 'subjective', clip_id: clipId, condition },
+        });
+
+        // 6f. NASA-TLX (simplified 7-point scale)
+        trials.push({
+          type: jsPsychSurveyLikert,
+          preamble: () => `<h2>${t('nasa_title')}</h2><p style="color:#666;font-size:0.9em">${t('nasa_preamble')}</p>`,
+          questions: () => {
+            const lN = [t('nasa_low'), '', '', '', '', '', t('nasa_high')];
+            // Abbreviated Raw TLX: the 3 subscales most relevant to caption
+            // reading load (temporal demand ~ fixed video pace; performance
+            // overlaps the quiz and its reversed scale confuses raters)
+            return [
+              { prompt: t('nasa_mental'), name: 'nasa_mental', labels: lN, required: true },
+              { prompt: t('nasa_effort'), name: 'nasa_effort', labels: lN, required: true },
+              { prompt: t('nasa_frustration'), name: 'nasa_frustration', labels: lN, required: true },
+            ];
+          },
+          data: { phase: 'nasa_tlx', clip_id: clipId, condition },
+        });
+
+        // 6g. Rest break (30s countdown, once at the halfway point)
+        if (idx === 2) {
+          trials.push({
+            type: jsPsychHtmlButtonResponse,
+            stimulus: () => {
+              return `<div class="phase-card">
+                <h2>☕ ${t('rest_break_title')}</h2>
+                <p>${t('rest_break_body')}</p>
+                <p class="rest-timer" id="rest-timer" style="font-size:2em;font-weight:bold;color:var(--accent);margin:1em 0"></p>
+              </div>`;
+            },
+            choices: () => [t('rest_break_skip')],
+            trial_duration: 30000,
+            on_load: function() {
+              let remaining = 30;
+              const el = document.getElementById('rest-timer');
+              if (el) el.textContent = t('rest_break_remaining', { s: remaining });
+              const iv = setInterval(() => {
+                remaining--;
+                if (el) el.textContent = t('rest_break_remaining', { s: remaining });
+                if (remaining <= 0) clearInterval(iv);
+              }, 1000);
+            },
+            data: { phase: 'rest_break', clip_id: clipId },
+          });
+        }
+      });
+
+      return trials;
+    }
+
+    // ═══════════════════════════════════════════════════
+    // PHASE 7: Post-survey
+    // ═══════════════════════════════════════════════════
+    const postSurvey1 = {
+      type: jsPsychSurveyMultiChoice,
+      preamble: () => `<h2>${t('post_title')}</h2>`,
+      questions: () => [
+        { prompt: t('post_notice_diff'), name: 'noticed_diff', options: t('post_notice_opts'), required: true },
+        { prompt: t('post_preference'), name: 'preference', options: t('post_pref_opts'), required: true },
+      ],
+    };
+
+    const postSurvey2 = {
+      type: jsPsychSurveyText,
+      preamble: () => `<h2>${t('post_title')}</h2>`,
+      questions: () => [
+        { prompt: t('post_describe'), name: 'diff_description', rows: 3, required: false },
+        { prompt: t('post_impressions'), name: 'impressions', rows: 4, required: false },
+      ],
+      button_label: () => t('reward_submit'),
+      on_finish: async function() {
+        // Send ALL data to Google Sheets (must happen before the terminal completion screen)
+        const data = jsPsych.data.get().json();
+        window._experimentData = data;
+        console.log('[GAS] Sending data to Google Sheets...');
+        try {
+          await pushToSheet(data);
+          console.log('[GAS] Data sent successfully');
+        } catch (err) {
+          console.error('[GAS] Failed to send data:', err);
+        }
+      }
+    };
+
+    // ═══════════════════════════════════════════════════
+    // PHASE 8: Completion
+    // ═══════════════════════════════════════════════════
+    const completion = {
+      type: jsPsychHtmlButtonResponse,
+      stimulus: () => `<div class="phase-card completion-card">
+        <h1>🎉</h1>
+        <h2>${t('complete_title')}</h2>
+        <p>${t('complete_body')}</p>
+        <button class="download-btn" onclick="
+          const blob = new Blob([window._experimentData], {type:'application/json'});
+          const a = document.createElement('a');
+          a.href = URL.createObjectURL(blob);
+          a.download = 'experiment_data_' + Date.now() + '.json';
+          a.click();
+        ">${t('complete_download')}</button>
+      </div>`,
+      choices: [],
+    };
+
+    // ═══════════════════════════════════════════════════
+    // Build timeline — main trials use a timeline node
+    // that runs buildMainTrials after PID is entered
+    // ═══════════════════════════════════════════════════
+    const mainTrialNode = {
+      timeline: [{
+        type: jsPsychHtmlButtonResponse,
+        stimulus: () => `<div class="phase-card"><h2>${t('main_trials_heading')}</h2><p>${t('main_trials_ready')}</p></div>`,
+        choices: () => [t('btn_start_main')],
+        on_finish: function() {
+          const num = parseInt(jsPsych.data.get().select('participant_num').values.slice(-1)[0]) || 1;
+          const trials = buildMainTrials(num);
+          trials.forEach(t => jsPsych.addNodeToEndOfTimeline(t));
+          jsPsych.addNodeToEndOfTimeline(postSurvey1);
+          jsPsych.addNodeToEndOfTimeline(postSurvey2);
+          jsPsych.addNodeToEndOfTimeline(completion);
+        }
+      }],
+    };
+
+    const timeline = [
+      langSelect,
+      pidWait,
+      participantId,
+      consent,
+      consentUpload,
+      demographics,
+      cefrAssessment,
+      cefrTestScore,
+      practiceIntro,
+      practiceVideo,
+      ...practiceQuizTrials,
+      mainTrialNode,
+    ];
+
+    jsPsych.run(timeline);
+  </script>
 </body>
 </html>

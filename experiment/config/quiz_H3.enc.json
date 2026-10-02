@@ -1,0 +1,174 @@
+{
+  "comprehension": [
+    {
+      "id": "H3_C02",
+      "type": "content",
+      "question": "What has the speaker been teaching for the last 10 years?",
+      "options": [
+        "Exercise techniques",
+        "That stress makes you sick",
+        "Meditation practices",
+        "Time management"
+      ],
+      "is_dummy": false,
+      "hint_ja": "話者は過去10年間何を教えてきましたか？",
+      "correct_enc": "SA==",
+      "question_ja": "話者がこの10年間教えてきたことは何ですか？",
+      "options_ja": [
+        "運動の技法",
+        "ストレスは体に悪いということ",
+        "瞑想法",
+        "時間管理"
+      ],
+      "focus_critical": true
+    },
+    {
+      "id": "H3_C04",
+      "type": "content",
+      "question": "For how many years were the adults tracked?",
+      "options": [
+        "Five",
+        "Eight",
+        "Ten",
+        "Twelve"
+      ],
+      "is_dummy": false,
+      "hint_ja": "何年間追跡されましたか？",
+      "correct_enc": "SA==",
+      "question_ja": "その成人たちは何年間追跡されましたか？",
+      "options_ja": [
+        "5年",
+        "8年",
+        "10年",
+        "12年"
+      ]
+    },
+    {
+      "id": "H3_C05",
+      "type": "content",
+      "question": "What increased risk did people with a lot of stress have?",
+      "options": [
+        "23% increased risk of dying",
+        "33% increased risk of dying",
+        "43% increased risk of dying",
+        "53% increased risk of dying"
+      ],
+      "is_dummy": false,
+      "hint_ja": "強いストレスを受けた人の死亡リスクの増加率は？",
+      "correct_enc": "SQ==",
+      "question_ja": "強いストレスを抱えた人はどれだけ死亡リスクが高かったですか？",
+      "options_ja": [
+        "23%増",
+        "33%増",
+        "43%増",
+        "53%増"
+      ],
+      "focus_critical": true
+    },
+    {
+      "id": "H3_C06",
+      "type": "content",
+      "question": "The increased risk of dying from stress was only true for which group?",
+      "options": [
+        "People over 50",
+        "People who also believed stress is harmful",
+        "People who exercised less",
+        "People with chronic diseases"
+      ],
+      "is_dummy": false,
+      "hint_ja": "死亡リスクの増加が当てはまったのはどのグループだけですか？",
+      "correct_enc": "SA==",
+      "question_ja": "ストレスによる死亡リスクの増加は、どの人たちだけに当てはまりましたか？",
+      "options_ja": [
+        "50歳以上の人",
+        "ストレスは有害だと信じてもいた人",
+        "運動が少ない人",
+        "慢性疾患のある人"
+      ]
+    },
+    {
+      "id": "H3_C07",
+      "type": "content",
+      "question": "What did the speaker say she had turned stress into?",
+      "options": [
+        "A motivator",
+        "A friend",
+        "The enemy",
+        "A tool"
+      ],
+      "is_dummy": false,
+      "hint_ja": "話者はストレスを何に変えたと言いましたか？",
+      "correct_enc": "SQ==",
+      "question_ja": "話者はストレスを何に変えてきたと言いましたか？",
+      "options_ja": [
+        "やる気の源",
+        "友達",
+        "敵",
+        "道具"
+      ]
+    },
+    {
+      "id": "H3_D02",
+      "type": "dummy",
+      "question": "Where was the study conducted?",
+      "options": [
+        "Europe",
+        "Asia",
+        "United States",
+        "The speaker did not specify"
+      ],
+      "is_dummy": false,
+      "correct_enc": "SQ==",
+      "question_ja": "研究はどこで行われましたか？",
+      "options_ja": [
+        "ヨーロッパ",
+        "アジア",
+        "アメリカ",
+        "話者は特定していない"
+      ]
+    }
+  ],
+  "speaker_intent": {
+    "emphasis_identification": {
+      "sentence": "But I've changed my mind about stress, and today, I want to change yours.",
+      "question": "Which word did the speaker emphasize most?",
+      "options": [
+        "changed",
+        "mind",
+        "stress",
+        "yours"
+      ],
+      "hint_ja": "この文で話者が最も強調した語はどれですか？",
+      "correct_enc": "Sg=="
+    },
+    "attitude_estimation": {
+      "question": "What was the speaker's tone when making her 'confession'?",
+      "options": [
+        "Serious and apologetic",
+        "Light and confessional",
+        "Angry and defensive",
+        "Neutral and detached"
+      ],
+      "hint_ja": "話者が「告白（confession）」をするときのトーンは？",
+      "correct_enc": "SA==",
+      "question_ja": "話者が「告白（confession）」をするときのトーンは？",
+      "options_ja": [
+        "真剣で申し訳なさそう",
+        "軽く打ち明けるよう",
+        "怒って防御的",
+        "中立で淡々"
+      ]
+    },
+    "prosodic_structure": {
+      "question": "After saying '43% increased risk of dying,' the speaker...",
+      "options": [
+        "Paused dramatically before the qualifier",
+        "Continued without any pause",
+        "Laughed nervously",
+        "Repeated the statistic"
+      ],
+      "hint_ja": "「43%の死亡リスク増加」の後、話者は…",
+      "correct_enc": "Rw=="
+    }
+  }
+}

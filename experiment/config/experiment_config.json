@@ -1,0 +1,45 @@
+{
+  "experiment": "Prosodic Captioning Experiment A v2.0",
+  "version": "2.0",
+
+  "clips": {
+    "C1": {"id":"C1","legacy":"H1","speaker":"Ken Robinson","title":"Do Schools Kill Creativity?","year":2006,"D_new":0.774,"r_pb":0.226},
+    "C2": {"id":"C2","legacy":"L3","speaker":"Al Gore","title":"Averting the Climate Crisis","year":2006,"D_new":0.756,"r_pb":0.244},
+    "C3": {"id":"C3","legacy":"H2","speaker":"Brené Brown","title":"The Power of Vulnerability","year":2010,"D_new":0.750,"r_pb":0.250},
+    "C4": {"id":"C4","legacy":"L1","speaker":"Hans Rosling","title":"The Best Stats You've Ever Seen","year":2006,"D_new":0.748,"r_pb":0.252},
+    "C5": {"id":"C5","legacy":"L2","speaker":"David Christian","title":"History of Our World in 18 Minutes","year":2011,"D_new":0.625,"r_pb":0.375},
+    "C6": {"id":"C6","legacy":"H3","speaker":"Kelly McGonigal","title":"How to Make Stress Your Friend","year":2013,"D_new":0.580,"r_pb":0.420}
+  },
+
+  "conditions": ["normal","syntactic","prosody","syn_prosody"],
+
+  "latin_square": {
+    "A": {"C1":"normal","C2":"syntactic","C3":"prosody","C4":"syn_prosody","C5":"normal","C6":"syntactic"},
+    "B": {"C1":"syntactic","C2":"prosody","C3":"syn_prosody","C4":"normal","C5":"syntactic","C6":"prosody"},
+    "C": {"C1":"prosody","C2":"syn_prosody","C3":"normal","C4":"syntactic","C5":"prosody","C6":"syn_prosody"},
+    "D": {"C1":"syn_prosody","C2":"normal","C3":"syntactic","C4":"prosody","C5":"syn_prosody","C6":"normal"}
+  },
+
+  "presentation": {
+    "clips_per_participant": 6,
+    "lookback_window_s": 2,
+    "max_subtitle_lines": 2,
+    "subtitle_update_interval_ms": 500,
+    "font_family": "Noto Sans",
+    "subtitle_color": "#FFFFFF",
+    "subtitle_bg": "rgba(0,0,0,0.75)",
+    "video_resolution": "960x540",
+    "dummy_probability": 0.4
+  },
+
+  "clip_order": ["C1","C2","C3","C4","C5","C6"],
+
+  "data_dir_map": {
+    "C1": "H1",
+    "C2": "L3",
+    "C3": "H2",
+    "C4": "L1",
+    "C5": "L2",
+    "C6": "H3"
+  }
+}

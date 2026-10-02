@@ -1,0 +1,177 @@
+{
+  "comprehension": [
+    {
+      "id": "H2_C01",
+      "type": "content",
+      "question": "What did the speaker find the 'wholehearted' people had in common?",
+      "options": [
+        "Intelligence",
+        "A sense of courage",
+        "Financial success",
+        "Large social networks"
+      ],
+      "correct": 1,
+      "is_dummy": false,
+      "hint_ja": "wholehearted（心から生きる）な人々の共通点は？"
+    },
+    {
+      "id": "H2_C02",
+      "type": "content",
+      "question": "According to the speaker, what is the original Latin meaning of the word 'courage'?",
+      "options": [
+        "Strength",
+        "Bravery",
+        "Heart",
+        "Mind"
+      ],
+      "correct": 2,
+      "is_dummy": false,
+      "hint_ja": "courage（勇気）のラテン語の本来の意味は？"
+    },
+    {
+      "id": "H2_C03",
+      "type": "content",
+      "question": "What did the speaker say the original definition of courage meant?",
+      "options": [
+        "To fight without fear",
+        "To tell the story of who you are with your whole heart",
+        "To overcome physical challenges",
+        "To stand up for others"
+      ],
+      "correct": 1,
+      "is_dummy": false,
+      "hint_ja": "courage の本来の定義はどのような意味ですか？"
+    },
+    {
+      "id": "H2_C04",
+      "type": "content",
+      "question": "What was the third quality wholehearted people shared, after courage and compassion?",
+      "options": [
+        "Resilience",
+        "Gratitude",
+        "Connection",
+        "Creativity"
+      ],
+      "correct": 2,
+      "is_dummy": false,
+      "hint_ja": "courage と compassion（思いやり）に続く3番目の特質は？"
+    },
+    {
+      "id": "H2_C05",
+      "type": "content",
+      "question": "Why did the speaker say we cannot practice compassion with others?",
+      "options": [
+        "Because we lack time",
+        "If we can't treat ourselves kindly",
+        "Because society discourages it",
+        "If we don't have enough resources"
+      ],
+      "correct": 1,
+      "is_dummy": false,
+      "hint_ja": "なぜ他者に compassion を実践できないのですか？"
+    },
+    {
+      "id": "H2_C06",
+      "type": "content",
+      "question": "What were wholehearted people willing to let go of?",
+      "options": [
+        "Their possessions",
+        "Their past mistakes",
+        "Who they thought they should be",
+        "Their social status"
+      ],
+      "correct": 2,
+      "is_dummy": false,
+      "hint_ja": "wholehearted な人々が手放せたものは？"
+    },
+    {
+      "id": "H2_C07",
+      "type": "content",
+      "question": "How did the speaker describe her data analysis process?",
+      "options": [
+        "Calm and methodical",
+        "Like a Jackson Pollock crazy thing",
+        "Quick and efficient",
+        "Collaborative with colleagues"
+      ],
+      "correct": 1,
+      "is_dummy": false,
+      "hint_ja": "話者はデータ分析の過程をどう表現しましたか？"
+    },
+    {
+      "id": "H2_D01",
+      "type": "dummy",
+      "question": "How many years of research did the speaker conduct?",
+      "options": [
+        "Five",
+        "Ten",
+        "Fifteen",
+        "The speaker did not specify in this segment"
+      ],
+      "correct": 3,
+      "is_dummy": true
+    },
+    {
+      "id": "H2_D02",
+      "type": "dummy",
+      "question": "What university does the speaker work at?",
+      "options": [
+        "Stanford",
+        "University of Houston",
+        "Rice University",
+        "Not mentioned in this segment"
+      ],
+      "correct": 3,
+      "is_dummy": true
+    },
+    {
+      "id": "H2_D03",
+      "type": "dummy",
+      "question": "What specific research method did the speaker use?",
+      "options": [
+        "Surveys only",
+        "Brain imaging",
+        "Statistical modeling",
+        "Not specified in this segment"
+      ],
+      "correct": 3,
+      "is_dummy": true
+    }
+  ],
+  "speaker_intent": {
+    "emphasis_identification": {
+      "sentence": "And the original definition was to tell the story of who you are with your whole heart.",
+      "question": "Which word did the speaker emphasize most?",
+      "options": [
+        "original",
+        "story",
+        "whole",
+        "heart"
+      ],
+      "correct": 3,
+      "hint_ja": "この文で話者が最も強調した語はどれですか？"
+    },
+    "attitude_estimation": {
+      "question": "What was the speaker's tone while describing the wholehearted people?",
+      "options": [
+        "Serious",
+        "Humorous",
+        "Sarcastic",
+        "Reverent and earnest"
+      ],
+      "correct": 3,
+      "hint_ja": "wholehearted な人々を描写するときの話者のトーンは？"
+    },
+    "prosodic_structure": {
+      "question": "When the speaker mentioned 'the courage to be imperfect,' she...",
+      "options": [
+        "Paused after the phrase for emphasis",
+        "Spoke rapidly without pause",
+        "Lowered her voice to a whisper",
+        "Repeated the phrase twice"
+      ],
+      "correct": 0,
+      "hint_ja": "「不完全である勇気」に言及したとき、話者は…"
+    }
+  }
+}

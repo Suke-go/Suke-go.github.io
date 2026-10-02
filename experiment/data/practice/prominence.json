@@ -1,0 +1,1202 @@
+[
+  {
+    "text": "How",
+    "start": 15.86,
+    "end": 16.46,
+    "prominence": 0.3685
+  },
+  {
+    "text": "do",
+    "start": 16.46,
+    "end": 17.06,
+    "prominence": 0.3662
+  },
+  {
+    "text": "you",
+    "start": 17.06,
+    "end": 17.12,
+    "prominence": 0.3711
+  },
+  {
+    "text": "explain",
+    "start": 17.12,
+    "end": 17.56,
+    "prominence": 0.6342
+  },
+  {
+    "text": "when",
+    "start": 17.56,
+    "end": 17.98,
+    "prominence": 0.3698
+  },
+  {
+    "text": "things",
+    "start": 17.98,
+    "end": 18.36,
+    "prominence": 0.3703
+  },
+  {
+    "text": "don't",
+    "start": 18.36,
+    "end": 18.72,
+    "prominence": 0.4066
+  },
+  {
+    "text": "go",
+    "start": 18.72,
+    "end": 18.94,
+    "prominence": 0.3586
+  },
+  {
+    "text": "as",
+    "start": 18.94,
+    "end": 19.5,
+    "prominence": 0.524
+  },
+  {
+    "text": "we",
+    "start": 19.5,
+    "end": 19.66,
+    "prominence": 0.3893
+  },
+  {
+    "text": "assume?",
+    "start": 19.66,
+    "end": 20.04,
+    "prominence": 0.4786
+  },
+  {
+    "text": "Or",
+    "start": 20.34,
+    "end": 20.58,
+    "prominence": 0.6896
+  },
+  {
+    "text": "better,",
+    "start": 20.58,
+    "end": 20.9,
+    "prominence": 0.6325
+  },
+  {
+    "text": "how",
+    "start": 21.68,
+    "end": 22.0,
+    "prominence": 0.3888
+  },
+  {
+    "text": "do",
+    "start": 22.0,
+    "end": 22.22,
+    "prominence": 0.4614
+  },
+  {
+    "text": "you",
+    "start": 22.22,
+    "end": 22.34,
+    "prominence": 0.2988
+  },
+  {
+    "text": "explain",
+    "start": 22.34,
+    "end": 22.98,
+    "prominence": 0.3997
+  },
+  {
+    "text": "when",
+    "start": 22.98,
+    "end": 23.76,
+    "prominence": 0.4849
+  },
+  {
+    "text": "others",
+    "start": 23.76,
+    "end": 24.14,
+    "prominence": 0.3833
+  },
+  {
+    "text": "are",
+    "start": 24.14,
+    "end": 24.32,
+    "prominence": 0.5372
+  },
+  {
+    "text": "able",
+    "start": 24.32,
+    "end": 24.46,
+    "prominence": 0.4225
+  },
+  {
+    "text": "to",
+    "start": 24.46,
+    "end": 24.6,
+    "prominence": 0.3756
+  },
+  {
+    "text": "achieve",
+    "start": 24.6,
+    "end": 24.82,
+    "prominence": 0.355
+  },
+  {
+    "text": "things",
+    "start": 24.82,
+    "end": 25.12,
+    "prominence": 0.6088
+  },
+  {
+    "text": "that",
+    "start": 25.12,
+    "end": 25.28,
+    "prominence": 0.4499
+  },
+  {
+    "text": "seem",
+    "start": 25.28,
+    "end": 25.4,
+    "prominence": 0.5211
+  },
+  {
+    "text": "to",
+    "start": 25.4,
+    "end": 25.52,
+    "prominence": 0.5952
+  },
+  {
+    "text": "defy",
+    "start": 25.52,
+    "end": 25.92,
+    "prominence": 0.3999
+  },
+  {
+    "text": "all",
+    "start": 25.92,
+    "end": 26.12,
+    "prominence": 0.6439
+  },
+  {
+    "text": "of",
+    "start": 26.12,
+    "end": 26.24,
+    "prominence": 0.2909
+  },
+  {
+    "text": "the",
+    "start": 26.24,
+    "end": 26.34,
+    "prominence": 0.6182
+  },
+  {
+    "text": "assumptions?",
+    "start": 26.34,
+    "end": 26.7,
+    "prominence": 0.3388
+  },
+  {
+    "text": "For",
+    "start": 27.6,
+    "end": 27.9,
+    "prominence": 0.1704
+  },
+  {
+    "text": "example,",
+    "start": 27.9,
+    "end": 28.22,
+    "prominence": 0.4114
+  },
+  {
+    "text": "why",
+    "start": 28.96,
+    "end": 29.26,
+    "prominence": 0.5601
+  },
+  {
+    "text": "is",
+    "start": 29.26,
+    "end": 29.58,
+    "prominence": 0.4501
+  },
+  {
+    "text": "Apple",
+    "start": 29.58,
+    "end": 29.98,
+    "prominence": 0.5531
+  },
+  {
+    "text": "so",
+    "start": 29.98,
+    "end": 30.2,
+    "prominence": 0.4037
+  },
+  {
+    "text": "innovative?",
+    "start": 30.2,
+    "end": 30.54,
+    "prominence": 0.6478
+  },
+  {
+    "text": "Year",
+    "start": 31.42,
+    "end": 31.8,
+    "prominence": 0.2998
+  },
+  {
+    "text": "after",
+    "start": 31.8,
+    "end": 32.14,
+    "prominence": 0.3731
+  },
+  {
+    "text": "year",
+    "start": 32.14,
+    "end": 32.48,
+    "prominence": 0.5147
+  },
+  {
+    "text": "after",
+    "start": 32.48,
+    "end": 32.82,
+    "prominence": 0.5637
+  },
+  {
+    "text": "year",
+    "start": 32.82,
+    "end": 33.06,
+    "prominence": 0.6482
+  },
+  {
+    "text": "after",
+    "start": 33.06,
+    "end": 33.26,
+    "prominence": 0.4311
+  },
+  {
+    "text": "year,",
+    "start": 33.26,
+    "end": 33.58,
+    "prominence": 0.672
+  },
+  {
+    "text": "they're",
+    "start": 33.9,
+    "end": 34.08,
+    "prominence": 0.432
+  },
+  {
+    "text": "more",
+    "start": 34.08,
+    "end": 34.26,
+    "prominence": 0.6074
+  },
+  {
+    "text": "innovative",
+    "start": 34.26,
+    "end": 34.7,
+    "prominence": 0.4498
+  },
+  {
+    "text": "than",
+    "start": 34.7,
+    "end": 34.96,
+    "prominence": 0.4639
+  },
+  {
+    "text": "all",
+    "start": 34.96,
+    "end": 35.44,
+    "prominence": 0.3424
+  },
+  {
+    "text": "their",
+    "start": 35.44,
+    "end": 35.58,
+    "prominence": 0.6099
+  },
+  {
+    "text": "competition.",
+    "start": 35.58,
+    "end": 36.16,
+    "prominence": 0.44
+  },
+  {
+    "text": "And",
+    "start": 36.82,
+    "end": 37.04,
+    "prominence": 0.5669
+  },
+  {
+    "text": "yet,",
+    "start": 37.04,
+    "end": 37.2,
+    "prominence": 0.3945
+  },
+  {
+    "text": "they're",
+    "start": 37.28,
+    "end": 37.42,
+    "prominence": 0.4181
+  },
+  {
+    "text": "just",
+    "start": 37.42,
+    "end": 37.6,
+    "prominence": 0.6422
+  },
+  {
+    "text": "a",
+    "start": 37.6,
+    "end": 37.74,
+    "prominence": 0.4937
+  },
+  {
+    "text": "computer",
+    "start": 37.74,
+    "end": 38.0,
+    "prominence": 0.4205
+  },
+  {
+    "text": "company.",
+    "start": 38.0,
+    "end": 38.38,
+    "prominence": 0.5269
+  },
+  {
+    "text": "They're",
+    "start": 38.8,
+    "end": 38.94,
+    "prominence": 0.7212
+  },
+  {
+    "text": "just",
+    "start": 38.94,
+    "end": 39.14,
+    "prominence": 0.3725
+  },
+  {
+    "text": "like",
+    "start": 39.14,
+    "end": 39.3,
+    "prominence": 0.2662
+  },
+  {
+    "text": "everyone",
+    "start": 39.3,
+    "end": 39.6,
+    "prominence": 0.4862
+  },
+  {
+    "text": "else.",
+    "start": 39.6,
+    "end": 39.88,
+    "prominence": 0.5362
+  },
+  {
+    "text": "They",
+    "start": 40.26,
+    "end": 40.44,
+    "prominence": 0.2645
+  },
+  {
+    "text": "have",
+    "start": 40.44,
+    "end": 40.56,
+    "prominence": 0.3827
+  },
+  {
+    "text": "the",
+    "start": 40.56,
+    "end": 40.66,
+    "prominence": 0.5804
+  },
+  {
+    "text": "same",
+    "start": 40.66,
+    "end": 40.9,
+    "prominence": 0.4748
+  },
+  {
+    "text": "access",
+    "start": 40.9,
+    "end": 41.38,
+    "prominence": 0.6368
+  },
+  {
+    "text": "to",
+    "start": 41.38,
+    "end": 41.68,
+    "prominence": 0.6197
+  },
+  {
+    "text": "the",
+    "start": 41.68,
+    "end": 41.78,
+    "prominence": 0.5657
+  },
+  {
+    "text": "same",
+    "start": 41.78,
+    "end": 41.96,
+    "prominence": 0.5496
+  },
+  {
+    "text": "talent,",
+    "start": 41.96,
+    "end": 42.36,
+    "prominence": 0.4112
+  },
+  {
+    "text": "the",
+    "start": 42.78,
+    "end": 42.9,
+    "prominence": 0.4826
+  },
+  {
+    "text": "same",
+    "start": 42.9,
+    "end": 43.06,
+    "prominence": 0.4335
+  },
+  {
+    "text": "agencies,",
+    "start": 43.06,
+    "end": 43.52,
+    "prominence": 0.5362
+  },
+  {
+    "text": "the",
+    "start": 43.82,
+    "end": 43.88,
+    "prominence": 0.482
+  },
+  {
+    "text": "same",
+    "start": 43.88,
+    "end": 44.0,
+    "prominence": 0.4944
+  },
+  {
+    "text": "consultants,",
+    "start": 44.0,
+    "end": 44.44,
+    "prominence": 0.5199
+  },
+  {
+    "text": "the",
+    "start": 44.6,
+    "end": 44.68,
+    "prominence": 0.4632
+  },
+  {
+    "text": "same",
+    "start": 44.68,
+    "end": 44.86,
+    "prominence": 0.4765
+  },
+  {
+    "text": "media.",
+    "start": 44.86,
+    "end": 45.3,
+    "prominence": 0.409
+  },
+  {
+    "text": "Then",
+    "start": 45.9,
+    "end": 46.1,
+    "prominence": 0.4201
+  },
+  {
+    "text": "why",
+    "start": 46.1,
+    "end": 46.36,
+    "prominence": 0.4546
+  },
+  {
+    "text": "is",
+    "start": 46.36,
+    "end": 46.52,
+    "prominence": 0.4133
+  },
+  {
+    "text": "it",
+    "start": 46.52,
+    "end": 46.6,
+    "prominence": 0.6932
+  },
+  {
+    "text": "that",
+    "start": 46.6,
+    "end": 46.74,
+    "prominence": 0.5478
+  },
+  {
+    "text": "they",
+    "start": 46.74,
+    "end": 47.1,
+    "prominence": 0.4009
+  },
+  {
+    "text": "seem",
+    "start": 47.1,
+    "end": 47.52,
+    "prominence": 0.3934
+  },
+  {
+    "text": "to",
+    "start": 47.52,
+    "end": 47.68,
+    "prominence": 0.6802
+  },
+  {
+    "text": "have",
+    "start": 47.68,
+    "end": 48.0,
+    "prominence": 0.6572
+  },
+  {
+    "text": "something",
+    "start": 48.0,
+    "end": 48.68,
+    "prominence": 0.4019
+  },
+  {
+    "text": "different?",
+    "start": 48.68,
+    "end": 49.0,
+    "prominence": 0.4991
+  },
+  {
+    "text": "Why",
+    "start": 50.02,
+    "end": 50.56,
+    "prominence": 0.7784
+  },
+  {
+    "text": "is",
+    "start": 50.56,
+    "end": 50.7,
+    "prominence": 0.5957
+  },
+  {
+    "text": "it",
+    "start": 50.7,
+    "end": 50.78,
+    "prominence": 0.4782
+  },
+  {
+    "text": "that",
+    "start": 50.78,
+    "end": 50.96,
+    "prominence": 0.3776
+  },
+  {
+    "text": "Martin",
+    "start": 50.96,
+    "end": 51.4,
+    "prominence": 0.7844
+  },
+  {
+    "text": "Luther",
+    "start": 51.4,
+    "end": 51.78,
+    "prominence": 0.5069
+  },
+  {
+    "text": "King",
+    "start": 51.78,
+    "end": 52.18,
+    "prominence": 0.6274
+  },
+  {
+    "text": "led",
+    "start": 52.18,
+    "end": 52.96,
+    "prominence": 0.5638
+  },
+  {
+    "text": "the",
+    "start": 52.96,
+    "end": 53.12,
+    "prominence": 0.3387
+  },
+  {
+    "text": "civil",
+    "start": 53.12,
+    "end": 53.26,
+    "prominence": 0.2897
+  },
+  {
+    "text": "rights",
+    "start": 53.26,
+    "end": 53.52,
+    "prominence": 0.3679
+  },
+  {
+    "text": "movement?",
+    "start": 53.52,
+    "end": 53.84,
+    "prominence": 0.5739
+  },
+  {
+    "text": "He",
+    "start": 54.54,
+    "end": 54.78,
+    "prominence": 0.4453
+  },
+  {
+    "text": "wasn't",
+    "start": 54.78,
+    "end": 55.0,
+    "prominence": 0.6327
+  },
+  {
+    "text": "the",
+    "start": 55.0,
+    "end": 55.14,
+    "prominence": 0.1899
+  },
+  {
+    "text": "only",
+    "start": 55.14,
+    "end": 55.42,
+    "prominence": 0.6353
+  },
+  {
+    "text": "man",
+    "start": 55.42,
+    "end": 55.8,
+    "prominence": 0.4245
+  },
+  {
+    "text": "who",
+    "start": 55.8,
+    "end": 56.52,
+    "prominence": 0.484
+  },
+  {
+    "text": "suffered",
+    "start": 56.52,
+    "end": 56.86,
+    "prominence": 0.3298
+  },
+  {
+    "text": "in",
+    "start": 56.86,
+    "end": 57.04,
+    "prominence": 0.3798
+  },
+  {
+    "text": "a",
+    "start": 57.04,
+    "end": 57.14,
+    "prominence": 0.518
+  },
+  {
+    "text": "pre",
+    "start": 57.14,
+    "end": 57.24,
+    "prominence": 0.2956
+  },
+  {
+    "text": "-civil",
+    "start": 57.24,
+    "end": 57.42,
+    "prominence": 0.3458
+  },
+  {
+    "text": "rights",
+    "start": 57.42,
+    "end": 57.64,
+    "prominence": 0.7134
+  },
+  {
+    "text": "America,",
+    "start": 57.64,
+    "end": 58.04,
+    "prominence": 0.5765
+  },
+  {
+    "text": "and",
+    "start": 58.48,
+    "end": 58.8,
+    "prominence": 0.5063
+  },
+  {
+    "text": "he",
+    "start": 58.8,
+    "end": 58.88,
+    "prominence": 0.5617
+  },
+  {
+    "text": "certainly",
+    "start": 58.88,
+    "end": 59.08,
+    "prominence": 0.2807
+  },
+  {
+    "text": "wasn't",
+    "start": 59.08,
+    "end": 59.36,
+    "prominence": 0.5764
+  },
+  {
+    "text": "the",
+    "start": 59.36,
+    "end": 59.48,
+    "prominence": 0.4048
+  },
+  {
+    "text": "only",
+    "start": 59.48,
+    "end": 59.72,
+    "prominence": 0.6562
+  },
+  {
+    "text": "great",
+    "start": 59.72,
+    "end": 59.96,
+    "prominence": 0.3803
+  },
+  {
+    "text": "orator",
+    "start": 59.96,
+    "end": 60.34,
+    "prominence": 0.5627
+  },
+  {
+    "text": "of",
+    "start": 60.34,
+    "end": 60.52,
+    "prominence": 0.4025
+  },
+  {
+    "text": "the",
+    "start": 60.52,
+    "end": 60.56,
+    "prominence": 0.4893
+  },
+  {
+    "text": "day.",
+    "start": 60.56,
+    "end": 60.8,
+    "prominence": 0.3557
+  },
+  {
+    "text": "Why",
+    "start": 60.98,
+    "end": 61.2,
+    "prominence": 0.6553
+  },
+  {
+    "text": "him?",
+    "start": 61.2,
+    "end": 61.54,
+    "prominence": 0.6688
+  },
+  {
+    "text": "And",
+    "start": 62.66,
+    "end": 62.88,
+    "prominence": 0.5197
+  },
+  {
+    "text": "why",
+    "start": 62.88,
+    "end": 63.14,
+    "prominence": 0.4683
+  },
+  {
+    "text": "is",
+    "start": 63.14,
+    "end": 63.38,
+    "prominence": 0.4592
+  },
+  {
+    "text": "it",
+    "start": 63.38,
+    "end": 63.64,
+    "prominence": 0.4273
+  },
+  {
+    "text": "that",
+    "start": 63.64,
+    "end": 64.34,
+    "prominence": 0.734
+  },
+  {
+    "text": "the",
+    "start": 64.34,
+    "end": 64.52,
+    "prominence": 0.6355
+  },
+  {
+    "text": "Wright",
+    "start": 64.52,
+    "end": 64.76,
+    "prominence": 0.6762
+  },
+  {
+    "text": "brothers",
+    "start": 64.76,
+    "end": 65.1,
+    "prominence": 0.4874
+  },
+  {
+    "text": "were",
+    "start": 65.1,
+    "end": 65.36,
+    "prominence": 0.2801
+  },
+  {
+    "text": "able",
+    "start": 65.36,
+    "end": 65.6,
+    "prominence": 0.3956
+  },
+  {
+    "text": "to",
+    "start": 65.6,
+    "end": 65.74,
+    "prominence": 0.3647
+  },
+  {
+    "text": "figure",
+    "start": 65.74,
+    "end": 66.02,
+    "prominence": 0.7924
+  },
+  {
+    "text": "out",
+    "start": 66.02,
+    "end": 66.28,
+    "prominence": 0.3311
+  },
+  {
+    "text": "controlled,",
+    "start": 66.28,
+    "end": 67.08,
+    "prominence": 0.4856
+  },
+  {
+    "text": "powered",
+    "start": 67.08,
+    "end": 67.58,
+    "prominence": 0.2545
+  },
+  {
+    "text": "man",
+    "start": 67.58,
+    "end": 67.8,
+    "prominence": 0.5025
+  },
+  {
+    "text": "flight",
+    "start": 67.8,
+    "end": 68.16,
+    "prominence": 0.5813
+  },
+  {
+    "text": "when",
+    "start": 68.16,
+    "end": 68.84,
+    "prominence": 0.6489
+  },
+  {
+    "text": "there",
+    "start": 68.84,
+    "end": 68.98,
+    "prominence": 0.4958
+  },
+  {
+    "text": "were",
+    "start": 68.98,
+    "end": 69.1,
+    "prominence": 0.3765
+  },
+  {
+    "text": "certainly",
+    "start": 69.1,
+    "end": 69.4,
+    "prominence": 0.4159
+  },
+  {
+    "text": "other",
+    "start": 69.4,
+    "end": 69.7,
+    "prominence": 0.4166
+  },
+  {
+    "text": "teams",
+    "start": 69.7,
+    "end": 70.06,
+    "prominence": 0.4214
+  },
+  {
+    "text": "who",
+    "start": 70.06,
+    "end": 70.22,
+    "prominence": 0.4193
+  },
+  {
+    "text": "were",
+    "start": 70.22,
+    "end": 70.3,
+    "prominence": 0.324
+  },
+  {
+    "text": "better",
+    "start": 70.3,
+    "end": 70.44,
+    "prominence": 0.5907
+  },
+  {
+    "text": "qualified,",
+    "start": 70.44,
+    "end": 71.02,
+    "prominence": 0.467
+  },
+  {
+    "text": "better",
+    "start": 71.22,
+    "end": 71.32,
+    "prominence": 0.556
+  },
+  {
+    "text": "funded,",
+    "start": 71.32,
+    "end": 71.72,
+    "prominence": 0.5619
+  },
+  {
+    "text": "and",
+    "start": 73.08,
+    "end": 73.56,
+    "prominence": 0.4287
+  },
+  {
+    "text": "they",
+    "start": 73.56,
+    "end": 73.7,
+    "prominence": 0.4029
+  },
+  {
+    "text": "didn't",
+    "start": 73.7,
+    "end": 74.12,
+    "prominence": 0.8083
+  },
+  {
+    "text": "achieve",
+    "start": 74.12,
+    "end": 74.62,
+    "prominence": 0.5792
+  },
+  {
+    "text": "powered",
+    "start": 74.62,
+    "end": 76.02,
+    "prominence": 0.3563
+  },
+  {
+    "text": "man",
+    "start": 76.02,
+    "end": 76.22,
+    "prominence": 0.5634
+  },
+  {
+    "text": "flight,",
+    "start": 76.22,
+    "end": 76.46,
+    "prominence": 0.5786
+  },
+  {
+    "text": "and",
+    "start": 76.54,
+    "end": 76.6,
+    "prominence": 0.5642
+  },
+  {
+    "text": "the",
+    "start": 76.6,
+    "end": 76.68,
+    "prominence": 0.4216
+  },
+  {
+    "text": "Wright",
+    "start": 76.68,
+    "end": 76.8,
+    "prominence": 0.8135
+  },
+  {
+    "text": "brothers",
+    "start": 76.8,
+    "end": 77.1,
+    "prominence": 0.339
+  },
+  {
+    "text": "beat",
+    "start": 77.1,
+    "end": 77.42,
+    "prominence": 0.3428
+  },
+  {
+    "text": "them",
+    "start": 77.42,
+    "end": 77.56,
+    "prominence": 0.5859
+  },
+  {
+    "text": "to",
+    "start": 77.56,
+    "end": 77.72,
+    "prominence": 0.5776
+  },
+  {
+    "text": "it?",
+    "start": 77.72,
+    "end": 77.9,
+    "prominence": 0.4114
+  },
+  {
+    "text": "There's",
+    "start": 78.52,
+    "end": 78.88,
+    "prominence": 0.4497
+  },
+  {
+    "text": "something",
+    "start": 78.88,
+    "end": 79.18,
+    "prominence": 0.6229
+  },
+  {
+    "text": "else",
+    "start": 79.18,
+    "end": 79.42,
+    "prominence": 0.4306
+  },
+  {
+    "text": "at",
+    "start": 79.42,
+    "end": 79.6,
+    "prominence": 0.6122
+  },
+  {
+    "text": "play",
+    "start": 79.6,
+    "end": 79.84,
+    "prominence": 0.5265
+  },
+  {
+    "text": "here.",
+    "start": 79.84,
+    "end": 80.14,
+    "prominence": 0.3414
+  },
+  {
+    "text": "About",
+    "start": 81.14,
+    "end": 81.78,
+    "prominence": 0.4162
+  },
+  {
+    "text": "three",
+    "start": 81.78,
+    "end": 82.48,
+    "prominence": 0.5446
+  },
+  {
+    "text": "and",
+    "start": 82.48,
+    "end": 82.6,
+    "prominence": 0.4606
+  },
+  {
+    "text": "a",
+    "start": 82.6,
+    "end": 82.7,
+    "prominence": 0.4218
+  },
+  {
+    "text": "half",
+    "start": 82.7,
+    "end": 82.92,
+    "prominence": 0.6086
+  },
+  {
+    "text": "years",
+    "start": 82.92,
+    "end": 83.12,
+    "prominence": 0.4807
+  },
+  {
+    "text": "ago,",
+    "start": 83.12,
+    "end": 83.5,
+    "prominence": 0.492
+  },
+  {
+    "text": "I",
+    "start": 83.54,
+    "end": 84.24,
+    "prominence": 0.4612
+  },
+  {
+    "text": "made",
+    "start": 84.24,
+    "end": 84.44,
+    "prominence": 0.323
+  },
+  {
+    "text": "a",
+    "start": 84.44,
+    "end": 84.56,
+    "prominence": 0.4105
+  },
+  {
+    "text": "discovery,",
+    "start": 84.56,
+    "end": 85.0,
+    "prominence": 0.5802
+  },
+  {
+    "text": "and",
+    "start": 86.06,
+    "end": 86.3,
+    "prominence": 0.8219
+  },
+  {
+    "text": "this",
+    "start": 86.3,
+    "end": 86.44,
+    "prominence": 0.3265
+  },
+  {
+    "text": "discovery",
+    "start": 86.44,
+    "end": 86.88,
+    "prominence": 0.7534
+  },
+  {
+    "text": "profoundly",
+    "start": 86.88,
+    "end": 87.34,
+    "prominence": 0.6333
+  },
+  {
+    "text": "changed",
+    "start": 87.34,
+    "end": 88.22,
+    "prominence": 0.492
+  },
+  {
+    "text": "my",
+    "start": 88.22,
+    "end": 88.82,
+    "prominence": 0.5321
+  },
+  {
+    "text": "view.",
+    "start": 88.82,
+    "end": 89.3,
+    "prominence": 0.4593
+  }
+]

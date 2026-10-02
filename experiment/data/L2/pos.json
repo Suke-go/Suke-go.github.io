@@ -1,0 +1,1570 @@
+[
+  {
+    "word": "ruled",
+    "start": 0.1,
+    "end": 0.5,
+    "pos": "VERB",
+    "is_content": true,
+    "dynamik_size": 18
+  },
+  {
+    "word": "by",
+    "start": 0.5,
+    "end": 0.84,
+    "pos": "ADP",
+    "is_content": false,
+    "dynamik_size": 12
+  },
+  {
+    "word": "the",
+    "start": 0.84,
+    "end": 1.08,
+    "pos": "DET",
+    "is_content": false,
+    "dynamik_size": 12
+  },
+  {
+    "word": "second",
+    "start": 1.08,
+    "end": 1.34,
+    "pos": "ADJ",
+    "is_content": true,
+    "dynamik_size": 18
+  },
+  {
+    "word": "law",
+    "start": 1.34,
+    "end": 1.62,
+    "pos": "NOUN",
+    "is_content": true,
+    "dynamik_size": 18
+  },
+  {
+    "word": "of",
+    "start": 1.62,
+    "end": 1.88,
+    "pos": "ADP",
+    "is_content": false,
+    "dynamik_size": 12
+  },
+  {
+    "word": "thermodynamics,",
+    "start": 1.88,
+    "end": 2.78,
+    "pos": "NOUN",
+    "is_content": true,
+    "dynamik_size": 18
+  },
+  {
+    "word": "how",
+    "start": 3.38,
+    "end": 3.72,
+    "pos": "SCONJ",
+    "is_content": false,
+    "dynamik_size": 12
+  },
+  {
+    "word": "is",
+    "start": 3.72,
+    "end": 4.06,
+    "pos": "AUX",
+    "is_content": false,
+    "dynamik_size": 12
+  },
+  {
+    "word": "it",
+    "start": 4.06,
+    "end": 4.28,
+    "pos": "PRON",
+    "is_content": false,
+    "dynamik_size": 12
+  },
+  {
+    "word": "possible",
+    "start": 4.28,
+    "end": 4.84,
+    "pos": "ADJ",
+    "is_content": true,
+    "dynamik_size": 18
+  },
+  {
+    "word": "to",
+    "start": 4.84,
+    "end": 5.24,
+    "pos": "PART",
+    "is_content": false,
+    "dynamik_size": 12
+  },
+  {
+    "word": "generate",
+    "start": 5.24,
+    "end": 5.64,
+    "pos": "VERB",
+    "is_content": true,
+    "dynamik_size": 18
+  },
+  {
+    "word": "the",
+    "start": 5.64,
+    "end": 5.86,
+    "pos": "DET",
+    "is_content": false,
+    "dynamik_size": 12
+  },
+  {
+    "word": "sort",
+    "start": 5.86,
+    "end": 5.98,
+    "pos": "NOUN",
+    "is_content": true,
+    "dynamik_size": 18
+  },
+  {
+    "word": "of",
+    "start": 5.98,
+    "end": 6.12,
+    "pos": "ADP",
+    "is_content": false,
+    "dynamik_size": 12
+  },
+  {
+    "word": "complexity",
+    "start": 6.12,
+    "end": 6.54,
+    "pos": "NOUN",
+    "is_content": true,
+    "dynamik_size": 18
+  },
+  {
+    "word": "I've",
+    "start": 6.54,
+    "end": 6.94,
+    "pos": "PRON",
+    "is_content": false,
+    "dynamik_size": 12
+  },
+  {
+    "word": "described,",
+    "start": 6.94,
+    "end": 7.32,
+    "pos": "VERB",
+    "is_content": true,
+    "dynamik_size": 18
+  },
+  {
+    "word": "the",
+    "start": 7.54,
+    "end": 7.7,
+    "pos": "DET",
+    "is_content": false,
+    "dynamik_size": 12
+  },
+  {
+    "word": "sort",
+    "start": 7.7,
+    "end": 7.84,
+    "pos": "NOUN",
+    "is_content": true,
+    "dynamik_size": 18
+  },
+  {
+    "word": "of",
+    "start": 7.84,
+    "end": 8.06,
+    "pos": "ADP",
+    "is_content": false,
+    "dynamik_size": 12
+  },
+  {
+    "word": "complexity",
+    "start": 8.06,
+    "end": 8.44,
+    "pos": "NOUN",
+    "is_content": true,
+    "dynamik_size": 18
+  },
+  {
+    "word": "represented",
+    "start": 8.44,
+    "end": 8.8,
+    "pos": "VERB",
+    "is_content": true,
+    "dynamik_size": 18
+  },
+  {
+    "word": "by",
+    "start": 8.8,
+    "end": 9.3,
+    "pos": "ADP",
+    "is_content": false,
+    "dynamik_size": 12
+  },
+  {
+    "word": "you",
+    "start": 9.3,
+    "end": 9.78,
+    "pos": "PRON",
+    "is_content": false,
+    "dynamik_size": 12
+  },
+  {
+    "word": "and",
+    "start": 9.78,
+    "end": 10.4,
+    "pos": "CCONJ",
+    "is_content": false,
+    "dynamik_size": 12
+  },
+  {
+    "word": "me",
+    "start": 10.4,
+    "end": 11.02,
+    "pos": "PRON",
+    "is_content": false,
+    "dynamik_size": 12
+  },
+  {
+    "word": "and",
+    "start": 11.02,
+    "end": 11.58,
+    "pos": "CCONJ",
+    "is_content": false,
+    "dynamik_size": 12
+  },
+  {
+    "word": "the",
+    "start": 11.58,
+    "end": 11.84,
+    "pos": "DET",
+    "is_content": false,
+    "dynamik_size": 12
+  },
+  {
+    "word": "convention",
+    "start": 11.84,
+    "end": 12.34,
+    "pos": "NOUN",
+    "is_content": true,
+    "dynamik_size": 18
+  },
+  {
+    "word": "center?",
+    "start": 12.34,
+    "end": 12.84,
+    "pos": "NOUN",
+    "is_content": true,
+    "dynamik_size": 18
+  },
+  {
+    "word": "Well,",
+    "start": 14.56,
+    "end": 14.7,
+    "pos": "INTJ",
+    "is_content": false,
+    "dynamik_size": 12
+  },
+  {
+    "word": "the",
+    "start": 14.74,
+    "end": 14.84,
+    "pos": "DET",
+    "is_content": false,
+    "dynamik_size": 12
+  },
+  {
+    "word": "answer",
+    "start": 14.84,
+    "end": 15.02,
+    "pos": "NOUN",
+    "is_content": true,
+    "dynamik_size": 18
+  },
+  {
+    "word": "seems",
+    "start": 15.02,
+    "end": 15.36,
+    "pos": "VERB",
+    "is_content": true,
+    "dynamik_size": 18
+  },
+  {
+    "word": "to",
+    "start": 15.36,
+    "end": 15.56,
+    "pos": "PART",
+    "is_content": false,
+    "dynamik_size": 12
+  },
+  {
+    "word": "be",
+    "start": 15.56,
+    "end": 16.02,
+    "pos": "AUX",
+    "is_content": false,
+    "dynamik_size": 12
+  },
+  {
+    "word": "the",
+    "start": 16.02,
+    "end": 16.56,
+    "pos": "DET",
+    "is_content": false,
+    "dynamik_size": 12
+  },
+  {
+    "word": "universe",
+    "start": 16.56,
+    "end": 17.12,
+    "pos": "NOUN",
+    "is_content": true,
+    "dynamik_size": 18
+  },
+  {
+    "word": "can",
+    "start": 17.12,
+    "end": 17.76,
+    "pos": "AUX",
+    "is_content": false,
+    "dynamik_size": 12
+  },
+  {
+    "word": "create",
+    "start": 17.76,
+    "end": 18.26,
+    "pos": "VERB",
+    "is_content": true,
+    "dynamik_size": 18
+  },
+  {
+    "word": "complexity,",
+    "start": 18.26,
+    "end": 19.26,
+    "pos": "NOUN",
+    "is_content": true,
+    "dynamik_size": 18
+  },
+  {
+    "word": "but",
+    "start": 19.66,
+    "end": 19.88,
+    "pos": "CCONJ",
+    "is_content": false,
+    "dynamik_size": 12
+  },
+  {
+    "word": "with",
+    "start": 19.88,
+    "end": 20.1,
+    "pos": "ADP",
+    "is_content": false,
+    "dynamik_size": 12
+  },
+  {
+    "word": "great",
+    "start": 20.1,
+    "end": 20.46,
+    "pos": "ADJ",
+    "is_content": true,
+    "dynamik_size": 18
+  },
+  {
+    "word": "difficulty.",
+    "start": 20.46,
+    "end": 21.1,
+    "pos": "NOUN",
+    "is_content": true,
+    "dynamik_size": 18
+  },
+  {
+    "word": "In",
+    "start": 22.26,
+    "end": 22.6,
+    "pos": "ADP",
+    "is_content": false,
+    "dynamik_size": 12
+  },
+  {
+    "word": "pockets,",
+    "start": 22.6,
+    "end": 23.16,
+    "pos": "NOUN",
+    "is_content": true,
+    "dynamik_size": 18
+  },
+  {
+    "word": "there",
+    "start": 23.4,
+    "end": 23.6,
+    "pos": "PRON",
+    "is_content": false,
+    "dynamik_size": 12
+  },
+  {
+    "word": "appear",
+    "start": 23.6,
+    "end": 23.92,
+    "pos": "VERB",
+    "is_content": true,
+    "dynamik_size": 18
+  },
+  {
+    "word": "what",
+    "start": 23.92,
+    "end": 24.16,
+    "pos": "PRON",
+    "is_content": false,
+    "dynamik_size": 12
+  },
+  {
+    "word": "my",
+    "start": 24.16,
+    "end": 24.56,
+    "pos": "PRON",
+    "is_content": false,
+    "dynamik_size": 12
+  },
+  {
+    "word": "colleague",
+    "start": 24.56,
+    "end": 24.98,
+    "pos": "NOUN",
+    "is_content": true,
+    "dynamik_size": 18
+  },
+  {
+    "word": "Fred",
+    "start": 24.98,
+    "end": 25.32,
+    "pos": "PROPN",
+    "is_content": false,
+    "dynamik_size": 12
+  },
+  {
+    "word": "Spear",
+    "start": 25.32,
+    "end": 25.66,
+    "pos": "PROPN",
+    "is_content": false,
+    "dynamik_size": 12
+  },
+  {
+    "word": "calls",
+    "start": 25.66,
+    "end": 26.12,
+    "pos": "VERB",
+    "is_content": true,
+    "dynamik_size": 18
+  },
+  {
+    "word": "goldilocks",
+    "start": 26.36,
+    "end": 27.1,
+    "pos": "NOUN",
+    "is_content": true,
+    "dynamik_size": 18
+  },
+  {
+    "word": "conditions,",
+    "start": 27.1,
+    "end": 27.7,
+    "pos": "NOUN",
+    "is_content": true,
+    "dynamik_size": 18
+  },
+  {
+    "word": "not",
+    "start": 27.98,
+    "end": 28.12,
+    "pos": "PART",
+    "is_content": false,
+    "dynamik_size": 12
+  },
+  {
+    "word": "too",
+    "start": 28.12,
+    "end": 28.32,
+    "pos": "ADV",
+    "is_content": true,
+    "dynamik_size": 18
+  },
+  {
+    "word": "hot,",
+    "start": 28.32,
+    "end": 28.64,
+    "pos": "ADJ",
+    "is_content": true,
+    "dynamik_size": 18
+  },
+  {
+    "word": "not",
+    "start": 28.98,
+    "end": 29.16,
+    "pos": "PART",
+    "is_content": false,
+    "dynamik_size": 12
+  },
+  {
+    "word": "too",
+    "start": 29.16,
+    "end": 29.42,
+    "pos": "ADV",
+    "is_content": true,
+    "dynamik_size": 18
+  },
+  {
+    "word": "cold,",
+    "start": 29.42,
+    "end": 29.7,
+    "pos": "ADJ",
+    "is_content": true,
+    "dynamik_size": 18
+  },
+  {
+    "word": "just",
+    "start": 30.06,
+    "end": 30.52,
+    "pos": "ADV",
+    "is_content": true,
+    "dynamik_size": 18
+  },
+  {
+    "word": "right",
+    "start": 30.52,
+    "end": 30.84,
+    "pos": "ADV",
+    "is_content": true,
+    "dynamik_size": 18
+  },
+  {
+    "word": "for",
+    "start": 30.84,
+    "end": 31.04,
+    "pos": "ADP",
+    "is_content": false,
+    "dynamik_size": 12
+  },
+  {
+    "word": "the",
+    "start": 31.04,
+    "end": 31.2,
+    "pos": "DET",
+    "is_content": false,
+    "dynamik_size": 12
+  },
+  {
+    "word": "creation",
+    "start": 31.2,
+    "end": 31.48,
+    "pos": "NOUN",
+    "is_content": true,
+    "dynamik_size": 18
+  },
+  {
+    "word": "of",
+    "start": 31.48,
+    "end": 31.72,
+    "pos": "ADP",
+    "is_content": false,
+    "dynamik_size": 12
+  },
+  {
+    "word": "complexity.",
+    "start": 31.72,
+    "end": 32.22,
+    "pos": "NOUN",
+    "is_content": true,
+    "dynamik_size": 18
+  },
+  {
+    "word": "And",
+    "start": 32.6,
+    "end": 32.92,
+    "pos": "CCONJ",
+    "is_content": false,
+    "dynamik_size": 12
+  },
+  {
+    "word": "slightly",
+    "start": 32.92,
+    "end": 33.24,
+    "pos": "ADV",
+    "is_content": true,
+    "dynamik_size": 18
+  },
+  {
+    "word": "more",
+    "start": 33.24,
+    "end": 33.6,
+    "pos": "ADV",
+    "is_content": true,
+    "dynamik_size": 18
+  },
+  {
+    "word": "complex",
+    "start": 33.6,
+    "end": 33.92,
+    "pos": "ADJ",
+    "is_content": true,
+    "dynamik_size": 18
+  },
+  {
+    "word": "things",
+    "start": 33.92,
+    "end": 34.18,
+    "pos": "NOUN",
+    "is_content": true,
+    "dynamik_size": 18
+  },
+  {
+    "word": "appear.",
+    "start": 34.18,
+    "end": 34.62,
+    "pos": "VERB",
+    "is_content": true,
+    "dynamik_size": 18
+  },
+  {
+    "word": "And",
+    "start": 34.98,
+    "end": 35.18,
+    "pos": "CCONJ",
+    "is_content": false,
+    "dynamik_size": 12
+  },
+  {
+    "word": "where",
+    "start": 35.18,
+    "end": 35.3,
+    "pos": "SCONJ",
+    "is_content": false,
+    "dynamik_size": 12
+  },
+  {
+    "word": "you",
+    "start": 35.3,
+    "end": 35.44,
+    "pos": "PRON",
+    "is_content": false,
+    "dynamik_size": 12
+  },
+  {
+    "word": "have",
+    "start": 35.44,
+    "end": 35.58,
+    "pos": "VERB",
+    "is_content": true,
+    "dynamik_size": 18
+  },
+  {
+    "word": "slightly",
+    "start": 35.58,
+    "end": 35.86,
+    "pos": "ADV",
+    "is_content": true,
+    "dynamik_size": 18
+  },
+  {
+    "word": "more",
+    "start": 35.86,
+    "end": 36.16,
+    "pos": "ADV",
+    "is_content": true,
+    "dynamik_size": 18
+  },
+  {
+    "word": "complex",
+    "start": 36.16,
+    "end": 36.44,
+    "pos": "ADJ",
+    "is_content": true,
+    "dynamik_size": 18
+  },
+  {
+    "word": "things,",
+    "start": 36.44,
+    "end": 36.8,
+    "pos": "NOUN",
+    "is_content": true,
+    "dynamik_size": 18
+  },
+  {
+    "word": "you",
+    "start": 37.1,
+    "end": 37.28,
+    "pos": "PRON",
+    "is_content": false,
+    "dynamik_size": 12
+  },
+  {
+    "word": "can",
+    "start": 37.28,
+    "end": 37.52,
+    "pos": "AUX",
+    "is_content": false,
+    "dynamik_size": 12
+  },
+  {
+    "word": "get",
+    "start": 37.52,
+    "end": 37.92,
+    "pos": "VERB",
+    "is_content": true,
+    "dynamik_size": 18
+  },
+  {
+    "word": "slightly",
+    "start": 37.92,
+    "end": 38.28,
+    "pos": "ADV",
+    "is_content": true,
+    "dynamik_size": 18
+  },
+  {
+    "word": "more",
+    "start": 38.28,
+    "end": 38.62,
+    "pos": "ADV",
+    "is_content": true,
+    "dynamik_size": 18
+  },
+  {
+    "word": "complex",
+    "start": 38.62,
+    "end": 39.04,
+    "pos": "ADJ",
+    "is_content": true,
+    "dynamik_size": 18
+  },
+  {
+    "word": "things.",
+    "start": 39.04,
+    "end": 39.21,
+    "pos": "NOUN",
+    "is_content": true,
+    "dynamik_size": 18
+  },
+  {
+    "word": "And",
+    "start": 39.21,
+    "end": 39.68,
+    "pos": "CCONJ",
+    "is_content": false,
+    "dynamik_size": 12
+  },
+  {
+    "word": "in",
+    "start": 39.68,
+    "end": 39.9,
+    "pos": "ADP",
+    "is_content": false,
+    "dynamik_size": 12
+  },
+  {
+    "word": "this",
+    "start": 39.9,
+    "end": 40.2,
+    "pos": "DET",
+    "is_content": false,
+    "dynamik_size": 12
+  },
+  {
+    "word": "way,",
+    "start": 40.2,
+    "end": 40.46,
+    "pos": "NOUN",
+    "is_content": true,
+    "dynamik_size": 18
+  },
+  {
+    "word": "complexity",
+    "start": 40.68,
+    "end": 41.2,
+    "pos": "NOUN",
+    "is_content": true,
+    "dynamik_size": 18
+  },
+  {
+    "word": "builds",
+    "start": 41.2,
+    "end": 41.82,
+    "pos": "NOUN",
+    "is_content": true,
+    "dynamik_size": 18
+  },
+  {
+    "word": "stage",
+    "start": 41.82,
+    "end": 42.46,
+    "pos": "NOUN",
+    "is_content": true,
+    "dynamik_size": 18
+  },
+  {
+    "word": "by",
+    "start": 42.46,
+    "end": 42.74,
+    "pos": "ADP",
+    "is_content": false,
+    "dynamik_size": 12
+  },
+  {
+    "word": "stage.",
+    "start": 42.74,
+    "end": 43.28,
+    "pos": "NOUN",
+    "is_content": true,
+    "dynamik_size": 18
+  },
+  {
+    "word": "Each",
+    "start": 44.48,
+    "end": 44.98,
+    "pos": "DET",
+    "is_content": false,
+    "dynamik_size": 12
+  },
+  {
+    "word": "stage",
+    "start": 44.98,
+    "end": 45.54,
+    "pos": "NOUN",
+    "is_content": true,
+    "dynamik_size": 18
+  },
+  {
+    "word": "is",
+    "start": 45.54,
+    "end": 46.0,
+    "pos": "AUX",
+    "is_content": false,
+    "dynamik_size": 12
+  },
+  {
+    "word": "magical",
+    "start": 46.0,
+    "end": 46.58,
+    "pos": "ADJ",
+    "is_content": true,
+    "dynamik_size": 18
+  },
+  {
+    "word": "because",
+    "start": 46.58,
+    "end": 47.02,
+    "pos": "SCONJ",
+    "is_content": false,
+    "dynamik_size": 12
+  },
+  {
+    "word": "it",
+    "start": 47.02,
+    "end": 47.28,
+    "pos": "PRON",
+    "is_content": false,
+    "dynamik_size": 12
+  },
+  {
+    "word": "creates",
+    "start": 47.28,
+    "end": 47.66,
+    "pos": "VERB",
+    "is_content": true,
+    "dynamik_size": 18
+  },
+  {
+    "word": "the",
+    "start": 47.72,
+    "end": 47.96,
+    "pos": "DET",
+    "is_content": false,
+    "dynamik_size": 12
+  },
+  {
+    "word": "impression",
+    "start": 47.96,
+    "end": 48.34,
+    "pos": "NOUN",
+    "is_content": true,
+    "dynamik_size": 18
+  },
+  {
+    "word": "of",
+    "start": 48.34,
+    "end": 48.58,
+    "pos": "ADP",
+    "is_content": false,
+    "dynamik_size": 12
+  },
+  {
+    "word": "something",
+    "start": 48.58,
+    "end": 49.04,
+    "pos": "PRON",
+    "is_content": false,
+    "dynamik_size": 12
+  },
+  {
+    "word": "utterly",
+    "start": 49.04,
+    "end": 49.68,
+    "pos": "ADV",
+    "is_content": true,
+    "dynamik_size": 18
+  },
+  {
+    "word": "new,",
+    "start": 49.68,
+    "end": 50.26,
+    "pos": "ADJ",
+    "is_content": true,
+    "dynamik_size": 18
+  },
+  {
+    "word": "appearing",
+    "start": 50.46,
+    "end": 50.96,
+    "pos": "VERB",
+    "is_content": true,
+    "dynamik_size": 18
+  },
+  {
+    "word": "almost",
+    "start": 50.96,
+    "end": 51.6,
+    "pos": "ADV",
+    "is_content": true,
+    "dynamik_size": 18
+  },
+  {
+    "word": "out",
+    "start": 51.6,
+    "end": 51.8,
+    "pos": "ADP",
+    "is_content": false,
+    "dynamik_size": 12
+  },
+  {
+    "word": "of",
+    "start": 51.8,
+    "end": 51.96,
+    "pos": "ADP",
+    "is_content": false,
+    "dynamik_size": 12
+  },
+  {
+    "word": "nowhere",
+    "start": 51.96,
+    "end": 52.24,
+    "pos": "ADV",
+    "is_content": true,
+    "dynamik_size": 18
+  },
+  {
+    "word": "in",
+    "start": 52.24,
+    "end": 52.44,
+    "pos": "ADP",
+    "is_content": false,
+    "dynamik_size": 12
+  },
+  {
+    "word": "the",
+    "start": 52.44,
+    "end": 52.62,
+    "pos": "DET",
+    "is_content": false,
+    "dynamik_size": 12
+  },
+  {
+    "word": "universe.",
+    "start": 52.62,
+    "end": 52.92,
+    "pos": "NOUN",
+    "is_content": true,
+    "dynamik_size": 18
+  },
+  {
+    "word": "We",
+    "start": 53.28,
+    "end": 53.42,
+    "pos": "PRON",
+    "is_content": false,
+    "dynamik_size": 12
+  },
+  {
+    "word": "refer",
+    "start": 53.42,
+    "end": 53.7,
+    "pos": "VERB",
+    "is_content": true,
+    "dynamik_size": 18
+  },
+  {
+    "word": "in",
+    "start": 53.7,
+    "end": 53.82,
+    "pos": "ADP",
+    "is_content": false,
+    "dynamik_size": 12
+  },
+  {
+    "word": "big",
+    "start": 53.82,
+    "end": 54.0,
+    "pos": "ADJ",
+    "is_content": true,
+    "dynamik_size": 18
+  },
+  {
+    "word": "history",
+    "start": 54.0,
+    "end": 54.28,
+    "pos": "NOUN",
+    "is_content": true,
+    "dynamik_size": 18
+  },
+  {
+    "word": "to",
+    "start": 54.28,
+    "end": 54.46,
+    "pos": "ADP",
+    "is_content": false,
+    "dynamik_size": 12
+  },
+  {
+    "word": "these",
+    "start": 54.46,
+    "end": 54.68,
+    "pos": "DET",
+    "is_content": false,
+    "dynamik_size": 12
+  },
+  {
+    "word": "moments",
+    "start": 54.68,
+    "end": 54.94,
+    "pos": "NOUN",
+    "is_content": true,
+    "dynamik_size": 18
+  },
+  {
+    "word": "as",
+    "start": 54.94,
+    "end": 55.18,
+    "pos": "ADP",
+    "is_content": false,
+    "dynamik_size": 12
+  },
+  {
+    "word": "threshold",
+    "start": 55.18,
+    "end": 55.64,
+    "pos": "NOUN",
+    "is_content": true,
+    "dynamik_size": 18
+  },
+  {
+    "word": "moments.",
+    "start": 55.64,
+    "end": 56.24,
+    "pos": "NOUN",
+    "is_content": true,
+    "dynamik_size": 18
+  },
+  {
+    "word": "And",
+    "start": 57.48,
+    "end": 57.72,
+    "pos": "CCONJ",
+    "is_content": false,
+    "dynamik_size": 12
+  },
+  {
+    "word": "at",
+    "start": 57.72,
+    "end": 57.92,
+    "pos": "ADP",
+    "is_content": false,
+    "dynamik_size": 12
+  },
+  {
+    "word": "each",
+    "start": 57.92,
+    "end": 58.18,
+    "pos": "DET",
+    "is_content": false,
+    "dynamik_size": 12
+  },
+  {
+    "word": "threshold,",
+    "start": 58.18,
+    "end": 58.86,
+    "pos": "NOUN",
+    "is_content": true,
+    "dynamik_size": 18
+  },
+  {
+    "word": "the",
+    "start": 59.08,
+    "end": 59.28,
+    "pos": "DET",
+    "is_content": false,
+    "dynamik_size": 12
+  },
+  {
+    "word": "going",
+    "start": 59.28,
+    "end": 59.5,
+    "pos": "NOUN",
+    "is_content": true,
+    "dynamik_size": 18
+  },
+  {
+    "word": "gets",
+    "start": 59.5,
+    "end": 59.86,
+    "pos": "VERB",
+    "is_content": true,
+    "dynamik_size": 18
+  },
+  {
+    "word": "tougher.",
+    "start": 59.86,
+    "end": 60.28,
+    "pos": "ADJ",
+    "is_content": true,
+    "dynamik_size": 18
+  },
+  {
+    "word": "The",
+    "start": 60.78,
+    "end": 61.04,
+    "pos": "DET",
+    "is_content": false,
+    "dynamik_size": 12
+  },
+  {
+    "word": "complex",
+    "start": 61.04,
+    "end": 61.54,
+    "pos": "ADJ",
+    "is_content": true,
+    "dynamik_size": 18
+  },
+  {
+    "word": "things",
+    "start": 61.54,
+    "end": 61.9,
+    "pos": "NOUN",
+    "is_content": true,
+    "dynamik_size": 18
+  },
+  {
+    "word": "get",
+    "start": 61.9,
+    "end": 62.14,
+    "pos": "VERB",
+    "is_content": true,
+    "dynamik_size": 18
+  },
+  {
+    "word": "more",
+    "start": 62.14,
+    "end": 62.54,
+    "pos": "ADV",
+    "is_content": true,
+    "dynamik_size": 18
+  },
+  {
+    "word": "fragile,",
+    "start": 62.54,
+    "end": 63.32,
+    "pos": "ADJ",
+    "is_content": true,
+    "dynamik_size": 18
+  },
+  {
+    "word": "more",
+    "start": 64.06,
+    "end": 64.28,
+    "pos": "ADV",
+    "is_content": true,
+    "dynamik_size": 18
+  },
+  {
+    "word": "vulnerable.",
+    "start": 64.28,
+    "end": 65.0,
+    "pos": "ADJ",
+    "is_content": true,
+    "dynamik_size": 18
+  },
+  {
+    "word": "The",
+    "start": 65.58,
+    "end": 65.82,
+    "pos": "DET",
+    "is_content": false,
+    "dynamik_size": 12
+  },
+  {
+    "word": "goldilocks",
+    "start": 65.82,
+    "end": 66.38,
+    "pos": "NOUN",
+    "is_content": true,
+    "dynamik_size": 18
+  },
+  {
+    "word": "conditions",
+    "start": 66.38,
+    "end": 67.14,
+    "pos": "NOUN",
+    "is_content": true,
+    "dynamik_size": 18
+  },
+  {
+    "word": "get",
+    "start": 67.14,
+    "end": 67.54,
+    "pos": "VERB",
+    "is_content": true,
+    "dynamik_size": 18
+  },
+  {
+    "word": "more",
+    "start": 67.54,
+    "end": 67.94,
+    "pos": "ADV",
+    "is_content": true,
+    "dynamik_size": 18
+  },
+  {
+    "word": "stringent.",
+    "start": 67.94,
+    "end": 68.62,
+    "pos": "ADJ",
+    "is_content": true,
+    "dynamik_size": 18
+  },
+  {
+    "word": "And",
+    "start": 69.12,
+    "end": 69.48,
+    "pos": "CCONJ",
+    "is_content": false,
+    "dynamik_size": 12
+  },
+  {
+    "word": "it's",
+    "start": 69.48,
+    "end": 69.74,
+    "pos": "PRON",
+    "is_content": false,
+    "dynamik_size": 12
+  },
+  {
+    "word": "more",
+    "start": 69.74,
+    "end": 70.08,
+    "pos": "ADV",
+    "is_content": true,
+    "dynamik_size": 18
+  },
+  {
+    "word": "difficult",
+    "start": 70.08,
+    "end": 70.56,
+    "pos": "ADJ",
+    "is_content": true,
+    "dynamik_size": 18
+  },
+  {
+    "word": "to",
+    "start": 70.56,
+    "end": 70.92,
+    "pos": "PART",
+    "is_content": false,
+    "dynamik_size": 12
+  },
+  {
+    "word": "create",
+    "start": 70.92,
+    "end": 71.16,
+    "pos": "VERB",
+    "is_content": true,
+    "dynamik_size": 18
+  },
+  {
+    "word": "complexity.",
+    "start": 71.16,
+    "end": 71.96,
+    "pos": "NOUN",
+    "is_content": true,
+    "dynamik_size": 18
+  },
+  {
+    "word": "Now,",
+    "start": 73.06,
+    "end": 73.48,
+    "pos": "ADV",
+    "is_content": true,
+    "dynamik_size": 18
+  },
+  {
+    "word": "we",
+    "start": 73.82,
+    "end": 74.26,
+    "pos": "PRON",
+    "is_content": false,
+    "dynamik_size": 12
+  },
+  {
+    "word": "as",
+    "start": 74.26,
+    "end": 74.72,
+    "pos": "ADP",
+    "is_content": false,
+    "dynamik_size": 12
+  },
+  {
+    "word": "extremely",
+    "start": 74.72,
+    "end": 75.14,
+    "pos": "ADV",
+    "is_content": true,
+    "dynamik_size": 18
+  },
+  {
+    "word": "complex",
+    "start": 75.14,
+    "end": 75.68,
+    "pos": "ADJ",
+    "is_content": true,
+    "dynamik_size": 18
+  },
+  {
+    "word": "creatures",
+    "start": 75.68,
+    "end": 76.26,
+    "pos": "NOUN",
+    "is_content": true,
+    "dynamik_size": 18
+  },
+  {
+    "word": "desperately",
+    "start": 76.84,
+    "end": 77.18,
+    "pos": "ADV",
+    "is_content": true,
+    "dynamik_size": 18
+  },
+  {
+    "word": "need",
+    "start": 77.18,
+    "end": 77.46,
+    "pos": "VERB",
+    "is_content": true,
+    "dynamik_size": 18
+  },
+  {
+    "word": "to",
+    "start": 77.46,
+    "end": 77.66,
+    "pos": "PART",
+    "is_content": false,
+    "dynamik_size": 12
+  },
+  {
+    "word": "know",
+    "start": 77.66,
+    "end": 77.84,
+    "pos": "VERB",
+    "is_content": true,
+    "dynamik_size": 18
+  },
+  {
+    "word": "this",
+    "start": 77.84,
+    "end": 78.16,
+    "pos": "DET",
+    "is_content": false,
+    "dynamik_size": 12
+  },
+  {
+    "word": "story",
+    "start": 78.16,
+    "end": 78.5,
+    "pos": "NOUN",
+    "is_content": true,
+    "dynamik_size": 18
+  },
+  {
+    "word": "of",
+    "start": 78.5,
+    "end": 78.86,
+    "pos": "ADP",
+    "is_content": false,
+    "dynamik_size": 12
+  },
+  {
+    "word": "how",
+    "start": 78.86,
+    "end": 79.28,
+    "pos": "SCONJ",
+    "is_content": false,
+    "dynamik_size": 12
+  },
+  {
+    "word": "the",
+    "start": 79.32,
+    "end": 79.54,
+    "pos": "DET",
+    "is_content": false,
+    "dynamik_size": 12
+  },
+  {
+    "word": "universe",
+    "start": 79.54,
+    "end": 79.96,
+    "pos": "NOUN",
+    "is_content": true,
+    "dynamik_size": 18
+  },
+  {
+    "word": "creates",
+    "start": 79.96,
+    "end": 80.34,
+    "pos": "VERB",
+    "is_content": true,
+    "dynamik_size": 18
+  },
+  {
+    "word": "complexity",
+    "start": 80.34,
+    "end": 81.34,
+    "pos": "NOUN",
+    "is_content": true,
+    "dynamik_size": 18
+  },
+  {
+    "word": "despite",
+    "start": 81.34,
+    "end": 82.0,
+    "pos": "SCONJ",
+    "is_content": false,
+    "dynamik_size": 12
+  },
+  {
+    "word": "the",
+    "start": 82.0,
+    "end": 82.32,
+    "pos": "DET",
+    "is_content": false,
+    "dynamik_size": 12
+  },
+  {
+    "word": "second",
+    "start": 82.32,
+    "end": 82.58,
+    "pos": "ADJ",
+    "is_content": true,
+    "dynamik_size": 18
+  },
+  {
+    "word": "law,",
+    "start": 82.58,
+    "end": 82.95,
+    "pos": "NOUN",
+    "is_content": true,
+    "dynamik_size": 18
+  },
+  {
+    "word": "and",
+    "start": 82.95,
+    "end": 83.8,
+    "pos": "CCONJ",
+    "is_content": false,
+    "dynamik_size": 12
+  },
+  {
+    "word": "why",
+    "start": 83.8,
+    "end": 84.2,
+    "pos": "SCONJ",
+    "is_content": false,
+    "dynamik_size": 12
+  },
+  {
+    "word": "complexity",
+    "start": 84.2,
+    "end": 85.2,
+    "pos": "NOUN",
+    "is_content": true,
+    "dynamik_size": 18
+  },
+  {
+    "word": "means",
+    "start": 85.2,
+    "end": 85.76,
+    "pos": "VERB",
+    "is_content": true,
+    "dynamik_size": 18
+  },
+  {
+    "word": "vulnerability",
+    "start": 85.76,
+    "end": 86.7,
+    "pos": "NOUN",
+    "is_content": true,
+    "dynamik_size": 18
+  },
+  {
+    "word": "and",
+    "start": 86.7,
+    "end": 87.36,
+    "pos": "CCONJ",
+    "is_content": false,
+    "dynamik_size": 12
+  },
+  {
+    "word": "fragility.",
+    "start": 87.36,
+    "end": 87.96,
+    "pos": "NOUN",
+    "is_content": true,
+    "dynamik_size": 18
+  },
+  {
+    "word": "And",
+    "start": 89.1,
+    "end": 89.38,
+    "pos": "CCONJ",
+    "is_content": false,
+    "dynamik_size": 12
+  },
+  {
+    "word": "that's",
+    "start": 89.38,
+    "end": 89.7,
+    "pos": "PRON",
+    "is_content": false,
+    "dynamik_size": 12
+  },
+  {
+    "word": "the",
+    "start": 89.7,
+    "end": 89.88,
+    "pos": "DET",
+    "is_content": false,
+    "dynamik_size": 12
+  },
+  {
+    "word": "story.",
+    "start": 89.88,
+    "end": 90.12,
+    "pos": "NOUN",
+    "is_content": true,
+    "dynamik_size": 18
+  }
+]

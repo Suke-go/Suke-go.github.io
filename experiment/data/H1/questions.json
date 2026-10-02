@@ -1,0 +1,177 @@
+{
+  "comprehension": [
+    {
+      "id": "H1_C01",
+      "type": "content",
+      "question": "What was the little girl drawing in the lesson?",
+      "options": [
+        "A picture of her family",
+        "A picture of God",
+        "A self-portrait",
+        "A picture of her school"
+      ],
+      "correct": 1,
+      "is_dummy": false,
+      "hint_ja": "授業で女の子は何を描いていましたか？"
+    },
+    {
+      "id": "H1_C02",
+      "type": "content",
+      "question": "How did the teacher react when she saw the girl was paying attention?",
+      "options": [
+        "She was annoyed",
+        "She was fascinated",
+        "She was confused",
+        "She ignored it"
+      ],
+      "correct": 1,
+      "is_dummy": false,
+      "hint_ja": "女の子が集中しているのを見て先生はどう反応しましたか？"
+    },
+    {
+      "id": "H1_C03",
+      "type": "content",
+      "question": "How old was the speaker's son James during the Nativity play?",
+      "options": [
+        "Three",
+        "Four",
+        "Five",
+        "Six"
+      ],
+      "correct": 1,
+      "is_dummy": false,
+      "hint_ja": "息子のJamesはキリスト降誕劇のとき何歳でしたか？"
+    },
+    {
+      "id": "H1_C04",
+      "type": "content",
+      "question": "What role did James get in the Nativity play?",
+      "options": [
+        "A shepherd",
+        "One of the wise men",
+        "Joseph",
+        "An angel"
+      ],
+      "correct": 2,
+      "is_dummy": false,
+      "hint_ja": "Jamesはキリスト降誕劇（Nativity play）で何の役をもらいましたか？"
+    },
+    {
+      "id": "H1_C05",
+      "type": "content",
+      "question": "What joke did the speaker make about Mel Gibson?",
+      "options": [
+        "Mel Gibson was in the audience",
+        "Mel Gibson directed the sequel",
+        "Mel Gibson played Joseph",
+        "Mel Gibson funded the play"
+      ],
+      "correct": 1,
+      "is_dummy": false,
+      "hint_ja": "話者はメル・ギブソンについてどんな冗談を言いましたか？"
+    },
+    {
+      "id": "H1_C06",
+      "type": "content",
+      "question": "What did the girl say when the teacher told her nobody knows what God looks like?",
+      "options": [
+        "She stopped drawing",
+        "She said they will in a minute",
+        "She started crying",
+        "She drew something else"
+      ],
+      "correct": 1,
+      "is_dummy": false,
+      "hint_ja": "「誰も神様の顔を知らない」と言われて女の子は何と答えましたか？"
+    },
+    {
+      "id": "H1_C07",
+      "type": "content",
+      "question": "What did the speaker say was packed full at the Nativity play?",
+      "options": [
+        "The parking lot",
+        "The classroom",
+        "The place was crammed full of agents",
+        "The church"
+      ],
+      "correct": 2,
+      "is_dummy": false,
+      "hint_ja": "キリスト降誕劇の会場は何でいっぱいだったと話者は言いましたか？"
+    },
+    {
+      "id": "H1_D01",
+      "type": "dummy",
+      "question": "What university did the speaker attend?",
+      "options": [
+        "Oxford",
+        "Cambridge",
+        "Harvard",
+        "The speaker did not mention a university"
+      ],
+      "correct": 3,
+      "is_dummy": true
+    },
+    {
+      "id": "H1_D02",
+      "type": "dummy",
+      "question": "What country was the drawing lesson in?",
+      "options": [
+        "United States",
+        "France",
+        "England",
+        "The speaker did not specify"
+      ],
+      "correct": 3,
+      "is_dummy": true
+    },
+    {
+      "id": "H1_D03",
+      "type": "dummy",
+      "question": "How many children does the speaker have?",
+      "options": [
+        "One",
+        "Two",
+        "Three",
+        "The speaker did not mention"
+      ],
+      "correct": 3,
+      "is_dummy": true
+    }
+  ],
+  "speaker_intent": {
+    "emphasis_identification": {
+      "sentence": "And the girl said, they will in a minute.",
+      "question": "Which word did the speaker emphasize most in this sentence?",
+      "options": [
+        "girl",
+        "said",
+        "will",
+        "minute"
+      ],
+      "correct": 2,
+      "hint_ja": "この文で話者が最も強調した語はどれですか？"
+    },
+    "attitude_estimation": {
+      "question": "What was the speaker's overall tone in this segment?",
+      "options": [
+        "Serious",
+        "Humorous",
+        "Sarcastic",
+        "Neutral"
+      ],
+      "correct": 1,
+      "hint_ja": "この区間での話者の全体的なトーンは？"
+    },
+    "prosodic_structure": {
+      "question": "After telling the joke about Mel Gibson, the speaker...",
+      "options": [
+        "Took a long pause for laughter",
+        "Continued immediately to the next point",
+        "Raised his voice dramatically",
+        "Slowed down significantly"
+      ],
+      "correct": 0,
+      "hint_ja": "メル・ギブソンの冗談のあと、話者は…"
+    }
+  }
+}

@@ -1,0 +1,177 @@
+{
+  "comprehension": [
+    {
+      "id": "L3_C01",
+      "type": "content",
+      "question": "What costume was the speaker wearing in the photo?",
+      "options": [
+        "A tuxedo",
+        "A big white chef's hat",
+        "A cowboy outfit",
+        "A lab coat"
+      ],
+      "correct": 1,
+      "is_dummy": false,
+      "hint_ja": "写真で話者が身につけていたコスチュームは？"
+    },
+    {
+      "id": "L3_C02",
+      "type": "content",
+      "question": "Who sent the speaker a handwritten letter?",
+      "options": [
+        "George Bush",
+        "Barack Obama",
+        "Bill Clinton",
+        "John Kerry"
+      ],
+      "correct": 2,
+      "is_dummy": false,
+      "hint_ja": "話者に手書きの手紙を送った人は？"
+    },
+    {
+      "id": "L3_C03",
+      "type": "content",
+      "question": "What did Bill Clinton's letter congratulate the speaker on?",
+      "options": [
+        "Winning an award",
+        "The new restaurant",
+        "A new book",
+        "A political victory"
+      ],
+      "correct": 1,
+      "is_dummy": false,
+      "hint_ja": "ビル・クリントンの手紙は何を祝っていましたか？"
+    },
+    {
+      "id": "L3_C04",
+      "type": "content",
+      "question": "What topic was the speaker originally going to discuss?",
+      "options": [
+        "Global warming",
+        "Information ecology",
+        "Renewable energy",
+        "Ocean conservation"
+      ],
+      "correct": 1,
+      "is_dummy": false,
+      "hint_ja": "話者が元々話そうとしていたトピックは？"
+    },
+    {
+      "id": "L3_C05",
+      "type": "content",
+      "question": "What did the speaker decide to focus on instead?",
+      "options": [
+        "His personal life",
+        "What people asked him to elaborate on about climate",
+        "His new book",
+        "Technology solutions"
+      ],
+      "correct": 1,
+      "is_dummy": false,
+      "hint_ja": "代わりに何に焦点を当てることにしましたか？"
+    },
+    {
+      "id": "L3_C06",
+      "type": "content",
+      "question": "What does the speaker compare updating his slideshow to?",
+      "options": [
+        "Painting a picture",
+        "Beach combing",
+        "Cooking a meal",
+        "Building a house"
+      ],
+      "correct": 1,
+      "is_dummy": false,
+      "hint_ja": "話者はスライドショーの更新を何に例えましたか？"
+    },
+    {
+      "id": "L3_C07",
+      "type": "content",
+      "question": "What did the speaker say about coming back to TED?",
+      "options": [
+        "It was his first time",
+        "He planned to make it a lifelong habit",
+        "He was never coming back",
+        "He was unsure about returning"
+      ],
+      "correct": 1,
+      "is_dummy": false,
+      "hint_ja": "TEDに戻ることについて話者は何と言いましたか？"
+    },
+    {
+      "id": "L3_D01",
+      "type": "dummy",
+      "question": "What specific policy did the speaker propose in this segment?",
+      "options": [
+        "Carbon tax",
+        "Cap and trade",
+        "Solar subsidies",
+        "No specific policy was proposed"
+      ],
+      "correct": 3,
+      "is_dummy": true
+    },
+    {
+      "id": "L3_D02",
+      "type": "dummy",
+      "question": "What scientific data did the speaker present first?",
+      "options": [
+        "Temperature records",
+        "CO2 levels",
+        "Sea level rise",
+        "No data was presented in this segment"
+      ],
+      "correct": 3,
+      "is_dummy": true
+    },
+    {
+      "id": "L3_D03",
+      "type": "dummy",
+      "question": "What country did the speaker use as a positive example?",
+      "options": [
+        "Germany",
+        "Denmark",
+        "Sweden",
+        "No country was highlighted in this segment"
+      ],
+      "correct": 3,
+      "is_dummy": true
+    }
+  ],
+  "speaker_intent": {
+    "emphasis_identification": {
+      "sentence": "What can you do about the climate crisis?",
+      "question": "Which word did the speaker emphasize most?",
+      "options": [
+        "What",
+        "you",
+        "do",
+        "crisis"
+      ],
+      "correct": 1,
+      "hint_ja": "この文で話者が最も強調した語はどれですか？"
+    },
+    "attitude_estimation": {
+      "question": "What was the speaker's tone in the opening anecdote?",
+      "options": [
+        "Serious and urgent",
+        "Light and humorous",
+        "Sarcastic",
+        "Nervous"
+      ],
+      "correct": 1,
+      "hint_ja": "冒頭のエピソード（anecdote）での話者のトーンは？"
+    },
+    "prosodic_structure": {
+      "question": "When transitioning from the anecdote to the climate topic, the speaker...",
+      "options": [
+        "Made an abrupt shift without transition",
+        "Used a conversational, gradual transition",
+        "Stopped and asked the audience a question",
+        "Played a video"
+      ],
+      "correct": 1,
+      "hint_ja": "エピソードから気候変動の話題に移るとき、話者は…"
+    }
+  }
+}

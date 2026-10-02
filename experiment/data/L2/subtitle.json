@@ -1,0 +1,5292 @@
+{
+  "conditions": {
+    "normal": [
+      {
+        "text": "too",
+        "start": 0.12,
+        "end": 0.32,
+        "font_size": 18,
+        "font_weight": 400,
+        "prominence": 0.4341,
+        "is_content": true,
+        "pos": "ADV"
+      },
+      {
+        "text": "hot,",
+        "start": 0.32,
+        "end": 0.64,
+        "font_size": 18,
+        "font_weight": 400,
+        "prominence": 0.4648,
+        "is_content": true,
+        "pos": "ADJ"
+      },
+      {
+        "text": "not",
+        "start": 0.98,
+        "end": 1.16,
+        "font_size": 18,
+        "font_weight": 400,
+        "prominence": 0.4543,
+        "is_content": false,
+        "pos": "PART"
+      },
+      {
+        "text": "too",
+        "start": 1.16,
+        "end": 1.42,
+        "font_size": 18,
+        "font_weight": 400,
+        "prominence": 0.4631,
+        "is_content": true,
+        "pos": "ADV"
+      },
+      {
+        "text": "cold,",
+        "start": 1.42,
+        "end": 1.7,
+        "font_size": 18,
+        "font_weight": 400,
+        "prominence": 0.4423,
+        "is_content": true,
+        "pos": "ADJ"
+      },
+      {
+        "text": "just",
+        "start": 2.06,
+        "end": 2.52,
+        "font_size": 18,
+        "font_weight": 400,
+        "prominence": 0.6162,
+        "is_content": true,
+        "pos": "ADV"
+      },
+      {
+        "text": "right",
+        "start": 2.52,
+        "end": 2.84,
+        "font_size": 18,
+        "font_weight": 400,
+        "prominence": 0.464,
+        "is_content": true,
+        "pos": "ADV"
+      },
+      {
+        "text": "for",
+        "start": 2.84,
+        "end": 3.04,
+        "font_size": 18,
+        "font_weight": 400,
+        "prominence": 0.4355,
+        "is_content": false,
+        "pos": "ADP"
+      },
+      {
+        "text": "the",
+        "start": 3.04,
+        "end": 3.2,
+        "font_size": 18,
+        "font_weight": 400,
+        "prominence": 0.4282,
+        "is_content": false,
+        "pos": "DET"
+      },
+      {
+        "text": "creation",
+        "start": 3.2,
+        "end": 3.48,
+        "font_size": 18,
+        "font_weight": 400,
+        "prominence": 0.5082,
+        "is_content": true,
+        "pos": "NOUN"
+      },
+      {
+        "text": "of",
+        "start": 3.48,
+        "end": 3.72,
+        "font_size": 18,
+        "font_weight": 400,
+        "prominence": 0.4455,
+        "is_content": false,
+        "pos": "ADP"
+      },
+      {
+        "text": "complexity.",
+        "start": 3.72,
+        "end": 4.22,
+        "font_size": 18,
+        "font_weight": 400,
+        "prominence": 0.6087,
+        "is_content": true,
+        "pos": "NOUN"
+      },
+      {
+        "text": "And",
+        "start": 4.6,
+        "end": 4.92,
+        "font_size": 18,
+        "font_weight": 400,
+        "prominence": 0.4795,
+        "is_content": false,
+        "pos": "CCONJ"
+      },
+      {
+        "text": "slightly",
+        "start": 4.92,
+        "end": 5.24,
+        "font_size": 18,
+        "font_weight": 400,
+        "prominence": 0.4712,
+        "is_content": true,
+        "pos": "ADV"
+      },
+      {
+        "text": "more",
+        "start": 5.24,
+        "end": 5.6,
+        "font_size": 18,
+        "font_weight": 400,
+        "prominence": 0.4293,
+        "is_content": true,
+        "pos": "ADV"
+      },
+      {
+        "text": "complex",
+        "start": 5.6,
+        "end": 5.92,
+        "font_size": 18,
+        "font_weight": 400,
+        "prominence": 0.4838,
+        "is_content": true,
+        "pos": "ADJ"
+      },
+      {
+        "text": "things",
+        "start": 5.92,
+        "end": 6.18,
+        "font_size": 18,
+        "font_weight": 400,
+        "prominence": 0.4341,
+        "is_content": true,
+        "pos": "NOUN"
+      },
+      {
+        "text": "appear.",
+        "start": 6.18,
+        "end": 6.62,
+        "font_size": 18,
+        "font_weight": 400,
+        "prominence": 0.4826,
+        "is_content": true,
+        "pos": "VERB"
+      },
+      {
+        "text": "And",
+        "start": 6.98,
+        "end": 7.18,
+        "font_size": 18,
+        "font_weight": 400,
+        "prominence": 0.4507,
+        "is_content": false,
+        "pos": "CCONJ"
+      },
+      {
+        "text": "where",
+        "start": 7.18,
+        "end": 7.3,
+        "font_size": 18,
+        "font_weight": 400,
+        "prominence": 0.4259,
+        "is_content": false,
+        "pos": "SCONJ"
+      },
+      {
+        "text": "you",
+        "start": 7.3,
+        "end": 7.44,
+        "font_size": 18,
+        "font_weight": 400,
+        "prominence": 0.4182,
+        "is_content": false,
+        "pos": "PRON"
+      },
+      {
+        "text": "have",
+        "start": 7.44,
+        "end": 7.58,
+        "font_size": 18,
+        "font_weight": 400,
+        "prominence": 0.4656,
+        "is_content": true,
+        "pos": "VERB"
+      },
+      {
+        "text": "slightly",
+        "start": 7.58,
+        "end": 7.86,
+        "font_size": 18,
+        "font_weight": 400,
+        "prominence": 0.5164,
+        "is_content": true,
+        "pos": "ADV"
+      },
+      {
+        "text": "more",
+        "start": 7.86,
+        "end": 8.16,
+        "font_size": 18,
+        "font_weight": 400,
+        "prominence": 0.4386,
+        "is_content": true,
+        "pos": "ADV"
+      },
+      {
+        "text": "complex",
+        "start": 8.16,
+        "end": 8.44,
+        "font_size": 18,
+        "font_weight": 400,
+        "prominence": 0.4646,
+        "is_content": true,
+        "pos": "ADJ"
+      },
+      {
+        "text": "things,",
+        "start": 8.44,
+        "end": 8.8,
+        "font_size": 18,
+        "font_weight": 400,
+        "prominence": 0.4721,
+        "is_content": true,
+        "pos": "NOUN"
+      },
+      {
+        "text": "you",
+        "start": 9.1,
+        "end": 9.28,
+        "font_size": 18,
+        "font_weight": 400,
+        "prominence": 0.3798,
+        "is_content": false,
+        "pos": "PRON"
+      },
+      {
+        "text": "can",
+        "start": 9.28,
+        "end": 9.52,
+        "font_size": 18,
+        "font_weight": 400,
+        "prominence": 0.4363,
+        "is_content": false,
+        "pos": "AUX"
+      },
+      {
+        "text": "get",
+        "start": 9.52,
+        "end": 9.92,
+        "font_size": 18,
+        "font_weight": 400,
+        "prominence": 0.4938,
+        "is_content": true,
+        "pos": "VERB"
+      },
+      {
+        "text": "slightly",
+        "start": 9.92,
+        "end": 10.28,
+        "font_size": 18,
+        "font_weight": 400,
+        "prominence": 0.476,
+        "is_content": true,
+        "pos": "ADV"
+      },
+      {
+        "text": "more",
+        "start": 10.28,
+        "end": 10.62,
+        "font_size": 18,
+        "font_weight": 400,
+        "prominence": 0.4681,
+        "is_content": true,
+        "pos": "ADV"
+      },
+      {
+        "text": "complex",
+        "start": 10.62,
+        "end": 11.04,
+        "font_size": 18,
+        "font_weight": 400,
+        "prominence": 0.4972,
+        "is_content": true,
+        "pos": "ADJ"
+      },
+      {
+        "text": "things.",
+        "start": 11.04,
+        "end": 11.21,
+        "font_size": 18,
+        "font_weight": 400,
+        "prominence": 0.4202,
+        "is_content": true,
+        "pos": "NOUN"
+      },
+      {
+        "text": "And",
+        "start": 11.21,
+        "end": 11.68,
+        "font_size": 18,
+        "font_weight": 400,
+        "prominence": 0.561,
+        "is_content": false,
+        "pos": "CCONJ"
+      },
+      {
+        "text": "in",
+        "start": 11.68,
+        "end": 11.9,
+        "font_size": 18,
+        "font_weight": 400,
+        "prominence": 0.3842,
+        "is_content": false,
+        "pos": "ADP"
+      },
+      {
+        "text": "this",
+        "start": 11.9,
+        "end": 12.2,
+        "font_size": 18,
+        "font_weight": 400,
+        "prominence": 0.5218,
+        "is_content": false,
+        "pos": "DET"
+      },
+      {
+        "text": "way,",
+        "start": 12.2,
+        "end": 12.46,
+        "font_size": 18,
+        "font_weight": 400,
+        "prominence": 0.4163,
+        "is_content": true,
+        "pos": "NOUN"
+      },
+      {
+        "text": "complexity",
+        "start": 12.68,
+        "end": 13.2,
+        "font_size": 18,
+        "font_weight": 400,
+        "prominence": 0.5816,
+        "is_content": true,
+        "pos": "NOUN"
+      },
+      {
+        "text": "builds",
+        "start": 13.2,
+        "end": 13.82,
+        "font_size": 18,
+        "font_weight": 400,
+        "prominence": 0.4915,
+        "is_content": true,
+        "pos": "NOUN"
+      },
+      {
+        "text": "stage",
+        "start": 13.82,
+        "end": 14.46,
+        "font_size": 18,
+        "font_weight": 400,
+        "prominence": 0.461,
+        "is_content": true,
+        "pos": "NOUN"
+      },
+      {
+        "text": "by",
+        "start": 14.46,
+        "end": 14.74,
+        "font_size": 18,
+        "font_weight": 400,
+        "prominence": 0.5074,
+        "is_content": false,
+        "pos": "ADP"
+      },
+      {
+        "text": "stage.",
+        "start": 14.74,
+        "end": 15.28,
+        "font_size": 18,
+        "font_weight": 400,
+        "prominence": 0.4686,
+        "is_content": true,
+        "pos": "NOUN"
+      },
+      {
+        "text": "Each",
+        "start": 16.48,
+        "end": 16.98,
+        "font_size": 18,
+        "font_weight": 400,
+        "prominence": 0.5133,
+        "is_content": false,
+        "pos": "DET"
+      },
+      {
+        "text": "stage",
+        "start": 16.98,
+        "end": 17.54,
+        "font_size": 18,
+        "font_weight": 400,
+        "prominence": 0.4656,
+        "is_content": true,
+        "pos": "NOUN"
+      },
+      {
+        "text": "is",
+        "start": 17.54,
+        "end": 18.0,
+        "font_size": 18,
+        "font_weight": 400,
+        "prominence": 0.4781,
+        "is_content": false,
+        "pos": "AUX"
+      },
+      {
+        "text": "magical",
+        "start": 18.0,
+        "end": 18.58,
+        "font_size": 18,
+        "font_weight": 400,
+        "prominence": 0.5255,
+        "is_content": true,
+        "pos": "ADJ"
+      },
+      {
+        "text": "because",
+        "start": 18.58,
+        "end": 19.02,
+        "font_size": 18,
+        "font_weight": 400,
+        "prominence": 0.4732,
+        "is_content": false,
+        "pos": "SCONJ"
+      },
+      {
+        "text": "it",
+        "start": 19.02,
+        "end": 19.28,
+        "font_size": 18,
+        "font_weight": 400,
+        "prominence": 0.4378,
+        "is_content": false,
+        "pos": "PRON"
+      },
+      {
+        "text": "creates",
+        "start": 19.28,
+        "end": 19.66,
+        "font_size": 18,
+        "font_weight": 400,
+        "prominence": 0.5426,
+        "is_content": true,
+        "pos": "VERB"
+      },
+      {
+        "text": "the",
+        "start": 19.72,
+        "end": 19.96,
+        "font_size": 18,
+        "font_weight": 400,
+        "prominence": 0.376,
+        "is_content": false,
+        "pos": "DET"
+      },
+      {
+        "text": "impression",
+        "start": 19.96,
+        "end": 20.34,
+        "font_size": 18,
+        "font_weight": 400,
+        "prominence": 0.5556,
+        "is_content": true,
+        "pos": "NOUN"
+      },
+      {
+        "text": "of",
+        "start": 20.34,
+        "end": 20.58,
+        "font_size": 18,
+        "font_weight": 400,
+        "prominence": 0.4026,
+        "is_content": false,
+        "pos": "ADP"
+      },
+      {
+        "text": "something",
+        "start": 20.58,
+        "end": 21.04,
+        "font_size": 18,
+        "font_weight": 400,
+        "prominence": 0.47,
+        "is_content": false,
+        "pos": "PRON"
+      },
+      {
+        "text": "utterly",
+        "start": 21.04,
+        "end": 21.68,
+        "font_size": 18,
+        "font_weight": 400,
+        "prominence": 0.5526,
+        "is_content": true,
+        "pos": "ADV"
+      },
+      {
+        "text": "new,",
+        "start": 21.68,
+        "end": 22.26,
+        "font_size": 18,
+        "font_weight": 400,
+        "prominence": 0.4507,
+        "is_content": true,
+        "pos": "ADJ"
+      },
+      {
+        "text": "appearing",
+        "start": 22.46,
+        "end": 22.96,
+        "font_size": 18,
+        "font_weight": 400,
+        "prominence": 0.4668,
+        "is_content": true,
+        "pos": "VERB"
+      },
+      {
+        "text": "almost",
+        "start": 22.96,
+        "end": 23.6,
+        "font_size": 18,
+        "font_weight": 400,
+        "prominence": 0.5377,
+        "is_content": true,
+        "pos": "ADV"
+      },
+      {
+        "text": "out",
+        "start": 23.6,
+        "end": 23.8,
+        "font_size": 18,
+        "font_weight": 400,
+        "prominence": 0.4587,
+        "is_content": false,
+        "pos": "ADP"
+      },
+      {
+        "text": "of",
+        "start": 23.8,
+        "end": 23.96,
+        "font_size": 18,
+        "font_weight": 400,
+        "prominence": 0.4227,
+        "is_content": false,
+        "pos": "ADP"
+      },
+      {
+        "text": "nowhere",
+        "start": 23.96,
+        "end": 24.24,
+        "font_size": 18,
+        "font_weight": 400,
+        "prominence": 0.5888,
+        "is_content": true,
+        "pos": "ADV"
+      },
+      {
+        "text": "in",
+        "start": 24.24,
+        "end": 24.44,
+        "font_size": 18,
+        "font_weight": 400,
+        "prominence": 0.4579,
+        "is_content": false,
+        "pos": "ADP"
+      },
+      {
+        "text": "the",
+        "start": 24.44,
+        "end": 24.62,
+        "font_size": 18,
+        "font_weight": 400,
+        "prominence": 0.3956,
+        "is_content": false,
+        "pos": "DET"
+      },
+      {
+        "text": "universe.",
+        "start": 24.62,
+        "end": 24.92,
+        "font_size": 18,
+        "font_weight": 400,
+        "prominence": 0.5136,
+        "is_content": true,
+        "pos": "NOUN"
+      },
+      {
+        "text": "We",
+        "start": 25.28,
+        "end": 25.42,
+        "font_size": 18,
+        "font_weight": 400,
+        "prominence": 0.3773,
+        "is_content": false,
+        "pos": "PRON"
+      },
+      {
+        "text": "refer",
+        "start": 25.42,
+        "end": 25.7,
+        "font_size": 18,
+        "font_weight": 400,
+        "prominence": 0.5382,
+        "is_content": true,
+        "pos": "VERB"
+      },
+      {
+        "text": "in",
+        "start": 25.7,
+        "end": 25.82,
+        "font_size": 18,
+        "font_weight": 400,
+        "prominence": 0.4268,
+        "is_content": false,
+        "pos": "ADP"
+      },
+      {
+        "text": "big",
+        "start": 25.82,
+        "end": 26.0,
+        "font_size": 18,
+        "font_weight": 400,
+        "prominence": 0.4384,
+        "is_content": true,
+        "pos": "ADJ"
+      },
+      {
+        "text": "history",
+        "start": 26.0,
+        "end": 26.28,
+        "font_size": 18,
+        "font_weight": 400,
+        "prominence": 0.4824,
+        "is_content": true,
+        "pos": "NOUN"
+      },
+      {
+        "text": "to",
+        "start": 26.28,
+        "end": 26.46,
+        "font_size": 18,
+        "font_weight": 400,
+        "prominence": 0.3956,
+        "is_content": false,
+        "pos": "ADP"
+      },
+      {
+        "text": "these",
+        "start": 26.46,
+        "end": 26.68,
+        "font_size": 18,
+        "font_weight": 400,
+        "prominence": 0.483,
+        "is_content": false,
+        "pos": "DET"
+      },
+      {
+        "text": "moments",
+        "start": 26.68,
+        "end": 26.94,
+        "font_size": 18,
+        "font_weight": 400,
+        "prominence": 0.4696,
+        "is_content": true,
+        "pos": "NOUN"
+      },
+      {
+        "text": "as",
+        "start": 26.94,
+        "end": 27.18,
+        "font_size": 18,
+        "font_weight": 400,
+        "prominence": 0.4304,
+        "is_content": false,
+        "pos": "ADP"
+      },
+      {
+        "text": "threshold",
+        "start": 27.18,
+        "end": 27.64,
+        "font_size": 18,
+        "font_weight": 400,
+        "prominence": 0.6136,
+        "is_content": true,
+        "pos": "NOUN"
+      },
+      {
+        "text": "moments.",
+        "start": 27.64,
+        "end": 28.24,
+        "font_size": 18,
+        "font_weight": 400,
+        "prominence": 0.4816,
+        "is_content": true,
+        "pos": "NOUN"
+      },
+      {
+        "text": "And",
+        "start": 29.48,
+        "end": 29.72,
+        "font_size": 18,
+        "font_weight": 400,
+        "prominence": 0.4161,
+        "is_content": false,
+        "pos": "CCONJ"
+      },
+      {
+        "text": "at",
+        "start": 29.72,
+        "end": 29.92,
+        "font_size": 18,
+        "font_weight": 400,
+        "prominence": 0.4466,
+        "is_content": false,
+        "pos": "ADP"
+      },
+      {
+        "text": "each",
+        "start": 29.92,
+        "end": 30.18,
+        "font_size": 18,
+        "font_weight": 400,
+        "prominence": 0.4364,
+        "is_content": false,
+        "pos": "DET"
+      },
+      {
+        "text": "threshold,",
+        "start": 30.18,
+        "end": 30.86,
+        "font_size": 18,
+        "font_weight": 400,
+        "prominence": 0.6644,
+        "is_content": true,
+        "pos": "NOUN"
+      },
+      {
+        "text": "the",
+        "start": 31.08,
+        "end": 31.28,
+        "font_size": 18,
+        "font_weight": 400,
+        "prominence": 0.4213,
+        "is_content": false,
+        "pos": "DET"
+      },
+      {
+        "text": "going",
+        "start": 31.28,
+        "end": 31.5,
+        "font_size": 18,
+        "font_weight": 400,
+        "prominence": 0.4225,
+        "is_content": true,
+        "pos": "NOUN"
+      },
+      {
+        "text": "gets",
+        "start": 31.5,
+        "end": 31.86,
+        "font_size": 18,
+        "font_weight": 400,
+        "prominence": 0.5169,
+        "is_content": true,
+        "pos": "VERB"
+      },
+      {
+        "text": "tougher.",
+        "start": 31.86,
+        "end": 32.28,
+        "font_size": 18,
+        "font_weight": 400,
+        "prominence": 0.4669,
+        "is_content": true,
+        "pos": "ADJ"
+      },
+      {
+        "text": "The",
+        "start": 32.78,
+        "end": 33.04,
+        "font_size": 18,
+        "font_weight": 400,
+        "prominence": 0.4198,
+        "is_content": false,
+        "pos": "DET"
+      },
+      {
+        "text": "complex",
+        "start": 33.04,
+        "end": 33.54,
+        "font_size": 18,
+        "font_weight": 400,
+        "prominence": 0.5564,
+        "is_content": true,
+        "pos": "ADJ"
+      },
+      {
+        "text": "things",
+        "start": 33.54,
+        "end": 33.9,
+        "font_size": 18,
+        "font_weight": 400,
+        "prominence": 0.4414,
+        "is_content": true,
+        "pos": "NOUN"
+      },
+      {
+        "text": "get",
+        "start": 33.9,
+        "end": 34.14,
+        "font_size": 18,
+        "font_weight": 400,
+        "prominence": 0.4694,
+        "is_content": true,
+        "pos": "VERB"
+      },
+      {
+        "text": "more",
+        "start": 34.14,
+        "end": 34.54,
+        "font_size": 18,
+        "font_weight": 400,
+        "prominence": 0.5126,
+        "is_content": true,
+        "pos": "ADV"
+      },
+      {
+        "text": "fragile,",
+        "start": 34.54,
+        "end": 35.32,
+        "font_size": 18,
+        "font_weight": 400,
+        "prominence": 0.6143,
+        "is_content": true,
+        "pos": "ADJ"
+      },
+      {
+        "text": "more",
+        "start": 36.06,
+        "end": 36.28,
+        "font_size": 18,
+        "font_weight": 400,
+        "prominence": 0.3889,
+        "is_content": true,
+        "pos": "ADV"
+      },
+      {
+        "text": "vulnerable.",
+        "start": 36.28,
+        "end": 37.0,
+        "font_size": 18,
+        "font_weight": 400,
+        "prominence": 0.5619,
+        "is_content": true,
+        "pos": "ADJ"
+      },
+      {
+        "text": "The",
+        "start": 37.58,
+        "end": 37.82,
+        "font_size": 18,
+        "font_weight": 400,
+        "prominence": 0.4281,
+        "is_content": false,
+        "pos": "DET"
+      },
+      {
+        "text": "goldilocks",
+        "start": 37.82,
+        "end": 38.38,
+        "font_size": 18,
+        "font_weight": 400,
+        "prominence": 0.5966,
+        "is_content": true,
+        "pos": "NOUN"
+      },
+      {
+        "text": "conditions",
+        "start": 38.38,
+        "end": 39.14,
+        "font_size": 18,
+        "font_weight": 400,
+        "prominence": 0.5396,
+        "is_content": true,
+        "pos": "NOUN"
+      },
+      {
+        "text": "get",
+        "start": 39.14,
+        "end": 39.54,
+        "font_size": 18,
+        "font_weight": 400,
+        "prominence": 0.4408,
+        "is_content": true,
+        "pos": "VERB"
+      },
+      {
+        "text": "more",
+        "start": 39.54,
+        "end": 39.94,
+        "font_size": 18,
+        "font_weight": 400,
+        "prominence": 0.468,
+        "is_content": true,
+        "pos": "ADV"
+      },
+      {
+        "text": "stringent.",
+        "start": 39.94,
+        "end": 40.62,
+        "font_size": 18,
+        "font_weight": 400,
+        "prominence": 0.5528,
+        "is_content": true,
+        "pos": "ADJ"
+      },
+      {
+        "text": "And",
+        "start": 41.12,
+        "end": 41.48,
+        "font_size": 18,
+        "font_weight": 400,
+        "prominence": 0.443,
+        "is_content": false,
+        "pos": "CCONJ"
+      },
+      {
+        "text": "it's",
+        "start": 41.48,
+        "end": 41.74,
+        "font_size": 18,
+        "font_weight": 400,
+        "prominence": 0.412,
+        "is_content": false,
+        "pos": "PRON"
+      },
+      {
+        "text": "more",
+        "start": 41.74,
+        "end": 42.08,
+        "font_size": 18,
+        "font_weight": 400,
+        "prominence": 0.4508,
+        "is_content": true,
+        "pos": "ADV"
+      },
+      {
+        "text": "difficult",
+        "start": 42.08,
+        "end": 42.56,
+        "font_size": 18,
+        "font_weight": 400,
+        "prominence": 0.4786,
+        "is_content": true,
+        "pos": "ADJ"
+      },
+      {
+        "text": "to",
+        "start": 42.56,
+        "end": 42.92,
+        "font_size": 18,
+        "font_weight": 400,
+        "prominence": 0.4752,
+        "is_content": false,
+        "pos": "PART"
+      },
+      {
+        "text": "create",
+        "start": 42.92,
+        "end": 43.16,
+        "font_size": 18,
+        "font_weight": 400,
+        "prominence": 0.3758,
+        "is_content": true,
+        "pos": "VERB"
+      },
+      {
+        "text": "complexity.",
+        "start": 43.16,
+        "end": 43.96,
+        "font_size": 18,
+        "font_weight": 400,
+        "prominence": 0.6709,
+        "is_content": true,
+        "pos": "NOUN"
+      },
+      {
+        "text": "Now,",
+        "start": 45.06,
+        "end": 45.48,
+        "font_size": 18,
+        "font_weight": 400,
+        "prominence": 0.4202,
+        "is_content": true,
+        "pos": "ADV"
+      },
+      {
+        "text": "we",
+        "start": 45.82,
+        "end": 46.26,
+        "font_size": 18,
+        "font_weight": 400,
+        "prominence": 0.4633,
+        "is_content": false,
+        "pos": "PRON"
+      },
+      {
+        "text": "as",
+        "start": 46.26,
+        "end": 46.72,
+        "font_size": 18,
+        "font_weight": 400,
+        "prominence": 0.4982,
+        "is_content": false,
+        "pos": "ADP"
+      },
+      {
+        "text": "extremely",
+        "start": 46.72,
+        "end": 47.14,
+        "font_size": 18,
+        "font_weight": 400,
+        "prominence": 0.4465,
+        "is_content": true,
+        "pos": "ADV"
+      },
+      {
+        "text": "complex",
+        "start": 47.14,
+        "end": 47.68,
+        "font_size": 18,
+        "font_weight": 400,
+        "prominence": 0.4873,
+        "is_content": true,
+        "pos": "ADJ"
+      },
+      {
+        "text": "creatures",
+        "start": 47.68,
+        "end": 48.26,
+        "font_size": 18,
+        "font_weight": 400,
+        "prominence": 0.5334,
+        "is_content": true,
+        "pos": "NOUN"
+      },
+      {
+        "text": "desperately",
+        "start": 48.84,
+        "end": 49.18,
+        "font_size": 18,
+        "font_weight": 400,
+        "prominence": 0.4073,
+        "is_content": true,
+        "pos": "ADV"
+      },
+      {
+        "text": "need",
+        "start": 49.18,
+        "end": 49.46,
+        "font_size": 18,
+        "font_weight": 400,
+        "prominence": 0.3999,
+        "is_content": true,
+        "pos": "VERB"
+      },
+      {
+        "text": "to",
+        "start": 49.46,
+        "end": 49.66,
+        "font_size": 18,
+        "font_weight": 400,
+        "prominence": 0.4429,
+        "is_content": false,
+        "pos": "PART"
+      },
+      {
+        "text": "know",
+        "start": 49.66,
+        "end": 49.84,
+        "font_size": 18,
+        "font_weight": 400,
+        "prominence": 0.4733,
+        "is_content": true,
+        "pos": "VERB"
+      },
+      {
+        "text": "this",
+        "start": 49.84,
+        "end": 50.16,
+        "font_size": 18,
+        "font_weight": 400,
+        "prominence": 0.4736,
+        "is_content": false,
+        "pos": "DET"
+      },
+      {
+        "text": "story",
+        "start": 50.16,
+        "end": 50.5,
+        "font_size": 18,
+        "font_weight": 400,
+        "prominence": 0.453,
+        "is_content": true,
+        "pos": "NOUN"
+      },
+      {
+        "text": "of",
+        "start": 50.5,
+        "end": 50.86,
+        "font_size": 18,
+        "font_weight": 400,
+        "prominence": 0.4868,
+        "is_content": false,
+        "pos": "ADP"
+      },
+      {
+        "text": "how",
+        "start": 50.86,
+        "end": 51.28,
+        "font_size": 18,
+        "font_weight": 400,
+        "prominence": 0.5389,
+        "is_content": false,
+        "pos": "SCONJ"
+      },
+      {
+        "text": "the",
+        "start": 51.32,
+        "end": 51.54,
+        "font_size": 18,
+        "font_weight": 400,
+        "prominence": 0.3814,
+        "is_content": false,
+        "pos": "DET"
+      },
+      {
+        "text": "universe",
+        "start": 51.54,
+        "end": 51.96,
+        "font_size": 18,
+        "font_weight": 400,
+        "prominence": 0.5878,
+        "is_content": true,
+        "pos": "NOUN"
+      },
+      {
+        "text": "creates",
+        "start": 51.96,
+        "end": 52.34,
+        "font_size": 18,
+        "font_weight": 400,
+        "prominence": 0.4774,
+        "is_content": true,
+        "pos": "VERB"
+      },
+      {
+        "text": "complexity",
+        "start": 52.34,
+        "end": 53.34,
+        "font_size": 18,
+        "font_weight": 400,
+        "prominence": 0.5846,
+        "is_content": true,
+        "pos": "NOUN"
+      },
+      {
+        "text": "despite",
+        "start": 53.34,
+        "end": 54.0,
+        "font_size": 18,
+        "font_weight": 400,
+        "prominence": 0.5168,
+        "is_content": false,
+        "pos": "SCONJ"
+      },
+      {
+        "text": "the",
+        "start": 54.0,
+        "end": 54.32,
+        "font_size": 18,
+        "font_weight": 400,
+        "prominence": 0.4521,
+        "is_content": false,
+        "pos": "DET"
+      },
+      {
+        "text": "second",
+        "start": 54.32,
+        "end": 54.58,
+        "font_size": 18,
+        "font_weight": 400,
+        "prominence": 0.443,
+        "is_content": true,
+        "pos": "ADJ"
+      },
+      {
+        "text": "law,",
+        "start": 54.58,
+        "end": 54.95,
+        "font_size": 18,
+        "font_weight": 400,
+        "prominence": 0.4393,
+        "is_content": true,
+        "pos": "NOUN"
+      },
+      {
+        "text": "and",
+        "start": 54.95,
+        "end": 55.8,
+        "font_size": 18,
+        "font_weight": 400,
+        "prominence": 0.533,
+        "is_content": false,
+        "pos": "CCONJ"
+      },
+      {
+        "text": "why",
+        "start": 55.8,
+        "end": 56.2,
+        "font_size": 18,
+        "font_weight": 400,
+        "prominence": 0.4934,
+        "is_content": false,
+        "pos": "SCONJ"
+      },
+      {
+        "text": "complexity",
+        "start": 56.2,
+        "end": 57.2,
+        "font_size": 18,
+        "font_weight": 400,
+        "prominence": 0.5524,
+        "is_content": true,
+        "pos": "NOUN"
+      },
+      {
+        "text": "means",
+        "start": 57.2,
+        "end": 57.76,
+        "font_size": 18,
+        "font_weight": 400,
+        "prominence": 0.5083,
+        "is_content": true,
+        "pos": "VERB"
+      },
+      {
+        "text": "vulnerability",
+        "start": 57.76,
+        "end": 58.7,
+        "font_size": 18,
+        "font_weight": 400,
+        "prominence": 0.6114,
+        "is_content": true,
+        "pos": "NOUN"
+      },
+      {
+        "text": "and",
+        "start": 58.7,
+        "end": 59.36,
+        "font_size": 18,
+        "font_weight": 400,
+        "prominence": 0.4908,
+        "is_content": false,
+        "pos": "CCONJ"
+      },
+      {
+        "text": "fragility.",
+        "start": 59.36,
+        "end": 59.96,
+        "font_size": 18,
+        "font_weight": 400,
+        "prominence": 0.4762,
+        "is_content": true,
+        "pos": "NOUN"
+      }
+    ],
+    "syntactic": [
+      {
+        "text": "too",
+        "start": 0.12,
+        "end": 0.32,
+        "font_size": 18,
+        "font_weight": 400,
+        "prominence": 0.4341,
+        "is_content": true,
+        "pos": "ADV"
+      },
+      {
+        "text": "hot,",
+        "start": 0.32,
+        "end": 0.64,
+        "font_size": 18,
+        "font_weight": 400,
+        "prominence": 0.4648,
+        "is_content": true,
+        "pos": "ADJ"
+      },
+      {
+        "text": "not",
+        "start": 0.98,
+        "end": 1.16,
+        "font_size": 12,
+        "font_weight": 400,
+        "prominence": 0.4543,
+        "is_content": false,
+        "pos": "PART"
+      },
+      {
+        "text": "too",
+        "start": 1.16,
+        "end": 1.42,
+        "font_size": 18,
+        "font_weight": 400,
+        "prominence": 0.4631,
+        "is_content": true,
+        "pos": "ADV"
+      },
+      {
+        "text": "cold,",
+        "start": 1.42,
+        "end": 1.7,
+        "font_size": 18,
+        "font_weight": 400,
+        "prominence": 0.4423,
+        "is_content": true,
+        "pos": "ADJ"
+      },
+      {
+        "text": "just",
+        "start": 2.06,
+        "end": 2.52,
+        "font_size": 18,
+        "font_weight": 400,
+        "prominence": 0.6162,
+        "is_content": true,
+        "pos": "ADV"
+      },
+      {
+        "text": "right",
+        "start": 2.52,
+        "end": 2.84,
+        "font_size": 18,
+        "font_weight": 400,
+        "prominence": 0.464,
+        "is_content": true,
+        "pos": "ADV"
+      },
+      {
+        "text": "for",
+        "start": 2.84,
+        "end": 3.04,
+        "font_size": 12,
+        "font_weight": 400,
+        "prominence": 0.4355,
+        "is_content": false,
+        "pos": "ADP"
+      },
+      {
+        "text": "the",
+        "start": 3.04,
+        "end": 3.2,
+        "font_size": 12,
+        "font_weight": 400,
+        "prominence": 0.4282,
+        "is_content": false,
+        "pos": "DET"
+      },
+      {
+        "text": "creation",
+        "start": 3.2,
+        "end": 3.48,
+        "font_size": 18,
+        "font_weight": 400,
+        "prominence": 0.5082,
+        "is_content": true,
+        "pos": "NOUN"
+      },
+      {
+        "text": "of",
+        "start": 3.48,
+        "end": 3.72,
+        "font_size": 12,
+        "font_weight": 400,
+        "prominence": 0.4455,
+        "is_content": false,
+        "pos": "ADP"
+      },
+      {
+        "text": "complexity.",
+        "start": 3.72,
+        "end": 4.22,
+        "font_size": 18,
+        "font_weight": 400,
+        "prominence": 0.6087,
+        "is_content": true,
+        "pos": "NOUN"
+      },
+      {
+        "text": "And",
+        "start": 4.6,
+        "end": 4.92,
+        "font_size": 12,
+        "font_weight": 400,
+        "prominence": 0.4795,
+        "is_content": false,
+        "pos": "CCONJ"
+      },
+      {
+        "text": "slightly",
+        "start": 4.92,
+        "end": 5.24,
+        "font_size": 18,
+        "font_weight": 400,
+        "prominence": 0.4712,
+        "is_content": true,
+        "pos": "ADV"
+      },
+      {
+        "text": "more",
+        "start": 5.24,
+        "end": 5.6,
+        "font_size": 18,
+        "font_weight": 400,
+        "prominence": 0.4293,
+        "is_content": true,
+        "pos": "ADV"
+      },
+      {
+        "text": "complex",
+        "start": 5.6,
+        "end": 5.92,
+        "font_size": 18,
+        "font_weight": 400,
+        "prominence": 0.4838,
+        "is_content": true,
+        "pos": "ADJ"
+      },
+      {
+        "text": "things",
+        "start": 5.92,
+        "end": 6.18,
+        "font_size": 18,
+        "font_weight": 400,
+        "prominence": 0.4341,
+        "is_content": true,
+        "pos": "NOUN"
+      },
+      {
+        "text": "appear.",
+        "start": 6.18,
+        "end": 6.62,
+        "font_size": 18,
+        "font_weight": 400,
+        "prominence": 0.4826,
+        "is_content": true,
+        "pos": "VERB"
+      },
+      {
+        "text": "And",
+        "start": 6.98,
+        "end": 7.18,
+        "font_size": 12,
+        "font_weight": 400,
+        "prominence": 0.4507,
+        "is_content": false,
+        "pos": "CCONJ"
+      },
+      {
+        "text": "where",
+        "start": 7.18,
+        "end": 7.3,
+        "font_size": 12,
+        "font_weight": 400,
+        "prominence": 0.4259,
+        "is_content": false,
+        "pos": "SCONJ"
+      },
+      {
+        "text": "you",
+        "start": 7.3,
+        "end": 7.44,
+        "font_size": 12,
+        "font_weight": 400,
+        "prominence": 0.4182,
+        "is_content": false,
+        "pos": "PRON"
+      },
+      {
+        "text": "have",
+        "start": 7.44,
+        "end": 7.58,
+        "font_size": 18,
+        "font_weight": 400,
+        "prominence": 0.4656,
+        "is_content": true,
+        "pos": "VERB"
+      },
+      {
+        "text": "slightly",
+        "start": 7.58,
+        "end": 7.86,
+        "font_size": 18,
+        "font_weight": 400,
+        "prominence": 0.5164,
+        "is_content": true,
+        "pos": "ADV"
+      },
+      {
+        "text": "more",
+        "start": 7.86,
+        "end": 8.16,
+        "font_size": 18,
+        "font_weight": 400,
+        "prominence": 0.4386,
+        "is_content": true,
+        "pos": "ADV"
+      },
+      {
+        "text": "complex",
+        "start": 8.16,
+        "end": 8.44,
+        "font_size": 18,
+        "font_weight": 400,
+        "prominence": 0.4646,
+        "is_content": true,
+        "pos": "ADJ"
+      },
+      {
+        "text": "things,",
+        "start": 8.44,
+        "end": 8.8,
+        "font_size": 18,
+        "font_weight": 400,
+        "prominence": 0.4721,
+        "is_content": true,
+        "pos": "NOUN"
+      },
+      {
+        "text": "you",
+        "start": 9.1,
+        "end": 9.28,
+        "font_size": 12,
+        "font_weight": 400,
+        "prominence": 0.3798,
+        "is_content": false,
+        "pos": "PRON"
+      },
+      {
+        "text": "can",
+        "start": 9.28,
+        "end": 9.52,
+        "font_size": 12,
+        "font_weight": 400,
+        "prominence": 0.4363,
+        "is_content": false,
+        "pos": "AUX"
+      },
+      {
+        "text": "get",
+        "start": 9.52,
+        "end": 9.92,
+        "font_size": 18,
+        "font_weight": 400,
+        "prominence": 0.4938,
+        "is_content": true,
+        "pos": "VERB"
+      },
+      {
+        "text": "slightly",
+        "start": 9.92,
+        "end": 10.28,
+        "font_size": 18,
+        "font_weight": 400,
+        "prominence": 0.476,
+        "is_content": true,
+        "pos": "ADV"
+      },
+      {
+        "text": "more",
+        "start": 10.28,
+        "end": 10.62,
+        "font_size": 18,
+        "font_weight": 400,
+        "prominence": 0.4681,
+        "is_content": true,
+        "pos": "ADV"
+      },
+      {
+        "text": "complex",
+        "start": 10.62,
+        "end": 11.04,
+        "font_size": 18,
+        "font_weight": 400,
+        "prominence": 0.4972,
+        "is_content": true,
+        "pos": "ADJ"
+      },
+      {
+        "text": "things.",
+        "start": 11.04,
+        "end": 11.21,
+        "font_size": 18,
+        "font_weight": 400,
+        "prominence": 0.4202,
+        "is_content": true,
+        "pos": "NOUN"
+      },
+      {
+        "text": "And",
+        "start": 11.21,
+        "end": 11.68,
+        "font_size": 12,
+        "font_weight": 400,
+        "prominence": 0.561,
+        "is_content": false,
+        "pos": "CCONJ"
+      },
+      {
+        "text": "in",
+        "start": 11.68,
+        "end": 11.9,
+        "font_size": 12,
+        "font_weight": 400,
+        "prominence": 0.3842,
+        "is_content": false,
+        "pos": "ADP"
+      },
+      {
+        "text": "this",
+        "start": 11.9,
+        "end": 12.2,
+        "font_size": 12,
+        "font_weight": 400,
+        "prominence": 0.5218,
+        "is_content": false,
+        "pos": "DET"
+      },
+      {
+        "text": "way,",
+        "start": 12.2,
+        "end": 12.46,
+        "font_size": 18,
+        "font_weight": 400,
+        "prominence": 0.4163,
+        "is_content": true,
+        "pos": "NOUN"
+      },
+      {
+        "text": "complexity",
+        "start": 12.68,
+        "end": 13.2,
+        "font_size": 18,
+        "font_weight": 400,
+        "prominence": 0.5816,
+        "is_content": true,
+        "pos": "NOUN"
+      },
+      {
+        "text": "builds",
+        "start": 13.2,
+        "end": 13.82,
+        "font_size": 18,
+        "font_weight": 400,
+        "prominence": 0.4915,
+        "is_content": true,
+        "pos": "NOUN"
+      },
+      {
+        "text": "stage",
+        "start": 13.82,
+        "end": 14.46,
+        "font_size": 18,
+        "font_weight": 400,
+        "prominence": 0.461,
+        "is_content": true,
+        "pos": "NOUN"
+      },
+      {
+        "text": "by",
+        "start": 14.46,
+        "end": 14.74,
+        "font_size": 12,
+        "font_weight": 400,
+        "prominence": 0.5074,
+        "is_content": false,
+        "pos": "ADP"
+      },
+      {
+        "text": "stage.",
+        "start": 14.74,
+        "end": 15.28,
+        "font_size": 18,
+        "font_weight": 400,
+        "prominence": 0.4686,
+        "is_content": true,
+        "pos": "NOUN"
+      },
+      {
+        "text": "Each",
+        "start": 16.48,
+        "end": 16.98,
+        "font_size": 12,
+        "font_weight": 400,
+        "prominence": 0.5133,
+        "is_content": false,
+        "pos": "DET"
+      },
+      {
+        "text": "stage",
+        "start": 16.98,
+        "end": 17.54,
+        "font_size": 18,
+        "font_weight": 400,
+        "prominence": 0.4656,
+        "is_content": true,
+        "pos": "NOUN"
+      },
+      {
+        "text": "is",
+        "start": 17.54,
+        "end": 18.0,
+        "font_size": 12,
+        "font_weight": 400,
+        "prominence": 0.4781,
+        "is_content": false,
+        "pos": "AUX"
+      },
+      {
+        "text": "magical",
+        "start": 18.0,
+        "end": 18.58,
+        "font_size": 18,
+        "font_weight": 400,
+        "prominence": 0.5255,
+        "is_content": true,
+        "pos": "ADJ"
+      },
+      {
+        "text": "because",
+        "start": 18.58,
+        "end": 19.02,
+        "font_size": 12,
+        "font_weight": 400,
+        "prominence": 0.4732,
+        "is_content": false,
+        "pos": "SCONJ"
+      },
+      {
+        "text": "it",
+        "start": 19.02,
+        "end": 19.28,
+        "font_size": 12,
+        "font_weight": 400,
+        "prominence": 0.4378,
+        "is_content": false,
+        "pos": "PRON"
+      },
+      {
+        "text": "creates",
+        "start": 19.28,
+        "end": 19.66,
+        "font_size": 18,
+        "font_weight": 400,
+        "prominence": 0.5426,
+        "is_content": true,
+        "pos": "VERB"
+      },
+      {
+        "text": "the",
+        "start": 19.72,
+        "end": 19.96,
+        "font_size": 12,
+        "font_weight": 400,
+        "prominence": 0.376,
+        "is_content": false,
+        "pos": "DET"
+      },
+      {
+        "text": "impression",
+        "start": 19.96,
+        "end": 20.34,
+        "font_size": 18,
+        "font_weight": 400,
+        "prominence": 0.5556,
+        "is_content": true,
+        "pos": "NOUN"
+      },
+      {
+        "text": "of",
+        "start": 20.34,
+        "end": 20.58,
+        "font_size": 12,
+        "font_weight": 400,
+        "prominence": 0.4026,
+        "is_content": false,
+        "pos": "ADP"
+      },
+      {
+        "text": "something",
+        "start": 20.58,
+        "end": 21.04,
+        "font_size": 12,
+        "font_weight": 400,
+        "prominence": 0.47,
+        "is_content": false,
+        "pos": "PRON"
+      },
+      {
+        "text": "utterly",
+        "start": 21.04,
+        "end": 21.68,
+        "font_size": 18,
+        "font_weight": 400,
+        "prominence": 0.5526,
+        "is_content": true,
+        "pos": "ADV"
+      },
+      {
+        "text": "new,",
+        "start": 21.68,
+        "end": 22.26,
+        "font_size": 18,
+        "font_weight": 400,
+        "prominence": 0.4507,
+        "is_content": true,
+        "pos": "ADJ"
+      },
+      {
+        "text": "appearing",
+        "start": 22.46,
+        "end": 22.96,
+        "font_size": 18,
+        "font_weight": 400,
+        "prominence": 0.4668,
+        "is_content": true,
+        "pos": "VERB"
+      },
+      {
+        "text": "almost",
+        "start": 22.96,
+        "end": 23.6,
+        "font_size": 18,
+        "font_weight": 400,
+        "prominence": 0.5377,
+        "is_content": true,
+        "pos": "ADV"
+      },
+      {
+        "text": "out",
+        "start": 23.6,
+        "end": 23.8,
+        "font_size": 12,
+        "font_weight": 400,
+        "prominence": 0.4587,
+        "is_content": false,
+        "pos": "ADP"
+      },
+      {
+        "text": "of",
+        "start": 23.8,
+        "end": 23.96,
+        "font_size": 12,
+        "font_weight": 400,
+        "prominence": 0.4227,
+        "is_content": false,
+        "pos": "ADP"
+      },
+      {
+        "text": "nowhere",
+        "start": 23.96,
+        "end": 24.24,
+        "font_size": 18,
+        "font_weight": 400,
+        "prominence": 0.5888,
+        "is_content": true,
+        "pos": "ADV"
+      },
+      {
+        "text": "in",
+        "start": 24.24,
+        "end": 24.44,
+        "font_size": 12,
+        "font_weight": 400,
+        "prominence": 0.4579,
+        "is_content": false,
+        "pos": "ADP"
+      },
+      {
+        "text": "the",
+        "start": 24.44,
+        "end": 24.62,
+        "font_size": 12,
+        "font_weight": 400,
+        "prominence": 0.3956,
+        "is_content": false,
+        "pos": "DET"
+      },
+      {
+        "text": "universe.",
+        "start": 24.62,
+        "end": 24.92,
+        "font_size": 18,
+        "font_weight": 400,
+        "prominence": 0.5136,
+        "is_content": true,
+        "pos": "NOUN"
+      },
+      {
+        "text": "We",
+        "start": 25.28,
+        "end": 25.42,
+        "font_size": 12,
+        "font_weight": 400,
+        "prominence": 0.3773,
+        "is_content": false,
+        "pos": "PRON"
+      },
+      {
+        "text": "refer",
+        "start": 25.42,
+        "end": 25.7,
+        "font_size": 18,
+        "font_weight": 400,
+        "prominence": 0.5382,
+        "is_content": true,
+        "pos": "VERB"
+      },
+      {
+        "text": "in",
+        "start": 25.7,
+        "end": 25.82,
+        "font_size": 12,
+        "font_weight": 400,
+        "prominence": 0.4268,
+        "is_content": false,
+        "pos": "ADP"
+      },
+      {
+        "text": "big",
+        "start": 25.82,
+        "end": 26.0,
+        "font_size": 18,
+        "font_weight": 400,
+        "prominence": 0.4384,
+        "is_content": true,
+        "pos": "ADJ"
+      },
+      {
+        "text": "history",
+        "start": 26.0,
+        "end": 26.28,
+        "font_size": 18,
+        "font_weight": 400,
+        "prominence": 0.4824,
+        "is_content": true,
+        "pos": "NOUN"
+      },
+      {
+        "text": "to",
+        "start": 26.28,
+        "end": 26.46,
+        "font_size": 12,
+        "font_weight": 400,
+        "prominence": 0.3956,
+        "is_content": false,
+        "pos": "ADP"
+      },
+      {
+        "text": "these",
+        "start": 26.46,
+        "end": 26.68,
+        "font_size": 12,
+        "font_weight": 400,
+        "prominence": 0.483,
+        "is_content": false,
+        "pos": "DET"
+      },
+      {
+        "text": "moments",
+        "start": 26.68,
+        "end": 26.94,
+        "font_size": 18,
+        "font_weight": 400,
+        "prominence": 0.4696,
+        "is_content": true,
+        "pos": "NOUN"
+      },
+      {
+        "text": "as",
+        "start": 26.94,
+        "end": 27.18,
+        "font_size": 12,
+        "font_weight": 400,
+        "prominence": 0.4304,
+        "is_content": false,
+        "pos": "ADP"
+      },
+      {
+        "text": "threshold",
+        "start": 27.18,
+        "end": 27.64,
+        "font_size": 18,
+        "font_weight": 400,
+        "prominence": 0.6136,
+        "is_content": true,
+        "pos": "NOUN"
+      },
+      {
+        "text": "moments.",
+        "start": 27.64,
+        "end": 28.24,
+        "font_size": 18,
+        "font_weight": 400,
+        "prominence": 0.4816,
+        "is_content": true,
+        "pos": "NOUN"
+      },
+      {
+        "text": "And",
+        "start": 29.48,
+        "end": 29.72,
+        "font_size": 12,
+        "font_weight": 400,
+        "prominence": 0.4161,
+        "is_content": false,
+        "pos": "CCONJ"
+      },
+      {
+        "text": "at",
+        "start": 29.72,
+        "end": 29.92,
+        "font_size": 12,
+        "font_weight": 400,
+        "prominence": 0.4466,
+        "is_content": false,
+        "pos": "ADP"
+      },
+      {
+        "text": "each",
+        "start": 29.92,
+        "end": 30.18,
+        "font_size": 12,
+        "font_weight": 400,
+        "prominence": 0.4364,
+        "is_content": false,
+        "pos": "DET"
+      },
+      {
+        "text": "threshold,",
+        "start": 30.18,
+        "end": 30.86,
+        "font_size": 18,
+        "font_weight": 400,
+        "prominence": 0.6644,
+        "is_content": true,
+        "pos": "NOUN"
+      },
+      {
+        "text": "the",
+        "start": 31.08,
+        "end": 31.28,
+        "font_size": 12,
+        "font_weight": 400,
+        "prominence": 0.4213,
+        "is_content": false,
+        "pos": "DET"
+      },
+      {
+        "text": "going",
+        "start": 31.28,
+        "end": 31.5,
+        "font_size": 18,
+        "font_weight": 400,
+        "prominence": 0.4225,
+        "is_content": true,
+        "pos": "NOUN"
+      },
+      {
+        "text": "gets",
+        "start": 31.5,
+        "end": 31.86,
+        "font_size": 18,
+        "font_weight": 400,
+        "prominence": 0.5169,
+        "is_content": true,
+        "pos": "VERB"
+      },
+      {
+        "text": "tougher.",
+        "start": 31.86,
+        "end": 32.28,
+        "font_size": 18,
+        "font_weight": 400,
+        "prominence": 0.4669,
+        "is_content": true,
+        "pos": "ADJ"
+      },
+      {
+        "text": "The",
+        "start": 32.78,
+        "end": 33.04,
+        "font_size": 12,
+        "font_weight": 400,
+        "prominence": 0.4198,
+        "is_content": false,
+        "pos": "DET"
+      },
+      {
+        "text": "complex",
+        "start": 33.04,
+        "end": 33.54,
+        "font_size": 18,
+        "font_weight": 400,
+        "prominence": 0.5564,
+        "is_content": true,
+        "pos": "ADJ"
+      },
+      {
+        "text": "things",
+        "start": 33.54,
+        "end": 33.9,
+        "font_size": 18,
+        "font_weight": 400,
+        "prominence": 0.4414,
+        "is_content": true,
+        "pos": "NOUN"
+      },
+      {
+        "text": "get",
+        "start": 33.9,
+        "end": 34.14,
+        "font_size": 18,
+        "font_weight": 400,
+        "prominence": 0.4694,
+        "is_content": true,
+        "pos": "VERB"
+      },
+      {
+        "text": "more",
+        "start": 34.14,
+        "end": 34.54,
+        "font_size": 18,
+        "font_weight": 400,
+        "prominence": 0.5126,
+        "is_content": true,
+        "pos": "ADV"
+      },
+      {
+        "text": "fragile,",
+        "start": 34.54,
+        "end": 35.32,
+        "font_size": 18,
+        "font_weight": 400,
+        "prominence": 0.6143,
+        "is_content": true,
+        "pos": "ADJ"
+      },
+      {
+        "text": "more",
+        "start": 36.06,
+        "end": 36.28,
+        "font_size": 18,
+        "font_weight": 400,
+        "prominence": 0.3889,
+        "is_content": true,
+        "pos": "ADV"
+      },
+      {
+        "text": "vulnerable.",
+        "start": 36.28,
+        "end": 37.0,
+        "font_size": 18,
+        "font_weight": 400,
+        "prominence": 0.5619,
+        "is_content": true,
+        "pos": "ADJ"
+      },
+      {
+        "text": "The",
+        "start": 37.58,
+        "end": 37.82,
+        "font_size": 12,
+        "font_weight": 400,
+        "prominence": 0.4281,
+        "is_content": false,
+        "pos": "DET"
+      },
+      {
+        "text": "goldilocks",
+        "start": 37.82,
+        "end": 38.38,
+        "font_size": 18,
+        "font_weight": 400,
+        "prominence": 0.5966,
+        "is_content": true,
+        "pos": "NOUN"
+      },
+      {
+        "text": "conditions",
+        "start": 38.38,
+        "end": 39.14,
+        "font_size": 18,
+        "font_weight": 400,
+        "prominence": 0.5396,
+        "is_content": true,
+        "pos": "NOUN"
+      },
+      {
+        "text": "get",
+        "start": 39.14,
+        "end": 39.54,
+        "font_size": 18,
+        "font_weight": 400,
+        "prominence": 0.4408,
+        "is_content": true,
+        "pos": "VERB"
+      },
+      {
+        "text": "more",
+        "start": 39.54,
+        "end": 39.94,
+        "font_size": 18,
+        "font_weight": 400,
+        "prominence": 0.468,
+        "is_content": true,
+        "pos": "ADV"
+      },
+      {
+        "text": "stringent.",
+        "start": 39.94,
+        "end": 40.62,
+        "font_size": 18,
+        "font_weight": 400,
+        "prominence": 0.5528,
+        "is_content": true,
+        "pos": "ADJ"
+      },
+      {
+        "text": "And",
+        "start": 41.12,
+        "end": 41.48,
+        "font_size": 12,
+        "font_weight": 400,
+        "prominence": 0.443,
+        "is_content": false,
+        "pos": "CCONJ"
+      },
+      {
+        "text": "it's",
+        "start": 41.48,
+        "end": 41.74,
+        "font_size": 12,
+        "font_weight": 400,
+        "prominence": 0.412,
+        "is_content": false,
+        "pos": "PRON"
+      },
+      {
+        "text": "more",
+        "start": 41.74,
+        "end": 42.08,
+        "font_size": 18,
+        "font_weight": 400,
+        "prominence": 0.4508,
+        "is_content": true,
+        "pos": "ADV"
+      },
+      {
+        "text": "difficult",
+        "start": 42.08,
+        "end": 42.56,
+        "font_size": 18,
+        "font_weight": 400,
+        "prominence": 0.4786,
+        "is_content": true,
+        "pos": "ADJ"
+      },
+      {
+        "text": "to",
+        "start": 42.56,
+        "end": 42.92,
+        "font_size": 12,
+        "font_weight": 400,
+        "prominence": 0.4752,
+        "is_content": false,
+        "pos": "PART"
+      },
+      {
+        "text": "create",
+        "start": 42.92,
+        "end": 43.16,
+        "font_size": 18,
+        "font_weight": 400,
+        "prominence": 0.3758,
+        "is_content": true,
+        "pos": "VERB"
+      },
+      {
+        "text": "complexity.",
+        "start": 43.16,
+        "end": 43.96,
+        "font_size": 18,
+        "font_weight": 400,
+        "prominence": 0.6709,
+        "is_content": true,
+        "pos": "NOUN"
+      },
+      {
+        "text": "Now,",
+        "start": 45.06,
+        "end": 45.48,
+        "font_size": 18,
+        "font_weight": 400,
+        "prominence": 0.4202,
+        "is_content": true,
+        "pos": "ADV"
+      },
+      {
+        "text": "we",
+        "start": 45.82,
+        "end": 46.26,
+        "font_size": 12,
+        "font_weight": 400,
+        "prominence": 0.4633,
+        "is_content": false,
+        "pos": "PRON"
+      },
+      {
+        "text": "as",
+        "start": 46.26,
+        "end": 46.72,
+        "font_size": 12,
+        "font_weight": 400,
+        "prominence": 0.4982,
+        "is_content": false,
+        "pos": "ADP"
+      },
+      {
+        "text": "extremely",
+        "start": 46.72,
+        "end": 47.14,
+        "font_size": 18,
+        "font_weight": 400,
+        "prominence": 0.4465,
+        "is_content": true,
+        "pos": "ADV"
+      },
+      {
+        "text": "complex",
+        "start": 47.14,
+        "end": 47.68,
+        "font_size": 18,
+        "font_weight": 400,
+        "prominence": 0.4873,
+        "is_content": true,
+        "pos": "ADJ"
+      },
+      {
+        "text": "creatures",
+        "start": 47.68,
+        "end": 48.26,
+        "font_size": 18,
+        "font_weight": 400,
+        "prominence": 0.5334,
+        "is_content": true,
+        "pos": "NOUN"
+      },
+      {
+        "text": "desperately",
+        "start": 48.84,
+        "end": 49.18,
+        "font_size": 18,
+        "font_weight": 400,
+        "prominence": 0.4073,
+        "is_content": true,
+        "pos": "ADV"
+      },
+      {
+        "text": "need",
+        "start": 49.18,
+        "end": 49.46,
+        "font_size": 18,
+        "font_weight": 400,
+        "prominence": 0.3999,
+        "is_content": true,
+        "pos": "VERB"
+      },
+      {
+        "text": "to",
+        "start": 49.46,
+        "end": 49.66,
+        "font_size": 12,
+        "font_weight": 400,
+        "prominence": 0.4429,
+        "is_content": false,
+        "pos": "PART"
+      },
+      {
+        "text": "know",
+        "start": 49.66,
+        "end": 49.84,
+        "font_size": 18,
+        "font_weight": 400,
+        "prominence": 0.4733,
+        "is_content": true,
+        "pos": "VERB"
+      },
+      {
+        "text": "this",
+        "start": 49.84,
+        "end": 50.16,
+        "font_size": 12,
+        "font_weight": 400,
+        "prominence": 0.4736,
+        "is_content": false,
+        "pos": "DET"
+      },
+      {
+        "text": "story",
+        "start": 50.16,
+        "end": 50.5,
+        "font_size": 18,
+        "font_weight": 400,
+        "prominence": 0.453,
+        "is_content": true,
+        "pos": "NOUN"
+      },
+      {
+        "text": "of",
+        "start": 50.5,
+        "end": 50.86,
+        "font_size": 12,
+        "font_weight": 400,
+        "prominence": 0.4868,
+        "is_content": false,
+        "pos": "ADP"
+      },
+      {
+        "text": "how",
+        "start": 50.86,
+        "end": 51.28,
+        "font_size": 12,
+        "font_weight": 400,
+        "prominence": 0.5389,
+        "is_content": false,
+        "pos": "SCONJ"
+      },
+      {
+        "text": "the",
+        "start": 51.32,
+        "end": 51.54,
+        "font_size": 12,
+        "font_weight": 400,
+        "prominence": 0.3814,
+        "is_content": false,
+        "pos": "DET"
+      },
+      {
+        "text": "universe",
+        "start": 51.54,
+        "end": 51.96,
+        "font_size": 18,
+        "font_weight": 400,
+        "prominence": 0.5878,
+        "is_content": true,
+        "pos": "NOUN"
+      },
+      {
+        "text": "creates",
+        "start": 51.96,
+        "end": 52.34,
+        "font_size": 18,
+        "font_weight": 400,
+        "prominence": 0.4774,
+        "is_content": true,
+        "pos": "VERB"
+      },
+      {
+        "text": "complexity",
+        "start": 52.34,
+        "end": 53.34,
+        "font_size": 18,
+        "font_weight": 400,
+        "prominence": 0.5846,
+        "is_content": true,
+        "pos": "NOUN"
+      },
+      {
+        "text": "despite",
+        "start": 53.34,
+        "end": 54.0,
+        "font_size": 12,
+        "font_weight": 400,
+        "prominence": 0.5168,
+        "is_content": false,
+        "pos": "SCONJ"
+      },
+      {
+        "text": "the",
+        "start": 54.0,
+        "end": 54.32,
+        "font_size": 12,
+        "font_weight": 400,
+        "prominence": 0.4521,
+        "is_content": false,
+        "pos": "DET"
+      },
+      {
+        "text": "second",
+        "start": 54.32,
+        "end": 54.58,
+        "font_size": 18,
+        "font_weight": 400,
+        "prominence": 0.443,
+        "is_content": true,
+        "pos": "ADJ"
+      },
+      {
+        "text": "law,",
+        "start": 54.58,
+        "end": 54.95,
+        "font_size": 18,
+        "font_weight": 400,
+        "prominence": 0.4393,
+        "is_content": true,
+        "pos": "NOUN"
+      },
+      {
+        "text": "and",
+        "start": 54.95,
+        "end": 55.8,
+        "font_size": 12,
+        "font_weight": 400,
+        "prominence": 0.533,
+        "is_content": false,
+        "pos": "CCONJ"
+      },
+      {
+        "text": "why",
+        "start": 55.8,
+        "end": 56.2,
+        "font_size": 12,
+        "font_weight": 400,
+        "prominence": 0.4934,
+        "is_content": false,
+        "pos": "SCONJ"
+      },
+      {
+        "text": "complexity",
+        "start": 56.2,
+        "end": 57.2,
+        "font_size": 18,
+        "font_weight": 400,
+        "prominence": 0.5524,
+        "is_content": true,
+        "pos": "NOUN"
+      },
+      {
+        "text": "means",
+        "start": 57.2,
+        "end": 57.76,
+        "font_size": 18,
+        "font_weight": 400,
+        "prominence": 0.5083,
+        "is_content": true,
+        "pos": "VERB"
+      },
+      {
+        "text": "vulnerability",
+        "start": 57.76,
+        "end": 58.7,
+        "font_size": 18,
+        "font_weight": 400,
+        "prominence": 0.6114,
+        "is_content": true,
+        "pos": "NOUN"
+      },
+      {
+        "text": "and",
+        "start": 58.7,
+        "end": 59.36,
+        "font_size": 12,
+        "font_weight": 400,
+        "prominence": 0.4908,
+        "is_content": false,
+        "pos": "CCONJ"
+      },
+      {
+        "text": "fragility.",
+        "start": 59.36,
+        "end": 59.96,
+        "font_size": 18,
+        "font_weight": 400,
+        "prominence": 0.4762,
+        "is_content": true,
+        "pos": "NOUN"
+      }
+    ],
+    "prosody": [
+      {
+        "text": "too",
+        "start": 0.12,
+        "end": 0.32,
+        "font_size": 12,
+        "font_weight": 300,
+        "prominence": 0.4341,
+        "is_content": true,
+        "pos": "ADV"
+      },
+      {
+        "text": "hot,",
+        "start": 0.32,
+        "end": 0.64,
+        "font_size": 15,
+        "font_weight": 400,
+        "prominence": 0.4648,
+        "is_content": true,
+        "pos": "ADJ"
+      },
+      {
+        "text": "not",
+        "start": 0.98,
+        "end": 1.16,
+        "font_size": 15,
+        "font_weight": 400,
+        "prominence": 0.4543,
+        "is_content": false,
+        "pos": "PART"
+      },
+      {
+        "text": "too",
+        "start": 1.16,
+        "end": 1.42,
+        "font_size": 15,
+        "font_weight": 400,
+        "prominence": 0.4631,
+        "is_content": true,
+        "pos": "ADV"
+      },
+      {
+        "text": "cold,",
+        "start": 1.42,
+        "end": 1.7,
+        "font_size": 12,
+        "font_weight": 300,
+        "prominence": 0.4423,
+        "is_content": true,
+        "pos": "ADJ"
+      },
+      {
+        "text": "just",
+        "start": 2.06,
+        "end": 2.52,
+        "font_size": 18,
+        "font_weight": 700,
+        "prominence": 0.6162,
+        "is_content": true,
+        "pos": "ADV"
+      },
+      {
+        "text": "right",
+        "start": 2.52,
+        "end": 2.84,
+        "font_size": 15,
+        "font_weight": 400,
+        "prominence": 0.464,
+        "is_content": true,
+        "pos": "ADV"
+      },
+      {
+        "text": "for",
+        "start": 2.84,
+        "end": 3.04,
+        "font_size": 12,
+        "font_weight": 300,
+        "prominence": 0.4355,
+        "is_content": false,
+        "pos": "ADP"
+      },
+      {
+        "text": "the",
+        "start": 3.04,
+        "end": 3.2,
+        "font_size": 12,
+        "font_weight": 300,
+        "prominence": 0.4282,
+        "is_content": false,
+        "pos": "DET"
+      },
+      {
+        "text": "creation",
+        "start": 3.2,
+        "end": 3.48,
+        "font_size": 15,
+        "font_weight": 400,
+        "prominence": 0.5082,
+        "is_content": true,
+        "pos": "NOUN"
+      },
+      {
+        "text": "of",
+        "start": 3.48,
+        "end": 3.72,
+        "font_size": 12,
+        "font_weight": 300,
+        "prominence": 0.4455,
+        "is_content": false,
+        "pos": "ADP"
+      },
+      {
+        "text": "complexity.",
+        "start": 3.72,
+        "end": 4.22,
+        "font_size": 18,
+        "font_weight": 700,
+        "prominence": 0.6087,
+        "is_content": true,
+        "pos": "NOUN"
+      },
+      {
+        "text": "And",
+        "start": 4.6,
+        "end": 4.92,
+        "font_size": 15,
+        "font_weight": 400,
+        "prominence": 0.4795,
+        "is_content": false,
+        "pos": "CCONJ"
+      },
+      {
+        "text": "slightly",
+        "start": 4.92,
+        "end": 5.24,
+        "font_size": 15,
+        "font_weight": 400,
+        "prominence": 0.4712,
+        "is_content": true,
+        "pos": "ADV"
+      },
+      {
+        "text": "more",
+        "start": 5.24,
+        "end": 5.6,
+        "font_size": 12,
+        "font_weight": 300,
+        "prominence": 0.4293,
+        "is_content": true,
+        "pos": "ADV"
+      },
+      {
+        "text": "complex",
+        "start": 5.6,
+        "end": 5.92,
+        "font_size": 15,
+        "font_weight": 400,
+        "prominence": 0.4838,
+        "is_content": true,
+        "pos": "ADJ"
+      },
+      {
+        "text": "things",
+        "start": 5.92,
+        "end": 6.18,
+        "font_size": 12,
+        "font_weight": 300,
+        "prominence": 0.4341,
+        "is_content": true,
+        "pos": "NOUN"
+      },
+      {
+        "text": "appear.",
+        "start": 6.18,
+        "end": 6.62,
+        "font_size": 15,
+        "font_weight": 400,
+        "prominence": 0.4826,
+        "is_content": true,
+        "pos": "VERB"
+      },
+      {
+        "text": "And",
+        "start": 6.98,
+        "end": 7.18,
+        "font_size": 12,
+        "font_weight": 300,
+        "prominence": 0.4507,
+        "is_content": false,
+        "pos": "CCONJ"
+      },
+      {
+        "text": "where",
+        "start": 7.18,
+        "end": 7.3,
+        "font_size": 12,
+        "font_weight": 300,
+        "prominence": 0.4259,
+        "is_content": false,
+        "pos": "SCONJ"
+      },
+      {
+        "text": "you",
+        "start": 7.3,
+        "end": 7.44,
+        "font_size": 12,
+        "font_weight": 300,
+        "prominence": 0.4182,
+        "is_content": false,
+        "pos": "PRON"
+      },
+      {
+        "text": "have",
+        "start": 7.44,
+        "end": 7.58,
+        "font_size": 15,
+        "font_weight": 400,
+        "prominence": 0.4656,
+        "is_content": true,
+        "pos": "VERB"
+      },
+      {
+        "text": "slightly",
+        "start": 7.58,
+        "end": 7.86,
+        "font_size": 15,
+        "font_weight": 400,
+        "prominence": 0.5164,
+        "is_content": true,
+        "pos": "ADV"
+      },
+      {
+        "text": "more",
+        "start": 7.86,
+        "end": 8.16,
+        "font_size": 12,
+        "font_weight": 300,
+        "prominence": 0.4386,
+        "is_content": true,
+        "pos": "ADV"
+      },
+      {
+        "text": "complex",
+        "start": 8.16,
+        "end": 8.44,
+        "font_size": 15,
+        "font_weight": 400,
+        "prominence": 0.4646,
+        "is_content": true,
+        "pos": "ADJ"
+      },
+      {
+        "text": "things,",
+        "start": 8.44,
+        "end": 8.8,
+        "font_size": 15,
+        "font_weight": 400,
+        "prominence": 0.4721,
+        "is_content": true,
+        "pos": "NOUN"
+      },
+      {
+        "text": "you",
+        "start": 9.1,
+        "end": 9.28,
+        "font_size": 12,
+        "font_weight": 300,
+        "prominence": 0.3798,
+        "is_content": false,
+        "pos": "PRON"
+      },
+      {
+        "text": "can",
+        "start": 9.28,
+        "end": 9.52,
+        "font_size": 12,
+        "font_weight": 300,
+        "prominence": 0.4363,
+        "is_content": false,
+        "pos": "AUX"
+      },
+      {
+        "text": "get",
+        "start": 9.52,
+        "end": 9.92,
+        "font_size": 15,
+        "font_weight": 400,
+        "prominence": 0.4938,
+        "is_content": true,
+        "pos": "VERB"
+      },
+      {
+        "text": "slightly",
+        "start": 9.92,
+        "end": 10.28,
+        "font_size": 15,
+        "font_weight": 400,
+        "prominence": 0.476,
+        "is_content": true,
+        "pos": "ADV"
+      },
+      {
+        "text": "more",
+        "start": 10.28,
+        "end": 10.62,
+        "font_size": 15,
+        "font_weight": 400,
+        "prominence": 0.4681,
+        "is_content": true,
+        "pos": "ADV"
+      },
+      {
+        "text": "complex",
+        "start": 10.62,
+        "end": 11.04,
+        "font_size": 15,
+        "font_weight": 400,
+        "prominence": 0.4972,
+        "is_content": true,
+        "pos": "ADJ"
+      },
+      {
+        "text": "things.",
+        "start": 11.04,
+        "end": 11.21,
+        "font_size": 12,
+        "font_weight": 300,
+        "prominence": 0.4202,
+        "is_content": true,
+        "pos": "NOUN"
+      },
+      {
+        "text": "And",
+        "start": 11.21,
+        "end": 11.68,
+        "font_size": 18,
+        "font_weight": 700,
+        "prominence": 0.561,
+        "is_content": false,
+        "pos": "CCONJ"
+      },
+      {
+        "text": "in",
+        "start": 11.68,
+        "end": 11.9,
+        "font_size": 12,
+        "font_weight": 300,
+        "prominence": 0.3842,
+        "is_content": false,
+        "pos": "ADP"
+      },
+      {
+        "text": "this",
+        "start": 11.9,
+        "end": 12.2,
+        "font_size": 15,
+        "font_weight": 400,
+        "prominence": 0.5218,
+        "is_content": false,
+        "pos": "DET"
+      },
+      {
+        "text": "way,",
+        "start": 12.2,
+        "end": 12.46,
+        "font_size": 12,
+        "font_weight": 300,
+        "prominence": 0.4163,
+        "is_content": true,
+        "pos": "NOUN"
+      },
+      {
+        "text": "complexity",
+        "start": 12.68,
+        "end": 13.2,
+        "font_size": 18,
+        "font_weight": 700,
+        "prominence": 0.5816,
+        "is_content": true,
+        "pos": "NOUN"
+      },
+      {
+        "text": "builds",
+        "start": 13.2,
+        "end": 13.82,
+        "font_size": 15,
+        "font_weight": 400,
+        "prominence": 0.4915,
+        "is_content": true,
+        "pos": "NOUN"
+      },
+      {
+        "text": "stage",
+        "start": 13.82,
+        "end": 14.46,
+        "font_size": 15,
+        "font_weight": 400,
+        "prominence": 0.461,
+        "is_content": true,
+        "pos": "NOUN"
+      },
+      {
+        "text": "by",
+        "start": 14.46,
+        "end": 14.74,
+        "font_size": 15,
+        "font_weight": 400,
+        "prominence": 0.5074,
+        "is_content": false,
+        "pos": "ADP"
+      },
+      {
+        "text": "stage.",
+        "start": 14.74,
+        "end": 15.28,
+        "font_size": 15,
+        "font_weight": 400,
+        "prominence": 0.4686,
+        "is_content": true,
+        "pos": "NOUN"
+      },
+      {
+        "text": "Each",
+        "start": 16.48,
+        "end": 16.98,
+        "font_size": 15,
+        "font_weight": 400,
+        "prominence": 0.5133,
+        "is_content": false,
+        "pos": "DET"
+      },
+      {
+        "text": "stage",
+        "start": 16.98,
+        "end": 17.54,
+        "font_size": 15,
+        "font_weight": 400,
+        "prominence": 0.4656,
+        "is_content": true,
+        "pos": "NOUN"
+      },
+      {
+        "text": "is",
+        "start": 17.54,
+        "end": 18.0,
+        "font_size": 15,
+        "font_weight": 400,
+        "prominence": 0.4781,
+        "is_content": false,
+        "pos": "AUX"
+      },
+      {
+        "text": "magical",
+        "start": 18.0,
+        "end": 18.58,
+        "font_size": 15,
+        "font_weight": 400,
+        "prominence": 0.5255,
+        "is_content": true,
+        "pos": "ADJ"
+      },
+      {
+        "text": "because",
+        "start": 18.58,
+        "end": 19.02,
+        "font_size": 15,
+        "font_weight": 400,
+        "prominence": 0.4732,
+        "is_content": false,
+        "pos": "SCONJ"
+      },
+      {
+        "text": "it",
+        "start": 19.02,
+        "end": 19.28,
+        "font_size": 12,
+        "font_weight": 300,
+        "prominence": 0.4378,
+        "is_content": false,
+        "pos": "PRON"
+      },
+      {
+        "text": "creates",
+        "start": 19.28,
+        "end": 19.66,
+        "font_size": 18,
+        "font_weight": 700,
+        "prominence": 0.5426,
+        "is_content": true,
+        "pos": "VERB"
+      },
+      {
+        "text": "the",
+        "start": 19.72,
+        "end": 19.96,
+        "font_size": 12,
+        "font_weight": 300,
+        "prominence": 0.376,
+        "is_content": false,
+        "pos": "DET"
+      },
+      {
+        "text": "impression",
+        "start": 19.96,
+        "end": 20.34,
+        "font_size": 18,
+        "font_weight": 700,
+        "prominence": 0.5556,
+        "is_content": true,
+        "pos": "NOUN"
+      },
+      {
+        "text": "of",
+        "start": 20.34,
+        "end": 20.58,
+        "font_size": 12,
+        "font_weight": 300,
+        "prominence": 0.4026,
+        "is_content": false,
+        "pos": "ADP"
+      },
+      {
+        "text": "something",
+        "start": 20.58,
+        "end": 21.04,
+        "font_size": 15,
+        "font_weight": 400,
+        "prominence": 0.47,
+        "is_content": false,
+        "pos": "PRON"
+      },
+      {
+        "text": "utterly",
+        "start": 21.04,
+        "end": 21.68,
+        "font_size": 18,
+        "font_weight": 700,
+        "prominence": 0.5526,
+        "is_content": true,
+        "pos": "ADV"
+      },
+      {
+        "text": "new,",
+        "start": 21.68,
+        "end": 22.26,
+        "font_size": 12,
+        "font_weight": 300,
+        "prominence": 0.4507,
+        "is_content": true,
+        "pos": "ADJ"
+      },
+      {
+        "text": "appearing",
+        "start": 22.46,
+        "end": 22.96,
+        "font_size": 15,
+        "font_weight": 400,
+        "prominence": 0.4668,
+        "is_content": true,
+        "pos": "VERB"
+      },
+      {
+        "text": "almost",
+        "start": 22.96,
+        "end": 23.6,
+        "font_size": 18,
+        "font_weight": 700,
+        "prominence": 0.5377,
+        "is_content": true,
+        "pos": "ADV"
+      },
+      {
+        "text": "out",
+        "start": 23.6,
+        "end": 23.8,
+        "font_size": 15,
+        "font_weight": 400,
+        "prominence": 0.4587,
+        "is_content": false,
+        "pos": "ADP"
+      },
+      {
+        "text": "of",
+        "start": 23.8,
+        "end": 23.96,
+        "font_size": 12,
+        "font_weight": 300,
+        "prominence": 0.4227,
+        "is_content": false,
+        "pos": "ADP"
+      },
+      {
+        "text": "nowhere",
+        "start": 23.96,
+        "end": 24.24,
+        "font_size": 18,
+        "font_weight": 700,
+        "prominence": 0.5888,
+        "is_content": true,
+        "pos": "ADV"
+      },
+      {
+        "text": "in",
+        "start": 24.24,
+        "end": 24.44,
+        "font_size": 15,
+        "font_weight": 400,
+        "prominence": 0.4579,
+        "is_content": false,
+        "pos": "ADP"
+      },
+      {
+        "text": "the",
+        "start": 24.44,
+        "end": 24.62,
+        "font_size": 12,
+        "font_weight": 300,
+        "prominence": 0.3956,
+        "is_content": false,
+        "pos": "DET"
+      },
+      {
+        "text": "universe.",
+        "start": 24.62,
+        "end": 24.92,
+        "font_size": 15,
+        "font_weight": 400,
+        "prominence": 0.5136,
+        "is_content": true,
+        "pos": "NOUN"
+      },
+      {
+        "text": "We",
+        "start": 25.28,
+        "end": 25.42,
+        "font_size": 12,
+        "font_weight": 300,
+        "prominence": 0.3773,
+        "is_content": false,
+        "pos": "PRON"
+      },
+      {
+        "text": "refer",
+        "start": 25.42,
+        "end": 25.7,
+        "font_size": 18,
+        "font_weight": 700,
+        "prominence": 0.5382,
+        "is_content": true,
+        "pos": "VERB"
+      },
+      {
+        "text": "in",
+        "start": 25.7,
+        "end": 25.82,
+        "font_size": 12,
+        "font_weight": 300,
+        "prominence": 0.4268,
+        "is_content": false,
+        "pos": "ADP"
+      },
+      {
+        "text": "big",
+        "start": 25.82,
+        "end": 26.0,
+        "font_size": 12,
+        "font_weight": 300,
+        "prominence": 0.4384,
+        "is_content": true,
+        "pos": "ADJ"
+      },
+      {
+        "text": "history",
+        "start": 26.0,
+        "end": 26.28,
+        "font_size": 15,
+        "font_weight": 400,
+        "prominence": 0.4824,
+        "is_content": true,
+        "pos": "NOUN"
+      },
+      {
+        "text": "to",
+        "start": 26.28,
+        "end": 26.46,
+        "font_size": 12,
+        "font_weight": 300,
+        "prominence": 0.3956,
+        "is_content": false,
+        "pos": "ADP"
+      },
+      {
+        "text": "these",
+        "start": 26.46,
+        "end": 26.68,
+        "font_size": 15,
+        "font_weight": 400,
+        "prominence": 0.483,
+        "is_content": false,
+        "pos": "DET"
+      },
+      {
+        "text": "moments",
+        "start": 26.68,
+        "end": 26.94,
+        "font_size": 15,
+        "font_weight": 400,
+        "prominence": 0.4696,
+        "is_content": true,
+        "pos": "NOUN"
+      },
+      {
+        "text": "as",
+        "start": 26.94,
+        "end": 27.18,
+        "font_size": 12,
+        "font_weight": 300,
+        "prominence": 0.4304,
+        "is_content": false,
+        "pos": "ADP"
+      },
+      {
+        "text": "threshold",
+        "start": 27.18,
+        "end": 27.64,
+        "font_size": 18,
+        "font_weight": 700,
+        "prominence": 0.6136,
+        "is_content": true,
+        "pos": "NOUN"
+      },
+      {
+        "text": "moments.",
+        "start": 27.64,
+        "end": 28.24,
+        "font_size": 15,
+        "font_weight": 400,
+        "prominence": 0.4816,
+        "is_content": true,
+        "pos": "NOUN"
+      },
+      {
+        "text": "And",
+        "start": 29.48,
+        "end": 29.72,
+        "font_size": 12,
+        "font_weight": 300,
+        "prominence": 0.4161,
+        "is_content": false,
+        "pos": "CCONJ"
+      },
+      {
+        "text": "at",
+        "start": 29.72,
+        "end": 29.92,
+        "font_size": 12,
+        "font_weight": 300,
+        "prominence": 0.4466,
+        "is_content": false,
+        "pos": "ADP"
+      },
+      {
+        "text": "each",
+        "start": 29.92,
+        "end": 30.18,
+        "font_size": 12,
+        "font_weight": 300,
+        "prominence": 0.4364,
+        "is_content": false,
+        "pos": "DET"
+      },
+      {
+        "text": "threshold,",
+        "start": 30.18,
+        "end": 30.86,
+        "font_size": 18,
+        "font_weight": 700,
+        "prominence": 0.6644,
+        "is_content": true,
+        "pos": "NOUN"
+      },
+      {
+        "text": "the",
+        "start": 31.08,
+        "end": 31.28,
+        "font_size": 12,
+        "font_weight": 300,
+        "prominence": 0.4213,
+        "is_content": false,
+        "pos": "DET"
+      },
+      {
+        "text": "going",
+        "start": 31.28,
+        "end": 31.5,
+        "font_size": 12,
+        "font_weight": 300,
+        "prominence": 0.4225,
+        "is_content": true,
+        "pos": "NOUN"
+      },
+      {
+        "text": "gets",
+        "start": 31.5,
+        "end": 31.86,
+        "font_size": 15,
+        "font_weight": 400,
+        "prominence": 0.5169,
+        "is_content": true,
+        "pos": "VERB"
+      },
+      {
+        "text": "tougher.",
+        "start": 31.86,
+        "end": 32.28,
+        "font_size": 15,
+        "font_weight": 400,
+        "prominence": 0.4669,
+        "is_content": true,
+        "pos": "ADJ"
+      },
+      {
+        "text": "The",
+        "start": 32.78,
+        "end": 33.04,
+        "font_size": 12,
+        "font_weight": 300,
+        "prominence": 0.4198,
+        "is_content": false,
+        "pos": "DET"
+      },
+      {
+        "text": "complex",
+        "start": 33.04,
+        "end": 33.54,
+        "font_size": 18,
+        "font_weight": 700,
+        "prominence": 0.5564,
+        "is_content": true,
+        "pos": "ADJ"
+      },
+      {
+        "text": "things",
+        "start": 33.54,
+        "end": 33.9,
+        "font_size": 12,
+        "font_weight": 300,
+        "prominence": 0.4414,
+        "is_content": true,
+        "pos": "NOUN"
+      },
+      {
+        "text": "get",
+        "start": 33.9,
+        "end": 34.14,
+        "font_size": 15,
+        "font_weight": 400,
+        "prominence": 0.4694,
+        "is_content": true,
+        "pos": "VERB"
+      },
+      {
+        "text": "more",
+        "start": 34.14,
+        "end": 34.54,
+        "font_size": 15,
+        "font_weight": 400,
+        "prominence": 0.5126,
+        "is_content": true,
+        "pos": "ADV"
+      },
+      {
+        "text": "fragile,",
+        "start": 34.54,
+        "end": 35.32,
+        "font_size": 18,
+        "font_weight": 700,
+        "prominence": 0.6143,
+        "is_content": true,
+        "pos": "ADJ"
+      },
+      {
+        "text": "more",
+        "start": 36.06,
+        "end": 36.28,
+        "font_size": 12,
+        "font_weight": 300,
+        "prominence": 0.3889,
+        "is_content": true,
+        "pos": "ADV"
+      },
+      {
+        "text": "vulnerable.",
+        "start": 36.28,
+        "end": 37.0,
+        "font_size": 18,
+        "font_weight": 700,
+        "prominence": 0.5619,
+        "is_content": true,
+        "pos": "ADJ"
+      },
+      {
+        "text": "The",
+        "start": 37.58,
+        "end": 37.82,
+        "font_size": 12,
+        "font_weight": 300,
+        "prominence": 0.4281,
+        "is_content": false,
+        "pos": "DET"
+      },
+      {
+        "text": "goldilocks",
+        "start": 37.82,
+        "end": 38.38,
+        "font_size": 18,
+        "font_weight": 700,
+        "prominence": 0.5966,
+        "is_content": true,
+        "pos": "NOUN"
+      },
+      {
+        "text": "conditions",
+        "start": 38.38,
+        "end": 39.14,
+        "font_size": 18,
+        "font_weight": 700,
+        "prominence": 0.5396,
+        "is_content": true,
+        "pos": "NOUN"
+      },
+      {
+        "text": "get",
+        "start": 39.14,
+        "end": 39.54,
+        "font_size": 12,
+        "font_weight": 300,
+        "prominence": 0.4408,
+        "is_content": true,
+        "pos": "VERB"
+      },
+      {
+        "text": "more",
+        "start": 39.54,
+        "end": 39.94,
+        "font_size": 15,
+        "font_weight": 400,
+        "prominence": 0.468,
+        "is_content": true,
+        "pos": "ADV"
+      },
+      {
+        "text": "stringent.",
+        "start": 39.94,
+        "end": 40.62,
+        "font_size": 18,
+        "font_weight": 700,
+        "prominence": 0.5528,
+        "is_content": true,
+        "pos": "ADJ"
+      },
+      {
+        "text": "And",
+        "start": 41.12,
+        "end": 41.48,
+        "font_size": 12,
+        "font_weight": 300,
+        "prominence": 0.443,
+        "is_content": false,
+        "pos": "CCONJ"
+      },
+      {
+        "text": "it's",
+        "start": 41.48,
+        "end": 41.74,
+        "font_size": 12,
+        "font_weight": 300,
+        "prominence": 0.412,
+        "is_content": false,
+        "pos": "PRON"
+      },
+      {
+        "text": "more",
+        "start": 41.74,
+        "end": 42.08,
+        "font_size": 12,
+        "font_weight": 300,
+        "prominence": 0.4508,
+        "is_content": true,
+        "pos": "ADV"
+      },
+      {
+        "text": "difficult",
+        "start": 42.08,
+        "end": 42.56,
+        "font_size": 15,
+        "font_weight": 400,
+        "prominence": 0.4786,
+        "is_content": true,
+        "pos": "ADJ"
+      },
+      {
+        "text": "to",
+        "start": 42.56,
+        "end": 42.92,
+        "font_size": 15,
+        "font_weight": 400,
+        "prominence": 0.4752,
+        "is_content": false,
+        "pos": "PART"
+      },
+      {
+        "text": "create",
+        "start": 42.92,
+        "end": 43.16,
+        "font_size": 12,
+        "font_weight": 300,
+        "prominence": 0.3758,
+        "is_content": true,
+        "pos": "VERB"
+      },
+      {
+        "text": "complexity.",
+        "start": 43.16,
+        "end": 43.96,
+        "font_size": 18,
+        "font_weight": 700,
+        "prominence": 0.6709,
+        "is_content": true,
+        "pos": "NOUN"
+      },
+      {
+        "text": "Now,",
+        "start": 45.06,
+        "end": 45.48,
+        "font_size": 12,
+        "font_weight": 300,
+        "prominence": 0.4202,
+        "is_content": true,
+        "pos": "ADV"
+      },
+      {
+        "text": "we",
+        "start": 45.82,
+        "end": 46.26,
+        "font_size": 15,
+        "font_weight": 400,
+        "prominence": 0.4633,
+        "is_content": false,
+        "pos": "PRON"
+      },
+      {
+        "text": "as",
+        "start": 46.26,
+        "end": 46.72,
+        "font_size": 15,
+        "font_weight": 400,
+        "prominence": 0.4982,
+        "is_content": false,
+        "pos": "ADP"
+      },
+      {
+        "text": "extremely",
+        "start": 46.72,
+        "end": 47.14,
+        "font_size": 12,
+        "font_weight": 300,
+        "prominence": 0.4465,
+        "is_content": true,
+        "pos": "ADV"
+      },
+      {
+        "text": "complex",
+        "start": 47.14,
+        "end": 47.68,
+        "font_size": 15,
+        "font_weight": 400,
+        "prominence": 0.4873,
+        "is_content": true,
+        "pos": "ADJ"
+      },
+      {
+        "text": "creatures",
+        "start": 47.68,
+        "end": 48.26,
+        "font_size": 18,
+        "font_weight": 700,
+        "prominence": 0.5334,
+        "is_content": true,
+        "pos": "NOUN"
+      },
+      {
+        "text": "desperately",
+        "start": 48.84,
+        "end": 49.18,
+        "font_size": 12,
+        "font_weight": 300,
+        "prominence": 0.4073,
+        "is_content": true,
+        "pos": "ADV"
+      },
+      {
+        "text": "need",
+        "start": 49.18,
+        "end": 49.46,
+        "font_size": 12,
+        "font_weight": 300,
+        "prominence": 0.3999,
+        "is_content": true,
+        "pos": "VERB"
+      },
+      {
+        "text": "to",
+        "start": 49.46,
+        "end": 49.66,
+        "font_size": 12,
+        "font_weight": 300,
+        "prominence": 0.4429,
+        "is_content": false,
+        "pos": "PART"
+      },
+      {
+        "text": "know",
+        "start": 49.66,
+        "end": 49.84,
+        "font_size": 15,
+        "font_weight": 400,
+        "prominence": 0.4733,
+        "is_content": true,
+        "pos": "VERB"
+      },
+      {
+        "text": "this",
+        "start": 49.84,
+        "end": 50.16,
+        "font_size": 15,
+        "font_weight": 400,
+        "prominence": 0.4736,
+        "is_content": false,
+        "pos": "DET"
+      },
+      {
+        "text": "story",
+        "start": 50.16,
+        "end": 50.5,
+        "font_size": 15,
+        "font_weight": 400,
+        "prominence": 0.453,
+        "is_content": true,
+        "pos": "NOUN"
+      },
+      {
+        "text": "of",
+        "start": 50.5,
+        "end": 50.86,
+        "font_size": 15,
+        "font_weight": 400,
+        "prominence": 0.4868,
+        "is_content": false,
+        "pos": "ADP"
+      },
+      {
+        "text": "how",
+        "start": 50.86,
+        "end": 51.28,
+        "font_size": 18,
+        "font_weight": 700,
+        "prominence": 0.5389,
+        "is_content": false,
+        "pos": "SCONJ"
+      },
+      {
+        "text": "the",
+        "start": 51.32,
+        "end": 51.54,
+        "font_size": 12,
+        "font_weight": 300,
+        "prominence": 0.3814,
+        "is_content": false,
+        "pos": "DET"
+      },
+      {
+        "text": "universe",
+        "start": 51.54,
+        "end": 51.96,
+        "font_size": 18,
+        "font_weight": 700,
+        "prominence": 0.5878,
+        "is_content": true,
+        "pos": "NOUN"
+      },
+      {
+        "text": "creates",
+        "start": 51.96,
+        "end": 52.34,
+        "font_size": 15,
+        "font_weight": 400,
+        "prominence": 0.4774,
+        "is_content": true,
+        "pos": "VERB"
+      },
+      {
+        "text": "complexity",
+        "start": 52.34,
+        "end": 53.34,
+        "font_size": 18,
+        "font_weight": 700,
+        "prominence": 0.5846,
+        "is_content": true,
+        "pos": "NOUN"
+      },
+      {
+        "text": "despite",
+        "start": 53.34,
+        "end": 54.0,
+        "font_size": 15,
+        "font_weight": 400,
+        "prominence": 0.5168,
+        "is_content": false,
+        "pos": "SCONJ"
+      },
+      {
+        "text": "the",
+        "start": 54.0,
+        "end": 54.32,
+        "font_size": 12,
+        "font_weight": 300,
+        "prominence": 0.4521,
+        "is_content": false,
+        "pos": "DET"
+      },
+      {
+        "text": "second",
+        "start": 54.32,
+        "end": 54.58,
+        "font_size": 12,
+        "font_weight": 300,
+        "prominence": 0.443,
+        "is_content": true,
+        "pos": "ADJ"
+      },
+      {
+        "text": "law,",
+        "start": 54.58,
+        "end": 54.95,
+        "font_size": 12,
+        "font_weight": 300,
+        "prominence": 0.4393,
+        "is_content": true,
+        "pos": "NOUN"
+      },
+      {
+        "text": "and",
+        "start": 54.95,
+        "end": 55.8,
+        "font_size": 18,
+        "font_weight": 700,
+        "prominence": 0.533,
+        "is_content": false,
+        "pos": "CCONJ"
+      },
+      {
+        "text": "why",
+        "start": 55.8,
+        "end": 56.2,
+        "font_size": 15,
+        "font_weight": 400,
+        "prominence": 0.4934,
+        "is_content": false,
+        "pos": "SCONJ"
+      },
+      {
+        "text": "complexity",
+        "start": 56.2,
+        "end": 57.2,
+        "font_size": 18,
+        "font_weight": 700,
+        "prominence": 0.5524,
+        "is_content": true,
+        "pos": "NOUN"
+      },
+      {
+        "text": "means",
+        "start": 57.2,
+        "end": 57.76,
+        "font_size": 15,
+        "font_weight": 400,
+        "prominence": 0.5083,
+        "is_content": true,
+        "pos": "VERB"
+      },
+      {
+        "text": "vulnerability",
+        "start": 57.76,
+        "end": 58.7,
+        "font_size": 18,
+        "font_weight": 700,
+        "prominence": 0.6114,
+        "is_content": true,
+        "pos": "NOUN"
+      },
+      {
+        "text": "and",
+        "start": 58.7,
+        "end": 59.36,
+        "font_size": 15,
+        "font_weight": 400,
+        "prominence": 0.4908,
+        "is_content": false,
+        "pos": "CCONJ"
+      },
+      {
+        "text": "fragility.",
+        "start": 59.36,
+        "end": 59.96,
+        "font_size": 15,
+        "font_weight": 400,
+        "prominence": 0.4762,
+        "is_content": true,
+        "pos": "NOUN"
+      }
+    ],
+    "syn_prosody": [
+      {
+        "text": "too",
+        "start": 0.12,
+        "end": 0.32,
+        "font_size": 15,
+        "font_weight": 400,
+        "prominence": 0.4341,
+        "is_content": true,
+        "pos": "ADV"
+      },
+      {
+        "text": "hot,",
+        "start": 0.32,
+        "end": 0.64,
+        "font_size": 15,
+        "font_weight": 400,
+        "prominence": 0.4648,
+        "is_content": true,
+        "pos": "ADJ"
+      },
+      {
+        "text": "not",
+        "start": 0.98,
+        "end": 1.16,
+        "font_size": 12,
+        "font_weight": 300,
+        "prominence": 0.4543,
+        "is_content": false,
+        "pos": "PART"
+      },
+      {
+        "text": "too",
+        "start": 1.16,
+        "end": 1.42,
+        "font_size": 15,
+        "font_weight": 400,
+        "prominence": 0.4631,
+        "is_content": true,
+        "pos": "ADV"
+      },
+      {
+        "text": "cold,",
+        "start": 1.42,
+        "end": 1.7,
+        "font_size": 15,
+        "font_weight": 400,
+        "prominence": 0.4423,
+        "is_content": true,
+        "pos": "ADJ"
+      },
+      {
+        "text": "just",
+        "start": 2.06,
+        "end": 2.52,
+        "font_size": 18,
+        "font_weight": 700,
+        "prominence": 0.6162,
+        "is_content": true,
+        "pos": "ADV"
+      },
+      {
+        "text": "right",
+        "start": 2.52,
+        "end": 2.84,
+        "font_size": 15,
+        "font_weight": 400,
+        "prominence": 0.464,
+        "is_content": true,
+        "pos": "ADV"
+      },
+      {
+        "text": "for",
+        "start": 2.84,
+        "end": 3.04,
+        "font_size": 12,
+        "font_weight": 300,
+        "prominence": 0.4355,
+        "is_content": false,
+        "pos": "ADP"
+      },
+      {
+        "text": "the",
+        "start": 3.04,
+        "end": 3.2,
+        "font_size": 12,
+        "font_weight": 300,
+        "prominence": 0.4282,
+        "is_content": false,
+        "pos": "DET"
+      },
+      {
+        "text": "creation",
+        "start": 3.2,
+        "end": 3.48,
+        "font_size": 15,
+        "font_weight": 400,
+        "prominence": 0.5082,
+        "is_content": true,
+        "pos": "NOUN"
+      },
+      {
+        "text": "of",
+        "start": 3.48,
+        "end": 3.72,
+        "font_size": 12,
+        "font_weight": 300,
+        "prominence": 0.4455,
+        "is_content": false,
+        "pos": "ADP"
+      },
+      {
+        "text": "complexity.",
+        "start": 3.72,
+        "end": 4.22,
+        "font_size": 18,
+        "font_weight": 700,
+        "prominence": 0.6087,
+        "is_content": true,
+        "pos": "NOUN"
+      },
+      {
+        "text": "And",
+        "start": 4.6,
+        "end": 4.92,
+        "font_size": 12,
+        "font_weight": 300,
+        "prominence": 0.4795,
+        "is_content": false,
+        "pos": "CCONJ"
+      },
+      {
+        "text": "slightly",
+        "start": 4.92,
+        "end": 5.24,
+        "font_size": 15,
+        "font_weight": 400,
+        "prominence": 0.4712,
+        "is_content": true,
+        "pos": "ADV"
+      },
+      {
+        "text": "more",
+        "start": 5.24,
+        "end": 5.6,
+        "font_size": 15,
+        "font_weight": 400,
+        "prominence": 0.4293,
+        "is_content": true,
+        "pos": "ADV"
+      },
+      {
+        "text": "complex",
+        "start": 5.6,
+        "end": 5.92,
+        "font_size": 15,
+        "font_weight": 400,
+        "prominence": 0.4838,
+        "is_content": true,
+        "pos": "ADJ"
+      },
+      {
+        "text": "things",
+        "start": 5.92,
+        "end": 6.18,
+        "font_size": 15,
+        "font_weight": 400,
+        "prominence": 0.4341,
+        "is_content": true,
+        "pos": "NOUN"
+      },
+      {
+        "text": "appear.",
+        "start": 6.18,
+        "end": 6.62,
+        "font_size": 15,
+        "font_weight": 400,
+        "prominence": 0.4826,
+        "is_content": true,
+        "pos": "VERB"
+      },
+      {
+        "text": "And",
+        "start": 6.98,
+        "end": 7.18,
+        "font_size": 12,
+        "font_weight": 300,
+        "prominence": 0.4507,
+        "is_content": false,
+        "pos": "CCONJ"
+      },
+      {
+        "text": "where",
+        "start": 7.18,
+        "end": 7.3,
+        "font_size": 12,
+        "font_weight": 300,
+        "prominence": 0.4259,
+        "is_content": false,
+        "pos": "SCONJ"
+      },
+      {
+        "text": "you",
+        "start": 7.3,
+        "end": 7.44,
+        "font_size": 12,
+        "font_weight": 300,
+        "prominence": 0.4182,
+        "is_content": false,
+        "pos": "PRON"
+      },
+      {
+        "text": "have",
+        "start": 7.44,
+        "end": 7.58,
+        "font_size": 15,
+        "font_weight": 400,
+        "prominence": 0.4656,
+        "is_content": true,
+        "pos": "VERB"
+      },
+      {
+        "text": "slightly",
+        "start": 7.58,
+        "end": 7.86,
+        "font_size": 15,
+        "font_weight": 400,
+        "prominence": 0.5164,
+        "is_content": true,
+        "pos": "ADV"
+      },
+      {
+        "text": "more",
+        "start": 7.86,
+        "end": 8.16,
+        "font_size": 15,
+        "font_weight": 400,
+        "prominence": 0.4386,
+        "is_content": true,
+        "pos": "ADV"
+      },
+      {
+        "text": "complex",
+        "start": 8.16,
+        "end": 8.44,
+        "font_size": 15,
+        "font_weight": 400,
+        "prominence": 0.4646,
+        "is_content": true,
+        "pos": "ADJ"
+      },
+      {
+        "text": "things,",
+        "start": 8.44,
+        "end": 8.8,
+        "font_size": 15,
+        "font_weight": 400,
+        "prominence": 0.4721,
+        "is_content": true,
+        "pos": "NOUN"
+      },
+      {
+        "text": "you",
+        "start": 9.1,
+        "end": 9.28,
+        "font_size": 12,
+        "font_weight": 300,
+        "prominence": 0.3798,
+        "is_content": false,
+        "pos": "PRON"
+      },
+      {
+        "text": "can",
+        "start": 9.28,
+        "end": 9.52,
+        "font_size": 12,
+        "font_weight": 300,
+        "prominence": 0.4363,
+        "is_content": false,
+        "pos": "AUX"
+      },
+      {
+        "text": "get",
+        "start": 9.52,
+        "end": 9.92,
+        "font_size": 15,
+        "font_weight": 400,
+        "prominence": 0.4938,
+        "is_content": true,
+        "pos": "VERB"
+      },
+      {
+        "text": "slightly",
+        "start": 9.92,
+        "end": 10.28,
+        "font_size": 15,
+        "font_weight": 400,
+        "prominence": 0.476,
+        "is_content": true,
+        "pos": "ADV"
+      },
+      {
+        "text": "more",
+        "start": 10.28,
+        "end": 10.62,
+        "font_size": 15,
+        "font_weight": 400,
+        "prominence": 0.4681,
+        "is_content": true,
+        "pos": "ADV"
+      },
+      {
+        "text": "complex",
+        "start": 10.62,
+        "end": 11.04,
+        "font_size": 15,
+        "font_weight": 400,
+        "prominence": 0.4972,
+        "is_content": true,
+        "pos": "ADJ"
+      },
+      {
+        "text": "things.",
+        "start": 11.04,
+        "end": 11.21,
+        "font_size": 15,
+        "font_weight": 400,
+        "prominence": 0.4202,
+        "is_content": true,
+        "pos": "NOUN"
+      },
+      {
+        "text": "And",
+        "start": 11.21,
+        "end": 11.68,
+        "font_size": 12,
+        "font_weight": 300,
+        "prominence": 0.561,
+        "is_content": false,
+        "pos": "CCONJ"
+      },
+      {
+        "text": "in",
+        "start": 11.68,
+        "end": 11.9,
+        "font_size": 12,
+        "font_weight": 300,
+        "prominence": 0.3842,
+        "is_content": false,
+        "pos": "ADP"
+      },
+      {
+        "text": "this",
+        "start": 11.9,
+        "end": 12.2,
+        "font_size": 12,
+        "font_weight": 300,
+        "prominence": 0.5218,
+        "is_content": false,
+        "pos": "DET"
+      },
+      {
+        "text": "way,",
+        "start": 12.2,
+        "end": 12.46,
+        "font_size": 15,
+        "font_weight": 400,
+        "prominence": 0.4163,
+        "is_content": true,
+        "pos": "NOUN"
+      },
+      {
+        "text": "complexity",
+        "start": 12.68,
+        "end": 13.2,
+        "font_size": 18,
+        "font_weight": 700,
+        "prominence": 0.5816,
+        "is_content": true,
+        "pos": "NOUN"
+      },
+      {
+        "text": "builds",
+        "start": 13.2,
+        "end": 13.82,
+        "font_size": 15,
+        "font_weight": 400,
+        "prominence": 0.4915,
+        "is_content": true,
+        "pos": "NOUN"
+      },
+      {
+        "text": "stage",
+        "start": 13.82,
+        "end": 14.46,
+        "font_size": 15,
+        "font_weight": 400,
+        "prominence": 0.461,
+        "is_content": true,
+        "pos": "NOUN"
+      },
+      {
+        "text": "by",
+        "start": 14.46,
+        "end": 14.74,
+        "font_size": 12,
+        "font_weight": 300,
+        "prominence": 0.5074,
+        "is_content": false,
+        "pos": "ADP"
+      },
+      {
+        "text": "stage.",
+        "start": 14.74,
+        "end": 15.28,
+        "font_size": 15,
+        "font_weight": 400,
+        "prominence": 0.4686,
+        "is_content": true,
+        "pos": "NOUN"
+      },
+      {
+        "text": "Each",
+        "start": 16.48,
+        "end": 16.98,
+        "font_size": 12,
+        "font_weight": 300,
+        "prominence": 0.5133,
+        "is_content": false,
+        "pos": "DET"
+      },
+      {
+        "text": "stage",
+        "start": 16.98,
+        "end": 17.54,
+        "font_size": 15,
+        "font_weight": 400,
+        "prominence": 0.4656,
+        "is_content": true,
+        "pos": "NOUN"
+      },
+      {
+        "text": "is",
+        "start": 17.54,
+        "end": 18.0,
+        "font_size": 12,
+        "font_weight": 300,
+        "prominence": 0.4781,
+        "is_content": false,
+        "pos": "AUX"
+      },
+      {
+        "text": "magical",
+        "start": 18.0,
+        "end": 18.58,
+        "font_size": 15,
+        "font_weight": 400,
+        "prominence": 0.5255,
+        "is_content": true,
+        "pos": "ADJ"
+      },
+      {
+        "text": "because",
+        "start": 18.58,
+        "end": 19.02,
+        "font_size": 12,
+        "font_weight": 300,
+        "prominence": 0.4732,
+        "is_content": false,
+        "pos": "SCONJ"
+      },
+      {
+        "text": "it",
+        "start": 19.02,
+        "end": 19.28,
+        "font_size": 12,
+        "font_weight": 300,
+        "prominence": 0.4378,
+        "is_content": false,
+        "pos": "PRON"
+      },
+      {
+        "text": "creates",
+        "start": 19.28,
+        "end": 19.66,
+        "font_size": 18,
+        "font_weight": 700,
+        "prominence": 0.5426,
+        "is_content": true,
+        "pos": "VERB"
+      },
+      {
+        "text": "the",
+        "start": 19.72,
+        "end": 19.96,
+        "font_size": 12,
+        "font_weight": 300,
+        "prominence": 0.376,
+        "is_content": false,
+        "pos": "DET"
+      },
+      {
+        "text": "impression",
+        "start": 19.96,
+        "end": 20.34,
+        "font_size": 18,
+        "font_weight": 700,
+        "prominence": 0.5556,
+        "is_content": true,
+        "pos": "NOUN"
+      },
+      {
+        "text": "of",
+        "start": 20.34,
+        "end": 20.58,
+        "font_size": 12,
+        "font_weight": 300,
+        "prominence": 0.4026,
+        "is_content": false,
+        "pos": "ADP"
+      },
+      {
+        "text": "something",
+        "start": 20.58,
+        "end": 21.04,
+        "font_size": 12,
+        "font_weight": 300,
+        "prominence": 0.47,
+        "is_content": false,
+        "pos": "PRON"
+      },
+      {
+        "text": "utterly",
+        "start": 21.04,
+        "end": 21.68,
+        "font_size": 18,
+        "font_weight": 700,
+        "prominence": 0.5526,
+        "is_content": true,
+        "pos": "ADV"
+      },
+      {
+        "text": "new,",
+        "start": 21.68,
+        "end": 22.26,
+        "font_size": 15,
+        "font_weight": 400,
+        "prominence": 0.4507,
+        "is_content": true,
+        "pos": "ADJ"
+      },
+      {
+        "text": "appearing",
+        "start": 22.46,
+        "end": 22.96,
+        "font_size": 15,
+        "font_weight": 400,
+        "prominence": 0.4668,
+        "is_content": true,
+        "pos": "VERB"
+      },
+      {
+        "text": "almost",
+        "start": 22.96,
+        "end": 23.6,
+        "font_size": 18,
+        "font_weight": 700,
+        "prominence": 0.5377,
+        "is_content": true,
+        "pos": "ADV"
+      },
+      {
+        "text": "out",
+        "start": 23.6,
+        "end": 23.8,
+        "font_size": 12,
+        "font_weight": 300,
+        "prominence": 0.4587,
+        "is_content": false,
+        "pos": "ADP"
+      },
+      {
+        "text": "of",
+        "start": 23.8,
+        "end": 23.96,
+        "font_size": 12,
+        "font_weight": 300,
+        "prominence": 0.4227,
+        "is_content": false,
+        "pos": "ADP"
+      },
+      {
+        "text": "nowhere",
+        "start": 23.96,
+        "end": 24.24,
+        "font_size": 18,
+        "font_weight": 700,
+        "prominence": 0.5888,
+        "is_content": true,
+        "pos": "ADV"
+      },
+      {
+        "text": "in",
+        "start": 24.24,
+        "end": 24.44,
+        "font_size": 12,
+        "font_weight": 300,
+        "prominence": 0.4579,
+        "is_content": false,
+        "pos": "ADP"
+      },
+      {
+        "text": "the",
+        "start": 24.44,
+        "end": 24.62,
+        "font_size": 12,
+        "font_weight": 300,
+        "prominence": 0.3956,
+        "is_content": false,
+        "pos": "DET"
+      },
+      {
+        "text": "universe.",
+        "start": 24.62,
+        "end": 24.92,
+        "font_size": 15,
+        "font_weight": 400,
+        "prominence": 0.5136,
+        "is_content": true,
+        "pos": "NOUN"
+      },
+      {
+        "text": "We",
+        "start": 25.28,
+        "end": 25.42,
+        "font_size": 12,
+        "font_weight": 300,
+        "prominence": 0.3773,
+        "is_content": false,
+        "pos": "PRON"
+      },
+      {
+        "text": "refer",
+        "start": 25.42,
+        "end": 25.7,
+        "font_size": 18,
+        "font_weight": 700,
+        "prominence": 0.5382,
+        "is_content": true,
+        "pos": "VERB"
+      },
+      {
+        "text": "in",
+        "start": 25.7,
+        "end": 25.82,
+        "font_size": 12,
+        "font_weight": 300,
+        "prominence": 0.4268,
+        "is_content": false,
+        "pos": "ADP"
+      },
+      {
+        "text": "big",
+        "start": 25.82,
+        "end": 26.0,
+        "font_size": 15,
+        "font_weight": 400,
+        "prominence": 0.4384,
+        "is_content": true,
+        "pos": "ADJ"
+      },
+      {
+        "text": "history",
+        "start": 26.0,
+        "end": 26.28,
+        "font_size": 15,
+        "font_weight": 400,
+        "prominence": 0.4824,
+        "is_content": true,
+        "pos": "NOUN"
+      },
+      {
+        "text": "to",
+        "start": 26.28,
+        "end": 26.46,
+        "font_size": 12,
+        "font_weight": 300,
+        "prominence": 0.3956,
+        "is_content": false,
+        "pos": "ADP"
+      },
+      {
+        "text": "these",
+        "start": 26.46,
+        "end": 26.68,
+        "font_size": 12,
+        "font_weight": 300,
+        "prominence": 0.483,
+        "is_content": false,
+        "pos": "DET"
+      },
+      {
+        "text": "moments",
+        "start": 26.68,
+        "end": 26.94,
+        "font_size": 15,
+        "font_weight": 400,
+        "prominence": 0.4696,
+        "is_content": true,
+        "pos": "NOUN"
+      },
+      {
+        "text": "as",
+        "start": 26.94,
+        "end": 27.18,
+        "font_size": 12,
+        "font_weight": 300,
+        "prominence": 0.4304,
+        "is_content": false,
+        "pos": "ADP"
+      },
+      {
+        "text": "threshold",
+        "start": 27.18,
+        "end": 27.64,
+        "font_size": 18,
+        "font_weight": 700,
+        "prominence": 0.6136,
+        "is_content": true,
+        "pos": "NOUN"
+      },
+      {
+        "text": "moments.",
+        "start": 27.64,
+        "end": 28.24,
+        "font_size": 15,
+        "font_weight": 400,
+        "prominence": 0.4816,
+        "is_content": true,
+        "pos": "NOUN"
+      },
+      {
+        "text": "And",
+        "start": 29.48,
+        "end": 29.72,
+        "font_size": 12,
+        "font_weight": 300,
+        "prominence": 0.4161,
+        "is_content": false,
+        "pos": "CCONJ"
+      },
+      {
+        "text": "at",
+        "start": 29.72,
+        "end": 29.92,
+        "font_size": 12,
+        "font_weight": 300,
+        "prominence": 0.4466,
+        "is_content": false,
+        "pos": "ADP"
+      },
+      {
+        "text": "each",
+        "start": 29.92,
+        "end": 30.18,
+        "font_size": 12,
+        "font_weight": 300,
+        "prominence": 0.4364,
+        "is_content": false,
+        "pos": "DET"
+      },
+      {
+        "text": "threshold,",
+        "start": 30.18,
+        "end": 30.86,
+        "font_size": 18,
+        "font_weight": 700,
+        "prominence": 0.6644,
+        "is_content": true,
+        "pos": "NOUN"
+      },
+      {
+        "text": "the",
+        "start": 31.08,
+        "end": 31.28,
+        "font_size": 12,
+        "font_weight": 300,
+        "prominence": 0.4213,
+        "is_content": false,
+        "pos": "DET"
+      },
+      {
+        "text": "going",
+        "start": 31.28,
+        "end": 31.5,
+        "font_size": 15,
+        "font_weight": 400,
+        "prominence": 0.4225,
+        "is_content": true,
+        "pos": "NOUN"
+      },
+      {
+        "text": "gets",
+        "start": 31.5,
+        "end": 31.86,
+        "font_size": 15,
+        "font_weight": 400,
+        "prominence": 0.5169,
+        "is_content": true,
+        "pos": "VERB"
+      },
+      {
+        "text": "tougher.",
+        "start": 31.86,
+        "end": 32.28,
+        "font_size": 15,
+        "font_weight": 400,
+        "prominence": 0.4669,
+        "is_content": true,
+        "pos": "ADJ"
+      },
+      {
+        "text": "The",
+        "start": 32.78,
+        "end": 33.04,
+        "font_size": 12,
+        "font_weight": 300,
+        "prominence": 0.4198,
+        "is_content": false,
+        "pos": "DET"
+      },
+      {
+        "text": "complex",
+        "start": 33.04,
+        "end": 33.54,
+        "font_size": 18,
+        "font_weight": 700,
+        "prominence": 0.5564,
+        "is_content": true,
+        "pos": "ADJ"
+      },
+      {
+        "text": "things",
+        "start": 33.54,
+        "end": 33.9,
+        "font_size": 15,
+        "font_weight": 400,
+        "prominence": 0.4414,
+        "is_content": true,
+        "pos": "NOUN"
+      },
+      {
+        "text": "get",
+        "start": 33.9,
+        "end": 34.14,
+        "font_size": 15,
+        "font_weight": 400,
+        "prominence": 0.4694,
+        "is_content": true,
+        "pos": "VERB"
+      },
+      {
+        "text": "more",
+        "start": 34.14,
+        "end": 34.54,
+        "font_size": 15,
+        "font_weight": 400,
+        "prominence": 0.5126,
+        "is_content": true,
+        "pos": "ADV"
+      },
+      {
+        "text": "fragile,",
+        "start": 34.54,
+        "end": 35.32,
+        "font_size": 18,
+        "font_weight": 700,
+        "prominence": 0.6143,
+        "is_content": true,
+        "pos": "ADJ"
+      },
+      {
+        "text": "more",
+        "start": 36.06,
+        "end": 36.28,
+        "font_size": 15,
+        "font_weight": 400,
+        "prominence": 0.3889,
+        "is_content": true,
+        "pos": "ADV"
+      },
+      {
+        "text": "vulnerable.",
+        "start": 36.28,
+        "end": 37.0,
+        "font_size": 18,
+        "font_weight": 700,
+        "prominence": 0.5619,
+        "is_content": true,
+        "pos": "ADJ"
+      },
+      {
+        "text": "The",
+        "start": 37.58,
+        "end": 37.82,
+        "font_size": 12,
+        "font_weight": 300,
+        "prominence": 0.4281,
+        "is_content": false,
+        "pos": "DET"
+      },
+      {
+        "text": "goldilocks",
+        "start": 37.82,
+        "end": 38.38,
+        "font_size": 18,
+        "font_weight": 700,
+        "prominence": 0.5966,
+        "is_content": true,
+        "pos": "NOUN"
+      },
+      {
+        "text": "conditions",
+        "start": 38.38,
+        "end": 39.14,
+        "font_size": 18,
+        "font_weight": 700,
+        "prominence": 0.5396,
+        "is_content": true,
+        "pos": "NOUN"
+      },
+      {
+        "text": "get",
+        "start": 39.14,
+        "end": 39.54,
+        "font_size": 15,
+        "font_weight": 400,
+        "prominence": 0.4408,
+        "is_content": true,
+        "pos": "VERB"
+      },
+      {
+        "text": "more",
+        "start": 39.54,
+        "end": 39.94,
+        "font_size": 15,
+        "font_weight": 400,
+        "prominence": 0.468,
+        "is_content": true,
+        "pos": "ADV"
+      },
+      {
+        "text": "stringent.",
+        "start": 39.94,
+        "end": 40.62,
+        "font_size": 18,
+        "font_weight": 700,
+        "prominence": 0.5528,
+        "is_content": true,
+        "pos": "ADJ"
+      },
+      {
+        "text": "And",
+        "start": 41.12,
+        "end": 41.48,
+        "font_size": 12,
+        "font_weight": 300,
+        "prominence": 0.443,
+        "is_content": false,
+        "pos": "CCONJ"
+      },
+      {
+        "text": "it's",
+        "start": 41.48,
+        "end": 41.74,
+        "font_size": 12,
+        "font_weight": 300,
+        "prominence": 0.412,
+        "is_content": false,
+        "pos": "PRON"
+      },
+      {
+        "text": "more",
+        "start": 41.74,
+        "end": 42.08,
+        "font_size": 15,
+        "font_weight": 400,
+        "prominence": 0.4508,
+        "is_content": true,
+        "pos": "ADV"
+      },
+      {
+        "text": "difficult",
+        "start": 42.08,
+        "end": 42.56,
+        "font_size": 15,
+        "font_weight": 400,
+        "prominence": 0.4786,
+        "is_content": true,
+        "pos": "ADJ"
+      },
+      {
+        "text": "to",
+        "start": 42.56,
+        "end": 42.92,
+        "font_size": 12,
+        "font_weight": 300,
+        "prominence": 0.4752,
+        "is_content": false,
+        "pos": "PART"
+      },
+      {
+        "text": "create",
+        "start": 42.92,
+        "end": 43.16,
+        "font_size": 15,
+        "font_weight": 400,
+        "prominence": 0.3758,
+        "is_content": true,
+        "pos": "VERB"
+      },
+      {
+        "text": "complexity.",
+        "start": 43.16,
+        "end": 43.96,
+        "font_size": 18,
+        "font_weight": 700,
+        "prominence": 0.6709,
+        "is_content": true,
+        "pos": "NOUN"
+      },
+      {
+        "text": "Now,",
+        "start": 45.06,
+        "end": 45.48,
+        "font_size": 15,
+        "font_weight": 400,
+        "prominence": 0.4202,
+        "is_content": true,
+        "pos": "ADV"
+      },
+      {
+        "text": "we",
+        "start": 45.82,
+        "end": 46.26,
+        "font_size": 12,
+        "font_weight": 300,
+        "prominence": 0.4633,
+        "is_content": false,
+        "pos": "PRON"
+      },
+      {
+        "text": "as",
+        "start": 46.26,
+        "end": 46.72,
+        "font_size": 12,
+        "font_weight": 300,
+        "prominence": 0.4982,
+        "is_content": false,
+        "pos": "ADP"
+      },
+      {
+        "text": "extremely",
+        "start": 46.72,
+        "end": 47.14,
+        "font_size": 15,
+        "font_weight": 400,
+        "prominence": 0.4465,
+        "is_content": true,
+        "pos": "ADV"
+      },
+      {
+        "text": "complex",
+        "start": 47.14,
+        "end": 47.68,
+        "font_size": 15,
+        "font_weight": 400,
+        "prominence": 0.4873,
+        "is_content": true,
+        "pos": "ADJ"
+      },
+      {
+        "text": "creatures",
+        "start": 47.68,
+        "end": 48.26,
+        "font_size": 18,
+        "font_weight": 700,
+        "prominence": 0.5334,
+        "is_content": true,
+        "pos": "NOUN"
+      },
+      {
+        "text": "desperately",
+        "start": 48.84,
+        "end": 49.18,
+        "font_size": 15,
+        "font_weight": 400,
+        "prominence": 0.4073,
+        "is_content": true,
+        "pos": "ADV"
+      },
+      {
+        "text": "need",
+        "start": 49.18,
+        "end": 49.46,
+        "font_size": 15,
+        "font_weight": 400,
+        "prominence": 0.3999,
+        "is_content": true,
+        "pos": "VERB"
+      },
+      {
+        "text": "to",
+        "start": 49.46,
+        "end": 49.66,
+        "font_size": 12,
+        "font_weight": 300,
+        "prominence": 0.4429,
+        "is_content": false,
+        "pos": "PART"
+      },
+      {
+        "text": "know",
+        "start": 49.66,
+        "end": 49.84,
+        "font_size": 15,
+        "font_weight": 400,
+        "prominence": 0.4733,
+        "is_content": true,
+        "pos": "VERB"
+      },
+      {
+        "text": "this",
+        "start": 49.84,
+        "end": 50.16,
+        "font_size": 12,
+        "font_weight": 300,
+        "prominence": 0.4736,
+        "is_content": false,
+        "pos": "DET"
+      },
+      {
+        "text": "story",
+        "start": 50.16,
+        "end": 50.5,
+        "font_size": 15,
+        "font_weight": 400,
+        "prominence": 0.453,
+        "is_content": true,
+        "pos": "NOUN"
+      },
+      {
+        "text": "of",
+        "start": 50.5,
+        "end": 50.86,
+        "font_size": 12,
+        "font_weight": 300,
+        "prominence": 0.4868,
+        "is_content": false,
+        "pos": "ADP"
+      },
+      {
+        "text": "how",
+        "start": 50.86,
+        "end": 51.28,
+        "font_size": 12,
+        "font_weight": 300,
+        "prominence": 0.5389,
+        "is_content": false,
+        "pos": "SCONJ"
+      },
+      {
+        "text": "the",
+        "start": 51.32,
+        "end": 51.54,
+        "font_size": 12,
+        "font_weight": 300,
+        "prominence": 0.3814,
+        "is_content": false,
+        "pos": "DET"
+      },
+      {
+        "text": "universe",
+        "start": 51.54,
+        "end": 51.96,
+        "font_size": 18,
+        "font_weight": 700,
+        "prominence": 0.5878,
+        "is_content": true,
+        "pos": "NOUN"
+      },
+      {
+        "text": "creates",
+        "start": 51.96,
+        "end": 52.34,
+        "font_size": 15,
+        "font_weight": 400,
+        "prominence": 0.4774,
+        "is_content": true,
+        "pos": "VERB"
+      },
+      {
+        "text": "complexity",
+        "start": 52.34,
+        "end": 53.34,
+        "font_size": 18,
+        "font_weight": 700,
+        "prominence": 0.5846,
+        "is_content": true,
+        "pos": "NOUN"
+      },
+      {
+        "text": "despite",
+        "start": 53.34,
+        "end": 54.0,
+        "font_size": 12,
+        "font_weight": 300,
+        "prominence": 0.5168,
+        "is_content": false,
+        "pos": "SCONJ"
+      },
+      {
+        "text": "the",
+        "start": 54.0,
+        "end": 54.32,
+        "font_size": 12,
+        "font_weight": 300,
+        "prominence": 0.4521,
+        "is_content": false,
+        "pos": "DET"
+      },
+      {
+        "text": "second",
+        "start": 54.32,
+        "end": 54.58,
+        "font_size": 15,
+        "font_weight": 400,
+        "prominence": 0.443,
+        "is_content": true,
+        "pos": "ADJ"
+      },
+      {
+        "text": "law,",
+        "start": 54.58,
+        "end": 54.95,
+        "font_size": 15,
+        "font_weight": 400,
+        "prominence": 0.4393,
+        "is_content": true,
+        "pos": "NOUN"
+      },
+      {
+        "text": "and",
+        "start": 54.95,
+        "end": 55.8,
+        "font_size": 12,
+        "font_weight": 300,
+        "prominence": 0.533,
+        "is_content": false,
+        "pos": "CCONJ"
+      },
+      {
+        "text": "why",
+        "start": 55.8,
+        "end": 56.2,
+        "font_size": 12,
+        "font_weight": 300,
+        "prominence": 0.4934,
+        "is_content": false,
+        "pos": "SCONJ"
+      },
+      {
+        "text": "complexity",
+        "start": 56.2,
+        "end": 57.2,
+        "font_size": 18,
+        "font_weight": 700,
+        "prominence": 0.5524,
+        "is_content": true,
+        "pos": "NOUN"
+      },
+      {
+        "text": "means",
+        "start": 57.2,
+        "end": 57.76,
+        "font_size": 15,
+        "font_weight": 400,
+        "prominence": 0.5083,
+        "is_content": true,
+        "pos": "VERB"
+      },
+      {
+        "text": "vulnerability",
+        "start": 57.76,
+        "end": 58.7,
+        "font_size": 18,
+        "font_weight": 700,
+        "prominence": 0.6114,
+        "is_content": true,
+        "pos": "NOUN"
+      },
+      {
+        "text": "and",
+        "start": 58.7,
+        "end": 59.36,
+        "font_size": 12,
+        "font_weight": 300,
+        "prominence": 0.4908,
+        "is_content": false,
+        "pos": "CCONJ"
+      },
+      {
+        "text": "fragility.",
+        "start": 59.36,
+        "end": 59.96,
+        "font_size": 15,
+        "font_weight": 400,
+        "prominence": 0.4762,
+        "is_content": true,
+        "pos": "NOUN"
+      }
+    ]
+  }
+}

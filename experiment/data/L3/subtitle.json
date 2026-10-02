@@ -1,0 +1,5572 @@
+{
+  "conditions": {
+    "normal": [
+      {
+        "text": "that",
+        "start": 0.0,
+        "end": 0.2,
+        "font_size": 18,
+        "font_weight": 400,
+        "prominence": 0.4987,
+        "is_content": false,
+        "pos": "SCONJ"
+      },
+      {
+        "text": "my",
+        "start": 0.2,
+        "end": 0.4,
+        "font_size": 18,
+        "font_weight": 400,
+        "prominence": 0.5951,
+        "is_content": false,
+        "pos": "PRON"
+      },
+      {
+        "text": "staff",
+        "start": 0.4,
+        "end": 0.64,
+        "font_size": 18,
+        "font_weight": 400,
+        "prominence": 0.467,
+        "is_content": true,
+        "pos": "NOUN"
+      },
+      {
+        "text": "was",
+        "start": 0.64,
+        "end": 0.94,
+        "font_size": 18,
+        "font_weight": 400,
+        "prominence": 0.4983,
+        "is_content": false,
+        "pos": "AUX"
+      },
+      {
+        "text": "extremely",
+        "start": 0.94,
+        "end": 2.0,
+        "font_size": 18,
+        "font_weight": 400,
+        "prominence": 0.6646,
+        "is_content": true,
+        "pos": "ADV"
+      },
+      {
+        "text": "upset",
+        "start": 2.0,
+        "end": 2.8,
+        "font_size": 18,
+        "font_weight": 400,
+        "prominence": 0.5568,
+        "is_content": true,
+        "pos": "ADJ"
+      },
+      {
+        "text": "because",
+        "start": 2.8,
+        "end": 3.64,
+        "font_size": 18,
+        "font_weight": 400,
+        "prominence": 0.6393,
+        "is_content": false,
+        "pos": "SCONJ"
+      },
+      {
+        "text": "one",
+        "start": 3.64,
+        "end": 5.44,
+        "font_size": 18,
+        "font_weight": 400,
+        "prominence": 0.5959,
+        "is_content": false,
+        "pos": "NUM"
+      },
+      {
+        "text": "of",
+        "start": 5.44,
+        "end": 5.54,
+        "font_size": 18,
+        "font_weight": 400,
+        "prominence": 0.3702,
+        "is_content": false,
+        "pos": "ADP"
+      },
+      {
+        "text": "the",
+        "start": 5.54,
+        "end": 5.68,
+        "font_size": 18,
+        "font_weight": 400,
+        "prominence": 0.5345,
+        "is_content": false,
+        "pos": "DET"
+      },
+      {
+        "text": "wire",
+        "start": 5.68,
+        "end": 5.94,
+        "font_size": 18,
+        "font_weight": 400,
+        "prominence": 0.6676,
+        "is_content": true,
+        "pos": "NOUN"
+      },
+      {
+        "text": "services",
+        "start": 5.94,
+        "end": 6.48,
+        "font_size": 18,
+        "font_weight": 400,
+        "prominence": 0.6105,
+        "is_content": true,
+        "pos": "NOUN"
+      },
+      {
+        "text": "in",
+        "start": 6.48,
+        "end": 7.16,
+        "font_size": 18,
+        "font_weight": 400,
+        "prominence": 0.4442,
+        "is_content": false,
+        "pos": "ADP"
+      },
+      {
+        "text": "Nigeria",
+        "start": 7.16,
+        "end": 7.64,
+        "font_size": 18,
+        "font_weight": 400,
+        "prominence": 0.5562,
+        "is_content": false,
+        "pos": "PROPN"
+      },
+      {
+        "text": "had",
+        "start": 7.64,
+        "end": 7.88,
+        "font_size": 18,
+        "font_weight": 400,
+        "prominence": 0.4574,
+        "is_content": false,
+        "pos": "AUX"
+      },
+      {
+        "text": "already",
+        "start": 7.88,
+        "end": 8.2,
+        "font_size": 18,
+        "font_weight": 400,
+        "prominence": 0.466,
+        "is_content": true,
+        "pos": "ADV"
+      },
+      {
+        "text": "written",
+        "start": 8.2,
+        "end": 8.46,
+        "font_size": 18,
+        "font_weight": 400,
+        "prominence": 0.4433,
+        "is_content": true,
+        "pos": "VERB"
+      },
+      {
+        "text": "a",
+        "start": 8.46,
+        "end": 8.8,
+        "font_size": 18,
+        "font_weight": 400,
+        "prominence": 0.5171,
+        "is_content": false,
+        "pos": "DET"
+      },
+      {
+        "text": "story",
+        "start": 8.8,
+        "end": 9.14,
+        "font_size": 18,
+        "font_weight": 400,
+        "prominence": 0.4593,
+        "is_content": true,
+        "pos": "NOUN"
+      },
+      {
+        "text": "about",
+        "start": 9.14,
+        "end": 9.52,
+        "font_size": 18,
+        "font_weight": 400,
+        "prominence": 0.4653,
+        "is_content": false,
+        "pos": "ADP"
+      },
+      {
+        "text": "my",
+        "start": 9.52,
+        "end": 9.9,
+        "font_size": 18,
+        "font_weight": 400,
+        "prominence": 0.633,
+        "is_content": false,
+        "pos": "PRON"
+      },
+      {
+        "text": "speech",
+        "start": 9.9,
+        "end": 10.4,
+        "font_size": 18,
+        "font_weight": 400,
+        "prominence": 0.4566,
+        "is_content": true,
+        "pos": "NOUN"
+      },
+      {
+        "text": "and",
+        "start": 10.4,
+        "end": 10.86,
+        "font_size": 18,
+        "font_weight": 400,
+        "prominence": 0.4715,
+        "is_content": false,
+        "pos": "CCONJ"
+      },
+      {
+        "text": "it",
+        "start": 10.86,
+        "end": 11.0,
+        "font_size": 18,
+        "font_weight": 400,
+        "prominence": 0.4224,
+        "is_content": false,
+        "pos": "PRON"
+      },
+      {
+        "text": "had",
+        "start": 11.0,
+        "end": 11.14,
+        "font_size": 18,
+        "font_weight": 400,
+        "prominence": 0.4412,
+        "is_content": false,
+        "pos": "AUX"
+      },
+      {
+        "text": "already",
+        "start": 11.14,
+        "end": 11.38,
+        "font_size": 18,
+        "font_weight": 400,
+        "prominence": 0.4492,
+        "is_content": true,
+        "pos": "ADV"
+      },
+      {
+        "text": "been",
+        "start": 11.38,
+        "end": 11.6,
+        "font_size": 18,
+        "font_weight": 400,
+        "prominence": 0.454,
+        "is_content": false,
+        "pos": "AUX"
+      },
+      {
+        "text": "printed",
+        "start": 11.6,
+        "end": 11.88,
+        "font_size": 18,
+        "font_weight": 400,
+        "prominence": 0.4675,
+        "is_content": true,
+        "pos": "VERB"
+      },
+      {
+        "text": "in",
+        "start": 11.88,
+        "end": 12.1,
+        "font_size": 18,
+        "font_weight": 400,
+        "prominence": 0.5459,
+        "is_content": false,
+        "pos": "ADP"
+      },
+      {
+        "text": "cities",
+        "start": 12.1,
+        "end": 12.4,
+        "font_size": 18,
+        "font_weight": 400,
+        "prominence": 0.472,
+        "is_content": true,
+        "pos": "NOUN"
+      },
+      {
+        "text": "all",
+        "start": 12.4,
+        "end": 12.78,
+        "font_size": 18,
+        "font_weight": 400,
+        "prominence": 0.4386,
+        "is_content": true,
+        "pos": "ADV"
+      },
+      {
+        "text": "across",
+        "start": 12.78,
+        "end": 13.04,
+        "font_size": 18,
+        "font_weight": 400,
+        "prominence": 0.5702,
+        "is_content": false,
+        "pos": "ADP"
+      },
+      {
+        "text": "the",
+        "start": 13.06,
+        "end": 13.22,
+        "font_size": 18,
+        "font_weight": 400,
+        "prominence": 0.3906,
+        "is_content": false,
+        "pos": "DET"
+      },
+      {
+        "text": "United",
+        "start": 13.22,
+        "end": 13.58,
+        "font_size": 18,
+        "font_weight": 400,
+        "prominence": 0.7333,
+        "is_content": false,
+        "pos": "PROPN"
+      },
+      {
+        "text": "States",
+        "start": 13.58,
+        "end": 14.06,
+        "font_size": 18,
+        "font_weight": 400,
+        "prominence": 0.4964,
+        "is_content": false,
+        "pos": "PROPN"
+      },
+      {
+        "text": "of",
+        "start": 14.06,
+        "end": 14.68,
+        "font_size": 18,
+        "font_weight": 400,
+        "prominence": 0.4391,
+        "is_content": false,
+        "pos": "ADP"
+      },
+      {
+        "text": "America's",
+        "start": 14.68,
+        "end": 15.08,
+        "font_size": 18,
+        "font_weight": 400,
+        "prominence": 0.5218,
+        "is_content": false,
+        "pos": "PROPN"
+      },
+      {
+        "text": "printed",
+        "start": 15.08,
+        "end": 15.26,
+        "font_size": 18,
+        "font_weight": 400,
+        "prominence": 0.4155,
+        "is_content": true,
+        "pos": "VERB"
+      },
+      {
+        "text": "in",
+        "start": 15.26,
+        "end": 15.44,
+        "font_size": 18,
+        "font_weight": 400,
+        "prominence": 0.4752,
+        "is_content": false,
+        "pos": "ADP"
+      },
+      {
+        "text": "Monterey.",
+        "start": 15.44,
+        "end": 15.72,
+        "font_size": 18,
+        "font_weight": 400,
+        "prominence": 0.4579,
+        "is_content": false,
+        "pos": "PROPN"
+      },
+      {
+        "text": "I",
+        "start": 16.22,
+        "end": 16.64,
+        "font_size": 18,
+        "font_weight": 400,
+        "prominence": 0.4406,
+        "is_content": false,
+        "pos": "PRON"
+      },
+      {
+        "text": "checked.",
+        "start": 16.64,
+        "end": 16.66,
+        "font_size": 18,
+        "font_weight": 400,
+        "prominence": 0.2703,
+        "is_content": true,
+        "pos": "VERB"
+      },
+      {
+        "text": "And",
+        "start": 18.68,
+        "end": 18.92,
+        "font_size": 18,
+        "font_weight": 400,
+        "prominence": 0.6306,
+        "is_content": false,
+        "pos": "CCONJ"
+      },
+      {
+        "text": "the",
+        "start": 18.92,
+        "end": 19.98,
+        "font_size": 18,
+        "font_weight": 400,
+        "prominence": 0.5822,
+        "is_content": false,
+        "pos": "DET"
+      },
+      {
+        "text": "story",
+        "start": 19.98,
+        "end": 20.24,
+        "font_size": 18,
+        "font_weight": 400,
+        "prominence": 0.4824,
+        "is_content": true,
+        "pos": "NOUN"
+      },
+      {
+        "text": "began,",
+        "start": 20.24,
+        "end": 20.66,
+        "font_size": 18,
+        "font_weight": 400,
+        "prominence": 0.4946,
+        "is_content": true,
+        "pos": "VERB"
+      },
+      {
+        "text": "former",
+        "start": 20.96,
+        "end": 21.32,
+        "font_size": 18,
+        "font_weight": 400,
+        "prominence": 0.4728,
+        "is_content": true,
+        "pos": "ADJ"
+      },
+      {
+        "text": "Vice",
+        "start": 21.32,
+        "end": 21.66,
+        "font_size": 18,
+        "font_weight": 400,
+        "prominence": 0.5627,
+        "is_content": false,
+        "pos": "PROPN"
+      },
+      {
+        "text": "President",
+        "start": 21.66,
+        "end": 21.94,
+        "font_size": 18,
+        "font_weight": 400,
+        "prominence": 0.5105,
+        "is_content": false,
+        "pos": "PROPN"
+      },
+      {
+        "text": "Al",
+        "start": 21.94,
+        "end": 22.22,
+        "font_size": 18,
+        "font_weight": 400,
+        "prominence": 0.4603,
+        "is_content": false,
+        "pos": "PROPN"
+      },
+      {
+        "text": "Gore",
+        "start": 22.22,
+        "end": 22.42,
+        "font_size": 18,
+        "font_weight": 400,
+        "prominence": 0.3692,
+        "is_content": false,
+        "pos": "PROPN"
+      },
+      {
+        "text": "announced",
+        "start": 22.42,
+        "end": 22.94,
+        "font_size": 18,
+        "font_weight": 400,
+        "prominence": 0.7258,
+        "is_content": true,
+        "pos": "VERB"
+      },
+      {
+        "text": "in",
+        "start": 22.94,
+        "end": 23.18,
+        "font_size": 18,
+        "font_weight": 400,
+        "prominence": 0.4288,
+        "is_content": false,
+        "pos": "ADP"
+      },
+      {
+        "text": "Nigeria",
+        "start": 23.18,
+        "end": 23.72,
+        "font_size": 18,
+        "font_weight": 400,
+        "prominence": 0.5702,
+        "is_content": false,
+        "pos": "PROPN"
+      },
+      {
+        "text": "yesterday,",
+        "start": 23.72,
+        "end": 24.3,
+        "font_size": 18,
+        "font_weight": 400,
+        "prominence": 0.5525,
+        "is_content": true,
+        "pos": "NOUN"
+      },
+      {
+        "text": "quote,",
+        "start": 24.48,
+        "end": 24.7,
+        "font_size": 18,
+        "font_weight": 400,
+        "prominence": 0.4209,
+        "is_content": false,
+        "pos": "INTJ"
+      },
+      {
+        "text": "my",
+        "start": 25.34,
+        "end": 25.54,
+        "font_size": 18,
+        "font_weight": 400,
+        "prominence": 0.5808,
+        "is_content": false,
+        "pos": "PRON"
+      },
+      {
+        "text": "wife",
+        "start": 25.54,
+        "end": 25.84,
+        "font_size": 18,
+        "font_weight": 400,
+        "prominence": 0.5291,
+        "is_content": true,
+        "pos": "NOUN"
+      },
+      {
+        "text": "Tipper",
+        "start": 25.84,
+        "end": 26.18,
+        "font_size": 18,
+        "font_weight": 400,
+        "prominence": 0.4761,
+        "is_content": false,
+        "pos": "PROPN"
+      },
+      {
+        "text": "and",
+        "start": 26.18,
+        "end": 26.28,
+        "font_size": 18,
+        "font_weight": 400,
+        "prominence": 0.3802,
+        "is_content": false,
+        "pos": "CCONJ"
+      },
+      {
+        "text": "I",
+        "start": 26.28,
+        "end": 26.52,
+        "font_size": 18,
+        "font_weight": 400,
+        "prominence": 0.6111,
+        "is_content": false,
+        "pos": "PRON"
+      },
+      {
+        "text": "have",
+        "start": 26.52,
+        "end": 26.74,
+        "font_size": 18,
+        "font_weight": 400,
+        "prominence": 0.4194,
+        "is_content": false,
+        "pos": "AUX"
+      },
+      {
+        "text": "opened",
+        "start": 26.74,
+        "end": 27.0,
+        "font_size": 18,
+        "font_weight": 400,
+        "prominence": 0.475,
+        "is_content": true,
+        "pos": "VERB"
+      },
+      {
+        "text": "a",
+        "start": 27.0,
+        "end": 27.22,
+        "font_size": 18,
+        "font_weight": 400,
+        "prominence": 0.4475,
+        "is_content": false,
+        "pos": "DET"
+      },
+      {
+        "text": "low",
+        "start": 27.22,
+        "end": 27.44,
+        "font_size": 18,
+        "font_weight": 400,
+        "prominence": 0.4074,
+        "is_content": true,
+        "pos": "ADJ"
+      },
+      {
+        "text": "cost",
+        "start": 27.44,
+        "end": 27.74,
+        "font_size": 18,
+        "font_weight": 400,
+        "prominence": 0.5543,
+        "is_content": true,
+        "pos": "NOUN"
+      },
+      {
+        "text": "family",
+        "start": 27.74,
+        "end": 28.14,
+        "font_size": 18,
+        "font_weight": 400,
+        "prominence": 0.5275,
+        "is_content": true,
+        "pos": "NOUN"
+      },
+      {
+        "text": "restaurant",
+        "start": 28.14,
+        "end": 29.24,
+        "font_size": 18,
+        "font_weight": 400,
+        "prominence": 0.7003,
+        "is_content": true,
+        "pos": "NOUN"
+      },
+      {
+        "text": "named",
+        "start": 29.24,
+        "end": 30.7,
+        "font_size": 18,
+        "font_weight": 400,
+        "prominence": 0.7019,
+        "is_content": true,
+        "pos": "VERB"
+      },
+      {
+        "text": "Shoney's",
+        "start": 30.7,
+        "end": 31.68,
+        "font_size": 18,
+        "font_weight": 400,
+        "prominence": 0.633,
+        "is_content": false,
+        "pos": "PROPN"
+      },
+      {
+        "text": "and",
+        "start": 31.68,
+        "end": 32.2,
+        "font_size": 18,
+        "font_weight": 400,
+        "prominence": 0.5183,
+        "is_content": false,
+        "pos": "CCONJ"
+      },
+      {
+        "text": "we",
+        "start": 32.2,
+        "end": 32.36,
+        "font_size": 18,
+        "font_weight": 400,
+        "prominence": 0.3771,
+        "is_content": false,
+        "pos": "PRON"
+      },
+      {
+        "text": "are",
+        "start": 32.36,
+        "end": 32.5,
+        "font_size": 18,
+        "font_weight": 400,
+        "prominence": 0.375,
+        "is_content": false,
+        "pos": "AUX"
+      },
+      {
+        "text": "running",
+        "start": 32.5,
+        "end": 32.7,
+        "font_size": 18,
+        "font_weight": 400,
+        "prominence": 0.5163,
+        "is_content": true,
+        "pos": "VERB"
+      },
+      {
+        "text": "it",
+        "start": 32.7,
+        "end": 32.88,
+        "font_size": 18,
+        "font_weight": 400,
+        "prominence": 0.393,
+        "is_content": false,
+        "pos": "PRON"
+      },
+      {
+        "text": "ourselves.",
+        "start": 32.88,
+        "end": 33.5,
+        "font_size": 18,
+        "font_weight": 400,
+        "prominence": 0.6653,
+        "is_content": false,
+        "pos": "PRON"
+      },
+      {
+        "text": "Before",
+        "start": 37.28,
+        "end": 37.62,
+        "font_size": 18,
+        "font_weight": 400,
+        "prominence": 0.4732,
+        "is_content": false,
+        "pos": "SCONJ"
+      },
+      {
+        "text": "I",
+        "start": 37.62,
+        "end": 37.82,
+        "font_size": 18,
+        "font_weight": 400,
+        "prominence": 0.4894,
+        "is_content": false,
+        "pos": "PRON"
+      },
+      {
+        "text": "could",
+        "start": 37.82,
+        "end": 37.98,
+        "font_size": 18,
+        "font_weight": 400,
+        "prominence": 0.4047,
+        "is_content": false,
+        "pos": "AUX"
+      },
+      {
+        "text": "get",
+        "start": 37.98,
+        "end": 38.12,
+        "font_size": 18,
+        "font_weight": 400,
+        "prominence": 0.4719,
+        "is_content": true,
+        "pos": "VERB"
+      },
+      {
+        "text": "back",
+        "start": 38.12,
+        "end": 38.36,
+        "font_size": 18,
+        "font_weight": 400,
+        "prominence": 0.5916,
+        "is_content": true,
+        "pos": "ADV"
+      },
+      {
+        "text": "to",
+        "start": 38.36,
+        "end": 38.54,
+        "font_size": 18,
+        "font_weight": 400,
+        "prominence": 0.3783,
+        "is_content": false,
+        "pos": "ADP"
+      },
+      {
+        "text": "U.S.",
+        "start": 38.54,
+        "end": 38.8,
+        "font_size": 18,
+        "font_weight": 400,
+        "prominence": 0.6119,
+        "is_content": false,
+        "pos": "PROPN"
+      },
+      {
+        "text": "soil,",
+        "start": 38.94,
+        "end": 39.2,
+        "font_size": 18,
+        "font_weight": 400,
+        "prominence": 0.4257,
+        "is_content": true,
+        "pos": "NOUN"
+      },
+      {
+        "text": "David",
+        "start": 39.34,
+        "end": 39.84,
+        "font_size": 18,
+        "font_weight": 400,
+        "prominence": 0.5198,
+        "is_content": false,
+        "pos": "PROPN"
+      },
+      {
+        "text": "Letterman",
+        "start": 39.84,
+        "end": 40.36,
+        "font_size": 18,
+        "font_weight": 400,
+        "prominence": 0.6404,
+        "is_content": false,
+        "pos": "PROPN"
+      },
+      {
+        "text": "and",
+        "start": 40.36,
+        "end": 40.54,
+        "font_size": 18,
+        "font_weight": 400,
+        "prominence": 0.4469,
+        "is_content": false,
+        "pos": "CCONJ"
+      },
+      {
+        "text": "Jay",
+        "start": 40.54,
+        "end": 40.74,
+        "font_size": 18,
+        "font_weight": 400,
+        "prominence": 0.5065,
+        "is_content": false,
+        "pos": "PROPN"
+      },
+      {
+        "text": "Leno",
+        "start": 40.74,
+        "end": 41.02,
+        "font_size": 18,
+        "font_weight": 400,
+        "prominence": 0.4967,
+        "is_content": false,
+        "pos": "PROPN"
+      },
+      {
+        "text": "had",
+        "start": 41.02,
+        "end": 41.42,
+        "font_size": 18,
+        "font_weight": 400,
+        "prominence": 0.5426,
+        "is_content": false,
+        "pos": "AUX"
+      },
+      {
+        "text": "already",
+        "start": 41.42,
+        "end": 42.22,
+        "font_size": 18,
+        "font_weight": 400,
+        "prominence": 0.6745,
+        "is_content": true,
+        "pos": "ADV"
+      },
+      {
+        "text": "started",
+        "start": 42.22,
+        "end": 43.13,
+        "font_size": 18,
+        "font_weight": 400,
+        "prominence": 0.676,
+        "is_content": true,
+        "pos": "VERB"
+      },
+      {
+        "text": "in",
+        "start": 43.13,
+        "end": 43.36,
+        "font_size": 18,
+        "font_weight": 400,
+        "prominence": 0.4034,
+        "is_content": false,
+        "pos": "ADP"
+      },
+      {
+        "text": "on",
+        "start": 43.36,
+        "end": 43.46,
+        "font_size": 18,
+        "font_weight": 400,
+        "prominence": 0.3503,
+        "is_content": false,
+        "pos": "ADP"
+      },
+      {
+        "text": "one",
+        "start": 43.46,
+        "end": 43.58,
+        "font_size": 18,
+        "font_weight": 400,
+        "prominence": 0.3681,
+        "is_content": false,
+        "pos": "NUM"
+      },
+      {
+        "text": "of",
+        "start": 43.58,
+        "end": 43.66,
+        "font_size": 18,
+        "font_weight": 400,
+        "prominence": 0.3048,
+        "is_content": false,
+        "pos": "ADP"
+      },
+      {
+        "text": "them",
+        "start": 43.66,
+        "end": 43.78,
+        "font_size": 18,
+        "font_weight": 400,
+        "prominence": 0.4095,
+        "is_content": false,
+        "pos": "PRON"
+      },
+      {
+        "text": "had",
+        "start": 43.78,
+        "end": 43.96,
+        "font_size": 18,
+        "font_weight": 400,
+        "prominence": 0.5046,
+        "is_content": true,
+        "pos": "VERB"
+      },
+      {
+        "text": "me",
+        "start": 43.96,
+        "end": 44.1,
+        "font_size": 18,
+        "font_weight": 400,
+        "prominence": 0.3643,
+        "is_content": false,
+        "pos": "PRON"
+      },
+      {
+        "text": "in",
+        "start": 44.1,
+        "end": 44.2,
+        "font_size": 18,
+        "font_weight": 400,
+        "prominence": 0.3542,
+        "is_content": false,
+        "pos": "ADP"
+      },
+      {
+        "text": "a",
+        "start": 44.2,
+        "end": 44.28,
+        "font_size": 18,
+        "font_weight": 400,
+        "prominence": 0.3596,
+        "is_content": false,
+        "pos": "DET"
+      },
+      {
+        "text": "big",
+        "start": 44.28,
+        "end": 44.44,
+        "font_size": 18,
+        "font_weight": 400,
+        "prominence": 0.4623,
+        "is_content": true,
+        "pos": "ADJ"
+      },
+      {
+        "text": "white",
+        "start": 44.44,
+        "end": 44.78,
+        "font_size": 18,
+        "font_weight": 400,
+        "prominence": 0.6338,
+        "is_content": true,
+        "pos": "ADJ"
+      },
+      {
+        "text": "chef's",
+        "start": 44.78,
+        "end": 45.3,
+        "font_size": 18,
+        "font_weight": 400,
+        "prominence": 0.6867,
+        "is_content": true,
+        "pos": "NOUN"
+      },
+      {
+        "text": "hat.",
+        "start": 45.3,
+        "end": 45.76,
+        "font_size": 18,
+        "font_weight": 400,
+        "prominence": 0.4636,
+        "is_content": true,
+        "pos": "NOUN"
+      },
+      {
+        "text": "Tipper",
+        "start": 46.68,
+        "end": 46.96,
+        "font_size": 18,
+        "font_weight": 400,
+        "prominence": 0.4276,
+        "is_content": false,
+        "pos": "PROPN"
+      },
+      {
+        "text": "was",
+        "start": 46.96,
+        "end": 47.16,
+        "font_size": 18,
+        "font_weight": 400,
+        "prominence": 0.5105,
+        "is_content": false,
+        "pos": "AUX"
+      },
+      {
+        "text": "saying,",
+        "start": 47.16,
+        "end": 47.38,
+        "font_size": 18,
+        "font_weight": 400,
+        "prominence": 0.4833,
+        "is_content": true,
+        "pos": "VERB"
+      },
+      {
+        "text": "one",
+        "start": 47.42,
+        "end": 47.64,
+        "font_size": 18,
+        "font_weight": 400,
+        "prominence": 0.414,
+        "is_content": false,
+        "pos": "NUM"
+      },
+      {
+        "text": "more",
+        "start": 47.64,
+        "end": 47.86,
+        "font_size": 18,
+        "font_weight": 400,
+        "prominence": 0.421,
+        "is_content": true,
+        "pos": "ADJ"
+      },
+      {
+        "text": "burger",
+        "start": 47.86,
+        "end": 48.2,
+        "font_size": 18,
+        "font_weight": 400,
+        "prominence": 0.4557,
+        "is_content": true,
+        "pos": "NOUN"
+      },
+      {
+        "text": "with",
+        "start": 48.2,
+        "end": 48.4,
+        "font_size": 18,
+        "font_weight": 400,
+        "prominence": 0.476,
+        "is_content": false,
+        "pos": "ADP"
+      },
+      {
+        "text": "fries.",
+        "start": 48.4,
+        "end": 49.02,
+        "font_size": 18,
+        "font_weight": 400,
+        "prominence": 0.7247,
+        "is_content": true,
+        "pos": "NOUN"
+      },
+      {
+        "text": "Three",
+        "start": 50.16,
+        "end": 50.54,
+        "font_size": 18,
+        "font_weight": 400,
+        "prominence": 0.4093,
+        "is_content": false,
+        "pos": "NUM"
+      },
+      {
+        "text": "days",
+        "start": 50.54,
+        "end": 50.94,
+        "font_size": 18,
+        "font_weight": 400,
+        "prominence": 0.6272,
+        "is_content": true,
+        "pos": "NOUN"
+      },
+      {
+        "text": "later,",
+        "start": 50.94,
+        "end": 51.38,
+        "font_size": 18,
+        "font_weight": 400,
+        "prominence": 0.4898,
+        "is_content": true,
+        "pos": "ADV"
+      },
+      {
+        "text": "I",
+        "start": 51.5,
+        "end": 51.64,
+        "font_size": 18,
+        "font_weight": 400,
+        "prominence": 0.4002,
+        "is_content": false,
+        "pos": "PRON"
+      },
+      {
+        "text": "got",
+        "start": 51.64,
+        "end": 51.82,
+        "font_size": 18,
+        "font_weight": 400,
+        "prominence": 0.444,
+        "is_content": true,
+        "pos": "VERB"
+      },
+      {
+        "text": "a",
+        "start": 51.82,
+        "end": 52.08,
+        "font_size": 18,
+        "font_weight": 400,
+        "prominence": 0.5104,
+        "is_content": false,
+        "pos": "DET"
+      },
+      {
+        "text": "nice",
+        "start": 52.08,
+        "end": 52.44,
+        "font_size": 18,
+        "font_weight": 400,
+        "prominence": 0.6416,
+        "is_content": true,
+        "pos": "ADJ"
+      },
+      {
+        "text": "long",
+        "start": 52.44,
+        "end": 53.1,
+        "font_size": 18,
+        "font_weight": 400,
+        "prominence": 0.4972,
+        "is_content": true,
+        "pos": "ADJ"
+      },
+      {
+        "text": "handwritten",
+        "start": 53.1,
+        "end": 53.9,
+        "font_size": 18,
+        "font_weight": 400,
+        "prominence": 0.5295,
+        "is_content": true,
+        "pos": "ADJ"
+      },
+      {
+        "text": "letter",
+        "start": 53.9,
+        "end": 54.18,
+        "font_size": 18,
+        "font_weight": 400,
+        "prominence": 0.4849,
+        "is_content": true,
+        "pos": "NOUN"
+      },
+      {
+        "text": "from",
+        "start": 54.18,
+        "end": 54.44,
+        "font_size": 18,
+        "font_weight": 400,
+        "prominence": 0.4139,
+        "is_content": false,
+        "pos": "ADP"
+      },
+      {
+        "text": "my",
+        "start": 54.44,
+        "end": 54.76,
+        "font_size": 18,
+        "font_weight": 400,
+        "prominence": 0.4926,
+        "is_content": false,
+        "pos": "PRON"
+      },
+      {
+        "text": "friend",
+        "start": 54.76,
+        "end": 55.0,
+        "font_size": 18,
+        "font_weight": 400,
+        "prominence": 0.4569,
+        "is_content": true,
+        "pos": "NOUN"
+      },
+      {
+        "text": "and",
+        "start": 55.0,
+        "end": 55.72,
+        "font_size": 18,
+        "font_weight": 400,
+        "prominence": 0.5104,
+        "is_content": false,
+        "pos": "CCONJ"
+      },
+      {
+        "text": "partner",
+        "start": 55.72,
+        "end": 55.97,
+        "font_size": 18,
+        "font_weight": 400,
+        "prominence": 0.4345,
+        "is_content": true,
+        "pos": "NOUN"
+      },
+      {
+        "text": "and",
+        "start": 55.97,
+        "end": 56.26,
+        "font_size": 18,
+        "font_weight": 400,
+        "prominence": 0.4857,
+        "is_content": false,
+        "pos": "CCONJ"
+      },
+      {
+        "text": "colleague",
+        "start": 56.26,
+        "end": 56.76,
+        "font_size": 18,
+        "font_weight": 400,
+        "prominence": 0.5191,
+        "is_content": true,
+        "pos": "NOUN"
+      },
+      {
+        "text": "Bill",
+        "start": 56.76,
+        "end": 57.12,
+        "font_size": 18,
+        "font_weight": 400,
+        "prominence": 0.4745,
+        "is_content": false,
+        "pos": "PROPN"
+      },
+      {
+        "text": "Clinton",
+        "start": 57.12,
+        "end": 57.42,
+        "font_size": 18,
+        "font_weight": 400,
+        "prominence": 0.5113,
+        "is_content": false,
+        "pos": "PROPN"
+      },
+      {
+        "text": "saying",
+        "start": 57.42,
+        "end": 57.82,
+        "font_size": 18,
+        "font_weight": 400,
+        "prominence": 0.5039,
+        "is_content": true,
+        "pos": "VERB"
+      },
+      {
+        "text": "congratulations",
+        "start": 57.82,
+        "end": 58.86,
+        "font_size": 18,
+        "font_weight": 400,
+        "prominence": 0.6233,
+        "is_content": true,
+        "pos": "NOUN"
+      },
+      {
+        "text": "on",
+        "start": 58.86,
+        "end": 59.08,
+        "font_size": 18,
+        "font_weight": 400,
+        "prominence": 0.3995,
+        "is_content": false,
+        "pos": "ADP"
+      },
+      {
+        "text": "the",
+        "start": 59.08,
+        "end": 59.22,
+        "font_size": 18,
+        "font_weight": 400,
+        "prominence": 0.3802,
+        "is_content": false,
+        "pos": "DET"
+      },
+      {
+        "text": "new",
+        "start": 59.22,
+        "end": 59.44,
+        "font_size": 18,
+        "font_weight": 400,
+        "prominence": 0.4613,
+        "is_content": true,
+        "pos": "ADJ"
+      },
+      {
+        "text": "restaurant",
+        "start": 59.44,
+        "end": 59.98,
+        "font_size": 18,
+        "font_weight": 400,
+        "prominence": 0.6979,
+        "is_content": true,
+        "pos": "NOUN"
+      },
+      {
+        "text": "out.",
+        "start": 59.98,
+        "end": 60.24,
+        "font_size": 18,
+        "font_weight": 400,
+        "prominence": 0.389,
+        "is_content": false,
+        "pos": "ADP"
+      }
+    ],
+    "syntactic": [
+      {
+        "text": "that",
+        "start": 0.0,
+        "end": 0.2,
+        "font_size": 12,
+        "font_weight": 400,
+        "prominence": 0.4987,
+        "is_content": false,
+        "pos": "SCONJ"
+      },
+      {
+        "text": "my",
+        "start": 0.2,
+        "end": 0.4,
+        "font_size": 12,
+        "font_weight": 400,
+        "prominence": 0.5951,
+        "is_content": false,
+        "pos": "PRON"
+      },
+      {
+        "text": "staff",
+        "start": 0.4,
+        "end": 0.64,
+        "font_size": 18,
+        "font_weight": 400,
+        "prominence": 0.467,
+        "is_content": true,
+        "pos": "NOUN"
+      },
+      {
+        "text": "was",
+        "start": 0.64,
+        "end": 0.94,
+        "font_size": 12,
+        "font_weight": 400,
+        "prominence": 0.4983,
+        "is_content": false,
+        "pos": "AUX"
+      },
+      {
+        "text": "extremely",
+        "start": 0.94,
+        "end": 2.0,
+        "font_size": 18,
+        "font_weight": 400,
+        "prominence": 0.6646,
+        "is_content": true,
+        "pos": "ADV"
+      },
+      {
+        "text": "upset",
+        "start": 2.0,
+        "end": 2.8,
+        "font_size": 18,
+        "font_weight": 400,
+        "prominence": 0.5568,
+        "is_content": true,
+        "pos": "ADJ"
+      },
+      {
+        "text": "because",
+        "start": 2.8,
+        "end": 3.64,
+        "font_size": 12,
+        "font_weight": 400,
+        "prominence": 0.6393,
+        "is_content": false,
+        "pos": "SCONJ"
+      },
+      {
+        "text": "one",
+        "start": 3.64,
+        "end": 5.44,
+        "font_size": 12,
+        "font_weight": 400,
+        "prominence": 0.5959,
+        "is_content": false,
+        "pos": "NUM"
+      },
+      {
+        "text": "of",
+        "start": 5.44,
+        "end": 5.54,
+        "font_size": 12,
+        "font_weight": 400,
+        "prominence": 0.3702,
+        "is_content": false,
+        "pos": "ADP"
+      },
+      {
+        "text": "the",
+        "start": 5.54,
+        "end": 5.68,
+        "font_size": 12,
+        "font_weight": 400,
+        "prominence": 0.5345,
+        "is_content": false,
+        "pos": "DET"
+      },
+      {
+        "text": "wire",
+        "start": 5.68,
+        "end": 5.94,
+        "font_size": 18,
+        "font_weight": 400,
+        "prominence": 0.6676,
+        "is_content": true,
+        "pos": "NOUN"
+      },
+      {
+        "text": "services",
+        "start": 5.94,
+        "end": 6.48,
+        "font_size": 18,
+        "font_weight": 400,
+        "prominence": 0.6105,
+        "is_content": true,
+        "pos": "NOUN"
+      },
+      {
+        "text": "in",
+        "start": 6.48,
+        "end": 7.16,
+        "font_size": 12,
+        "font_weight": 400,
+        "prominence": 0.4442,
+        "is_content": false,
+        "pos": "ADP"
+      },
+      {
+        "text": "Nigeria",
+        "start": 7.16,
+        "end": 7.64,
+        "font_size": 12,
+        "font_weight": 400,
+        "prominence": 0.5562,
+        "is_content": false,
+        "pos": "PROPN"
+      },
+      {
+        "text": "had",
+        "start": 7.64,
+        "end": 7.88,
+        "font_size": 12,
+        "font_weight": 400,
+        "prominence": 0.4574,
+        "is_content": false,
+        "pos": "AUX"
+      },
+      {
+        "text": "already",
+        "start": 7.88,
+        "end": 8.2,
+        "font_size": 18,
+        "font_weight": 400,
+        "prominence": 0.466,
+        "is_content": true,
+        "pos": "ADV"
+      },
+      {
+        "text": "written",
+        "start": 8.2,
+        "end": 8.46,
+        "font_size": 18,
+        "font_weight": 400,
+        "prominence": 0.4433,
+        "is_content": true,
+        "pos": "VERB"
+      },
+      {
+        "text": "a",
+        "start": 8.46,
+        "end": 8.8,
+        "font_size": 12,
+        "font_weight": 400,
+        "prominence": 0.5171,
+        "is_content": false,
+        "pos": "DET"
+      },
+      {
+        "text": "story",
+        "start": 8.8,
+        "end": 9.14,
+        "font_size": 18,
+        "font_weight": 400,
+        "prominence": 0.4593,
+        "is_content": true,
+        "pos": "NOUN"
+      },
+      {
+        "text": "about",
+        "start": 9.14,
+        "end": 9.52,
+        "font_size": 12,
+        "font_weight": 400,
+        "prominence": 0.4653,
+        "is_content": false,
+        "pos": "ADP"
+      },
+      {
+        "text": "my",
+        "start": 9.52,
+        "end": 9.9,
+        "font_size": 12,
+        "font_weight": 400,
+        "prominence": 0.633,
+        "is_content": false,
+        "pos": "PRON"
+      },
+      {
+        "text": "speech",
+        "start": 9.9,
+        "end": 10.4,
+        "font_size": 18,
+        "font_weight": 400,
+        "prominence": 0.4566,
+        "is_content": true,
+        "pos": "NOUN"
+      },
+      {
+        "text": "and",
+        "start": 10.4,
+        "end": 10.86,
+        "font_size": 12,
+        "font_weight": 400,
+        "prominence": 0.4715,
+        "is_content": false,
+        "pos": "CCONJ"
+      },
+      {
+        "text": "it",
+        "start": 10.86,
+        "end": 11.0,
+        "font_size": 12,
+        "font_weight": 400,
+        "prominence": 0.4224,
+        "is_content": false,
+        "pos": "PRON"
+      },
+      {
+        "text": "had",
+        "start": 11.0,
+        "end": 11.14,
+        "font_size": 12,
+        "font_weight": 400,
+        "prominence": 0.4412,
+        "is_content": false,
+        "pos": "AUX"
+      },
+      {
+        "text": "already",
+        "start": 11.14,
+        "end": 11.38,
+        "font_size": 18,
+        "font_weight": 400,
+        "prominence": 0.4492,
+        "is_content": true,
+        "pos": "ADV"
+      },
+      {
+        "text": "been",
+        "start": 11.38,
+        "end": 11.6,
+        "font_size": 12,
+        "font_weight": 400,
+        "prominence": 0.454,
+        "is_content": false,
+        "pos": "AUX"
+      },
+      {
+        "text": "printed",
+        "start": 11.6,
+        "end": 11.88,
+        "font_size": 18,
+        "font_weight": 400,
+        "prominence": 0.4675,
+        "is_content": true,
+        "pos": "VERB"
+      },
+      {
+        "text": "in",
+        "start": 11.88,
+        "end": 12.1,
+        "font_size": 12,
+        "font_weight": 400,
+        "prominence": 0.5459,
+        "is_content": false,
+        "pos": "ADP"
+      },
+      {
+        "text": "cities",
+        "start": 12.1,
+        "end": 12.4,
+        "font_size": 18,
+        "font_weight": 400,
+        "prominence": 0.472,
+        "is_content": true,
+        "pos": "NOUN"
+      },
+      {
+        "text": "all",
+        "start": 12.4,
+        "end": 12.78,
+        "font_size": 18,
+        "font_weight": 400,
+        "prominence": 0.4386,
+        "is_content": true,
+        "pos": "ADV"
+      },
+      {
+        "text": "across",
+        "start": 12.78,
+        "end": 13.04,
+        "font_size": 12,
+        "font_weight": 400,
+        "prominence": 0.5702,
+        "is_content": false,
+        "pos": "ADP"
+      },
+      {
+        "text": "the",
+        "start": 13.06,
+        "end": 13.22,
+        "font_size": 12,
+        "font_weight": 400,
+        "prominence": 0.3906,
+        "is_content": false,
+        "pos": "DET"
+      },
+      {
+        "text": "United",
+        "start": 13.22,
+        "end": 13.58,
+        "font_size": 12,
+        "font_weight": 400,
+        "prominence": 0.7333,
+        "is_content": false,
+        "pos": "PROPN"
+      },
+      {
+        "text": "States",
+        "start": 13.58,
+        "end": 14.06,
+        "font_size": 12,
+        "font_weight": 400,
+        "prominence": 0.4964,
+        "is_content": false,
+        "pos": "PROPN"
+      },
+      {
+        "text": "of",
+        "start": 14.06,
+        "end": 14.68,
+        "font_size": 12,
+        "font_weight": 400,
+        "prominence": 0.4391,
+        "is_content": false,
+        "pos": "ADP"
+      },
+      {
+        "text": "America's",
+        "start": 14.68,
+        "end": 15.08,
+        "font_size": 12,
+        "font_weight": 400,
+        "prominence": 0.5218,
+        "is_content": false,
+        "pos": "PROPN"
+      },
+      {
+        "text": "printed",
+        "start": 15.08,
+        "end": 15.26,
+        "font_size": 18,
+        "font_weight": 400,
+        "prominence": 0.4155,
+        "is_content": true,
+        "pos": "VERB"
+      },
+      {
+        "text": "in",
+        "start": 15.26,
+        "end": 15.44,
+        "font_size": 12,
+        "font_weight": 400,
+        "prominence": 0.4752,
+        "is_content": false,
+        "pos": "ADP"
+      },
+      {
+        "text": "Monterey.",
+        "start": 15.44,
+        "end": 15.72,
+        "font_size": 12,
+        "font_weight": 400,
+        "prominence": 0.4579,
+        "is_content": false,
+        "pos": "PROPN"
+      },
+      {
+        "text": "I",
+        "start": 16.22,
+        "end": 16.64,
+        "font_size": 12,
+        "font_weight": 400,
+        "prominence": 0.4406,
+        "is_content": false,
+        "pos": "PRON"
+      },
+      {
+        "text": "checked.",
+        "start": 16.64,
+        "end": 16.66,
+        "font_size": 18,
+        "font_weight": 400,
+        "prominence": 0.2703,
+        "is_content": true,
+        "pos": "VERB"
+      },
+      {
+        "text": "And",
+        "start": 18.68,
+        "end": 18.92,
+        "font_size": 12,
+        "font_weight": 400,
+        "prominence": 0.6306,
+        "is_content": false,
+        "pos": "CCONJ"
+      },
+      {
+        "text": "the",
+        "start": 18.92,
+        "end": 19.98,
+        "font_size": 12,
+        "font_weight": 400,
+        "prominence": 0.5822,
+        "is_content": false,
+        "pos": "DET"
+      },
+      {
+        "text": "story",
+        "start": 19.98,
+        "end": 20.24,
+        "font_size": 18,
+        "font_weight": 400,
+        "prominence": 0.4824,
+        "is_content": true,
+        "pos": "NOUN"
+      },
+      {
+        "text": "began,",
+        "start": 20.24,
+        "end": 20.66,
+        "font_size": 18,
+        "font_weight": 400,
+        "prominence": 0.4946,
+        "is_content": true,
+        "pos": "VERB"
+      },
+      {
+        "text": "former",
+        "start": 20.96,
+        "end": 21.32,
+        "font_size": 18,
+        "font_weight": 400,
+        "prominence": 0.4728,
+        "is_content": true,
+        "pos": "ADJ"
+      },
+      {
+        "text": "Vice",
+        "start": 21.32,
+        "end": 21.66,
+        "font_size": 12,
+        "font_weight": 400,
+        "prominence": 0.5627,
+        "is_content": false,
+        "pos": "PROPN"
+      },
+      {
+        "text": "President",
+        "start": 21.66,
+        "end": 21.94,
+        "font_size": 12,
+        "font_weight": 400,
+        "prominence": 0.5105,
+        "is_content": false,
+        "pos": "PROPN"
+      },
+      {
+        "text": "Al",
+        "start": 21.94,
+        "end": 22.22,
+        "font_size": 12,
+        "font_weight": 400,
+        "prominence": 0.4603,
+        "is_content": false,
+        "pos": "PROPN"
+      },
+      {
+        "text": "Gore",
+        "start": 22.22,
+        "end": 22.42,
+        "font_size": 12,
+        "font_weight": 400,
+        "prominence": 0.3692,
+        "is_content": false,
+        "pos": "PROPN"
+      },
+      {
+        "text": "announced",
+        "start": 22.42,
+        "end": 22.94,
+        "font_size": 18,
+        "font_weight": 400,
+        "prominence": 0.7258,
+        "is_content": true,
+        "pos": "VERB"
+      },
+      {
+        "text": "in",
+        "start": 22.94,
+        "end": 23.18,
+        "font_size": 12,
+        "font_weight": 400,
+        "prominence": 0.4288,
+        "is_content": false,
+        "pos": "ADP"
+      },
+      {
+        "text": "Nigeria",
+        "start": 23.18,
+        "end": 23.72,
+        "font_size": 12,
+        "font_weight": 400,
+        "prominence": 0.5702,
+        "is_content": false,
+        "pos": "PROPN"
+      },
+      {
+        "text": "yesterday,",
+        "start": 23.72,
+        "end": 24.3,
+        "font_size": 18,
+        "font_weight": 400,
+        "prominence": 0.5525,
+        "is_content": true,
+        "pos": "NOUN"
+      },
+      {
+        "text": "quote,",
+        "start": 24.48,
+        "end": 24.7,
+        "font_size": 12,
+        "font_weight": 400,
+        "prominence": 0.4209,
+        "is_content": false,
+        "pos": "INTJ"
+      },
+      {
+        "text": "my",
+        "start": 25.34,
+        "end": 25.54,
+        "font_size": 12,
+        "font_weight": 400,
+        "prominence": 0.5808,
+        "is_content": false,
+        "pos": "PRON"
+      },
+      {
+        "text": "wife",
+        "start": 25.54,
+        "end": 25.84,
+        "font_size": 18,
+        "font_weight": 400,
+        "prominence": 0.5291,
+        "is_content": true,
+        "pos": "NOUN"
+      },
+      {
+        "text": "Tipper",
+        "start": 25.84,
+        "end": 26.18,
+        "font_size": 12,
+        "font_weight": 400,
+        "prominence": 0.4761,
+        "is_content": false,
+        "pos": "PROPN"
+      },
+      {
+        "text": "and",
+        "start": 26.18,
+        "end": 26.28,
+        "font_size": 12,
+        "font_weight": 400,
+        "prominence": 0.3802,
+        "is_content": false,
+        "pos": "CCONJ"
+      },
+      {
+        "text": "I",
+        "start": 26.28,
+        "end": 26.52,
+        "font_size": 12,
+        "font_weight": 400,
+        "prominence": 0.6111,
+        "is_content": false,
+        "pos": "PRON"
+      },
+      {
+        "text": "have",
+        "start": 26.52,
+        "end": 26.74,
+        "font_size": 12,
+        "font_weight": 400,
+        "prominence": 0.4194,
+        "is_content": false,
+        "pos": "AUX"
+      },
+      {
+        "text": "opened",
+        "start": 26.74,
+        "end": 27.0,
+        "font_size": 18,
+        "font_weight": 400,
+        "prominence": 0.475,
+        "is_content": true,
+        "pos": "VERB"
+      },
+      {
+        "text": "a",
+        "start": 27.0,
+        "end": 27.22,
+        "font_size": 12,
+        "font_weight": 400,
+        "prominence": 0.4475,
+        "is_content": false,
+        "pos": "DET"
+      },
+      {
+        "text": "low",
+        "start": 27.22,
+        "end": 27.44,
+        "font_size": 18,
+        "font_weight": 400,
+        "prominence": 0.4074,
+        "is_content": true,
+        "pos": "ADJ"
+      },
+      {
+        "text": "cost",
+        "start": 27.44,
+        "end": 27.74,
+        "font_size": 18,
+        "font_weight": 400,
+        "prominence": 0.5543,
+        "is_content": true,
+        "pos": "NOUN"
+      },
+      {
+        "text": "family",
+        "start": 27.74,
+        "end": 28.14,
+        "font_size": 18,
+        "font_weight": 400,
+        "prominence": 0.5275,
+        "is_content": true,
+        "pos": "NOUN"
+      },
+      {
+        "text": "restaurant",
+        "start": 28.14,
+        "end": 29.24,
+        "font_size": 18,
+        "font_weight": 400,
+        "prominence": 0.7003,
+        "is_content": true,
+        "pos": "NOUN"
+      },
+      {
+        "text": "named",
+        "start": 29.24,
+        "end": 30.7,
+        "font_size": 18,
+        "font_weight": 400,
+        "prominence": 0.7019,
+        "is_content": true,
+        "pos": "VERB"
+      },
+      {
+        "text": "Shoney's",
+        "start": 30.7,
+        "end": 31.68,
+        "font_size": 12,
+        "font_weight": 400,
+        "prominence": 0.633,
+        "is_content": false,
+        "pos": "PROPN"
+      },
+      {
+        "text": "and",
+        "start": 31.68,
+        "end": 32.2,
+        "font_size": 12,
+        "font_weight": 400,
+        "prominence": 0.5183,
+        "is_content": false,
+        "pos": "CCONJ"
+      },
+      {
+        "text": "we",
+        "start": 32.2,
+        "end": 32.36,
+        "font_size": 12,
+        "font_weight": 400,
+        "prominence": 0.3771,
+        "is_content": false,
+        "pos": "PRON"
+      },
+      {
+        "text": "are",
+        "start": 32.36,
+        "end": 32.5,
+        "font_size": 12,
+        "font_weight": 400,
+        "prominence": 0.375,
+        "is_content": false,
+        "pos": "AUX"
+      },
+      {
+        "text": "running",
+        "start": 32.5,
+        "end": 32.7,
+        "font_size": 18,
+        "font_weight": 400,
+        "prominence": 0.5163,
+        "is_content": true,
+        "pos": "VERB"
+      },
+      {
+        "text": "it",
+        "start": 32.7,
+        "end": 32.88,
+        "font_size": 12,
+        "font_weight": 400,
+        "prominence": 0.393,
+        "is_content": false,
+        "pos": "PRON"
+      },
+      {
+        "text": "ourselves.",
+        "start": 32.88,
+        "end": 33.5,
+        "font_size": 12,
+        "font_weight": 400,
+        "prominence": 0.6653,
+        "is_content": false,
+        "pos": "PRON"
+      },
+      {
+        "text": "Before",
+        "start": 37.28,
+        "end": 37.62,
+        "font_size": 12,
+        "font_weight": 400,
+        "prominence": 0.4732,
+        "is_content": false,
+        "pos": "SCONJ"
+      },
+      {
+        "text": "I",
+        "start": 37.62,
+        "end": 37.82,
+        "font_size": 12,
+        "font_weight": 400,
+        "prominence": 0.4894,
+        "is_content": false,
+        "pos": "PRON"
+      },
+      {
+        "text": "could",
+        "start": 37.82,
+        "end": 37.98,
+        "font_size": 12,
+        "font_weight": 400,
+        "prominence": 0.4047,
+        "is_content": false,
+        "pos": "AUX"
+      },
+      {
+        "text": "get",
+        "start": 37.98,
+        "end": 38.12,
+        "font_size": 18,
+        "font_weight": 400,
+        "prominence": 0.4719,
+        "is_content": true,
+        "pos": "VERB"
+      },
+      {
+        "text": "back",
+        "start": 38.12,
+        "end": 38.36,
+        "font_size": 18,
+        "font_weight": 400,
+        "prominence": 0.5916,
+        "is_content": true,
+        "pos": "ADV"
+      },
+      {
+        "text": "to",
+        "start": 38.36,
+        "end": 38.54,
+        "font_size": 12,
+        "font_weight": 400,
+        "prominence": 0.3783,
+        "is_content": false,
+        "pos": "ADP"
+      },
+      {
+        "text": "U.S.",
+        "start": 38.54,
+        "end": 38.8,
+        "font_size": 12,
+        "font_weight": 400,
+        "prominence": 0.6119,
+        "is_content": false,
+        "pos": "PROPN"
+      },
+      {
+        "text": "soil,",
+        "start": 38.94,
+        "end": 39.2,
+        "font_size": 18,
+        "font_weight": 400,
+        "prominence": 0.4257,
+        "is_content": true,
+        "pos": "NOUN"
+      },
+      {
+        "text": "David",
+        "start": 39.34,
+        "end": 39.84,
+        "font_size": 12,
+        "font_weight": 400,
+        "prominence": 0.5198,
+        "is_content": false,
+        "pos": "PROPN"
+      },
+      {
+        "text": "Letterman",
+        "start": 39.84,
+        "end": 40.36,
+        "font_size": 12,
+        "font_weight": 400,
+        "prominence": 0.6404,
+        "is_content": false,
+        "pos": "PROPN"
+      },
+      {
+        "text": "and",
+        "start": 40.36,
+        "end": 40.54,
+        "font_size": 12,
+        "font_weight": 400,
+        "prominence": 0.4469,
+        "is_content": false,
+        "pos": "CCONJ"
+      },
+      {
+        "text": "Jay",
+        "start": 40.54,
+        "end": 40.74,
+        "font_size": 12,
+        "font_weight": 400,
+        "prominence": 0.5065,
+        "is_content": false,
+        "pos": "PROPN"
+      },
+      {
+        "text": "Leno",
+        "start": 40.74,
+        "end": 41.02,
+        "font_size": 12,
+        "font_weight": 400,
+        "prominence": 0.4967,
+        "is_content": false,
+        "pos": "PROPN"
+      },
+      {
+        "text": "had",
+        "start": 41.02,
+        "end": 41.42,
+        "font_size": 12,
+        "font_weight": 400,
+        "prominence": 0.5426,
+        "is_content": false,
+        "pos": "AUX"
+      },
+      {
+        "text": "already",
+        "start": 41.42,
+        "end": 42.22,
+        "font_size": 18,
+        "font_weight": 400,
+        "prominence": 0.6745,
+        "is_content": true,
+        "pos": "ADV"
+      },
+      {
+        "text": "started",
+        "start": 42.22,
+        "end": 43.13,
+        "font_size": 18,
+        "font_weight": 400,
+        "prominence": 0.676,
+        "is_content": true,
+        "pos": "VERB"
+      },
+      {
+        "text": "in",
+        "start": 43.13,
+        "end": 43.36,
+        "font_size": 12,
+        "font_weight": 400,
+        "prominence": 0.4034,
+        "is_content": false,
+        "pos": "ADP"
+      },
+      {
+        "text": "on",
+        "start": 43.36,
+        "end": 43.46,
+        "font_size": 12,
+        "font_weight": 400,
+        "prominence": 0.3503,
+        "is_content": false,
+        "pos": "ADP"
+      },
+      {
+        "text": "one",
+        "start": 43.46,
+        "end": 43.58,
+        "font_size": 12,
+        "font_weight": 400,
+        "prominence": 0.3681,
+        "is_content": false,
+        "pos": "NUM"
+      },
+      {
+        "text": "of",
+        "start": 43.58,
+        "end": 43.66,
+        "font_size": 12,
+        "font_weight": 400,
+        "prominence": 0.3048,
+        "is_content": false,
+        "pos": "ADP"
+      },
+      {
+        "text": "them",
+        "start": 43.66,
+        "end": 43.78,
+        "font_size": 12,
+        "font_weight": 400,
+        "prominence": 0.4095,
+        "is_content": false,
+        "pos": "PRON"
+      },
+      {
+        "text": "had",
+        "start": 43.78,
+        "end": 43.96,
+        "font_size": 18,
+        "font_weight": 400,
+        "prominence": 0.5046,
+        "is_content": true,
+        "pos": "VERB"
+      },
+      {
+        "text": "me",
+        "start": 43.96,
+        "end": 44.1,
+        "font_size": 12,
+        "font_weight": 400,
+        "prominence": 0.3643,
+        "is_content": false,
+        "pos": "PRON"
+      },
+      {
+        "text": "in",
+        "start": 44.1,
+        "end": 44.2,
+        "font_size": 12,
+        "font_weight": 400,
+        "prominence": 0.3542,
+        "is_content": false,
+        "pos": "ADP"
+      },
+      {
+        "text": "a",
+        "start": 44.2,
+        "end": 44.28,
+        "font_size": 12,
+        "font_weight": 400,
+        "prominence": 0.3596,
+        "is_content": false,
+        "pos": "DET"
+      },
+      {
+        "text": "big",
+        "start": 44.28,
+        "end": 44.44,
+        "font_size": 18,
+        "font_weight": 400,
+        "prominence": 0.4623,
+        "is_content": true,
+        "pos": "ADJ"
+      },
+      {
+        "text": "white",
+        "start": 44.44,
+        "end": 44.78,
+        "font_size": 18,
+        "font_weight": 400,
+        "prominence": 0.6338,
+        "is_content": true,
+        "pos": "ADJ"
+      },
+      {
+        "text": "chef's",
+        "start": 44.78,
+        "end": 45.3,
+        "font_size": 18,
+        "font_weight": 400,
+        "prominence": 0.6867,
+        "is_content": true,
+        "pos": "NOUN"
+      },
+      {
+        "text": "hat.",
+        "start": 45.3,
+        "end": 45.76,
+        "font_size": 18,
+        "font_weight": 400,
+        "prominence": 0.4636,
+        "is_content": true,
+        "pos": "NOUN"
+      },
+      {
+        "text": "Tipper",
+        "start": 46.68,
+        "end": 46.96,
+        "font_size": 12,
+        "font_weight": 400,
+        "prominence": 0.4276,
+        "is_content": false,
+        "pos": "PROPN"
+      },
+      {
+        "text": "was",
+        "start": 46.96,
+        "end": 47.16,
+        "font_size": 12,
+        "font_weight": 400,
+        "prominence": 0.5105,
+        "is_content": false,
+        "pos": "AUX"
+      },
+      {
+        "text": "saying,",
+        "start": 47.16,
+        "end": 47.38,
+        "font_size": 18,
+        "font_weight": 400,
+        "prominence": 0.4833,
+        "is_content": true,
+        "pos": "VERB"
+      },
+      {
+        "text": "one",
+        "start": 47.42,
+        "end": 47.64,
+        "font_size": 12,
+        "font_weight": 400,
+        "prominence": 0.414,
+        "is_content": false,
+        "pos": "NUM"
+      },
+      {
+        "text": "more",
+        "start": 47.64,
+        "end": 47.86,
+        "font_size": 18,
+        "font_weight": 400,
+        "prominence": 0.421,
+        "is_content": true,
+        "pos": "ADJ"
+      },
+      {
+        "text": "burger",
+        "start": 47.86,
+        "end": 48.2,
+        "font_size": 18,
+        "font_weight": 400,
+        "prominence": 0.4557,
+        "is_content": true,
+        "pos": "NOUN"
+      },
+      {
+        "text": "with",
+        "start": 48.2,
+        "end": 48.4,
+        "font_size": 12,
+        "font_weight": 400,
+        "prominence": 0.476,
+        "is_content": false,
+        "pos": "ADP"
+      },
+      {
+        "text": "fries.",
+        "start": 48.4,
+        "end": 49.02,
+        "font_size": 18,
+        "font_weight": 400,
+        "prominence": 0.7247,
+        "is_content": true,
+        "pos": "NOUN"
+      },
+      {
+        "text": "Three",
+        "start": 50.16,
+        "end": 50.54,
+        "font_size": 12,
+        "font_weight": 400,
+        "prominence": 0.4093,
+        "is_content": false,
+        "pos": "NUM"
+      },
+      {
+        "text": "days",
+        "start": 50.54,
+        "end": 50.94,
+        "font_size": 18,
+        "font_weight": 400,
+        "prominence": 0.6272,
+        "is_content": true,
+        "pos": "NOUN"
+      },
+      {
+        "text": "later,",
+        "start": 50.94,
+        "end": 51.38,
+        "font_size": 18,
+        "font_weight": 400,
+        "prominence": 0.4898,
+        "is_content": true,
+        "pos": "ADV"
+      },
+      {
+        "text": "I",
+        "start": 51.5,
+        "end": 51.64,
+        "font_size": 12,
+        "font_weight": 400,
+        "prominence": 0.4002,
+        "is_content": false,
+        "pos": "PRON"
+      },
+      {
+        "text": "got",
+        "start": 51.64,
+        "end": 51.82,
+        "font_size": 18,
+        "font_weight": 400,
+        "prominence": 0.444,
+        "is_content": true,
+        "pos": "VERB"
+      },
+      {
+        "text": "a",
+        "start": 51.82,
+        "end": 52.08,
+        "font_size": 12,
+        "font_weight": 400,
+        "prominence": 0.5104,
+        "is_content": false,
+        "pos": "DET"
+      },
+      {
+        "text": "nice",
+        "start": 52.08,
+        "end": 52.44,
+        "font_size": 18,
+        "font_weight": 400,
+        "prominence": 0.6416,
+        "is_content": true,
+        "pos": "ADJ"
+      },
+      {
+        "text": "long",
+        "start": 52.44,
+        "end": 53.1,
+        "font_size": 18,
+        "font_weight": 400,
+        "prominence": 0.4972,
+        "is_content": true,
+        "pos": "ADJ"
+      },
+      {
+        "text": "handwritten",
+        "start": 53.1,
+        "end": 53.9,
+        "font_size": 18,
+        "font_weight": 400,
+        "prominence": 0.5295,
+        "is_content": true,
+        "pos": "ADJ"
+      },
+      {
+        "text": "letter",
+        "start": 53.9,
+        "end": 54.18,
+        "font_size": 18,
+        "font_weight": 400,
+        "prominence": 0.4849,
+        "is_content": true,
+        "pos": "NOUN"
+      },
+      {
+        "text": "from",
+        "start": 54.18,
+        "end": 54.44,
+        "font_size": 12,
+        "font_weight": 400,
+        "prominence": 0.4139,
+        "is_content": false,
+        "pos": "ADP"
+      },
+      {
+        "text": "my",
+        "start": 54.44,
+        "end": 54.76,
+        "font_size": 12,
+        "font_weight": 400,
+        "prominence": 0.4926,
+        "is_content": false,
+        "pos": "PRON"
+      },
+      {
+        "text": "friend",
+        "start": 54.76,
+        "end": 55.0,
+        "font_size": 18,
+        "font_weight": 400,
+        "prominence": 0.4569,
+        "is_content": true,
+        "pos": "NOUN"
+      },
+      {
+        "text": "and",
+        "start": 55.0,
+        "end": 55.72,
+        "font_size": 12,
+        "font_weight": 400,
+        "prominence": 0.5104,
+        "is_content": false,
+        "pos": "CCONJ"
+      },
+      {
+        "text": "partner",
+        "start": 55.72,
+        "end": 55.97,
+        "font_size": 18,
+        "font_weight": 400,
+        "prominence": 0.4345,
+        "is_content": true,
+        "pos": "NOUN"
+      },
+      {
+        "text": "and",
+        "start": 55.97,
+        "end": 56.26,
+        "font_size": 12,
+        "font_weight": 400,
+        "prominence": 0.4857,
+        "is_content": false,
+        "pos": "CCONJ"
+      },
+      {
+        "text": "colleague",
+        "start": 56.26,
+        "end": 56.76,
+        "font_size": 18,
+        "font_weight": 400,
+        "prominence": 0.5191,
+        "is_content": true,
+        "pos": "NOUN"
+      },
+      {
+        "text": "Bill",
+        "start": 56.76,
+        "end": 57.12,
+        "font_size": 12,
+        "font_weight": 400,
+        "prominence": 0.4745,
+        "is_content": false,
+        "pos": "PROPN"
+      },
+      {
+        "text": "Clinton",
+        "start": 57.12,
+        "end": 57.42,
+        "font_size": 12,
+        "font_weight": 400,
+        "prominence": 0.5113,
+        "is_content": false,
+        "pos": "PROPN"
+      },
+      {
+        "text": "saying",
+        "start": 57.42,
+        "end": 57.82,
+        "font_size": 18,
+        "font_weight": 400,
+        "prominence": 0.5039,
+        "is_content": true,
+        "pos": "VERB"
+      },
+      {
+        "text": "congratulations",
+        "start": 57.82,
+        "end": 58.86,
+        "font_size": 18,
+        "font_weight": 400,
+        "prominence": 0.6233,
+        "is_content": true,
+        "pos": "NOUN"
+      },
+      {
+        "text": "on",
+        "start": 58.86,
+        "end": 59.08,
+        "font_size": 12,
+        "font_weight": 400,
+        "prominence": 0.3995,
+        "is_content": false,
+        "pos": "ADP"
+      },
+      {
+        "text": "the",
+        "start": 59.08,
+        "end": 59.22,
+        "font_size": 12,
+        "font_weight": 400,
+        "prominence": 0.3802,
+        "is_content": false,
+        "pos": "DET"
+      },
+      {
+        "text": "new",
+        "start": 59.22,
+        "end": 59.44,
+        "font_size": 18,
+        "font_weight": 400,
+        "prominence": 0.4613,
+        "is_content": true,
+        "pos": "ADJ"
+      },
+      {
+        "text": "restaurant",
+        "start": 59.44,
+        "end": 59.98,
+        "font_size": 18,
+        "font_weight": 400,
+        "prominence": 0.6979,
+        "is_content": true,
+        "pos": "NOUN"
+      },
+      {
+        "text": "out.",
+        "start": 59.98,
+        "end": 60.24,
+        "font_size": 12,
+        "font_weight": 400,
+        "prominence": 0.389,
+        "is_content": false,
+        "pos": "ADP"
+      }
+    ],
+    "prosody": [
+      {
+        "text": "that",
+        "start": 0.0,
+        "end": 0.2,
+        "font_size": 15,
+        "font_weight": 400,
+        "prominence": 0.4987,
+        "is_content": false,
+        "pos": "SCONJ"
+      },
+      {
+        "text": "my",
+        "start": 0.2,
+        "end": 0.4,
+        "font_size": 18,
+        "font_weight": 700,
+        "prominence": 0.5951,
+        "is_content": false,
+        "pos": "PRON"
+      },
+      {
+        "text": "staff",
+        "start": 0.4,
+        "end": 0.64,
+        "font_size": 15,
+        "font_weight": 400,
+        "prominence": 0.467,
+        "is_content": true,
+        "pos": "NOUN"
+      },
+      {
+        "text": "was",
+        "start": 0.64,
+        "end": 0.94,
+        "font_size": 15,
+        "font_weight": 400,
+        "prominence": 0.4983,
+        "is_content": false,
+        "pos": "AUX"
+      },
+      {
+        "text": "extremely",
+        "start": 0.94,
+        "end": 2.0,
+        "font_size": 18,
+        "font_weight": 700,
+        "prominence": 0.6646,
+        "is_content": true,
+        "pos": "ADV"
+      },
+      {
+        "text": "upset",
+        "start": 2.0,
+        "end": 2.8,
+        "font_size": 15,
+        "font_weight": 400,
+        "prominence": 0.5568,
+        "is_content": true,
+        "pos": "ADJ"
+      },
+      {
+        "text": "because",
+        "start": 2.8,
+        "end": 3.64,
+        "font_size": 18,
+        "font_weight": 700,
+        "prominence": 0.6393,
+        "is_content": false,
+        "pos": "SCONJ"
+      },
+      {
+        "text": "one",
+        "start": 3.64,
+        "end": 5.44,
+        "font_size": 18,
+        "font_weight": 700,
+        "prominence": 0.5959,
+        "is_content": false,
+        "pos": "NUM"
+      },
+      {
+        "text": "of",
+        "start": 5.44,
+        "end": 5.54,
+        "font_size": 12,
+        "font_weight": 300,
+        "prominence": 0.3702,
+        "is_content": false,
+        "pos": "ADP"
+      },
+      {
+        "text": "the",
+        "start": 5.54,
+        "end": 5.68,
+        "font_size": 15,
+        "font_weight": 400,
+        "prominence": 0.5345,
+        "is_content": false,
+        "pos": "DET"
+      },
+      {
+        "text": "wire",
+        "start": 5.68,
+        "end": 5.94,
+        "font_size": 18,
+        "font_weight": 700,
+        "prominence": 0.6676,
+        "is_content": true,
+        "pos": "NOUN"
+      },
+      {
+        "text": "services",
+        "start": 5.94,
+        "end": 6.48,
+        "font_size": 18,
+        "font_weight": 700,
+        "prominence": 0.6105,
+        "is_content": true,
+        "pos": "NOUN"
+      },
+      {
+        "text": "in",
+        "start": 6.48,
+        "end": 7.16,
+        "font_size": 12,
+        "font_weight": 300,
+        "prominence": 0.4442,
+        "is_content": false,
+        "pos": "ADP"
+      },
+      {
+        "text": "Nigeria",
+        "start": 7.16,
+        "end": 7.64,
+        "font_size": 15,
+        "font_weight": 400,
+        "prominence": 0.5562,
+        "is_content": false,
+        "pos": "PROPN"
+      },
+      {
+        "text": "had",
+        "start": 7.64,
+        "end": 7.88,
+        "font_size": 15,
+        "font_weight": 400,
+        "prominence": 0.4574,
+        "is_content": false,
+        "pos": "AUX"
+      },
+      {
+        "text": "already",
+        "start": 7.88,
+        "end": 8.2,
+        "font_size": 15,
+        "font_weight": 400,
+        "prominence": 0.466,
+        "is_content": true,
+        "pos": "ADV"
+      },
+      {
+        "text": "written",
+        "start": 8.2,
+        "end": 8.46,
+        "font_size": 12,
+        "font_weight": 300,
+        "prominence": 0.4433,
+        "is_content": true,
+        "pos": "VERB"
+      },
+      {
+        "text": "a",
+        "start": 8.46,
+        "end": 8.8,
+        "font_size": 15,
+        "font_weight": 400,
+        "prominence": 0.5171,
+        "is_content": false,
+        "pos": "DET"
+      },
+      {
+        "text": "story",
+        "start": 8.8,
+        "end": 9.14,
+        "font_size": 15,
+        "font_weight": 400,
+        "prominence": 0.4593,
+        "is_content": true,
+        "pos": "NOUN"
+      },
+      {
+        "text": "about",
+        "start": 9.14,
+        "end": 9.52,
+        "font_size": 15,
+        "font_weight": 400,
+        "prominence": 0.4653,
+        "is_content": false,
+        "pos": "ADP"
+      },
+      {
+        "text": "my",
+        "start": 9.52,
+        "end": 9.9,
+        "font_size": 18,
+        "font_weight": 700,
+        "prominence": 0.633,
+        "is_content": false,
+        "pos": "PRON"
+      },
+      {
+        "text": "speech",
+        "start": 9.9,
+        "end": 10.4,
+        "font_size": 15,
+        "font_weight": 400,
+        "prominence": 0.4566,
+        "is_content": true,
+        "pos": "NOUN"
+      },
+      {
+        "text": "and",
+        "start": 10.4,
+        "end": 10.86,
+        "font_size": 15,
+        "font_weight": 400,
+        "prominence": 0.4715,
+        "is_content": false,
+        "pos": "CCONJ"
+      },
+      {
+        "text": "it",
+        "start": 10.86,
+        "end": 11.0,
+        "font_size": 12,
+        "font_weight": 300,
+        "prominence": 0.4224,
+        "is_content": false,
+        "pos": "PRON"
+      },
+      {
+        "text": "had",
+        "start": 11.0,
+        "end": 11.14,
+        "font_size": 12,
+        "font_weight": 300,
+        "prominence": 0.4412,
+        "is_content": false,
+        "pos": "AUX"
+      },
+      {
+        "text": "already",
+        "start": 11.14,
+        "end": 11.38,
+        "font_size": 12,
+        "font_weight": 300,
+        "prominence": 0.4492,
+        "is_content": true,
+        "pos": "ADV"
+      },
+      {
+        "text": "been",
+        "start": 11.38,
+        "end": 11.6,
+        "font_size": 15,
+        "font_weight": 400,
+        "prominence": 0.454,
+        "is_content": false,
+        "pos": "AUX"
+      },
+      {
+        "text": "printed",
+        "start": 11.6,
+        "end": 11.88,
+        "font_size": 15,
+        "font_weight": 400,
+        "prominence": 0.4675,
+        "is_content": true,
+        "pos": "VERB"
+      },
+      {
+        "text": "in",
+        "start": 11.88,
+        "end": 12.1,
+        "font_size": 15,
+        "font_weight": 400,
+        "prominence": 0.5459,
+        "is_content": false,
+        "pos": "ADP"
+      },
+      {
+        "text": "cities",
+        "start": 12.1,
+        "end": 12.4,
+        "font_size": 15,
+        "font_weight": 400,
+        "prominence": 0.472,
+        "is_content": true,
+        "pos": "NOUN"
+      },
+      {
+        "text": "all",
+        "start": 12.4,
+        "end": 12.78,
+        "font_size": 12,
+        "font_weight": 300,
+        "prominence": 0.4386,
+        "is_content": true,
+        "pos": "ADV"
+      },
+      {
+        "text": "across",
+        "start": 12.78,
+        "end": 13.04,
+        "font_size": 15,
+        "font_weight": 400,
+        "prominence": 0.5702,
+        "is_content": false,
+        "pos": "ADP"
+      },
+      {
+        "text": "the",
+        "start": 13.06,
+        "end": 13.22,
+        "font_size": 12,
+        "font_weight": 300,
+        "prominence": 0.3906,
+        "is_content": false,
+        "pos": "DET"
+      },
+      {
+        "text": "United",
+        "start": 13.22,
+        "end": 13.58,
+        "font_size": 18,
+        "font_weight": 700,
+        "prominence": 0.7333,
+        "is_content": false,
+        "pos": "PROPN"
+      },
+      {
+        "text": "States",
+        "start": 13.58,
+        "end": 14.06,
+        "font_size": 15,
+        "font_weight": 400,
+        "prominence": 0.4964,
+        "is_content": false,
+        "pos": "PROPN"
+      },
+      {
+        "text": "of",
+        "start": 14.06,
+        "end": 14.68,
+        "font_size": 12,
+        "font_weight": 300,
+        "prominence": 0.4391,
+        "is_content": false,
+        "pos": "ADP"
+      },
+      {
+        "text": "America's",
+        "start": 14.68,
+        "end": 15.08,
+        "font_size": 15,
+        "font_weight": 400,
+        "prominence": 0.5218,
+        "is_content": false,
+        "pos": "PROPN"
+      },
+      {
+        "text": "printed",
+        "start": 15.08,
+        "end": 15.26,
+        "font_size": 12,
+        "font_weight": 300,
+        "prominence": 0.4155,
+        "is_content": true,
+        "pos": "VERB"
+      },
+      {
+        "text": "in",
+        "start": 15.26,
+        "end": 15.44,
+        "font_size": 15,
+        "font_weight": 400,
+        "prominence": 0.4752,
+        "is_content": false,
+        "pos": "ADP"
+      },
+      {
+        "text": "Monterey.",
+        "start": 15.44,
+        "end": 15.72,
+        "font_size": 15,
+        "font_weight": 400,
+        "prominence": 0.4579,
+        "is_content": false,
+        "pos": "PROPN"
+      },
+      {
+        "text": "I",
+        "start": 16.22,
+        "end": 16.64,
+        "font_size": 12,
+        "font_weight": 300,
+        "prominence": 0.4406,
+        "is_content": false,
+        "pos": "PRON"
+      },
+      {
+        "text": "checked.",
+        "start": 16.64,
+        "end": 16.66,
+        "font_size": 12,
+        "font_weight": 300,
+        "prominence": 0.2703,
+        "is_content": true,
+        "pos": "VERB"
+      },
+      {
+        "text": "And",
+        "start": 18.68,
+        "end": 18.92,
+        "font_size": 18,
+        "font_weight": 700,
+        "prominence": 0.6306,
+        "is_content": false,
+        "pos": "CCONJ"
+      },
+      {
+        "text": "the",
+        "start": 18.92,
+        "end": 19.98,
+        "font_size": 18,
+        "font_weight": 700,
+        "prominence": 0.5822,
+        "is_content": false,
+        "pos": "DET"
+      },
+      {
+        "text": "story",
+        "start": 19.98,
+        "end": 20.24,
+        "font_size": 15,
+        "font_weight": 400,
+        "prominence": 0.4824,
+        "is_content": true,
+        "pos": "NOUN"
+      },
+      {
+        "text": "began,",
+        "start": 20.24,
+        "end": 20.66,
+        "font_size": 15,
+        "font_weight": 400,
+        "prominence": 0.4946,
+        "is_content": true,
+        "pos": "VERB"
+      },
+      {
+        "text": "former",
+        "start": 20.96,
+        "end": 21.32,
+        "font_size": 15,
+        "font_weight": 400,
+        "prominence": 0.4728,
+        "is_content": true,
+        "pos": "ADJ"
+      },
+      {
+        "text": "Vice",
+        "start": 21.32,
+        "end": 21.66,
+        "font_size": 15,
+        "font_weight": 400,
+        "prominence": 0.5627,
+        "is_content": false,
+        "pos": "PROPN"
+      },
+      {
+        "text": "President",
+        "start": 21.66,
+        "end": 21.94,
+        "font_size": 15,
+        "font_weight": 400,
+        "prominence": 0.5105,
+        "is_content": false,
+        "pos": "PROPN"
+      },
+      {
+        "text": "Al",
+        "start": 21.94,
+        "end": 22.22,
+        "font_size": 15,
+        "font_weight": 400,
+        "prominence": 0.4603,
+        "is_content": false,
+        "pos": "PROPN"
+      },
+      {
+        "text": "Gore",
+        "start": 22.22,
+        "end": 22.42,
+        "font_size": 12,
+        "font_weight": 300,
+        "prominence": 0.3692,
+        "is_content": false,
+        "pos": "PROPN"
+      },
+      {
+        "text": "announced",
+        "start": 22.42,
+        "end": 22.94,
+        "font_size": 18,
+        "font_weight": 700,
+        "prominence": 0.7258,
+        "is_content": true,
+        "pos": "VERB"
+      },
+      {
+        "text": "in",
+        "start": 22.94,
+        "end": 23.18,
+        "font_size": 12,
+        "font_weight": 300,
+        "prominence": 0.4288,
+        "is_content": false,
+        "pos": "ADP"
+      },
+      {
+        "text": "Nigeria",
+        "start": 23.18,
+        "end": 23.72,
+        "font_size": 15,
+        "font_weight": 400,
+        "prominence": 0.5702,
+        "is_content": false,
+        "pos": "PROPN"
+      },
+      {
+        "text": "yesterday,",
+        "start": 23.72,
+        "end": 24.3,
+        "font_size": 15,
+        "font_weight": 400,
+        "prominence": 0.5525,
+        "is_content": true,
+        "pos": "NOUN"
+      },
+      {
+        "text": "quote,",
+        "start": 24.48,
+        "end": 24.7,
+        "font_size": 12,
+        "font_weight": 300,
+        "prominence": 0.4209,
+        "is_content": false,
+        "pos": "INTJ"
+      },
+      {
+        "text": "my",
+        "start": 25.34,
+        "end": 25.54,
+        "font_size": 18,
+        "font_weight": 700,
+        "prominence": 0.5808,
+        "is_content": false,
+        "pos": "PRON"
+      },
+      {
+        "text": "wife",
+        "start": 25.54,
+        "end": 25.84,
+        "font_size": 15,
+        "font_weight": 400,
+        "prominence": 0.5291,
+        "is_content": true,
+        "pos": "NOUN"
+      },
+      {
+        "text": "Tipper",
+        "start": 25.84,
+        "end": 26.18,
+        "font_size": 15,
+        "font_weight": 400,
+        "prominence": 0.4761,
+        "is_content": false,
+        "pos": "PROPN"
+      },
+      {
+        "text": "and",
+        "start": 26.18,
+        "end": 26.28,
+        "font_size": 12,
+        "font_weight": 300,
+        "prominence": 0.3802,
+        "is_content": false,
+        "pos": "CCONJ"
+      },
+      {
+        "text": "I",
+        "start": 26.28,
+        "end": 26.52,
+        "font_size": 18,
+        "font_weight": 700,
+        "prominence": 0.6111,
+        "is_content": false,
+        "pos": "PRON"
+      },
+      {
+        "text": "have",
+        "start": 26.52,
+        "end": 26.74,
+        "font_size": 12,
+        "font_weight": 300,
+        "prominence": 0.4194,
+        "is_content": false,
+        "pos": "AUX"
+      },
+      {
+        "text": "opened",
+        "start": 26.74,
+        "end": 27.0,
+        "font_size": 15,
+        "font_weight": 400,
+        "prominence": 0.475,
+        "is_content": true,
+        "pos": "VERB"
+      },
+      {
+        "text": "a",
+        "start": 27.0,
+        "end": 27.22,
+        "font_size": 12,
+        "font_weight": 300,
+        "prominence": 0.4475,
+        "is_content": false,
+        "pos": "DET"
+      },
+      {
+        "text": "low",
+        "start": 27.22,
+        "end": 27.44,
+        "font_size": 12,
+        "font_weight": 300,
+        "prominence": 0.4074,
+        "is_content": true,
+        "pos": "ADJ"
+      },
+      {
+        "text": "cost",
+        "start": 27.44,
+        "end": 27.74,
+        "font_size": 15,
+        "font_weight": 400,
+        "prominence": 0.5543,
+        "is_content": true,
+        "pos": "NOUN"
+      },
+      {
+        "text": "family",
+        "start": 27.74,
+        "end": 28.14,
+        "font_size": 15,
+        "font_weight": 400,
+        "prominence": 0.5275,
+        "is_content": true,
+        "pos": "NOUN"
+      },
+      {
+        "text": "restaurant",
+        "start": 28.14,
+        "end": 29.24,
+        "font_size": 18,
+        "font_weight": 700,
+        "prominence": 0.7003,
+        "is_content": true,
+        "pos": "NOUN"
+      },
+      {
+        "text": "named",
+        "start": 29.24,
+        "end": 30.7,
+        "font_size": 18,
+        "font_weight": 700,
+        "prominence": 0.7019,
+        "is_content": true,
+        "pos": "VERB"
+      },
+      {
+        "text": "Shoney's",
+        "start": 30.7,
+        "end": 31.68,
+        "font_size": 18,
+        "font_weight": 700,
+        "prominence": 0.633,
+        "is_content": false,
+        "pos": "PROPN"
+      },
+      {
+        "text": "and",
+        "start": 31.68,
+        "end": 32.2,
+        "font_size": 15,
+        "font_weight": 400,
+        "prominence": 0.5183,
+        "is_content": false,
+        "pos": "CCONJ"
+      },
+      {
+        "text": "we",
+        "start": 32.2,
+        "end": 32.36,
+        "font_size": 12,
+        "font_weight": 300,
+        "prominence": 0.3771,
+        "is_content": false,
+        "pos": "PRON"
+      },
+      {
+        "text": "are",
+        "start": 32.36,
+        "end": 32.5,
+        "font_size": 12,
+        "font_weight": 300,
+        "prominence": 0.375,
+        "is_content": false,
+        "pos": "AUX"
+      },
+      {
+        "text": "running",
+        "start": 32.5,
+        "end": 32.7,
+        "font_size": 15,
+        "font_weight": 400,
+        "prominence": 0.5163,
+        "is_content": true,
+        "pos": "VERB"
+      },
+      {
+        "text": "it",
+        "start": 32.7,
+        "end": 32.88,
+        "font_size": 12,
+        "font_weight": 300,
+        "prominence": 0.393,
+        "is_content": false,
+        "pos": "PRON"
+      },
+      {
+        "text": "ourselves.",
+        "start": 32.88,
+        "end": 33.5,
+        "font_size": 18,
+        "font_weight": 700,
+        "prominence": 0.6653,
+        "is_content": false,
+        "pos": "PRON"
+      },
+      {
+        "text": "Before",
+        "start": 37.28,
+        "end": 37.62,
+        "font_size": 15,
+        "font_weight": 400,
+        "prominence": 0.4732,
+        "is_content": false,
+        "pos": "SCONJ"
+      },
+      {
+        "text": "I",
+        "start": 37.62,
+        "end": 37.82,
+        "font_size": 15,
+        "font_weight": 400,
+        "prominence": 0.4894,
+        "is_content": false,
+        "pos": "PRON"
+      },
+      {
+        "text": "could",
+        "start": 37.82,
+        "end": 37.98,
+        "font_size": 12,
+        "font_weight": 300,
+        "prominence": 0.4047,
+        "is_content": false,
+        "pos": "AUX"
+      },
+      {
+        "text": "get",
+        "start": 37.98,
+        "end": 38.12,
+        "font_size": 15,
+        "font_weight": 400,
+        "prominence": 0.4719,
+        "is_content": true,
+        "pos": "VERB"
+      },
+      {
+        "text": "back",
+        "start": 38.12,
+        "end": 38.36,
+        "font_size": 18,
+        "font_weight": 700,
+        "prominence": 0.5916,
+        "is_content": true,
+        "pos": "ADV"
+      },
+      {
+        "text": "to",
+        "start": 38.36,
+        "end": 38.54,
+        "font_size": 12,
+        "font_weight": 300,
+        "prominence": 0.3783,
+        "is_content": false,
+        "pos": "ADP"
+      },
+      {
+        "text": "U.S.",
+        "start": 38.54,
+        "end": 38.8,
+        "font_size": 18,
+        "font_weight": 700,
+        "prominence": 0.6119,
+        "is_content": false,
+        "pos": "PROPN"
+      },
+      {
+        "text": "soil,",
+        "start": 38.94,
+        "end": 39.2,
+        "font_size": 12,
+        "font_weight": 300,
+        "prominence": 0.4257,
+        "is_content": true,
+        "pos": "NOUN"
+      },
+      {
+        "text": "David",
+        "start": 39.34,
+        "end": 39.84,
+        "font_size": 15,
+        "font_weight": 400,
+        "prominence": 0.5198,
+        "is_content": false,
+        "pos": "PROPN"
+      },
+      {
+        "text": "Letterman",
+        "start": 39.84,
+        "end": 40.36,
+        "font_size": 18,
+        "font_weight": 700,
+        "prominence": 0.6404,
+        "is_content": false,
+        "pos": "PROPN"
+      },
+      {
+        "text": "and",
+        "start": 40.36,
+        "end": 40.54,
+        "font_size": 12,
+        "font_weight": 300,
+        "prominence": 0.4469,
+        "is_content": false,
+        "pos": "CCONJ"
+      },
+      {
+        "text": "Jay",
+        "start": 40.54,
+        "end": 40.74,
+        "font_size": 15,
+        "font_weight": 400,
+        "prominence": 0.5065,
+        "is_content": false,
+        "pos": "PROPN"
+      },
+      {
+        "text": "Leno",
+        "start": 40.74,
+        "end": 41.02,
+        "font_size": 15,
+        "font_weight": 400,
+        "prominence": 0.4967,
+        "is_content": false,
+        "pos": "PROPN"
+      },
+      {
+        "text": "had",
+        "start": 41.02,
+        "end": 41.42,
+        "font_size": 15,
+        "font_weight": 400,
+        "prominence": 0.5426,
+        "is_content": false,
+        "pos": "AUX"
+      },
+      {
+        "text": "already",
+        "start": 41.42,
+        "end": 42.22,
+        "font_size": 18,
+        "font_weight": 700,
+        "prominence": 0.6745,
+        "is_content": true,
+        "pos": "ADV"
+      },
+      {
+        "text": "started",
+        "start": 42.22,
+        "end": 43.13,
+        "font_size": 18,
+        "font_weight": 700,
+        "prominence": 0.676,
+        "is_content": true,
+        "pos": "VERB"
+      },
+      {
+        "text": "in",
+        "start": 43.13,
+        "end": 43.36,
+        "font_size": 12,
+        "font_weight": 300,
+        "prominence": 0.4034,
+        "is_content": false,
+        "pos": "ADP"
+      },
+      {
+        "text": "on",
+        "start": 43.36,
+        "end": 43.46,
+        "font_size": 12,
+        "font_weight": 300,
+        "prominence": 0.3503,
+        "is_content": false,
+        "pos": "ADP"
+      },
+      {
+        "text": "one",
+        "start": 43.46,
+        "end": 43.58,
+        "font_size": 12,
+        "font_weight": 300,
+        "prominence": 0.3681,
+        "is_content": false,
+        "pos": "NUM"
+      },
+      {
+        "text": "of",
+        "start": 43.58,
+        "end": 43.66,
+        "font_size": 12,
+        "font_weight": 300,
+        "prominence": 0.3048,
+        "is_content": false,
+        "pos": "ADP"
+      },
+      {
+        "text": "them",
+        "start": 43.66,
+        "end": 43.78,
+        "font_size": 12,
+        "font_weight": 300,
+        "prominence": 0.4095,
+        "is_content": false,
+        "pos": "PRON"
+      },
+      {
+        "text": "had",
+        "start": 43.78,
+        "end": 43.96,
+        "font_size": 15,
+        "font_weight": 400,
+        "prominence": 0.5046,
+        "is_content": true,
+        "pos": "VERB"
+      },
+      {
+        "text": "me",
+        "start": 43.96,
+        "end": 44.1,
+        "font_size": 12,
+        "font_weight": 300,
+        "prominence": 0.3643,
+        "is_content": false,
+        "pos": "PRON"
+      },
+      {
+        "text": "in",
+        "start": 44.1,
+        "end": 44.2,
+        "font_size": 12,
+        "font_weight": 300,
+        "prominence": 0.3542,
+        "is_content": false,
+        "pos": "ADP"
+      },
+      {
+        "text": "a",
+        "start": 44.2,
+        "end": 44.28,
+        "font_size": 12,
+        "font_weight": 300,
+        "prominence": 0.3596,
+        "is_content": false,
+        "pos": "DET"
+      },
+      {
+        "text": "big",
+        "start": 44.28,
+        "end": 44.44,
+        "font_size": 15,
+        "font_weight": 400,
+        "prominence": 0.4623,
+        "is_content": true,
+        "pos": "ADJ"
+      },
+      {
+        "text": "white",
+        "start": 44.44,
+        "end": 44.78,
+        "font_size": 18,
+        "font_weight": 700,
+        "prominence": 0.6338,
+        "is_content": true,
+        "pos": "ADJ"
+      },
+      {
+        "text": "chef's",
+        "start": 44.78,
+        "end": 45.3,
+        "font_size": 18,
+        "font_weight": 700,
+        "prominence": 0.6867,
+        "is_content": true,
+        "pos": "NOUN"
+      },
+      {
+        "text": "hat.",
+        "start": 45.3,
+        "end": 45.76,
+        "font_size": 15,
+        "font_weight": 400,
+        "prominence": 0.4636,
+        "is_content": true,
+        "pos": "NOUN"
+      },
+      {
+        "text": "Tipper",
+        "start": 46.68,
+        "end": 46.96,
+        "font_size": 12,
+        "font_weight": 300,
+        "prominence": 0.4276,
+        "is_content": false,
+        "pos": "PROPN"
+      },
+      {
+        "text": "was",
+        "start": 46.96,
+        "end": 47.16,
+        "font_size": 15,
+        "font_weight": 400,
+        "prominence": 0.5105,
+        "is_content": false,
+        "pos": "AUX"
+      },
+      {
+        "text": "saying,",
+        "start": 47.16,
+        "end": 47.38,
+        "font_size": 15,
+        "font_weight": 400,
+        "prominence": 0.4833,
+        "is_content": true,
+        "pos": "VERB"
+      },
+      {
+        "text": "one",
+        "start": 47.42,
+        "end": 47.64,
+        "font_size": 12,
+        "font_weight": 300,
+        "prominence": 0.414,
+        "is_content": false,
+        "pos": "NUM"
+      },
+      {
+        "text": "more",
+        "start": 47.64,
+        "end": 47.86,
+        "font_size": 12,
+        "font_weight": 300,
+        "prominence": 0.421,
+        "is_content": true,
+        "pos": "ADJ"
+      },
+      {
+        "text": "burger",
+        "start": 47.86,
+        "end": 48.2,
+        "font_size": 15,
+        "font_weight": 400,
+        "prominence": 0.4557,
+        "is_content": true,
+        "pos": "NOUN"
+      },
+      {
+        "text": "with",
+        "start": 48.2,
+        "end": 48.4,
+        "font_size": 15,
+        "font_weight": 400,
+        "prominence": 0.476,
+        "is_content": false,
+        "pos": "ADP"
+      },
+      {
+        "text": "fries.",
+        "start": 48.4,
+        "end": 49.02,
+        "font_size": 18,
+        "font_weight": 700,
+        "prominence": 0.7247,
+        "is_content": true,
+        "pos": "NOUN"
+      },
+      {
+        "text": "Three",
+        "start": 50.16,
+        "end": 50.54,
+        "font_size": 12,
+        "font_weight": 300,
+        "prominence": 0.4093,
+        "is_content": false,
+        "pos": "NUM"
+      },
+      {
+        "text": "days",
+        "start": 50.54,
+        "end": 50.94,
+        "font_size": 18,
+        "font_weight": 700,
+        "prominence": 0.6272,
+        "is_content": true,
+        "pos": "NOUN"
+      },
+      {
+        "text": "later,",
+        "start": 50.94,
+        "end": 51.38,
+        "font_size": 15,
+        "font_weight": 400,
+        "prominence": 0.4898,
+        "is_content": true,
+        "pos": "ADV"
+      },
+      {
+        "text": "I",
+        "start": 51.5,
+        "end": 51.64,
+        "font_size": 12,
+        "font_weight": 300,
+        "prominence": 0.4002,
+        "is_content": false,
+        "pos": "PRON"
+      },
+      {
+        "text": "got",
+        "start": 51.64,
+        "end": 51.82,
+        "font_size": 12,
+        "font_weight": 300,
+        "prominence": 0.444,
+        "is_content": true,
+        "pos": "VERB"
+      },
+      {
+        "text": "a",
+        "start": 51.82,
+        "end": 52.08,
+        "font_size": 15,
+        "font_weight": 400,
+        "prominence": 0.5104,
+        "is_content": false,
+        "pos": "DET"
+      },
+      {
+        "text": "nice",
+        "start": 52.08,
+        "end": 52.44,
+        "font_size": 18,
+        "font_weight": 700,
+        "prominence": 0.6416,
+        "is_content": true,
+        "pos": "ADJ"
+      },
+      {
+        "text": "long",
+        "start": 52.44,
+        "end": 53.1,
+        "font_size": 15,
+        "font_weight": 400,
+        "prominence": 0.4972,
+        "is_content": true,
+        "pos": "ADJ"
+      },
+      {
+        "text": "handwritten",
+        "start": 53.1,
+        "end": 53.9,
+        "font_size": 15,
+        "font_weight": 400,
+        "prominence": 0.5295,
+        "is_content": true,
+        "pos": "ADJ"
+      },
+      {
+        "text": "letter",
+        "start": 53.9,
+        "end": 54.18,
+        "font_size": 15,
+        "font_weight": 400,
+        "prominence": 0.4849,
+        "is_content": true,
+        "pos": "NOUN"
+      },
+      {
+        "text": "from",
+        "start": 54.18,
+        "end": 54.44,
+        "font_size": 12,
+        "font_weight": 300,
+        "prominence": 0.4139,
+        "is_content": false,
+        "pos": "ADP"
+      },
+      {
+        "text": "my",
+        "start": 54.44,
+        "end": 54.76,
+        "font_size": 15,
+        "font_weight": 400,
+        "prominence": 0.4926,
+        "is_content": false,
+        "pos": "PRON"
+      },
+      {
+        "text": "friend",
+        "start": 54.76,
+        "end": 55.0,
+        "font_size": 15,
+        "font_weight": 400,
+        "prominence": 0.4569,
+        "is_content": true,
+        "pos": "NOUN"
+      },
+      {
+        "text": "and",
+        "start": 55.0,
+        "end": 55.72,
+        "font_size": 15,
+        "font_weight": 400,
+        "prominence": 0.5104,
+        "is_content": false,
+        "pos": "CCONJ"
+      },
+      {
+        "text": "partner",
+        "start": 55.72,
+        "end": 55.97,
+        "font_size": 12,
+        "font_weight": 300,
+        "prominence": 0.4345,
+        "is_content": true,
+        "pos": "NOUN"
+      },
+      {
+        "text": "and",
+        "start": 55.97,
+        "end": 56.26,
+        "font_size": 15,
+        "font_weight": 400,
+        "prominence": 0.4857,
+        "is_content": false,
+        "pos": "CCONJ"
+      },
+      {
+        "text": "colleague",
+        "start": 56.26,
+        "end": 56.76,
+        "font_size": 15,
+        "font_weight": 400,
+        "prominence": 0.5191,
+        "is_content": true,
+        "pos": "NOUN"
+      },
+      {
+        "text": "Bill",
+        "start": 56.76,
+        "end": 57.12,
+        "font_size": 15,
+        "font_weight": 400,
+        "prominence": 0.4745,
+        "is_content": false,
+        "pos": "PROPN"
+      },
+      {
+        "text": "Clinton",
+        "start": 57.12,
+        "end": 57.42,
+        "font_size": 15,
+        "font_weight": 400,
+        "prominence": 0.5113,
+        "is_content": false,
+        "pos": "PROPN"
+      },
+      {
+        "text": "saying",
+        "start": 57.42,
+        "end": 57.82,
+        "font_size": 15,
+        "font_weight": 400,
+        "prominence": 0.5039,
+        "is_content": true,
+        "pos": "VERB"
+      },
+      {
+        "text": "congratulations",
+        "start": 57.82,
+        "end": 58.86,
+        "font_size": 18,
+        "font_weight": 700,
+        "prominence": 0.6233,
+        "is_content": true,
+        "pos": "NOUN"
+      },
+      {
+        "text": "on",
+        "start": 58.86,
+        "end": 59.08,
+        "font_size": 12,
+        "font_weight": 300,
+        "prominence": 0.3995,
+        "is_content": false,
+        "pos": "ADP"
+      },
+      {
+        "text": "the",
+        "start": 59.08,
+        "end": 59.22,
+        "font_size": 12,
+        "font_weight": 300,
+        "prominence": 0.3802,
+        "is_content": false,
+        "pos": "DET"
+      },
+      {
+        "text": "new",
+        "start": 59.22,
+        "end": 59.44,
+        "font_size": 15,
+        "font_weight": 400,
+        "prominence": 0.4613,
+        "is_content": true,
+        "pos": "ADJ"
+      },
+      {
+        "text": "restaurant",
+        "start": 59.44,
+        "end": 59.98,
+        "font_size": 18,
+        "font_weight": 700,
+        "prominence": 0.6979,
+        "is_content": true,
+        "pos": "NOUN"
+      },
+      {
+        "text": "out.",
+        "start": 59.98,
+        "end": 60.24,
+        "font_size": 12,
+        "font_weight": 300,
+        "prominence": 0.389,
+        "is_content": false,
+        "pos": "ADP"
+      }
+    ],
+    "syn_prosody": [
+      {
+        "text": "that",
+        "start": 0.0,
+        "end": 0.2,
+        "font_size": 12,
+        "font_weight": 300,
+        "prominence": 0.4987,
+        "is_content": false,
+        "pos": "SCONJ"
+      },
+      {
+        "text": "my",
+        "start": 0.2,
+        "end": 0.4,
+        "font_size": 12,
+        "font_weight": 300,
+        "prominence": 0.5951,
+        "is_content": false,
+        "pos": "PRON"
+      },
+      {
+        "text": "staff",
+        "start": 0.4,
+        "end": 0.64,
+        "font_size": 15,
+        "font_weight": 400,
+        "prominence": 0.467,
+        "is_content": true,
+        "pos": "NOUN"
+      },
+      {
+        "text": "was",
+        "start": 0.64,
+        "end": 0.94,
+        "font_size": 12,
+        "font_weight": 300,
+        "prominence": 0.4983,
+        "is_content": false,
+        "pos": "AUX"
+      },
+      {
+        "text": "extremely",
+        "start": 0.94,
+        "end": 2.0,
+        "font_size": 18,
+        "font_weight": 700,
+        "prominence": 0.6646,
+        "is_content": true,
+        "pos": "ADV"
+      },
+      {
+        "text": "upset",
+        "start": 2.0,
+        "end": 2.8,
+        "font_size": 15,
+        "font_weight": 400,
+        "prominence": 0.5568,
+        "is_content": true,
+        "pos": "ADJ"
+      },
+      {
+        "text": "because",
+        "start": 2.8,
+        "end": 3.64,
+        "font_size": 12,
+        "font_weight": 300,
+        "prominence": 0.6393,
+        "is_content": false,
+        "pos": "SCONJ"
+      },
+      {
+        "text": "one",
+        "start": 3.64,
+        "end": 5.44,
+        "font_size": 12,
+        "font_weight": 300,
+        "prominence": 0.5959,
+        "is_content": false,
+        "pos": "NUM"
+      },
+      {
+        "text": "of",
+        "start": 5.44,
+        "end": 5.54,
+        "font_size": 12,
+        "font_weight": 300,
+        "prominence": 0.3702,
+        "is_content": false,
+        "pos": "ADP"
+      },
+      {
+        "text": "the",
+        "start": 5.54,
+        "end": 5.68,
+        "font_size": 12,
+        "font_weight": 300,
+        "prominence": 0.5345,
+        "is_content": false,
+        "pos": "DET"
+      },
+      {
+        "text": "wire",
+        "start": 5.68,
+        "end": 5.94,
+        "font_size": 18,
+        "font_weight": 700,
+        "prominence": 0.6676,
+        "is_content": true,
+        "pos": "NOUN"
+      },
+      {
+        "text": "services",
+        "start": 5.94,
+        "end": 6.48,
+        "font_size": 18,
+        "font_weight": 700,
+        "prominence": 0.6105,
+        "is_content": true,
+        "pos": "NOUN"
+      },
+      {
+        "text": "in",
+        "start": 6.48,
+        "end": 7.16,
+        "font_size": 12,
+        "font_weight": 300,
+        "prominence": 0.4442,
+        "is_content": false,
+        "pos": "ADP"
+      },
+      {
+        "text": "Nigeria",
+        "start": 7.16,
+        "end": 7.64,
+        "font_size": 12,
+        "font_weight": 300,
+        "prominence": 0.5562,
+        "is_content": false,
+        "pos": "PROPN"
+      },
+      {
+        "text": "had",
+        "start": 7.64,
+        "end": 7.88,
+        "font_size": 12,
+        "font_weight": 300,
+        "prominence": 0.4574,
+        "is_content": false,
+        "pos": "AUX"
+      },
+      {
+        "text": "already",
+        "start": 7.88,
+        "end": 8.2,
+        "font_size": 15,
+        "font_weight": 400,
+        "prominence": 0.466,
+        "is_content": true,
+        "pos": "ADV"
+      },
+      {
+        "text": "written",
+        "start": 8.2,
+        "end": 8.46,
+        "font_size": 15,
+        "font_weight": 400,
+        "prominence": 0.4433,
+        "is_content": true,
+        "pos": "VERB"
+      },
+      {
+        "text": "a",
+        "start": 8.46,
+        "end": 8.8,
+        "font_size": 12,
+        "font_weight": 300,
+        "prominence": 0.5171,
+        "is_content": false,
+        "pos": "DET"
+      },
+      {
+        "text": "story",
+        "start": 8.8,
+        "end": 9.14,
+        "font_size": 15,
+        "font_weight": 400,
+        "prominence": 0.4593,
+        "is_content": true,
+        "pos": "NOUN"
+      },
+      {
+        "text": "about",
+        "start": 9.14,
+        "end": 9.52,
+        "font_size": 12,
+        "font_weight": 300,
+        "prominence": 0.4653,
+        "is_content": false,
+        "pos": "ADP"
+      },
+      {
+        "text": "my",
+        "start": 9.52,
+        "end": 9.9,
+        "font_size": 12,
+        "font_weight": 300,
+        "prominence": 0.633,
+        "is_content": false,
+        "pos": "PRON"
+      },
+      {
+        "text": "speech",
+        "start": 9.9,
+        "end": 10.4,
+        "font_size": 15,
+        "font_weight": 400,
+        "prominence": 0.4566,
+        "is_content": true,
+        "pos": "NOUN"
+      },
+      {
+        "text": "and",
+        "start": 10.4,
+        "end": 10.86,
+        "font_size": 12,
+        "font_weight": 300,
+        "prominence": 0.4715,
+        "is_content": false,
+        "pos": "CCONJ"
+      },
+      {
+        "text": "it",
+        "start": 10.86,
+        "end": 11.0,
+        "font_size": 12,
+        "font_weight": 300,
+        "prominence": 0.4224,
+        "is_content": false,
+        "pos": "PRON"
+      },
+      {
+        "text": "had",
+        "start": 11.0,
+        "end": 11.14,
+        "font_size": 12,
+        "font_weight": 300,
+        "prominence": 0.4412,
+        "is_content": false,
+        "pos": "AUX"
+      },
+      {
+        "text": "already",
+        "start": 11.14,
+        "end": 11.38,
+        "font_size": 15,
+        "font_weight": 400,
+        "prominence": 0.4492,
+        "is_content": true,
+        "pos": "ADV"
+      },
+      {
+        "text": "been",
+        "start": 11.38,
+        "end": 11.6,
+        "font_size": 12,
+        "font_weight": 300,
+        "prominence": 0.454,
+        "is_content": false,
+        "pos": "AUX"
+      },
+      {
+        "text": "printed",
+        "start": 11.6,
+        "end": 11.88,
+        "font_size": 15,
+        "font_weight": 400,
+        "prominence": 0.4675,
+        "is_content": true,
+        "pos": "VERB"
+      },
+      {
+        "text": "in",
+        "start": 11.88,
+        "end": 12.1,
+        "font_size": 12,
+        "font_weight": 300,
+        "prominence": 0.5459,
+        "is_content": false,
+        "pos": "ADP"
+      },
+      {
+        "text": "cities",
+        "start": 12.1,
+        "end": 12.4,
+        "font_size": 15,
+        "font_weight": 400,
+        "prominence": 0.472,
+        "is_content": true,
+        "pos": "NOUN"
+      },
+      {
+        "text": "all",
+        "start": 12.4,
+        "end": 12.78,
+        "font_size": 15,
+        "font_weight": 400,
+        "prominence": 0.4386,
+        "is_content": true,
+        "pos": "ADV"
+      },
+      {
+        "text": "across",
+        "start": 12.78,
+        "end": 13.04,
+        "font_size": 12,
+        "font_weight": 300,
+        "prominence": 0.5702,
+        "is_content": false,
+        "pos": "ADP"
+      },
+      {
+        "text": "the",
+        "start": 13.06,
+        "end": 13.22,
+        "font_size": 12,
+        "font_weight": 300,
+        "prominence": 0.3906,
+        "is_content": false,
+        "pos": "DET"
+      },
+      {
+        "text": "United",
+        "start": 13.22,
+        "end": 13.58,
+        "font_size": 12,
+        "font_weight": 300,
+        "prominence": 0.7333,
+        "is_content": false,
+        "pos": "PROPN"
+      },
+      {
+        "text": "States",
+        "start": 13.58,
+        "end": 14.06,
+        "font_size": 12,
+        "font_weight": 300,
+        "prominence": 0.4964,
+        "is_content": false,
+        "pos": "PROPN"
+      },
+      {
+        "text": "of",
+        "start": 14.06,
+        "end": 14.68,
+        "font_size": 12,
+        "font_weight": 300,
+        "prominence": 0.4391,
+        "is_content": false,
+        "pos": "ADP"
+      },
+      {
+        "text": "America's",
+        "start": 14.68,
+        "end": 15.08,
+        "font_size": 12,
+        "font_weight": 300,
+        "prominence": 0.5218,
+        "is_content": false,
+        "pos": "PROPN"
+      },
+      {
+        "text": "printed",
+        "start": 15.08,
+        "end": 15.26,
+        "font_size": 15,
+        "font_weight": 400,
+        "prominence": 0.4155,
+        "is_content": true,
+        "pos": "VERB"
+      },
+      {
+        "text": "in",
+        "start": 15.26,
+        "end": 15.44,
+        "font_size": 12,
+        "font_weight": 300,
+        "prominence": 0.4752,
+        "is_content": false,
+        "pos": "ADP"
+      },
+      {
+        "text": "Monterey.",
+        "start": 15.44,
+        "end": 15.72,
+        "font_size": 12,
+        "font_weight": 300,
+        "prominence": 0.4579,
+        "is_content": false,
+        "pos": "PROPN"
+      },
+      {
+        "text": "I",
+        "start": 16.22,
+        "end": 16.64,
+        "font_size": 12,
+        "font_weight": 300,
+        "prominence": 0.4406,
+        "is_content": false,
+        "pos": "PRON"
+      },
+      {
+        "text": "checked.",
+        "start": 16.64,
+        "end": 16.66,
+        "font_size": 15,
+        "font_weight": 400,
+        "prominence": 0.2703,
+        "is_content": true,
+        "pos": "VERB"
+      },
+      {
+        "text": "And",
+        "start": 18.68,
+        "end": 18.92,
+        "font_size": 12,
+        "font_weight": 300,
+        "prominence": 0.6306,
+        "is_content": false,
+        "pos": "CCONJ"
+      },
+      {
+        "text": "the",
+        "start": 18.92,
+        "end": 19.98,
+        "font_size": 12,
+        "font_weight": 300,
+        "prominence": 0.5822,
+        "is_content": false,
+        "pos": "DET"
+      },
+      {
+        "text": "story",
+        "start": 19.98,
+        "end": 20.24,
+        "font_size": 15,
+        "font_weight": 400,
+        "prominence": 0.4824,
+        "is_content": true,
+        "pos": "NOUN"
+      },
+      {
+        "text": "began,",
+        "start": 20.24,
+        "end": 20.66,
+        "font_size": 15,
+        "font_weight": 400,
+        "prominence": 0.4946,
+        "is_content": true,
+        "pos": "VERB"
+      },
+      {
+        "text": "former",
+        "start": 20.96,
+        "end": 21.32,
+        "font_size": 15,
+        "font_weight": 400,
+        "prominence": 0.4728,
+        "is_content": true,
+        "pos": "ADJ"
+      },
+      {
+        "text": "Vice",
+        "start": 21.32,
+        "end": 21.66,
+        "font_size": 12,
+        "font_weight": 300,
+        "prominence": 0.5627,
+        "is_content": false,
+        "pos": "PROPN"
+      },
+      {
+        "text": "President",
+        "start": 21.66,
+        "end": 21.94,
+        "font_size": 12,
+        "font_weight": 300,
+        "prominence": 0.5105,
+        "is_content": false,
+        "pos": "PROPN"
+      },
+      {
+        "text": "Al",
+        "start": 21.94,
+        "end": 22.22,
+        "font_size": 12,
+        "font_weight": 300,
+        "prominence": 0.4603,
+        "is_content": false,
+        "pos": "PROPN"
+      },
+      {
+        "text": "Gore",
+        "start": 22.22,
+        "end": 22.42,
+        "font_size": 12,
+        "font_weight": 300,
+        "prominence": 0.3692,
+        "is_content": false,
+        "pos": "PROPN"
+      },
+      {
+        "text": "announced",
+        "start": 22.42,
+        "end": 22.94,
+        "font_size": 18,
+        "font_weight": 700,
+        "prominence": 0.7258,
+        "is_content": true,
+        "pos": "VERB"
+      },
+      {
+        "text": "in",
+        "start": 22.94,
+        "end": 23.18,
+        "font_size": 12,
+        "font_weight": 300,
+        "prominence": 0.4288,
+        "is_content": false,
+        "pos": "ADP"
+      },
+      {
+        "text": "Nigeria",
+        "start": 23.18,
+        "end": 23.72,
+        "font_size": 12,
+        "font_weight": 300,
+        "prominence": 0.5702,
+        "is_content": false,
+        "pos": "PROPN"
+      },
+      {
+        "text": "yesterday,",
+        "start": 23.72,
+        "end": 24.3,
+        "font_size": 15,
+        "font_weight": 400,
+        "prominence": 0.5525,
+        "is_content": true,
+        "pos": "NOUN"
+      },
+      {
+        "text": "quote,",
+        "start": 24.48,
+        "end": 24.7,
+        "font_size": 12,
+        "font_weight": 300,
+        "prominence": 0.4209,
+        "is_content": false,
+        "pos": "INTJ"
+      },
+      {
+        "text": "my",
+        "start": 25.34,
+        "end": 25.54,
+        "font_size": 12,
+        "font_weight": 300,
+        "prominence": 0.5808,
+        "is_content": false,
+        "pos": "PRON"
+      },
+      {
+        "text": "wife",
+        "start": 25.54,
+        "end": 25.84,
+        "font_size": 15,
+        "font_weight": 400,
+        "prominence": 0.5291,
+        "is_content": true,
+        "pos": "NOUN"
+      },
+      {
+        "text": "Tipper",
+        "start": 25.84,
+        "end": 26.18,
+        "font_size": 12,
+        "font_weight": 300,
+        "prominence": 0.4761,
+        "is_content": false,
+        "pos": "PROPN"
+      },
+      {
+        "text": "and",
+        "start": 26.18,
+        "end": 26.28,
+        "font_size": 12,
+        "font_weight": 300,
+        "prominence": 0.3802,
+        "is_content": false,
+        "pos": "CCONJ"
+      },
+      {
+        "text": "I",
+        "start": 26.28,
+        "end": 26.52,
+        "font_size": 12,
+        "font_weight": 300,
+        "prominence": 0.6111,
+        "is_content": false,
+        "pos": "PRON"
+      },
+      {
+        "text": "have",
+        "start": 26.52,
+        "end": 26.74,
+        "font_size": 12,
+        "font_weight": 300,
+        "prominence": 0.4194,
+        "is_content": false,
+        "pos": "AUX"
+      },
+      {
+        "text": "opened",
+        "start": 26.74,
+        "end": 27.0,
+        "font_size": 15,
+        "font_weight": 400,
+        "prominence": 0.475,
+        "is_content": true,
+        "pos": "VERB"
+      },
+      {
+        "text": "a",
+        "start": 27.0,
+        "end": 27.22,
+        "font_size": 12,
+        "font_weight": 300,
+        "prominence": 0.4475,
+        "is_content": false,
+        "pos": "DET"
+      },
+      {
+        "text": "low",
+        "start": 27.22,
+        "end": 27.44,
+        "font_size": 15,
+        "font_weight": 400,
+        "prominence": 0.4074,
+        "is_content": true,
+        "pos": "ADJ"
+      },
+      {
+        "text": "cost",
+        "start": 27.44,
+        "end": 27.74,
+        "font_size": 15,
+        "font_weight": 400,
+        "prominence": 0.5543,
+        "is_content": true,
+        "pos": "NOUN"
+      },
+      {
+        "text": "family",
+        "start": 27.74,
+        "end": 28.14,
+        "font_size": 15,
+        "font_weight": 400,
+        "prominence": 0.5275,
+        "is_content": true,
+        "pos": "NOUN"
+      },
+      {
+        "text": "restaurant",
+        "start": 28.14,
+        "end": 29.24,
+        "font_size": 18,
+        "font_weight": 700,
+        "prominence": 0.7003,
+        "is_content": true,
+        "pos": "NOUN"
+      },
+      {
+        "text": "named",
+        "start": 29.24,
+        "end": 30.7,
+        "font_size": 18,
+        "font_weight": 700,
+        "prominence": 0.7019,
+        "is_content": true,
+        "pos": "VERB"
+      },
+      {
+        "text": "Shoney's",
+        "start": 30.7,
+        "end": 31.68,
+        "font_size": 12,
+        "font_weight": 300,
+        "prominence": 0.633,
+        "is_content": false,
+        "pos": "PROPN"
+      },
+      {
+        "text": "and",
+        "start": 31.68,
+        "end": 32.2,
+        "font_size": 12,
+        "font_weight": 300,
+        "prominence": 0.5183,
+        "is_content": false,
+        "pos": "CCONJ"
+      },
+      {
+        "text": "we",
+        "start": 32.2,
+        "end": 32.36,
+        "font_size": 12,
+        "font_weight": 300,
+        "prominence": 0.3771,
+        "is_content": false,
+        "pos": "PRON"
+      },
+      {
+        "text": "are",
+        "start": 32.36,
+        "end": 32.5,
+        "font_size": 12,
+        "font_weight": 300,
+        "prominence": 0.375,
+        "is_content": false,
+        "pos": "AUX"
+      },
+      {
+        "text": "running",
+        "start": 32.5,
+        "end": 32.7,
+        "font_size": 15,
+        "font_weight": 400,
+        "prominence": 0.5163,
+        "is_content": true,
+        "pos": "VERB"
+      },
+      {
+        "text": "it",
+        "start": 32.7,
+        "end": 32.88,
+        "font_size": 12,
+        "font_weight": 300,
+        "prominence": 0.393,
+        "is_content": false,
+        "pos": "PRON"
+      },
+      {
+        "text": "ourselves.",
+        "start": 32.88,
+        "end": 33.5,
+        "font_size": 12,
+        "font_weight": 300,
+        "prominence": 0.6653,
+        "is_content": false,
+        "pos": "PRON"
+      },
+      {
+        "text": "Before",
+        "start": 37.28,
+        "end": 37.62,
+        "font_size": 12,
+        "font_weight": 300,
+        "prominence": 0.4732,
+        "is_content": false,
+        "pos": "SCONJ"
+      },
+      {
+        "text": "I",
+        "start": 37.62,
+        "end": 37.82,
+        "font_size": 12,
+        "font_weight": 300,
+        "prominence": 0.4894,
+        "is_content": false,
+        "pos": "PRON"
+      },
+      {
+        "text": "could",
+        "start": 37.82,
+        "end": 37.98,
+        "font_size": 12,
+        "font_weight": 300,
+        "prominence": 0.4047,
+        "is_content": false,
+        "pos": "AUX"
+      },
+      {
+        "text": "get",
+        "start": 37.98,
+        "end": 38.12,
+        "font_size": 15,
+        "font_weight": 400,
+        "prominence": 0.4719,
+        "is_content": true,
+        "pos": "VERB"
+      },
+      {
+        "text": "back",
+        "start": 38.12,
+        "end": 38.36,
+        "font_size": 18,
+        "font_weight": 700,
+        "prominence": 0.5916,
+        "is_content": true,
+        "pos": "ADV"
+      },
+      {
+        "text": "to",
+        "start": 38.36,
+        "end": 38.54,
+        "font_size": 12,
+        "font_weight": 300,
+        "prominence": 0.3783,
+        "is_content": false,
+        "pos": "ADP"
+      },
+      {
+        "text": "U.S.",
+        "start": 38.54,
+        "end": 38.8,
+        "font_size": 12,
+        "font_weight": 300,
+        "prominence": 0.6119,
+        "is_content": false,
+        "pos": "PROPN"
+      },
+      {
+        "text": "soil,",
+        "start": 38.94,
+        "end": 39.2,
+        "font_size": 15,
+        "font_weight": 400,
+        "prominence": 0.4257,
+        "is_content": true,
+        "pos": "NOUN"
+      },
+      {
+        "text": "David",
+        "start": 39.34,
+        "end": 39.84,
+        "font_size": 12,
+        "font_weight": 300,
+        "prominence": 0.5198,
+        "is_content": false,
+        "pos": "PROPN"
+      },
+      {
+        "text": "Letterman",
+        "start": 39.84,
+        "end": 40.36,
+        "font_size": 12,
+        "font_weight": 300,
+        "prominence": 0.6404,
+        "is_content": false,
+        "pos": "PROPN"
+      },
+      {
+        "text": "and",
+        "start": 40.36,
+        "end": 40.54,
+        "font_size": 12,
+        "font_weight": 300,
+        "prominence": 0.4469,
+        "is_content": false,
+        "pos": "CCONJ"
+      },
+      {
+        "text": "Jay",
+        "start": 40.54,
+        "end": 40.74,
+        "font_size": 12,
+        "font_weight": 300,
+        "prominence": 0.5065,
+        "is_content": false,
+        "pos": "PROPN"
+      },
+      {
+        "text": "Leno",
+        "start": 40.74,
+        "end": 41.02,
+        "font_size": 12,
+        "font_weight": 300,
+        "prominence": 0.4967,
+        "is_content": false,
+        "pos": "PROPN"
+      },
+      {
+        "text": "had",
+        "start": 41.02,
+        "end": 41.42,
+        "font_size": 12,
+        "font_weight": 300,
+        "prominence": 0.5426,
+        "is_content": false,
+        "pos": "AUX"
+      },
+      {
+        "text": "already",
+        "start": 41.42,
+        "end": 42.22,
+        "font_size": 18,
+        "font_weight": 700,
+        "prominence": 0.6745,
+        "is_content": true,
+        "pos": "ADV"
+      },
+      {
+        "text": "started",
+        "start": 42.22,
+        "end": 43.13,
+        "font_size": 18,
+        "font_weight": 700,
+        "prominence": 0.676,
+        "is_content": true,
+        "pos": "VERB"
+      },
+      {
+        "text": "in",
+        "start": 43.13,
+        "end": 43.36,
+        "font_size": 12,
+        "font_weight": 300,
+        "prominence": 0.4034,
+        "is_content": false,
+        "pos": "ADP"
+      },
+      {
+        "text": "on",
+        "start": 43.36,
+        "end": 43.46,
+        "font_size": 12,
+        "font_weight": 300,
+        "prominence": 0.3503,
+        "is_content": false,
+        "pos": "ADP"
+      },
+      {
+        "text": "one",
+        "start": 43.46,
+        "end": 43.58,
+        "font_size": 12,
+        "font_weight": 300,
+        "prominence": 0.3681,
+        "is_content": false,
+        "pos": "NUM"
+      },
+      {
+        "text": "of",
+        "start": 43.58,
+        "end": 43.66,
+        "font_size": 12,
+        "font_weight": 300,
+        "prominence": 0.3048,
+        "is_content": false,
+        "pos": "ADP"
+      },
+      {
+        "text": "them",
+        "start": 43.66,
+        "end": 43.78,
+        "font_size": 12,
+        "font_weight": 300,
+        "prominence": 0.4095,
+        "is_content": false,
+        "pos": "PRON"
+      },
+      {
+        "text": "had",
+        "start": 43.78,
+        "end": 43.96,
+        "font_size": 15,
+        "font_weight": 400,
+        "prominence": 0.5046,
+        "is_content": true,
+        "pos": "VERB"
+      },
+      {
+        "text": "me",
+        "start": 43.96,
+        "end": 44.1,
+        "font_size": 12,
+        "font_weight": 300,
+        "prominence": 0.3643,
+        "is_content": false,
+        "pos": "PRON"
+      },
+      {
+        "text": "in",
+        "start": 44.1,
+        "end": 44.2,
+        "font_size": 12,
+        "font_weight": 300,
+        "prominence": 0.3542,
+        "is_content": false,
+        "pos": "ADP"
+      },
+      {
+        "text": "a",
+        "start": 44.2,
+        "end": 44.28,
+        "font_size": 12,
+        "font_weight": 300,
+        "prominence": 0.3596,
+        "is_content": false,
+        "pos": "DET"
+      },
+      {
+        "text": "big",
+        "start": 44.28,
+        "end": 44.44,
+        "font_size": 15,
+        "font_weight": 400,
+        "prominence": 0.4623,
+        "is_content": true,
+        "pos": "ADJ"
+      },
+      {
+        "text": "white",
+        "start": 44.44,
+        "end": 44.78,
+        "font_size": 18,
+        "font_weight": 700,
+        "prominence": 0.6338,
+        "is_content": true,
+        "pos": "ADJ"
+      },
+      {
+        "text": "chef's",
+        "start": 44.78,
+        "end": 45.3,
+        "font_size": 18,
+        "font_weight": 700,
+        "prominence": 0.6867,
+        "is_content": true,
+        "pos": "NOUN"
+      },
+      {
+        "text": "hat.",
+        "start": 45.3,
+        "end": 45.76,
+        "font_size": 15,
+        "font_weight": 400,
+        "prominence": 0.4636,
+        "is_content": true,
+        "pos": "NOUN"
+      },
+      {
+        "text": "Tipper",
+        "start": 46.68,
+        "end": 46.96,
+        "font_size": 12,
+        "font_weight": 300,
+        "prominence": 0.4276,
+        "is_content": false,
+        "pos": "PROPN"
+      },
+      {
+        "text": "was",
+        "start": 46.96,
+        "end": 47.16,
+        "font_size": 12,
+        "font_weight": 300,
+        "prominence": 0.5105,
+        "is_content": false,
+        "pos": "AUX"
+      },
+      {
+        "text": "saying,",
+        "start": 47.16,
+        "end": 47.38,
+        "font_size": 15,
+        "font_weight": 400,
+        "prominence": 0.4833,
+        "is_content": true,
+        "pos": "VERB"
+      },
+      {
+        "text": "one",
+        "start": 47.42,
+        "end": 47.64,
+        "font_size": 12,
+        "font_weight": 300,
+        "prominence": 0.414,
+        "is_content": false,
+        "pos": "NUM"
+      },
+      {
+        "text": "more",
+        "start": 47.64,
+        "end": 47.86,
+        "font_size": 15,
+        "font_weight": 400,
+        "prominence": 0.421,
+        "is_content": true,
+        "pos": "ADJ"
+      },
+      {
+        "text": "burger",
+        "start": 47.86,
+        "end": 48.2,
+        "font_size": 15,
+        "font_weight": 400,
+        "prominence": 0.4557,
+        "is_content": true,
+        "pos": "NOUN"
+      },
+      {
+        "text": "with",
+        "start": 48.2,
+        "end": 48.4,
+        "font_size": 12,
+        "font_weight": 300,
+        "prominence": 0.476,
+        "is_content": false,
+        "pos": "ADP"
+      },
+      {
+        "text": "fries.",
+        "start": 48.4,
+        "end": 49.02,
+        "font_size": 18,
+        "font_weight": 700,
+        "prominence": 0.7247,
+        "is_content": true,
+        "pos": "NOUN"
+      },
+      {
+        "text": "Three",
+        "start": 50.16,
+        "end": 50.54,
+        "font_size": 12,
+        "font_weight": 300,
+        "prominence": 0.4093,
+        "is_content": false,
+        "pos": "NUM"
+      },
+      {
+        "text": "days",
+        "start": 50.54,
+        "end": 50.94,
+        "font_size": 18,
+        "font_weight": 700,
+        "prominence": 0.6272,
+        "is_content": true,
+        "pos": "NOUN"
+      },
+      {
+        "text": "later,",
+        "start": 50.94,
+        "end": 51.38,
+        "font_size": 15,
+        "font_weight": 400,
+        "prominence": 0.4898,
+        "is_content": true,
+        "pos": "ADV"
+      },
+      {
+        "text": "I",
+        "start": 51.5,
+        "end": 51.64,
+        "font_size": 12,
+        "font_weight": 300,
+        "prominence": 0.4002,
+        "is_content": false,
+        "pos": "PRON"
+      },
+      {
+        "text": "got",
+        "start": 51.64,
+        "end": 51.82,
+        "font_size": 15,
+        "font_weight": 400,
+        "prominence": 0.444,
+        "is_content": true,
+        "pos": "VERB"
+      },
+      {
+        "text": "a",
+        "start": 51.82,
+        "end": 52.08,
+        "font_size": 12,
+        "font_weight": 300,
+        "prominence": 0.5104,
+        "is_content": false,
+        "pos": "DET"
+      },
+      {
+        "text": "nice",
+        "start": 52.08,
+        "end": 52.44,
+        "font_size": 18,
+        "font_weight": 700,
+        "prominence": 0.6416,
+        "is_content": true,
+        "pos": "ADJ"
+      },
+      {
+        "text": "long",
+        "start": 52.44,
+        "end": 53.1,
+        "font_size": 15,
+        "font_weight": 400,
+        "prominence": 0.4972,
+        "is_content": true,
+        "pos": "ADJ"
+      },
+      {
+        "text": "handwritten",
+        "start": 53.1,
+        "end": 53.9,
+        "font_size": 15,
+        "font_weight": 400,
+        "prominence": 0.5295,
+        "is_content": true,
+        "pos": "ADJ"
+      },
+      {
+        "text": "letter",
+        "start": 53.9,
+        "end": 54.18,
+        "font_size": 15,
+        "font_weight": 400,
+        "prominence": 0.4849,
+        "is_content": true,
+        "pos": "NOUN"
+      },
+      {
+        "text": "from",
+        "start": 54.18,
+        "end": 54.44,
+        "font_size": 12,
+        "font_weight": 300,
+        "prominence": 0.4139,
+        "is_content": false,
+        "pos": "ADP"
+      },
+      {
+        "text": "my",
+        "start": 54.44,
+        "end": 54.76,
+        "font_size": 12,
+        "font_weight": 300,
+        "prominence": 0.4926,
+        "is_content": false,
+        "pos": "PRON"
+      },
+      {
+        "text": "friend",
+        "start": 54.76,
+        "end": 55.0,
+        "font_size": 15,
+        "font_weight": 400,
+        "prominence": 0.4569,
+        "is_content": true,
+        "pos": "NOUN"
+      },
+      {
+        "text": "and",
+        "start": 55.0,
+        "end": 55.72,
+        "font_size": 12,
+        "font_weight": 300,
+        "prominence": 0.5104,
+        "is_content": false,
+        "pos": "CCONJ"
+      },
+      {
+        "text": "partner",
+        "start": 55.72,
+        "end": 55.97,
+        "font_size": 15,
+        "font_weight": 400,
+        "prominence": 0.4345,
+        "is_content": true,
+        "pos": "NOUN"
+      },
+      {
+        "text": "and",
+        "start": 55.97,
+        "end": 56.26,
+        "font_size": 12,
+        "font_weight": 300,
+        "prominence": 0.4857,
+        "is_content": false,
+        "pos": "CCONJ"
+      },
+      {
+        "text": "colleague",
+        "start": 56.26,
+        "end": 56.76,
+        "font_size": 15,
+        "font_weight": 400,
+        "prominence": 0.5191,
+        "is_content": true,
+        "pos": "NOUN"
+      },
+      {
+        "text": "Bill",
+        "start": 56.76,
+        "end": 57.12,
+        "font_size": 12,
+        "font_weight": 300,
+        "prominence": 0.4745,
+        "is_content": false,
+        "pos": "PROPN"
+      },
+      {
+        "text": "Clinton",
+        "start": 57.12,
+        "end": 57.42,
+        "font_size": 12,
+        "font_weight": 300,
+        "prominence": 0.5113,
+        "is_content": false,
+        "pos": "PROPN"
+      },
+      {
+        "text": "saying",
+        "start": 57.42,
+        "end": 57.82,
+        "font_size": 15,
+        "font_weight": 400,
+        "prominence": 0.5039,
+        "is_content": true,
+        "pos": "VERB"
+      },
+      {
+        "text": "congratulations",
+        "start": 57.82,
+        "end": 58.86,
+        "font_size": 18,
+        "font_weight": 700,
+        "prominence": 0.6233,
+        "is_content": true,
+        "pos": "NOUN"
+      },
+      {
+        "text": "on",
+        "start": 58.86,
+        "end": 59.08,
+        "font_size": 12,
+        "font_weight": 300,
+        "prominence": 0.3995,
+        "is_content": false,
+        "pos": "ADP"
+      },
+      {
+        "text": "the",
+        "start": 59.08,
+        "end": 59.22,
+        "font_size": 12,
+        "font_weight": 300,
+        "prominence": 0.3802,
+        "is_content": false,
+        "pos": "DET"
+      },
+      {
+        "text": "new",
+        "start": 59.22,
+        "end": 59.44,
+        "font_size": 15,
+        "font_weight": 400,
+        "prominence": 0.4613,
+        "is_content": true,
+        "pos": "ADJ"
+      },
+      {
+        "text": "restaurant",
+        "start": 59.44,
+        "end": 59.98,
+        "font_size": 18,
+        "font_weight": 700,
+        "prominence": 0.6979,
+        "is_content": true,
+        "pos": "NOUN"
+      },
+      {
+        "text": "out.",
+        "start": 59.98,
+        "end": 60.24,
+        "font_size": 12,
+        "font_weight": 300,
+        "prominence": 0.389,
+        "is_content": false,
+        "pos": "ADP"
+      }
+    ]
+  }
+}

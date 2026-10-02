@@ -1,0 +1,1666 @@
+[
+  {
+    "word": "Um,",
+    "start": 0.0,
+    "end": 0.52,
+    "pos": "INTJ",
+    "is_content": false,
+    "dynamik_size": 12
+  },
+  {
+    "word": "me",
+    "start": 1.32,
+    "end": 1.52,
+    "pos": "PRON",
+    "is_content": false,
+    "dynamik_size": 12
+  },
+  {
+    "word": "too.",
+    "start": 1.52,
+    "end": 1.9,
+    "pos": "ADV",
+    "is_content": true,
+    "dynamik_size": 18
+  },
+  {
+    "word": "But",
+    "start": 2.46,
+    "end": 2.68,
+    "pos": "CCONJ",
+    "is_content": false,
+    "dynamik_size": 12
+  },
+  {
+    "word": "that",
+    "start": 2.68,
+    "end": 2.9,
+    "pos": "PRON",
+    "is_content": false,
+    "dynamik_size": 12
+  },
+  {
+    "word": "is",
+    "start": 2.9,
+    "end": 3.06,
+    "pos": "AUX",
+    "is_content": false,
+    "dynamik_size": 12
+  },
+  {
+    "word": "not",
+    "start": 3.06,
+    "end": 3.24,
+    "pos": "PART",
+    "is_content": false,
+    "dynamik_size": 12
+  },
+  {
+    "word": "my",
+    "start": 3.24,
+    "end": 3.44,
+    "pos": "PRON",
+    "is_content": false,
+    "dynamik_size": 12
+  },
+  {
+    "word": "confession.",
+    "start": 3.44,
+    "end": 3.88,
+    "pos": "NOUN",
+    "is_content": true,
+    "dynamik_size": 18
+  },
+  {
+    "word": "My",
+    "start": 4.62,
+    "end": 4.92,
+    "pos": "PRON",
+    "is_content": false,
+    "dynamik_size": 12
+  },
+  {
+    "word": "confession",
+    "start": 4.92,
+    "end": 5.32,
+    "pos": "NOUN",
+    "is_content": true,
+    "dynamik_size": 18
+  },
+  {
+    "word": "is",
+    "start": 5.32,
+    "end": 5.6,
+    "pos": "AUX",
+    "is_content": false,
+    "dynamik_size": 12
+  },
+  {
+    "word": "this.",
+    "start": 5.6,
+    "end": 6.02,
+    "pos": "PRON",
+    "is_content": false,
+    "dynamik_size": 12
+  },
+  {
+    "word": "I",
+    "start": 6.48,
+    "end": 6.74,
+    "pos": "PRON",
+    "is_content": false,
+    "dynamik_size": 12
+  },
+  {
+    "word": "am",
+    "start": 6.74,
+    "end": 6.92,
+    "pos": "AUX",
+    "is_content": false,
+    "dynamik_size": 12
+  },
+  {
+    "word": "a",
+    "start": 6.92,
+    "end": 7.08,
+    "pos": "DET",
+    "is_content": false,
+    "dynamik_size": 12
+  },
+  {
+    "word": "health",
+    "start": 7.08,
+    "end": 7.34,
+    "pos": "NOUN",
+    "is_content": true,
+    "dynamik_size": 18
+  },
+  {
+    "word": "psychologist,",
+    "start": 7.34,
+    "end": 8.1,
+    "pos": "NOUN",
+    "is_content": true,
+    "dynamik_size": 18
+  },
+  {
+    "word": "and",
+    "start": 8.5,
+    "end": 8.74,
+    "pos": "CCONJ",
+    "is_content": false,
+    "dynamik_size": 12
+  },
+  {
+    "word": "my",
+    "start": 8.74,
+    "end": 8.94,
+    "pos": "PRON",
+    "is_content": false,
+    "dynamik_size": 12
+  },
+  {
+    "word": "mission",
+    "start": 8.94,
+    "end": 9.32,
+    "pos": "NOUN",
+    "is_content": true,
+    "dynamik_size": 18
+  },
+  {
+    "word": "is",
+    "start": 9.32,
+    "end": 9.56,
+    "pos": "AUX",
+    "is_content": false,
+    "dynamik_size": 12
+  },
+  {
+    "word": "to",
+    "start": 9.56,
+    "end": 9.74,
+    "pos": "PART",
+    "is_content": false,
+    "dynamik_size": 12
+  },
+  {
+    "word": "help",
+    "start": 9.74,
+    "end": 9.88,
+    "pos": "VERB",
+    "is_content": true,
+    "dynamik_size": 18
+  },
+  {
+    "word": "people",
+    "start": 9.88,
+    "end": 10.4,
+    "pos": "NOUN",
+    "is_content": true,
+    "dynamik_size": 18
+  },
+  {
+    "word": "be",
+    "start": 10.4,
+    "end": 10.82,
+    "pos": "AUX",
+    "is_content": false,
+    "dynamik_size": 12
+  },
+  {
+    "word": "happier",
+    "start": 10.82,
+    "end": 11.18,
+    "pos": "ADJ",
+    "is_content": true,
+    "dynamik_size": 18
+  },
+  {
+    "word": "and",
+    "start": 11.18,
+    "end": 11.48,
+    "pos": "CCONJ",
+    "is_content": false,
+    "dynamik_size": 12
+  },
+  {
+    "word": "healthier.",
+    "start": 11.48,
+    "end": 11.88,
+    "pos": "ADJ",
+    "is_content": true,
+    "dynamik_size": 18
+  },
+  {
+    "word": "But",
+    "start": 13.36,
+    "end": 13.58,
+    "pos": "CCONJ",
+    "is_content": false,
+    "dynamik_size": 12
+  },
+  {
+    "word": "I",
+    "start": 13.58,
+    "end": 13.88,
+    "pos": "PRON",
+    "is_content": false,
+    "dynamik_size": 12
+  },
+  {
+    "word": "fear",
+    "start": 13.88,
+    "end": 14.38,
+    "pos": "VERB",
+    "is_content": true,
+    "dynamik_size": 18
+  },
+  {
+    "word": "that",
+    "start": 14.38,
+    "end": 15.02,
+    "pos": "SCONJ",
+    "is_content": false,
+    "dynamik_size": 12
+  },
+  {
+    "word": "something",
+    "start": 15.02,
+    "end": 15.38,
+    "pos": "PRON",
+    "is_content": false,
+    "dynamik_size": 12
+  },
+  {
+    "word": "I've",
+    "start": 15.38,
+    "end": 15.66,
+    "pos": "PRON",
+    "is_content": false,
+    "dynamik_size": 12
+  },
+  {
+    "word": "been",
+    "start": 15.66,
+    "end": 15.82,
+    "pos": "AUX",
+    "is_content": false,
+    "dynamik_size": 12
+  },
+  {
+    "word": "teaching",
+    "start": 15.82,
+    "end": 16.38,
+    "pos": "VERB",
+    "is_content": true,
+    "dynamik_size": 18
+  },
+  {
+    "word": "for",
+    "start": 16.6,
+    "end": 16.8,
+    "pos": "ADP",
+    "is_content": false,
+    "dynamik_size": 12
+  },
+  {
+    "word": "the",
+    "start": 16.8,
+    "end": 16.96,
+    "pos": "DET",
+    "is_content": false,
+    "dynamik_size": 12
+  },
+  {
+    "word": "last",
+    "start": 16.96,
+    "end": 17.14,
+    "pos": "ADJ",
+    "is_content": true,
+    "dynamik_size": 18
+  },
+  {
+    "word": "10",
+    "start": 17.14,
+    "end": 17.4,
+    "pos": "NUM",
+    "is_content": false,
+    "dynamik_size": 12
+  },
+  {
+    "word": "years",
+    "start": 17.4,
+    "end": 18.0,
+    "pos": "NOUN",
+    "is_content": true,
+    "dynamik_size": 18
+  },
+  {
+    "word": "is",
+    "start": 18.0,
+    "end": 18.66,
+    "pos": "AUX",
+    "is_content": false,
+    "dynamik_size": 12
+  },
+  {
+    "word": "doing",
+    "start": 18.66,
+    "end": 18.88,
+    "pos": "VERB",
+    "is_content": true,
+    "dynamik_size": 18
+  },
+  {
+    "word": "more",
+    "start": 18.88,
+    "end": 19.2,
+    "pos": "ADJ",
+    "is_content": true,
+    "dynamik_size": 18
+  },
+  {
+    "word": "harm",
+    "start": 19.2,
+    "end": 19.56,
+    "pos": "NOUN",
+    "is_content": true,
+    "dynamik_size": 18
+  },
+  {
+    "word": "than",
+    "start": 19.56,
+    "end": 19.76,
+    "pos": "ADP",
+    "is_content": false,
+    "dynamik_size": 12
+  },
+  {
+    "word": "good,",
+    "start": 19.76,
+    "end": 20.2,
+    "pos": "ADJ",
+    "is_content": true,
+    "dynamik_size": 18
+  },
+  {
+    "word": "and",
+    "start": 20.34,
+    "end": 21.04,
+    "pos": "CCONJ",
+    "is_content": false,
+    "dynamik_size": 12
+  },
+  {
+    "word": "it",
+    "start": 21.04,
+    "end": 21.16,
+    "pos": "PRON",
+    "is_content": false,
+    "dynamik_size": 12
+  },
+  {
+    "word": "has",
+    "start": 21.16,
+    "end": 21.4,
+    "pos": "VERB",
+    "is_content": true,
+    "dynamik_size": 18
+  },
+  {
+    "word": "to",
+    "start": 21.4,
+    "end": 21.56,
+    "pos": "PART",
+    "is_content": false,
+    "dynamik_size": 12
+  },
+  {
+    "word": "do",
+    "start": 21.56,
+    "end": 21.68,
+    "pos": "VERB",
+    "is_content": true,
+    "dynamik_size": 18
+  },
+  {
+    "word": "with",
+    "start": 21.68,
+    "end": 21.88,
+    "pos": "ADP",
+    "is_content": false,
+    "dynamik_size": 12
+  },
+  {
+    "word": "stress.",
+    "start": 21.88,
+    "end": 22.34,
+    "pos": "NOUN",
+    "is_content": true,
+    "dynamik_size": 18
+  },
+  {
+    "word": "For",
+    "start": 23.38,
+    "end": 23.62,
+    "pos": "ADP",
+    "is_content": false,
+    "dynamik_size": 12
+  },
+  {
+    "word": "years,",
+    "start": 23.62,
+    "end": 23.92,
+    "pos": "NOUN",
+    "is_content": true,
+    "dynamik_size": 18
+  },
+  {
+    "word": "I've",
+    "start": 24.02,
+    "end": 24.14,
+    "pos": "PRON",
+    "is_content": false,
+    "dynamik_size": 12
+  },
+  {
+    "word": "been",
+    "start": 24.14,
+    "end": 24.26,
+    "pos": "AUX",
+    "is_content": false,
+    "dynamik_size": 12
+  },
+  {
+    "word": "telling",
+    "start": 24.26,
+    "end": 24.46,
+    "pos": "VERB",
+    "is_content": true,
+    "dynamik_size": 18
+  },
+  {
+    "word": "people",
+    "start": 24.46,
+    "end": 24.76,
+    "pos": "NOUN",
+    "is_content": true,
+    "dynamik_size": 18
+  },
+  {
+    "word": "stress",
+    "start": 24.76,
+    "end": 25.18,
+    "pos": "NOUN",
+    "is_content": true,
+    "dynamik_size": 18
+  },
+  {
+    "word": "makes",
+    "start": 25.18,
+    "end": 25.42,
+    "pos": "VERB",
+    "is_content": true,
+    "dynamik_size": 18
+  },
+  {
+    "word": "you",
+    "start": 25.42,
+    "end": 25.66,
+    "pos": "PRON",
+    "is_content": false,
+    "dynamik_size": 12
+  },
+  {
+    "word": "sick.",
+    "start": 25.66,
+    "end": 26.06,
+    "pos": "ADJ",
+    "is_content": true,
+    "dynamik_size": 18
+  },
+  {
+    "word": "It",
+    "start": 26.54,
+    "end": 26.74,
+    "pos": "PRON",
+    "is_content": false,
+    "dynamik_size": 12
+  },
+  {
+    "word": "increases",
+    "start": 26.74,
+    "end": 27.1,
+    "pos": "VERB",
+    "is_content": true,
+    "dynamik_size": 18
+  },
+  {
+    "word": "the",
+    "start": 27.1,
+    "end": 27.32,
+    "pos": "DET",
+    "is_content": false,
+    "dynamik_size": 12
+  },
+  {
+    "word": "risk",
+    "start": 27.32,
+    "end": 27.5,
+    "pos": "NOUN",
+    "is_content": true,
+    "dynamik_size": 18
+  },
+  {
+    "word": "of",
+    "start": 27.5,
+    "end": 27.7,
+    "pos": "ADP",
+    "is_content": false,
+    "dynamik_size": 12
+  },
+  {
+    "word": "everything,",
+    "start": 27.7,
+    "end": 28.1,
+    "pos": "PRON",
+    "is_content": false,
+    "dynamik_size": 12
+  },
+  {
+    "word": "from",
+    "start": 28.16,
+    "end": 28.36,
+    "pos": "ADP",
+    "is_content": false,
+    "dynamik_size": 12
+  },
+  {
+    "word": "the",
+    "start": 28.36,
+    "end": 28.64,
+    "pos": "DET",
+    "is_content": false,
+    "dynamik_size": 12
+  },
+  {
+    "word": "common",
+    "start": 28.64,
+    "end": 28.94,
+    "pos": "ADJ",
+    "is_content": true,
+    "dynamik_size": 18
+  },
+  {
+    "word": "cold",
+    "start": 28.94,
+    "end": 29.3,
+    "pos": "NOUN",
+    "is_content": true,
+    "dynamik_size": 18
+  },
+  {
+    "word": "to",
+    "start": 29.3,
+    "end": 29.68,
+    "pos": "ADP",
+    "is_content": false,
+    "dynamik_size": 12
+  },
+  {
+    "word": "cardiovascular",
+    "start": 29.68,
+    "end": 30.38,
+    "pos": "ADJ",
+    "is_content": true,
+    "dynamik_size": 18
+  },
+  {
+    "word": "disease.",
+    "start": 30.38,
+    "end": 31.06,
+    "pos": "NOUN",
+    "is_content": true,
+    "dynamik_size": 18
+  },
+  {
+    "word": "Basically,",
+    "start": 31.7,
+    "end": 32.44,
+    "pos": "ADV",
+    "is_content": true,
+    "dynamik_size": 18
+  },
+  {
+    "word": "I've",
+    "start": 32.86,
+    "end": 33.22,
+    "pos": "PRON",
+    "is_content": false,
+    "dynamik_size": 12
+  },
+  {
+    "word": "turned",
+    "start": 33.22,
+    "end": 33.54,
+    "pos": "VERB",
+    "is_content": true,
+    "dynamik_size": 18
+  },
+  {
+    "word": "stress",
+    "start": 33.54,
+    "end": 34.06,
+    "pos": "NOUN",
+    "is_content": true,
+    "dynamik_size": 18
+  },
+  {
+    "word": "into",
+    "start": 34.06,
+    "end": 34.38,
+    "pos": "ADP",
+    "is_content": false,
+    "dynamik_size": 12
+  },
+  {
+    "word": "the",
+    "start": 34.38,
+    "end": 34.7,
+    "pos": "DET",
+    "is_content": false,
+    "dynamik_size": 12
+  },
+  {
+    "word": "enemy.",
+    "start": 34.7,
+    "end": 35.1,
+    "pos": "NOUN",
+    "is_content": true,
+    "dynamik_size": 18
+  },
+  {
+    "word": "But",
+    "start": 35.96,
+    "end": 36.22,
+    "pos": "CCONJ",
+    "is_content": false,
+    "dynamik_size": 12
+  },
+  {
+    "word": "I've",
+    "start": 36.22,
+    "end": 36.54,
+    "pos": "PRON",
+    "is_content": false,
+    "dynamik_size": 12
+  },
+  {
+    "word": "changed",
+    "start": 36.54,
+    "end": 36.84,
+    "pos": "VERB",
+    "is_content": true,
+    "dynamik_size": 18
+  },
+  {
+    "word": "my",
+    "start": 36.84,
+    "end": 37.06,
+    "pos": "PRON",
+    "is_content": false,
+    "dynamik_size": 12
+  },
+  {
+    "word": "mind",
+    "start": 37.06,
+    "end": 37.28,
+    "pos": "NOUN",
+    "is_content": true,
+    "dynamik_size": 18
+  },
+  {
+    "word": "about",
+    "start": 37.28,
+    "end": 37.56,
+    "pos": "ADP",
+    "is_content": false,
+    "dynamik_size": 12
+  },
+  {
+    "word": "stress,",
+    "start": 37.56,
+    "end": 38.22,
+    "pos": "NOUN",
+    "is_content": true,
+    "dynamik_size": 18
+  },
+  {
+    "word": "and",
+    "start": 38.26,
+    "end": 39.02,
+    "pos": "CCONJ",
+    "is_content": false,
+    "dynamik_size": 12
+  },
+  {
+    "word": "today,",
+    "start": 39.02,
+    "end": 39.56,
+    "pos": "NOUN",
+    "is_content": true,
+    "dynamik_size": 18
+  },
+  {
+    "word": "I",
+    "start": 39.98,
+    "end": 40.24,
+    "pos": "PRON",
+    "is_content": false,
+    "dynamik_size": 12
+  },
+  {
+    "word": "want",
+    "start": 40.24,
+    "end": 40.44,
+    "pos": "VERB",
+    "is_content": true,
+    "dynamik_size": 18
+  },
+  {
+    "word": "to",
+    "start": 40.44,
+    "end": 40.64,
+    "pos": "PART",
+    "is_content": false,
+    "dynamik_size": 12
+  },
+  {
+    "word": "change",
+    "start": 40.64,
+    "end": 40.96,
+    "pos": "VERB",
+    "is_content": true,
+    "dynamik_size": 18
+  },
+  {
+    "word": "yours.",
+    "start": 40.96,
+    "end": 41.6,
+    "pos": "NOUN",
+    "is_content": true,
+    "dynamik_size": 18
+  },
+  {
+    "word": "Let",
+    "start": 42.6,
+    "end": 42.8,
+    "pos": "VERB",
+    "is_content": true,
+    "dynamik_size": 18
+  },
+  {
+    "word": "me",
+    "start": 42.8,
+    "end": 43.04,
+    "pos": "PRON",
+    "is_content": false,
+    "dynamik_size": 12
+  },
+  {
+    "word": "start",
+    "start": 43.04,
+    "end": 43.3,
+    "pos": "VERB",
+    "is_content": true,
+    "dynamik_size": 18
+  },
+  {
+    "word": "with",
+    "start": 43.3,
+    "end": 43.5,
+    "pos": "ADP",
+    "is_content": false,
+    "dynamik_size": 12
+  },
+  {
+    "word": "the",
+    "start": 43.5,
+    "end": 43.68,
+    "pos": "DET",
+    "is_content": false,
+    "dynamik_size": 12
+  },
+  {
+    "word": "study",
+    "start": 43.68,
+    "end": 43.97,
+    "pos": "NOUN",
+    "is_content": true,
+    "dynamik_size": 18
+  },
+  {
+    "word": "that",
+    "start": 43.97,
+    "end": 44.26,
+    "pos": "PRON",
+    "is_content": false,
+    "dynamik_size": 12
+  },
+  {
+    "word": "made",
+    "start": 44.26,
+    "end": 44.44,
+    "pos": "VERB",
+    "is_content": true,
+    "dynamik_size": 18
+  },
+  {
+    "word": "me",
+    "start": 44.44,
+    "end": 44.78,
+    "pos": "PRON",
+    "is_content": false,
+    "dynamik_size": 12
+  },
+  {
+    "word": "rethink",
+    "start": 44.78,
+    "end": 45.08,
+    "pos": "VERB",
+    "is_content": true,
+    "dynamik_size": 18
+  },
+  {
+    "word": "my",
+    "start": 45.08,
+    "end": 45.4,
+    "pos": "PRON",
+    "is_content": false,
+    "dynamik_size": 12
+  },
+  {
+    "word": "whole",
+    "start": 45.4,
+    "end": 45.76,
+    "pos": "ADJ",
+    "is_content": true,
+    "dynamik_size": 18
+  },
+  {
+    "word": "approach",
+    "start": 45.76,
+    "end": 46.2,
+    "pos": "NOUN",
+    "is_content": true,
+    "dynamik_size": 18
+  },
+  {
+    "word": "to",
+    "start": 46.2,
+    "end": 46.4,
+    "pos": "ADP",
+    "is_content": false,
+    "dynamik_size": 12
+  },
+  {
+    "word": "stress.",
+    "start": 46.4,
+    "end": 46.84,
+    "pos": "NOUN",
+    "is_content": true,
+    "dynamik_size": 18
+  },
+  {
+    "word": "This",
+    "start": 47.62,
+    "end": 47.84,
+    "pos": "DET",
+    "is_content": false,
+    "dynamik_size": 12
+  },
+  {
+    "word": "study",
+    "start": 47.84,
+    "end": 48.14,
+    "pos": "NOUN",
+    "is_content": true,
+    "dynamik_size": 18
+  },
+  {
+    "word": "tracked",
+    "start": 48.14,
+    "end": 48.56,
+    "pos": "VERB",
+    "is_content": true,
+    "dynamik_size": 18
+  },
+  {
+    "word": "30,000",
+    "start": 48.56,
+    "end": 49.4,
+    "pos": "NUM",
+    "is_content": false,
+    "dynamik_size": 12
+  },
+  {
+    "word": "adults",
+    "start": 49.4,
+    "end": 49.72,
+    "pos": "NOUN",
+    "is_content": true,
+    "dynamik_size": 18
+  },
+  {
+    "word": "in",
+    "start": 49.72,
+    "end": 49.9,
+    "pos": "ADP",
+    "is_content": false,
+    "dynamik_size": 12
+  },
+  {
+    "word": "the",
+    "start": 49.9,
+    "end": 50.02,
+    "pos": "DET",
+    "is_content": false,
+    "dynamik_size": 12
+  },
+  {
+    "word": "United",
+    "start": 50.02,
+    "end": 50.34,
+    "pos": "PROPN",
+    "is_content": false,
+    "dynamik_size": 12
+  },
+  {
+    "word": "States",
+    "start": 50.34,
+    "end": 50.7,
+    "pos": "PROPN",
+    "is_content": false,
+    "dynamik_size": 12
+  },
+  {
+    "word": "for",
+    "start": 50.7,
+    "end": 51.06,
+    "pos": "ADP",
+    "is_content": false,
+    "dynamik_size": 12
+  },
+  {
+    "word": "eight",
+    "start": 51.06,
+    "end": 51.32,
+    "pos": "NUM",
+    "is_content": false,
+    "dynamik_size": 12
+  },
+  {
+    "word": "years,",
+    "start": 51.32,
+    "end": 51.86,
+    "pos": "NOUN",
+    "is_content": true,
+    "dynamik_size": 18
+  },
+  {
+    "word": "and",
+    "start": 52.28,
+    "end": 52.46,
+    "pos": "CCONJ",
+    "is_content": false,
+    "dynamik_size": 12
+  },
+  {
+    "word": "they",
+    "start": 52.46,
+    "end": 52.66,
+    "pos": "PRON",
+    "is_content": false,
+    "dynamik_size": 12
+  },
+  {
+    "word": "started",
+    "start": 52.66,
+    "end": 53.0,
+    "pos": "VERB",
+    "is_content": true,
+    "dynamik_size": 18
+  },
+  {
+    "word": "by",
+    "start": 53.0,
+    "end": 53.22,
+    "pos": "ADP",
+    "is_content": false,
+    "dynamik_size": 12
+  },
+  {
+    "word": "asking",
+    "start": 53.22,
+    "end": 53.58,
+    "pos": "VERB",
+    "is_content": true,
+    "dynamik_size": 18
+  },
+  {
+    "word": "people,",
+    "start": 53.58,
+    "end": 54.2,
+    "pos": "NOUN",
+    "is_content": true,
+    "dynamik_size": 18
+  },
+  {
+    "word": "how",
+    "start": 54.76,
+    "end": 55.1,
+    "pos": "SCONJ",
+    "is_content": false,
+    "dynamik_size": 12
+  },
+  {
+    "word": "much",
+    "start": 55.1,
+    "end": 55.44,
+    "pos": "ADJ",
+    "is_content": true,
+    "dynamik_size": 18
+  },
+  {
+    "word": "stress",
+    "start": 55.44,
+    "end": 55.9,
+    "pos": "NOUN",
+    "is_content": true,
+    "dynamik_size": 18
+  },
+  {
+    "word": "have",
+    "start": 55.9,
+    "end": 56.06,
+    "pos": "AUX",
+    "is_content": false,
+    "dynamik_size": 12
+  },
+  {
+    "word": "you",
+    "start": 56.06,
+    "end": 56.14,
+    "pos": "PRON",
+    "is_content": false,
+    "dynamik_size": 12
+  },
+  {
+    "word": "experienced",
+    "start": 56.14,
+    "end": 56.78,
+    "pos": "VERB",
+    "is_content": true,
+    "dynamik_size": 18
+  },
+  {
+    "word": "in",
+    "start": 56.78,
+    "end": 56.98,
+    "pos": "ADP",
+    "is_content": false,
+    "dynamik_size": 12
+  },
+  {
+    "word": "the",
+    "start": 56.98,
+    "end": 57.1,
+    "pos": "DET",
+    "is_content": false,
+    "dynamik_size": 12
+  },
+  {
+    "word": "last",
+    "start": 57.1,
+    "end": 57.34,
+    "pos": "ADJ",
+    "is_content": true,
+    "dynamik_size": 18
+  },
+  {
+    "word": "year?",
+    "start": 57.34,
+    "end": 57.68,
+    "pos": "NOUN",
+    "is_content": true,
+    "dynamik_size": 18
+  },
+  {
+    "word": "They",
+    "start": 58.64,
+    "end": 58.9,
+    "pos": "PRON",
+    "is_content": false,
+    "dynamik_size": 12
+  },
+  {
+    "word": "also",
+    "start": 58.9,
+    "end": 59.34,
+    "pos": "ADV",
+    "is_content": true,
+    "dynamik_size": 18
+  },
+  {
+    "word": "asked,",
+    "start": 59.34,
+    "end": 59.89,
+    "pos": "VERB",
+    "is_content": true,
+    "dynamik_size": 18
+  },
+  {
+    "word": "do",
+    "start": 59.89,
+    "end": 60.62,
+    "pos": "AUX",
+    "is_content": false,
+    "dynamik_size": 12
+  },
+  {
+    "word": "you",
+    "start": 60.62,
+    "end": 60.98,
+    "pos": "PRON",
+    "is_content": false,
+    "dynamik_size": 12
+  },
+  {
+    "word": "believe",
+    "start": 60.98,
+    "end": 61.66,
+    "pos": "VERB",
+    "is_content": true,
+    "dynamik_size": 18
+  },
+  {
+    "word": "that",
+    "start": 61.66,
+    "end": 62.2,
+    "pos": "SCONJ",
+    "is_content": false,
+    "dynamik_size": 12
+  },
+  {
+    "word": "stress",
+    "start": 62.2,
+    "end": 62.66,
+    "pos": "NOUN",
+    "is_content": true,
+    "dynamik_size": 18
+  },
+  {
+    "word": "is",
+    "start": 62.66,
+    "end": 62.92,
+    "pos": "AUX",
+    "is_content": false,
+    "dynamik_size": 12
+  },
+  {
+    "word": "harmful",
+    "start": 62.92,
+    "end": 63.42,
+    "pos": "ADJ",
+    "is_content": true,
+    "dynamik_size": 18
+  },
+  {
+    "word": "for",
+    "start": 63.42,
+    "end": 63.74,
+    "pos": "ADP",
+    "is_content": false,
+    "dynamik_size": 12
+  },
+  {
+    "word": "your",
+    "start": 63.74,
+    "end": 63.9,
+    "pos": "PRON",
+    "is_content": false,
+    "dynamik_size": 12
+  },
+  {
+    "word": "health?",
+    "start": 63.9,
+    "end": 64.26,
+    "pos": "NOUN",
+    "is_content": true,
+    "dynamik_size": 18
+  },
+  {
+    "word": "And",
+    "start": 66.18,
+    "end": 66.36,
+    "pos": "CCONJ",
+    "is_content": false,
+    "dynamik_size": 12
+  },
+  {
+    "word": "then",
+    "start": 66.36,
+    "end": 66.62,
+    "pos": "ADV",
+    "is_content": true,
+    "dynamik_size": 18
+  },
+  {
+    "word": "they",
+    "start": 66.62,
+    "end": 66.8,
+    "pos": "PRON",
+    "is_content": false,
+    "dynamik_size": 12
+  },
+  {
+    "word": "used",
+    "start": 66.8,
+    "end": 66.98,
+    "pos": "VERB",
+    "is_content": true,
+    "dynamik_size": 18
+  },
+  {
+    "word": "public",
+    "start": 66.98,
+    "end": 67.32,
+    "pos": "ADJ",
+    "is_content": true,
+    "dynamik_size": 18
+  },
+  {
+    "word": "death",
+    "start": 67.32,
+    "end": 67.6,
+    "pos": "NOUN",
+    "is_content": true,
+    "dynamik_size": 18
+  },
+  {
+    "word": "records",
+    "start": 67.6,
+    "end": 67.86,
+    "pos": "NOUN",
+    "is_content": true,
+    "dynamik_size": 18
+  },
+  {
+    "word": "to",
+    "start": 67.86,
+    "end": 68.06,
+    "pos": "PART",
+    "is_content": false,
+    "dynamik_size": 12
+  },
+  {
+    "word": "find",
+    "start": 68.06,
+    "end": 68.36,
+    "pos": "VERB",
+    "is_content": true,
+    "dynamik_size": 18
+  },
+  {
+    "word": "out",
+    "start": 68.36,
+    "end": 68.58,
+    "pos": "ADP",
+    "is_content": false,
+    "dynamik_size": 12
+  },
+  {
+    "word": "who",
+    "start": 68.58,
+    "end": 68.76,
+    "pos": "PRON",
+    "is_content": false,
+    "dynamik_size": 12
+  },
+  {
+    "word": "died.",
+    "start": 68.76,
+    "end": 69.1,
+    "pos": "VERB",
+    "is_content": true,
+    "dynamik_size": 18
+  },
+  {
+    "word": "Okay.",
+    "start": 70.9,
+    "end": 71.2,
+    "pos": "INTJ",
+    "is_content": false,
+    "dynamik_size": 12
+  },
+  {
+    "word": "Some",
+    "start": 72.78,
+    "end": 73.0,
+    "pos": "DET",
+    "is_content": false,
+    "dynamik_size": 12
+  },
+  {
+    "word": "bad",
+    "start": 73.0,
+    "end": 73.36,
+    "pos": "ADJ",
+    "is_content": true,
+    "dynamik_size": 18
+  },
+  {
+    "word": "news",
+    "start": 73.36,
+    "end": 73.72,
+    "pos": "NOUN",
+    "is_content": true,
+    "dynamik_size": 18
+  },
+  {
+    "word": "first.",
+    "start": 73.72,
+    "end": 74.3,
+    "pos": "ADV",
+    "is_content": true,
+    "dynamik_size": 18
+  },
+  {
+    "word": "People",
+    "start": 74.8,
+    "end": 75.08,
+    "pos": "NOUN",
+    "is_content": true,
+    "dynamik_size": 18
+  },
+  {
+    "word": "who",
+    "start": 75.08,
+    "end": 75.46,
+    "pos": "PRON",
+    "is_content": false,
+    "dynamik_size": 12
+  },
+  {
+    "word": "experienced",
+    "start": 75.46,
+    "end": 75.96,
+    "pos": "VERB",
+    "is_content": true,
+    "dynamik_size": 18
+  },
+  {
+    "word": "a",
+    "start": 75.96,
+    "end": 76.16,
+    "pos": "DET",
+    "is_content": false,
+    "dynamik_size": 12
+  },
+  {
+    "word": "lot",
+    "start": 76.16,
+    "end": 76.48,
+    "pos": "NOUN",
+    "is_content": true,
+    "dynamik_size": 18
+  },
+  {
+    "word": "of",
+    "start": 76.48,
+    "end": 76.58,
+    "pos": "ADP",
+    "is_content": false,
+    "dynamik_size": 12
+  },
+  {
+    "word": "stress",
+    "start": 76.58,
+    "end": 76.94,
+    "pos": "NOUN",
+    "is_content": true,
+    "dynamik_size": 18
+  },
+  {
+    "word": "in",
+    "start": 76.94,
+    "end": 77.26,
+    "pos": "ADP",
+    "is_content": false,
+    "dynamik_size": 12
+  },
+  {
+    "word": "the",
+    "start": 77.26,
+    "end": 77.42,
+    "pos": "DET",
+    "is_content": false,
+    "dynamik_size": 12
+  },
+  {
+    "word": "previous",
+    "start": 77.42,
+    "end": 77.66,
+    "pos": "ADJ",
+    "is_content": true,
+    "dynamik_size": 18
+  },
+  {
+    "word": "year",
+    "start": 77.66,
+    "end": 77.93,
+    "pos": "NOUN",
+    "is_content": true,
+    "dynamik_size": 18
+  },
+  {
+    "word": "had",
+    "start": 77.93,
+    "end": 78.2,
+    "pos": "VERB",
+    "is_content": true,
+    "dynamik_size": 18
+  },
+  {
+    "word": "a",
+    "start": 78.2,
+    "end": 78.44,
+    "pos": "DET",
+    "is_content": false,
+    "dynamik_size": 12
+  },
+  {
+    "word": "43%",
+    "start": 78.44,
+    "end": 78.9,
+    "pos": "NUM",
+    "is_content": false,
+    "dynamik_size": 12
+  },
+  {
+    "word": "increased",
+    "start": 79.56,
+    "end": 79.86,
+    "pos": "VERB",
+    "is_content": true,
+    "dynamik_size": 18
+  },
+  {
+    "word": "risk",
+    "start": 79.86,
+    "end": 80.14,
+    "pos": "NOUN",
+    "is_content": true,
+    "dynamik_size": 18
+  },
+  {
+    "word": "of",
+    "start": 80.14,
+    "end": 80.3,
+    "pos": "ADP",
+    "is_content": false,
+    "dynamik_size": 12
+  },
+  {
+    "word": "dying.",
+    "start": 80.3,
+    "end": 80.66,
+    "pos": "VERB",
+    "is_content": true,
+    "dynamik_size": 18
+  },
+  {
+    "word": "But",
+    "start": 82.24,
+    "end": 82.76,
+    "pos": "CCONJ",
+    "is_content": false,
+    "dynamik_size": 12
+  },
+  {
+    "word": "that",
+    "start": 82.76,
+    "end": 83.72,
+    "pos": "PRON",
+    "is_content": false,
+    "dynamik_size": 12
+  },
+  {
+    "word": "was",
+    "start": 83.72,
+    "end": 84.04,
+    "pos": "AUX",
+    "is_content": false,
+    "dynamik_size": 12
+  },
+  {
+    "word": "only",
+    "start": 84.04,
+    "end": 84.54,
+    "pos": "ADV",
+    "is_content": true,
+    "dynamik_size": 18
+  },
+  {
+    "word": "true",
+    "start": 84.54,
+    "end": 85.14,
+    "pos": "ADJ",
+    "is_content": true,
+    "dynamik_size": 18
+  },
+  {
+    "word": "for",
+    "start": 85.14,
+    "end": 85.62,
+    "pos": "ADP",
+    "is_content": false,
+    "dynamik_size": 12
+  },
+  {
+    "word": "the",
+    "start": 85.62,
+    "end": 85.86,
+    "pos": "DET",
+    "is_content": false,
+    "dynamik_size": 12
+  },
+  {
+    "word": "people",
+    "start": 85.86,
+    "end": 85.88,
+    "pos": "NOUN",
+    "is_content": true,
+    "dynamik_size": 18
+  },
+  {
+    "word": "who",
+    "start": 85.88,
+    "end": 86.42,
+    "pos": "PRON",
+    "is_content": false,
+    "dynamik_size": 12
+  },
+  {
+    "word": "also",
+    "start": 86.42,
+    "end": 86.96,
+    "pos": "ADV",
+    "is_content": true,
+    "dynamik_size": 18
+  },
+  {
+    "word": "believed",
+    "start": 86.96,
+    "end": 87.6,
+    "pos": "VERB",
+    "is_content": true,
+    "dynamik_size": 18
+  },
+  {
+    "word": "that",
+    "start": 87.6,
+    "end": 87.98,
+    "pos": "SCONJ",
+    "is_content": false,
+    "dynamik_size": 12
+  },
+  {
+    "word": "stress",
+    "start": 87.98,
+    "end": 88.26,
+    "pos": "NOUN",
+    "is_content": true,
+    "dynamik_size": 18
+  },
+  {
+    "word": "is",
+    "start": 88.26,
+    "end": 88.42,
+    "pos": "AUX",
+    "is_content": false,
+    "dynamik_size": 12
+  },
+  {
+    "word": "harmful",
+    "start": 88.42,
+    "end": 88.78,
+    "pos": "ADJ",
+    "is_content": true,
+    "dynamik_size": 18
+  },
+  {
+    "word": "for",
+    "start": 88.78,
+    "end": 89.0,
+    "pos": "ADP",
+    "is_content": false,
+    "dynamik_size": 12
+  },
+  {
+    "word": "your",
+    "start": 89.0,
+    "end": 89.18,
+    "pos": "PRON",
+    "is_content": false,
+    "dynamik_size": 12
+  },
+  {
+    "word": "health.",
+    "start": 89.18,
+    "end": 89.46,
+    "pos": "NOUN",
+    "is_content": true,
+    "dynamik_size": 18
+  }
+]

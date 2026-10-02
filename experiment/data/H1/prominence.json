@@ -1,0 +1,1262 @@
+[
+  {
+    "word": "treated",
+    "start": 0.0,
+    "end": 0.44,
+    "prominence": 0.6857
+  },
+  {
+    "word": "with",
+    "start": 0.44,
+    "end": 0.74,
+    "prominence": 0.4308
+  },
+  {
+    "word": "the",
+    "start": 0.74,
+    "end": 0.92,
+    "prominence": 0.4718
+  },
+  {
+    "word": "same",
+    "start": 0.92,
+    "end": 1.44,
+    "prominence": 0.4799
+  },
+  {
+    "word": "status.",
+    "start": 1.44,
+    "end": 2.02,
+    "prominence": 0.4995
+  },
+  {
+    "word": "Thank",
+    "start": 3.34,
+    "end": 3.46,
+    "prominence": 0.3578
+  },
+  {
+    "word": "you.",
+    "start": 3.46,
+    "end": 3.66,
+    "prominence": 0.5855
+  },
+  {
+    "word": "That",
+    "start": 8.36,
+    "end": 9.46,
+    "prominence": 0.5749
+  },
+  {
+    "word": "was",
+    "start": 9.46,
+    "end": 9.64,
+    "prominence": 0.4815
+  },
+  {
+    "word": "it.",
+    "start": 9.64,
+    "end": 9.88,
+    "prominence": 0.4178
+  },
+  {
+    "word": "Thank",
+    "start": 10.16,
+    "end": 10.3,
+    "prominence": 0.4044
+  },
+  {
+    "word": "you",
+    "start": 10.3,
+    "end": 10.42,
+    "prominence": 0.4299
+  },
+  {
+    "word": "very",
+    "start": 10.42,
+    "end": 10.52,
+    "prominence": 0.3143
+  },
+  {
+    "word": "much.",
+    "start": 10.52,
+    "end": 10.62,
+    "prominence": 0.2847
+  },
+  {
+    "word": "So",
+    "start": 12.86,
+    "end": 13.84,
+    "prominence": 0.7539
+  },
+  {
+    "word": "15",
+    "start": 13.84,
+    "end": 14.26,
+    "prominence": 0.4527
+  },
+  {
+    "word": "minutes",
+    "start": 14.26,
+    "end": 14.42,
+    "prominence": 0.3992
+  },
+  {
+    "word": "left.",
+    "start": 14.42,
+    "end": 15.2,
+    "prominence": 0.7074
+  },
+  {
+    "word": "Well,",
+    "start": 18.38,
+    "end": 18.5,
+    "prominence": 0.4173
+  },
+  {
+    "word": "I",
+    "start": 18.58,
+    "end": 18.62,
+    "prominence": 0.2263
+  },
+  {
+    "word": "was",
+    "start": 18.62,
+    "end": 18.74,
+    "prominence": 0.4585
+  },
+  {
+    "word": "born.",
+    "start": 18.74,
+    "end": 19.0,
+    "prominence": 0.561
+  },
+  {
+    "word": "No,",
+    "start": 19.26,
+    "end": 19.38,
+    "prominence": 0.3625
+  },
+  {
+    "word": "the",
+    "start": 19.5,
+    "end": 19.86,
+    "prominence": 0.7064
+  },
+  {
+    "word": "I",
+    "start": 19.86,
+    "end": 23.58,
+    "prominence": 0.7705
+  },
+  {
+    "word": "had",
+    "start": 23.58,
+    "end": 23.8,
+    "prominence": 0.4908
+  },
+  {
+    "word": "a",
+    "start": 23.8,
+    "end": 23.92,
+    "prominence": 0.3876
+  },
+  {
+    "word": "great",
+    "start": 23.92,
+    "end": 24.1,
+    "prominence": 0.5477
+  },
+  {
+    "word": "story",
+    "start": 24.1,
+    "end": 24.36,
+    "prominence": 0.5038
+  },
+  {
+    "word": "recently.",
+    "start": 24.36,
+    "end": 24.82,
+    "prominence": 0.5446
+  },
+  {
+    "word": "I",
+    "start": 24.92,
+    "end": 25.34,
+    "prominence": 0.4718
+  },
+  {
+    "word": "love",
+    "start": 25.34,
+    "end": 25.5,
+    "prominence": 0.4417
+  },
+  {
+    "word": "telling",
+    "start": 25.5,
+    "end": 25.72,
+    "prominence": 0.4869
+  },
+  {
+    "word": "it",
+    "start": 25.72,
+    "end": 25.88,
+    "prominence": 0.384
+  },
+  {
+    "word": "of",
+    "start": 25.88,
+    "end": 26.0,
+    "prominence": 0.3924
+  },
+  {
+    "word": "a",
+    "start": 26.0,
+    "end": 26.1,
+    "prominence": 0.3722
+  },
+  {
+    "word": "little",
+    "start": 26.1,
+    "end": 26.24,
+    "prominence": 0.4426
+  },
+  {
+    "word": "girl",
+    "start": 26.24,
+    "end": 26.68,
+    "prominence": 0.709
+  },
+  {
+    "word": "who",
+    "start": 26.68,
+    "end": 27.02,
+    "prominence": 0.3962
+  },
+  {
+    "word": "was",
+    "start": 27.02,
+    "end": 27.54,
+    "prominence": 0.5262
+  },
+  {
+    "word": "in",
+    "start": 27.54,
+    "end": 27.96,
+    "prominence": 0.4615
+  },
+  {
+    "word": "a",
+    "start": 27.96,
+    "end": 28.08,
+    "prominence": 0.4142
+  },
+  {
+    "word": "drawing",
+    "start": 28.08,
+    "end": 28.28,
+    "prominence": 0.5264
+  },
+  {
+    "word": "lesson.",
+    "start": 28.28,
+    "end": 28.58,
+    "prominence": 0.5186
+  },
+  {
+    "word": "She",
+    "start": 28.58,
+    "end": 28.74,
+    "prominence": 0.4117
+  },
+  {
+    "word": "was",
+    "start": 28.74,
+    "end": 28.9,
+    "prominence": 0.432
+  },
+  {
+    "word": "six",
+    "start": 28.9,
+    "end": 29.18,
+    "prominence": 0.5508
+  },
+  {
+    "word": "and",
+    "start": 29.18,
+    "end": 29.34,
+    "prominence": 0.3933
+  },
+  {
+    "word": "she",
+    "start": 29.34,
+    "end": 29.44,
+    "prominence": 0.3842
+  },
+  {
+    "word": "was",
+    "start": 29.44,
+    "end": 29.54,
+    "prominence": 0.3468
+  },
+  {
+    "word": "at",
+    "start": 29.54,
+    "end": 29.6,
+    "prominence": 0.2867
+  },
+  {
+    "word": "the",
+    "start": 29.6,
+    "end": 29.72,
+    "prominence": 0.6658
+  },
+  {
+    "word": "back",
+    "start": 29.72,
+    "end": 29.88,
+    "prominence": 0.4012
+  },
+  {
+    "word": "drawing",
+    "start": 29.88,
+    "end": 30.16,
+    "prominence": 0.6039
+  },
+  {
+    "word": "and",
+    "start": 30.16,
+    "end": 30.4,
+    "prominence": 0.4179
+  },
+  {
+    "word": "the",
+    "start": 30.4,
+    "end": 30.55,
+    "prominence": 0.4167
+  },
+  {
+    "word": "teacher",
+    "start": 30.55,
+    "end": 30.86,
+    "prominence": 0.5244
+  },
+  {
+    "word": "said",
+    "start": 30.86,
+    "end": 31.06,
+    "prominence": 0.4766
+  },
+  {
+    "word": "this",
+    "start": 31.06,
+    "end": 31.22,
+    "prominence": 0.4331
+  },
+  {
+    "word": "little",
+    "start": 31.22,
+    "end": 31.42,
+    "prominence": 0.4266
+  },
+  {
+    "word": "girl",
+    "start": 31.42,
+    "end": 31.6,
+    "prominence": 0.4637
+  },
+  {
+    "word": "hardly",
+    "start": 31.6,
+    "end": 31.82,
+    "prominence": 0.4635
+  },
+  {
+    "word": "ever",
+    "start": 31.82,
+    "end": 31.96,
+    "prominence": 0.4074
+  },
+  {
+    "word": "paid",
+    "start": 31.96,
+    "end": 32.16,
+    "prominence": 0.4615
+  },
+  {
+    "word": "attention.",
+    "start": 32.16,
+    "end": 32.58,
+    "prominence": 0.5993
+  },
+  {
+    "word": "And",
+    "start": 32.9,
+    "end": 33.06,
+    "prominence": 0.4257
+  },
+  {
+    "word": "in",
+    "start": 33.06,
+    "end": 33.16,
+    "prominence": 0.3664
+  },
+  {
+    "word": "this",
+    "start": 33.16,
+    "end": 33.3,
+    "prominence": 0.5234
+  },
+  {
+    "word": "drawing",
+    "start": 33.3,
+    "end": 33.5,
+    "prominence": 0.4381
+  },
+  {
+    "word": "lesson,",
+    "start": 33.5,
+    "end": 33.72,
+    "prominence": 0.4827
+  },
+  {
+    "word": "she",
+    "start": 33.72,
+    "end": 33.94,
+    "prominence": 0.4313
+  },
+  {
+    "word": "did.",
+    "start": 33.94,
+    "end": 34.34,
+    "prominence": 0.4791
+  },
+  {
+    "word": "And",
+    "start": 34.94,
+    "end": 35.26,
+    "prominence": 0.5003
+  },
+  {
+    "word": "the",
+    "start": 35.26,
+    "end": 35.52,
+    "prominence": 0.4468
+  },
+  {
+    "word": "teacher",
+    "start": 35.52,
+    "end": 35.78,
+    "prominence": 0.4466
+  },
+  {
+    "word": "was",
+    "start": 35.78,
+    "end": 35.96,
+    "prominence": 0.4513
+  },
+  {
+    "word": "fascinated.",
+    "start": 35.96,
+    "end": 36.26,
+    "prominence": 0.6052
+  },
+  {
+    "word": "She",
+    "start": 36.32,
+    "end": 36.44,
+    "prominence": 0.3878
+  },
+  {
+    "word": "went",
+    "start": 36.44,
+    "end": 36.56,
+    "prominence": 0.4215
+  },
+  {
+    "word": "over",
+    "start": 36.56,
+    "end": 36.76,
+    "prominence": 0.4795
+  },
+  {
+    "word": "to",
+    "start": 36.76,
+    "end": 36.88,
+    "prominence": 0.3784
+  },
+  {
+    "word": "him",
+    "start": 36.88,
+    "end": 36.96,
+    "prominence": 0.3329
+  },
+  {
+    "word": "and",
+    "start": 36.96,
+    "end": 37.06,
+    "prominence": 0.3522
+  },
+  {
+    "word": "she",
+    "start": 37.06,
+    "end": 37.14,
+    "prominence": 0.2941
+  },
+  {
+    "word": "said,",
+    "start": 37.14,
+    "end": 37.38,
+    "prominence": 0.5897
+  },
+  {
+    "word": "what",
+    "start": 37.66,
+    "end": 37.94,
+    "prominence": 0.4348
+  },
+  {
+    "word": "are",
+    "start": 37.94,
+    "end": 38.08,
+    "prominence": 0.3782
+  },
+  {
+    "word": "you",
+    "start": 38.08,
+    "end": 38.11,
+    "prominence": 0.2423
+  },
+  {
+    "word": "drawing?",
+    "start": 38.11,
+    "end": 38.48,
+    "prominence": 0.7439
+  },
+  {
+    "word": "And",
+    "start": 39.4,
+    "end": 39.72,
+    "prominence": 0.4993
+  },
+  {
+    "word": "the",
+    "start": 39.72,
+    "end": 39.88,
+    "prominence": 0.4849
+  },
+  {
+    "word": "girl",
+    "start": 39.88,
+    "end": 40.04,
+    "prominence": 0.4671
+  },
+  {
+    "word": "said,",
+    "start": 40.04,
+    "end": 40.42,
+    "prominence": 0.5879
+  },
+  {
+    "word": "I'm",
+    "start": 40.62,
+    "end": 40.86,
+    "prominence": 0.4712
+  },
+  {
+    "word": "drawing",
+    "start": 40.86,
+    "end": 41.08,
+    "prominence": 0.432
+  },
+  {
+    "word": "a",
+    "start": 41.08,
+    "end": 41.24,
+    "prominence": 0.383
+  },
+  {
+    "word": "picture",
+    "start": 41.24,
+    "end": 41.46,
+    "prominence": 0.4581
+  },
+  {
+    "word": "of",
+    "start": 41.46,
+    "end": 41.58,
+    "prominence": 0.4835
+  },
+  {
+    "word": "God.",
+    "start": 41.58,
+    "end": 42.08,
+    "prominence": 0.6241
+  },
+  {
+    "word": "And",
+    "start": 43.16,
+    "end": 43.36,
+    "prominence": 0.4054
+  },
+  {
+    "word": "the",
+    "start": 43.36,
+    "end": 43.48,
+    "prominence": 0.3709
+  },
+  {
+    "word": "teacher",
+    "start": 43.48,
+    "end": 43.68,
+    "prominence": 0.5119
+  },
+  {
+    "word": "said,",
+    "start": 43.68,
+    "end": 44.06,
+    "prominence": 0.6225
+  },
+  {
+    "word": "but",
+    "start": 44.4,
+    "end": 44.53,
+    "prominence": 0.4903
+  },
+  {
+    "word": "nobody",
+    "start": 44.53,
+    "end": 44.76,
+    "prominence": 0.5165
+  },
+  {
+    "word": "knows",
+    "start": 44.76,
+    "end": 44.94,
+    "prominence": 0.4666
+  },
+  {
+    "word": "what",
+    "start": 44.94,
+    "end": 45.12,
+    "prominence": 0.4016
+  },
+  {
+    "word": "God",
+    "start": 45.12,
+    "end": 45.3,
+    "prominence": 0.46
+  },
+  {
+    "word": "looks",
+    "start": 45.3,
+    "end": 45.56,
+    "prominence": 0.5238
+  },
+  {
+    "word": "like.",
+    "start": 45.56,
+    "end": 46.1,
+    "prominence": 0.4813
+  },
+  {
+    "word": "And",
+    "start": 46.54,
+    "end": 46.7,
+    "prominence": 0.4511
+  },
+  {
+    "word": "the",
+    "start": 46.7,
+    "end": 46.8,
+    "prominence": 0.3359
+  },
+  {
+    "word": "girl",
+    "start": 46.8,
+    "end": 46.94,
+    "prominence": 0.4952
+  },
+  {
+    "word": "said,",
+    "start": 46.94,
+    "end": 47.18,
+    "prominence": 0.5654
+  },
+  {
+    "word": "they",
+    "start": 47.26,
+    "end": 47.38,
+    "prominence": 0.3683
+  },
+  {
+    "word": "will",
+    "start": 47.38,
+    "end": 47.5,
+    "prominence": 0.4349
+  },
+  {
+    "word": "in",
+    "start": 47.5,
+    "end": 47.6,
+    "prominence": 0.3321
+  },
+  {
+    "word": "a",
+    "start": 47.6,
+    "end": 47.68,
+    "prominence": 0.3064
+  },
+  {
+    "word": "minute.",
+    "start": 47.68,
+    "end": 47.98,
+    "prominence": 0.5065
+  },
+  {
+    "word": "When",
+    "start": 50.72,
+    "end": 56.84,
+    "prominence": 0.8125
+  },
+  {
+    "word": "my",
+    "start": 56.84,
+    "end": 60.68,
+    "prominence": 0.7494
+  },
+  {
+    "word": "son",
+    "start": 60.68,
+    "end": 61.0,
+    "prominence": 0.5981
+  },
+  {
+    "word": "was",
+    "start": 61.0,
+    "end": 61.3,
+    "prominence": 0.4564
+  },
+  {
+    "word": "four",
+    "start": 61.3,
+    "end": 61.7,
+    "prominence": 0.4491
+  },
+  {
+    "word": "in",
+    "start": 61.7,
+    "end": 62.0,
+    "prominence": 0.4074
+  },
+  {
+    "word": "England,",
+    "start": 62.0,
+    "end": 62.38,
+    "prominence": 0.4928
+  },
+  {
+    "word": "actually,",
+    "start": 63.1,
+    "end": 63.24,
+    "prominence": 0.3995
+  },
+  {
+    "word": "he",
+    "start": 63.24,
+    "end": 63.36,
+    "prominence": 0.4681
+  },
+  {
+    "word": "was",
+    "start": 63.36,
+    "end": 63.46,
+    "prominence": 0.3421
+  },
+  {
+    "word": "four",
+    "start": 63.46,
+    "end": 63.66,
+    "prominence": 0.6238
+  },
+  {
+    "word": "everywhere,",
+    "start": 63.66,
+    "end": 63.9,
+    "prominence": 0.4402
+  },
+  {
+    "word": "to",
+    "start": 63.92,
+    "end": 64.04,
+    "prominence": 0.4233
+  },
+  {
+    "word": "be",
+    "start": 64.04,
+    "end": 64.16,
+    "prominence": 0.4312
+  },
+  {
+    "word": "honest.",
+    "start": 64.16,
+    "end": 64.38,
+    "prominence": 0.5021
+  },
+  {
+    "word": "I",
+    "start": 64.52,
+    "end": 64.54,
+    "prominence": 0.2425
+  },
+  {
+    "word": "mean,",
+    "start": 64.54,
+    "end": 64.66,
+    "prominence": 0.4351
+  },
+  {
+    "word": "we're",
+    "start": 66.96,
+    "end": 67.12,
+    "prominence": 0.4148
+  },
+  {
+    "word": "being",
+    "start": 67.12,
+    "end": 67.3,
+    "prominence": 0.4271
+  },
+  {
+    "word": "strict",
+    "start": 67.3,
+    "end": 67.5,
+    "prominence": 0.4549
+  },
+  {
+    "word": "about",
+    "start": 67.5,
+    "end": 67.74,
+    "prominence": 0.5377
+  },
+  {
+    "word": "it",
+    "start": 67.74,
+    "end": 67.88,
+    "prominence": 0.4534
+  },
+  {
+    "word": "wherever",
+    "start": 67.88,
+    "end": 68.04,
+    "prominence": 0.4804
+  },
+  {
+    "word": "he",
+    "start": 68.04,
+    "end": 68.18,
+    "prominence": 0.357
+  },
+  {
+    "word": "went.",
+    "start": 68.18,
+    "end": 68.3,
+    "prominence": 0.355
+  },
+  {
+    "word": "He",
+    "start": 68.4,
+    "end": 68.42,
+    "prominence": 0.2065
+  },
+  {
+    "word": "was",
+    "start": 68.42,
+    "end": 68.52,
+    "prominence": 0.4283
+  },
+  {
+    "word": "four",
+    "start": 68.52,
+    "end": 68.76,
+    "prominence": 0.5628
+  },
+  {
+    "word": "that",
+    "start": 68.76,
+    "end": 68.9,
+    "prominence": 0.4002
+  },
+  {
+    "word": "year,",
+    "start": 68.9,
+    "end": 69.0,
+    "prominence": 0.4167
+  },
+  {
+    "word": "but",
+    "start": 69.32,
+    "end": 69.34,
+    "prominence": 0.1927
+  },
+  {
+    "word": "he",
+    "start": 69.34,
+    "end": 69.86,
+    "prominence": 0.7243
+  },
+  {
+    "word": "was",
+    "start": 69.86,
+    "end": 70.06,
+    "prominence": 0.5003
+  },
+  {
+    "word": "in",
+    "start": 70.06,
+    "end": 70.22,
+    "prominence": 0.366
+  },
+  {
+    "word": "the",
+    "start": 70.22,
+    "end": 70.34,
+    "prominence": 0.4063
+  },
+  {
+    "word": "Nativity",
+    "start": 70.34,
+    "end": 70.68,
+    "prominence": 0.5776
+  },
+  {
+    "word": "play.",
+    "start": 70.68,
+    "end": 71.08,
+    "prominence": 0.509
+  },
+  {
+    "word": "Do",
+    "start": 71.28,
+    "end": 71.42,
+    "prominence": 0.4697
+  },
+  {
+    "word": "you",
+    "start": 71.42,
+    "end": 71.44,
+    "prominence": 0.2237
+  },
+  {
+    "word": "remember",
+    "start": 71.44,
+    "end": 71.58,
+    "prominence": 0.4258
+  },
+  {
+    "word": "the",
+    "start": 71.58,
+    "end": 71.76,
+    "prominence": 0.5923
+  },
+  {
+    "word": "story?",
+    "start": 71.76,
+    "end": 72.24,
+    "prominence": 0.4641
+  },
+  {
+    "word": "No,",
+    "start": 74.28,
+    "end": 74.4,
+    "prominence": 0.4479
+  },
+  {
+    "word": "it's",
+    "start": 74.4,
+    "end": 74.54,
+    "prominence": 0.4755
+  },
+  {
+    "word": "big.",
+    "start": 74.54,
+    "end": 74.72,
+    "prominence": 0.4431
+  },
+  {
+    "word": "It's",
+    "start": 74.72,
+    "end": 74.84,
+    "prominence": 0.4607
+  },
+  {
+    "word": "a",
+    "start": 74.84,
+    "end": 74.9,
+    "prominence": 0.2979
+  },
+  {
+    "word": "big",
+    "start": 74.9,
+    "end": 74.98,
+    "prominence": 0.3137
+  },
+  {
+    "word": "story.",
+    "start": 74.98,
+    "end": 75.42,
+    "prominence": 0.5134
+  },
+  {
+    "word": "Mel",
+    "start": 76.2,
+    "end": 76.38,
+    "prominence": 0.4251
+  },
+  {
+    "word": "Gibson",
+    "start": 76.38,
+    "end": 76.64,
+    "prominence": 0.5665
+  },
+  {
+    "word": "did",
+    "start": 76.64,
+    "end": 76.8,
+    "prominence": 0.3946
+  },
+  {
+    "word": "the",
+    "start": 76.8,
+    "end": 76.9,
+    "prominence": 0.3352
+  },
+  {
+    "word": "sequel.",
+    "start": 76.9,
+    "end": 77.1,
+    "prominence": 0.4843
+  },
+  {
+    "word": "You",
+    "start": 77.12,
+    "end": 77.24,
+    "prominence": 0.4341
+  },
+  {
+    "word": "may",
+    "start": 77.24,
+    "end": 77.34,
+    "prominence": 0.3104
+  },
+  {
+    "word": "have",
+    "start": 77.34,
+    "end": 77.46,
+    "prominence": 0.353
+  },
+  {
+    "word": "seen",
+    "start": 77.46,
+    "end": 77.6,
+    "prominence": 0.4216
+  },
+  {
+    "word": "it.",
+    "start": 77.6,
+    "end": 77.78,
+    "prominence": 0.4684
+  },
+  {
+    "word": "Nativity",
+    "start": 79.78,
+    "end": 80.22,
+    "prominence": 0.6688
+  },
+  {
+    "word": "2.",
+    "start": 80.22,
+    "end": 81.02,
+    "prominence": 0.5399
+  },
+  {
+    "word": "But",
+    "start": 82.58,
+    "end": 82.6,
+    "prominence": 0.2819
+  },
+  {
+    "word": "James",
+    "start": 82.6,
+    "end": 83.12,
+    "prominence": 0.7571
+  },
+  {
+    "word": "got",
+    "start": 83.12,
+    "end": 83.34,
+    "prominence": 0.4421
+  },
+  {
+    "word": "the",
+    "start": 83.34,
+    "end": 83.5,
+    "prominence": 0.421
+  },
+  {
+    "word": "part",
+    "start": 83.5,
+    "end": 83.64,
+    "prominence": 0.4113
+  },
+  {
+    "word": "of",
+    "start": 83.64,
+    "end": 83.78,
+    "prominence": 0.4791
+  },
+  {
+    "word": "Joseph,",
+    "start": 83.78,
+    "end": 84.08,
+    "prominence": 0.6994
+  },
+  {
+    "word": "which",
+    "start": 84.18,
+    "end": 84.28,
+    "prominence": 0.3817
+  },
+  {
+    "word": "we",
+    "start": 84.28,
+    "end": 84.44,
+    "prominence": 0.4656
+  },
+  {
+    "word": "were",
+    "start": 84.44,
+    "end": 84.54,
+    "prominence": 0.3395
+  },
+  {
+    "word": "thrilled",
+    "start": 84.54,
+    "end": 84.7,
+    "prominence": 0.4275
+  },
+  {
+    "word": "about.",
+    "start": 84.7,
+    "end": 85.02,
+    "prominence": 0.5919
+  },
+  {
+    "word": "We",
+    "start": 85.16,
+    "end": 85.3,
+    "prominence": 0.4293
+  },
+  {
+    "word": "consider",
+    "start": 85.3,
+    "end": 85.52,
+    "prominence": 0.5341
+  },
+  {
+    "word": "this",
+    "start": 85.52,
+    "end": 85.68,
+    "prominence": 0.4107
+  },
+  {
+    "word": "to",
+    "start": 85.68,
+    "end": 85.78,
+    "prominence": 0.3537
+  },
+  {
+    "word": "be",
+    "start": 85.78,
+    "end": 85.84,
+    "prominence": 0.2856
+  },
+  {
+    "word": "one",
+    "start": 85.84,
+    "end": 85.94,
+    "prominence": 0.3687
+  },
+  {
+    "word": "of",
+    "start": 85.94,
+    "end": 86.04,
+    "prominence": 0.4237
+  },
+  {
+    "word": "the",
+    "start": 86.04,
+    "end": 86.18,
+    "prominence": 0.3886
+  },
+  {
+    "word": "lead",
+    "start": 86.18,
+    "end": 86.4,
+    "prominence": 0.4528
+  },
+  {
+    "word": "parts.",
+    "start": 86.4,
+    "end": 87.04,
+    "prominence": 0.6121
+  },
+  {
+    "word": "We",
+    "start": 87.36,
+    "end": 88.44,
+    "prominence": 0.6873
+  },
+  {
+    "word": "had",
+    "start": 88.44,
+    "end": 88.56,
+    "prominence": 0.3891
+  },
+  {
+    "word": "the",
+    "start": 88.56,
+    "end": 88.66,
+    "prominence": 0.3857
+  },
+  {
+    "word": "place",
+    "start": 88.66,
+    "end": 88.84,
+    "prominence": 0.5316
+  },
+  {
+    "word": "crammed",
+    "start": 88.84,
+    "end": 89.12,
+    "prominence": 0.6145
+  },
+  {
+    "word": "full",
+    "start": 89.12,
+    "end": 89.28,
+    "prominence": 0.4079
+  },
+  {
+    "word": "of",
+    "start": 89.28,
+    "end": 89.4,
+    "prominence": 0.3508
+  },
+  {
+    "word": "agents",
+    "start": 89.4,
+    "end": 89.68,
+    "prominence": 0.5401
+  }
+]

@@ -1,0 +1,177 @@
+{
+  "comprehension": [
+    {
+      "id": "H3_C01",
+      "type": "content",
+      "question": "What is the speaker's profession?",
+      "options": [
+        "Medical doctor",
+        "Health psychologist",
+        "Neuroscientist",
+        "Fitness trainer"
+      ],
+      "correct": 1,
+      "is_dummy": false,
+      "hint_ja": "話者の職業は何ですか？"
+    },
+    {
+      "id": "H3_C02",
+      "type": "content",
+      "question": "What has the speaker been teaching for the last 10 years?",
+      "options": [
+        "Exercise techniques",
+        "That stress makes you sick",
+        "Meditation practices",
+        "Time management"
+      ],
+      "correct": 1,
+      "is_dummy": false,
+      "hint_ja": "話者は過去10年間何を教えてきましたか？"
+    },
+    {
+      "id": "H3_C03",
+      "type": "content",
+      "question": "How many adults were tracked in the study the speaker mentioned?",
+      "options": [
+        "10,000",
+        "20,000",
+        "30,000",
+        "50,000"
+      ],
+      "correct": 2,
+      "is_dummy": false,
+      "hint_ja": "研究で追跡された成人の数は？"
+    },
+    {
+      "id": "H3_C04",
+      "type": "content",
+      "question": "For how many years were the adults tracked?",
+      "options": [
+        "Five",
+        "Eight",
+        "Ten",
+        "Twelve"
+      ],
+      "correct": 1,
+      "is_dummy": false,
+      "hint_ja": "何年間追跡されましたか？"
+    },
+    {
+      "id": "H3_C05",
+      "type": "content",
+      "question": "What increased risk did people with a lot of stress have?",
+      "options": [
+        "23% increased risk of dying",
+        "33% increased risk of dying",
+        "43% increased risk of dying",
+        "53% increased risk of dying"
+      ],
+      "correct": 2,
+      "is_dummy": false,
+      "hint_ja": "強いストレスを受けた人の死亡リスクの増加率は？"
+    },
+    {
+      "id": "H3_C06",
+      "type": "content",
+      "question": "The increased risk of dying from stress was only true for which group?",
+      "options": [
+        "People over 50",
+        "People who also believed stress is harmful",
+        "People who exercised less",
+        "People with chronic diseases"
+      ],
+      "correct": 1,
+      "is_dummy": false,
+      "hint_ja": "死亡リスクの増加が当てはまったのはどのグループだけですか？"
+    },
+    {
+      "id": "H3_C07",
+      "type": "content",
+      "question": "What did the speaker say she had turned stress into?",
+      "options": [
+        "A motivator",
+        "A friend",
+        "The enemy",
+        "A tool"
+      ],
+      "correct": 2,
+      "is_dummy": false,
+      "hint_ja": "話者はストレスを何に変えたと言いましたか？"
+    },
+    {
+      "id": "H3_D01",
+      "type": "dummy",
+      "question": "What specific disease did the speaker study?",
+      "options": [
+        "Heart disease",
+        "Diabetes",
+        "Cancer",
+        "No specific disease was mentioned"
+      ],
+      "correct": 3,
+      "is_dummy": true
+    },
+    {
+      "id": "H3_D02",
+      "type": "dummy",
+      "question": "Where was the study conducted?",
+      "options": [
+        "Europe",
+        "Asia",
+        "United States",
+        "The speaker did not specify"
+      ],
+      "correct": 2,
+      "is_dummy": false
+    },
+    {
+      "id": "H3_D03",
+      "type": "dummy",
+      "question": "What meditation technique did the speaker recommend?",
+      "options": [
+        "Mindfulness",
+        "Yoga",
+        "Deep breathing",
+        "No technique was recommended in this segment"
+      ],
+      "correct": 3,
+      "is_dummy": true
+    }
+  ],
+  "speaker_intent": {
+    "emphasis_identification": {
+      "sentence": "But I've changed my mind about stress, and today, I want to change yours.",
+      "question": "Which word did the speaker emphasize most?",
+      "options": [
+        "changed",
+        "mind",
+        "stress",
+        "yours"
+      ],
+      "correct": 3,
+      "hint_ja": "この文で話者が最も強調した語はどれですか？"
+    },
+    "attitude_estimation": {
+      "question": "What was the speaker's tone when making her 'confession'?",
+      "options": [
+        "Serious and apologetic",
+        "Light and confessional",
+        "Angry and defensive",
+        "Neutral and detached"
+      ],
+      "correct": 1,
+      "hint_ja": "話者が「告白（confession）」をするときのトーンは？"
+    },
+    "prosodic_structure": {
+      "question": "After saying '43% increased risk of dying,' the speaker...",
+      "options": [
+        "Paused dramatically before the qualifier",
+        "Continued without any pause",
+        "Laughed nervously",
+        "Repeated the statistic"
+      ],
+      "correct": 0,
+      "hint_ja": "「43%の死亡リスク増加」の後、話者は…"
+    }
+  }
+}

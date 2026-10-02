@@ -1,0 +1,57 @@
+{
+  "comprehension": [
+    {
+      "id": "P_C01",
+      "type": "content",
+      "question": "According to the speaker, what do great leaders have in common?",
+      "options": [
+        "They all have large budgets",
+        "They all think, act, and communicate the same way",
+        "They all focus on features",
+        "They have the best technology"
+      ],
+      "is_dummy": false,
+      "hint_ja": "話者によると、偉大なリーダーの共通点は何ですか？",
+      "correct_enc": "SA=="
+    },
+    {
+      "id": "P_C02",
+      "type": "content",
+      "question": "According to the speaker, why is Apple more innovative than its competition?",
+      "options": [
+        "Because they have the biggest budget",
+        "Because they hire the best talent",
+        "There is something else at play beyond resources and talent",
+        "Because they use the most advanced technology"
+      ],
+      "is_dummy": false,
+      "hint_ja": "話者によると、なぜAppleは競合他社より革新的なのですか？",
+      "correct_enc": "SQ=="
+    }
+  ],
+  "speaker_intent": {
+    "emphasis_identification": {
+      "sentence": "People don't buy what you do, they buy why you do it.",
+      "question": "Which word does the speaker emphasize most in this sentence?",
+      "options": [
+        "buy",
+        "what",
+        "why",
+        "do"
+      ],
+      "hint_ja": "この文で話者が最も強調した語はどれですか？",
+      "correct_enc": "SQ=="
+    },
+    "attitude_estimation": {
+      "question": "What is the speaker's overall tone in this segment?",
+      "options": [
+        "Academic and detached",
+        "Passionate and persuasive",
+        "Humorous and light",
+        "Critical and skeptical"
+      ],
+      "hint_ja": "この区間での話者の全体的なトーン（tone＝語調）は？",
+      "correct_enc": "SA=="
+    }
+  }
+}

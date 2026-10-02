@@ -1,0 +1,1178 @@
+[
+  {
+    "word": "ruled",
+    "start": 0.1,
+    "end": 0.5,
+    "confidence": 0.956
+  },
+  {
+    "word": "by",
+    "start": 0.5,
+    "end": 0.84,
+    "confidence": 0.998
+  },
+  {
+    "word": "the",
+    "start": 0.84,
+    "end": 1.08,
+    "confidence": 0.995
+  },
+  {
+    "word": "second",
+    "start": 1.08,
+    "end": 1.34,
+    "confidence": 0.849
+  },
+  {
+    "word": "law",
+    "start": 1.34,
+    "end": 1.62,
+    "confidence": 0.992
+  },
+  {
+    "word": "of",
+    "start": 1.62,
+    "end": 1.88,
+    "confidence": 0.992
+  },
+  {
+    "word": "thermodynamics,",
+    "start": 1.88,
+    "end": 2.78,
+    "confidence": 0.998
+  },
+  {
+    "word": "how",
+    "start": 3.38,
+    "end": 3.72,
+    "confidence": 0.995
+  },
+  {
+    "word": "is",
+    "start": 3.72,
+    "end": 4.06,
+    "confidence": 0.998
+  },
+  {
+    "word": "it",
+    "start": 4.06,
+    "end": 4.28,
+    "confidence": 0.998
+  },
+  {
+    "word": "possible",
+    "start": 4.28,
+    "end": 4.84,
+    "confidence": 0.999
+  },
+  {
+    "word": "to",
+    "start": 4.84,
+    "end": 5.24,
+    "confidence": 0.937
+  },
+  {
+    "word": "generate",
+    "start": 5.24,
+    "end": 5.64,
+    "confidence": 0.998
+  },
+  {
+    "word": "the",
+    "start": 5.64,
+    "end": 5.86,
+    "confidence": 0.816
+  },
+  {
+    "word": "sort",
+    "start": 5.86,
+    "end": 5.98,
+    "confidence": 0.985
+  },
+  {
+    "word": "of",
+    "start": 5.98,
+    "end": 6.12,
+    "confidence": 0.971
+  },
+  {
+    "word": "complexity",
+    "start": 6.12,
+    "end": 6.54,
+    "confidence": 0.985
+  },
+  {
+    "word": "I've",
+    "start": 6.54,
+    "end": 6.94,
+    "confidence": 0.911
+  },
+  {
+    "word": "described,",
+    "start": 6.94,
+    "end": 7.32,
+    "confidence": 0.997
+  },
+  {
+    "word": "the",
+    "start": 7.54,
+    "end": 7.7,
+    "confidence": 0.947
+  },
+  {
+    "word": "sort",
+    "start": 7.7,
+    "end": 7.84,
+    "confidence": 0.996
+  },
+  {
+    "word": "of",
+    "start": 7.84,
+    "end": 8.06,
+    "confidence": 0.999
+  },
+  {
+    "word": "complexity",
+    "start": 8.06,
+    "end": 8.44,
+    "confidence": 0.999
+  },
+  {
+    "word": "represented",
+    "start": 8.44,
+    "end": 8.8,
+    "confidence": 0.9
+  },
+  {
+    "word": "by",
+    "start": 8.8,
+    "end": 9.3,
+    "confidence": 0.999
+  },
+  {
+    "word": "you",
+    "start": 9.3,
+    "end": 9.78,
+    "confidence": 1.0
+  },
+  {
+    "word": "and",
+    "start": 9.78,
+    "end": 10.4,
+    "confidence": 0.728
+  },
+  {
+    "word": "me",
+    "start": 10.4,
+    "end": 11.02,
+    "confidence": 1.0
+  },
+  {
+    "word": "and",
+    "start": 11.02,
+    "end": 11.58,
+    "confidence": 0.961
+  },
+  {
+    "word": "the",
+    "start": 11.58,
+    "end": 11.84,
+    "confidence": 0.993
+  },
+  {
+    "word": "convention",
+    "start": 11.84,
+    "end": 12.34,
+    "confidence": 0.948
+  },
+  {
+    "word": "center?",
+    "start": 12.34,
+    "end": 12.84,
+    "confidence": 0.909
+  },
+  {
+    "word": "Well,",
+    "start": 14.56,
+    "end": 14.7,
+    "confidence": 0.997
+  },
+  {
+    "word": "the",
+    "start": 14.74,
+    "end": 14.84,
+    "confidence": 1.0
+  },
+  {
+    "word": "answer",
+    "start": 14.84,
+    "end": 15.02,
+    "confidence": 0.999
+  },
+  {
+    "word": "seems",
+    "start": 15.02,
+    "end": 15.36,
+    "confidence": 1.0
+  },
+  {
+    "word": "to",
+    "start": 15.36,
+    "end": 15.56,
+    "confidence": 1.0
+  },
+  {
+    "word": "be",
+    "start": 15.56,
+    "end": 16.02,
+    "confidence": 0.999
+  },
+  {
+    "word": "the",
+    "start": 16.02,
+    "end": 16.56,
+    "confidence": 0.712
+  },
+  {
+    "word": "universe",
+    "start": 16.56,
+    "end": 17.12,
+    "confidence": 0.997
+  },
+  {
+    "word": "can",
+    "start": 17.12,
+    "end": 17.76,
+    "confidence": 0.705
+  },
+  {
+    "word": "create",
+    "start": 17.76,
+    "end": 18.26,
+    "confidence": 0.96
+  },
+  {
+    "word": "complexity,",
+    "start": 18.26,
+    "end": 19.26,
+    "confidence": 0.958
+  },
+  {
+    "word": "but",
+    "start": 19.66,
+    "end": 19.88,
+    "confidence": 1.0
+  },
+  {
+    "word": "with",
+    "start": 19.88,
+    "end": 20.1,
+    "confidence": 1.0
+  },
+  {
+    "word": "great",
+    "start": 20.1,
+    "end": 20.46,
+    "confidence": 1.0
+  },
+  {
+    "word": "difficulty.",
+    "start": 20.46,
+    "end": 21.1,
+    "confidence": 1.0
+  },
+  {
+    "word": "In",
+    "start": 22.26,
+    "end": 22.6,
+    "confidence": 1.0
+  },
+  {
+    "word": "pockets,",
+    "start": 22.6,
+    "end": 23.16,
+    "confidence": 0.988
+  },
+  {
+    "word": "there",
+    "start": 23.4,
+    "end": 23.6,
+    "confidence": 0.992
+  },
+  {
+    "word": "appear",
+    "start": 23.6,
+    "end": 23.92,
+    "confidence": 0.987
+  },
+  {
+    "word": "what",
+    "start": 23.92,
+    "end": 24.16,
+    "confidence": 0.929
+  },
+  {
+    "word": "my",
+    "start": 24.16,
+    "end": 24.56,
+    "confidence": 0.999
+  },
+  {
+    "word": "colleague",
+    "start": 24.56,
+    "end": 24.98,
+    "confidence": 0.997
+  },
+  {
+    "word": "Fred",
+    "start": 24.98,
+    "end": 25.32,
+    "confidence": 0.862
+  },
+  {
+    "word": "Spear",
+    "start": 25.32,
+    "end": 25.66,
+    "confidence": 0.744
+  },
+  {
+    "word": "calls",
+    "start": 25.66,
+    "end": 26.12,
+    "confidence": 0.606
+  },
+  {
+    "word": "goldilocks",
+    "start": 26.36,
+    "end": 27.1,
+    "confidence": 0.783
+  },
+  {
+    "word": "conditions,",
+    "start": 27.1,
+    "end": 27.7,
+    "confidence": 0.973
+  },
+  {
+    "word": "not",
+    "start": 27.98,
+    "end": 28.12,
+    "confidence": 0.966
+  },
+  {
+    "word": "too",
+    "start": 28.12,
+    "end": 28.32,
+    "confidence": 0.987
+  },
+  {
+    "word": "hot,",
+    "start": 28.32,
+    "end": 28.64,
+    "confidence": 0.993
+  },
+  {
+    "word": "not",
+    "start": 28.98,
+    "end": 29.16,
+    "confidence": 0.931
+  },
+  {
+    "word": "too",
+    "start": 29.16,
+    "end": 29.42,
+    "confidence": 0.985
+  },
+  {
+    "word": "cold,",
+    "start": 29.42,
+    "end": 29.7,
+    "confidence": 0.993
+  },
+  {
+    "word": "just",
+    "start": 30.06,
+    "end": 30.52,
+    "confidence": 0.999
+  },
+  {
+    "word": "right",
+    "start": 30.52,
+    "end": 30.84,
+    "confidence": 0.998
+  },
+  {
+    "word": "for",
+    "start": 30.84,
+    "end": 31.04,
+    "confidence": 0.997
+  },
+  {
+    "word": "the",
+    "start": 31.04,
+    "end": 31.2,
+    "confidence": 1.0
+  },
+  {
+    "word": "creation",
+    "start": 31.2,
+    "end": 31.48,
+    "confidence": 0.999
+  },
+  {
+    "word": "of",
+    "start": 31.48,
+    "end": 31.72,
+    "confidence": 0.999
+  },
+  {
+    "word": "complexity.",
+    "start": 31.72,
+    "end": 32.22,
+    "confidence": 0.998
+  },
+  {
+    "word": "And",
+    "start": 32.6,
+    "end": 32.92,
+    "confidence": 0.989
+  },
+  {
+    "word": "slightly",
+    "start": 32.92,
+    "end": 33.24,
+    "confidence": 0.981
+  },
+  {
+    "word": "more",
+    "start": 33.24,
+    "end": 33.6,
+    "confidence": 0.998
+  },
+  {
+    "word": "complex",
+    "start": 33.6,
+    "end": 33.92,
+    "confidence": 1.0
+  },
+  {
+    "word": "things",
+    "start": 33.92,
+    "end": 34.18,
+    "confidence": 0.998
+  },
+  {
+    "word": "appear.",
+    "start": 34.18,
+    "end": 34.62,
+    "confidence": 0.997
+  },
+  {
+    "word": "And",
+    "start": 34.98,
+    "end": 35.18,
+    "confidence": 0.996
+  },
+  {
+    "word": "where",
+    "start": 35.18,
+    "end": 35.3,
+    "confidence": 0.845
+  },
+  {
+    "word": "you",
+    "start": 35.3,
+    "end": 35.44,
+    "confidence": 0.998
+  },
+  {
+    "word": "have",
+    "start": 35.44,
+    "end": 35.58,
+    "confidence": 0.998
+  },
+  {
+    "word": "slightly",
+    "start": 35.58,
+    "end": 35.86,
+    "confidence": 0.995
+  },
+  {
+    "word": "more",
+    "start": 35.86,
+    "end": 36.16,
+    "confidence": 0.998
+  },
+  {
+    "word": "complex",
+    "start": 36.16,
+    "end": 36.44,
+    "confidence": 0.999
+  },
+  {
+    "word": "things,",
+    "start": 36.44,
+    "end": 36.8,
+    "confidence": 0.996
+  },
+  {
+    "word": "you",
+    "start": 37.1,
+    "end": 37.28,
+    "confidence": 0.999
+  },
+  {
+    "word": "can",
+    "start": 37.28,
+    "end": 37.52,
+    "confidence": 0.996
+  },
+  {
+    "word": "get",
+    "start": 37.52,
+    "end": 37.92,
+    "confidence": 0.999
+  },
+  {
+    "word": "slightly",
+    "start": 37.92,
+    "end": 38.28,
+    "confidence": 0.998
+  },
+  {
+    "word": "more",
+    "start": 38.28,
+    "end": 38.62,
+    "confidence": 0.999
+  },
+  {
+    "word": "complex",
+    "start": 38.62,
+    "end": 39.04,
+    "confidence": 0.999
+  },
+  {
+    "word": "things.",
+    "start": 39.04,
+    "end": 39.21,
+    "confidence": 0.997
+  },
+  {
+    "word": "And",
+    "start": 39.21,
+    "end": 39.68,
+    "confidence": 0.997
+  },
+  {
+    "word": "in",
+    "start": 39.68,
+    "end": 39.9,
+    "confidence": 0.982
+  },
+  {
+    "word": "this",
+    "start": 39.9,
+    "end": 40.2,
+    "confidence": 1.0
+  },
+  {
+    "word": "way,",
+    "start": 40.2,
+    "end": 40.46,
+    "confidence": 0.999
+  },
+  {
+    "word": "complexity",
+    "start": 40.68,
+    "end": 41.2,
+    "confidence": 0.998
+  },
+  {
+    "word": "builds",
+    "start": 41.2,
+    "end": 41.82,
+    "confidence": 0.996
+  },
+  {
+    "word": "stage",
+    "start": 41.82,
+    "end": 42.46,
+    "confidence": 0.843
+  },
+  {
+    "word": "by",
+    "start": 42.46,
+    "end": 42.74,
+    "confidence": 0.958
+  },
+  {
+    "word": "stage.",
+    "start": 42.74,
+    "end": 43.28,
+    "confidence": 0.998
+  },
+  {
+    "word": "Each",
+    "start": 44.48,
+    "end": 44.98,
+    "confidence": 0.999
+  },
+  {
+    "word": "stage",
+    "start": 44.98,
+    "end": 45.54,
+    "confidence": 0.998
+  },
+  {
+    "word": "is",
+    "start": 45.54,
+    "end": 46.0,
+    "confidence": 0.999
+  },
+  {
+    "word": "magical",
+    "start": 46.0,
+    "end": 46.58,
+    "confidence": 0.998
+  },
+  {
+    "word": "because",
+    "start": 46.58,
+    "end": 47.02,
+    "confidence": 0.541
+  },
+  {
+    "word": "it",
+    "start": 47.02,
+    "end": 47.28,
+    "confidence": 0.999
+  },
+  {
+    "word": "creates",
+    "start": 47.28,
+    "end": 47.66,
+    "confidence": 0.995
+  },
+  {
+    "word": "the",
+    "start": 47.72,
+    "end": 47.96,
+    "confidence": 1.0
+  },
+  {
+    "word": "impression",
+    "start": 47.96,
+    "end": 48.34,
+    "confidence": 1.0
+  },
+  {
+    "word": "of",
+    "start": 48.34,
+    "end": 48.58,
+    "confidence": 1.0
+  },
+  {
+    "word": "something",
+    "start": 48.58,
+    "end": 49.04,
+    "confidence": 1.0
+  },
+  {
+    "word": "utterly",
+    "start": 49.04,
+    "end": 49.68,
+    "confidence": 0.999
+  },
+  {
+    "word": "new,",
+    "start": 49.68,
+    "end": 50.26,
+    "confidence": 0.878
+  },
+  {
+    "word": "appearing",
+    "start": 50.46,
+    "end": 50.96,
+    "confidence": 0.999
+  },
+  {
+    "word": "almost",
+    "start": 50.96,
+    "end": 51.6,
+    "confidence": 0.999
+  },
+  {
+    "word": "out",
+    "start": 51.6,
+    "end": 51.8,
+    "confidence": 1.0
+  },
+  {
+    "word": "of",
+    "start": 51.8,
+    "end": 51.96,
+    "confidence": 0.999
+  },
+  {
+    "word": "nowhere",
+    "start": 51.96,
+    "end": 52.24,
+    "confidence": 0.996
+  },
+  {
+    "word": "in",
+    "start": 52.24,
+    "end": 52.44,
+    "confidence": 0.996
+  },
+  {
+    "word": "the",
+    "start": 52.44,
+    "end": 52.62,
+    "confidence": 1.0
+  },
+  {
+    "word": "universe.",
+    "start": 52.62,
+    "end": 52.92,
+    "confidence": 0.999
+  },
+  {
+    "word": "We",
+    "start": 53.28,
+    "end": 53.42,
+    "confidence": 0.999
+  },
+  {
+    "word": "refer",
+    "start": 53.42,
+    "end": 53.7,
+    "confidence": 0.994
+  },
+  {
+    "word": "in",
+    "start": 53.7,
+    "end": 53.82,
+    "confidence": 0.811
+  },
+  {
+    "word": "big",
+    "start": 53.82,
+    "end": 54.0,
+    "confidence": 0.728
+  },
+  {
+    "word": "history",
+    "start": 54.0,
+    "end": 54.28,
+    "confidence": 0.997
+  },
+  {
+    "word": "to",
+    "start": 54.28,
+    "end": 54.46,
+    "confidence": 0.998
+  },
+  {
+    "word": "these",
+    "start": 54.46,
+    "end": 54.68,
+    "confidence": 0.999
+  },
+  {
+    "word": "moments",
+    "start": 54.68,
+    "end": 54.94,
+    "confidence": 0.998
+  },
+  {
+    "word": "as",
+    "start": 54.94,
+    "end": 55.18,
+    "confidence": 0.905
+  },
+  {
+    "word": "threshold",
+    "start": 55.18,
+    "end": 55.64,
+    "confidence": 0.985
+  },
+  {
+    "word": "moments.",
+    "start": 55.64,
+    "end": 56.24,
+    "confidence": 0.993
+  },
+  {
+    "word": "And",
+    "start": 57.48,
+    "end": 57.72,
+    "confidence": 0.999
+  },
+  {
+    "word": "at",
+    "start": 57.72,
+    "end": 57.92,
+    "confidence": 0.983
+  },
+  {
+    "word": "each",
+    "start": 57.92,
+    "end": 58.18,
+    "confidence": 0.999
+  },
+  {
+    "word": "threshold,",
+    "start": 58.18,
+    "end": 58.86,
+    "confidence": 1.0
+  },
+  {
+    "word": "the",
+    "start": 59.08,
+    "end": 59.28,
+    "confidence": 0.998
+  },
+  {
+    "word": "going",
+    "start": 59.28,
+    "end": 59.5,
+    "confidence": 0.999
+  },
+  {
+    "word": "gets",
+    "start": 59.5,
+    "end": 59.86,
+    "confidence": 0.999
+  },
+  {
+    "word": "tougher.",
+    "start": 59.86,
+    "end": 60.28,
+    "confidence": 0.978
+  },
+  {
+    "word": "The",
+    "start": 60.78,
+    "end": 61.04,
+    "confidence": 0.999
+  },
+  {
+    "word": "complex",
+    "start": 61.04,
+    "end": 61.54,
+    "confidence": 1.0
+  },
+  {
+    "word": "things",
+    "start": 61.54,
+    "end": 61.9,
+    "confidence": 0.999
+  },
+  {
+    "word": "get",
+    "start": 61.9,
+    "end": 62.14,
+    "confidence": 0.998
+  },
+  {
+    "word": "more",
+    "start": 62.14,
+    "end": 62.54,
+    "confidence": 1.0
+  },
+  {
+    "word": "fragile,",
+    "start": 62.54,
+    "end": 63.32,
+    "confidence": 1.0
+  },
+  {
+    "word": "more",
+    "start": 64.06,
+    "end": 64.28,
+    "confidence": 0.978
+  },
+  {
+    "word": "vulnerable.",
+    "start": 64.28,
+    "end": 65.0,
+    "confidence": 0.994
+  },
+  {
+    "word": "The",
+    "start": 65.58,
+    "end": 65.82,
+    "confidence": 0.999
+  },
+  {
+    "word": "goldilocks",
+    "start": 65.82,
+    "end": 66.38,
+    "confidence": 0.986
+  },
+  {
+    "word": "conditions",
+    "start": 66.38,
+    "end": 67.14,
+    "confidence": 0.996
+  },
+  {
+    "word": "get",
+    "start": 67.14,
+    "end": 67.54,
+    "confidence": 0.999
+  },
+  {
+    "word": "more",
+    "start": 67.54,
+    "end": 67.94,
+    "confidence": 0.999
+  },
+  {
+    "word": "stringent.",
+    "start": 67.94,
+    "end": 68.62,
+    "confidence": 0.996
+  },
+  {
+    "word": "And",
+    "start": 69.12,
+    "end": 69.48,
+    "confidence": 0.999
+  },
+  {
+    "word": "it's",
+    "start": 69.48,
+    "end": 69.74,
+    "confidence": 0.999
+  },
+  {
+    "word": "more",
+    "start": 69.74,
+    "end": 70.08,
+    "confidence": 1.0
+  },
+  {
+    "word": "difficult",
+    "start": 70.08,
+    "end": 70.56,
+    "confidence": 1.0
+  },
+  {
+    "word": "to",
+    "start": 70.56,
+    "end": 70.92,
+    "confidence": 1.0
+  },
+  {
+    "word": "create",
+    "start": 70.92,
+    "end": 71.16,
+    "confidence": 1.0
+  },
+  {
+    "word": "complexity.",
+    "start": 71.16,
+    "end": 71.96,
+    "confidence": 0.999
+  },
+  {
+    "word": "Now,",
+    "start": 73.06,
+    "end": 73.48,
+    "confidence": 0.999
+  },
+  {
+    "word": "we",
+    "start": 73.82,
+    "end": 74.26,
+    "confidence": 0.999
+  },
+  {
+    "word": "as",
+    "start": 74.26,
+    "end": 74.72,
+    "confidence": 0.577
+  },
+  {
+    "word": "extremely",
+    "start": 74.72,
+    "end": 75.14,
+    "confidence": 0.999
+  },
+  {
+    "word": "complex",
+    "start": 75.14,
+    "end": 75.68,
+    "confidence": 0.997
+  },
+  {
+    "word": "creatures",
+    "start": 75.68,
+    "end": 76.26,
+    "confidence": 0.999
+  },
+  {
+    "word": "desperately",
+    "start": 76.84,
+    "end": 77.18,
+    "confidence": 1.0
+  },
+  {
+    "word": "need",
+    "start": 77.18,
+    "end": 77.46,
+    "confidence": 0.999
+  },
+  {
+    "word": "to",
+    "start": 77.46,
+    "end": 77.66,
+    "confidence": 1.0
+  },
+  {
+    "word": "know",
+    "start": 77.66,
+    "end": 77.84,
+    "confidence": 1.0
+  },
+  {
+    "word": "this",
+    "start": 77.84,
+    "end": 78.16,
+    "confidence": 0.958
+  },
+  {
+    "word": "story",
+    "start": 78.16,
+    "end": 78.5,
+    "confidence": 1.0
+  },
+  {
+    "word": "of",
+    "start": 78.5,
+    "end": 78.86,
+    "confidence": 0.882
+  },
+  {
+    "word": "how",
+    "start": 78.86,
+    "end": 79.28,
+    "confidence": 0.998
+  },
+  {
+    "word": "the",
+    "start": 79.32,
+    "end": 79.54,
+    "confidence": 0.938
+  },
+  {
+    "word": "universe",
+    "start": 79.54,
+    "end": 79.96,
+    "confidence": 0.996
+  },
+  {
+    "word": "creates",
+    "start": 79.96,
+    "end": 80.34,
+    "confidence": 0.997
+  },
+  {
+    "word": "complexity",
+    "start": 80.34,
+    "end": 81.34,
+    "confidence": 0.998
+  },
+  {
+    "word": "despite",
+    "start": 81.34,
+    "end": 82.0,
+    "confidence": 0.878
+  },
+  {
+    "word": "the",
+    "start": 82.0,
+    "end": 82.32,
+    "confidence": 0.994
+  },
+  {
+    "word": "second",
+    "start": 82.32,
+    "end": 82.58,
+    "confidence": 0.849
+  },
+  {
+    "word": "law,",
+    "start": 82.58,
+    "end": 82.95,
+    "confidence": 0.997
+  },
+  {
+    "word": "and",
+    "start": 82.95,
+    "end": 83.8,
+    "confidence": 0.999
+  },
+  {
+    "word": "why",
+    "start": 83.8,
+    "end": 84.2,
+    "confidence": 0.998
+  },
+  {
+    "word": "complexity",
+    "start": 84.2,
+    "end": 85.2,
+    "confidence": 0.999
+  },
+  {
+    "word": "means",
+    "start": 85.2,
+    "end": 85.76,
+    "confidence": 0.997
+  },
+  {
+    "word": "vulnerability",
+    "start": 85.76,
+    "end": 86.7,
+    "confidence": 0.997
+  },
+  {
+    "word": "and",
+    "start": 86.7,
+    "end": 87.36,
+    "confidence": 0.991
+  },
+  {
+    "word": "fragility.",
+    "start": 87.36,
+    "end": 87.96,
+    "confidence": 0.996
+  },
+  {
+    "word": "And",
+    "start": 89.1,
+    "end": 89.38,
+    "confidence": 0.988
+  },
+  {
+    "word": "that's",
+    "start": 89.38,
+    "end": 89.7,
+    "confidence": 0.998
+  },
+  {
+    "word": "the",
+    "start": 89.7,
+    "end": 89.88,
+    "confidence": 0.996
+  },
+  {
+    "word": "story.",
+    "start": 89.88,
+    "end": 90.12,
+    "confidence": 0.981
+  }
+]

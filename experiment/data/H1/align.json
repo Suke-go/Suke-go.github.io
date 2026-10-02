@@ -1,0 +1,1262 @@
+[
+  {
+    "word": "treated",
+    "start": 0.0,
+    "end": 0.44,
+    "confidence": 0.405
+  },
+  {
+    "word": "with",
+    "start": 0.44,
+    "end": 0.74,
+    "confidence": 0.987
+  },
+  {
+    "word": "the",
+    "start": 0.74,
+    "end": 0.92,
+    "confidence": 0.995
+  },
+  {
+    "word": "same",
+    "start": 0.92,
+    "end": 1.44,
+    "confidence": 0.999
+  },
+  {
+    "word": "status.",
+    "start": 1.44,
+    "end": 2.02,
+    "confidence": 0.989
+  },
+  {
+    "word": "Thank",
+    "start": 3.34,
+    "end": 3.46,
+    "confidence": 0.471
+  },
+  {
+    "word": "you.",
+    "start": 3.46,
+    "end": 3.66,
+    "confidence": 0.989
+  },
+  {
+    "word": "That",
+    "start": 8.36,
+    "end": 9.46,
+    "confidence": 0.541
+  },
+  {
+    "word": "was",
+    "start": 9.46,
+    "end": 9.64,
+    "confidence": 0.988
+  },
+  {
+    "word": "it.",
+    "start": 9.64,
+    "end": 9.88,
+    "confidence": 0.995
+  },
+  {
+    "word": "Thank",
+    "start": 10.16,
+    "end": 10.3,
+    "confidence": 0.63
+  },
+  {
+    "word": "you",
+    "start": 10.3,
+    "end": 10.42,
+    "confidence": 0.996
+  },
+  {
+    "word": "very",
+    "start": 10.42,
+    "end": 10.52,
+    "confidence": 0.848
+  },
+  {
+    "word": "much.",
+    "start": 10.52,
+    "end": 10.62,
+    "confidence": 0.979
+  },
+  {
+    "word": "So",
+    "start": 12.86,
+    "end": 13.84,
+    "confidence": 0.7
+  },
+  {
+    "word": "15",
+    "start": 13.84,
+    "end": 14.26,
+    "confidence": 0.505
+  },
+  {
+    "word": "minutes",
+    "start": 14.26,
+    "end": 14.42,
+    "confidence": 0.977
+  },
+  {
+    "word": "left.",
+    "start": 14.42,
+    "end": 15.2,
+    "confidence": 0.989
+  },
+  {
+    "word": "Well,",
+    "start": 18.38,
+    "end": 18.5,
+    "confidence": 0.488
+  },
+  {
+    "word": "I",
+    "start": 18.58,
+    "end": 18.62,
+    "confidence": 0.994
+  },
+  {
+    "word": "was",
+    "start": 18.62,
+    "end": 18.74,
+    "confidence": 0.984
+  },
+  {
+    "word": "born.",
+    "start": 18.74,
+    "end": 19.0,
+    "confidence": 0.996
+  },
+  {
+    "word": "No,",
+    "start": 19.26,
+    "end": 19.38,
+    "confidence": 0.647
+  },
+  {
+    "word": "the",
+    "start": 19.5,
+    "end": 19.86,
+    "confidence": 0.791
+  },
+  {
+    "word": "I",
+    "start": 19.86,
+    "end": 23.58,
+    "confidence": 0.225
+  },
+  {
+    "word": "had",
+    "start": 23.58,
+    "end": 23.8,
+    "confidence": 0.988
+  },
+  {
+    "word": "a",
+    "start": 23.8,
+    "end": 23.92,
+    "confidence": 0.997
+  },
+  {
+    "word": "great",
+    "start": 23.92,
+    "end": 24.1,
+    "confidence": 0.997
+  },
+  {
+    "word": "story",
+    "start": 24.1,
+    "end": 24.36,
+    "confidence": 0.997
+  },
+  {
+    "word": "recently.",
+    "start": 24.36,
+    "end": 24.82,
+    "confidence": 0.969
+  },
+  {
+    "word": "I",
+    "start": 24.92,
+    "end": 25.34,
+    "confidence": 0.976
+  },
+  {
+    "word": "love",
+    "start": 25.34,
+    "end": 25.5,
+    "confidence": 0.873
+  },
+  {
+    "word": "telling",
+    "start": 25.5,
+    "end": 25.72,
+    "confidence": 0.991
+  },
+  {
+    "word": "it",
+    "start": 25.72,
+    "end": 25.88,
+    "confidence": 0.972
+  },
+  {
+    "word": "of",
+    "start": 25.88,
+    "end": 26.0,
+    "confidence": 0.483
+  },
+  {
+    "word": "a",
+    "start": 26.0,
+    "end": 26.1,
+    "confidence": 0.991
+  },
+  {
+    "word": "little",
+    "start": 26.1,
+    "end": 26.24,
+    "confidence": 0.99
+  },
+  {
+    "word": "girl",
+    "start": 26.24,
+    "end": 26.68,
+    "confidence": 0.984
+  },
+  {
+    "word": "who",
+    "start": 26.68,
+    "end": 27.02,
+    "confidence": 0.981
+  },
+  {
+    "word": "was",
+    "start": 27.02,
+    "end": 27.54,
+    "confidence": 0.994
+  },
+  {
+    "word": "in",
+    "start": 27.54,
+    "end": 27.96,
+    "confidence": 0.986
+  },
+  {
+    "word": "a",
+    "start": 27.96,
+    "end": 28.08,
+    "confidence": 0.993
+  },
+  {
+    "word": "drawing",
+    "start": 28.08,
+    "end": 28.28,
+    "confidence": 0.995
+  },
+  {
+    "word": "lesson.",
+    "start": 28.28,
+    "end": 28.58,
+    "confidence": 0.981
+  },
+  {
+    "word": "She",
+    "start": 28.58,
+    "end": 28.74,
+    "confidence": 0.978
+  },
+  {
+    "word": "was",
+    "start": 28.74,
+    "end": 28.9,
+    "confidence": 0.997
+  },
+  {
+    "word": "six",
+    "start": 28.9,
+    "end": 29.18,
+    "confidence": 0.905
+  },
+  {
+    "word": "and",
+    "start": 29.18,
+    "end": 29.34,
+    "confidence": 0.775
+  },
+  {
+    "word": "she",
+    "start": 29.34,
+    "end": 29.44,
+    "confidence": 0.974
+  },
+  {
+    "word": "was",
+    "start": 29.44,
+    "end": 29.54,
+    "confidence": 0.932
+  },
+  {
+    "word": "at",
+    "start": 29.54,
+    "end": 29.6,
+    "confidence": 0.632
+  },
+  {
+    "word": "the",
+    "start": 29.6,
+    "end": 29.72,
+    "confidence": 0.993
+  },
+  {
+    "word": "back",
+    "start": 29.72,
+    "end": 29.88,
+    "confidence": 0.995
+  },
+  {
+    "word": "drawing",
+    "start": 29.88,
+    "end": 30.16,
+    "confidence": 0.944
+  },
+  {
+    "word": "and",
+    "start": 30.16,
+    "end": 30.4,
+    "confidence": 0.532
+  },
+  {
+    "word": "the",
+    "start": 30.4,
+    "end": 30.55,
+    "confidence": 0.913
+  },
+  {
+    "word": "teacher",
+    "start": 30.55,
+    "end": 30.86,
+    "confidence": 0.977
+  },
+  {
+    "word": "said",
+    "start": 30.86,
+    "end": 31.06,
+    "confidence": 0.996
+  },
+  {
+    "word": "this",
+    "start": 31.06,
+    "end": 31.22,
+    "confidence": 0.529
+  },
+  {
+    "word": "little",
+    "start": 31.22,
+    "end": 31.42,
+    "confidence": 0.996
+  },
+  {
+    "word": "girl",
+    "start": 31.42,
+    "end": 31.6,
+    "confidence": 0.998
+  },
+  {
+    "word": "hardly",
+    "start": 31.6,
+    "end": 31.82,
+    "confidence": 0.965
+  },
+  {
+    "word": "ever",
+    "start": 31.82,
+    "end": 31.96,
+    "confidence": 0.99
+  },
+  {
+    "word": "paid",
+    "start": 31.96,
+    "end": 32.16,
+    "confidence": 0.993
+  },
+  {
+    "word": "attention.",
+    "start": 32.16,
+    "end": 32.58,
+    "confidence": 0.998
+  },
+  {
+    "word": "And",
+    "start": 32.9,
+    "end": 33.06,
+    "confidence": 0.957
+  },
+  {
+    "word": "in",
+    "start": 33.06,
+    "end": 33.16,
+    "confidence": 0.885
+  },
+  {
+    "word": "this",
+    "start": 33.16,
+    "end": 33.3,
+    "confidence": 0.945
+  },
+  {
+    "word": "drawing",
+    "start": 33.3,
+    "end": 33.5,
+    "confidence": 0.99
+  },
+  {
+    "word": "lesson,",
+    "start": 33.5,
+    "end": 33.72,
+    "confidence": 0.976
+  },
+  {
+    "word": "she",
+    "start": 33.72,
+    "end": 33.94,
+    "confidence": 0.998
+  },
+  {
+    "word": "did.",
+    "start": 33.94,
+    "end": 34.34,
+    "confidence": 0.999
+  },
+  {
+    "word": "And",
+    "start": 34.94,
+    "end": 35.26,
+    "confidence": 0.958
+  },
+  {
+    "word": "the",
+    "start": 35.26,
+    "end": 35.52,
+    "confidence": 0.942
+  },
+  {
+    "word": "teacher",
+    "start": 35.52,
+    "end": 35.78,
+    "confidence": 0.926
+  },
+  {
+    "word": "was",
+    "start": 35.78,
+    "end": 35.96,
+    "confidence": 0.999
+  },
+  {
+    "word": "fascinated.",
+    "start": 35.96,
+    "end": 36.26,
+    "confidence": 0.924
+  },
+  {
+    "word": "She",
+    "start": 36.32,
+    "end": 36.44,
+    "confidence": 0.993
+  },
+  {
+    "word": "went",
+    "start": 36.44,
+    "end": 36.56,
+    "confidence": 0.998
+  },
+  {
+    "word": "over",
+    "start": 36.56,
+    "end": 36.76,
+    "confidence": 0.996
+  },
+  {
+    "word": "to",
+    "start": 36.76,
+    "end": 36.88,
+    "confidence": 0.987
+  },
+  {
+    "word": "him",
+    "start": 36.88,
+    "end": 36.96,
+    "confidence": 0.533
+  },
+  {
+    "word": "and",
+    "start": 36.96,
+    "end": 37.06,
+    "confidence": 0.611
+  },
+  {
+    "word": "she",
+    "start": 37.06,
+    "end": 37.14,
+    "confidence": 0.982
+  },
+  {
+    "word": "said,",
+    "start": 37.14,
+    "end": 37.38,
+    "confidence": 0.998
+  },
+  {
+    "word": "what",
+    "start": 37.66,
+    "end": 37.94,
+    "confidence": 0.807
+  },
+  {
+    "word": "are",
+    "start": 37.94,
+    "end": 38.08,
+    "confidence": 0.981
+  },
+  {
+    "word": "you",
+    "start": 38.08,
+    "end": 38.11,
+    "confidence": 0.978
+  },
+  {
+    "word": "drawing?",
+    "start": 38.11,
+    "end": 38.48,
+    "confidence": 0.997
+  },
+  {
+    "word": "And",
+    "start": 39.4,
+    "end": 39.72,
+    "confidence": 0.99
+  },
+  {
+    "word": "the",
+    "start": 39.72,
+    "end": 39.88,
+    "confidence": 0.998
+  },
+  {
+    "word": "girl",
+    "start": 39.88,
+    "end": 40.04,
+    "confidence": 0.996
+  },
+  {
+    "word": "said,",
+    "start": 40.04,
+    "end": 40.42,
+    "confidence": 0.998
+  },
+  {
+    "word": "I'm",
+    "start": 40.62,
+    "end": 40.86,
+    "confidence": 0.996
+  },
+  {
+    "word": "drawing",
+    "start": 40.86,
+    "end": 41.08,
+    "confidence": 0.997
+  },
+  {
+    "word": "a",
+    "start": 41.08,
+    "end": 41.24,
+    "confidence": 0.997
+  },
+  {
+    "word": "picture",
+    "start": 41.24,
+    "end": 41.46,
+    "confidence": 0.999
+  },
+  {
+    "word": "of",
+    "start": 41.46,
+    "end": 41.58,
+    "confidence": 0.999
+  },
+  {
+    "word": "God.",
+    "start": 41.58,
+    "end": 42.08,
+    "confidence": 0.947
+  },
+  {
+    "word": "And",
+    "start": 43.16,
+    "end": 43.36,
+    "confidence": 0.992
+  },
+  {
+    "word": "the",
+    "start": 43.36,
+    "end": 43.48,
+    "confidence": 0.999
+  },
+  {
+    "word": "teacher",
+    "start": 43.48,
+    "end": 43.68,
+    "confidence": 0.994
+  },
+  {
+    "word": "said,",
+    "start": 43.68,
+    "end": 44.06,
+    "confidence": 0.998
+  },
+  {
+    "word": "but",
+    "start": 44.4,
+    "end": 44.53,
+    "confidence": 0.975
+  },
+  {
+    "word": "nobody",
+    "start": 44.53,
+    "end": 44.76,
+    "confidence": 0.619
+  },
+  {
+    "word": "knows",
+    "start": 44.76,
+    "end": 44.94,
+    "confidence": 0.999
+  },
+  {
+    "word": "what",
+    "start": 44.94,
+    "end": 45.12,
+    "confidence": 0.999
+  },
+  {
+    "word": "God",
+    "start": 45.12,
+    "end": 45.3,
+    "confidence": 0.996
+  },
+  {
+    "word": "looks",
+    "start": 45.3,
+    "end": 45.56,
+    "confidence": 0.999
+  },
+  {
+    "word": "like.",
+    "start": 45.56,
+    "end": 46.1,
+    "confidence": 0.998
+  },
+  {
+    "word": "And",
+    "start": 46.54,
+    "end": 46.7,
+    "confidence": 0.987
+  },
+  {
+    "word": "the",
+    "start": 46.7,
+    "end": 46.8,
+    "confidence": 0.998
+  },
+  {
+    "word": "girl",
+    "start": 46.8,
+    "end": 46.94,
+    "confidence": 0.989
+  },
+  {
+    "word": "said,",
+    "start": 46.94,
+    "end": 47.18,
+    "confidence": 0.999
+  },
+  {
+    "word": "they",
+    "start": 47.26,
+    "end": 47.38,
+    "confidence": 0.985
+  },
+  {
+    "word": "will",
+    "start": 47.38,
+    "end": 47.5,
+    "confidence": 0.937
+  },
+  {
+    "word": "in",
+    "start": 47.5,
+    "end": 47.6,
+    "confidence": 0.972
+  },
+  {
+    "word": "a",
+    "start": 47.6,
+    "end": 47.68,
+    "confidence": 0.944
+  },
+  {
+    "word": "minute.",
+    "start": 47.68,
+    "end": 47.98,
+    "confidence": 0.999
+  },
+  {
+    "word": "When",
+    "start": 50.72,
+    "end": 56.84,
+    "confidence": 0.649
+  },
+  {
+    "word": "my",
+    "start": 56.84,
+    "end": 60.68,
+    "confidence": 0.401
+  },
+  {
+    "word": "son",
+    "start": 60.68,
+    "end": 61.0,
+    "confidence": 0.993
+  },
+  {
+    "word": "was",
+    "start": 61.0,
+    "end": 61.3,
+    "confidence": 0.994
+  },
+  {
+    "word": "four",
+    "start": 61.3,
+    "end": 61.7,
+    "confidence": 0.949
+  },
+  {
+    "word": "in",
+    "start": 61.7,
+    "end": 62.0,
+    "confidence": 0.975
+  },
+  {
+    "word": "England,",
+    "start": 62.0,
+    "end": 62.38,
+    "confidence": 0.998
+  },
+  {
+    "word": "actually,",
+    "start": 63.1,
+    "end": 63.24,
+    "confidence": 0.969
+  },
+  {
+    "word": "he",
+    "start": 63.24,
+    "end": 63.36,
+    "confidence": 0.83
+  },
+  {
+    "word": "was",
+    "start": 63.36,
+    "end": 63.46,
+    "confidence": 0.99
+  },
+  {
+    "word": "four",
+    "start": 63.46,
+    "end": 63.66,
+    "confidence": 0.769
+  },
+  {
+    "word": "everywhere,",
+    "start": 63.66,
+    "end": 63.9,
+    "confidence": 0.961
+  },
+  {
+    "word": "to",
+    "start": 63.92,
+    "end": 64.04,
+    "confidence": 0.945
+  },
+  {
+    "word": "be",
+    "start": 64.04,
+    "end": 64.16,
+    "confidence": 0.988
+  },
+  {
+    "word": "honest.",
+    "start": 64.16,
+    "end": 64.38,
+    "confidence": 0.988
+  },
+  {
+    "word": "I",
+    "start": 64.52,
+    "end": 64.54,
+    "confidence": 0.7
+  },
+  {
+    "word": "mean,",
+    "start": 64.54,
+    "end": 64.66,
+    "confidence": 0.96
+  },
+  {
+    "word": "we're",
+    "start": 66.96,
+    "end": 67.12,
+    "confidence": 0.506
+  },
+  {
+    "word": "being",
+    "start": 67.12,
+    "end": 67.3,
+    "confidence": 0.993
+  },
+  {
+    "word": "strict",
+    "start": 67.3,
+    "end": 67.5,
+    "confidence": 0.932
+  },
+  {
+    "word": "about",
+    "start": 67.5,
+    "end": 67.74,
+    "confidence": 0.996
+  },
+  {
+    "word": "it",
+    "start": 67.74,
+    "end": 67.88,
+    "confidence": 0.96
+  },
+  {
+    "word": "wherever",
+    "start": 67.88,
+    "end": 68.04,
+    "confidence": 0.385
+  },
+  {
+    "word": "he",
+    "start": 68.04,
+    "end": 68.18,
+    "confidence": 0.76
+  },
+  {
+    "word": "went.",
+    "start": 68.18,
+    "end": 68.3,
+    "confidence": 0.987
+  },
+  {
+    "word": "He",
+    "start": 68.4,
+    "end": 68.42,
+    "confidence": 0.93
+  },
+  {
+    "word": "was",
+    "start": 68.42,
+    "end": 68.52,
+    "confidence": 0.998
+  },
+  {
+    "word": "four",
+    "start": 68.52,
+    "end": 68.76,
+    "confidence": 0.897
+  },
+  {
+    "word": "that",
+    "start": 68.76,
+    "end": 68.9,
+    "confidence": 0.575
+  },
+  {
+    "word": "year,",
+    "start": 68.9,
+    "end": 69.0,
+    "confidence": 0.972
+  },
+  {
+    "word": "but",
+    "start": 69.32,
+    "end": 69.34,
+    "confidence": 0.962
+  },
+  {
+    "word": "he",
+    "start": 69.34,
+    "end": 69.86,
+    "confidence": 0.992
+  },
+  {
+    "word": "was",
+    "start": 69.86,
+    "end": 70.06,
+    "confidence": 0.985
+  },
+  {
+    "word": "in",
+    "start": 70.06,
+    "end": 70.22,
+    "confidence": 0.949
+  },
+  {
+    "word": "the",
+    "start": 70.22,
+    "end": 70.34,
+    "confidence": 0.942
+  },
+  {
+    "word": "Nativity",
+    "start": 70.34,
+    "end": 70.68,
+    "confidence": 0.79
+  },
+  {
+    "word": "play.",
+    "start": 70.68,
+    "end": 71.08,
+    "confidence": 0.834
+  },
+  {
+    "word": "Do",
+    "start": 71.28,
+    "end": 71.42,
+    "confidence": 0.707
+  },
+  {
+    "word": "you",
+    "start": 71.42,
+    "end": 71.44,
+    "confidence": 0.973
+  },
+  {
+    "word": "remember",
+    "start": 71.44,
+    "end": 71.58,
+    "confidence": 0.997
+  },
+  {
+    "word": "the",
+    "start": 71.58,
+    "end": 71.76,
+    "confidence": 0.997
+  },
+  {
+    "word": "story?",
+    "start": 71.76,
+    "end": 72.24,
+    "confidence": 0.999
+  },
+  {
+    "word": "No,",
+    "start": 74.28,
+    "end": 74.4,
+    "confidence": 0.852
+  },
+  {
+    "word": "it's",
+    "start": 74.4,
+    "end": 74.54,
+    "confidence": 0.704
+  },
+  {
+    "word": "big.",
+    "start": 74.54,
+    "end": 74.72,
+    "confidence": 0.866
+  },
+  {
+    "word": "It's",
+    "start": 74.72,
+    "end": 74.84,
+    "confidence": 0.962
+  },
+  {
+    "word": "a",
+    "start": 74.84,
+    "end": 74.9,
+    "confidence": 0.702
+  },
+  {
+    "word": "big",
+    "start": 74.9,
+    "end": 74.98,
+    "confidence": 0.984
+  },
+  {
+    "word": "story.",
+    "start": 74.98,
+    "end": 75.42,
+    "confidence": 0.991
+  },
+  {
+    "word": "Mel",
+    "start": 76.2,
+    "end": 76.38,
+    "confidence": 0.965
+  },
+  {
+    "word": "Gibson",
+    "start": 76.38,
+    "end": 76.64,
+    "confidence": 0.982
+  },
+  {
+    "word": "did",
+    "start": 76.64,
+    "end": 76.8,
+    "confidence": 0.825
+  },
+  {
+    "word": "the",
+    "start": 76.8,
+    "end": 76.9,
+    "confidence": 0.981
+  },
+  {
+    "word": "sequel.",
+    "start": 76.9,
+    "end": 77.1,
+    "confidence": 0.752
+  },
+  {
+    "word": "You",
+    "start": 77.12,
+    "end": 77.24,
+    "confidence": 0.823
+  },
+  {
+    "word": "may",
+    "start": 77.24,
+    "end": 77.34,
+    "confidence": 0.971
+  },
+  {
+    "word": "have",
+    "start": 77.34,
+    "end": 77.46,
+    "confidence": 0.993
+  },
+  {
+    "word": "seen",
+    "start": 77.46,
+    "end": 77.6,
+    "confidence": 0.998
+  },
+  {
+    "word": "it.",
+    "start": 77.6,
+    "end": 77.78,
+    "confidence": 0.935
+  },
+  {
+    "word": "Nativity",
+    "start": 79.78,
+    "end": 80.22,
+    "confidence": 0.777
+  },
+  {
+    "word": "2.",
+    "start": 80.22,
+    "end": 81.02,
+    "confidence": 0.355
+  },
+  {
+    "word": "But",
+    "start": 82.58,
+    "end": 82.6,
+    "confidence": 0.678
+  },
+  {
+    "word": "James",
+    "start": 82.6,
+    "end": 83.12,
+    "confidence": 0.905
+  },
+  {
+    "word": "got",
+    "start": 83.12,
+    "end": 83.34,
+    "confidence": 0.994
+  },
+  {
+    "word": "the",
+    "start": 83.34,
+    "end": 83.5,
+    "confidence": 0.97
+  },
+  {
+    "word": "part",
+    "start": 83.5,
+    "end": 83.64,
+    "confidence": 0.992
+  },
+  {
+    "word": "of",
+    "start": 83.64,
+    "end": 83.78,
+    "confidence": 0.991
+  },
+  {
+    "word": "Joseph,",
+    "start": 83.78,
+    "end": 84.08,
+    "confidence": 0.993
+  },
+  {
+    "word": "which",
+    "start": 84.18,
+    "end": 84.28,
+    "confidence": 0.985
+  },
+  {
+    "word": "we",
+    "start": 84.28,
+    "end": 84.44,
+    "confidence": 0.979
+  },
+  {
+    "word": "were",
+    "start": 84.44,
+    "end": 84.54,
+    "confidence": 0.733
+  },
+  {
+    "word": "thrilled",
+    "start": 84.54,
+    "end": 84.7,
+    "confidence": 0.985
+  },
+  {
+    "word": "about.",
+    "start": 84.7,
+    "end": 85.02,
+    "confidence": 0.907
+  },
+  {
+    "word": "We",
+    "start": 85.16,
+    "end": 85.3,
+    "confidence": 0.986
+  },
+  {
+    "word": "consider",
+    "start": 85.3,
+    "end": 85.52,
+    "confidence": 0.92
+  },
+  {
+    "word": "this",
+    "start": 85.52,
+    "end": 85.68,
+    "confidence": 0.995
+  },
+  {
+    "word": "to",
+    "start": 85.68,
+    "end": 85.78,
+    "confidence": 0.801
+  },
+  {
+    "word": "be",
+    "start": 85.78,
+    "end": 85.84,
+    "confidence": 0.997
+  },
+  {
+    "word": "one",
+    "start": 85.84,
+    "end": 85.94,
+    "confidence": 0.998
+  },
+  {
+    "word": "of",
+    "start": 85.94,
+    "end": 86.04,
+    "confidence": 0.999
+  },
+  {
+    "word": "the",
+    "start": 86.04,
+    "end": 86.18,
+    "confidence": 0.998
+  },
+  {
+    "word": "lead",
+    "start": 86.18,
+    "end": 86.4,
+    "confidence": 0.992
+  },
+  {
+    "word": "parts.",
+    "start": 86.4,
+    "end": 87.04,
+    "confidence": 0.997
+  },
+  {
+    "word": "We",
+    "start": 87.36,
+    "end": 88.44,
+    "confidence": 0.935
+  },
+  {
+    "word": "had",
+    "start": 88.44,
+    "end": 88.56,
+    "confidence": 0.883
+  },
+  {
+    "word": "the",
+    "start": 88.56,
+    "end": 88.66,
+    "confidence": 0.985
+  },
+  {
+    "word": "place",
+    "start": 88.66,
+    "end": 88.84,
+    "confidence": 0.994
+  },
+  {
+    "word": "crammed",
+    "start": 88.84,
+    "end": 89.12,
+    "confidence": 0.994
+  },
+  {
+    "word": "full",
+    "start": 89.12,
+    "end": 89.28,
+    "confidence": 0.99
+  },
+  {
+    "word": "of",
+    "start": 89.28,
+    "end": 89.4,
+    "confidence": 0.983
+  },
+  {
+    "word": "agents",
+    "start": 89.4,
+    "end": 89.68,
+    "confidence": 0.985
+  }
+]

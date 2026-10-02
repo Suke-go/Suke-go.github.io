@@ -1,0 +1,14 @@
+{
+  "name": "L3",
+  "speaker": "Al Gore",
+  "title": "Averting the Climate Crisis",
+  "year": 2006,
+  "note": "政策説明調、グラフ解説",
+  "group": "",
+  "duration": 90.0,
+  "words": 193,
+  "source": "L3.wav",
+  "D_new": 0.756,
+  "r_pb": 0.244,
+  "p_val": 0.0006
+}

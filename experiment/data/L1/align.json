@@ -1,0 +1,1616 @@
+[
+  {
+    "word": "Latin",
+    "start": 0.08,
+    "end": 0.34,
+    "confidence": 0.766
+  },
+  {
+    "word": "American",
+    "start": 0.34,
+    "end": 0.78,
+    "confidence": 0.944
+  },
+  {
+    "word": "countries,",
+    "start": 0.78,
+    "end": 1.3,
+    "confidence": 0.99
+  },
+  {
+    "word": "they",
+    "start": 1.6,
+    "end": 1.62,
+    "confidence": 0.821
+  },
+  {
+    "word": "are",
+    "start": 1.62,
+    "end": 1.72,
+    "confidence": 0.885
+  },
+  {
+    "word": "moving",
+    "start": 1.72,
+    "end": 1.94,
+    "confidence": 0.977
+  },
+  {
+    "word": "towards",
+    "start": 1.94,
+    "end": 2.26,
+    "confidence": 0.581
+  },
+  {
+    "word": "smaller",
+    "start": 2.26,
+    "end": 2.6,
+    "confidence": 0.797
+  },
+  {
+    "word": "families.",
+    "start": 2.6,
+    "end": 3.04,
+    "confidence": 0.93
+  },
+  {
+    "word": "The",
+    "start": 3.28,
+    "end": 3.48,
+    "confidence": 0.795
+  },
+  {
+    "word": "yellow",
+    "start": 3.48,
+    "end": 3.76,
+    "confidence": 0.992
+  },
+  {
+    "word": "ones",
+    "start": 3.76,
+    "end": 4.02,
+    "confidence": 0.993
+  },
+  {
+    "word": "here",
+    "start": 4.02,
+    "end": 4.24,
+    "confidence": 0.963
+  },
+  {
+    "word": "are",
+    "start": 4.24,
+    "end": 4.42,
+    "confidence": 0.989
+  },
+  {
+    "word": "the",
+    "start": 4.42,
+    "end": 4.58,
+    "confidence": 0.98
+  },
+  {
+    "word": "Arabic",
+    "start": 4.58,
+    "end": 4.96,
+    "confidence": 0.942
+  },
+  {
+    "word": "countries,",
+    "start": 4.96,
+    "end": 5.36,
+    "confidence": 0.992
+  },
+  {
+    "word": "and",
+    "start": 5.46,
+    "end": 5.58,
+    "confidence": 0.635
+  },
+  {
+    "word": "they",
+    "start": 5.58,
+    "end": 5.72,
+    "confidence": 0.867
+  },
+  {
+    "word": "get",
+    "start": 5.72,
+    "end": 5.92,
+    "confidence": 0.987
+  },
+  {
+    "word": "larger",
+    "start": 5.92,
+    "end": 6.3,
+    "confidence": 0.974
+  },
+  {
+    "word": "families.",
+    "start": 6.3,
+    "end": 6.8,
+    "confidence": 0.965
+  },
+  {
+    "word": "But",
+    "start": 7.0,
+    "end": 7.18,
+    "confidence": 0.772
+  },
+  {
+    "word": "they,",
+    "start": 7.18,
+    "end": 7.42,
+    "confidence": 0.501
+  },
+  {
+    "word": "no,",
+    "start": 7.7,
+    "end": 7.8,
+    "confidence": 0.865
+  },
+  {
+    "word": "longer",
+    "start": 7.86,
+    "end": 8.04,
+    "confidence": 0.915
+  },
+  {
+    "word": "life,",
+    "start": 8.04,
+    "end": 8.32,
+    "confidence": 0.779
+  },
+  {
+    "word": "but",
+    "start": 8.48,
+    "end": 8.58,
+    "confidence": 0.993
+  },
+  {
+    "word": "not",
+    "start": 8.58,
+    "end": 8.78,
+    "confidence": 0.988
+  },
+  {
+    "word": "larger",
+    "start": 8.78,
+    "end": 9.0,
+    "confidence": 0.996
+  },
+  {
+    "word": "families.",
+    "start": 9.0,
+    "end": 9.34,
+    "confidence": 0.997
+  },
+  {
+    "word": "The",
+    "start": 9.44,
+    "end": 9.66,
+    "confidence": 0.997
+  },
+  {
+    "word": "Africans",
+    "start": 9.66,
+    "end": 9.98,
+    "confidence": 0.977
+  },
+  {
+    "word": "are",
+    "start": 9.98,
+    "end": 10.18,
+    "confidence": 0.792
+  },
+  {
+    "word": "the",
+    "start": 10.18,
+    "end": 10.32,
+    "confidence": 0.97
+  },
+  {
+    "word": "green",
+    "start": 10.32,
+    "end": 10.5,
+    "confidence": 0.981
+  },
+  {
+    "word": "down",
+    "start": 10.5,
+    "end": 10.72,
+    "confidence": 0.964
+  },
+  {
+    "word": "here,",
+    "start": 10.72,
+    "end": 10.88,
+    "confidence": 0.991
+  },
+  {
+    "word": "they",
+    "start": 10.92,
+    "end": 11.1,
+    "confidence": 0.955
+  },
+  {
+    "word": "still",
+    "start": 11.1,
+    "end": 11.3,
+    "confidence": 0.994
+  },
+  {
+    "word": "remain",
+    "start": 11.3,
+    "end": 11.6,
+    "confidence": 0.991
+  },
+  {
+    "word": "here.",
+    "start": 11.6,
+    "end": 11.8,
+    "confidence": 0.995
+  },
+  {
+    "word": "This",
+    "start": 12.02,
+    "end": 12.2,
+    "confidence": 0.982
+  },
+  {
+    "word": "is",
+    "start": 12.2,
+    "end": 12.38,
+    "confidence": 0.995
+  },
+  {
+    "word": "India,",
+    "start": 12.38,
+    "end": 12.68,
+    "confidence": 0.978
+  },
+  {
+    "word": "Indonesia",
+    "start": 12.9,
+    "end": 13.26,
+    "confidence": 0.989
+  },
+  {
+    "word": "is",
+    "start": 13.26,
+    "end": 13.44,
+    "confidence": 0.593
+  },
+  {
+    "word": "moving",
+    "start": 13.44,
+    "end": 13.68,
+    "confidence": 0.996
+  },
+  {
+    "word": "on",
+    "start": 13.68,
+    "end": 13.94,
+    "confidence": 0.979
+  },
+  {
+    "word": "pretty",
+    "start": 13.94,
+    "end": 14.18,
+    "confidence": 0.992
+  },
+  {
+    "word": "fast.",
+    "start": 14.18,
+    "end": 14.5,
+    "confidence": 0.996
+  },
+  {
+    "word": "And",
+    "start": 14.74,
+    "end": 14.92,
+    "confidence": 0.986
+  },
+  {
+    "word": "in",
+    "start": 14.92,
+    "end": 15.06,
+    "confidence": 0.992
+  },
+  {
+    "word": "the",
+    "start": 15.06,
+    "end": 15.22,
+    "confidence": 0.998
+  },
+  {
+    "word": "80s",
+    "start": 15.22,
+    "end": 15.6,
+    "confidence": 0.891
+  },
+  {
+    "word": "here,",
+    "start": 15.6,
+    "end": 15.78,
+    "confidence": 0.932
+  },
+  {
+    "word": "you",
+    "start": 15.96,
+    "end": 16.1,
+    "confidence": 0.66
+  },
+  {
+    "word": "have",
+    "start": 16.1,
+    "end": 16.26,
+    "confidence": 0.979
+  },
+  {
+    "word": "Bangladesh",
+    "start": 16.26,
+    "end": 16.9,
+    "confidence": 0.993
+  },
+  {
+    "word": "still",
+    "start": 16.9,
+    "end": 17.26,
+    "confidence": 0.841
+  },
+  {
+    "word": "among",
+    "start": 17.26,
+    "end": 17.62,
+    "confidence": 0.964
+  },
+  {
+    "word": "the",
+    "start": 17.62,
+    "end": 17.84,
+    "confidence": 0.963
+  },
+  {
+    "word": "African",
+    "start": 17.84,
+    "end": 18.16,
+    "confidence": 0.988
+  },
+  {
+    "word": "countries",
+    "start": 18.16,
+    "end": 18.6,
+    "confidence": 0.947
+  },
+  {
+    "word": "there.",
+    "start": 18.6,
+    "end": 18.84,
+    "confidence": 0.943
+  },
+  {
+    "word": "But",
+    "start": 18.98,
+    "end": 19.16,
+    "confidence": 0.998
+  },
+  {
+    "word": "now",
+    "start": 19.16,
+    "end": 19.36,
+    "confidence": 0.714
+  },
+  {
+    "word": "Bangladesh,",
+    "start": 19.36,
+    "end": 19.76,
+    "confidence": 0.89
+  },
+  {
+    "word": "it's",
+    "start": 19.84,
+    "end": 20.08,
+    "confidence": 0.989
+  },
+  {
+    "word": "a",
+    "start": 20.08,
+    "end": 20.32,
+    "confidence": 0.998
+  },
+  {
+    "word": "miracle",
+    "start": 20.32,
+    "end": 20.62,
+    "confidence": 0.998
+  },
+  {
+    "word": "that",
+    "start": 20.62,
+    "end": 20.9,
+    "confidence": 0.993
+  },
+  {
+    "word": "happens",
+    "start": 20.9,
+    "end": 21.14,
+    "confidence": 0.988
+  },
+  {
+    "word": "in",
+    "start": 21.14,
+    "end": 21.3,
+    "confidence": 0.998
+  },
+  {
+    "word": "the",
+    "start": 21.3,
+    "end": 21.46,
+    "confidence": 0.996
+  },
+  {
+    "word": "80s.",
+    "start": 21.46,
+    "end": 21.84,
+    "confidence": 0.991
+  },
+  {
+    "word": "The",
+    "start": 22.04,
+    "end": 22.3,
+    "confidence": 0.997
+  },
+  {
+    "word": "imams",
+    "start": 22.3,
+    "end": 22.68,
+    "confidence": 0.654
+  },
+  {
+    "word": "start",
+    "start": 22.68,
+    "end": 23.02,
+    "confidence": 0.987
+  },
+  {
+    "word": "to",
+    "start": 23.02,
+    "end": 23.32,
+    "confidence": 0.999
+  },
+  {
+    "word": "promote",
+    "start": 23.32,
+    "end": 23.74,
+    "confidence": 0.998
+  },
+  {
+    "word": "family",
+    "start": 23.74,
+    "end": 24.2,
+    "confidence": 0.993
+  },
+  {
+    "word": "planning,",
+    "start": 24.2,
+    "end": 24.46,
+    "confidence": 0.998
+  },
+  {
+    "word": "and",
+    "start": 24.54,
+    "end": 24.64,
+    "confidence": 0.949
+  },
+  {
+    "word": "they",
+    "start": 24.64,
+    "end": 24.74,
+    "confidence": 0.7
+  },
+  {
+    "word": "move",
+    "start": 24.74,
+    "end": 24.98,
+    "confidence": 0.989
+  },
+  {
+    "word": "up",
+    "start": 24.98,
+    "end": 25.16,
+    "confidence": 0.991
+  },
+  {
+    "word": "into",
+    "start": 25.16,
+    "end": 25.34,
+    "confidence": 0.985
+  },
+  {
+    "word": "that",
+    "start": 25.34,
+    "end": 25.58,
+    "confidence": 0.972
+  },
+  {
+    "word": "corner.",
+    "start": 25.58,
+    "end": 25.96,
+    "confidence": 0.953
+  },
+  {
+    "word": "And",
+    "start": 26.3,
+    "end": 26.56,
+    "confidence": 0.963
+  },
+  {
+    "word": "in",
+    "start": 26.56,
+    "end": 26.86,
+    "confidence": 0.988
+  },
+  {
+    "word": "90s,",
+    "start": 26.86,
+    "end": 27.6,
+    "confidence": 0.939
+  },
+  {
+    "word": "we",
+    "start": 27.7,
+    "end": 27.78,
+    "confidence": 0.991
+  },
+  {
+    "word": "have",
+    "start": 27.78,
+    "end": 27.96,
+    "confidence": 0.991
+  },
+  {
+    "word": "the",
+    "start": 27.96,
+    "end": 28.14,
+    "confidence": 0.928
+  },
+  {
+    "word": "terrible",
+    "start": 28.14,
+    "end": 28.58,
+    "confidence": 0.994
+  },
+  {
+    "word": "HIV",
+    "start": 28.58,
+    "end": 28.96,
+    "confidence": 0.997
+  },
+  {
+    "word": "epidemic",
+    "start": 28.96,
+    "end": 29.56,
+    "confidence": 0.995
+  },
+  {
+    "word": "that",
+    "start": 29.56,
+    "end": 29.92,
+    "confidence": 0.569
+  },
+  {
+    "word": "takes",
+    "start": 29.92,
+    "end": 30.34,
+    "confidence": 0.959
+  },
+  {
+    "word": "down",
+    "start": 30.34,
+    "end": 30.78,
+    "confidence": 0.97
+  },
+  {
+    "word": "the",
+    "start": 30.78,
+    "end": 31.14,
+    "confidence": 0.756
+  },
+  {
+    "word": "life",
+    "start": 31.14,
+    "end": 31.48,
+    "confidence": 0.957
+  },
+  {
+    "word": "expectancy",
+    "start": 31.48,
+    "end": 32.1,
+    "confidence": 0.921
+  },
+  {
+    "word": "of",
+    "start": 32.1,
+    "end": 32.28,
+    "confidence": 0.627
+  },
+  {
+    "word": "the",
+    "start": 32.28,
+    "end": 32.42,
+    "confidence": 0.843
+  },
+  {
+    "word": "African",
+    "start": 32.42,
+    "end": 32.74,
+    "confidence": 0.912
+  },
+  {
+    "word": "countries.",
+    "start": 32.74,
+    "end": 33.18,
+    "confidence": 0.972
+  },
+  {
+    "word": "And",
+    "start": 33.42,
+    "end": 33.7,
+    "confidence": 0.982
+  },
+  {
+    "word": "all",
+    "start": 33.7,
+    "end": 33.92,
+    "confidence": 0.986
+  },
+  {
+    "word": "the",
+    "start": 33.92,
+    "end": 34.04,
+    "confidence": 0.986
+  },
+  {
+    "word": "rest",
+    "start": 34.04,
+    "end": 34.3,
+    "confidence": 0.999
+  },
+  {
+    "word": "of",
+    "start": 34.3,
+    "end": 34.48,
+    "confidence": 0.997
+  },
+  {
+    "word": "the",
+    "start": 34.48,
+    "end": 34.66,
+    "confidence": 0.982
+  },
+  {
+    "word": "world",
+    "start": 34.66,
+    "end": 34.94,
+    "confidence": 0.973
+  },
+  {
+    "word": "moves",
+    "start": 34.94,
+    "end": 35.6,
+    "confidence": 0.962
+  },
+  {
+    "word": "up",
+    "start": 35.6,
+    "end": 35.92,
+    "confidence": 0.994
+  },
+  {
+    "word": "into",
+    "start": 35.92,
+    "end": 36.14,
+    "confidence": 0.99
+  },
+  {
+    "word": "the",
+    "start": 36.14,
+    "end": 36.4,
+    "confidence": 0.989
+  },
+  {
+    "word": "corner",
+    "start": 36.4,
+    "end": 36.74,
+    "confidence": 0.994
+  },
+  {
+    "word": "where",
+    "start": 36.74,
+    "end": 37.06,
+    "confidence": 0.481
+  },
+  {
+    "word": "we",
+    "start": 37.06,
+    "end": 37.2,
+    "confidence": 0.989
+  },
+  {
+    "word": "have",
+    "start": 37.2,
+    "end": 37.36,
+    "confidence": 0.996
+  },
+  {
+    "word": "long",
+    "start": 37.36,
+    "end": 37.62,
+    "confidence": 0.987
+  },
+  {
+    "word": "lives",
+    "start": 37.62,
+    "end": 37.98,
+    "confidence": 0.961
+  },
+  {
+    "word": "and",
+    "start": 37.98,
+    "end": 38.38,
+    "confidence": 0.618
+  },
+  {
+    "word": "small",
+    "start": 38.38,
+    "end": 38.72,
+    "confidence": 0.913
+  },
+  {
+    "word": "family.",
+    "start": 38.72,
+    "end": 39.16,
+    "confidence": 0.74
+  },
+  {
+    "word": "And",
+    "start": 39.36,
+    "end": 39.5,
+    "confidence": 0.987
+  },
+  {
+    "word": "we",
+    "start": 39.5,
+    "end": 39.6,
+    "confidence": 0.998
+  },
+  {
+    "word": "have",
+    "start": 39.6,
+    "end": 39.76,
+    "confidence": 0.999
+  },
+  {
+    "word": "a",
+    "start": 39.76,
+    "end": 40.04,
+    "confidence": 0.997
+  },
+  {
+    "word": "completely",
+    "start": 40.04,
+    "end": 40.3,
+    "confidence": 0.974
+  },
+  {
+    "word": "new",
+    "start": 40.3,
+    "end": 40.56,
+    "confidence": 0.999
+  },
+  {
+    "word": "world.",
+    "start": 40.56,
+    "end": 40.94,
+    "confidence": 0.998
+  },
+  {
+    "word": "Let",
+    "start": 41.36,
+    "end": 42.9,
+    "confidence": 0.467
+  },
+  {
+    "word": "me",
+    "start": 42.9,
+    "end": 43.32,
+    "confidence": 0.937
+  },
+  {
+    "word": "make",
+    "start": 43.32,
+    "end": 43.74,
+    "confidence": 0.988
+  },
+  {
+    "word": "a",
+    "start": 43.74,
+    "end": 44.68,
+    "confidence": 0.965
+  },
+  {
+    "word": "comparison",
+    "start": 44.68,
+    "end": 44.7,
+    "confidence": 0.993
+  },
+  {
+    "word": "directly",
+    "start": 44.7,
+    "end": 45.46,
+    "confidence": 0.737
+  },
+  {
+    "word": "between",
+    "start": 45.46,
+    "end": 45.7,
+    "confidence": 0.982
+  },
+  {
+    "word": "United",
+    "start": 45.7,
+    "end": 45.98,
+    "confidence": 0.713
+  },
+  {
+    "word": "States",
+    "start": 45.98,
+    "end": 46.58,
+    "confidence": 0.985
+  },
+  {
+    "word": "of",
+    "start": 46.58,
+    "end": 46.68,
+    "confidence": 0.991
+  },
+  {
+    "word": "America",
+    "start": 46.68,
+    "end": 47.16,
+    "confidence": 0.994
+  },
+  {
+    "word": "and",
+    "start": 47.16,
+    "end": 47.36,
+    "confidence": 0.968
+  },
+  {
+    "word": "Vietnam,",
+    "start": 47.36,
+    "end": 48.12,
+    "confidence": 0.989
+  },
+  {
+    "word": "1964.",
+    "start": 48.12,
+    "end": 48.35,
+    "confidence": 0.92
+  },
+  {
+    "word": "America",
+    "start": 48.35,
+    "end": 48.37,
+    "confidence": 0.981
+  },
+  {
+    "word": "had",
+    "start": 48.37,
+    "end": 48.39,
+    "confidence": 0.957
+  },
+  {
+    "word": "small",
+    "start": 48.39,
+    "end": 48.41,
+    "confidence": 0.987
+  },
+  {
+    "word": "families",
+    "start": 48.41,
+    "end": 48.92,
+    "confidence": 0.99
+  },
+  {
+    "word": "and",
+    "start": 48.92,
+    "end": 49.14,
+    "confidence": 0.97
+  },
+  {
+    "word": "long",
+    "start": 49.14,
+    "end": 49.52,
+    "confidence": 0.987
+  },
+  {
+    "word": "life.",
+    "start": 49.52,
+    "end": 49.88,
+    "confidence": 0.744
+  },
+  {
+    "word": "Vietnam",
+    "start": 51.34,
+    "end": 51.36,
+    "confidence": 0.993
+  },
+  {
+    "word": "had",
+    "start": 51.36,
+    "end": 51.38,
+    "confidence": 0.988
+  },
+  {
+    "word": "large",
+    "start": 51.38,
+    "end": 51.4,
+    "confidence": 0.992
+  },
+  {
+    "word": "families",
+    "start": 51.4,
+    "end": 51.52,
+    "confidence": 0.996
+  },
+  {
+    "word": "and",
+    "start": 51.52,
+    "end": 52.64,
+    "confidence": 0.934
+  },
+  {
+    "word": "short",
+    "start": 52.64,
+    "end": 52.84,
+    "confidence": 0.998
+  },
+  {
+    "word": "lives.",
+    "start": 52.84,
+    "end": 53.52,
+    "confidence": 0.977
+  },
+  {
+    "word": "And",
+    "start": 54.12,
+    "end": 54.14,
+    "confidence": 0.974
+  },
+  {
+    "word": "this",
+    "start": 54.14,
+    "end": 54.28,
+    "confidence": 0.998
+  },
+  {
+    "word": "is",
+    "start": 54.28,
+    "end": 54.44,
+    "confidence": 0.998
+  },
+  {
+    "word": "what",
+    "start": 54.44,
+    "end": 54.84,
+    "confidence": 0.999
+  },
+  {
+    "word": "happens.",
+    "start": 54.84,
+    "end": 56.2,
+    "confidence": 0.966
+  },
+  {
+    "word": "The",
+    "start": 57.46,
+    "end": 58.18,
+    "confidence": 0.957
+  },
+  {
+    "word": "data",
+    "start": 58.18,
+    "end": 58.66,
+    "confidence": 0.994
+  },
+  {
+    "word": "during",
+    "start": 58.66,
+    "end": 59.4,
+    "confidence": 0.981
+  },
+  {
+    "word": "the",
+    "start": 59.4,
+    "end": 59.84,
+    "confidence": 0.999
+  },
+  {
+    "word": "war",
+    "start": 59.84,
+    "end": 60.2,
+    "confidence": 0.99
+  },
+  {
+    "word": "indicate",
+    "start": 60.2,
+    "end": 61.84,
+    "confidence": 0.668
+  },
+  {
+    "word": "that",
+    "start": 61.84,
+    "end": 62.3,
+    "confidence": 0.511
+  },
+  {
+    "word": "the",
+    "start": 62.3,
+    "end": 62.32,
+    "confidence": 0.26
+  },
+  {
+    "word": "African",
+    "start": 62.32,
+    "end": 62.34,
+    "confidence": 0.079
+  },
+  {
+    "word": "countries",
+    "start": 62.34,
+    "end": 62.36,
+    "confidence": 0.355
+  },
+  {
+    "word": "are",
+    "start": 62.36,
+    "end": 62.38,
+    "confidence": 0.215
+  },
+  {
+    "word": "moving",
+    "start": 62.38,
+    "end": 62.4,
+    "confidence": 0.295
+  },
+  {
+    "word": "towards",
+    "start": 62.4,
+    "end": 62.42,
+    "confidence": 0.357
+  },
+  {
+    "word": "larger",
+    "start": 62.42,
+    "end": 62.44,
+    "confidence": 0.279
+  },
+  {
+    "word": "families.",
+    "start": 62.44,
+    "end": 62.66,
+    "confidence": 0.93
+  },
+  {
+    "word": "And",
+    "start": 63.7,
+    "end": 63.82,
+    "confidence": 0.349
+  },
+  {
+    "word": "the",
+    "start": 63.82,
+    "end": 64.24,
+    "confidence": 0.125
+  },
+  {
+    "word": "African",
+    "start": 64.24,
+    "end": 64.26,
+    "confidence": 0.064
+  },
+  {
+    "word": "countries",
+    "start": 64.26,
+    "end": 64.38,
+    "confidence": 0.861
+  },
+  {
+    "word": "are",
+    "start": 64.38,
+    "end": 64.8,
+    "confidence": 0.651
+  },
+  {
+    "word": "moving",
+    "start": 64.8,
+    "end": 64.82,
+    "confidence": 0.688
+  },
+  {
+    "word": "towards",
+    "start": 64.82,
+    "end": 64.84,
+    "confidence": 0.614
+  },
+  {
+    "word": "smaller",
+    "start": 64.84,
+    "end": 65.12,
+    "confidence": 0.503
+  },
+  {
+    "word": "families.",
+    "start": 65.12,
+    "end": 65.74,
+    "confidence": 0.971
+  },
+  {
+    "word": "And",
+    "start": 67.08,
+    "end": 67.22,
+    "confidence": 0.857
+  },
+  {
+    "word": "this",
+    "start": 67.22,
+    "end": 67.4,
+    "confidence": 0.991
+  },
+  {
+    "word": "is",
+    "start": 67.4,
+    "end": 67.52,
+    "confidence": 0.998
+  },
+  {
+    "word": "what",
+    "start": 67.52,
+    "end": 67.68,
+    "confidence": 0.999
+  },
+  {
+    "word": "happens.",
+    "start": 67.68,
+    "end": 68.12,
+    "confidence": 0.991
+  },
+  {
+    "word": "The",
+    "start": 68.46,
+    "end": 68.64,
+    "confidence": 0.991
+  },
+  {
+    "word": "data",
+    "start": 68.64,
+    "end": 69.18,
+    "confidence": 0.998
+  },
+  {
+    "word": "during",
+    "start": 69.18,
+    "end": 69.84,
+    "confidence": 0.989
+  },
+  {
+    "word": "the",
+    "start": 69.84,
+    "end": 70.12,
+    "confidence": 0.999
+  },
+  {
+    "word": "war",
+    "start": 70.12,
+    "end": 70.52,
+    "confidence": 0.998
+  },
+  {
+    "word": "indicate",
+    "start": 70.52,
+    "end": 71.5,
+    "confidence": 0.91
+  },
+  {
+    "word": "that",
+    "start": 71.5,
+    "end": 72.36,
+    "confidence": 0.974
+  },
+  {
+    "word": "even",
+    "start": 72.36,
+    "end": 72.84,
+    "confidence": 0.863
+  },
+  {
+    "word": "with",
+    "start": 72.84,
+    "end": 73.08,
+    "confidence": 0.993
+  },
+  {
+    "word": "all",
+    "start": 73.08,
+    "end": 73.3,
+    "confidence": 0.968
+  },
+  {
+    "word": "the",
+    "start": 73.3,
+    "end": 73.42,
+    "confidence": 0.983
+  },
+  {
+    "word": "death,",
+    "start": 73.42,
+    "end": 73.68,
+    "confidence": 0.864
+  },
+  {
+    "word": "there",
+    "start": 73.84,
+    "end": 73.9,
+    "confidence": 0.818
+  },
+  {
+    "word": "was",
+    "start": 73.9,
+    "end": 74.12,
+    "confidence": 0.987
+  },
+  {
+    "word": "an",
+    "start": 74.12,
+    "end": 74.4,
+    "confidence": 0.983
+  },
+  {
+    "word": "improvement",
+    "start": 74.4,
+    "end": 74.7,
+    "confidence": 0.997
+  },
+  {
+    "word": "of",
+    "start": 74.7,
+    "end": 74.94,
+    "confidence": 0.953
+  },
+  {
+    "word": "life",
+    "start": 74.94,
+    "end": 75.18,
+    "confidence": 0.994
+  },
+  {
+    "word": "expectancy.",
+    "start": 75.18,
+    "end": 75.78,
+    "confidence": 0.997
+  },
+  {
+    "word": "By",
+    "start": 75.98,
+    "end": 76.2,
+    "confidence": 0.993
+  },
+  {
+    "word": "the",
+    "start": 76.2,
+    "end": 76.34,
+    "confidence": 0.999
+  },
+  {
+    "word": "end",
+    "start": 76.34,
+    "end": 76.52,
+    "confidence": 0.999
+  },
+  {
+    "word": "of",
+    "start": 76.52,
+    "end": 76.68,
+    "confidence": 1.0
+  },
+  {
+    "word": "the",
+    "start": 76.68,
+    "end": 76.82,
+    "confidence": 0.998
+  },
+  {
+    "word": "year,",
+    "start": 76.82,
+    "end": 76.94,
+    "confidence": 0.999
+  },
+  {
+    "word": "the",
+    "start": 77.02,
+    "end": 77.16,
+    "confidence": 0.968
+  },
+  {
+    "word": "family",
+    "start": 77.16,
+    "end": 77.42,
+    "confidence": 0.999
+  },
+  {
+    "word": "planning",
+    "start": 77.42,
+    "end": 77.7,
+    "confidence": 0.995
+  },
+  {
+    "word": "started",
+    "start": 77.7,
+    "end": 78.08,
+    "confidence": 0.995
+  },
+  {
+    "word": "in",
+    "start": 78.08,
+    "end": 78.3,
+    "confidence": 0.992
+  },
+  {
+    "word": "Vietnam",
+    "start": 78.3,
+    "end": 78.62,
+    "confidence": 0.979
+  },
+  {
+    "word": "and",
+    "start": 78.62,
+    "end": 78.8,
+    "confidence": 0.504
+  },
+  {
+    "word": "they",
+    "start": 78.8,
+    "end": 78.9,
+    "confidence": 0.983
+  },
+  {
+    "word": "went",
+    "start": 78.9,
+    "end": 79.12,
+    "confidence": 0.996
+  },
+  {
+    "word": "for",
+    "start": 79.12,
+    "end": 79.34,
+    "confidence": 0.982
+  },
+  {
+    "word": "smaller",
+    "start": 79.34,
+    "end": 79.64,
+    "confidence": 0.985
+  },
+  {
+    "word": "families.",
+    "start": 79.64,
+    "end": 80.1,
+    "confidence": 0.996
+  },
+  {
+    "word": "And",
+    "start": 80.4,
+    "end": 80.52,
+    "confidence": 0.983
+  },
+  {
+    "word": "the",
+    "start": 80.52,
+    "end": 80.74,
+    "confidence": 0.994
+  },
+  {
+    "word": "United",
+    "start": 80.74,
+    "end": 81.06,
+    "confidence": 0.994
+  },
+  {
+    "word": "States",
+    "start": 81.06,
+    "end": 81.38,
+    "confidence": 0.999
+  },
+  {
+    "word": "up",
+    "start": 81.38,
+    "end": 81.58,
+    "confidence": 0.941
+  },
+  {
+    "word": "there",
+    "start": 81.58,
+    "end": 81.76,
+    "confidence": 0.998
+  },
+  {
+    "word": "is",
+    "start": 81.76,
+    "end": 81.92,
+    "confidence": 0.979
+  },
+  {
+    "word": "getting",
+    "start": 81.92,
+    "end": 82.14,
+    "confidence": 0.995
+  },
+  {
+    "word": "for",
+    "start": 82.14,
+    "end": 82.42,
+    "confidence": 0.979
+  },
+  {
+    "word": "longer",
+    "start": 82.42,
+    "end": 82.62,
+    "confidence": 0.897
+  },
+  {
+    "word": "life,",
+    "start": 82.62,
+    "end": 82.96,
+    "confidence": 0.934
+  },
+  {
+    "word": "keeping",
+    "start": 83.26,
+    "end": 83.32,
+    "confidence": 0.977
+  },
+  {
+    "word": "family",
+    "start": 83.32,
+    "end": 83.74,
+    "confidence": 0.993
+  },
+  {
+    "word": "size.",
+    "start": 83.74,
+    "end": 84.04,
+    "confidence": 0.984
+  },
+  {
+    "word": "And",
+    "start": 84.26,
+    "end": 84.46,
+    "confidence": 0.975
+  },
+  {
+    "word": "in",
+    "start": 84.46,
+    "end": 84.62,
+    "confidence": 0.997
+  },
+  {
+    "word": "the",
+    "start": 84.62,
+    "end": 84.82,
+    "confidence": 0.998
+  },
+  {
+    "word": "80s",
+    "start": 84.82,
+    "end": 85.3,
+    "confidence": 0.963
+  },
+  {
+    "word": "now,",
+    "start": 85.3,
+    "end": 85.5,
+    "confidence": 0.88
+  },
+  {
+    "word": "they",
+    "start": 85.74,
+    "end": 85.84,
+    "confidence": 0.992
+  },
+  {
+    "word": "give",
+    "start": 85.84,
+    "end": 86.22,
+    "confidence": 0.985
+  },
+  {
+    "word": "up",
+    "start": 86.22,
+    "end": 87.08,
+    "confidence": 0.999
+  },
+  {
+    "word": "communist",
+    "start": 87.08,
+    "end": 87.6,
+    "confidence": 0.887
+  },
+  {
+    "word": "planning",
+    "start": 87.6,
+    "end": 87.94,
+    "confidence": 0.998
+  },
+  {
+    "word": "and",
+    "start": 87.94,
+    "end": 88.14,
+    "confidence": 0.727
+  },
+  {
+    "word": "they",
+    "start": 88.14,
+    "end": 88.24,
+    "confidence": 0.985
+  },
+  {
+    "word": "go",
+    "start": 88.24,
+    "end": 88.38,
+    "confidence": 0.997
+  },
+  {
+    "word": "for",
+    "start": 88.38,
+    "end": 88.54,
+    "confidence": 0.96
+  },
+  {
+    "word": "market",
+    "start": 88.54,
+    "end": 88.8,
+    "confidence": 0.957
+  },
+  {
+    "word": "economy",
+    "start": 88.8,
+    "end": 89.22,
+    "confidence": 0.997
+  },
+  {
+    "word": "and",
+    "start": 89.22,
+    "end": 89.44,
+    "confidence": 0.42
+  },
+  {
+    "word": "it",
+    "start": 89.44,
+    "end": 89.58,
+    "confidence": 0.993
+  },
+  {
+    "word": "moves",
+    "start": 89.58,
+    "end": 89.82,
+    "confidence": 0.995
+  },
+  {
+    "word": "fast.",
+    "start": 89.82,
+    "end": 90.1,
+    "confidence": 0.581
+  }
+]

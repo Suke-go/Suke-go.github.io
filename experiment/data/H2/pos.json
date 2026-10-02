@@ -1,0 +1,2050 @@
+[
+  {
+    "word": "These",
+    "start": 0.16,
+    "end": 0.26,
+    "pos": "PRON",
+    "is_content": false,
+    "dynamik_size": 12
+  },
+  {
+    "word": "are",
+    "start": 0.26,
+    "end": 0.46,
+    "pos": "AUX",
+    "is_content": false,
+    "dynamik_size": 12
+  },
+  {
+    "word": "kind",
+    "start": 0.46,
+    "end": 0.62,
+    "pos": "ADV",
+    "is_content": true,
+    "dynamik_size": 18
+  },
+  {
+    "word": "of",
+    "start": 0.62,
+    "end": 0.82,
+    "pos": "ADV",
+    "is_content": true,
+    "dynamik_size": 18
+  },
+  {
+    "word": "wholehearted",
+    "start": 0.82,
+    "end": 1.28,
+    "pos": "VERB",
+    "is_content": true,
+    "dynamik_size": 18
+  },
+  {
+    "word": "people",
+    "start": 1.28,
+    "end": 1.72,
+    "pos": "NOUN",
+    "is_content": true,
+    "dynamik_size": 18
+  },
+  {
+    "word": "living",
+    "start": 1.72,
+    "end": 2.06,
+    "pos": "VERB",
+    "is_content": true,
+    "dynamik_size": 18
+  },
+  {
+    "word": "from",
+    "start": 2.06,
+    "end": 2.3,
+    "pos": "ADP",
+    "is_content": false,
+    "dynamik_size": 12
+  },
+  {
+    "word": "this",
+    "start": 2.3,
+    "end": 2.48,
+    "pos": "DET",
+    "is_content": false,
+    "dynamik_size": 12
+  },
+  {
+    "word": "deep",
+    "start": 2.48,
+    "end": 2.7,
+    "pos": "ADJ",
+    "is_content": true,
+    "dynamik_size": 18
+  },
+  {
+    "word": "sense",
+    "start": 2.7,
+    "end": 2.96,
+    "pos": "NOUN",
+    "is_content": true,
+    "dynamik_size": 18
+  },
+  {
+    "word": "of",
+    "start": 2.96,
+    "end": 3.12,
+    "pos": "ADP",
+    "is_content": false,
+    "dynamik_size": 12
+  },
+  {
+    "word": "worthiness.",
+    "start": 3.12,
+    "end": 3.44,
+    "pos": "NOUN",
+    "is_content": true,
+    "dynamik_size": 18
+  },
+  {
+    "word": "So",
+    "start": 3.44,
+    "end": 3.66,
+    "pos": "ADV",
+    "is_content": true,
+    "dynamik_size": 18
+  },
+  {
+    "word": "I",
+    "start": 3.66,
+    "end": 3.72,
+    "pos": "PRON",
+    "is_content": false,
+    "dynamik_size": 12
+  },
+  {
+    "word": "wrote",
+    "start": 3.72,
+    "end": 3.86,
+    "pos": "VERB",
+    "is_content": true,
+    "dynamik_size": 18
+  },
+  {
+    "word": "at",
+    "start": 3.86,
+    "end": 3.98,
+    "pos": "ADP",
+    "is_content": false,
+    "dynamik_size": 12
+  },
+  {
+    "word": "the",
+    "start": 3.98,
+    "end": 4.08,
+    "pos": "DET",
+    "is_content": false,
+    "dynamik_size": 12
+  },
+  {
+    "word": "top",
+    "start": 4.08,
+    "end": 4.22,
+    "pos": "NOUN",
+    "is_content": true,
+    "dynamik_size": 18
+  },
+  {
+    "word": "of",
+    "start": 4.22,
+    "end": 4.34,
+    "pos": "ADP",
+    "is_content": false,
+    "dynamik_size": 12
+  },
+  {
+    "word": "the",
+    "start": 4.34,
+    "end": 4.44,
+    "pos": "DET",
+    "is_content": false,
+    "dynamik_size": 12
+  },
+  {
+    "word": "Manila",
+    "start": 4.44,
+    "end": 4.66,
+    "pos": "PROPN",
+    "is_content": false,
+    "dynamik_size": 12
+  },
+  {
+    "word": "folder,",
+    "start": 4.66,
+    "end": 5.1,
+    "pos": "NOUN",
+    "is_content": true,
+    "dynamik_size": 18
+  },
+  {
+    "word": "and",
+    "start": 6.24,
+    "end": 6.74,
+    "pos": "CCONJ",
+    "is_content": false,
+    "dynamik_size": 12
+  },
+  {
+    "word": "I",
+    "start": 6.74,
+    "end": 6.9,
+    "pos": "PRON",
+    "is_content": false,
+    "dynamik_size": 12
+  },
+  {
+    "word": "started",
+    "start": 6.9,
+    "end": 7.12,
+    "pos": "VERB",
+    "is_content": true,
+    "dynamik_size": 18
+  },
+  {
+    "word": "looking",
+    "start": 7.12,
+    "end": 7.38,
+    "pos": "VERB",
+    "is_content": true,
+    "dynamik_size": 18
+  },
+  {
+    "word": "at",
+    "start": 7.38,
+    "end": 7.5,
+    "pos": "ADP",
+    "is_content": false,
+    "dynamik_size": 12
+  },
+  {
+    "word": "the",
+    "start": 7.5,
+    "end": 7.62,
+    "pos": "DET",
+    "is_content": false,
+    "dynamik_size": 12
+  },
+  {
+    "word": "data.",
+    "start": 7.62,
+    "end": 7.84,
+    "pos": "NOUN",
+    "is_content": true,
+    "dynamik_size": 18
+  },
+  {
+    "word": "In",
+    "start": 7.9,
+    "end": 8.0,
+    "pos": "ADP",
+    "is_content": false,
+    "dynamik_size": 12
+  },
+  {
+    "word": "fact,",
+    "start": 8.0,
+    "end": 8.26,
+    "pos": "NOUN",
+    "is_content": true,
+    "dynamik_size": 18
+  },
+  {
+    "word": "I",
+    "start": 8.58,
+    "end": 8.7,
+    "pos": "PRON",
+    "is_content": false,
+    "dynamik_size": 12
+  },
+  {
+    "word": "did",
+    "start": 8.7,
+    "end": 8.88,
+    "pos": "VERB",
+    "is_content": true,
+    "dynamik_size": 18
+  },
+  {
+    "word": "it",
+    "start": 8.88,
+    "end": 9.14,
+    "pos": "PRON",
+    "is_content": false,
+    "dynamik_size": 12
+  },
+  {
+    "word": "first",
+    "start": 9.14,
+    "end": 9.54,
+    "pos": "ADV",
+    "is_content": true,
+    "dynamik_size": 18
+  },
+  {
+    "word": "in",
+    "start": 9.54,
+    "end": 9.8,
+    "pos": "ADP",
+    "is_content": false,
+    "dynamik_size": 12
+  },
+  {
+    "word": "a",
+    "start": 9.8,
+    "end": 10.92,
+    "pos": "DET",
+    "is_content": false,
+    "dynamik_size": 12
+  },
+  {
+    "word": "four-day,",
+    "start": 10.92,
+    "end": 11.88,
+    "pos": "NUM",
+    "is_content": false,
+    "dynamik_size": 12
+  },
+  {
+    "word": "very",
+    "start": 12.42,
+    "end": 12.96,
+    "pos": "ADV",
+    "is_content": true,
+    "dynamik_size": 18
+  },
+  {
+    "word": "intensive",
+    "start": 12.96,
+    "end": 13.68,
+    "pos": "ADJ",
+    "is_content": true,
+    "dynamik_size": 18
+  },
+  {
+    "word": "data",
+    "start": 13.68,
+    "end": 14.1,
+    "pos": "NOUN",
+    "is_content": true,
+    "dynamik_size": 18
+  },
+  {
+    "word": "analysis",
+    "start": 14.1,
+    "end": 14.46,
+    "pos": "NOUN",
+    "is_content": true,
+    "dynamik_size": 18
+  },
+  {
+    "word": "where",
+    "start": 14.46,
+    "end": 14.66,
+    "pos": "SCONJ",
+    "is_content": false,
+    "dynamik_size": 12
+  },
+  {
+    "word": "I",
+    "start": 14.66,
+    "end": 14.74,
+    "pos": "PRON",
+    "is_content": false,
+    "dynamik_size": 12
+  },
+  {
+    "word": "went",
+    "start": 14.74,
+    "end": 14.92,
+    "pos": "VERB",
+    "is_content": true,
+    "dynamik_size": 18
+  },
+  {
+    "word": "back,",
+    "start": 14.92,
+    "end": 15.2,
+    "pos": "ADV",
+    "is_content": true,
+    "dynamik_size": 18
+  },
+  {
+    "word": "pulled",
+    "start": 15.26,
+    "end": 15.48,
+    "pos": "VERB",
+    "is_content": true,
+    "dynamik_size": 18
+  },
+  {
+    "word": "these",
+    "start": 15.48,
+    "end": 15.74,
+    "pos": "DET",
+    "is_content": false,
+    "dynamik_size": 12
+  },
+  {
+    "word": "interviews,",
+    "start": 15.74,
+    "end": 15.98,
+    "pos": "NOUN",
+    "is_content": true,
+    "dynamik_size": 18
+  },
+  {
+    "word": "pulled",
+    "start": 16.1,
+    "end": 16.24,
+    "pos": "VERB",
+    "is_content": true,
+    "dynamik_size": 18
+  },
+  {
+    "word": "the",
+    "start": 16.24,
+    "end": 16.4,
+    "pos": "DET",
+    "is_content": false,
+    "dynamik_size": 12
+  },
+  {
+    "word": "stories,",
+    "start": 16.4,
+    "end": 16.6,
+    "pos": "NOUN",
+    "is_content": true,
+    "dynamik_size": 18
+  },
+  {
+    "word": "pulled",
+    "start": 16.7,
+    "end": 16.86,
+    "pos": "VERB",
+    "is_content": true,
+    "dynamik_size": 18
+  },
+  {
+    "word": "the",
+    "start": 16.86,
+    "end": 17.04,
+    "pos": "DET",
+    "is_content": false,
+    "dynamik_size": 12
+  },
+  {
+    "word": "incidents.",
+    "start": 17.04,
+    "end": 17.28,
+    "pos": "NOUN",
+    "is_content": true,
+    "dynamik_size": 18
+  },
+  {
+    "word": "What's",
+    "start": 17.64,
+    "end": 18.36,
+    "pos": "PRON",
+    "is_content": false,
+    "dynamik_size": 12
+  },
+  {
+    "word": "the",
+    "start": 18.36,
+    "end": 18.44,
+    "pos": "DET",
+    "is_content": false,
+    "dynamik_size": 12
+  },
+  {
+    "word": "theme?",
+    "start": 18.44,
+    "end": 18.66,
+    "pos": "NOUN",
+    "is_content": true,
+    "dynamik_size": 18
+  },
+  {
+    "word": "What's",
+    "start": 18.66,
+    "end": 18.96,
+    "pos": "PRON",
+    "is_content": false,
+    "dynamik_size": 12
+  },
+  {
+    "word": "the",
+    "start": 18.96,
+    "end": 19.1,
+    "pos": "DET",
+    "is_content": false,
+    "dynamik_size": 12
+  },
+  {
+    "word": "pattern?",
+    "start": 19.1,
+    "end": 19.42,
+    "pos": "NOUN",
+    "is_content": true,
+    "dynamik_size": 18
+  },
+  {
+    "word": "My",
+    "start": 20.66,
+    "end": 20.88,
+    "pos": "PRON",
+    "is_content": false,
+    "dynamik_size": 12
+  },
+  {
+    "word": "husband",
+    "start": 20.88,
+    "end": 21.12,
+    "pos": "NOUN",
+    "is_content": true,
+    "dynamik_size": 18
+  },
+  {
+    "word": "left",
+    "start": 21.12,
+    "end": 21.34,
+    "pos": "VERB",
+    "is_content": true,
+    "dynamik_size": 18
+  },
+  {
+    "word": "town",
+    "start": 21.34,
+    "end": 21.56,
+    "pos": "NOUN",
+    "is_content": true,
+    "dynamik_size": 18
+  },
+  {
+    "word": "with",
+    "start": 21.56,
+    "end": 21.72,
+    "pos": "ADP",
+    "is_content": false,
+    "dynamik_size": 12
+  },
+  {
+    "word": "the",
+    "start": 21.72,
+    "end": 21.86,
+    "pos": "DET",
+    "is_content": false,
+    "dynamik_size": 12
+  },
+  {
+    "word": "kids",
+    "start": 21.86,
+    "end": 22.34,
+    "pos": "NOUN",
+    "is_content": true,
+    "dynamik_size": 18
+  },
+  {
+    "word": "because",
+    "start": 22.34,
+    "end": 23.94,
+    "pos": "SCONJ",
+    "is_content": false,
+    "dynamik_size": 12
+  },
+  {
+    "word": "I",
+    "start": 23.94,
+    "end": 24.08,
+    "pos": "PRON",
+    "is_content": false,
+    "dynamik_size": 12
+  },
+  {
+    "word": "always",
+    "start": 24.08,
+    "end": 24.28,
+    "pos": "ADV",
+    "is_content": true,
+    "dynamik_size": 18
+  },
+  {
+    "word": "go",
+    "start": 24.28,
+    "end": 24.4,
+    "pos": "VERB",
+    "is_content": true,
+    "dynamik_size": 18
+  },
+  {
+    "word": "into",
+    "start": 24.4,
+    "end": 24.54,
+    "pos": "ADP",
+    "is_content": false,
+    "dynamik_size": 12
+  },
+  {
+    "word": "this",
+    "start": 24.54,
+    "end": 24.72,
+    "pos": "DET",
+    "is_content": false,
+    "dynamik_size": 12
+  },
+  {
+    "word": "kind",
+    "start": 24.72,
+    "end": 24.9,
+    "pos": "NOUN",
+    "is_content": true,
+    "dynamik_size": 18
+  },
+  {
+    "word": "of",
+    "start": 24.9,
+    "end": 25.06,
+    "pos": "ADP",
+    "is_content": false,
+    "dynamik_size": 12
+  },
+  {
+    "word": "Jackson",
+    "start": 25.06,
+    "end": 25.4,
+    "pos": "PROPN",
+    "is_content": false,
+    "dynamik_size": 12
+  },
+  {
+    "word": "Pollock",
+    "start": 25.4,
+    "end": 25.76,
+    "pos": "PROPN",
+    "is_content": false,
+    "dynamik_size": 12
+  },
+  {
+    "word": "crazy",
+    "start": 25.76,
+    "end": 26.14,
+    "pos": "ADJ",
+    "is_content": true,
+    "dynamik_size": 18
+  },
+  {
+    "word": "thing",
+    "start": 26.14,
+    "end": 26.51,
+    "pos": "NOUN",
+    "is_content": true,
+    "dynamik_size": 18
+  },
+  {
+    "word": "where",
+    "start": 26.51,
+    "end": 26.7,
+    "pos": "SCONJ",
+    "is_content": false,
+    "dynamik_size": 12
+  },
+  {
+    "word": "I'm",
+    "start": 26.7,
+    "end": 26.98,
+    "pos": "PRON",
+    "is_content": false,
+    "dynamik_size": 12
+  },
+  {
+    "word": "just",
+    "start": 26.98,
+    "end": 27.14,
+    "pos": "ADV",
+    "is_content": true,
+    "dynamik_size": 18
+  },
+  {
+    "word": "like",
+    "start": 27.14,
+    "end": 27.42,
+    "pos": "ADP",
+    "is_content": false,
+    "dynamik_size": 12
+  },
+  {
+    "word": "writing",
+    "start": 27.42,
+    "end": 27.84,
+    "pos": "VERB",
+    "is_content": true,
+    "dynamik_size": 18
+  },
+  {
+    "word": "and",
+    "start": 27.84,
+    "end": 28.26,
+    "pos": "CCONJ",
+    "is_content": false,
+    "dynamik_size": 12
+  },
+  {
+    "word": "going",
+    "start": 28.26,
+    "end": 28.54,
+    "pos": "VERB",
+    "is_content": true,
+    "dynamik_size": 18
+  },
+  {
+    "word": "in",
+    "start": 28.54,
+    "end": 28.92,
+    "pos": "ADP",
+    "is_content": false,
+    "dynamik_size": 12
+  },
+  {
+    "word": "kind",
+    "start": 28.92,
+    "end": 29.04,
+    "pos": "ADV",
+    "is_content": true,
+    "dynamik_size": 18
+  },
+  {
+    "word": "of",
+    "start": 29.04,
+    "end": 29.14,
+    "pos": "ADV",
+    "is_content": true,
+    "dynamik_size": 18
+  },
+  {
+    "word": "just",
+    "start": 29.14,
+    "end": 29.32,
+    "pos": "ADV",
+    "is_content": true,
+    "dynamik_size": 18
+  },
+  {
+    "word": "in",
+    "start": 29.32,
+    "end": 29.46,
+    "pos": "ADP",
+    "is_content": false,
+    "dynamik_size": 12
+  },
+  {
+    "word": "my",
+    "start": 29.46,
+    "end": 29.64,
+    "pos": "PRON",
+    "is_content": false,
+    "dynamik_size": 12
+  },
+  {
+    "word": "researcher",
+    "start": 29.64,
+    "end": 29.96,
+    "pos": "NOUN",
+    "is_content": true,
+    "dynamik_size": 18
+  },
+  {
+    "word": "mode.",
+    "start": 29.96,
+    "end": 30.32,
+    "pos": "NOUN",
+    "is_content": true,
+    "dynamik_size": 18
+  },
+  {
+    "word": "And",
+    "start": 31.86,
+    "end": 32.18,
+    "pos": "CCONJ",
+    "is_content": false,
+    "dynamik_size": 12
+  },
+  {
+    "word": "so",
+    "start": 32.18,
+    "end": 32.28,
+    "pos": "ADV",
+    "is_content": true,
+    "dynamik_size": 18
+  },
+  {
+    "word": "here's",
+    "start": 32.28,
+    "end": 32.52,
+    "pos": "ADV",
+    "is_content": true,
+    "dynamik_size": 18
+  },
+  {
+    "word": "what",
+    "start": 32.52,
+    "end": 32.66,
+    "pos": "PRON",
+    "is_content": false,
+    "dynamik_size": 12
+  },
+  {
+    "word": "I",
+    "start": 32.66,
+    "end": 32.84,
+    "pos": "PRON",
+    "is_content": false,
+    "dynamik_size": 12
+  },
+  {
+    "word": "found.",
+    "start": 32.84,
+    "end": 33.3,
+    "pos": "VERB",
+    "is_content": true,
+    "dynamik_size": 18
+  },
+  {
+    "word": "What",
+    "start": 36.44,
+    "end": 36.7,
+    "pos": "PRON",
+    "is_content": false,
+    "dynamik_size": 12
+  },
+  {
+    "word": "they",
+    "start": 36.7,
+    "end": 36.82,
+    "pos": "PRON",
+    "is_content": false,
+    "dynamik_size": 12
+  },
+  {
+    "word": "had",
+    "start": 36.82,
+    "end": 37.02,
+    "pos": "AUX",
+    "is_content": false,
+    "dynamik_size": 12
+  },
+  {
+    "word": "in",
+    "start": 37.02,
+    "end": 37.24,
+    "pos": "ADP",
+    "is_content": false,
+    "dynamik_size": 12
+  },
+  {
+    "word": "common",
+    "start": 37.24,
+    "end": 37.72,
+    "pos": "ADJ",
+    "is_content": true,
+    "dynamik_size": 18
+  },
+  {
+    "word": "was",
+    "start": 37.72,
+    "end": 38.14,
+    "pos": "AUX",
+    "is_content": false,
+    "dynamik_size": 12
+  },
+  {
+    "word": "a",
+    "start": 38.14,
+    "end": 38.3,
+    "pos": "DET",
+    "is_content": false,
+    "dynamik_size": 12
+  },
+  {
+    "word": "sense",
+    "start": 38.3,
+    "end": 38.46,
+    "pos": "NOUN",
+    "is_content": true,
+    "dynamik_size": 18
+  },
+  {
+    "word": "of",
+    "start": 38.46,
+    "end": 38.62,
+    "pos": "ADP",
+    "is_content": false,
+    "dynamik_size": 12
+  },
+  {
+    "word": "courage.",
+    "start": 38.62,
+    "end": 39.04,
+    "pos": "NOUN",
+    "is_content": true,
+    "dynamik_size": 18
+  },
+  {
+    "word": "And",
+    "start": 39.98,
+    "end": 40.14,
+    "pos": "CCONJ",
+    "is_content": false,
+    "dynamik_size": 12
+  },
+  {
+    "word": "I",
+    "start": 40.14,
+    "end": 40.22,
+    "pos": "PRON",
+    "is_content": false,
+    "dynamik_size": 12
+  },
+  {
+    "word": "want",
+    "start": 40.22,
+    "end": 40.36,
+    "pos": "VERB",
+    "is_content": true,
+    "dynamik_size": 18
+  },
+  {
+    "word": "to",
+    "start": 40.36,
+    "end": 40.64,
+    "pos": "PART",
+    "is_content": false,
+    "dynamik_size": 12
+  },
+  {
+    "word": "separate",
+    "start": 40.64,
+    "end": 40.92,
+    "pos": "VERB",
+    "is_content": true,
+    "dynamik_size": 18
+  },
+  {
+    "word": "courage",
+    "start": 40.92,
+    "end": 41.22,
+    "pos": "NOUN",
+    "is_content": true,
+    "dynamik_size": 18
+  },
+  {
+    "word": "and",
+    "start": 41.22,
+    "end": 41.4,
+    "pos": "CCONJ",
+    "is_content": false,
+    "dynamik_size": 12
+  },
+  {
+    "word": "bravery",
+    "start": 41.4,
+    "end": 41.64,
+    "pos": "NOUN",
+    "is_content": true,
+    "dynamik_size": 18
+  },
+  {
+    "word": "for",
+    "start": 41.64,
+    "end": 41.9,
+    "pos": "ADP",
+    "is_content": false,
+    "dynamik_size": 12
+  },
+  {
+    "word": "you",
+    "start": 41.9,
+    "end": 42.04,
+    "pos": "PRON",
+    "is_content": false,
+    "dynamik_size": 12
+  },
+  {
+    "word": "for",
+    "start": 42.04,
+    "end": 42.18,
+    "pos": "ADP",
+    "is_content": false,
+    "dynamik_size": 12
+  },
+  {
+    "word": "a",
+    "start": 42.18,
+    "end": 42.36,
+    "pos": "DET",
+    "is_content": false,
+    "dynamik_size": 12
+  },
+  {
+    "word": "minute.",
+    "start": 42.36,
+    "end": 42.54,
+    "pos": "NOUN",
+    "is_content": true,
+    "dynamik_size": 18
+  },
+  {
+    "word": "Courage,",
+    "start": 42.9,
+    "end": 43.48,
+    "pos": "NOUN",
+    "is_content": true,
+    "dynamik_size": 18
+  },
+  {
+    "word": "the",
+    "start": 43.6,
+    "end": 43.72,
+    "pos": "DET",
+    "is_content": false,
+    "dynamik_size": 12
+  },
+  {
+    "word": "original",
+    "start": 43.72,
+    "end": 44.46,
+    "pos": "ADJ",
+    "is_content": true,
+    "dynamik_size": 18
+  },
+  {
+    "word": "definition",
+    "start": 44.46,
+    "end": 44.94,
+    "pos": "NOUN",
+    "is_content": true,
+    "dynamik_size": 18
+  },
+  {
+    "word": "of",
+    "start": 44.94,
+    "end": 45.18,
+    "pos": "ADP",
+    "is_content": false,
+    "dynamik_size": 12
+  },
+  {
+    "word": "courage",
+    "start": 45.18,
+    "end": 45.52,
+    "pos": "NOUN",
+    "is_content": true,
+    "dynamik_size": 18
+  },
+  {
+    "word": "when",
+    "start": 45.52,
+    "end": 45.76,
+    "pos": "SCONJ",
+    "is_content": false,
+    "dynamik_size": 12
+  },
+  {
+    "word": "it",
+    "start": 45.76,
+    "end": 45.88,
+    "pos": "PRON",
+    "is_content": false,
+    "dynamik_size": 12
+  },
+  {
+    "word": "first",
+    "start": 45.88,
+    "end": 46.04,
+    "pos": "ADV",
+    "is_content": true,
+    "dynamik_size": 18
+  },
+  {
+    "word": "came",
+    "start": 46.04,
+    "end": 46.16,
+    "pos": "VERB",
+    "is_content": true,
+    "dynamik_size": 18
+  },
+  {
+    "word": "into",
+    "start": 46.16,
+    "end": 46.3,
+    "pos": "ADP",
+    "is_content": false,
+    "dynamik_size": 12
+  },
+  {
+    "word": "the",
+    "start": 46.3,
+    "end": 46.44,
+    "pos": "DET",
+    "is_content": false,
+    "dynamik_size": 12
+  },
+  {
+    "word": "English",
+    "start": 46.44,
+    "end": 46.64,
+    "pos": "ADJ",
+    "is_content": true,
+    "dynamik_size": 18
+  },
+  {
+    "word": "language,",
+    "start": 46.64,
+    "end": 46.9,
+    "pos": "NOUN",
+    "is_content": true,
+    "dynamik_size": 18
+  },
+  {
+    "word": "it's",
+    "start": 46.9,
+    "end": 47.12,
+    "pos": "PRON",
+    "is_content": false,
+    "dynamik_size": 12
+  },
+  {
+    "word": "from",
+    "start": 47.12,
+    "end": 47.28,
+    "pos": "ADP",
+    "is_content": false,
+    "dynamik_size": 12
+  },
+  {
+    "word": "the",
+    "start": 47.28,
+    "end": 47.38,
+    "pos": "DET",
+    "is_content": false,
+    "dynamik_size": 12
+  },
+  {
+    "word": "Latin",
+    "start": 47.38,
+    "end": 47.58,
+    "pos": "ADJ",
+    "is_content": true,
+    "dynamik_size": 18
+  },
+  {
+    "word": "word",
+    "start": 47.58,
+    "end": 47.8,
+    "pos": "NOUN",
+    "is_content": true,
+    "dynamik_size": 18
+  },
+  {
+    "word": "cur,",
+    "start": 47.8,
+    "end": 48.22,
+    "pos": "INTJ",
+    "is_content": false,
+    "dynamik_size": 12
+  },
+  {
+    "word": "meaning",
+    "start": 48.94,
+    "end": 49.18,
+    "pos": "VERB",
+    "is_content": true,
+    "dynamik_size": 18
+  },
+  {
+    "word": "heart,",
+    "start": 49.18,
+    "end": 49.6,
+    "pos": "NOUN",
+    "is_content": true,
+    "dynamik_size": 18
+  },
+  {
+    "word": "and",
+    "start": 49.94,
+    "end": 50.14,
+    "pos": "CCONJ",
+    "is_content": false,
+    "dynamik_size": 12
+  },
+  {
+    "word": "the",
+    "start": 50.14,
+    "end": 50.24,
+    "pos": "DET",
+    "is_content": false,
+    "dynamik_size": 12
+  },
+  {
+    "word": "original",
+    "start": 50.24,
+    "end": 50.5,
+    "pos": "ADJ",
+    "is_content": true,
+    "dynamik_size": 18
+  },
+  {
+    "word": "definition",
+    "start": 50.5,
+    "end": 50.96,
+    "pos": "NOUN",
+    "is_content": true,
+    "dynamik_size": 18
+  },
+  {
+    "word": "was",
+    "start": 50.96,
+    "end": 51.2,
+    "pos": "AUX",
+    "is_content": false,
+    "dynamik_size": 12
+  },
+  {
+    "word": "to",
+    "start": 51.2,
+    "end": 51.34,
+    "pos": "PART",
+    "is_content": false,
+    "dynamik_size": 12
+  },
+  {
+    "word": "tell",
+    "start": 51.34,
+    "end": 51.5,
+    "pos": "VERB",
+    "is_content": true,
+    "dynamik_size": 18
+  },
+  {
+    "word": "the",
+    "start": 51.5,
+    "end": 51.62,
+    "pos": "DET",
+    "is_content": false,
+    "dynamik_size": 12
+  },
+  {
+    "word": "story",
+    "start": 51.62,
+    "end": 51.86,
+    "pos": "NOUN",
+    "is_content": true,
+    "dynamik_size": 18
+  },
+  {
+    "word": "of",
+    "start": 51.86,
+    "end": 51.98,
+    "pos": "ADP",
+    "is_content": false,
+    "dynamik_size": 12
+  },
+  {
+    "word": "who",
+    "start": 51.98,
+    "end": 52.12,
+    "pos": "PRON",
+    "is_content": false,
+    "dynamik_size": 12
+  },
+  {
+    "word": "you",
+    "start": 52.12,
+    "end": 52.28,
+    "pos": "PRON",
+    "is_content": false,
+    "dynamik_size": 12
+  },
+  {
+    "word": "are",
+    "start": 52.28,
+    "end": 52.46,
+    "pos": "AUX",
+    "is_content": false,
+    "dynamik_size": 12
+  },
+  {
+    "word": "with",
+    "start": 52.46,
+    "end": 52.6,
+    "pos": "ADP",
+    "is_content": false,
+    "dynamik_size": 12
+  },
+  {
+    "word": "your",
+    "start": 52.6,
+    "end": 52.74,
+    "pos": "PRON",
+    "is_content": false,
+    "dynamik_size": 12
+  },
+  {
+    "word": "whole",
+    "start": 52.74,
+    "end": 52.92,
+    "pos": "ADJ",
+    "is_content": true,
+    "dynamik_size": 18
+  },
+  {
+    "word": "heart.",
+    "start": 52.92,
+    "end": 53.24,
+    "pos": "NOUN",
+    "is_content": true,
+    "dynamik_size": 18
+  },
+  {
+    "word": "And",
+    "start": 55.4,
+    "end": 55.52,
+    "pos": "CCONJ",
+    "is_content": false,
+    "dynamik_size": 12
+  },
+  {
+    "word": "so",
+    "start": 55.52,
+    "end": 55.68,
+    "pos": "ADV",
+    "is_content": true,
+    "dynamik_size": 18
+  },
+  {
+    "word": "these",
+    "start": 55.68,
+    "end": 55.96,
+    "pos": "DET",
+    "is_content": false,
+    "dynamik_size": 12
+  },
+  {
+    "word": "folks",
+    "start": 55.96,
+    "end": 56.28,
+    "pos": "NOUN",
+    "is_content": true,
+    "dynamik_size": 18
+  },
+  {
+    "word": "had",
+    "start": 56.28,
+    "end": 56.86,
+    "pos": "VERB",
+    "is_content": true,
+    "dynamik_size": 18
+  },
+  {
+    "word": "very",
+    "start": 56.86,
+    "end": 57.22,
+    "pos": "ADV",
+    "is_content": true,
+    "dynamik_size": 18
+  },
+  {
+    "word": "simply",
+    "start": 57.22,
+    "end": 57.58,
+    "pos": "ADV",
+    "is_content": true,
+    "dynamik_size": 18
+  },
+  {
+    "word": "the",
+    "start": 57.58,
+    "end": 57.92,
+    "pos": "DET",
+    "is_content": false,
+    "dynamik_size": 12
+  },
+  {
+    "word": "courage",
+    "start": 57.92,
+    "end": 58.4,
+    "pos": "NOUN",
+    "is_content": true,
+    "dynamik_size": 18
+  },
+  {
+    "word": "to",
+    "start": 58.4,
+    "end": 58.64,
+    "pos": "PART",
+    "is_content": false,
+    "dynamik_size": 12
+  },
+  {
+    "word": "be",
+    "start": 58.64,
+    "end": 58.84,
+    "pos": "AUX",
+    "is_content": false,
+    "dynamik_size": 12
+  },
+  {
+    "word": "imperfect.",
+    "start": 58.84,
+    "end": 59.34,
+    "pos": "ADJ",
+    "is_content": true,
+    "dynamik_size": 18
+  },
+  {
+    "word": "They",
+    "start": 61.94,
+    "end": 62.16,
+    "pos": "PRON",
+    "is_content": false,
+    "dynamik_size": 12
+  },
+  {
+    "word": "had",
+    "start": 62.16,
+    "end": 62.38,
+    "pos": "VERB",
+    "is_content": true,
+    "dynamik_size": 18
+  },
+  {
+    "word": "the",
+    "start": 62.38,
+    "end": 62.7,
+    "pos": "DET",
+    "is_content": false,
+    "dynamik_size": 12
+  },
+  {
+    "word": "compassion",
+    "start": 62.7,
+    "end": 63.34,
+    "pos": "NOUN",
+    "is_content": true,
+    "dynamik_size": 18
+  },
+  {
+    "word": "to",
+    "start": 63.34,
+    "end": 64.16,
+    "pos": "PART",
+    "is_content": false,
+    "dynamik_size": 12
+  },
+  {
+    "word": "be",
+    "start": 64.16,
+    "end": 64.3,
+    "pos": "AUX",
+    "is_content": false,
+    "dynamik_size": 12
+  },
+  {
+    "word": "kind",
+    "start": 64.3,
+    "end": 64.6,
+    "pos": "ADJ",
+    "is_content": true,
+    "dynamik_size": 18
+  },
+  {
+    "word": "to",
+    "start": 64.6,
+    "end": 64.74,
+    "pos": "ADP",
+    "is_content": false,
+    "dynamik_size": 12
+  },
+  {
+    "word": "themselves",
+    "start": 64.74,
+    "end": 65.16,
+    "pos": "PRON",
+    "is_content": false,
+    "dynamik_size": 12
+  },
+  {
+    "word": "first",
+    "start": 65.16,
+    "end": 65.7,
+    "pos": "ADV",
+    "is_content": true,
+    "dynamik_size": 18
+  },
+  {
+    "word": "and",
+    "start": 65.7,
+    "end": 66.02,
+    "pos": "CCONJ",
+    "is_content": false,
+    "dynamik_size": 12
+  },
+  {
+    "word": "then",
+    "start": 66.02,
+    "end": 66.18,
+    "pos": "ADV",
+    "is_content": true,
+    "dynamik_size": 18
+  },
+  {
+    "word": "to",
+    "start": 66.18,
+    "end": 66.34,
+    "pos": "ADP",
+    "is_content": false,
+    "dynamik_size": 12
+  },
+  {
+    "word": "others",
+    "start": 66.34,
+    "end": 66.72,
+    "pos": "NOUN",
+    "is_content": true,
+    "dynamik_size": 18
+  },
+  {
+    "word": "because",
+    "start": 66.72,
+    "end": 67.08,
+    "pos": "SCONJ",
+    "is_content": false,
+    "dynamik_size": 12
+  },
+  {
+    "word": "as",
+    "start": 67.08,
+    "end": 67.28,
+    "pos": "SCONJ",
+    "is_content": false,
+    "dynamik_size": 12
+  },
+  {
+    "word": "it",
+    "start": 67.28,
+    "end": 67.44,
+    "pos": "PRON",
+    "is_content": false,
+    "dynamik_size": 12
+  },
+  {
+    "word": "turns",
+    "start": 67.44,
+    "end": 67.61,
+    "pos": "VERB",
+    "is_content": true,
+    "dynamik_size": 18
+  },
+  {
+    "word": "out",
+    "start": 67.61,
+    "end": 68.0,
+    "pos": "ADP",
+    "is_content": false,
+    "dynamik_size": 12
+  },
+  {
+    "word": "we",
+    "start": 68.0,
+    "end": 68.34,
+    "pos": "PRON",
+    "is_content": false,
+    "dynamik_size": 12
+  },
+  {
+    "word": "can't",
+    "start": 68.34,
+    "end": 68.64,
+    "pos": "AUX",
+    "is_content": false,
+    "dynamik_size": 12
+  },
+  {
+    "word": "practice",
+    "start": 68.64,
+    "end": 68.9,
+    "pos": "VERB",
+    "is_content": true,
+    "dynamik_size": 18
+  },
+  {
+    "word": "compassion",
+    "start": 68.9,
+    "end": 69.3,
+    "pos": "NOUN",
+    "is_content": true,
+    "dynamik_size": 18
+  },
+  {
+    "word": "with",
+    "start": 69.3,
+    "end": 69.48,
+    "pos": "ADP",
+    "is_content": false,
+    "dynamik_size": 12
+  },
+  {
+    "word": "other",
+    "start": 69.48,
+    "end": 69.7,
+    "pos": "ADJ",
+    "is_content": true,
+    "dynamik_size": 18
+  },
+  {
+    "word": "people",
+    "start": 69.7,
+    "end": 69.96,
+    "pos": "NOUN",
+    "is_content": true,
+    "dynamik_size": 18
+  },
+  {
+    "word": "if",
+    "start": 69.96,
+    "end": 70.16,
+    "pos": "SCONJ",
+    "is_content": false,
+    "dynamik_size": 12
+  },
+  {
+    "word": "we",
+    "start": 70.16,
+    "end": 70.3,
+    "pos": "PRON",
+    "is_content": false,
+    "dynamik_size": 12
+  },
+  {
+    "word": "can't",
+    "start": 70.3,
+    "end": 70.56,
+    "pos": "AUX",
+    "is_content": false,
+    "dynamik_size": 12
+  },
+  {
+    "word": "treat",
+    "start": 70.56,
+    "end": 70.7,
+    "pos": "VERB",
+    "is_content": true,
+    "dynamik_size": 18
+  },
+  {
+    "word": "ourselves",
+    "start": 70.7,
+    "end": 71.14,
+    "pos": "PRON",
+    "is_content": false,
+    "dynamik_size": 12
+  },
+  {
+    "word": "kindly.",
+    "start": 71.14,
+    "end": 71.58,
+    "pos": "ADV",
+    "is_content": true,
+    "dynamik_size": 18
+  },
+  {
+    "word": "And",
+    "start": 72.46,
+    "end": 72.76,
+    "pos": "CCONJ",
+    "is_content": false,
+    "dynamik_size": 12
+  },
+  {
+    "word": "the",
+    "start": 72.76,
+    "end": 72.94,
+    "pos": "DET",
+    "is_content": false,
+    "dynamik_size": 12
+  },
+  {
+    "word": "last",
+    "start": 72.94,
+    "end": 73.18,
+    "pos": "ADJ",
+    "is_content": true,
+    "dynamik_size": 18
+  },
+  {
+    "word": "was",
+    "start": 73.18,
+    "end": 73.34,
+    "pos": "AUX",
+    "is_content": false,
+    "dynamik_size": 12
+  },
+  {
+    "word": "they",
+    "start": 73.34,
+    "end": 73.54,
+    "pos": "PRON",
+    "is_content": false,
+    "dynamik_size": 12
+  },
+  {
+    "word": "had",
+    "start": 73.54,
+    "end": 73.8,
+    "pos": "VERB",
+    "is_content": true,
+    "dynamik_size": 18
+  },
+  {
+    "word": "connection,",
+    "start": 73.8,
+    "end": 74.5,
+    "pos": "NOUN",
+    "is_content": true,
+    "dynamik_size": 18
+  },
+  {
+    "word": "and",
+    "start": 75.02,
+    "end": 75.24,
+    "pos": "CCONJ",
+    "is_content": false,
+    "dynamik_size": 12
+  },
+  {
+    "word": "this",
+    "start": 75.24,
+    "end": 75.38,
+    "pos": "PRON",
+    "is_content": false,
+    "dynamik_size": 12
+  },
+  {
+    "word": "was",
+    "start": 75.38,
+    "end": 75.52,
+    "pos": "AUX",
+    "is_content": false,
+    "dynamik_size": 12
+  },
+  {
+    "word": "the",
+    "start": 75.52,
+    "end": 75.68,
+    "pos": "DET",
+    "is_content": false,
+    "dynamik_size": 12
+  },
+  {
+    "word": "hard",
+    "start": 75.68,
+    "end": 75.9,
+    "pos": "ADJ",
+    "is_content": true,
+    "dynamik_size": 18
+  },
+  {
+    "word": "part,",
+    "start": 75.9,
+    "end": 76.34,
+    "pos": "NOUN",
+    "is_content": true,
+    "dynamik_size": 18
+  },
+  {
+    "word": "as",
+    "start": 77.04,
+    "end": 77.26,
+    "pos": "ADP",
+    "is_content": false,
+    "dynamik_size": 12
+  },
+  {
+    "word": "a",
+    "start": 77.26,
+    "end": 77.54,
+    "pos": "DET",
+    "is_content": false,
+    "dynamik_size": 12
+  },
+  {
+    "word": "result",
+    "start": 77.54,
+    "end": 77.88,
+    "pos": "NOUN",
+    "is_content": true,
+    "dynamik_size": 18
+  },
+  {
+    "word": "of",
+    "start": 77.88,
+    "end": 78.24,
+    "pos": "ADP",
+    "is_content": false,
+    "dynamik_size": 12
+  },
+  {
+    "word": "authenticity.",
+    "start": 78.24,
+    "end": 78.76,
+    "pos": "NOUN",
+    "is_content": true,
+    "dynamik_size": 18
+  },
+  {
+    "word": "They",
+    "start": 79.86,
+    "end": 80.06,
+    "pos": "PRON",
+    "is_content": false,
+    "dynamik_size": 12
+  },
+  {
+    "word": "were",
+    "start": 80.06,
+    "end": 80.22,
+    "pos": "AUX",
+    "is_content": false,
+    "dynamik_size": 12
+  },
+  {
+    "word": "willing",
+    "start": 80.22,
+    "end": 80.48,
+    "pos": "ADJ",
+    "is_content": true,
+    "dynamik_size": 18
+  },
+  {
+    "word": "to",
+    "start": 80.48,
+    "end": 80.64,
+    "pos": "PART",
+    "is_content": false,
+    "dynamik_size": 12
+  },
+  {
+    "word": "let",
+    "start": 80.64,
+    "end": 80.8,
+    "pos": "VERB",
+    "is_content": true,
+    "dynamik_size": 18
+  },
+  {
+    "word": "go",
+    "start": 80.8,
+    "end": 80.94,
+    "pos": "VERB",
+    "is_content": true,
+    "dynamik_size": 18
+  },
+  {
+    "word": "of",
+    "start": 80.94,
+    "end": 81.08,
+    "pos": "ADP",
+    "is_content": false,
+    "dynamik_size": 12
+  },
+  {
+    "word": "who",
+    "start": 81.08,
+    "end": 81.2,
+    "pos": "PRON",
+    "is_content": false,
+    "dynamik_size": 12
+  },
+  {
+    "word": "they",
+    "start": 81.2,
+    "end": 81.34,
+    "pos": "PRON",
+    "is_content": false,
+    "dynamik_size": 12
+  },
+  {
+    "word": "thought",
+    "start": 81.34,
+    "end": 81.5,
+    "pos": "VERB",
+    "is_content": true,
+    "dynamik_size": 18
+  },
+  {
+    "word": "they",
+    "start": 81.5,
+    "end": 81.74,
+    "pos": "PRON",
+    "is_content": false,
+    "dynamik_size": 12
+  },
+  {
+    "word": "should",
+    "start": 81.74,
+    "end": 82.0,
+    "pos": "AUX",
+    "is_content": false,
+    "dynamik_size": 12
+  },
+  {
+    "word": "be",
+    "start": 82.0,
+    "end": 82.88,
+    "pos": "AUX",
+    "is_content": false,
+    "dynamik_size": 12
+  },
+  {
+    "word": "in",
+    "start": 82.88,
+    "end": 83.38,
+    "pos": "ADP",
+    "is_content": false,
+    "dynamik_size": 12
+  },
+  {
+    "word": "order",
+    "start": 83.38,
+    "end": 83.58,
+    "pos": "NOUN",
+    "is_content": true,
+    "dynamik_size": 18
+  },
+  {
+    "word": "to",
+    "start": 83.58,
+    "end": 83.72,
+    "pos": "PART",
+    "is_content": false,
+    "dynamik_size": 12
+  },
+  {
+    "word": "be",
+    "start": 83.72,
+    "end": 83.84,
+    "pos": "AUX",
+    "is_content": false,
+    "dynamik_size": 12
+  },
+  {
+    "word": "who",
+    "start": 83.84,
+    "end": 83.98,
+    "pos": "PRON",
+    "is_content": false,
+    "dynamik_size": 12
+  },
+  {
+    "word": "they",
+    "start": 83.98,
+    "end": 84.14,
+    "pos": "PRON",
+    "is_content": false,
+    "dynamik_size": 12
+  },
+  {
+    "word": "were,",
+    "start": 84.14,
+    "end": 84.64,
+    "pos": "AUX",
+    "is_content": false,
+    "dynamik_size": 12
+  },
+  {
+    "word": "which",
+    "start": 85.0,
+    "end": 85.2,
+    "pos": "PRON",
+    "is_content": false,
+    "dynamik_size": 12
+  },
+  {
+    "word": "is",
+    "start": 85.2,
+    "end": 85.48,
+    "pos": "AUX",
+    "is_content": false,
+    "dynamik_size": 12
+  },
+  {
+    "word": "you",
+    "start": 85.48,
+    "end": 85.94,
+    "pos": "PRON",
+    "is_content": false,
+    "dynamik_size": 12
+  },
+  {
+    "word": "have",
+    "start": 85.94,
+    "end": 86.28,
+    "pos": "VERB",
+    "is_content": true,
+    "dynamik_size": 18
+  },
+  {
+    "word": "to",
+    "start": 86.28,
+    "end": 86.78,
+    "pos": "PART",
+    "is_content": false,
+    "dynamik_size": 12
+  },
+  {
+    "word": "absolutely",
+    "start": 86.78,
+    "end": 87.4,
+    "pos": "ADV",
+    "is_content": true,
+    "dynamik_size": 18
+  },
+  {
+    "word": "do",
+    "start": 87.4,
+    "end": 87.64,
+    "pos": "VERB",
+    "is_content": true,
+    "dynamik_size": 18
+  },
+  {
+    "word": "that",
+    "start": 87.64,
+    "end": 87.92,
+    "pos": "PRON",
+    "is_content": false,
+    "dynamik_size": 12
+  },
+  {
+    "word": "for",
+    "start": 87.92,
+    "end": 88.16,
+    "pos": "ADP",
+    "is_content": false,
+    "dynamik_size": 12
+  },
+  {
+    "word": "connection.",
+    "start": 88.16,
+    "end": 88.52,
+    "pos": "NOUN",
+    "is_content": true,
+    "dynamik_size": 18
+  }
+]

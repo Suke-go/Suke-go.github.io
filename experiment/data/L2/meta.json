@@ -1,0 +1,14 @@
+{
+  "name": "L2",
+  "speaker": "David Christian",
+  "title": "History of Our World in 18 Minutes",
+  "year": 2011,
+  "note": "叙述的歴史説明",
+  "group": "",
+  "duration": 90.0,
+  "words": 196,
+  "source": "L2.wav",
+  "D_new": 0.625,
+  "r_pb": 0.375,
+  "p_val": 0.0
+}

@@ -1,0 +1,177 @@
+{
+  "comprehension": [
+    {
+      "id": "L1_C01",
+      "type": "content",
+      "question": "Which region did the speaker say was moving towards smaller families?",
+      "options": [
+        "African countries",
+        "Latin American countries",
+        "Arab countries",
+        "All of the above"
+      ],
+      "correct": 1,
+      "is_dummy": false,
+      "hint_ja": "より小さな家族に向かっている地域は？"
+    },
+    {
+      "id": "L1_C02",
+      "type": "content",
+      "question": "According to the speaker, what trend is happening in Arabic countries?",
+      "options": [
+        "Families are getting smaller",
+        "Families are getting larger",
+        "Life expectancy is decreasing",
+        "Population is declining"
+      ],
+      "correct": 0,
+      "is_dummy": false,
+      "hint_ja": "話者によると、アラブ諸国ではどんな傾向が起きていますか？"
+    },
+    {
+      "id": "L1_C03",
+      "type": "content",
+      "question": "What 'miracle' happened in Bangladesh in the 1980s?",
+      "options": [
+        "Economic boom",
+        "Imams promoted family planning",
+        "Medical breakthrough",
+        "Education reform"
+      ],
+      "correct": 1,
+      "is_dummy": false,
+      "hint_ja": "1980年代にバングラデシュで起きた「奇跡」とは？"
+    },
+    {
+      "id": "L1_C04",
+      "type": "content",
+      "question": "What major health crisis affected African countries in the 1990s?",
+      "options": [
+        "Malaria epidemic",
+        "HIV epidemic",
+        "Cholera outbreak",
+        "Ebola outbreak"
+      ],
+      "correct": 1,
+      "is_dummy": false,
+      "hint_ja": "1990年代にアフリカ諸国に影響した健康危機は？"
+    },
+    {
+      "id": "L1_C05",
+      "type": "content",
+      "question": "Which two countries did the speaker compare directly?",
+      "options": [
+        "China and India",
+        "United States and Vietnam",
+        "Brazil and Nigeria",
+        "Japan and Germany"
+      ],
+      "correct": 1,
+      "is_dummy": false,
+      "hint_ja": "話者が直接比較した2カ国は？"
+    },
+    {
+      "id": "L1_C06",
+      "type": "content",
+      "question": "What happened in Vietnam in the 1980s regarding economics?",
+      "options": [
+        "They adopted communist planning",
+        "They went for market economy",
+        "They started a war",
+        "They joined the UN"
+      ],
+      "correct": 1,
+      "is_dummy": false,
+      "hint_ja": "1980年代にベトナムの経済で何が起きましたか？"
+    },
+    {
+      "id": "L1_C07",
+      "type": "content",
+      "question": "According to the speaker, what was the main point about African countries?",
+      "options": [
+        "They have caught up with Europe",
+        "They still have high birth rates and low life expectancy",
+        "They are the fastest growing economies",
+        "They have the best healthcare systems"
+      ],
+      "correct": 1,
+      "is_dummy": false,
+      "hint_ja": "話者によると、アフリカ諸国の主な特徴は？"
+    },
+    {
+      "id": "L1_D01",
+      "type": "dummy",
+      "question": "What software did the speaker use for the visualization?",
+      "options": [
+        "PowerPoint",
+        "Gapminder",
+        "Excel",
+        "Not mentioned in this segment"
+      ],
+      "correct": 3,
+      "is_dummy": true
+    },
+    {
+      "id": "L1_D02",
+      "type": "dummy",
+      "question": "What year was this TED talk originally given?",
+      "options": [
+        "2004",
+        "2006",
+        "2008",
+        "Not stated in this segment"
+      ],
+      "correct": 3,
+      "is_dummy": true
+    },
+    {
+      "id": "L1_D03",
+      "type": "dummy",
+      "question": "How many countries were included in the dataset?",
+      "options": [
+        "50",
+        "100",
+        "200",
+        "Not specified in this segment"
+      ],
+      "correct": 3,
+      "is_dummy": true
+    }
+  ],
+  "speaker_intent": {
+    "emphasis_identification": {
+      "sentence": "And we have a completely new world.",
+      "question": "Which word did the speaker emphasize most?",
+      "options": [
+        "we",
+        "completely",
+        "new",
+        "world"
+      ],
+      "correct": 2,
+      "hint_ja": "この文で話者が最も強調した語はどれですか？"
+    },
+    "attitude_estimation": {
+      "question": "What was the speaker's general tone in this segment?",
+      "options": [
+        "Passionate and enthusiastic",
+        "Solemn and warning",
+        "Humorous",
+        "Neutral and explanatory"
+      ],
+      "correct": 3,
+      "hint_ja": "この区間での話者の全般的なトーンは？"
+    },
+    "prosodic_structure": {
+      "question": "When presenting data comparisons, the speaker typically...",
+      "options": [
+        "Used dramatic pauses between each country",
+        "Spoke at a steady, consistent pace",
+        "Whispered the statistics",
+        "Shouted country names"
+      ],
+      "correct": 1,
+      "hint_ja": "データの比較を提示するとき、話者は通常…"
+    }
+  }
+}

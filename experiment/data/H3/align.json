@@ -1,0 +1,1250 @@
+[
+  {
+    "word": "Um,",
+    "start": 0.0,
+    "end": 0.52,
+    "confidence": 0.38
+  },
+  {
+    "word": "me",
+    "start": 1.32,
+    "end": 1.52,
+    "confidence": 0.975
+  },
+  {
+    "word": "too.",
+    "start": 1.52,
+    "end": 1.9,
+    "confidence": 0.88
+  },
+  {
+    "word": "But",
+    "start": 2.46,
+    "end": 2.68,
+    "confidence": 0.997
+  },
+  {
+    "word": "that",
+    "start": 2.68,
+    "end": 2.9,
+    "confidence": 0.986
+  },
+  {
+    "word": "is",
+    "start": 2.9,
+    "end": 3.06,
+    "confidence": 0.997
+  },
+  {
+    "word": "not",
+    "start": 3.06,
+    "end": 3.24,
+    "confidence": 0.999
+  },
+  {
+    "word": "my",
+    "start": 3.24,
+    "end": 3.44,
+    "confidence": 0.999
+  },
+  {
+    "word": "confession.",
+    "start": 3.44,
+    "end": 3.88,
+    "confidence": 0.998
+  },
+  {
+    "word": "My",
+    "start": 4.62,
+    "end": 4.92,
+    "confidence": 0.999
+  },
+  {
+    "word": "confession",
+    "start": 4.92,
+    "end": 5.32,
+    "confidence": 0.999
+  },
+  {
+    "word": "is",
+    "start": 5.32,
+    "end": 5.6,
+    "confidence": 0.999
+  },
+  {
+    "word": "this.",
+    "start": 5.6,
+    "end": 6.02,
+    "confidence": 0.999
+  },
+  {
+    "word": "I",
+    "start": 6.48,
+    "end": 6.74,
+    "confidence": 1.0
+  },
+  {
+    "word": "am",
+    "start": 6.74,
+    "end": 6.92,
+    "confidence": 0.601
+  },
+  {
+    "word": "a",
+    "start": 6.92,
+    "end": 7.08,
+    "confidence": 0.996
+  },
+  {
+    "word": "health",
+    "start": 7.08,
+    "end": 7.34,
+    "confidence": 0.977
+  },
+  {
+    "word": "psychologist,",
+    "start": 7.34,
+    "end": 8.1,
+    "confidence": 0.995
+  },
+  {
+    "word": "and",
+    "start": 8.5,
+    "end": 8.74,
+    "confidence": 0.999
+  },
+  {
+    "word": "my",
+    "start": 8.74,
+    "end": 8.94,
+    "confidence": 1.0
+  },
+  {
+    "word": "mission",
+    "start": 8.94,
+    "end": 9.32,
+    "confidence": 0.999
+  },
+  {
+    "word": "is",
+    "start": 9.32,
+    "end": 9.56,
+    "confidence": 0.997
+  },
+  {
+    "word": "to",
+    "start": 9.56,
+    "end": 9.74,
+    "confidence": 0.997
+  },
+  {
+    "word": "help",
+    "start": 9.74,
+    "end": 9.88,
+    "confidence": 0.998
+  },
+  {
+    "word": "people",
+    "start": 9.88,
+    "end": 10.4,
+    "confidence": 0.999
+  },
+  {
+    "word": "be",
+    "start": 10.4,
+    "end": 10.82,
+    "confidence": 0.91
+  },
+  {
+    "word": "happier",
+    "start": 10.82,
+    "end": 11.18,
+    "confidence": 0.997
+  },
+  {
+    "word": "and",
+    "start": 11.18,
+    "end": 11.48,
+    "confidence": 0.977
+  },
+  {
+    "word": "healthier.",
+    "start": 11.48,
+    "end": 11.88,
+    "confidence": 0.999
+  },
+  {
+    "word": "But",
+    "start": 13.36,
+    "end": 13.58,
+    "confidence": 0.999
+  },
+  {
+    "word": "I",
+    "start": 13.58,
+    "end": 13.88,
+    "confidence": 0.991
+  },
+  {
+    "word": "fear",
+    "start": 13.88,
+    "end": 14.38,
+    "confidence": 0.999
+  },
+  {
+    "word": "that",
+    "start": 14.38,
+    "end": 15.02,
+    "confidence": 0.933
+  },
+  {
+    "word": "something",
+    "start": 15.02,
+    "end": 15.38,
+    "confidence": 0.992
+  },
+  {
+    "word": "I've",
+    "start": 15.38,
+    "end": 15.66,
+    "confidence": 0.978
+  },
+  {
+    "word": "been",
+    "start": 15.66,
+    "end": 15.82,
+    "confidence": 0.999
+  },
+  {
+    "word": "teaching",
+    "start": 15.82,
+    "end": 16.38,
+    "confidence": 0.998
+  },
+  {
+    "word": "for",
+    "start": 16.6,
+    "end": 16.8,
+    "confidence": 1.0
+  },
+  {
+    "word": "the",
+    "start": 16.8,
+    "end": 16.96,
+    "confidence": 0.999
+  },
+  {
+    "word": "last",
+    "start": 16.96,
+    "end": 17.14,
+    "confidence": 0.999
+  },
+  {
+    "word": "10",
+    "start": 17.14,
+    "end": 17.4,
+    "confidence": 0.866
+  },
+  {
+    "word": "years",
+    "start": 17.4,
+    "end": 18.0,
+    "confidence": 1.0
+  },
+  {
+    "word": "is",
+    "start": 18.0,
+    "end": 18.66,
+    "confidence": 0.794
+  },
+  {
+    "word": "doing",
+    "start": 18.66,
+    "end": 18.88,
+    "confidence": 0.999
+  },
+  {
+    "word": "more",
+    "start": 18.88,
+    "end": 19.2,
+    "confidence": 0.997
+  },
+  {
+    "word": "harm",
+    "start": 19.2,
+    "end": 19.56,
+    "confidence": 1.0
+  },
+  {
+    "word": "than",
+    "start": 19.56,
+    "end": 19.76,
+    "confidence": 0.989
+  },
+  {
+    "word": "good,",
+    "start": 19.76,
+    "end": 20.2,
+    "confidence": 1.0
+  },
+  {
+    "word": "and",
+    "start": 20.34,
+    "end": 21.04,
+    "confidence": 0.999
+  },
+  {
+    "word": "it",
+    "start": 21.04,
+    "end": 21.16,
+    "confidence": 0.999
+  },
+  {
+    "word": "has",
+    "start": 21.16,
+    "end": 21.4,
+    "confidence": 0.999
+  },
+  {
+    "word": "to",
+    "start": 21.4,
+    "end": 21.56,
+    "confidence": 0.999
+  },
+  {
+    "word": "do",
+    "start": 21.56,
+    "end": 21.68,
+    "confidence": 0.998
+  },
+  {
+    "word": "with",
+    "start": 21.68,
+    "end": 21.88,
+    "confidence": 1.0
+  },
+  {
+    "word": "stress.",
+    "start": 21.88,
+    "end": 22.34,
+    "confidence": 0.999
+  },
+  {
+    "word": "For",
+    "start": 23.38,
+    "end": 23.62,
+    "confidence": 1.0
+  },
+  {
+    "word": "years,",
+    "start": 23.62,
+    "end": 23.92,
+    "confidence": 1.0
+  },
+  {
+    "word": "I've",
+    "start": 24.02,
+    "end": 24.14,
+    "confidence": 0.996
+  },
+  {
+    "word": "been",
+    "start": 24.14,
+    "end": 24.26,
+    "confidence": 0.999
+  },
+  {
+    "word": "telling",
+    "start": 24.26,
+    "end": 24.46,
+    "confidence": 0.999
+  },
+  {
+    "word": "people",
+    "start": 24.46,
+    "end": 24.76,
+    "confidence": 1.0
+  },
+  {
+    "word": "stress",
+    "start": 24.76,
+    "end": 25.18,
+    "confidence": 0.687
+  },
+  {
+    "word": "makes",
+    "start": 25.18,
+    "end": 25.42,
+    "confidence": 0.988
+  },
+  {
+    "word": "you",
+    "start": 25.42,
+    "end": 25.66,
+    "confidence": 1.0
+  },
+  {
+    "word": "sick.",
+    "start": 25.66,
+    "end": 26.06,
+    "confidence": 1.0
+  },
+  {
+    "word": "It",
+    "start": 26.54,
+    "end": 26.74,
+    "confidence": 0.999
+  },
+  {
+    "word": "increases",
+    "start": 26.74,
+    "end": 27.1,
+    "confidence": 0.999
+  },
+  {
+    "word": "the",
+    "start": 27.1,
+    "end": 27.32,
+    "confidence": 1.0
+  },
+  {
+    "word": "risk",
+    "start": 27.32,
+    "end": 27.5,
+    "confidence": 0.998
+  },
+  {
+    "word": "of",
+    "start": 27.5,
+    "end": 27.7,
+    "confidence": 0.994
+  },
+  {
+    "word": "everything,",
+    "start": 27.7,
+    "end": 28.1,
+    "confidence": 0.998
+  },
+  {
+    "word": "from",
+    "start": 28.16,
+    "end": 28.36,
+    "confidence": 0.402
+  },
+  {
+    "word": "the",
+    "start": 28.36,
+    "end": 28.64,
+    "confidence": 0.986
+  },
+  {
+    "word": "common",
+    "start": 28.64,
+    "end": 28.94,
+    "confidence": 0.995
+  },
+  {
+    "word": "cold",
+    "start": 28.94,
+    "end": 29.3,
+    "confidence": 0.999
+  },
+  {
+    "word": "to",
+    "start": 29.3,
+    "end": 29.68,
+    "confidence": 0.943
+  },
+  {
+    "word": "cardiovascular",
+    "start": 29.68,
+    "end": 30.38,
+    "confidence": 0.987
+  },
+  {
+    "word": "disease.",
+    "start": 30.38,
+    "end": 31.06,
+    "confidence": 0.999
+  },
+  {
+    "word": "Basically,",
+    "start": 31.7,
+    "end": 32.44,
+    "confidence": 0.998
+  },
+  {
+    "word": "I've",
+    "start": 32.86,
+    "end": 33.22,
+    "confidence": 0.955
+  },
+  {
+    "word": "turned",
+    "start": 33.22,
+    "end": 33.54,
+    "confidence": 0.998
+  },
+  {
+    "word": "stress",
+    "start": 33.54,
+    "end": 34.06,
+    "confidence": 0.999
+  },
+  {
+    "word": "into",
+    "start": 34.06,
+    "end": 34.38,
+    "confidence": 0.992
+  },
+  {
+    "word": "the",
+    "start": 34.38,
+    "end": 34.7,
+    "confidence": 1.0
+  },
+  {
+    "word": "enemy.",
+    "start": 34.7,
+    "end": 35.1,
+    "confidence": 0.998
+  },
+  {
+    "word": "But",
+    "start": 35.96,
+    "end": 36.22,
+    "confidence": 0.997
+  },
+  {
+    "word": "I've",
+    "start": 36.22,
+    "end": 36.54,
+    "confidence": 0.805
+  },
+  {
+    "word": "changed",
+    "start": 36.54,
+    "end": 36.84,
+    "confidence": 0.998
+  },
+  {
+    "word": "my",
+    "start": 36.84,
+    "end": 37.06,
+    "confidence": 1.0
+  },
+  {
+    "word": "mind",
+    "start": 37.06,
+    "end": 37.28,
+    "confidence": 1.0
+  },
+  {
+    "word": "about",
+    "start": 37.28,
+    "end": 37.56,
+    "confidence": 0.999
+  },
+  {
+    "word": "stress,",
+    "start": 37.56,
+    "end": 38.22,
+    "confidence": 1.0
+  },
+  {
+    "word": "and",
+    "start": 38.26,
+    "end": 39.02,
+    "confidence": 0.998
+  },
+  {
+    "word": "today,",
+    "start": 39.02,
+    "end": 39.56,
+    "confidence": 0.983
+  },
+  {
+    "word": "I",
+    "start": 39.98,
+    "end": 40.24,
+    "confidence": 0.983
+  },
+  {
+    "word": "want",
+    "start": 40.24,
+    "end": 40.44,
+    "confidence": 0.781
+  },
+  {
+    "word": "to",
+    "start": 40.44,
+    "end": 40.64,
+    "confidence": 0.999
+  },
+  {
+    "word": "change",
+    "start": 40.64,
+    "end": 40.96,
+    "confidence": 0.999
+  },
+  {
+    "word": "yours.",
+    "start": 40.96,
+    "end": 41.6,
+    "confidence": 0.997
+  },
+  {
+    "word": "Let",
+    "start": 42.6,
+    "end": 42.8,
+    "confidence": 0.999
+  },
+  {
+    "word": "me",
+    "start": 42.8,
+    "end": 43.04,
+    "confidence": 1.0
+  },
+  {
+    "word": "start",
+    "start": 43.04,
+    "end": 43.3,
+    "confidence": 0.999
+  },
+  {
+    "word": "with",
+    "start": 43.3,
+    "end": 43.5,
+    "confidence": 0.999
+  },
+  {
+    "word": "the",
+    "start": 43.5,
+    "end": 43.68,
+    "confidence": 0.935
+  },
+  {
+    "word": "study",
+    "start": 43.68,
+    "end": 43.97,
+    "confidence": 1.0
+  },
+  {
+    "word": "that",
+    "start": 43.97,
+    "end": 44.26,
+    "confidence": 1.0
+  },
+  {
+    "word": "made",
+    "start": 44.26,
+    "end": 44.44,
+    "confidence": 0.996
+  },
+  {
+    "word": "me",
+    "start": 44.44,
+    "end": 44.78,
+    "confidence": 0.998
+  },
+  {
+    "word": "rethink",
+    "start": 44.78,
+    "end": 45.08,
+    "confidence": 0.979
+  },
+  {
+    "word": "my",
+    "start": 45.08,
+    "end": 45.4,
+    "confidence": 0.998
+  },
+  {
+    "word": "whole",
+    "start": 45.4,
+    "end": 45.76,
+    "confidence": 0.999
+  },
+  {
+    "word": "approach",
+    "start": 45.76,
+    "end": 46.2,
+    "confidence": 1.0
+  },
+  {
+    "word": "to",
+    "start": 46.2,
+    "end": 46.4,
+    "confidence": 0.999
+  },
+  {
+    "word": "stress.",
+    "start": 46.4,
+    "end": 46.84,
+    "confidence": 1.0
+  },
+  {
+    "word": "This",
+    "start": 47.62,
+    "end": 47.84,
+    "confidence": 0.998
+  },
+  {
+    "word": "study",
+    "start": 47.84,
+    "end": 48.14,
+    "confidence": 0.999
+  },
+  {
+    "word": "tracked",
+    "start": 48.14,
+    "end": 48.56,
+    "confidence": 0.996
+  },
+  {
+    "word": "30,000",
+    "start": 48.56,
+    "end": 49.4,
+    "confidence": 0.992
+  },
+  {
+    "word": "adults",
+    "start": 49.4,
+    "end": 49.72,
+    "confidence": 0.993
+  },
+  {
+    "word": "in",
+    "start": 49.72,
+    "end": 49.9,
+    "confidence": 1.0
+  },
+  {
+    "word": "the",
+    "start": 49.9,
+    "end": 50.02,
+    "confidence": 0.999
+  },
+  {
+    "word": "United",
+    "start": 50.02,
+    "end": 50.34,
+    "confidence": 0.999
+  },
+  {
+    "word": "States",
+    "start": 50.34,
+    "end": 50.7,
+    "confidence": 0.998
+  },
+  {
+    "word": "for",
+    "start": 50.7,
+    "end": 51.06,
+    "confidence": 0.997
+  },
+  {
+    "word": "eight",
+    "start": 51.06,
+    "end": 51.32,
+    "confidence": 0.952
+  },
+  {
+    "word": "years,",
+    "start": 51.32,
+    "end": 51.86,
+    "confidence": 1.0
+  },
+  {
+    "word": "and",
+    "start": 52.28,
+    "end": 52.46,
+    "confidence": 0.999
+  },
+  {
+    "word": "they",
+    "start": 52.46,
+    "end": 52.66,
+    "confidence": 0.999
+  },
+  {
+    "word": "started",
+    "start": 52.66,
+    "end": 53.0,
+    "confidence": 0.999
+  },
+  {
+    "word": "by",
+    "start": 53.0,
+    "end": 53.22,
+    "confidence": 0.998
+  },
+  {
+    "word": "asking",
+    "start": 53.22,
+    "end": 53.58,
+    "confidence": 1.0
+  },
+  {
+    "word": "people,",
+    "start": 53.58,
+    "end": 54.2,
+    "confidence": 0.999
+  },
+  {
+    "word": "how",
+    "start": 54.76,
+    "end": 55.1,
+    "confidence": 0.84
+  },
+  {
+    "word": "much",
+    "start": 55.1,
+    "end": 55.44,
+    "confidence": 0.999
+  },
+  {
+    "word": "stress",
+    "start": 55.44,
+    "end": 55.9,
+    "confidence": 0.995
+  },
+  {
+    "word": "have",
+    "start": 55.9,
+    "end": 56.06,
+    "confidence": 0.984
+  },
+  {
+    "word": "you",
+    "start": 56.06,
+    "end": 56.14,
+    "confidence": 0.999
+  },
+  {
+    "word": "experienced",
+    "start": 56.14,
+    "end": 56.78,
+    "confidence": 0.996
+  },
+  {
+    "word": "in",
+    "start": 56.78,
+    "end": 56.98,
+    "confidence": 0.972
+  },
+  {
+    "word": "the",
+    "start": 56.98,
+    "end": 57.1,
+    "confidence": 1.0
+  },
+  {
+    "word": "last",
+    "start": 57.1,
+    "end": 57.34,
+    "confidence": 0.999
+  },
+  {
+    "word": "year?",
+    "start": 57.34,
+    "end": 57.68,
+    "confidence": 1.0
+  },
+  {
+    "word": "They",
+    "start": 58.64,
+    "end": 58.9,
+    "confidence": 0.999
+  },
+  {
+    "word": "also",
+    "start": 58.9,
+    "end": 59.34,
+    "confidence": 1.0
+  },
+  {
+    "word": "asked,",
+    "start": 59.34,
+    "end": 59.89,
+    "confidence": 0.998
+  },
+  {
+    "word": "do",
+    "start": 59.89,
+    "end": 60.62,
+    "confidence": 0.942
+  },
+  {
+    "word": "you",
+    "start": 60.62,
+    "end": 60.98,
+    "confidence": 1.0
+  },
+  {
+    "word": "believe",
+    "start": 60.98,
+    "end": 61.66,
+    "confidence": 1.0
+  },
+  {
+    "word": "that",
+    "start": 61.66,
+    "end": 62.2,
+    "confidence": 0.993
+  },
+  {
+    "word": "stress",
+    "start": 62.2,
+    "end": 62.66,
+    "confidence": 0.999
+  },
+  {
+    "word": "is",
+    "start": 62.66,
+    "end": 62.92,
+    "confidence": 0.992
+  },
+  {
+    "word": "harmful",
+    "start": 62.92,
+    "end": 63.42,
+    "confidence": 0.999
+  },
+  {
+    "word": "for",
+    "start": 63.42,
+    "end": 63.74,
+    "confidence": 0.996
+  },
+  {
+    "word": "your",
+    "start": 63.74,
+    "end": 63.9,
+    "confidence": 0.999
+  },
+  {
+    "word": "health?",
+    "start": 63.9,
+    "end": 64.26,
+    "confidence": 1.0
+  },
+  {
+    "word": "And",
+    "start": 66.18,
+    "end": 66.36,
+    "confidence": 0.998
+  },
+  {
+    "word": "then",
+    "start": 66.36,
+    "end": 66.62,
+    "confidence": 0.996
+  },
+  {
+    "word": "they",
+    "start": 66.62,
+    "end": 66.8,
+    "confidence": 0.571
+  },
+  {
+    "word": "used",
+    "start": 66.8,
+    "end": 66.98,
+    "confidence": 0.883
+  },
+  {
+    "word": "public",
+    "start": 66.98,
+    "end": 67.32,
+    "confidence": 0.994
+  },
+  {
+    "word": "death",
+    "start": 67.32,
+    "end": 67.6,
+    "confidence": 0.97
+  },
+  {
+    "word": "records",
+    "start": 67.6,
+    "end": 67.86,
+    "confidence": 0.994
+  },
+  {
+    "word": "to",
+    "start": 67.86,
+    "end": 68.06,
+    "confidence": 0.58
+  },
+  {
+    "word": "find",
+    "start": 68.06,
+    "end": 68.36,
+    "confidence": 0.999
+  },
+  {
+    "word": "out",
+    "start": 68.36,
+    "end": 68.58,
+    "confidence": 0.998
+  },
+  {
+    "word": "who",
+    "start": 68.58,
+    "end": 68.76,
+    "confidence": 0.974
+  },
+  {
+    "word": "died.",
+    "start": 68.76,
+    "end": 69.1,
+    "confidence": 0.999
+  },
+  {
+    "word": "Okay.",
+    "start": 70.9,
+    "end": 71.2,
+    "confidence": 0.798
+  },
+  {
+    "word": "Some",
+    "start": 72.78,
+    "end": 73.0,
+    "confidence": 0.998
+  },
+  {
+    "word": "bad",
+    "start": 73.0,
+    "end": 73.36,
+    "confidence": 0.999
+  },
+  {
+    "word": "news",
+    "start": 73.36,
+    "end": 73.72,
+    "confidence": 0.999
+  },
+  {
+    "word": "first.",
+    "start": 73.72,
+    "end": 74.3,
+    "confidence": 0.972
+  },
+  {
+    "word": "People",
+    "start": 74.8,
+    "end": 75.08,
+    "confidence": 0.999
+  },
+  {
+    "word": "who",
+    "start": 75.08,
+    "end": 75.46,
+    "confidence": 0.999
+  },
+  {
+    "word": "experienced",
+    "start": 75.46,
+    "end": 75.96,
+    "confidence": 0.756
+  },
+  {
+    "word": "a",
+    "start": 75.96,
+    "end": 76.16,
+    "confidence": 0.991
+  },
+  {
+    "word": "lot",
+    "start": 76.16,
+    "end": 76.48,
+    "confidence": 0.989
+  },
+  {
+    "word": "of",
+    "start": 76.48,
+    "end": 76.58,
+    "confidence": 0.996
+  },
+  {
+    "word": "stress",
+    "start": 76.58,
+    "end": 76.94,
+    "confidence": 1.0
+  },
+  {
+    "word": "in",
+    "start": 76.94,
+    "end": 77.26,
+    "confidence": 0.946
+  },
+  {
+    "word": "the",
+    "start": 77.26,
+    "end": 77.42,
+    "confidence": 0.997
+  },
+  {
+    "word": "previous",
+    "start": 77.42,
+    "end": 77.66,
+    "confidence": 1.0
+  },
+  {
+    "word": "year",
+    "start": 77.66,
+    "end": 77.93,
+    "confidence": 0.999
+  },
+  {
+    "word": "had",
+    "start": 77.93,
+    "end": 78.2,
+    "confidence": 0.999
+  },
+  {
+    "word": "a",
+    "start": 78.2,
+    "end": 78.44,
+    "confidence": 0.999
+  },
+  {
+    "word": "43%",
+    "start": 78.44,
+    "end": 78.9,
+    "confidence": 0.998
+  },
+  {
+    "word": "increased",
+    "start": 79.56,
+    "end": 79.86,
+    "confidence": 0.898
+  },
+  {
+    "word": "risk",
+    "start": 79.86,
+    "end": 80.14,
+    "confidence": 0.999
+  },
+  {
+    "word": "of",
+    "start": 80.14,
+    "end": 80.3,
+    "confidence": 0.999
+  },
+  {
+    "word": "dying.",
+    "start": 80.3,
+    "end": 80.66,
+    "confidence": 0.999
+  },
+  {
+    "word": "But",
+    "start": 82.24,
+    "end": 82.76,
+    "confidence": 0.998
+  },
+  {
+    "word": "that",
+    "start": 82.76,
+    "end": 83.72,
+    "confidence": 0.793
+  },
+  {
+    "word": "was",
+    "start": 83.72,
+    "end": 84.04,
+    "confidence": 0.999
+  },
+  {
+    "word": "only",
+    "start": 84.04,
+    "end": 84.54,
+    "confidence": 1.0
+  },
+  {
+    "word": "true",
+    "start": 84.54,
+    "end": 85.14,
+    "confidence": 1.0
+  },
+  {
+    "word": "for",
+    "start": 85.14,
+    "end": 85.62,
+    "confidence": 0.708
+  },
+  {
+    "word": "the",
+    "start": 85.62,
+    "end": 85.86,
+    "confidence": 0.994
+  },
+  {
+    "word": "people",
+    "start": 85.86,
+    "end": 85.88,
+    "confidence": 1.0
+  },
+  {
+    "word": "who",
+    "start": 85.88,
+    "end": 86.42,
+    "confidence": 0.999
+  },
+  {
+    "word": "also",
+    "start": 86.42,
+    "end": 86.96,
+    "confidence": 0.999
+  },
+  {
+    "word": "believed",
+    "start": 86.96,
+    "end": 87.6,
+    "confidence": 0.995
+  },
+  {
+    "word": "that",
+    "start": 87.6,
+    "end": 87.98,
+    "confidence": 0.974
+  },
+  {
+    "word": "stress",
+    "start": 87.98,
+    "end": 88.26,
+    "confidence": 0.999
+  },
+  {
+    "word": "is",
+    "start": 88.26,
+    "end": 88.42,
+    "confidence": 0.987
+  },
+  {
+    "word": "harmful",
+    "start": 88.42,
+    "end": 88.78,
+    "confidence": 0.999
+  },
+  {
+    "word": "for",
+    "start": 88.78,
+    "end": 89.0,
+    "confidence": 0.998
+  },
+  {
+    "word": "your",
+    "start": 89.0,
+    "end": 89.18,
+    "confidence": 0.998
+  },
+  {
+    "word": "health.",
+    "start": 89.18,
+    "end": 89.46,
+    "confidence": 1.0
+  }
+]
