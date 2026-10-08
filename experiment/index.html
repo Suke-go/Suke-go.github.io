@@ -187,6 +187,18 @@
           data.word_prominences = prominences;
           data.selected_indices = idxs;
           data.selected_words = idxs.map(i => words[i]);
+          // The existing Sheets tab keeps only the columns from its first row.
+          // Put the click result in the already-saved response column as well.
+          data.response = {
+            schema: 'emphasis_click_v2',
+            button_response: data.response,
+            ...extraData,
+            sentence,
+            sentence_words: words,
+            word_prominences: prominences,
+            selected_indices: idxs,
+            selected_words: data.selected_words,
+          };
         },
         data: { phase: 'intent', intent_type: 'emphasis_click', ...extraData },
       };
