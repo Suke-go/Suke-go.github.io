@@ -149,8 +149,9 @@ const STRINGS = {
   },
 
   // Emphasis word-click task
-  emph_click_title: { en: "Which words were emphasized?", ja: "強調されていた語はどれですか？" },
-  emph_click_instr: { en: "In the sentence below, click the word(s) you felt the speaker emphasized (1 to 3 words). Click again to deselect.", ja: "以下の文の中で、話者が強調していたと感じた語をクリックしてください（1〜3語）。もう一度クリックすると選択を解除できます。" },
+  emph_click_title: { en: "Which words sounded strongest in the video?", ja: "先ほどの動画で、どの語が強く聞こえましたか？" },
+  emph_click_instr: { en: "Thinking back to the video, select 1 to 3 words in the sentence below that sounded strongest to you. Click again to deselect.", ja: "動画を思い出しながら、以下の文で強く聞こえたと思う語を1〜3語クリックしてください。もう一度クリックすると選択を解除できます。" },
+  emph_click_counter_title: { en: "What You Heard", ja: "聞こえ方の記録" },
   emph_click_count: { en: "{n} / 3 selected", ja: "選択中: {n} / 3" },
 
   // Practice

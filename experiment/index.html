@@ -461,15 +461,15 @@
         if (emp) {
           trials.push(makeEmphasisClickTrial(
             emp.sentence, subtitleWords,
-            () => `${t('trial_intent_title')} — 1/2`,
-            { clip_id: clipId, condition, probe_source: 'quiz', correct_enc: emp.correct_enc }
+            () => `${t('emph_click_counter_title')} — 1/2`,
+            { clip_id: clipId, condition, probe_source: 'quiz' }
           ));
         }
         const autoSentence = pickAutoSentence(subtitleWords, emp?.sentence);
         if (autoSentence) {
           trials.push(makeEmphasisClickTrial(
             autoSentence, subtitleWords,
-            () => `${t('trial_intent_title')} — 2/2`,
+            () => `${t('emph_click_counter_title')} — 2/2`,
             { clip_id: clipId, condition, probe_source: 'auto' }
           ));
         }
