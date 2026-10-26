@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>Project BAKEBAKE — KSK432 Projects</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="妖怪伝承アーカイブと生成AI">
+  <link rel="canonical" href="https://ksk432.com/projects/bakebake/ja/">
+  <link rel="alternate" hreflang="ja" href="https://ksk432.com/projects/bakebake/ja/">
+  <link rel="alternate" hreflang="en" href="https://ksk432.com/projects/bakebake/">
+  <meta property="og:title" content="Project BAKEBAKE — KSK432 Projects">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://ksk432.com/projects/bakebake/ja/">
+  <meta property="og:site_name" content="KSK432">
+  <link rel="stylesheet" href="../../../style.css">
+  <link rel="stylesheet" href="../../../projects/projects.css">
+</head>
+<body class="projects-body" data-preview-open="プレビュー" data-preview-close="閉じる">
+  <nav id="navbar" class="projects-nav">
+    <ul>
+      <li><a class="menu-link" href="../../../ja/summary.html">Home</a></li>
+      <li><a class="menu-link active" href="../../../projects/ja/">Projects</a></li>
+      <li><a class="menu-link" href="../../../ja/publications.html">Publications</a></li>
+      <li><a class="menu-link" href="../../../blog/index.html">Blog</a></li>
+      <li><a class="menu-link" href="../../../en/index.html">Terminal</a></li>
+      <li><a class="menu-link" href="../../../projects/bakebake/">EN</a></li>
+    </ul>
+  </nav>
+
+  <main class="stage">
+    <header class="p-head">
+      <p class="kicker"><a href="../../../projects/ja/">Projects</a> / 研究</p>
+      <h1>Project BAKEBAKE</h1>
+      <p class="p-sub">妖怪伝承アーカイブと生成AI</p>
+    </header>
+    <figure class="p-cover"><img src="../../../image/projects/bakebake-venue.jpg" alt="Visitors gathered around the BAKEBAKE XR exhibition terminals"></figure>
+    <section class="block">
+      <dl class="meta"><div><dt>期間</dt><dd>2026</dd></div><div><dt>研究テーマ</dt><dd><span class="thread-tag is-adjacent">デジタルアーカイブ（妖怪）</span></dd></div><div><dt>リンク</dt><dd><ul class="links"><li><a href="https://bakebake.org/" target="_blank" rel="noopener">プロジェクトサイト</a></li></ul></dd></div></dl>
+      <div class="p-text"><p>Project BAKEBAKEは、妖怪伝承を二つの方向から扱う研究プロジェクトです。一つは、国際日本文化研究センター（日文研）の「怪異・妖怪伝承データベース」に収められた3万5千件を超える記録を計算論的に分析し、伝承の分布や偏り、類型を読み直す研究です。もう一つは、現代の人が説明のつかない体験や言葉にしにくい違和感に名前と姿を与え、外から眺められるようにするためのインターフェースとして妖怪を用いる装置の制作と展示です。</p><p>アーカイブ分析では、短い伝承要旨に含まれる場所の情報を、記録が裏づける以上の精度を持たせずに地図上で表す方法を検討し、FOSS4G 2026のAcademic Track（ISPRS Archives）で発表しました。生成装置では、来場者が語った体験をデータベースと照合し、生成AIが名前・語り・図像の候補を提案します。来場者はそれを選び、直し、あるいは棄却し、できあがった妖怪は感熱紙に印字されます。装置は2026年2月から5月にかけて小豆島の妖怪EXPO 2026で展示し、その内容をHAI 2026とSIGGRAPH Asia 2026 Art Papersで発表します。</p><p>メンバーは筑波大学と日本女子大学を拠点とする清水紘輔、一倉弘毅、池辺莉々、干川未来の4名で、日本財団HUMAIプログラムの支援を受けて活動しています。清水は生成装置の実装と実験設計を担当しています。</p></div>
+    </section>
+    <section class="block" id="demo"><h2>デモ</h2><div class="block-body"><div class="stack"><div class="preview" id="preview-bakebake" data-src="https://bakebake.org/" data-label="Project BAKEBAKE"><div class="preview-bar"><span>bakebake.org</span><a href="https://bakebake.org/" target="_blank" rel="noopener">開く ↗</a></div><div class="preview-viewport"><button type="button" class="preview-load" style="background-image: url(&quot;../../../image/projects/bakebake-site.jpg&quot;)"><span>サイトを読み込む</span></button></div></div></div></div></section><section class="block" id="structure"><h2>構成</h2><div class="block-body"><ol class="tree">
+<li class="node" id="yokai-geography">
+  <span class="node-no">01</span>
+  <div>
+    <div class="node-head"><h3>妖怪の地理</h3><time>2026</time></div>
+    <p class="node-sub">妖怪伝承アーカイブの場所情報を解像度に応じて表す</p>
+    
+    <div class="node-body">
+      <div class="node-text"><p>伝承記録の多くは県単位の範囲しか示さず、要旨には地名と川や道、墓などの記述が混在します。日文研データベースの33,378件について、行政域の支持範囲、地名候補、場所の記述、根拠の出所を表示用の代表点と分けて保持する表現を作りました。市町村まで絞れた1,231件では、支持範囲の面積が県に比べ中央値で97.5%縮小しました。河童の記録が大きな水域に近いという仮説は支持されませんでした。</p><ul class="pubs">
+<li class="pub"><span class="pub-date">2026.08<span>Proceedings</span></span><span><strong class="pub-title">From Point Anchors to Geospatial Support: A Resolution-Aware Representation of Toponymic and Non-Toponymic Place Evidence in a Japanese Yokai Archive</strong><span class="pub-line"><span class="self">Kosuke Shimizu</span>, Hiroki Ichikura, Riri Ikebe, Mirai Hoshikawa</span><span class="pub-line">ISPRS Archives L-4/W1-2026, pp. 283–290 · DOI <a href="https://doi.org/10.5194/isprs-archives-l-4-w1-2026-283-2026" target="_blank" rel="noopener">10.5194/isprs-archives-l-4-w1-2026-283-2026</a></span></span></li>
+</ul></div>
+      
+    </div>
+    
+  </div>
+</li>
+<li class="node" id="bakebake-xr-generator">
+  <span class="node-no">02</span>
+  <div>
+    <div class="node-head"><h3>BAKEBAKE XR Generator</h3><time>2026</time></div>
+    <p class="node-sub">体験から妖怪をつくるインスタレーション「ばけばけ発生器」</p>
+    <p class="node-tags"><span class="thread-tag"><b>T2</b>記憶と再接続する環境</span></p>
+    <div class="node-body has-image">
+      <div class="node-text"><p>来場者の体験から数分で妖怪をつくるインスタレーションです。体験を入力すると、日文研の伝承データベースから似た記録を探し、名前と語り、水墨画や浮世絵など五つの画風による図像の候補を提案します。来場者が選び、手を加えた妖怪は、やがて消える感熱紙に印字されます。小豆島の妖怪EXPO 2026では、職場やインフラにまつわる、データベースに前例のない妖怪も生まれました。</p><ul class="links node-actions"><li><a href="https://www.bakemon.net/" target="_blank" rel="noopener">展示サイト</a></li><li><a href="https://github.com/Suke-go/bakebake-generator" target="_blank" rel="noopener">GitHub</a></li><li><button type="button" class="btn" aria-expanded="false" aria-controls="preview-bakebake-xr-generator">プレビュー</button></li></ul><div class="preview" id="preview-bakebake-xr-generator" data-src="https://www.bakemon.net/" data-label="BAKEBAKE XR Generator" hidden><div class="preview-bar"><span>www.bakemon.net</span><a href="https://www.bakemon.net/" target="_blank" rel="noopener">開く ↗</a></div><div class="preview-viewport"></div></div><ul class="pubs">
+<li class="pub"><span class="pub-date">2026.11<span>Poster &amp; Demo</span></span><span><strong class="pub-title">BAKEBAKE: Making Ambiguous Experiences Visible through Generative Yokai</strong><span class="pub-line"><span class="self">Kosuke Shimizu</span>, Riri Ikebe, Hiroki Ichikura, Mirai Hoshikawa</span><span class="pub-line">HAI 2026 Poster &amp; Demo Track<span class="status">掲載予定</span> · DOI <a href="https://doi.org/10.1145/3841580.3845680" target="_blank" rel="noopener">10.1145/3841580.3845680</a></span></span></li>
+<li class="pub"><span class="pub-date">2026.12<span>Art Paper</span></span><span><strong class="pub-title">Naming the Inexplicable: A Generative Apparatus for Rehearsing Yokai-Making in Compressed Communal Time</strong><span class="pub-line"><span class="self">Kosuke Shimizu</span>, Riri Ikebe, Hiroki Ichikura, Mirai Hoshikawa</span><span class="pub-line">SIGGRAPH Asia 2026 Art Papers (Long)<span class="status">掲載予定</span> · DOI <a href="https://doi.org/10.1145/3829215.3843681" target="_blank" rel="noopener">10.1145/3829215.3843681</a></span></span></li>
+</ul></div>
+      <img src="../../../image/projects/bakebake-generator.jpg" alt="Landing screen of the BAKEBAKE XR generator" loading="lazy">
+    </div>
+    
+  </div>
+</li>
+</ol></div></section><section class="block"><h2>共同研究者による関連研究</h2><div class="block-body"><ul class="pubs is-related">
+<li class="pub"><span class="pub-date">2026.01<span>Journal (Special Issue)</span></span><span><strong class="pub-title">&quot;Bakebake XR&quot;: A Platform for Interactive Digital Storytelling to Preserve Youkai Using Immersive Technology and AI</strong><span class="pub-line">Hiroki Ichikura, <span class="self">Kosuke Shimizu</span>, Mirai Hoshikawa, Riri Ikebe</span><span class="pub-line">Journal of the Japan Society for Digital Archive · DOI <a href="https://doi.org/10.24506/jsda.9.s2_s226" target="_blank" rel="noopener">10.24506/jsda.9.s2_s226</a></span></span></li>
+</ul></div></section>
+  </main>
+
+  <footer><p>&copy; 2026 ksk432. All Rights Reserved.</p></footer>
+  <script src="../../../projects/projects.js"></script>
+</body>
+</html>

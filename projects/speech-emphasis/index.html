@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Speech Emphasis — KSK432 Projects</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Finding the words a speaker stresses, then showing them in captions and letting listeners feel them">
+  <link rel="canonical" href="https://ksk432.com/projects/speech-emphasis/">
+  <link rel="alternate" hreflang="en" href="https://ksk432.com/projects/speech-emphasis/">
+  <link rel="alternate" hreflang="ja" href="https://ksk432.com/projects/speech-emphasis/ja/">
+  <meta property="og:title" content="Speech Emphasis — KSK432 Projects">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://ksk432.com/projects/speech-emphasis/">
+  <meta property="og:site_name" content="KSK432">
+  <link rel="stylesheet" href="../../style.css">
+  <link rel="stylesheet" href="../../projects/projects.css">
+</head>
+<body class="projects-body" data-preview-open="Preview" data-preview-close="Close">
+  <nav id="navbar" class="projects-nav">
+    <ul>
+      <li><a class="menu-link" href="../../en/summary.html">Home</a></li>
+      <li><a class="menu-link active" href="../../projects/">Projects</a></li>
+      <li><a class="menu-link" href="../../en/publications.html">Publications</a></li>
+      <li><a class="menu-link" href="../../blog/index.html">Blog</a></li>
+      <li><a class="menu-link" href="../../en/index.html">Terminal</a></li>
+      <li><a class="menu-link" href="../../projects/speech-emphasis/ja/">JP</a></li>
+    </ul>
+  </nav>
+
+  <main class="stage">
+    <header class="p-head">
+      <p class="kicker"><a href="../../projects/">Projects</a> / Research</p>
+      <h1>Speech Emphasis</h1>
+      <p class="p-sub">Finding the words a speaker stresses, then showing them in captions and letting listeners feel them</p>
+    </header>
+    <figure class="p-cover"><img src="../../image/projects/visceral-resonance.jpg" alt="Visceral Resonance interface title screen"></figure>
+    <section class="block">
+      <dl class="meta"><div><dt>Period</dt><dd>2026</dd></div><div><dt>Threads</dt><dd><span class="thread-tag"><b>T1</b>Somatosensory Stimulation Interfaces</span><span class="thread-tag"><b>T3</b>Computational Systems for Human Capability</span></dd></div></dl>
+      <div class="p-text"><p>When people speak, they make some words stand out by lengthening them, saying them louder, or moving their pitch. Linguists call this prominence. Captions and transcripts lose it, because every word looks the same on screen. This project studies which acoustic cues make a word stand out, builds detectors light enough to run in a browser in real time, and passes the result on to listeners in two forms.</p><p>On the modeling side, an ICSV32 paper predicted human emphasis labels and labels computed with a continuous wavelet transform (CWT) on the same words, and found that the two do not support the same conclusions about which cues matter. An Interspeech 2026 paper introduced the Auditory Contrast Network, a model with at most 238 parameters that judges each word against its neighbours from duration, energy and spectral cues, without using text.</p><p>On the presentation side, detected emphasis sets the size or motion of words in captions, in three browser demos: live captions from a microphone, a player for TED talk excerpts, and a playground for moving type. In Visceral Resonance, the same signal drives electrical muscle stimulation on the listener&#x27;s abdomen; it was shown as a demo at Augmented Humans 2026.</p></div>
+    </section>
+    <section class="block" id="structure"><h2>Structure</h2><div class="block-body"><ol class="tree">
+<li class="node" id="emphasis-captions">
+  <span class="node-no">01</span>
+  <div>
+    <div class="node-head"><h3>Emphasis Captions</h3><time>2026</time></div>
+    <p class="node-sub">Captions that carry how words are spoken, not only what is said</p>
+    <p class="node-tags"><span class="thread-tag"><b>T3</b>Computational Systems for Human Capability</span></p>
+    <div class="node-body">
+      <div class="node-text"><p>Ordinary captions show what was said but not which words the speaker stressed. These three demos map detected emphasis onto the caption itself: word size in live microphone captions, size and weight over TED talk excerpts, and syllable motion in a playground for moving type. All run in the browser, and the emphasis is estimated from the sound of the voice.</p></div>
+      
+    </div>
+    <ol class="tree">
+<li class="node" id="live-captions">
+  <span class="node-no">01.1</span>
+  <div>
+    <div class="node-head"><h3>Live Captions</h3><time>2026</time></div>
+    <p class="node-sub">Microphone captions in which stressed words appear larger</p>
+    
+    <div class="node-body">
+      <div class="node-text"><p>Speech from the microphone is transcribed by the browser&#x27;s Web Speech API, or optionally by Google Cloud Speech-to-Text through a small server, while a C prominence detector compiled to WebAssembly scores the same audio. Each word is shown in one of three sizes following WCAG-based 12/18/24 pt steps, so stressed words appear larger. A few seconds of silence set the noise floor, and reading a sample sentence adapts the thresholds to the speaker&#x27;s voice.</p><ul class="links node-actions"><li><a href="../../projects/speech-emphasis/live-captions/" target="_blank" rel="noopener">Open Demo</a><code>ksk432.com/projects/speech-emphasis/live-captions/</code></li><li><a href="https://github.com/Suke-go/prominence-subtitle.github.io" target="_blank" rel="noopener">GitHub</a></li></ul></div>
+      
+    </div>
+    
+  </div>
+</li>
+<li class="node" id="ted-talk-player">
+  <span class="node-no">01.2</span>
+  <div>
+    <div class="node-head"><h3>TED Talk Player</h3><time>2026</time></div>
+    <p class="node-sub">TED talk excerpts with four subtitle styles to compare</p>
+    
+    <div class="node-body has-image">
+      <div class="node-text"><p>Ninety-second excerpts from six TED talks, three with strongly marked emphasis and three with flatter delivery, play with word-aligned subtitles. Four subtitle modes can be switched: uniform text, sizes by part of speech, sizes and weights from Auditory Contrast Network prominence scores, and a combination of part of speech and prominence.</p><ul class="links node-actions"><li><a href="../../projects/speech-emphasis/ted-player/" target="_blank" rel="noopener">Open Player</a><code>ksk432.com/projects/speech-emphasis/ted-player/</code></li><li><button type="button" class="btn" aria-expanded="false" aria-controls="preview-ted-talk-player">Preview</button></li></ul><div class="preview" id="preview-ted-talk-player" data-src="https://ksk432.com/ViceralResonance.github.io/ted-player/" data-label="TED Talk Player" hidden><div class="preview-bar"><span>ksk432.com/projects/speech-emphasis/ted-player/</span><a href="https://ksk432.com/ViceralResonance.github.io/ted-player/" target="_blank" rel="noopener">Open ↗</a></div><div class="preview-viewport"></div></div></div>
+      <img src="../../image/projects/prominence-player.jpg" alt="Prominence Player clip list of TED talk excerpts grouped by high and low prominence" loading="lazy">
+    </div>
+    
+  </div>
+</li>
+<li class="node" id="moving-captions">
+  <span class="node-no">01.3</span>
+  <div>
+    <div class="node-head"><h3>Moving Captions</h3><time>2026</time></div>
+    <p class="node-sub">A playground where stressed syllables move, driven by sound alone</p>
+    
+    <div class="node-body has-image">
+      <div class="node-text"><p>Prosody Playground animates captions on TED excerpts syllable by syllable, using signal processing only and no pronunciation dictionary. Syllable nuclei, onset sharpness, noisiness and nucleus length are measured from the band-passed energy envelope, spectral flux and zero-crossing rate, and a syllable moves only when it stands out from the surrounding 1.5 seconds. Presets switch between static, weight-based and onomatopoeia-like motion, and a timeline shows prominence and pitch for each clip.</p><ul class="links node-actions"><li><a href="../../projects/speech-emphasis/moving-captions/" target="_blank" rel="noopener">Open Playground</a><code>ksk432.com/projects/speech-emphasis/moving-captions/</code></li><li><button type="button" class="btn" aria-expanded="false" aria-controls="preview-moving-captions">Preview</button></li></ul><div class="preview" id="preview-moving-captions" data-src="https://ksk432.com/prominence-subtitle.github.io/demos/kinetic-captions/" data-label="Moving Captions" hidden><div class="preview-bar"><span>ksk432.com/projects/speech-emphasis/moving-captions/</span><a href="https://ksk432.com/prominence-subtitle.github.io/demos/kinetic-captions/" target="_blank" rel="noopener">Open ↗</a></div><div class="preview-viewport"></div></div></div>
+      <img src="../../image/projects/prosody-playground.jpg" alt="A TED clip with moving captions, motion presets, and a timeline of emphasis and pitch" loading="lazy">
+    </div>
+    
+  </div>
+</li>
+</ol>
+  </div>
+</li>
+<li class="node" id="visceral-resonance">
+  <span class="node-no">02</span>
+  <div>
+    <div class="node-head"><h3>Visceral Resonance</h3><time>2026</time></div>
+    <p class="node-sub">Feeling a speaker&#x27;s emphasis as abdominal muscle stimulation</p>
+    <p class="node-tags"><span class="thread-tag"><b>T1</b>Somatosensory Stimulation Interfaces</span></p>
+    <div class="node-body">
+      <div class="node-text"><p>Visceral Resonance detects emphasis in live speech and delivers it to the listener&#x27;s abdomen as electrical muscle stimulation (EMS) from a commercial audio-driven device. The working hypothesis is that contracting the abdominal muscles changes intra-abdominal pressure and may contribute to gut-like sensations. It was shown as a demo at Augmented Humans 2026; a sole-authored workshop paper at the same conference discusses how much freedom such modality translation should leave open, with a focus on agency.</p><ul class="links node-actions"><li><a href="../../projects/speech-emphasis/visceral-resonance/" target="_blank" rel="noopener">Demo Site</a><code>ksk432.com/projects/speech-emphasis/visceral-resonance/</code></li><li><a href="https://youtu.be/IRAJAS35-Fs" target="_blank" rel="noopener">YouTube</a></li><li><button type="button" class="btn" aria-expanded="false" aria-controls="preview-visceral-resonance">Preview</button></li></ul><div class="preview" id="preview-visceral-resonance" data-src="https://ksk432.com/ViceralResonance.github.io/" data-label="Visceral Resonance" hidden><div class="preview-bar"><span>ksk432.com/projects/speech-emphasis/visceral-resonance/</span><a href="https://ksk432.com/ViceralResonance.github.io/" target="_blank" rel="noopener">Open ↗</a></div><div class="preview-viewport"></div></div><iframe class="video" src="https://www.youtube-nocookie.com/embed/IRAJAS35-Fs" title="Visceral Resonance (AHs 2026 Demo)" loading="lazy" referrerpolicy="strict-origin-when-cross-origin" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe><ul class="pubs">
+<li class="pub"><span class="pub-date">2026.03<span>Demo</span></span><span><strong class="pub-title">Visceral Resonance: Augmenting Speech Listening with Prominence-Synchronized Electrical Muscle Stimulation</strong><span class="pub-line"><span class="self">Kosuke Shimizu</span>, Ron Lian Nikolaus Tan, <a href="https://shogofukushima.com/" target="_blank" rel="noopener">Shogo Fukushima</a>, <a href="https://www.xpercept.aclab.esys.tsukuba.ac.jp/" target="_blank" rel="noopener">Keiichi Zempo</a></span><span class="pub-line">Augmented Humans 2026 Demo Track, pp. 840–842 · DOI <a href="https://doi.org/10.1145/3795011.3797423" target="_blank" rel="noopener">10.1145/3795011.3797423</a></span></span></li>
+<li class="pub"><span class="pub-date">2026.03<span>Workshop</span></span><span><strong class="pub-title">Designing Degrees of Freedom in Modality Translation: Agency in Inclusive Augmented Performance</strong><span class="pub-line"><span class="self">Kosuke Shimizu</span></span><span class="pub-line">Augmented Humans 2026 Workshop: Reimagining Human Augmentation through Disability-Led Performance</span></span></li>
+</ul></div>
+      
+    </div>
+    
+  </div>
+</li>
+<li class="node" id="modeling-emphasis">
+  <span class="node-no">03</span>
+  <div>
+    <div class="node-head"><h3>Modeling Emphasis</h3><time>2026</time></div>
+    <p class="node-sub">Which acoustic cues make a word sound prominent?</p>
+    
+    <div class="node-body">
+      <div class="node-text"><p>Two papers ask what in the sound makes a word stand out. At ICSV32, human and CWT-derived emphasis labels on the same words were predicted from the same cues; which cues helped beyond duration depended on the label. At Interspeech 2026, the Auditory Contrast Network, with three acoustic features and at most 238 parameters, matched a 94.6M-parameter wav2vec2 baseline in cross-corpus transfer (r = 0.412 vs 0.409), with the cue order duration &gt; energy &gt; spectral ≫ F0.</p><ul class="links node-actions"><li><a href="https://github.com/Suke-go/PROMINENCE_Detection" target="_blank" rel="noopener">GitHub</a></li><li><a href="../../blog/interspeech-frustration.html">Blog: After Interspeech</a></li></ul><figure class="deck" data-base="../../projects/speech-emphasis/slides/icsv32/" data-count="17" aria-label="ICSV32 — Target-Dependent Cue Rankings in Prosodic Prominence: Comparing Human and CWT Labels">
+  <div class="deck-stage">
+    <img class="deck-slide" src="../../projects/speech-emphasis/slides/icsv32/01.jpg" alt="ICSV32 — Target-Dependent Cue Rankings in Prosodic Prominence: Comparing Human and CWT Labels — 1 / 17" width="1600" height="900" loading="lazy">
+    <button type="button" class="deck-hit" data-act="prev" aria-label="Previous slide"></button>
+    <button type="button" class="deck-hit" data-act="next" aria-label="Next slide"></button>
+  </div>
+  <div class="deck-bar">
+    <button type="button" class="deck-btn" data-act="prev" aria-label="Previous slide">‹</button>
+    <span class="deck-count"><b>1</b> / 17</span>
+    <button type="button" class="deck-btn" data-act="next" aria-label="Next slide">›</button>
+    <input type="range" class="deck-range" min="1" max="17" value="1" aria-label="Slide">
+    <a class="deck-link" href="../../projects/speech-emphasis/slides/icsv32.pdf" download>PDF</a>
+    <button type="button" class="deck-btn" data-act="full" aria-label="Fullscreen">⛶</button>
+  </div>
+  <figcaption>ICSV32 — Target-Dependent Cue Rankings in Prosodic Prominence: Comparing Human and CWT Labels</figcaption>
+</figure><figure class="deck" data-base="../../projects/speech-emphasis/slides/interspeech2026/" data-count="17" aria-label="INTERSPEECH 2026 — Auditory Contrast Network toward Text-Free Prominence Detection">
+  <div class="deck-stage">
+    <img class="deck-slide" src="../../projects/speech-emphasis/slides/interspeech2026/01.jpg" alt="INTERSPEECH 2026 — Auditory Contrast Network toward Text-Free Prominence Detection — 1 / 17" width="1600" height="900" loading="lazy">
+    <button type="button" class="deck-hit" data-act="prev" aria-label="Previous slide"></button>
+    <button type="button" class="deck-hit" data-act="next" aria-label="Next slide"></button>
+  </div>
+  <div class="deck-bar">
+    <button type="button" class="deck-btn" data-act="prev" aria-label="Previous slide">‹</button>
+    <span class="deck-count"><b>1</b> / 17</span>
+    <button type="button" class="deck-btn" data-act="next" aria-label="Next slide">›</button>
+    <input type="range" class="deck-range" min="1" max="17" value="1" aria-label="Slide">
+    <a class="deck-link" href="../../projects/speech-emphasis/slides/interspeech2026.pdf" download>PDF</a>
+    <button type="button" class="deck-btn" data-act="full" aria-label="Fullscreen">⛶</button>
+  </div>
+  <figcaption>INTERSPEECH 2026 — Auditory Contrast Network toward Text-Free Prominence Detection</figcaption>
+</figure><ul class="pubs">
+<li class="pub"><span class="pub-date">2026.07<span>Proceedings</span></span><span><strong class="pub-title">Target-Dependent Cue Rankings in Prosodic Prominence: Comparing Human and CWT Labels</strong><span class="pub-line"><span class="self">Kosuke Shimizu</span>, <a href="https://www.xpercept.aclab.esys.tsukuba.ac.jp/" target="_blank" rel="noopener">Keiichi Zempo</a></span><span class="pub-line">32nd International Congress on Sound and Vibration (ICSV32)</span></span></li>
+<li class="pub"><span class="pub-date">2026.10<span>Proceedings</span></span><span><strong class="pub-title">Auditory Contrast Network for Text-Free Prominence Detection</strong><span class="pub-line"><span class="self">Kosuke Shimizu</span>, <a href="https://www.xpercept.aclab.esys.tsukuba.ac.jp/" target="_blank" rel="noopener">Keiichi Zempo</a></span><span class="pub-line">Proc. INTERSPEECH 2026, pp. 3696–3700 · <a href="https://www.isca-archive.org/interspeech_2026/shimizu26b_interspeech.html" target="_blank" rel="noopener">ISCA Archive</a></span></span></li>
+</ul></div>
+      
+    </div>
+    
+  </div>
+</li>
+</ol></div></section>
+  </main>
+
+  <footer><p>&copy; 2026 ksk432. All Rights Reserved.</p></footer>
+  <script src="../../projects/projects.js"></script>
+</body>
+</html>

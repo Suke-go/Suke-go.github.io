@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>HCIを地図にする — KSK432 Projects</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="HCIのメタサイエンス：分野の構造と領域どうしの接近を調べる">
+  <link rel="canonical" href="https://ksk432.com/projects/hci-topology/ja/">
+  <link rel="alternate" hreflang="ja" href="https://ksk432.com/projects/hci-topology/ja/">
+  <link rel="alternate" hreflang="en" href="https://ksk432.com/projects/hci-topology/">
+  <meta property="og:title" content="HCIを地図にする — KSK432 Projects">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://ksk432.com/projects/hci-topology/ja/">
+  <meta property="og:site_name" content="KSK432">
+  <link rel="stylesheet" href="../../../style.css">
+  <link rel="stylesheet" href="../../../projects/projects.css">
+</head>
+<body class="projects-body" data-preview-open="プレビュー" data-preview-close="閉じる">
+  <nav id="navbar" class="projects-nav">
+    <ul>
+      <li><a class="menu-link" href="../../../ja/summary.html">Home</a></li>
+      <li><a class="menu-link active" href="../../../projects/ja/">Projects</a></li>
+      <li><a class="menu-link" href="../../../ja/publications.html">Publications</a></li>
+      <li><a class="menu-link" href="../../../blog/index.html">Blog</a></li>
+      <li><a class="menu-link" href="../../../en/index.html">Terminal</a></li>
+      <li><a class="menu-link" href="../../../projects/hci-topology/">EN</a></li>
+    </ul>
+  </nav>
+
+  <main class="stage">
+    <header class="p-head">
+      <p class="kicker"><a href="../../../projects/ja/">Projects</a> / 研究</p>
+      <h1>HCIを地図にする</h1>
+      <p class="p-sub">HCIのメタサイエンス：分野の構造と領域どうしの接近を調べる</p>
+    </header>
+    <figure class="p-cover"><img src="../../../image/projects/topological-bridges.jpg" alt="Topological Bridges companion site for CHI 2026"></figure>
+    <section class="block">
+      <dl class="meta"><div><dt>期間</dt><dd>2025–2026</dd></div><div><dt>研究テーマ</dt><dd><span class="thread-tag is-adjacent">メタ・サイエンス</span></dd></div></dl>
+      <div class="p-text"><p>Mapping HCIは、HCIの論文そのものをデータとして扱い、この分野がどのように組み立てられ、離れた領域どうしがどのように近づいていくのかを調べるメタサイエンスのプロジェクトです。HCIにはシステム、実証研究、デザイン、理論といった性格の異なる研究が混在しており、中心となる概念の定義も十分には共有されていません。そのため、トピックの数や語の共起を数えるだけでは分野の変化を部分的にしか描けません。</p><p>現在は二つの取り組みを進めています。WISSpectrumは国内ワークショップWISSの論文を対象とした探索システムで、各論文の位置づけ・目的・手法・評価をLLMで要約し、観点ごとに埋め込みを計算したうえでACM CCSの軸と組み合わせ、研究者が関心のある観点から関連研究をたどれるようにしています。Topological Bridgesでは、SIGCHIの主要4会議の約3万本の論文から抽出した概念をパーシステントホモロジーで分析し、まだ同じ論文に現れていない異なる領域の概念の組のうち、のちに共起するようになるものを検出しました。</p><p>どちらの成果も、研究者が読み解き、問い直すための材料として位置づけており、将来の動向を言い当てることは目的にしていません。CHI 2026の研究でも、統合に至らなかった候補や語彙のノイズに由来する候補をあわせて示し、検出結果は分野の知識をもって検討すべき仮説として扱っています。</p></div>
+    </section>
+    <section class="block" id="structure"><h2>構成</h2><div class="block-body"><ol class="tree">
+<li class="node" id="wisspectrum">
+  <span class="node-no">01</span>
+  <div>
+    <div class="node-head"><h3>WISSpectrum</h3><time>2025</time></div>
+    <p class="node-sub">視点別近傍とCCS軸による文献探索システム</p>
+    <p class="node-tags"><span class="thread-tag"><b>T3</b>能力を拡張する計算機システム</span></p>
+    <div class="node-body has-image">
+      <div class="node-text"><p>WISSpectrumは、国内ワークショップWISSの論文を探索するためのシステムです。各論文の位置づけ・目的・手法・評価をLLMで日英二言語に要約し、要約ごとに埋め込みを計算することで、観点を選んで近傍論文を引けるようにしました。あわせてACM CCSの概念を付与し、その階層に沿って論文を一覧できます。WISS 2025のWISS Challengeで発表しました。</p><ul class="links node-actions"><li><a href="https://ksk432.com/WISSpectrrum.github.io/viz/" target="_blank" rel="noopener">論文エクスプローラ</a></li><li><a href="https://ksk432.com/WISSpectrrum.github.io/frontend/" target="_blank" rel="noopener">分類エクスプローラ</a></li><li><a href="https://scrapbox.io/wiss2025/C01_WISSpectrum:_%E8%A6%96%E7%82%B9%E5%88%A5%E8%BF%91%E5%82%8D%E3%81%A8CCS%E8%BB%B8%E3%81%AB%E3%82%88%E3%82%8B%E6%96%87%E7%8C%AE%E6%8E%A2%E7%B4%A2%E3%82%B7%E3%82%B9%E3%83%86%E3%83%A0" target="_blank" rel="noopener">WISS 2025 ページ</a></li><li><button type="button" class="btn" aria-expanded="false" aria-controls="preview-wisspectrum">プレビュー</button></li></ul><div class="preview" id="preview-wisspectrum" data-src="https://ksk432.com/WISSpectrrum.github.io/viz/" data-label="WISSpectrum" hidden><div class="preview-bar"><span>ksk432.com/WISSpectrrum.github.io/viz</span><a href="https://ksk432.com/WISSpectrrum.github.io/viz/" target="_blank" rel="noopener">開く ↗</a></div><div class="preview-viewport"></div></div><ul class="pubs">
+<li class="pub"><span class="pub-date">2025.12<span>Domestic</span></span><span><strong class="pub-title">WISSpectrum: A Literature Search System Using Perspective-Based Neighbors and CCS Axes</strong><span class="pub-line"><span class="self">Kosuke Shimizu</span>, Shohei Komatsu, <a href="https://labo.wtnv.jp/" target="_blank" rel="noopener">Hidenori Watanave</a></span><span class="pub-line">WISS 2025 (WISS Challenge)</span></span></li>
+</ul></div>
+      <img src="../../../image/projects/wisspectrum.jpg" alt="WISS Paper Explorer showing 604 papers arranged by ACM CCS concepts" loading="lazy">
+    </div>
+    
+  </div>
+</li>
+<li class="node" id="topological-bridges">
+  <span class="node-no">02</span>
+  <div>
+    <div class="node-head"><h3>Topological Bridges</h3><time>2026</time></div>
+    <p class="node-sub">パーシステントホモロジーによるHCIの領域横断的な概念リンクの検出</p>
+    
+    <div class="node-body">
+      <div class="node-text"><p>HCIの離れた領域どうしの結びつきを、同じ論文に現れる前に捉えられるかを調べた研究です。CHI・UIST・CSCW・UbiCompの約3万本の論文の概念を年ごとに埋め込み、パーシステントホモロジーで似た概念から順につないだときに長く埋まらない輪を求め、異なる概念群をまたぐ辺を橋渡し候補としました。過去データでの検証では、意味的に近い組より高い割合で後に共起し、共起までの中央値は2年でした。</p><ul class="links node-actions"><li><a href="https://ksk432.com/CHI26.github.io/" target="_blank" rel="noopener">補足サイト</a></li><li><button type="button" class="btn" aria-expanded="false" aria-controls="preview-topological-bridges">プレビュー</button></li></ul><div class="preview" id="preview-topological-bridges" data-src="https://ksk432.com/CHI26.github.io/" data-label="Topological Bridges" hidden><div class="preview-bar"><span>ksk432.com/CHI26.github.io</span><a href="https://ksk432.com/CHI26.github.io/" target="_blank" rel="noopener">開く ↗</a></div><div class="preview-viewport"></div></div><ul class="pubs">
+<li class="pub"><span class="pub-date">2026.04<span>Extended Abstract</span></span><span><strong class="pub-title">Detecting Cross-Area Concept Links in HCI Using Persistent Homology</strong><span class="pub-line"><span class="self">Kosuke Shimizu</span>, Shohei Komatsu, Kazuhiro Hayashi, <a href="https://www.xpercept.aclab.esys.tsukuba.ac.jp/" target="_blank" rel="noopener">Keiichi Zempo</a></span><span class="pub-line">CHI 2026 Extended Abstracts · DOI <a href="https://doi.org/10.1145/3772363.3798751" target="_blank" rel="noopener">10.1145/3772363.3798751</a></span></span></li>
+</ul></div>
+      
+    </div>
+    
+  </div>
+</li>
+</ol></div></section>
+  </main>
+
+  <footer><p>&copy; 2026 ksk432. All Rights Reserved.</p></footer>
+  <script src="../../../projects/projects.js"></script>
+</body>
+</html>

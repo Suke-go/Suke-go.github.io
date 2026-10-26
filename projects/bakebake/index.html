@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Project BAKEBAKE — KSK432 Projects</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Yokai folklore archives and generative AI">
+  <link rel="canonical" href="https://ksk432.com/projects/bakebake/">
+  <link rel="alternate" hreflang="en" href="https://ksk432.com/projects/bakebake/">
+  <link rel="alternate" hreflang="ja" href="https://ksk432.com/projects/bakebake/ja/">
+  <meta property="og:title" content="Project BAKEBAKE — KSK432 Projects">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://ksk432.com/projects/bakebake/">
+  <meta property="og:site_name" content="KSK432">
+  <link rel="stylesheet" href="../../style.css">
+  <link rel="stylesheet" href="../../projects/projects.css">
+</head>
+<body class="projects-body" data-preview-open="Preview" data-preview-close="Close">
+  <nav id="navbar" class="projects-nav">
+    <ul>
+      <li><a class="menu-link" href="../../en/summary.html">Home</a></li>
+      <li><a class="menu-link active" href="../../projects/">Projects</a></li>
+      <li><a class="menu-link" href="../../en/publications.html">Publications</a></li>
+      <li><a class="menu-link" href="../../blog/index.html">Blog</a></li>
+      <li><a class="menu-link" href="../../en/index.html">Terminal</a></li>
+      <li><a class="menu-link" href="../../projects/bakebake/ja/">JP</a></li>
+    </ul>
+  </nav>
+
+  <main class="stage">
+    <header class="p-head">
+      <p class="kicker"><a href="../../projects/">Projects</a> / Research</p>
+      <h1>Project BAKEBAKE</h1>
+      <p class="p-sub">Yokai folklore archives and generative AI</p>
+    </header>
+    <figure class="p-cover"><img src="../../image/projects/bakebake-venue.jpg" alt="Visitors gathered around the BAKEBAKE XR exhibition terminals"></figure>
+    <section class="block">
+      <dl class="meta"><div><dt>Period</dt><dd>2026</dd></div><div><dt>Threads</dt><dd><span class="thread-tag is-adjacent">Digital Archive (Yokai)</span></dd></div><div><dt>Links</dt><dd><ul class="links"><li><a href="https://bakebake.org/" target="_blank" rel="noopener">Project Site</a></li></ul></dd></div></dl>
+      <div class="p-text"><p>Project BAKEBAKE approaches yokai folklore from two directions. The first is computational analysis of the Database of Folktales of Mysterious Phenomena and Yokai, maintained by the International Research Center for Japanese Studies (Nichibunken), which holds more than 35,000 records: how the records are distributed, where they are biased, and which types recur. The second is an apparatus that uses yokai as an interface through which people today can put an unexplained experience or a vague unease into words, give it a name and a form, and look at it from outside.</p><p>On the archive side, the team represents the places mentioned in short folklore summaries without claiming more spatial precision than the records support; this work was published in the ISPRS Archives for the FOSS4G 2026 Academic Track. On the generation side, a visitor&#x27;s account is matched against the database, generative models propose candidate names, narratives, and images, and the visitor chooses, edits, or rejects them before the result is printed on thermal paper. The apparatus was exhibited at YOKAI EXPO 2026 on Shodoshima from February to May 2026 and is reported at HAI 2026 and in SIGGRAPH Asia 2026 Art Papers.</p><p>The team (Kosuke Shimizu, Hiroki Ichikura, Riri Ikebe, Mirai Hoshikawa) is based at the University of Tsukuba and Japan Women&#x27;s University and is supported by the Nippon Foundation HUMAI Program. Kosuke Shimizu implements the apparatus and designs the experiments.</p></div>
+    </section>
+    <section class="block" id="demo"><h2>Demo</h2><div class="block-body"><div class="stack"><div class="preview" id="preview-bakebake" data-src="https://bakebake.org/" data-label="Project BAKEBAKE"><div class="preview-bar"><span>bakebake.org</span><a href="https://bakebake.org/" target="_blank" rel="noopener">Open ↗</a></div><div class="preview-viewport"><button type="button" class="preview-load" style="background-image: url(&quot;../../image/projects/bakebake-site.jpg&quot;)"><span>Load live preview</span></button></div></div></div></div></section><section class="block" id="structure"><h2>Structure</h2><div class="block-body"><ol class="tree">
+<li class="node" id="yokai-geography">
+  <span class="node-no">01</span>
+  <div>
+    <div class="node-head"><h3>Yokai Geography</h3><time>2026</time></div>
+    <p class="node-sub">Resolution-aware representation of place evidence in a yokai archive</p>
+    
+    <div class="node-body">
+      <div class="node-text"><p>Folklore records often give only a prefecture, and their summaries mix place names with descriptions of rivers, roads, or graves, so plotting a representative point overstates precision. For 33,378 records from the Nichibunken yokai database, we built a representation that keeps administrative support areas, candidate toponyms, non-toponymic place descriptions, and provenance separate from display anchors. Rule-based matching assigned municipality support to 1,231 records, shrinking support area by a median 97.5% relative to the prefecture. A distance test did not show Kappa records lying closer to mapped major water.</p><ul class="pubs">
+<li class="pub"><span class="pub-date">2026.08<span>Proceedings</span></span><span><strong class="pub-title">From Point Anchors to Geospatial Support: A Resolution-Aware Representation of Toponymic and Non-Toponymic Place Evidence in a Japanese Yokai Archive</strong><span class="pub-line"><span class="self">Kosuke Shimizu</span>, Hiroki Ichikura, Riri Ikebe, Mirai Hoshikawa</span><span class="pub-line">ISPRS Archives L-4/W1-2026, pp. 283–290 · DOI <a href="https://doi.org/10.5194/isprs-archives-l-4-w1-2026-283-2026" target="_blank" rel="noopener">10.5194/isprs-archives-l-4-w1-2026-283-2026</a></span></span></li>
+</ul></div>
+      
+    </div>
+    
+  </div>
+</li>
+<li class="node" id="bakebake-xr-generator">
+  <span class="node-no">02</span>
+  <div>
+    <div class="node-head"><h3>BAKEBAKE XR Generator</h3><time>2026</time></div>
+    <p class="node-sub">An installation that turns an unexplained experience into a yokai</p>
+    <p class="node-tags"><span class="thread-tag"><b>T2</b>Interfaces for Reconnecting with Memory</span></p>
+    <div class="node-body has-image">
+      <div class="node-text"><p>An installation that compresses the naming of a yokai into a few minutes. A visitor describes an unexplained experience; the system retrieves similar records from the Nichibunken database and proposes candidate names, short narratives, and an image in one of five pictorial styles, which the visitor accepts, edits, or replaces. The entry is printed on thermal paper that fades. At YOKAI EXPO 2026 on Shodoshima, some entries named workplace and infrastructure unease with no precedent in the database.</p><ul class="links node-actions"><li><a href="https://www.bakemon.net/" target="_blank" rel="noopener">Exhibition Site</a></li><li><a href="https://github.com/Suke-go/bakebake-generator" target="_blank" rel="noopener">GitHub</a></li><li><button type="button" class="btn" aria-expanded="false" aria-controls="preview-bakebake-xr-generator">Preview</button></li></ul><div class="preview" id="preview-bakebake-xr-generator" data-src="https://www.bakemon.net/" data-label="BAKEBAKE XR Generator" hidden><div class="preview-bar"><span>www.bakemon.net</span><a href="https://www.bakemon.net/" target="_blank" rel="noopener">Open ↗</a></div><div class="preview-viewport"></div></div><ul class="pubs">
+<li class="pub"><span class="pub-date">2026.11<span>Poster &amp; Demo</span></span><span><strong class="pub-title">BAKEBAKE: Making Ambiguous Experiences Visible through Generative Yokai</strong><span class="pub-line"><span class="self">Kosuke Shimizu</span>, Riri Ikebe, Hiroki Ichikura, Mirai Hoshikawa</span><span class="pub-line">HAI 2026 Poster &amp; Demo Track<span class="status">Forthcoming</span> · DOI <a href="https://doi.org/10.1145/3841580.3845680" target="_blank" rel="noopener">10.1145/3841580.3845680</a></span></span></li>
+<li class="pub"><span class="pub-date">2026.12<span>Art Paper</span></span><span><strong class="pub-title">Naming the Inexplicable: A Generative Apparatus for Rehearsing Yokai-Making in Compressed Communal Time</strong><span class="pub-line"><span class="self">Kosuke Shimizu</span>, Riri Ikebe, Hiroki Ichikura, Mirai Hoshikawa</span><span class="pub-line">SIGGRAPH Asia 2026 Art Papers (Long)<span class="status">Forthcoming</span> · DOI <a href="https://doi.org/10.1145/3829215.3843681" target="_blank" rel="noopener">10.1145/3829215.3843681</a></span></span></li>
+</ul></div>
+      <img src="../../image/projects/bakebake-generator.jpg" alt="Landing screen of the BAKEBAKE XR generator" loading="lazy">
+    </div>
+    
+  </div>
+</li>
+</ol></div></section><section class="block"><h2>Related, by Collaborators</h2><div class="block-body"><ul class="pubs is-related">
+<li class="pub"><span class="pub-date">2026.01<span>Journal (Special Issue)</span></span><span><strong class="pub-title">&quot;Bakebake XR&quot;: A Platform for Interactive Digital Storytelling to Preserve Youkai Using Immersive Technology and AI</strong><span class="pub-line">Hiroki Ichikura, <span class="self">Kosuke Shimizu</span>, Mirai Hoshikawa, Riri Ikebe</span><span class="pub-line">Journal of the Japan Society for Digital Archive · DOI <a href="https://doi.org/10.24506/jsda.9.s2_s226" target="_blank" rel="noopener">10.24506/jsda.9.s2_s226</a></span></span></li>
+</ul></div></section>
+  </main>
+
+  <footer><p>&copy; 2026 ksk432. All Rights Reserved.</p></footer>
+  <script src="../../projects/projects.js"></script>
+</body>
+</html>

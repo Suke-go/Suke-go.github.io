@@ -465,7 +465,7 @@ Contact:
             // Project sub-pages
             binauralaudio: {
                 title: "Binaural Audio",
-                content: `Open: Research introduction directory (Binaural Audio).\n\nIf a tab didn't open, use this link: <a href="../research/binauralaudio/" target="_blank" rel="noopener">/research/binauralaudio/</a>`
+                content: `Open: Research introduction directory (Binaural Audio).\n\nIf a tab didn't open, use this link: <a href="../projects/binaural-audio/" target="_blank" rel="noopener">/projects/binaural-audio/</a>`
             },
             'floating-captions': {
                 title: "Floating Captions",
@@ -517,10 +517,11 @@ Contact:
                         "date": "2026-10-26"
                     },
                     {
-                        "title": "Auditory Contrast Networks: Explaining Prominence with a Parsimonious Model",
+                        "title": "Auditory Contrast Network for Text-Free Prominence Detection",
                         "authors": "Kosuke Shimizu, Keiichi Zempo",
                         "year": "2026",
-                        "journal": "Proceedings of the Annual Conference of the International Speech Communication Association, INTERSPEECH 2026. Forthcoming.",
+                        "journal": "Proceedings of the Annual Conference of the International Speech Communication Association, INTERSPEECH 2026. pp. 3696-3700.",
+                        "links": ["https://www.isca-archive.org/interspeech_2026/shimizu26b_interspeech.html"],
                         "type": "Conference Proceedings",
                         "date": "2026-10"
                     },
@@ -1617,6 +1618,8 @@ NOTE: This information is classified. Unauthorized access will be logged.`
                         <p>${project.description}</p>
                     </div>`;
                 });
+                output += `
+All projects: <a href="../projects/index.html">Projects page</a>`;
             } else if (section === 'publications') {
                 output += 'PUBLICATIONS:\n\n';
                 content.publications.items.forEach(pub => {
@@ -1659,7 +1662,7 @@ NOTE: This information is classified. Unauthorized access will be logged.`
 
             // Auto-open target pages for specific project subpages
             if (section === 'binauralaudio') {
-                setTimeout(() => { try { window.open('../research/binauralaudio/', '_blank'); } catch (e) { } }, 0);
+                setTimeout(() => { try { window.open('../projects/binaural-audio/', '_blank'); } catch (e) { } }, 0);
             } else if (section === 'floating-captions') {
                 setTimeout(() => { try { window.open('https://dl.acm.org/doi/10.1145/3715669.3726816', '_blank'); } catch (e) { } }, 0);
             }

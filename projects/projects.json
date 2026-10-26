@@ -1,0 +1,1072 @@
+{
+  "threads": {
+    "T1": {
+      "en": "Somatosensory Stimulation Interfaces",
+      "ja": "体性感覚刺激インターフェース"
+    },
+    "T2": {
+      "en": "Interfaces for Reconnecting with Memory",
+      "ja": "記憶と再接続する環境"
+    },
+    "T3": {
+      "en": "Computational Systems for Human Capability",
+      "ja": "能力を拡張する計算機システム"
+    }
+  },
+  "people": {
+    "Kosuke Shimizu": "",
+    "Keiichi Zempo": "https://www.xpercept.aclab.esys.tsukuba.ac.jp/",
+    "Shogo Fukushima": "https://shogofukushima.com/",
+    "Masaki Matsubara": "https://sites.google.com/view/matsubalab/home",
+    "Takeshi Naemura": "https://nae-lab.org/",
+    "Hidenori Watanave": "https://labo.wtnv.jp/",
+    "Keigo Matsumoto": "https://trios.tsukuba.ac.jp/en/researcher/0000005038",
+    "Anji Fujiwara": "https://scholar.google.com/citations?user=UvIvUX8AAAAJ",
+    "Kenji Suzuki": "https://www.ai.iit.tsukuba.ac.jp/",
+    "Shota Aso": ""
+  },
+  "projects": [
+    {
+      "slug": "bakebake",
+      "title": "Project BAKEBAKE",
+      "subtitle": "Yokai folklore archives and generative AI",
+      "image": "image/projects/bakebake-venue.jpg",
+      "image_alt": "Visitors gathered around the BAKEBAKE XR exhibition terminals",
+      "description": [
+        "Project BAKEBAKE approaches yokai folklore from two directions. The first is computational analysis of the Database of Folktales of Mysterious Phenomena and Yokai, maintained by the International Research Center for Japanese Studies (Nichibunken), which holds more than 35,000 records: how the records are distributed, where they are biased, and which types recur. The second is an apparatus that uses yokai as an interface through which people today can put an unexplained experience or a vague unease into words, give it a name and a form, and look at it from outside.",
+        "On the archive side, the team represents the places mentioned in short folklore summaries without claiming more spatial precision than the records support; this work was published in the ISPRS Archives for the FOSS4G 2026 Academic Track. On the generation side, a visitor's account is matched against the database, generative models propose candidate names, narratives, and images, and the visitor chooses, edits, or rejects them before the result is printed on thermal paper. The apparatus was exhibited at YOKAI EXPO 2026 on Shodoshima from February to May 2026 and is reported at HAI 2026 and in SIGGRAPH Asia 2026 Art Papers.",
+        "The team (Kosuke Shimizu, Hiroki Ichikura, Riri Ikebe, Mirai Hoshikawa) is based at the University of Tsukuba and Japan Women's University and is supported by the Nippon Foundation HUMAI Program. Kosuke Shimizu implements the apparatus and designs the experiments."
+      ],
+      "adjacent": [
+        "Digital Archive (Yokai)"
+      ],
+      "links": [
+        {
+          "label": "Project Site",
+          "url": "https://bakebake.org/",
+          "label_ja": "プロジェクトサイト"
+        }
+      ],
+      "preview": "https://bakebake.org/",
+      "children": [
+        {
+          "title": "BAKEBAKE XR Generator",
+          "subtitle": "An installation that turns an unexplained experience into a yokai",
+          "threads": [
+            "T2"
+          ],
+          "image": "image/projects/bakebake-generator.jpg",
+          "image_alt": "Landing screen of the BAKEBAKE XR generator",
+          "description": "An installation that compresses the naming of a yokai into a few minutes. A visitor describes an unexplained experience; the system retrieves similar records from the Nichibunken database and proposes candidate names, short narratives, and an image in one of five pictorial styles, which the visitor accepts, edits, or replaces. The entry is printed on thermal paper that fades. At YOKAI EXPO 2026 on Shodoshima, some entries named workplace and infrastructure unease with no precedent in the database.",
+          "links": [
+            {
+              "label": "Exhibition Site",
+              "url": "https://www.bakemon.net/",
+              "label_ja": "展示サイト"
+            },
+            {
+              "label": "GitHub",
+              "url": "https://github.com/Suke-go/bakebake-generator"
+            }
+          ],
+          "preview": "https://www.bakemon.net/",
+          "outputs": [
+            {
+              "date": "2026-11",
+              "kind": "Poster & Demo",
+              "title": "BAKEBAKE: Making Ambiguous Experiences Visible through Generative Yokai",
+              "authors": [
+                "Kosuke Shimizu",
+                "Riri Ikebe",
+                "Hiroki Ichikura",
+                "Mirai Hoshikawa"
+              ],
+              "venue": "HAI 2026 Poster & Demo Track",
+              "doi": "10.1145/3841580.3845680",
+              "status": "Forthcoming"
+            },
+            {
+              "date": "2026-12",
+              "kind": "Art Paper",
+              "title": "Naming the Inexplicable: A Generative Apparatus for Rehearsing Yokai-Making in Compressed Communal Time",
+              "authors": [
+                "Kosuke Shimizu",
+                "Riri Ikebe",
+                "Hiroki Ichikura",
+                "Mirai Hoshikawa"
+              ],
+              "venue": "SIGGRAPH Asia 2026 Art Papers (Long)",
+              "doi": "10.1145/3829215.3843681",
+              "status": "Forthcoming"
+            }
+          ],
+          "subtitle_ja": "体験から妖怪をつくるインスタレーション「ばけばけ発生器」",
+          "description_ja": "来場者の体験から数分で妖怪をつくるインスタレーションです。体験を入力すると、日文研の伝承データベースから似た記録を探し、名前と語り、水墨画や浮世絵など五つの画風による図像の候補を提案します。来場者が選び、手を加えた妖怪は、やがて消える感熱紙に印字されます。小豆島の妖怪EXPO 2026では、職場やインフラにまつわる、データベースに前例のない妖怪も生まれました。"
+        },
+        {
+          "title": "Yokai Geography",
+          "subtitle": "Resolution-aware representation of place evidence in a yokai archive",
+          "date": "2026-08",
+          "description": "Folklore records often give only a prefecture, and their summaries mix place names with descriptions of rivers, roads, or graves, so plotting a representative point overstates precision. For 33,378 records from the Nichibunken yokai database, we built a representation that keeps administrative support areas, candidate toponyms, non-toponymic place descriptions, and provenance separate from display anchors. Rule-based matching assigned municipality support to 1,231 records, shrinking support area by a median 97.5% relative to the prefecture. A distance test did not show Kappa records lying closer to mapped major water.",
+          "outputs": [
+            {
+              "date": "2026-08",
+              "kind": "Proceedings",
+              "title": "From Point Anchors to Geospatial Support: A Resolution-Aware Representation of Toponymic and Non-Toponymic Place Evidence in a Japanese Yokai Archive",
+              "authors": [
+                "Kosuke Shimizu",
+                "Hiroki Ichikura",
+                "Riri Ikebe",
+                "Mirai Hoshikawa"
+              ],
+              "venue": "ISPRS Archives L-4/W1-2026, pp. 283–290",
+              "doi": "10.5194/isprs-archives-l-4-w1-2026-283-2026"
+            }
+          ],
+          "title_ja": "妖怪の地理",
+          "subtitle_ja": "妖怪伝承アーカイブの場所情報を解像度に応じて表す",
+          "description_ja": "伝承記録の多くは県単位の範囲しか示さず、要旨には地名と川や道、墓などの記述が混在します。日文研データベースの33,378件について、行政域の支持範囲、地名候補、場所の記述、根拠の出所を表示用の代表点と分けて保持する表現を作りました。市町村まで絞れた1,231件では、支持範囲の面積が県に比べ中央値で97.5%縮小しました。河童の記録が大きな水域に近いという仮説は支持されませんでした。",
+          "links": []
+        }
+      ],
+      "related": [
+        {
+          "date": "2026-01",
+          "kind": "Journal (Special Issue)",
+          "title": "\"Bakebake XR\": A Platform for Interactive Digital Storytelling to Preserve Youkai Using Immersive Technology and AI",
+          "authors": [
+            "Hiroki Ichikura",
+            "Kosuke Shimizu",
+            "Mirai Hoshikawa",
+            "Riri Ikebe"
+          ],
+          "venue": "Journal of the Japan Society for Digital Archive",
+          "doi": "10.24506/jsda.9.s2_s226"
+        }
+      ],
+      "subtitle_ja": "妖怪伝承アーカイブと生成AI",
+      "description_ja": [
+        "Project BAKEBAKEは、妖怪伝承を二つの方向から扱う研究プロジェクトです。一つは、国際日本文化研究センター（日文研）の「怪異・妖怪伝承データベース」に収められた3万5千件を超える記録を計算論的に分析し、伝承の分布や偏り、類型を読み直す研究です。もう一つは、現代の人が説明のつかない体験や言葉にしにくい違和感に名前と姿を与え、外から眺められるようにするためのインターフェースとして妖怪を用いる装置の制作と展示です。",
+        "アーカイブ分析では、短い伝承要旨に含まれる場所の情報を、記録が裏づける以上の精度を持たせずに地図上で表す方法を検討し、FOSS4G 2026のAcademic Track（ISPRS Archives）で発表しました。生成装置では、来場者が語った体験をデータベースと照合し、生成AIが名前・語り・図像の候補を提案します。来場者はそれを選び、直し、あるいは棄却し、できあがった妖怪は感熱紙に印字されます。装置は2026年2月から5月にかけて小豆島の妖怪EXPO 2026で展示し、その内容をHAI 2026とSIGGRAPH Asia 2026 Art Papersで発表します。",
+        "メンバーは筑波大学と日本女子大学を拠点とする清水紘輔、一倉弘毅、池辺莉々、干川未来の4名で、日本財団HUMAIプログラムの支援を受けて活動しています。清水は生成装置の実装と実験設計を担当しています。"
+      ],
+      "preview_image": "image/projects/bakebake-site.jpg",
+      "category": "research"
+    },
+    {
+      "slug": "metapuppet",
+      "title": "MetaPuppet",
+      "subtitle": "Operating your own body like a marionette",
+      "image": "image/metapuppet-ring-targets-sync.png",
+      "image_alt": "MetaPuppet participant reaching for glowing ring targets in VR",
+      "description": [
+        "MetaPuppet is a VR experience in which the operator and the operated are the same person. A stereo camera films the participant, the person is cut out of the image in real time, and this live self-image is shown in VR. Cables attached to the wrists are wound by motors, so input from the participant's own hands lifts their own arms. It was made with Anji Fujiwara for IVRC 2026.",
+        "The experience is a rhythm game played by raising and lowering the hands to targets. The task stays the same while the view changes in three stages: first person, a third-person doll that copies the participant's pose, and finally the participant's own camera image. Scoring and the cables use only the headset's hand tracking; the camera image and pose estimation are used for display.",
+        "Video travels from a Raspberry Pi stereo camera to the PC over a custom UDP protocol, and person matting (Robust Video Matting) and pose estimation run on the GPU. A VRST 2026 poster with Keigo Matsumoto presents the cable-driven device as a tool for studying how agency and body ownership change across visual perspectives."
+      ],
+      "threads": [
+        "T1"
+      ],
+      "links": [
+        {
+          "label": "Project Site",
+          "url": "https://meta-puppet.github.io/",
+          "label_ja": "プロジェクトサイト"
+        }
+      ],
+      "preview": "https://meta-puppet.github.io/",
+      "outputs": [
+        {
+          "date": "2026-09",
+          "kind": "Contest",
+          "title": "MetaPuppet: Design of a Bodily Experience Where the Operator and the Operated are Identical",
+          "authors": [
+            "Anji Fujiwara",
+            "Kosuke Shimizu"
+          ],
+          "venue": "Interverse Virtual Reality Challenge (IVRC) 2026"
+        },
+        {
+          "date": "2026-11",
+          "kind": "Poster",
+          "title": "Where Is the Acting Self? A Cable-Driven Device for Studying Agency and Body Ownership across Visual Perspectives",
+          "authors": [
+            "Anji Fujiwara",
+            "Kosuke Shimizu",
+            "Keigo Matsumoto"
+          ],
+          "venue": "Proceedings of the 32nd ACM Symposium on Virtual Reality Software and Technology (VRST 2026), Poster Track",
+          "status": "In press"
+        }
+      ],
+      "subtitle_ja": "自分の体を操り人形のように操作する",
+      "description_ja": [
+        "MetaPuppetは、操作する人と操作される人が同じになるVR体験です。ステレオカメラで撮った参加者の姿をリアルタイムに切り出してVR内に映し、手首につないだケーブルをモーターで巻き取って、本人の手の入力で本人の腕を持ち上げます。藤原安路とIVRC 2026に向けて制作しました。",
+        "体験は、手を上げ下げして的に合わせるリズムゲームです。操作は同じまま、見え方が一人称、姿勢を写した三人称の人形、本人の実写映像の順に切り替わります。判定とケーブルの駆動にはヘッドセットのハンドトラッキングだけを使い、カメラ映像と姿勢推定は表示にのみ使っています。",
+        "映像はRaspberry Piのステレオカメラから独自のUDP通信でPCへ送り、GPU上で人物の切り抜きと姿勢推定を行います。松本啓吾先生と共著のVRST 2026ポスターでは、このケーブル駆動装置を、視点によって行為主体感と身体所有感がどう変わるかを調べる装置として報告します。"
+      ],
+      "category": "research"
+    },
+    {
+      "slug": "speech-emphasis",
+      "title": "Speech Emphasis",
+      "subtitle": "Finding the words a speaker stresses, then showing them in captions and letting listeners feel them",
+      "image": "image/projects/visceral-resonance.jpg",
+      "image_alt": "Visceral Resonance interface title screen",
+      "description": [
+        "When people speak, they make some words stand out by lengthening them, saying them louder, or moving their pitch. Linguists call this prominence. Captions and transcripts lose it, because every word looks the same on screen. This project studies which acoustic cues make a word stand out, builds detectors light enough to run in a browser in real time, and passes the result on to listeners in two forms.",
+        "On the modeling side, an ICSV32 paper predicted human emphasis labels and labels computed with a continuous wavelet transform (CWT) on the same words, and found that the two do not support the same conclusions about which cues matter. An Interspeech 2026 paper introduced the Auditory Contrast Network, a model with at most 238 parameters that judges each word against its neighbours from duration, energy and spectral cues, without using text.",
+        "On the presentation side, detected emphasis sets the size or motion of words in captions, in three browser demos: live captions from a microphone, a player for TED talk excerpts, and a playground for moving type. In Visceral Resonance, the same signal drives electrical muscle stimulation on the listener's abdomen; it was shown as a demo at Augmented Humans 2026."
+      ],
+      "threads": [
+        "T1",
+        "T3"
+      ],
+      "children": [
+        {
+          "title": "Emphasis Captions",
+          "title_ja": "強調が見える字幕",
+          "subtitle": "Captions that carry how words are spoken, not only what is said",
+          "subtitle_ja": "話された内容に加えて、どう話されたかも伝える字幕",
+          "threads": [
+            "T3"
+          ],
+          "description": "Ordinary captions show what was said but not which words the speaker stressed. These three demos map detected emphasis onto the caption itself: word size in live microphone captions, size and weight over TED talk excerpts, and syllable motion in a playground for moving type. All run in the browser, and the emphasis is estimated from the sound of the voice.",
+          "description_ja": "通常の字幕は、何が話されたかは伝えても、話し手がどの語を強めたかは伝えません。ここでは検出した強調を字幕そのものに反映させる三つのデモを作りました。マイク入力のライブ字幕では文字の大きさ、TEDトークの抜粋では大きさと太さ、動く文字の試作環境では音節の動きに強調を割り当てています。いずれもブラウザで動作し、強調は声の音響特徴から推定しています。",
+          "children": [
+            {
+              "title": "Live Captions",
+              "title_ja": "ライブ字幕",
+              "date": "2026-01",
+              "subtitle": "Microphone captions in which stressed words appear larger",
+              "subtitle_ja": "強められた語が大きく表示される、マイク入力の字幕",
+              "description": "Speech from the microphone is transcribed by the browser's Web Speech API, or optionally by Google Cloud Speech-to-Text through a small server, while a C prominence detector compiled to WebAssembly scores the same audio. Each word is shown in one of three sizes following WCAG-based 12/18/24 pt steps, so stressed words appear larger. A few seconds of silence set the noise floor, and reading a sample sentence adapts the thresholds to the speaker's voice.",
+              "description_ja": "マイクの音声をブラウザのWeb Speech API（またはサーバ経由のGoogle Cloud Speech-to-Text）で文字に起こし、同じ音声をWebAssembly化したC言語の検出器で解析します。各語はWCAGに基づく12/18/24ptの3段階で表示され、強められた語ほど大きくなります。開始時の無音と例文の読み上げで、雑音や話者の声に閾値を合わせます。",
+              "links": [
+                {
+                  "label": "Open Demo",
+                  "label_ja": "デモを開く",
+                  "url": "https://ksk432.com/prominence-subtitle.github.io/",
+                  "alias": "projects/speech-emphasis/live-captions/"
+                },
+                {
+                  "label": "GitHub",
+                  "url": "https://github.com/Suke-go/prominence-subtitle.github.io"
+                }
+              ]
+            },
+            {
+              "title": "TED Talk Player",
+              "date": "2026-03",
+              "subtitle": "TED talk excerpts with four subtitle styles to compare",
+              "subtitle_ja": "4種類の字幕を切り替えて見比べられるTEDトークの抜粋",
+              "image": "image/projects/prominence-player.jpg",
+              "image_alt": "Prominence Player clip list of TED talk excerpts grouped by high and low prominence",
+              "description": "Ninety-second excerpts from six TED talks, three with strongly marked emphasis and three with flatter delivery, play with word-aligned subtitles. Four subtitle modes can be switched: uniform text, sizes by part of speech, sizes and weights from Auditory Contrast Network prominence scores, and a combination of part of speech and prominence.",
+              "description_ja": "6本のTEDトークから90秒ずつを切り出し、強調のはっきりした話し方の3本と平坦な話し方の3本に分けて、語単位で同期した字幕付きで再生します。字幕は、全語同じ大きさ、品詞に応じた大きさ、Auditory Contrast Networkによる強調の推定値に応じた大きさと太さ、品詞と強調の組み合わせ、の4種類を切り替えて見比べられます。",
+              "links": [
+                {
+                  "label": "Open Player",
+                  "label_ja": "プレーヤーを開く",
+                  "url": "https://ksk432.com/ViceralResonance.github.io/ted-player/",
+                  "alias": "projects/speech-emphasis/ted-player/"
+                }
+              ],
+              "preview": "https://ksk432.com/ViceralResonance.github.io/ted-player/",
+              "title_ja": "TEDトーク字幕プレーヤー"
+            },
+            {
+              "title": "Moving Captions",
+              "date": "2026-08",
+              "subtitle": "A playground where stressed syllables move, driven by sound alone",
+              "subtitle_ja": "音だけを手がかりに、強められた音節が動く字幕の試作環境",
+              "image": "image/projects/prosody-playground.jpg",
+              "image_alt": "A TED clip with moving captions, motion presets, and a timeline of emphasis and pitch",
+              "description": "Prosody Playground animates captions on TED excerpts syllable by syllable, using signal processing only and no pronunciation dictionary. Syllable nuclei, onset sharpness, noisiness and nucleus length are measured from the band-passed energy envelope, spectral flux and zero-crossing rate, and a syllable moves only when it stands out from the surrounding 1.5 seconds. Presets switch between static, weight-based and onomatopoeia-like motion, and a timeline shows prominence and pitch for each clip.",
+              "description_ja": "TEDトークの抜粋の字幕を、発音辞書を使わず信号処理だけで音節ごとに動かす試作環境です。エネルギー包絡、スペクトルフラックス、ゼロ交差率から音節核、立ち上がりの鋭さ、雑音らしさ、母音の長さを測り、前後1.5秒の中で際立つ音節だけを動かします。静的表示、太さの変化、オノマトペ風の動きなどをプリセットで切り替えられます。",
+              "links": [
+                {
+                  "label": "Open Playground",
+                  "label_ja": "プレイグラウンドを開く",
+                  "url": "https://ksk432.com/prominence-subtitle.github.io/demos/kinetic-captions/",
+                  "alias": "projects/speech-emphasis/moving-captions/"
+                }
+              ],
+              "preview": "https://ksk432.com/prominence-subtitle.github.io/demos/kinetic-captions/",
+              "title_ja": "動く字幕"
+            }
+          ],
+          "links": []
+        },
+        {
+          "title": "Visceral Resonance",
+          "subtitle": "Feeling a speaker's emphasis as abdominal muscle stimulation",
+          "date": "2026-03",
+          "threads": [
+            "T1"
+          ],
+          "description": "Visceral Resonance detects emphasis in live speech and delivers it to the listener's abdomen as electrical muscle stimulation (EMS) from a commercial audio-driven device. The working hypothesis is that contracting the abdominal muscles changes intra-abdominal pressure and may contribute to gut-like sensations. It was shown as a demo at Augmented Humans 2026; a sole-authored workshop paper at the same conference discusses how much freedom such modality translation should leave open, with a focus on agency.",
+          "video": "IRAJAS35-Fs",
+          "video_title": "Visceral Resonance (AHs 2026 Demo)",
+          "links": [
+            {
+              "label": "Demo Site",
+              "label_ja": "デモサイト",
+              "url": "https://ksk432.com/ViceralResonance.github.io/",
+              "alias": "projects/speech-emphasis/visceral-resonance/"
+            },
+            {
+              "label": "YouTube",
+              "url": "https://youtu.be/IRAJAS35-Fs"
+            }
+          ],
+          "preview": "https://ksk432.com/ViceralResonance.github.io/",
+          "outputs": [
+            {
+              "date": "2026-03",
+              "kind": "Demo",
+              "title": "Visceral Resonance: Augmenting Speech Listening with Prominence-Synchronized Electrical Muscle Stimulation",
+              "authors": [
+                "Kosuke Shimizu",
+                "Ron Lian Nikolaus Tan",
+                "Shogo Fukushima",
+                "Keiichi Zempo"
+              ],
+              "venue": "Augmented Humans 2026 Demo Track, pp. 840–842",
+              "doi": "10.1145/3795011.3797423"
+            },
+            {
+              "date": "2026-03",
+              "kind": "Workshop",
+              "title": "Designing Degrees of Freedom in Modality Translation: Agency in Inclusive Augmented Performance",
+              "authors": [
+                "Kosuke Shimizu"
+              ],
+              "venue": "Augmented Humans 2026 Workshop: Reimagining Human Augmentation through Disability-Led Performance"
+            }
+          ],
+          "subtitle_ja": "話し手の強調を、腹部への電気刺激として感じる",
+          "description_ja": "話し手の声から強調をリアルタイムに検出し、市販の音声駆動型EMS機器で聞き手の腹部に電気的筋刺激として伝えるシステムです。腹筋の収縮が腹腔内圧を変え、腹の底で感じるような感覚につながりうるという仮説に立ち、Augmented Humans 2026でデモ展示しました。同会議のワークショップ論文（単著）では、感覚間の変換に残す自由度を主体性の観点から論じています。"
+        },
+        {
+          "title": "Modeling Emphasis",
+          "subtitle": "Which acoustic cues make a word sound prominent?",
+          "date": "2026-07",
+          "description": "Two papers ask what in the sound makes a word stand out. At ICSV32, human and CWT-derived emphasis labels on the same words were predicted from the same cues; which cues helped beyond duration depended on the label. At Interspeech 2026, the Auditory Contrast Network, with three acoustic features and at most 238 parameters, matched a 94.6M-parameter wav2vec2 baseline in cross-corpus transfer (r = 0.412 vs 0.409), with the cue order duration > energy > spectral ≫ F0.",
+          "links": [
+            {
+              "label": "GitHub",
+              "url": "https://github.com/Suke-go/PROMINENCE_Detection"
+            },
+            {
+              "label": "Blog: After Interspeech",
+              "url": "blog/interspeech-frustration.html",
+              "label_ja": "ブログ：Interspeechで感じたこと"
+            }
+          ],
+          "outputs": [
+            {
+              "date": "2026-07",
+              "kind": "Proceedings",
+              "title": "Target-Dependent Cue Rankings in Prosodic Prominence: Comparing Human and CWT Labels",
+              "authors": [
+                "Kosuke Shimizu",
+                "Keiichi Zempo"
+              ],
+              "venue": "32nd International Congress on Sound and Vibration (ICSV32)"
+            },
+            {
+              "date": "2026-10",
+              "kind": "Proceedings",
+              "title": "Auditory Contrast Network for Text-Free Prominence Detection",
+              "authors": [
+                "Kosuke Shimizu",
+                "Keiichi Zempo"
+              ],
+              "venue": "Proc. INTERSPEECH 2026, pp. 3696–3700",
+              "url": "https://www.isca-archive.org/interspeech_2026/shimizu26b_interspeech.html",
+              "url_label": "ISCA Archive"
+            }
+          ],
+          "title_ja": "強調のモデル化",
+          "subtitle_ja": "どの音響的な手がかりが語を際立たせるのか",
+          "description_ja": "語を際立たせる音の要因を二つの論文で調べました。ICSV32では、人による強調ラベルとCWTによるラベルを同じ手がかりで予測し、語の長さ以外に役立つ手がかりがラベルごとに異なることを示しました。Interspeech 2026では、3つの音響特徴と最大238個のパラメータからなるAuditory Contrast Networkが、別コーパスへの転移で9460万パラメータのwav2vec2と同程度の性能を示しました。",
+          "slides": [
+            {
+              "title": "ICSV32 — Target-Dependent Cue Rankings in Prosodic Prominence: Comparing Human and CWT Labels",
+              "title_ja": "ICSV32 発表スライド",
+              "dir": "projects/speech-emphasis/slides/icsv32/",
+              "count": 17,
+              "pdf": "projects/speech-emphasis/slides/icsv32.pdf"
+            },
+            {
+              "title": "INTERSPEECH 2026 — Auditory Contrast Network toward Text-Free Prominence Detection",
+              "title_ja": "INTERSPEECH 2026 発表スライド",
+              "dir": "projects/speech-emphasis/slides/interspeech2026/",
+              "count": 17,
+              "pdf": "projects/speech-emphasis/slides/interspeech2026.pdf"
+            }
+          ]
+        }
+      ],
+      "title_ja": "声の強調",
+      "subtitle_ja": "話し手が強めた語を見つけ、字幕で見せ、身体で感じられるようにする",
+      "description_ja": [
+        "話すとき、人は一部の語を長く、強く、あるいは声の高さを変えて発音し、ほかの語より際立たせます。言語学ではこれをプロミネンスと呼びます。字幕や書き起こしではこの情報が失われ、どの語も同じ見た目になります。このプロジェクトでは、どの音響的な手がかりが語を際立たせるのかを調べ、ブラウザ上でリアルタイムに動く軽量な検出器を作り、その結果を二つの形で聞き手に届けています。",
+        "モデル化については、ICSV32で、同じ語に人が付けた強調ラベルと連続ウェーブレット変換（CWT）で求めたラベルを同じ音響手がかりから予測し、両者からは重要な手がかりについて同じ結論が得られないことを示しました。Interspeech 2026では、テキストを使わず、語の長さ・エネルギー・スペクトルの手がかりで各語を前後の語と比べる、パラメータ数238以下のモデル Auditory Contrast Network を発表しました。",
+        "提示については、検出した強調を字幕の文字の大きさや動きに反映させるデモを、マイク入力のライブ字幕、TEDトークの抜粋を再生するプレーヤー、動く文字の試作環境の三つの形で公開しています。また Visceral Resonance では、同じ強調の信号で聞き手の腹部に電気的筋刺激を与えるシステムを作り、Augmented Humans 2026でデモ展示しました。"
+      ],
+      "category": "research"
+    },
+    {
+      "slug": "gaze-vr",
+      "title": "Gaze in Immersive Archives",
+      "subtitle": "Eye tracking for presenting information in, and studying how people view, VR archives",
+      "image": "image/projects/floating-captions-still.jpg",
+      "image_alt": "A war-damaged room in VR with a gaze-triggered caption",
+      "description": [
+        "The Watanave Lab at the University of Tokyo builds immersive archives such as War Damage VR, which reconstructs damaged areas in Ukraine from 3D scans. In these scenes the sense of being in the place is central to the experience. Captions placed on separate panels or laid over the view split the viewer's attention and can pull them out of the scene. This project, with Shohei Komatsu and Prof. Hidenori Watanave, uses the eye tracker built into a VR headset in two ways: to show information when the viewer is looking for it, and to measure how people actually look at exhibits.",
+        "Floating Captions (ETRA 2025) places small gaze points in the scene and shows a caption only after the viewer has looked at one for a set dwell time, so that fewer captions are on screen at once. The ETRA 2026 short paper then asked what besides dwell time goes along with sustained viewing. It analysed head motion, gaze dynamics and pupil size recorded while 20 participants freely explored a VR museum.",
+        "A related study led by Komatsu (HAI 2025) used a head-mounted display as a controlled eye-tracking platform to examine how a 3D avatar pointing at regions of historical photographs changes where and when viewers look."
+      ],
+      "threads": [
+        "T3"
+      ],
+      "children": [
+        {
+          "title": "Floating Captions",
+          "subtitle": "Gaze-triggered captions for VR exhibits (ETRA 2025)",
+          "date": "2025-05",
+          "threads": [
+            "T3"
+          ],
+          "description": "A caption system for VR exhibits, built in Unity on a PICO 4 Enterprise headset with eye tracking. Small circular gaze points sit in the exhibit space, sized to their objects, and a caption appears only after the viewer holds their gaze on one for a set time; 750 ms was chosen conservatively to avoid accidental triggers. The demonstration had two scenes: 3D-scanned items from the Matsudo City Museum, and War Damage VR, an immersive record of damaged areas in Ukraine.",
+          "media": {
+            "src": "image/projects/floating-captions.gif",
+            "alt": "Gaze-triggered captions appearing on objects in a war-damage VR scene",
+            "caption": "Demo: captions surface where the viewer's gaze rests (戦災VR content).",
+            "caption_ja": "デモ：視線が留まった場所に字幕が現れる（戦災VRコンテンツ）"
+          },
+          "links": [
+            {
+              "label": "GitHub",
+              "url": "https://github.com/Suke-go/FloatingCaptions"
+            }
+          ],
+          "outputs": [
+            {
+              "date": "2025-05",
+              "kind": "Late-Breaking Work",
+              "title": "Floating Captions: Eyetracking-based Context-aware Captioning System for Immersive VR Contents",
+              "authors": [
+                "Kosuke Shimizu",
+                "Shohei Komatsu",
+                "Hidenori Watanave"
+              ],
+              "venue": "ETRA 2025 LBW Track, pp. 1–3",
+              "doi": "10.1145/3715669.3726816"
+            }
+          ],
+          "subtitle_ja": "視線で表示するVR展示のキャプション（ETRA 2025）",
+          "description_ja": "VR展示のためのキャプションシステムです。展示空間に対象物の大きさに合わせた小さな円形の注視点を置き、鑑賞者が一定時間見つめたときにだけ解説を表示します。誤作動を避けるため、この時間は750ミリ秒と控えめに設定しました。デモでは松戸市立博物館の収蔵品の3Dデータと、ウクライナの被災地を体験する「戦災VR」の二つの場面を用意しました。"
+        },
+        {
+          "title": "Sustained Viewing",
+          "subtitle": "Head, gaze and pupil markers of sustained viewing in a VR museum (ETRA 2026)",
+          "date": "2026-05",
+          "description": "This study looked for signals beyond dwell time that go along with sustained viewing. Twenty participants freely explored a VR museum while gaze, pupil diameter and 6DoF head motion were recorded, and 758 viewing episodes were reviewed with retrospective think-aloud data. Slower head rotation was associated with longer dwell time. In episodes over three seconds, gaze converged on a narrower region while spreading more evenly within it. Pupil dilation just after gaze onset was larger in long episodes, a result the paper treats as exploratory.",
+          "outputs": [
+            {
+              "date": "2026-05",
+              "kind": "Short Paper",
+              "title": "Behavioral Markers of Sustained Viewing in VR Museum Exploration: Head Stability, Gaze Dynamics, and Pupillary Response",
+              "authors": [
+                "Kosuke Shimizu",
+                "Shohei Komatsu",
+                "Hidenori Watanave"
+              ],
+              "venue": "ETRA 2026 Short Paper Track, pp. 1–6",
+              "doi": "10.1145/3797246.3803054"
+            }
+          ],
+          "title_ja": "持続的な鑑賞",
+          "subtitle_ja": "VRミュージアムでじっくり見ている状態に伴う頭部・視線・瞳孔の手がかり（ETRA 2026）",
+          "description_ja": "滞留時間のほかに、じっくり見ている状態に伴う手がかりを探した研究です。20名がVRミュージアムを自由に見て回る間の視線、瞳孔径、頭部の動きを記録し、回顧的発話をもとに758の鑑賞エピソードを分析しました。頭部の回転が遅いほど滞留時間は長く、3秒を超える場面では視線が狭い範囲に集まりつつ、その内側で均等に広がりました。長い場面で注視直後の瞳孔拡張が大きかった点は探索的な結果です。",
+          "links": []
+        }
+      ],
+      "related": [
+        {
+          "date": "2025-11",
+          "kind": "Poster",
+          "title": "The Effect of an Avatar on Gaze Guidance: An Eye-Tracking Study of Historical Photograph Appreciation",
+          "authors": [
+            "Shohei Komatsu",
+            "Kosuke Shimizu",
+            "Hidenori Watanave"
+          ],
+          "venue": "HAI 2025, pp. 524–526",
+          "doi": "10.1145/3765766.3765857"
+        }
+      ],
+      "title_ja": "没入型アーカイブと視線",
+      "subtitle_ja": "VRアーカイブでの視線を用いた情報提示と鑑賞行動の分析",
+      "description_ja": [
+        "東京大学の渡邉英徳研究室では、ウクライナの被災地を3Dスキャンから再構成した「戦災VR」など、没入型のアーカイブを制作しています。こうした場面では、その場にいる感覚が体験の中心にあります。ところが、展示物と別の場所に置かれた解説パネルや視界に重なる文字は注意を分散させ、鑑賞者を場面の外へ引き戻してしまいます。本プロジェクトは小松尚平さん、渡邉英徳教授との共同研究で、VRヘッドセットに内蔵された視線計測を二つの目的に使っています。一つは鑑賞者が求めたときに情報を出すため、もう一つは人が展示をどのように見ているかを測るためです。",
+        "Floating Captions（ETRA 2025）では、場面の中に小さな注視点を置き、一定時間見つめたときにだけ解説を表示する仕組みを作り、同時に表示される文字を減らしました。続くETRA 2026のショートペーパーでは、滞留時間のほかに、じっくり見ている状態に伴う手がかりがあるかを調べました。20名がVRミュージアムを自由に見て回る間の頭部運動、視線の動き、瞳孔径を分析しています。",
+        "関連研究として、小松さんが筆頭著者を務めたHAI 2025の論文があります。ヘッドマウントディスプレイを統制された視線計測の環境として用い、歴史写真の特定の領域を指し示す3Dアバターによって、鑑賞者の視線がどこに、いつ向かうかがどう変わるかを調べました。"
+      ],
+      "category": "research"
+    },
+    {
+      "slug": "hci-topology",
+      "title": "Mapping HCI",
+      "subtitle": "Meta-science of HCI: how the field is organized and how its areas meet",
+      "image": "image/projects/topological-bridges.jpg",
+      "image_alt": "Topological Bridges companion site for CHI 2026",
+      "description": [
+        "Mapping HCI is a meta-science project that treats the HCI literature itself as data and asks how the field is organized and how its separate areas come to meet. HCI mixes systems, empirical studies, design, and theory, and even its core terms are not fully shared, so counting topics or keyword co-occurrences gives only a partial picture of how the field changes.",
+        "The project has two strands. WISSpectrum is a search tool for the proceedings of WISS, a Japanese workshop on interactive systems: an LLM summarizes each paper's positioning, purpose, method, and evaluation, each summary is embedded separately, and papers are also placed on ACM CCS axes, so researchers can look for related work from a chosen perspective. Topological Bridges analyzes concepts from about 30,000 papers at four SIGCHI venues with persistent homology to find pairs of concepts from different areas that have not yet appeared together in a paper but later do.",
+        "Both strands treat their output as material for researchers to read and question rather than as a forecast. The CHI 2026 work, for example, reports detected bridges that never integrated or that rest on noisy vocabulary, and presents each bridge as a hypothesis that needs domain judgement."
+      ],
+      "adjacent": [
+        "Science of Science"
+      ],
+      "children": [
+        {
+          "title": "WISSpectrum",
+          "subtitle": "Literature search using perspective-based neighbors and ACM CCS axes",
+          "date": "2025-12",
+          "threads": [
+            "T3"
+          ],
+          "description": "WISSpectrum is a literature search system for the proceedings of WISS, a Japanese workshop on interactive systems and software. An LLM summarizes each paper's positioning, purpose, method, and evaluation in Japanese and English, and each summary is embedded separately, so nearest neighbors can be retrieved from one perspective at a time. Papers are also tagged with ACM CCS concepts and can be browsed along that hierarchy as a tree, network, timeline, or sunburst. It was presented as a WISS Challenge entry at WISS 2025.",
+          "links": [
+            {
+              "label": "Paper Explorer",
+              "label_ja": "論文エクスプローラ",
+              "url": "https://ksk432.com/WISSpectrrum.github.io/viz/"
+            },
+            {
+              "label": "Taxonomy Explorer",
+              "label_ja": "分類エクスプローラ",
+              "url": "https://ksk432.com/WISSpectrrum.github.io/frontend/"
+            },
+            {
+              "label": "WISS 2025 Page",
+              "url": "https://scrapbox.io/wiss2025/C01_WISSpectrum:_%E8%A6%96%E7%82%B9%E5%88%A5%E8%BF%91%E5%82%8D%E3%81%A8CCS%E8%BB%B8%E3%81%AB%E3%82%88%E3%82%8B%E6%96%87%E7%8C%AE%E6%8E%A2%E7%B4%A2%E3%82%B7%E3%82%B9%E3%83%86%E3%83%A0",
+              "label_ja": "WISS 2025 ページ"
+            }
+          ],
+          "outputs": [
+            {
+              "date": "2025-12",
+              "kind": "Domestic",
+              "title": "WISSpectrum: A Literature Search System Using Perspective-Based Neighbors and CCS Axes",
+              "authors": [
+                "Kosuke Shimizu",
+                "Shohei Komatsu",
+                "Hidenori Watanave"
+              ],
+              "venue": "WISS 2025 (WISS Challenge)"
+            }
+          ],
+          "subtitle_ja": "視点別近傍とCCS軸による文献探索システム",
+          "description_ja": "WISSpectrumは、国内ワークショップWISSの論文を探索するためのシステムです。各論文の位置づけ・目的・手法・評価をLLMで日英二言語に要約し、要約ごとに埋め込みを計算することで、観点を選んで近傍論文を引けるようにしました。あわせてACM CCSの概念を付与し、その階層に沿って論文を一覧できます。WISS 2025のWISS Challengeで発表しました。",
+          "image": "image/projects/wisspectrum.jpg",
+          "image_alt": "WISS Paper Explorer showing 604 papers arranged by ACM CCS concepts",
+          "preview": "https://ksk432.com/WISSpectrrum.github.io/viz/"
+        },
+        {
+          "title": "Topological Bridges",
+          "subtitle": "Detecting cross-area concept links in HCI using persistent homology",
+          "date": "2026-04",
+          "description": "This study asks whether links between separate areas of HCI can be detected before the two sides appear together in papers. Concepts from roughly 30,000 CHI, UIST, CSCW, and UbiComp papers are embedded per year; persistent homology then connects them in order of similarity and records loops that stay unfilled across many thresholds. Loop edges that cross semantic communities become bridge candidates. In a retrospective backtest these pairs later co-occurred much more often than semantically similar pairs, though less often than link-prediction picks that already share neighbors; the median lead time was two years.",
+          "links": [
+            {
+              "label": "Companion Site",
+              "url": "https://ksk432.com/CHI26.github.io/",
+              "label_ja": "補足サイト"
+            }
+          ],
+          "preview": "https://ksk432.com/CHI26.github.io/",
+          "outputs": [
+            {
+              "date": "2026-04",
+              "kind": "Extended Abstract",
+              "title": "Detecting Cross-Area Concept Links in HCI Using Persistent Homology",
+              "authors": [
+                "Kosuke Shimizu",
+                "Shohei Komatsu",
+                "Kazuhiro Hayashi",
+                "Keiichi Zempo"
+              ],
+              "venue": "CHI 2026 Extended Abstracts",
+              "doi": "10.1145/3772363.3798751"
+            }
+          ],
+          "subtitle_ja": "パーシステントホモロジーによるHCIの領域横断的な概念リンクの検出",
+          "description_ja": "HCIの離れた領域どうしの結びつきを、同じ論文に現れる前に捉えられるかを調べた研究です。CHI・UIST・CSCW・UbiCompの約3万本の論文の概念を年ごとに埋め込み、パーシステントホモロジーで似た概念から順につないだときに長く埋まらない輪を求め、異なる概念群をまたぐ辺を橋渡し候補としました。過去データでの検証では、意味的に近い組より高い割合で後に共起し、共起までの中央値は2年でした。"
+        }
+      ],
+      "title_ja": "HCIを地図にする",
+      "subtitle_ja": "HCIのメタサイエンス：分野の構造と領域どうしの接近を調べる",
+      "description_ja": [
+        "Mapping HCIは、HCIの論文そのものをデータとして扱い、この分野がどのように組み立てられ、離れた領域どうしがどのように近づいていくのかを調べるメタサイエンスのプロジェクトです。HCIにはシステム、実証研究、デザイン、理論といった性格の異なる研究が混在しており、中心となる概念の定義も十分には共有されていません。そのため、トピックの数や語の共起を数えるだけでは分野の変化を部分的にしか描けません。",
+        "現在は二つの取り組みを進めています。WISSpectrumは国内ワークショップWISSの論文を対象とした探索システムで、各論文の位置づけ・目的・手法・評価をLLMで要約し、観点ごとに埋め込みを計算したうえでACM CCSの軸と組み合わせ、研究者が関心のある観点から関連研究をたどれるようにしています。Topological Bridgesでは、SIGCHIの主要4会議の約3万本の論文から抽出した概念をパーシステントホモロジーで分析し、まだ同じ論文に現れていない異なる領域の概念の組のうち、のちに共起するようになるものを検出しました。",
+        "どちらの成果も、研究者が読み解き、問い直すための材料として位置づけており、将来の動向を言い当てることは目的にしていません。CHI 2026の研究でも、統合に至らなかった候補や語彙のノイズに由来する候補をあわせて示し、検出結果は分野の知識をもって検討すべき仮説として扱っています。"
+      ],
+      "category": "research"
+    },
+    {
+      "slug": "technetope",
+      "title": "Technetope",
+      "subtitle": "A swarm of small mobile speakers that treats visitors as part of its environment",
+      "image": "image/projects/technetope.jpg",
+      "image_alt": "Small white cube robots with displays spread across a white floor",
+      "description": [
+        "Technetope is an installation made with Jumpei Saito and Tsubasa Sato. In a 2.4 m square area, 30 small white cube robots move as a flock. Each is a modified toio robot carrying a small speaker module, so the flock is also a set of moving sound sources. The piece is conceived as an ecosystem built from technology, with visitors as part of its environment.",
+        "Each robot refers to its own position, the positions of the others, and the coordinates of people in the space. When a person enters, the flock treats them as an obstacle: it avoids them, splits into smaller groups, and merges again when the groups come close. The behavior is modeled on schools of fish, swarms of locusts and flocks of ducks.",
+        "The sound modules are M5StickC Plus2 devices with speaker hats. A PC aligns their clocks over NTP and sends playback commands stamped with a future time over OSC, so that robots spread across the floor can play sounds together. The visuals come in four themes: medaka and a lake, locusts and grassland, ducks and an autumn sky, and stars at night."
+      ],
+      "credits": [
+        "Jumpei Saito",
+        "Kosuke Shimizu",
+        "Tsubasa Sato"
+      ],
+      "video": "UwiAPBqvmaM",
+      "video_title": "Technetope",
+      "links": [
+        {
+          "label": "Project Site",
+          "label_ja": "プロジェクトサイト",
+          "url": "https://technetope.github.io/"
+        },
+        {
+          "label": "GitHub",
+          "url": "https://github.com/technetope/technetope"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://youtu.be/UwiAPBqvmaM"
+        }
+      ],
+      "date": "2025-11",
+      "subtitle_ja": "来場者を環境の一部として扱う、小型可動スピーカーの群れ",
+      "description_ja": [
+        "Technetopeは、Jumpei Saito、Tsubasa Satoと共同制作したインスタレーションです。2.4m四方の空間を、toioを改造して小型スピーカーを載せた白いキューブ型ロボット30台が群れとして動きます。テクノロジーで組み立てた生態系として構想し、来場者もその環境の一部とみなします。",
+        "各ロボットは、自分の位置、ほかの個体の位置、空間にいる人の座標を参照して動きます。人が入ると群れはその人を障害物として避け、小さな群れに分かれ、近づく機会があれば再び一つにまとまります。湖のメダカ、草原のイナゴ、空を渡る鴨の群れをモデルにしています。",
+        "音響モジュールはM5StickC Plus2とスピーカーHATの組み合わせです。PCがNTPで各台の時計を合わせ、未来の再生時刻を付けた命令をOSCで送ることで、床に散らばった台が揃って音を鳴らせるようにしています。映像はメダカと湖、イナゴと草原、鴨と秋空、星と夜空の4テーマを用意しました。"
+      ],
+      "category": "art",
+      "preview": "https://technetope.github.io/"
+    },
+    {
+      "slug": "knot",
+      "title": "KNOT",
+      "subtitle": "A figure that appears between two heartbeats",
+      "image": "image/projects/knot.jpg",
+      "image_alt": "Two participants under blankets wearing headphones and holding stuffed animals, with a glowing knotted figure projected between them",
+      "description": [
+        "Starting from Jean-Luc Nancy's idea of being singular plural, KNOT treats \"you and I are different\" as the premise and asks what it is like to be together while keeping that distance.",
+        "Two people's heartbeats are captured with electronic stethoscopes and returned to each other as sound and vibration. A synchrony index computed from each beat's deviation from its running mean and the delay between the two drives the figure on the screen, which deforms without ever merging into one."
+      ],
+      "links": [
+        {
+          "label": "Paper PDF",
+          "label_ja": "論文PDF",
+          "url": "research/KNOT/NICOGRAPH/nicograph2025.pdf"
+        }
+      ],
+      "outputs": [
+        {
+          "date": "2025-11",
+          "kind": "Domestic",
+          "title": "KNOT - Emergent Figure Between Us",
+          "authors": [
+            "Kosuke Shimizu",
+            "Masaki Matsubara"
+          ],
+          "venue": "NICOGRAPH 2025, pp. F99:1–3",
+          "url": "research/KNOT/NICOGRAPH/nicograph2025.pdf",
+          "url_label": "PDF"
+        }
+      ],
+      "subtitle_ja": "二人の心拍のあいだに現れる像",
+      "description_ja": [
+        "ジャン＝リュック・ナンシーの「単数複数の存在」に着目し、「私とあなたは異なる存在である」ことを前提に、隔たりとわからなさを抱えたまま共にある関係を問う作品です。",
+        "二人の心拍を電子聴診器で計測し、音と振動で互いに返します。平均拍からのずれと二人の拍動の遅れから同調の指標を計算し、その値に応じてスクリーン上の像が変形します。像は収斂と歪みを行き来しながら、一つには溶け合いません。"
+      ],
+      "partial": "_partials/knot.{lang}.html",
+      "category": "art"
+    },
+    {
+      "slug": "binaural-audio",
+      "title": "Binaural Vocabulary",
+      "subtitle": "Learning English words through binaural sounds that act out their meaning",
+      "image": "image/projects/binaural-words.png",
+      "image_alt": "Table of sample words and how each was voiced around a dummy head microphone",
+      "description": [
+        "Picture dictionaries pair words with images; this project builds the audio counterpart. For each English word, a sound that acts out its meaning was recorded with a dummy-head microphone, so it moves around, approaches, or whispers close to the listener. The study asks whether this spatial rendering by itself helps learners remember new words.",
+        "Crowd workers judged whether each candidate word's meaning could be conveyed by sound, and 40 words at roughly CEFR B2 or above were recorded. Twenty high school students learned two matched 20-word sets, one with binaural and one with monaural audio, and took multiple-choice tests immediately and one week later.",
+        "A two-way repeated-measures ANOVA showed main effects of audio condition and time, with no significant interaction. Mean scores out of 20 were 17.5 (binaural) vs 15.6 (monaural) immediately and 12.4 vs 10.5 after one week. Concrete, sound-related words were remembered best. An exploratory EEG study with seven other participants found a non-significant theta-band trend."
+      ],
+      "threads": [
+        "T3"
+      ],
+      "partial": "_partials/binaural-audio.{lang}.html",
+      "outputs": [
+        {
+          "date": "2022-10",
+          "kind": "Proceedings",
+          "title": "Effects of Binaural Audio on English Vocabulary Learning",
+          "authors": [
+            "Kosuke Shimizu",
+            "Shogo Fukushima",
+            "Takeshi Naemura"
+          ],
+          "venue": "ICCE 2022, pp. 665–667",
+          "url": "https://library.apsce.net/index.php/ICCE/article/view/4661",
+          "url_label": "APSCE Library"
+        },
+        {
+          "date": "2025-11",
+          "kind": "Journal",
+          "title": "Enhancing of Vocabulary Learning by the Representation of the Meaning of Words with Binaural Audio",
+          "authors": [
+            "Kosuke Shimizu",
+            "Shogo Fukushima",
+            "Hirokazu Doi",
+            "Takeshi Naemura"
+          ],
+          "venue": "Transactions of Human Interface Society 27(4), pp. 249–260",
+          "doi": "10.11184/his.27.4_249",
+          "url": "projects/binaural-audio/paper/compiled/hissympset_overleaf_utf-5.pdf",
+          "url_label": "Manuscript PDF"
+        }
+      ],
+      "title_ja": "バイノーラル語彙学習",
+      "subtitle_ja": "意味を演じるバイノーラル音で英単語を覚える",
+      "description_ja": [
+        "絵辞典が単語を絵と結びつけるように、単語を音と結びつける教材を作りました。英単語ごとに意味を演じる音をダミーヘッドマイクで録音し、音が聞き手のまわりを動いたり、近づいたり、耳元でささやいたりするようにしています。この空間的な表現だけで単語を覚えやすくなるかを調べました。",
+        "意味を音で表せるかをクラウドワーカーに判定してもらい、CEFR B2程度以上の40語を選んで録音しました。高校生20名が、条件をそろえた20語ずつの2セットを、バイノーラル音とモノラル音で一つずつ覚え、学習直後と1週間後に多肢選択式のテストを受けました。",
+        "二要因の反復測定分散分析では、音条件と時間の主効果が有意で、交互作用は有意ではありませんでした。20点満点の平均は、直後がバイノーラル17.5点、モノラル15.6点、1週間後が12.4点と10.5点です。別の7名で行った探索的な脳波計測では、シータ帯に有意でない傾向が見られました。"
+      ],
+      "image_fit": "contain",
+      "category": "research"
+    },
+    {
+      "slug": "emotion-overflow",
+      "title": "Emotion Overflow",
+      "subtitle": "Representing emotion with fluid",
+      "image": "image/projects/emotion-overflow.jpg",
+      "image_alt": "Hand reaching toward a round display filled with red and yellow fluid",
+      "description": [
+        "Emotion Overflow turns a short text about how someone feels into an interactive fluid simulation. It starts from a common figure of speech in which the body is a container and emotion is what overflows from it. In the demo, the fluid fills a round display and moves when the user touches it by hand.",
+        "In the UIST 2024 version, a GPT model reads the text and estimates emotion attributes, focusing on valence and arousal. These values set properties of the fluid: its color, how much it varies over time, and how strongly it responds to interaction. The paper demonstrates two experiences: direct visualization of an emotion, and an emotion-guessing game.",
+        "The web demo at ksk432.com/EmotionOverflow is a browser version built on a WebGL fluid solver. It classifies English text into six basic emotions with an open text-emotion model, converts the result to valence, arousal and dominance, and maps these to color, viscosity, time step and touch force. The work was also presented at INTERACTION 2025."
+      ],
+      "video": "Pw87IJnRnDw",
+      "video_title": "Emotion Overflow: an Interactive System to Represent Emotion with Fluid",
+      "links": [
+        {
+          "label": "Web Demo",
+          "url": "https://ksk432.com/EmotionOverflow/",
+          "label_ja": "Webデモ"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/watch?v=Pw87IJnRnDw"
+        }
+      ],
+      "preview": "https://ksk432.com/EmotionOverflow/",
+      "outputs": [
+        {
+          "date": "2024-10",
+          "kind": "Poster",
+          "title": "Emotion Overflow: an Interactive System to Represent Emotion with Fluid",
+          "authors": [
+            "Keita Tsuyuguchi",
+            "Kosuke Shimizu",
+            "Kenji Suzuki"
+          ],
+          "venue": "UIST 2024 Adjunct, pp. 1–2",
+          "doi": "10.1145/3672539.3686779"
+        },
+        {
+          "date": "2025-03",
+          "kind": "Domestic",
+          "title": "Emotion Overflow: An Interactive System to Represent Emotion in Fluid Dynamics",
+          "authors": [
+            "Keita Tsuyuguchi",
+            "Kosuke Shimizu",
+            "Kenji Suzuki"
+          ],
+          "venue": "INTERACTION 2025"
+        }
+      ],
+      "subtitle_ja": "感情を流体で表す",
+      "description_ja": [
+        "Emotion Overflowは、気持ちを書いた短い文章を、触れて動かせる流体の映像に変えるシステムです。身体を器、感情をそこからあふれ出るものとみなす言い回しを出発点にしています。デモでは円形のディスプレイに流体が満ち、手で触れるとその動きに反応します。",
+        "UIST 2024版では、GPTモデルが文章から感情の属性を推定します。中心となるのは感情価（valence）と覚醒度（arousal）で、これらの値が流体の色、時間とともに変化する度合い、操作への反応の強さを決めます。論文では、感情をそのまま可視化する体験と、感情を当てるゲームの二つを示しました。",
+        "ksk432.com/EmotionOverflowのWebデモは、WebGLの流体シミュレーションによるブラウザ版です。英文を公開の感情分類モデルで6つの基本感情に分け、感情価・覚醒度・支配性に変換して、色や粘性、触れたときの力などに対応させています。INTERACTION 2025でも発表しました。"
+      ],
+      "category": "research",
+      "threads": [
+        "T2"
+      ]
+    },
+    {
+      "slug": "ghost-display",
+      "title": "GhostDisplay",
+      "subtitle": "A moving fog screen that passes through the user",
+      "image": "image/projects/ghost-display.jpg",
+      "image_alt": "GhostDisplay title card over a fog-projected image",
+      "description": [
+        "Fog screens and other immaterial displays let people walk through an image, but they are usually fixed in place. GhostDisplay mounts a fog screen on a linear actuator, so the screen itself moves toward the user and passes through their body.",
+        "Moving the screen raises two problems. Fog left behind along the path also catches the projection and makes the image look multi-layered, so a micro blower clears the residual fog. The projection distance also keeps changing, so a focus-free laser-beam-scanning projector with a MEMS mirror keeps the image sharp at every position.",
+        "The prototype combines a fog machine with a duct hose, a linear-guide actuator, a distance sensor and a Raspberry Pi 5. The work is documented in a video; there is no published paper."
+      ],
+      "credits": [
+        "Kosuke Shimizu",
+        "Shogo Fukushima",
+        "Kenji Suzuki"
+      ],
+      "video": "K9pc8asWbgA",
+      "video_title": "GhostDisplay",
+      "links": [
+        {
+          "label": "YouTube",
+          "url": "https://youtu.be/K9pc8asWbgA"
+        }
+      ],
+      "date": "2024-07",
+      "subtitle_ja": "ユーザーを通り抜ける、動くフォグスクリーン",
+      "description_ja": [
+        "フォグスクリーンのような実体のないディスプレイは、映像の中を歩いて通り抜けられる一方で、多くは決まった場所に据え置かれています。GhostDisplayはフォグスクリーンをリニアアクチュエータに載せ、スクリーン自体がユーザーに近づいて体を通り抜けるようにしました。",
+        "スクリーンを動かすと二つの問題が生じます。通った跡に残るフォグにも光が当たり、像が多重に見えるため、小型ブロワーで残留フォグを吹き払います。また投影距離が変わり続けるため、焦点調整の要らないMEMSミラー方式のレーザー走査型プロジェクタで、どの位置でも像を鮮明に保ちます。",
+        "試作機は、ダクトホースをつないだフォグマシン、リニアガイドアクチュエータ、距離センサ、Raspberry Pi 5で構成しています。成果は動画で公開しており、論文としては発表していません。"
+      ],
+      "category": "research"
+    },
+    {
+      "slug": "face-morphing",
+      "category": "research",
+      "title": "Face Morphing and Historical Understanding",
+      "title_ja": "顔モーフィングと歴史理解",
+      "subtitle": "What viewers attend to when their own face appears in a film about the Nagasaki atomic bombing",
+      "subtitle_ja": "長崎の原爆を描いた映像に自分の顔が現れたとき、鑑賞者は何に注意を向けるか",
+      "image": "image/projects/nagasaki-exhibition.jpg",
+      "image_alt": "Children viewing panoramic displays at the Peace Activities for Tomorrow exhibition in Nagasaki",
+      "description": [
+        "As fewer people with direct memory of the Second World War remain, museums and archives look for ways to help people who did not witness it engage with that history. One approach puts the viewer's own face on a character in historical media. This project, with Shohei Komatsu and Prof. Hidenori Watanave, asks what that self-representation actually does: whether it brings viewers closer to the situation depicted, or mainly draws their attention to their own face and to the technology.",
+        "In a pilot reported at ADADA 2025, high-school students in a peace-education program had their faces composited, with the AVATARIUM Portable system by POCKET RD, into scenes before and after the bombing from the film Nagasaki: In the Shadow of the Flash, used with the production team's permission. They rated the experience positively, but their comments centred on their own faces and on enjoyment, and historically grounded empathy was rare. The paper proposes \"progressive de-selfing\" as a design direction and discusses the integrity of AI-generated historical content.",
+        "The same kind of experience was shown to the public at the exhibition Mirai no Heiwa Katsudo-ten in Nagasaki (Future Peace Activities Exhibition), held by the Watanave Lab and NIB Nagasaki International Television at the Nagasaki Atomic Bomb Museum from 11 to 17 August 2025. A follow-up study, now in progress, separates two design choices that the pilot left mixed together: showing the viewer's face, and guiding the viewer to imagine being in the place depicted."
+      ],
+      "description_ja": [
+        "第二次世界大戦を直接記憶している人が少なくなるなか、博物館やアーカイブでは、体験していない世代がその歴史に関わるための方法が模索されています。その一つが、歴史を描いた映像の登場人物に鑑賞者自身の顔を重ねる手法です。本プロジェクトは小松尚平さん、渡邉英徳教授との共同研究で、この自己表象が実際に何をもたらすのかを調べています。問いの中心は、描かれた状況への理解が深まるのか、それとも自分の顔や技術そのものに注意が引き寄せられるのかという点です。",
+        "ADADA 2025で報告したパイロット研究では、平和学習プログラムに参加した高校生の顔を、POCKET RDのAVATARIUM Portableを用いて、映画『長崎―閃光の影で―』の原爆投下前と投下後の場面に合成しました。映像は制作側の許可を得て使用しています。体験の評価は高かった一方、発話は自分の顔や楽しさに集中し、歴史に根ざした共感の表明はわずかでした。論文では、自己への注意を段階的に状況へ移していく「progressive de-selfing」という設計の方向性を示し、AIで生成した歴史表現の誠実さについても議論しています。",
+        "同じ種類の体験は、2025年8月11日から17日に長崎原爆資料館で渡邉英徳研究室とNIB長崎国際テレビが開催した「ミライの平和活動展 in 長崎」でも一般に公開されました。現在は、パイロットでは切り分けられていなかった「顔を見せること」と「その場にいると想像するよう促すこと」という二つの設計要素を分けて検討する後続研究を進めています。"
+      ],
+      "links": [
+        {
+          "label": "Exhibition Site",
+          "label_ja": "展示サイト",
+          "url": "https://nagasaki2024.jp/"
+        }
+      ],
+      "children": [
+        {
+          "title": "Pilot Study (ADADA 2025)",
+          "title_ja": "パイロット研究（ADADA 2025）",
+          "subtitle": "Face morphing with adolescents viewing a Nagasaki atomic-bomb film",
+          "subtitle_ja": "長崎の原爆を描いた映画を用いた高校生とのパイロット研究",
+          "description": "A pilot workshop with 12 female high-school students (ages 15 to 17) in the peace-education program of Hiroshima Jogakuin High School. Using AVATARIUM Portable, their faces were composited into a pre-bombing scene, in pairs, and a post-bombing scene, alone, from the film Nagasaki: In the Shadow of the Flash, while they thought aloud and then rated the experience. Ratings were high (mean 6.15 on a 7-point scale), but comments focused mostly on their own faces and on fun. A few participants described viewing the scene as a protagonist.",
+          "description_ja": "広島女学院高等学校の平和学習プログラムで、15〜17歳の女子生徒12名と行ったパイロット研究です。映画『長崎―閃光の影で―』の原爆投下前の場面には2人一組で、投下後の場面には1人で顔を合成し、発話と質問紙で反応を記録しました。評価は7段階で平均6.15と高い一方、発話は自分の顔や楽しさに集中しました。主人公として場面を見たと語る参加者も一部にいました。",
+          "outputs": [
+            {
+              "date": "2025-12",
+              "kind": "Proceedings",
+              "title": "Face Morphing as a Bridge from Self-Salience to Historical Understanding: A Pilot with Adolescents Viewing a Nagasaki Atomic Bomb Film",
+              "authors": [
+                "Shohei Komatsu",
+                "Kosuke Shimizu",
+                "Hidenori Watanave"
+              ],
+              "venue": "ADADA 2025",
+              "doi": "10.20668/adadapic.2025.0_CP0201"
+            }
+          ],
+          "links": []
+        },
+        {
+          "title": "Follow-up Study (ongoing)",
+          "title_ja": "継続中の追試",
+          "date": "2026",
+          "subtitle": "Separating self-representation from self-situating guidance",
+          "subtitle_ja": "自己表象と「その場にいる」想像の促しを切り分ける後続研究",
+          "description": "An ongoing study that treats personalization as two separate design choices. Self-representation morphs a recurring character's face toward the viewer's own. Self-situating guidance is a single sentence shown before a film that asks viewers to imagine being in the place depicted. Adult visitors to an exhibition in Nagasaki watch four short films about the atomic bombing under conditions that cross the two factors, and a second, exploratory study records conversations between pairs who watch together. Results have not yet been reported.",
+          "description_ja": "顔の個人化を二つの設計要素に分けて検討する、進行中の研究です。一つは登場人物の顔を鑑賞者の顔に近づける自己表象、もう一つは映像の前に「自分がその場にいると想像して見る」よう促す一文です。長崎での展示に訪れた成人が、両者を組み合わせた条件で原爆に関わる4本の短い映像を鑑賞します。二人で鑑賞した後の会話を記録する探索的な調査も含みます。結果は未発表です。",
+          "links": []
+        }
+      ]
+    },
+    {
+      "slug": "studemia",
+      "category": "community",
+      "title": "Studemia",
+      "period": "ongoing",
+      "subtitle": "An interdisciplinary learning community for students and graduate researchers",
+      "subtitle_ja": "学生と大学院生が分野を越えて学ぶコミュニティ",
+      "image": "image/studemia-gathering.jpg",
+      "image_alt": "Studemia participants attending a talk in a classroom with laptops and a projected presentation",
+      "description": [
+        "Studemia brings students and graduate researchers together for residential study camps, guest talks, shared reading, and open discussion across fields.",
+        "Kosuke Shimizu serves as Representative Director."
+      ],
+      "description_ja": [
+        "学生と大学院生が分野を越えて集まり、合宿、ゲスト講演、輪読、議論を行うコミュニティです。",
+        "清水が代表理事を務めています。"
+      ],
+      "links": [
+        {
+          "label": "Studemia",
+          "url": "https://studemia.org/"
+        }
+      ]
+    },
+    {
+      "slug": "wind-garden",
+      "category": "art",
+      "title": "Wind Garden",
+      "date": "2026",
+      "subtitle": "An installation that tunes a room for the arrival of wind",
+      "subtitle_ja": "室内に入ってくる風を感じるためのインスタレーション",
+      "image": "wind-garden.jpg",
+      "image_alt": "Wind Garden installation with suspended surfaces and threads",
+      "description": [
+        "Suspended, computationally shaped surfaces and threads register a breeze as timing: a pause before motion, a delayed turn, a tremor, a touch, and a return to stillness."
+      ],
+      "description_ja": [
+        "計算機で形を設計した面や糸を吊り下げ、風が入ってきたことを時間の変化として示します。動き出す前の間、遅れて向きを変える動き、震え、触れ合い、そして静止に戻るまでの過程を見せます。"
+      ]
+    },
+    {
+      "slug": "meetme",
+      "category": "art",
+      "title": "MEETME",
+      "date": "2024-04",
+      "subtitle": "Meeting a generated double that sends you a video message",
+      "subtitle_ja": "自分の姿と声から生まれた分身からビデオメッセージを受け取る",
+      "image": "image/meetme-poster.png",
+      "image_alt": "MEETME exhibition poster with bold lettering and a mirror-shaped monochrome image",
+      "image_fit": "contain",
+      "description": [
+        "An installation exhibited at Niconico Chokaigi 2024. Visitors meet a double generated from their own image and voice, who delivers a video message to them, and reflect on themselves through that exchange.",
+        "Co-created with Shota Aso and supported by LAC Co., Ltd. through its Sugoude program."
+      ],
+      "description_ja": [
+        "ニコニコ超会議2024に出展したインスタレーションです。来場者は、自分の姿と声から生成された分身からビデオメッセージを受け取り、その対話を通して自分自身を見つめ直します。",
+        "阿曽祥大との共同制作で、株式会社ラックの「すごうで」の支援を受けました。"
+      ],
+      "credits": [
+        "Shota Aso",
+        "Kosuke Shimizu"
+      ],
+      "links": [
+        {
+          "label": "LAC Activity Report",
+          "label_ja": "ラックの活動レポート",
+          "url": "https://www.lac.co.jp/lacwatch/people/20250827_004459.html"
+        }
+      ]
+    },
+    {
+      "slug": "akabane-whale",
+      "category": "art",
+      "title": "Song of Akabane Whale",
+      "title_ja": "赤羽のクジラの歌",
+      "date": "2024",
+      "subtitle": "Field recordings of Akabane heard as the voice of an imagined urban whale",
+      "subtitle_ja": "赤羽の環境音を、街にいる架空のクジラの声として聴く",
+      "image": "akabanewhale.webp",
+      "image_alt": "Projection from Song of Akabane Whale",
+      "description": [
+        "Sounds recorded around Akabane are treated as the voice of an imagined whale living in the city and turned into sound and projected images."
+      ],
+      "description_ja": [
+        "赤羽で集めた環境音を、街にいる架空のクジラの声として捉え、音と映像の表現に展開した活動です。"
+      ],
+      "links": [
+        {
+          "label": "Project Site",
+          "label_ja": "プロジェクトサイト",
+          "url": "https://kujiranokoe.studio.site/"
+        },
+        {
+          "label": "100BANCH",
+          "url": "https://100banch.com/magazine/65808/"
+        }
+      ]
+    },
+    {
+      "slug": "music-of-the-sphere",
+      "category": "engineering",
+      "title": "The Music of the Sphere",
+      "date": "2025",
+      "subtitle": "System engineering for a five-day sound installation in Yushima, Tokyo",
+      "subtitle_ja": "東京・湯島で5日間開かれたサウンドインスタレーションのシステム開発",
+      "image": "image/music-of-the-sphere.jpg",
+      "image_alt": "The Music of the Sphere installation with suspended spheres and diagrams",
+      "description": [
+        "A solo sound installation shown for five days in Yushima, Tokyo. Kosuke Shimizu built and ran the exhibition system as system engineer: multichannel audio control, image recognition, sensor and software integration, setup checks, and on-site troubleshooting."
+      ],
+      "description_ja": [
+        "東京・湯島で5日間開かれた個展形式のサウンドインスタレーションです。清水はシステムエンジニアとして、マルチチャンネルの音響制御、画像認識、センサーとソフトウェアの統合、設営時の確認、会場でのトラブル対応を担当しました。"
+      ],
+      "links": [
+        {
+          "label": "Note",
+          "url": "https://note.com/tasty_cosmos44/n/n4b2f41c865d2?magazine_key=md7080ab74980"
+        },
+        {
+          "label": "ELMAGICK",
+          "url": "https://el-magick.com/"
+        }
+      ]
+    },
+    {
+      "slug": "lets-play-for-peace",
+      "category": "engineering",
+      "title": "Let's Pray / Play for Peace 2026",
+      "date": "2026",
+      "subtitle": "Infrastructure for a charity concert with audience-participatory visuals",
+      "subtitle_ja": "観客参加型のリアルタイム映像を使ったチャリティーコンサートの基盤",
+      "image": "image/projects/lets-play-for-peace.jpg",
+      "image_alt": "Stage of the Let's Pray / Play for Peace 2026 charity concert",
+      "description": [
+        "Backend and infrastructure for a charity concert in which the audience takes part in the realtime visuals: nginx and web server configuration, and a server run on the local network at the venue."
+      ],
+      "description_ja": [
+        "観客がリアルタイム映像に参加するチャリティーコンサートで、バックエンドと基盤を担当しました。nginxとWebサーバーの設定、会場のローカルネットワーク上でのサーバー運用を行いました。"
+      ],
+      "video": "jzzpIlikk60",
+      "video_title": "Let's Pray / Play for Peace 2026 — YouTube archive",
+      "links": [
+        {
+          "label": "Project Site",
+          "label_ja": "プロジェクトサイト",
+          "url": "https://letsplayforpeace.com/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/watch?v=jzzpIlikk60"
+        }
+      ]
+    }
+  ],
+  "adjacent_ja": {
+    "Digital Archive (Yokai)": "デジタルアーカイブ（妖怪）",
+    "Science of Science": "メタ・サイエンス"
+  }
+}

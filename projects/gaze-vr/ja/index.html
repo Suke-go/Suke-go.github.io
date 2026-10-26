@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>没入型アーカイブと視線 — KSK432 Projects</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="VRアーカイブでの視線を用いた情報提示と鑑賞行動の分析">
+  <link rel="canonical" href="https://ksk432.com/projects/gaze-vr/ja/">
+  <link rel="alternate" hreflang="ja" href="https://ksk432.com/projects/gaze-vr/ja/">
+  <link rel="alternate" hreflang="en" href="https://ksk432.com/projects/gaze-vr/">
+  <meta property="og:title" content="没入型アーカイブと視線 — KSK432 Projects">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://ksk432.com/projects/gaze-vr/ja/">
+  <meta property="og:site_name" content="KSK432">
+  <link rel="stylesheet" href="../../../style.css">
+  <link rel="stylesheet" href="../../../projects/projects.css">
+</head>
+<body class="projects-body" data-preview-open="プレビュー" data-preview-close="閉じる">
+  <nav id="navbar" class="projects-nav">
+    <ul>
+      <li><a class="menu-link" href="../../../ja/summary.html">Home</a></li>
+      <li><a class="menu-link active" href="../../../projects/ja/">Projects</a></li>
+      <li><a class="menu-link" href="../../../ja/publications.html">Publications</a></li>
+      <li><a class="menu-link" href="../../../blog/index.html">Blog</a></li>
+      <li><a class="menu-link" href="../../../en/index.html">Terminal</a></li>
+      <li><a class="menu-link" href="../../../projects/gaze-vr/">EN</a></li>
+    </ul>
+  </nav>
+
+  <main class="stage">
+    <header class="p-head">
+      <p class="kicker"><a href="../../../projects/ja/">Projects</a> / 研究</p>
+      <h1>没入型アーカイブと視線</h1>
+      <p class="p-sub">VRアーカイブでの視線を用いた情報提示と鑑賞行動の分析</p>
+    </header>
+    <figure class="p-cover"><img src="../../../image/projects/floating-captions-still.jpg" alt="A war-damaged room in VR with a gaze-triggered caption"></figure>
+    <section class="block">
+      <dl class="meta"><div><dt>期間</dt><dd>2025–2026</dd></div><div><dt>研究テーマ</dt><dd><span class="thread-tag"><b>T3</b>能力を拡張する計算機システム</span></dd></div></dl>
+      <div class="p-text"><p>東京大学の渡邉英徳研究室では、ウクライナの被災地を3Dスキャンから再構成した「戦災VR」など、没入型のアーカイブを制作しています。こうした場面では、その場にいる感覚が体験の中心にあります。ところが、展示物と別の場所に置かれた解説パネルや視界に重なる文字は注意を分散させ、鑑賞者を場面の外へ引き戻してしまいます。本プロジェクトは小松尚平さん、渡邉英徳教授との共同研究で、VRヘッドセットに内蔵された視線計測を二つの目的に使っています。一つは鑑賞者が求めたときに情報を出すため、もう一つは人が展示をどのように見ているかを測るためです。</p><p>Floating Captions（ETRA 2025）では、場面の中に小さな注視点を置き、一定時間見つめたときにだけ解説を表示する仕組みを作り、同時に表示される文字を減らしました。続くETRA 2026のショートペーパーでは、滞留時間のほかに、じっくり見ている状態に伴う手がかりがあるかを調べました。20名がVRミュージアムを自由に見て回る間の頭部運動、視線の動き、瞳孔径を分析しています。</p><p>関連研究として、小松さんが筆頭著者を務めたHAI 2025の論文があります。ヘッドマウントディスプレイを統制された視線計測の環境として用い、歴史写真の特定の領域を指し示す3Dアバターによって、鑑賞者の視線がどこに、いつ向かうかがどう変わるかを調べました。</p></div>
+    </section>
+    <section class="block" id="structure"><h2>構成</h2><div class="block-body"><ol class="tree">
+<li class="node" id="floating-captions">
+  <span class="node-no">01</span>
+  <div>
+    <div class="node-head"><h3>Floating Captions</h3><time>2025</time></div>
+    <p class="node-sub">視線で表示するVR展示のキャプション（ETRA 2025）</p>
+    <p class="node-tags"><span class="thread-tag"><b>T3</b>能力を拡張する計算機システム</span></p>
+    <div class="node-body">
+      <div class="node-text"><p>VR展示のためのキャプションシステムです。展示空間に対象物の大きさに合わせた小さな円形の注視点を置き、鑑賞者が一定時間見つめたときにだけ解説を表示します。誤作動を避けるため、この時間は750ミリ秒と控えめに設定しました。デモでは松戸市立博物館の収蔵品の3Dデータと、ウクライナの被災地を体験する「戦災VR」の二つの場面を用意しました。</p><ul class="links node-actions"><li><a href="https://github.com/Suke-go/FloatingCaptions" target="_blank" rel="noopener">GitHub</a></li></ul><figure class="figure"><img src="../../../image/projects/floating-captions.gif" alt="Gaze-triggered captions appearing on objects in a war-damage VR scene" loading="lazy"><figcaption>デモ：視線が留まった場所に字幕が現れる（戦災VRコンテンツ）</figcaption></figure><ul class="pubs">
+<li class="pub"><span class="pub-date">2025.05<span>Late-Breaking Work</span></span><span><strong class="pub-title">Floating Captions: Eyetracking-based Context-aware Captioning System for Immersive VR Contents</strong><span class="pub-line"><span class="self">Kosuke Shimizu</span>, Shohei Komatsu, <a href="https://labo.wtnv.jp/" target="_blank" rel="noopener">Hidenori Watanave</a></span><span class="pub-line">ETRA 2025 LBW Track, pp. 1–3 · DOI <a href="https://doi.org/10.1145/3715669.3726816" target="_blank" rel="noopener">10.1145/3715669.3726816</a></span></span></li>
+</ul></div>
+      
+    </div>
+    
+  </div>
+</li>
+<li class="node" id="sustained-viewing">
+  <span class="node-no">02</span>
+  <div>
+    <div class="node-head"><h3>持続的な鑑賞</h3><time>2026</time></div>
+    <p class="node-sub">VRミュージアムでじっくり見ている状態に伴う頭部・視線・瞳孔の手がかり（ETRA 2026）</p>
+    
+    <div class="node-body">
+      <div class="node-text"><p>滞留時間のほかに、じっくり見ている状態に伴う手がかりを探した研究です。20名がVRミュージアムを自由に見て回る間の視線、瞳孔径、頭部の動きを記録し、回顧的発話をもとに758の鑑賞エピソードを分析しました。頭部の回転が遅いほど滞留時間は長く、3秒を超える場面では視線が狭い範囲に集まりつつ、その内側で均等に広がりました。長い場面で注視直後の瞳孔拡張が大きかった点は探索的な結果です。</p><ul class="pubs">
+<li class="pub"><span class="pub-date">2026.05<span>Short Paper</span></span><span><strong class="pub-title">Behavioral Markers of Sustained Viewing in VR Museum Exploration: Head Stability, Gaze Dynamics, and Pupillary Response</strong><span class="pub-line"><span class="self">Kosuke Shimizu</span>, Shohei Komatsu, <a href="https://labo.wtnv.jp/" target="_blank" rel="noopener">Hidenori Watanave</a></span><span class="pub-line">ETRA 2026 Short Paper Track, pp. 1–6 · DOI <a href="https://doi.org/10.1145/3797246.3803054" target="_blank" rel="noopener">10.1145/3797246.3803054</a></span></span></li>
+</ul></div>
+      
+    </div>
+    
+  </div>
+</li>
+</ol></div></section><section class="block"><h2>共同研究者による関連研究</h2><div class="block-body"><ul class="pubs is-related">
+<li class="pub"><span class="pub-date">2025.11<span>Poster</span></span><span><strong class="pub-title">The Effect of an Avatar on Gaze Guidance: An Eye-Tracking Study of Historical Photograph Appreciation</strong><span class="pub-line">Shohei Komatsu, <span class="self">Kosuke Shimizu</span>, <a href="https://labo.wtnv.jp/" target="_blank" rel="noopener">Hidenori Watanave</a></span><span class="pub-line">HAI 2025, pp. 524–526 · DOI <a href="https://doi.org/10.1145/3765766.3765857" target="_blank" rel="noopener">10.1145/3765766.3765857</a></span></span></li>
+</ul></div></section>
+  </main>
+
+  <footer><p>&copy; 2026 ksk432. All Rights Reserved.</p></footer>
+  <script src="../../../projects/projects.js"></script>
+</body>
+</html>

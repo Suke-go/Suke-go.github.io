@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Emotion Overflow — KSK432 Projects</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Representing emotion with fluid">
+  <link rel="canonical" href="https://ksk432.com/projects/emotion-overflow/">
+  <link rel="alternate" hreflang="en" href="https://ksk432.com/projects/emotion-overflow/">
+  <link rel="alternate" hreflang="ja" href="https://ksk432.com/projects/emotion-overflow/ja/">
+  <meta property="og:title" content="Emotion Overflow — KSK432 Projects">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://ksk432.com/projects/emotion-overflow/">
+  <meta property="og:site_name" content="KSK432">
+  <link rel="stylesheet" href="../../style.css">
+  <link rel="stylesheet" href="../../projects/projects.css">
+</head>
+<body class="projects-body" data-preview-open="Preview" data-preview-close="Close">
+  <nav id="navbar" class="projects-nav">
+    <ul>
+      <li><a class="menu-link" href="../../en/summary.html">Home</a></li>
+      <li><a class="menu-link active" href="../../projects/">Projects</a></li>
+      <li><a class="menu-link" href="../../en/publications.html">Publications</a></li>
+      <li><a class="menu-link" href="../../blog/index.html">Blog</a></li>
+      <li><a class="menu-link" href="../../en/index.html">Terminal</a></li>
+      <li><a class="menu-link" href="../../projects/emotion-overflow/ja/">JP</a></li>
+    </ul>
+  </nav>
+
+  <main class="stage">
+    <header class="p-head">
+      <p class="kicker"><a href="../../projects/">Projects</a> / Research</p>
+      <h1>Emotion Overflow</h1>
+      <p class="p-sub">Representing emotion with fluid</p>
+    </header>
+    <figure class="p-cover"><img src="../../image/projects/emotion-overflow.jpg" alt="Hand reaching toward a round display filled with red and yellow fluid"></figure>
+    <section class="block">
+      <dl class="meta"><div><dt>Period</dt><dd>2024–2025</dd></div><div><dt>Threads</dt><dd><span class="thread-tag"><b>T2</b>Interfaces for Reconnecting with Memory</span></dd></div><div><dt>Links</dt><dd><ul class="links"><li><a href="https://ksk432.com/EmotionOverflow/" target="_blank" rel="noopener">Web Demo</a></li><li><a href="https://www.youtube.com/watch?v=Pw87IJnRnDw" target="_blank" rel="noopener">YouTube</a></li></ul></dd></div></dl>
+      <div class="p-text"><p>Emotion Overflow turns a short text about how someone feels into an interactive fluid simulation. It starts from a common figure of speech in which the body is a container and emotion is what overflows from it. In the demo, the fluid fills a round display and moves when the user touches it by hand.</p><p>In the UIST 2024 version, a GPT model reads the text and estimates emotion attributes, focusing on valence and arousal. These values set properties of the fluid: its color, how much it varies over time, and how strongly it responds to interaction. The paper demonstrates two experiences: direct visualization of an emotion, and an emotion-guessing game.</p><p>The web demo at ksk432.com/EmotionOverflow is a browser version built on a WebGL fluid solver. It classifies English text into six basic emotions with an open text-emotion model, converts the result to valence, arousal and dominance, and maps these to color, viscosity, time step and touch force. The work was also presented at INTERACTION 2025.</p></div>
+    </section>
+    <section class="block" id="demo"><h2>Demo</h2><div class="block-body"><div class="stack"><div class="preview" id="preview-emotion-overflow" data-src="https://ksk432.com/EmotionOverflow/" data-label="Emotion Overflow"><div class="preview-bar"><span>ksk432.com/EmotionOverflow</span><a href="https://ksk432.com/EmotionOverflow/" target="_blank" rel="noopener">Open ↗</a></div><div class="preview-viewport"><button type="button" class="preview-load" style="background-image: url(&quot;../../image/projects/emotion-overflow.jpg&quot;)"><span>Load live preview</span></button></div></div><iframe class="video" src="https://www.youtube-nocookie.com/embed/Pw87IJnRnDw" title="Emotion Overflow: an Interactive System to Represent Emotion with Fluid" loading="lazy" referrerpolicy="strict-origin-when-cross-origin" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div></div></section><section class="block" id="publications"><h2>Publications</h2><div class="block-body"><ul class="pubs">
+<li class="pub"><span class="pub-date">2024.10<span>Poster</span></span><span><strong class="pub-title">Emotion Overflow: an Interactive System to Represent Emotion with Fluid</strong><span class="pub-line">Keita Tsuyuguchi, <span class="self">Kosuke Shimizu</span>, <a href="https://www.ai.iit.tsukuba.ac.jp/" target="_blank" rel="noopener">Kenji Suzuki</a></span><span class="pub-line">UIST 2024 Adjunct, pp. 1–2 · DOI <a href="https://doi.org/10.1145/3672539.3686779" target="_blank" rel="noopener">10.1145/3672539.3686779</a></span></span></li>
+<li class="pub"><span class="pub-date">2025.03<span>Domestic</span></span><span><strong class="pub-title">Emotion Overflow: An Interactive System to Represent Emotion in Fluid Dynamics</strong><span class="pub-line">Keita Tsuyuguchi, <span class="self">Kosuke Shimizu</span>, <a href="https://www.ai.iit.tsukuba.ac.jp/" target="_blank" rel="noopener">Kenji Suzuki</a></span><span class="pub-line">INTERACTION 2025</span></span></li>
+</ul></div></section>
+  </main>
+
+  <footer><p>&copy; 2026 ksk432. All Rights Reserved.</p></footer>
+  <script src="../../projects/projects.js"></script>
+</body>
+</html>

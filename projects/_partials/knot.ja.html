@@ -1,0 +1,27 @@
+<section class="block" id="device">
+  <h2>自作の聴診デバイス</h2>
+  <div class="block-body">
+    <div class="figures">
+      <figure>
+        <img src="{root}image/projects/knot-device.jpg" alt="チェストピースに小型マイクを組み込んだダブルタイプ聴診器" width="500" height="500" loading="lazy">
+        <figcaption>収音に使う聴診器。チェストピースに小型マイクを組み込んでいます。</figcaption>
+      </figure>
+      <div class="columns-single">
+        <p>ダブルタイプ聴診器（FOCAL社）のチェストピースに小型マイクを埋め込む3Dプリント製のホルダを作り、それをぬいぐるみの中に一体化しました。参加者はぬいぐるみを胸に抱くだけで、心音を安定して収音できます。</p>
+        <p>マイクの信号はワイヤレス送受信機 Lark A1（Hollyland社）で送り、ヘッドホン（Sony MDR-CD900ST）とスピーカー型振動子 Bass Shaker（Dayton Audio社）で、自分と相手の拍動を音と振動として返します。解析と映像の生成は Mac mini 上の TouchDesigner で行います。</p>
+        <p>信号は直流成分を除いて心音の帯域（およそ20–200 Hz）に整え、整流とローパスで包絡を取り出します。閾値で拾ったピークを200–300 msの不応期で間引いて拍の時刻とし、拍間隔と瞬時心拍数を求めます。</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="block" id="session">
+  <h2>体験の流れ</h2>
+  <div class="block-body">
+    <ol class="steps">
+      <li><b>30秒</b><span>自分の拍動をヘッドホンで聴き、拍動に同期した低い振動を受けます。</span></li>
+      <li><b>1分</b><span>相手の心拍音を聴きます。振動は自分の拍動のまま続きます。</span></li>
+      <li><b>3分</b><span>ホワイトノイズの音場に二人の心拍で浅い変調をかけ、心拍が前に出すぎないようにしたまま、同調の指標に応じて像が変形します。像は外縁の歪み（ずれ）、内部の流れの質感（偏った影響）、残像（関係の履歴）の三層でできています。</span></li>
+    </ol>
+  </div>
+</section>

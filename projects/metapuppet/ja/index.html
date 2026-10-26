@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>MetaPuppet — KSK432 Projects</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="自分の体を操り人形のように操作する">
+  <link rel="canonical" href="https://ksk432.com/projects/metapuppet/ja/">
+  <link rel="alternate" hreflang="ja" href="https://ksk432.com/projects/metapuppet/ja/">
+  <link rel="alternate" hreflang="en" href="https://ksk432.com/projects/metapuppet/">
+  <meta property="og:title" content="MetaPuppet — KSK432 Projects">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://ksk432.com/projects/metapuppet/ja/">
+  <meta property="og:site_name" content="KSK432">
+  <link rel="stylesheet" href="../../../style.css">
+  <link rel="stylesheet" href="../../../projects/projects.css">
+</head>
+<body class="projects-body" data-preview-open="プレビュー" data-preview-close="閉じる">
+  <nav id="navbar" class="projects-nav">
+    <ul>
+      <li><a class="menu-link" href="../../../ja/summary.html">Home</a></li>
+      <li><a class="menu-link active" href="../../../projects/ja/">Projects</a></li>
+      <li><a class="menu-link" href="../../../ja/publications.html">Publications</a></li>
+      <li><a class="menu-link" href="../../../blog/index.html">Blog</a></li>
+      <li><a class="menu-link" href="../../../en/index.html">Terminal</a></li>
+      <li><a class="menu-link" href="../../../projects/metapuppet/">EN</a></li>
+    </ul>
+  </nav>
+
+  <main class="stage">
+    <header class="p-head">
+      <p class="kicker"><a href="../../../projects/ja/">Projects</a> / 研究</p>
+      <h1>MetaPuppet</h1>
+      <p class="p-sub">自分の体を操り人形のように操作する</p>
+    </header>
+    <figure class="p-cover"><img src="../../../image/metapuppet-ring-targets-sync.png" alt="MetaPuppet participant reaching for glowing ring targets in VR"></figure>
+    <section class="block">
+      <dl class="meta"><div><dt>期間</dt><dd>2026</dd></div><div><dt>研究テーマ</dt><dd><span class="thread-tag"><b>T1</b>体性感覚刺激インターフェース</span></dd></div><div><dt>リンク</dt><dd><ul class="links"><li><a href="https://meta-puppet.github.io/" target="_blank" rel="noopener">プロジェクトサイト</a></li></ul></dd></div></dl>
+      <div class="p-text"><p>MetaPuppetは、操作する人と操作される人が同じになるVR体験です。ステレオカメラで撮った参加者の姿をリアルタイムに切り出してVR内に映し、手首につないだケーブルをモーターで巻き取って、本人の手の入力で本人の腕を持ち上げます。藤原安路とIVRC 2026に向けて制作しました。</p><p>体験は、手を上げ下げして的に合わせるリズムゲームです。操作は同じまま、見え方が一人称、姿勢を写した三人称の人形、本人の実写映像の順に切り替わります。判定とケーブルの駆動にはヘッドセットのハンドトラッキングだけを使い、カメラ映像と姿勢推定は表示にのみ使っています。</p><p>映像はRaspberry Piのステレオカメラから独自のUDP通信でPCへ送り、GPU上で人物の切り抜きと姿勢推定を行います。松本啓吾先生と共著のVRST 2026ポスターでは、このケーブル駆動装置を、視点によって行為主体感と身体所有感がどう変わるかを調べる装置として報告します。</p></div>
+    </section>
+    <section class="block" id="demo"><h2>デモ</h2><div class="block-body"><div class="stack"><div class="preview" id="preview-metapuppet" data-src="https://meta-puppet.github.io/" data-label="MetaPuppet"><div class="preview-bar"><span>meta-puppet.github.io</span><a href="https://meta-puppet.github.io/" target="_blank" rel="noopener">開く ↗</a></div><div class="preview-viewport"><button type="button" class="preview-load" style="background-image: url(&quot;../../../image/metapuppet-ring-targets-sync.png&quot;)"><span>サイトを読み込む</span></button></div></div></div></div></section><section class="block" id="publications"><h2>発表</h2><div class="block-body"><ul class="pubs">
+<li class="pub"><span class="pub-date">2026.09<span>Contest</span></span><span><strong class="pub-title">MetaPuppet: Design of a Bodily Experience Where the Operator and the Operated are Identical</strong><span class="pub-line"><a href="https://scholar.google.com/citations?user=UvIvUX8AAAAJ" target="_blank" rel="noopener">Anji Fujiwara</a>, <span class="self">Kosuke Shimizu</span></span><span class="pub-line">Interverse Virtual Reality Challenge (IVRC) 2026</span></span></li>
+<li class="pub"><span class="pub-date">2026.11<span>Poster</span></span><span><strong class="pub-title">Where Is the Acting Self? A Cable-Driven Device for Studying Agency and Body Ownership across Visual Perspectives</strong><span class="pub-line"><a href="https://scholar.google.com/citations?user=UvIvUX8AAAAJ" target="_blank" rel="noopener">Anji Fujiwara</a>, <span class="self">Kosuke Shimizu</span>, <a href="https://trios.tsukuba.ac.jp/en/researcher/0000005038" target="_blank" rel="noopener">Keigo Matsumoto</a></span><span class="pub-line">Proceedings of the 32nd ACM Symposium on Virtual Reality Software and Technology (VRST 2026), Poster Track<span class="status">印刷中</span></span></span></li>
+</ul></div></section>
+  </main>
+
+  <footer><p>&copy; 2026 ksk432. All Rights Reserved.</p></footer>
+  <script src="../../../projects/projects.js"></script>
+</body>
+</html>

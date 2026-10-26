@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>KNOT — KSK432 Projects</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="二人の心拍のあいだに現れる像">
+  <link rel="canonical" href="https://ksk432.com/projects/knot/ja/">
+  <link rel="alternate" hreflang="ja" href="https://ksk432.com/projects/knot/ja/">
+  <link rel="alternate" hreflang="en" href="https://ksk432.com/projects/knot/">
+  <meta property="og:title" content="KNOT — KSK432 Projects">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://ksk432.com/projects/knot/ja/">
+  <meta property="og:site_name" content="KSK432">
+  <link rel="stylesheet" href="../../../style.css">
+  <link rel="stylesheet" href="../../../projects/projects.css">
+</head>
+<body class="projects-body" data-preview-open="プレビュー" data-preview-close="閉じる">
+  <nav id="navbar" class="projects-nav">
+    <ul>
+      <li><a class="menu-link" href="../../../ja/summary.html">Home</a></li>
+      <li><a class="menu-link active" href="../../../projects/ja/">Projects</a></li>
+      <li><a class="menu-link" href="../../../ja/publications.html">Publications</a></li>
+      <li><a class="menu-link" href="../../../blog/index.html">Blog</a></li>
+      <li><a class="menu-link" href="../../../en/index.html">Terminal</a></li>
+      <li><a class="menu-link" href="../../../projects/knot/">EN</a></li>
+    </ul>
+  </nav>
+
+  <main class="stage">
+    <header class="p-head">
+      <p class="kicker"><a href="../../../projects/ja/">Projects</a> / 作品</p>
+      <h1>KNOT</h1>
+      <p class="p-sub">二人の心拍のあいだに現れる像</p>
+    </header>
+    <figure class="p-cover"><img src="../../../image/projects/knot.jpg" alt="Two participants under blankets wearing headphones and holding stuffed animals, with a glowing knotted figure projected between them"></figure>
+    <section class="block">
+      <dl class="meta"><div><dt>期間</dt><dd>2025</dd></div><div><dt>リンク</dt><dd><ul class="links"><li><a href="../../../research/KNOT/NICOGRAPH/nicograph2025.pdf">論文PDF</a></li></ul></dd></div></dl>
+      <div class="p-text"><p>ジャン＝リュック・ナンシーの「単数複数の存在」に着目し、「私とあなたは異なる存在である」ことを前提に、隔たりとわからなさを抱えたまま共にある関係を問う作品です。</p><p>二人の心拍を電子聴診器で計測し、音と振動で互いに返します。平均拍からのずれと二人の拍動の遅れから同調の指標を計算し、その値に応じてスクリーン上の像が変形します。像は収斂と歪みを行き来しながら、一つには溶け合いません。</p></div>
+    </section>
+    <section class="block" id="device">
+  <h2>自作の聴診デバイス</h2>
+  <div class="block-body">
+    <div class="figures">
+      <figure>
+        <img src="../../../image/projects/knot-device.jpg" alt="チェストピースに小型マイクを組み込んだダブルタイプ聴診器" width="500" height="500" loading="lazy">
+        <figcaption>収音に使う聴診器。チェストピースに小型マイクを組み込んでいます。</figcaption>
+      </figure>
+      <div class="columns-single">
+        <p>ダブルタイプ聴診器（FOCAL社）のチェストピースに小型マイクを埋め込む3Dプリント製のホルダを作り、それをぬいぐるみの中に一体化しました。参加者はぬいぐるみを胸に抱くだけで、心音を安定して収音できます。</p>
+        <p>マイクの信号はワイヤレス送受信機 Lark A1（Hollyland社）で送り、ヘッドホン（Sony MDR-CD900ST）とスピーカー型振動子 Bass Shaker（Dayton Audio社）で、自分と相手の拍動を音と振動として返します。解析と映像の生成は Mac mini 上の TouchDesigner で行います。</p>
+        <p>信号は直流成分を除いて心音の帯域（およそ20–200 Hz）に整え、整流とローパスで包絡を取り出します。閾値で拾ったピークを200–300 msの不応期で間引いて拍の時刻とし、拍間隔と瞬時心拍数を求めます。</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="block" id="session">
+  <h2>体験の流れ</h2>
+  <div class="block-body">
+    <ol class="steps">
+      <li><b>30秒</b><span>自分の拍動をヘッドホンで聴き、拍動に同期した低い振動を受けます。</span></li>
+      <li><b>1分</b><span>相手の心拍音を聴きます。振動は自分の拍動のまま続きます。</span></li>
+      <li><b>3分</b><span>ホワイトノイズの音場に二人の心拍で浅い変調をかけ、心拍が前に出すぎないようにしたまま、同調の指標に応じて像が変形します。像は外縁の歪み（ずれ）、内部の流れの質感（偏った影響）、残像（関係の履歴）の三層でできています。</span></li>
+    </ol>
+  </div>
+</section>
+<section class="block" id="publications"><h2>発表</h2><div class="block-body"><ul class="pubs">
+<li class="pub"><span class="pub-date">2025.11<span>Domestic</span></span><span><strong class="pub-title">KNOT - Emergent Figure Between Us</strong><span class="pub-line"><span class="self">Kosuke Shimizu</span>, <a href="https://sites.google.com/view/matsubalab/home" target="_blank" rel="noopener">Masaki Matsubara</a></span><span class="pub-line">NICOGRAPH 2025, pp. F99:1–3 · <a href="../../../research/KNOT/NICOGRAPH/nicograph2025.pdf">PDF</a></span></span></li>
+</ul></div></section>
+  </main>
+
+  <footer><p>&copy; 2026 ksk432. All Rights Reserved.</p></footer>
+  <script src="../../../projects/projects.js"></script>
+</body>
+</html>

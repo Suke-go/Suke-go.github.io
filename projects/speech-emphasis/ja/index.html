@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>声の強調 — KSK432 Projects</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="話し手が強めた語を見つけ、字幕で見せ、身体で感じられるようにする">
+  <link rel="canonical" href="https://ksk432.com/projects/speech-emphasis/ja/">
+  <link rel="alternate" hreflang="ja" href="https://ksk432.com/projects/speech-emphasis/ja/">
+  <link rel="alternate" hreflang="en" href="https://ksk432.com/projects/speech-emphasis/">
+  <meta property="og:title" content="声の強調 — KSK432 Projects">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://ksk432.com/projects/speech-emphasis/ja/">
+  <meta property="og:site_name" content="KSK432">
+  <link rel="stylesheet" href="../../../style.css">
+  <link rel="stylesheet" href="../../../projects/projects.css">
+</head>
+<body class="projects-body" data-preview-open="プレビュー" data-preview-close="閉じる">
+  <nav id="navbar" class="projects-nav">
+    <ul>
+      <li><a class="menu-link" href="../../../ja/summary.html">Home</a></li>
+      <li><a class="menu-link active" href="../../../projects/ja/">Projects</a></li>
+      <li><a class="menu-link" href="../../../ja/publications.html">Publications</a></li>
+      <li><a class="menu-link" href="../../../blog/index.html">Blog</a></li>
+      <li><a class="menu-link" href="../../../en/index.html">Terminal</a></li>
+      <li><a class="menu-link" href="../../../projects/speech-emphasis/">EN</a></li>
+    </ul>
+  </nav>
+
+  <main class="stage">
+    <header class="p-head">
+      <p class="kicker"><a href="../../../projects/ja/">Projects</a> / 研究</p>
+      <h1>声の強調</h1>
+      <p class="p-sub">話し手が強めた語を見つけ、字幕で見せ、身体で感じられるようにする</p>
+    </header>
+    <figure class="p-cover"><img src="../../../image/projects/visceral-resonance.jpg" alt="Visceral Resonance interface title screen"></figure>
+    <section class="block">
+      <dl class="meta"><div><dt>期間</dt><dd>2026</dd></div><div><dt>研究テーマ</dt><dd><span class="thread-tag"><b>T1</b>体性感覚刺激インターフェース</span><span class="thread-tag"><b>T3</b>能力を拡張する計算機システム</span></dd></div></dl>
+      <div class="p-text"><p>話すとき、人は一部の語を長く、強く、あるいは声の高さを変えて発音し、ほかの語より際立たせます。言語学ではこれをプロミネンスと呼びます。字幕や書き起こしではこの情報が失われ、どの語も同じ見た目になります。このプロジェクトでは、どの音響的な手がかりが語を際立たせるのかを調べ、ブラウザ上でリアルタイムに動く軽量な検出器を作り、その結果を二つの形で聞き手に届けています。</p><p>モデル化については、ICSV32で、同じ語に人が付けた強調ラベルと連続ウェーブレット変換（CWT）で求めたラベルを同じ音響手がかりから予測し、両者からは重要な手がかりについて同じ結論が得られないことを示しました。Interspeech 2026では、テキストを使わず、語の長さ・エネルギー・スペクトルの手がかりで各語を前後の語と比べる、パラメータ数238以下のモデル Auditory Contrast Network を発表しました。</p><p>提示については、検出した強調を字幕の文字の大きさや動きに反映させるデモを、マイク入力のライブ字幕、TEDトークの抜粋を再生するプレーヤー、動く文字の試作環境の三つの形で公開しています。また Visceral Resonance では、同じ強調の信号で聞き手の腹部に電気的筋刺激を与えるシステムを作り、Augmented Humans 2026でデモ展示しました。</p></div>
+    </section>
+    <section class="block" id="structure"><h2>構成</h2><div class="block-body"><ol class="tree">
+<li class="node" id="emphasis-captions">
+  <span class="node-no">01</span>
+  <div>
+    <div class="node-head"><h3>強調が見える字幕</h3><time>2026</time></div>
+    <p class="node-sub">話された内容に加えて、どう話されたかも伝える字幕</p>
+    <p class="node-tags"><span class="thread-tag"><b>T3</b>能力を拡張する計算機システム</span></p>
+    <div class="node-body">
+      <div class="node-text"><p>通常の字幕は、何が話されたかは伝えても、話し手がどの語を強めたかは伝えません。ここでは検出した強調を字幕そのものに反映させる三つのデモを作りました。マイク入力のライブ字幕では文字の大きさ、TEDトークの抜粋では大きさと太さ、動く文字の試作環境では音節の動きに強調を割り当てています。いずれもブラウザで動作し、強調は声の音響特徴から推定しています。</p></div>
+      
+    </div>
+    <ol class="tree">
+<li class="node" id="live-captions">
+  <span class="node-no">01.1</span>
+  <div>
+    <div class="node-head"><h3>ライブ字幕</h3><time>2026</time></div>
+    <p class="node-sub">強められた語が大きく表示される、マイク入力の字幕</p>
+    
+    <div class="node-body">
+      <div class="node-text"><p>マイクの音声をブラウザのWeb Speech API（またはサーバ経由のGoogle Cloud Speech-to-Text）で文字に起こし、同じ音声をWebAssembly化したC言語の検出器で解析します。各語はWCAGに基づく12/18/24ptの3段階で表示され、強められた語ほど大きくなります。開始時の無音と例文の読み上げで、雑音や話者の声に閾値を合わせます。</p><ul class="links node-actions"><li><a href="../../../projects/speech-emphasis/live-captions/" target="_blank" rel="noopener">デモを開く</a><code>ksk432.com/projects/speech-emphasis/live-captions/</code></li><li><a href="https://github.com/Suke-go/prominence-subtitle.github.io" target="_blank" rel="noopener">GitHub</a></li></ul></div>
+      
+    </div>
+    
+  </div>
+</li>
+<li class="node" id="ted-talk-player">
+  <span class="node-no">01.2</span>
+  <div>
+    <div class="node-head"><h3>TEDトーク字幕プレーヤー</h3><time>2026</time></div>
+    <p class="node-sub">4種類の字幕を切り替えて見比べられるTEDトークの抜粋</p>
+    
+    <div class="node-body has-image">
+      <div class="node-text"><p>6本のTEDトークから90秒ずつを切り出し、強調のはっきりした話し方の3本と平坦な話し方の3本に分けて、語単位で同期した字幕付きで再生します。字幕は、全語同じ大きさ、品詞に応じた大きさ、Auditory Contrast Networkによる強調の推定値に応じた大きさと太さ、品詞と強調の組み合わせ、の4種類を切り替えて見比べられます。</p><ul class="links node-actions"><li><a href="../../../projects/speech-emphasis/ted-player/" target="_blank" rel="noopener">プレーヤーを開く</a><code>ksk432.com/projects/speech-emphasis/ted-player/</code></li><li><button type="button" class="btn" aria-expanded="false" aria-controls="preview-ted-talk-player">プレビュー</button></li></ul><div class="preview" id="preview-ted-talk-player" data-src="https://ksk432.com/ViceralResonance.github.io/ted-player/" data-label="TED Talk Player" hidden><div class="preview-bar"><span>ksk432.com/projects/speech-emphasis/ted-player/</span><a href="https://ksk432.com/ViceralResonance.github.io/ted-player/" target="_blank" rel="noopener">開く ↗</a></div><div class="preview-viewport"></div></div></div>
+      <img src="../../../image/projects/prominence-player.jpg" alt="Prominence Player clip list of TED talk excerpts grouped by high and low prominence" loading="lazy">
+    </div>
+    
+  </div>
+</li>
+<li class="node" id="moving-captions">
+  <span class="node-no">01.3</span>
+  <div>
+    <div class="node-head"><h3>動く字幕</h3><time>2026</time></div>
+    <p class="node-sub">音だけを手がかりに、強められた音節が動く字幕の試作環境</p>
+    
+    <div class="node-body has-image">
+      <div class="node-text"><p>TEDトークの抜粋の字幕を、発音辞書を使わず信号処理だけで音節ごとに動かす試作環境です。エネルギー包絡、スペクトルフラックス、ゼロ交差率から音節核、立ち上がりの鋭さ、雑音らしさ、母音の長さを測り、前後1.5秒の中で際立つ音節だけを動かします。静的表示、太さの変化、オノマトペ風の動きなどをプリセットで切り替えられます。</p><ul class="links node-actions"><li><a href="../../../projects/speech-emphasis/moving-captions/" target="_blank" rel="noopener">プレイグラウンドを開く</a><code>ksk432.com/projects/speech-emphasis/moving-captions/</code></li><li><button type="button" class="btn" aria-expanded="false" aria-controls="preview-moving-captions">プレビュー</button></li></ul><div class="preview" id="preview-moving-captions" data-src="https://ksk432.com/prominence-subtitle.github.io/demos/kinetic-captions/" data-label="Moving Captions" hidden><div class="preview-bar"><span>ksk432.com/projects/speech-emphasis/moving-captions/</span><a href="https://ksk432.com/prominence-subtitle.github.io/demos/kinetic-captions/" target="_blank" rel="noopener">開く ↗</a></div><div class="preview-viewport"></div></div></div>
+      <img src="../../../image/projects/prosody-playground.jpg" alt="A TED clip with moving captions, motion presets, and a timeline of emphasis and pitch" loading="lazy">
+    </div>
+    
+  </div>
+</li>
+</ol>
+  </div>
+</li>
+<li class="node" id="visceral-resonance">
+  <span class="node-no">02</span>
+  <div>
+    <div class="node-head"><h3>Visceral Resonance</h3><time>2026</time></div>
+    <p class="node-sub">話し手の強調を、腹部への電気刺激として感じる</p>
+    <p class="node-tags"><span class="thread-tag"><b>T1</b>体性感覚刺激インターフェース</span></p>
+    <div class="node-body">
+      <div class="node-text"><p>話し手の声から強調をリアルタイムに検出し、市販の音声駆動型EMS機器で聞き手の腹部に電気的筋刺激として伝えるシステムです。腹筋の収縮が腹腔内圧を変え、腹の底で感じるような感覚につながりうるという仮説に立ち、Augmented Humans 2026でデモ展示しました。同会議のワークショップ論文（単著）では、感覚間の変換に残す自由度を主体性の観点から論じています。</p><ul class="links node-actions"><li><a href="../../../projects/speech-emphasis/visceral-resonance/" target="_blank" rel="noopener">デモサイト</a><code>ksk432.com/projects/speech-emphasis/visceral-resonance/</code></li><li><a href="https://youtu.be/IRAJAS35-Fs" target="_blank" rel="noopener">YouTube</a></li><li><button type="button" class="btn" aria-expanded="false" aria-controls="preview-visceral-resonance">プレビュー</button></li></ul><div class="preview" id="preview-visceral-resonance" data-src="https://ksk432.com/ViceralResonance.github.io/" data-label="Visceral Resonance" hidden><div class="preview-bar"><span>ksk432.com/projects/speech-emphasis/visceral-resonance/</span><a href="https://ksk432.com/ViceralResonance.github.io/" target="_blank" rel="noopener">開く ↗</a></div><div class="preview-viewport"></div></div><iframe class="video" src="https://www.youtube-nocookie.com/embed/IRAJAS35-Fs" title="Visceral Resonance (AHs 2026 Demo)" loading="lazy" referrerpolicy="strict-origin-when-cross-origin" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe><ul class="pubs">
+<li class="pub"><span class="pub-date">2026.03<span>Demo</span></span><span><strong class="pub-title">Visceral Resonance: Augmenting Speech Listening with Prominence-Synchronized Electrical Muscle Stimulation</strong><span class="pub-line"><span class="self">Kosuke Shimizu</span>, Ron Lian Nikolaus Tan, <a href="https://shogofukushima.com/" target="_blank" rel="noopener">Shogo Fukushima</a>, <a href="https://www.xpercept.aclab.esys.tsukuba.ac.jp/" target="_blank" rel="noopener">Keiichi Zempo</a></span><span class="pub-line">Augmented Humans 2026 Demo Track, pp. 840–842 · DOI <a href="https://doi.org/10.1145/3795011.3797423" target="_blank" rel="noopener">10.1145/3795011.3797423</a></span></span></li>
+<li class="pub"><span class="pub-date">2026.03<span>Workshop</span></span><span><strong class="pub-title">Designing Degrees of Freedom in Modality Translation: Agency in Inclusive Augmented Performance</strong><span class="pub-line"><span class="self">Kosuke Shimizu</span></span><span class="pub-line">Augmented Humans 2026 Workshop: Reimagining Human Augmentation through Disability-Led Performance</span></span></li>
+</ul></div>
+      
+    </div>
+    
+  </div>
+</li>
+<li class="node" id="modeling-emphasis">
+  <span class="node-no">03</span>
+  <div>
+    <div class="node-head"><h3>強調のモデル化</h3><time>2026</time></div>
+    <p class="node-sub">どの音響的な手がかりが語を際立たせるのか</p>
+    
+    <div class="node-body">
+      <div class="node-text"><p>語を際立たせる音の要因を二つの論文で調べました。ICSV32では、人による強調ラベルとCWTによるラベルを同じ手がかりで予測し、語の長さ以外に役立つ手がかりがラベルごとに異なることを示しました。Interspeech 2026では、3つの音響特徴と最大238個のパラメータからなるAuditory Contrast Networkが、別コーパスへの転移で9460万パラメータのwav2vec2と同程度の性能を示しました。</p><ul class="links node-actions"><li><a href="https://github.com/Suke-go/PROMINENCE_Detection" target="_blank" rel="noopener">GitHub</a></li><li><a href="../../../blog/interspeech-frustration.html">ブログ：Interspeechで感じたこと</a></li></ul><figure class="deck" data-base="../../../projects/speech-emphasis/slides/icsv32/" data-count="17" aria-label="ICSV32 発表スライド">
+  <div class="deck-stage">
+    <img class="deck-slide" src="../../../projects/speech-emphasis/slides/icsv32/01.jpg" alt="ICSV32 発表スライド — 1 / 17" width="1600" height="900" loading="lazy">
+    <button type="button" class="deck-hit" data-act="prev" aria-label="前のスライド"></button>
+    <button type="button" class="deck-hit" data-act="next" aria-label="次のスライド"></button>
+  </div>
+  <div class="deck-bar">
+    <button type="button" class="deck-btn" data-act="prev" aria-label="前のスライド">‹</button>
+    <span class="deck-count"><b>1</b> / 17</span>
+    <button type="button" class="deck-btn" data-act="next" aria-label="次のスライド">›</button>
+    <input type="range" class="deck-range" min="1" max="17" value="1" aria-label="スライド">
+    <a class="deck-link" href="../../../projects/speech-emphasis/slides/icsv32.pdf" download>PDF</a>
+    <button type="button" class="deck-btn" data-act="full" aria-label="全画面表示">⛶</button>
+  </div>
+  <figcaption>ICSV32 発表スライド</figcaption>
+</figure><figure class="deck" data-base="../../../projects/speech-emphasis/slides/interspeech2026/" data-count="17" aria-label="INTERSPEECH 2026 発表スライド">
+  <div class="deck-stage">
+    <img class="deck-slide" src="../../../projects/speech-emphasis/slides/interspeech2026/01.jpg" alt="INTERSPEECH 2026 発表スライド — 1 / 17" width="1600" height="900" loading="lazy">
+    <button type="button" class="deck-hit" data-act="prev" aria-label="前のスライド"></button>
+    <button type="button" class="deck-hit" data-act="next" aria-label="次のスライド"></button>
+  </div>
+  <div class="deck-bar">
+    <button type="button" class="deck-btn" data-act="prev" aria-label="前のスライド">‹</button>
+    <span class="deck-count"><b>1</b> / 17</span>
+    <button type="button" class="deck-btn" data-act="next" aria-label="次のスライド">›</button>
+    <input type="range" class="deck-range" min="1" max="17" value="1" aria-label="スライド">
+    <a class="deck-link" href="../../../projects/speech-emphasis/slides/interspeech2026.pdf" download>PDF</a>
+    <button type="button" class="deck-btn" data-act="full" aria-label="全画面表示">⛶</button>
+  </div>
+  <figcaption>INTERSPEECH 2026 発表スライド</figcaption>
+</figure><ul class="pubs">
+<li class="pub"><span class="pub-date">2026.07<span>Proceedings</span></span><span><strong class="pub-title">Target-Dependent Cue Rankings in Prosodic Prominence: Comparing Human and CWT Labels</strong><span class="pub-line"><span class="self">Kosuke Shimizu</span>, <a href="https://www.xpercept.aclab.esys.tsukuba.ac.jp/" target="_blank" rel="noopener">Keiichi Zempo</a></span><span class="pub-line">32nd International Congress on Sound and Vibration (ICSV32)</span></span></li>
+<li class="pub"><span class="pub-date">2026.10<span>Proceedings</span></span><span><strong class="pub-title">Auditory Contrast Network for Text-Free Prominence Detection</strong><span class="pub-line"><span class="self">Kosuke Shimizu</span>, <a href="https://www.xpercept.aclab.esys.tsukuba.ac.jp/" target="_blank" rel="noopener">Keiichi Zempo</a></span><span class="pub-line">Proc. INTERSPEECH 2026, pp. 3696–3700 · <a href="https://www.isca-archive.org/interspeech_2026/shimizu26b_interspeech.html" target="_blank" rel="noopener">ISCA Archive</a></span></span></li>
+</ul></div>
+      
+    </div>
+    
+  </div>
+</li>
+</ol></div></section>
+  </main>
+
+  <footer><p>&copy; 2026 ksk432. All Rights Reserved.</p></footer>
+  <script src="../../../projects/projects.js"></script>
+</body>
+</html>

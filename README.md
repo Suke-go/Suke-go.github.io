@@ -8,7 +8,7 @@ terminal interface lives under `en/`, while Japanese pages are placed under
 [ターミナルを開く](https://ksk432.com/en/index.html) ·
 [日本語プロフィール](https://ksk432.com/ja/summary.html) ·
 [English profile](https://ksk432.com/en/summary.html) ·
-[作品一覧](https://ksk432.com/en/works.html) ·
+[プロジェクト](https://ksk432.com/projects/ja/) ·
 [論文一覧](https://ksk432.com/en/publications.html) ·
 [ブログ](https://ksk432.com/blog/)
 
@@ -27,18 +27,22 @@ terminal interface lives under `en/`, while Japanese pages are placed under
 
 ### 研究・論文
 
+[プロジェクト一覧](https://ksk432.com/projects/ja/)（[English](https://ksk432.com/projects/)）では、主著の研究を
+プロジェクトごとにまとめ、続けて論文になったものを一つの流れとして、下位プロジェクトを持つものを木構造として示しています。
+各プロジェクトのページから論文・デモ映像・関連サイトのライブプレビューを見られます。
+
 | 研究 | 内容と、リンク先で読めるもの |
 | --- | --- |
-| [語彙学習を支援するバイノーラル音響](https://ksk432.com/research/binauralaudio/) | 英単語の意味を表す音を空間的に提示し、語彙の記憶を支援する研究。40語の音刺激を用い、高校生20名がバイノーラル・モノラルの両条件で学習する実験を紹介しています。研究ページには方法・結果・考察、5種類のデモ音源、論文PDFがあります。 |
+| [語彙学習を支援するバイノーラル音響](https://ksk432.com/projects/binaural-audio/ja/) | 英単語の意味を表す音を空間的に提示し、語彙の記憶を支援する研究。40語の音刺激を用い、高校生20名がバイノーラル・モノラルの両条件で学習する実験を紹介しています。研究ページには方法・結果・考察、5種類のデモ音源、論文PDFがあります。 |
 | [Floating Captions（ETRA 2025）](https://dl.acm.org/doi/10.1145/3715669.3726816) | 視線追跡を用い、没入型VRコンテンツの文脈に応じて字幕を提示するシステム。リンク先は論文の掲載ページです。 |
 | [Visceral Resonance（Augmented Humans 2026）](https://doi.org/10.1145/3795011.3797423) | 音声の強調に同期した電気的筋刺激によって、音声を聴く体験を拡張する研究。リンク先からデモ論文の書誌情報を確認できます。 |
 | [Detecting Cross-Area Concept Links in HCI Using Persistent Homology（CHI EA 2026）](https://doi.org/10.1145/3772363.3798751) | パーシステントホモロジーを使って、HCIの異なる領域をまたぐ概念のつながりを検出する研究。リンク先は論文の掲載ページです。 |
 
 バイノーラル音響を試すには、研究ページのプレーヤー、または
-[grotto.wav](https://ksk432.com/research/binauralaudio/audio/grotto.wav)・
-[whirl.wav](https://ksk432.com/research/binauralaudio/audio/whirl.wav)を開いてください。
+[grotto.wav](https://ksk432.com/projects/binaural-audio/audio/grotto.wav)・
+[whirl.wav](https://ksk432.com/projects/binaural-audio/audio/whirl.wav)を開いてください。
 ヘッドホンでの試聴を推奨しています。
-[研究ページ掲載のPDF](https://ksk432.com/research/binauralaudio/paper/compiled/hissympset_overleaf_utf-5.pdf)と
+[研究ページ掲載のPDF](https://ksk432.com/projects/binaural-audio/paper/compiled/hissympset_overleaf_utf-5.pdf)と
 [学会誌論文のDOI](https://doi.org/10.11184/his.27.4_249)から本文や掲載情報へ進めます。
 
 [論文一覧](https://ksk432.com/en/publications.html)には、学術誌論文・国際会議・国内発表などを掲載しています。
@@ -47,8 +51,8 @@ terminal interface lives under `en/`, while Japanese pages are placed under
 
 ### 作品・展示・活動
 
-[作品一覧（Works）](https://ksk432.com/en/works.html)では、各作品の紹介に加え、
-掲載されている画像・プロジェクトサイト・活動報告・映像から制作の詳細を見られます。
+[プロジェクト一覧](https://ksk432.com/projects/ja/)には研究とあわせて作品と活動も載せており、
+画像・プロジェクトサイト・活動報告・映像から制作の詳細を見られます。
 
 | 作品・活動 | 内容 |
 | --- | --- |
@@ -66,7 +70,7 @@ terminal interface lives under `en/`, while Japanese pages are placed under
 
 [![教室でスライドを見ながら講演に参加するStudemiaの参加者たち](image/studemia-gathering.jpg)](https://studemia.org/)
 
-[Studemia公式サイト](https://studemia.org/) · [Worksで紹介を読む](https://ksk432.com/en/works.html#studemia) · [写真の掲載元](https://pbs.twimg.com/media/GU0276CaIAAu1yg?format=jpg&name=large)
+[Studemia公式サイト](https://studemia.org/) · [プロジェクトで紹介を読む](https://ksk432.com/projects/studemia/ja/) · [写真の掲載元](https://pbs.twimg.com/media/GU0276CaIAAu1yg?format=jpg&name=large)
 
 ### ブログ・研究についての考え
 
@@ -97,7 +101,7 @@ cd binauralaudio
 
 `cd profile` でプロフィールを表示し、`cat contact.txt` で連絡先を読めます。
 続いて `projects` に移動し、`cd binauralaudio` を実行すると、
-[語彙学習を支援するバイノーラル音響の研究紹介](https://ksk432.com/research/binauralaudio/)が
+[語彙学習を支援するバイノーラル音響の研究紹介](https://ksk432.com/projects/binaural-audio/ja/)が
 別タブで開きます。研究の概要・デモ音源・論文PDFまでたどれます。
 別タブが開かない場合は、ターミナルに表示されたリンクをクリックしてください。
 
@@ -110,12 +114,12 @@ cd binauralaudio
 | 読みたいもの | ターミナルでの操作 | 直接開く |
 | --- | --- | --- |
 | プロフィール・研究関心 | `cd ~` → `cd profile` | [日本語](https://ksk432.com/ja/summary.html) / [English](https://ksk432.com/en/summary.html) |
-| バイノーラル音響による語彙学習 | `cd ~` → `cd projects` → `cd binauralaudio` | [研究紹介・デモ音源・論文](https://ksk432.com/research/binauralaudio/) |
+| バイノーラル音響による語彙学習 | `cd ~` → `cd projects` → `cd binauralaudio` | [研究紹介・デモ音源・論文](https://ksk432.com/projects/binaural-audio/ja/) |
 | Floating Captions（ETRA 2025） | `cd ~` → `cd projects` → `cd floating-captions` | [論文（ACM DOI）](https://dl.acm.org/doi/10.1145/3715669.3726816) |
 | 論文・発表業績 | `cd ~` → `cd publications` → 表示内の **Full publications list** をクリック | [論文一覧](https://ksk432.com/en/publications.html) |
 | エッセイ・研究ノート | `cd ~` → `cd blog` → **Open the blog →** をクリック | [ブログ一覧](https://ksk432.com/blog/) / [「VR学会が30年を迎えた今、感じること」](https://ksk432.com/blog/vr-society-30-years.html) |
 
-制作・展示については、[作品一覧（Works）](https://ksk432.com/en/works.html)から
+制作・展示については、[プロジェクト一覧](https://ksk432.com/projects/ja/)から
 MetaPuppet、Project Bakebake、Wind Garden などの紹介へ進めます。
 
 ### 基本操作
@@ -164,11 +168,12 @@ Then open `http://localhost:8000/en/index.html` in your browser. The page will s
 
 - `index.html` – language selector page
 - `en/index.html` – English terminal interface
-- `en/works.html` – works list (English)
+- `en/works.html` – redirect to `projects/` (works now live in Projects)
 - `en/summary.html` – English summary page
 - `ja/summary.html` – Japanese introduction page
 - `style.css` – common styles
 - `script.js` – standalone script for lightbox functionality
+- `projects/` – research projects hub and project pages (generated, English and Japanese)
 - `blog/` – simple markdown-based blog framework
 
 ## Blog framework
@@ -211,6 +216,26 @@ reference panel above the article. Keep the discussion in the Markdown body;
 the template itself is not published. Images can live under `blog/images/` and
 be referenced as `![Description](images/example.png)`.
 
+
+## Projects
+
+`projects/projects.json` holds every project: title, description, research
+threads (`T1`–`T3`), links, an optional live-preview URL, videos, outputs, and
+nested `children` for sub-projects. Japanese text goes in `*_ja` fields next to
+the English ones. Image and file paths are relative to the site root.
+
+```bash
+python3 projects/generate.py
+```
+
+The script writes `projects/index.html`, `projects/ja/index.html`, and an
+English and a Japanese page for each project (`projects/<slug>/` and
+`projects/<slug>/ja/`). Long hand-written sections, such as the binaural study
+and its demo audio, live in `projects/_partials/` and are included by the
+`partial` field. A node can also carry `slides`: export the deck to PDF, render
+each page to `NN.jpg` (1600×900) in the folder given as `dir`, and set `count`
+and `pdf`; the page shows it in a paged viewer. Commit the generated HTML
+together with the JSON.
 
 ## OS shell shortcuts (Bash / Zsh)
 

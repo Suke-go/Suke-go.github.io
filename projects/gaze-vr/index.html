@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Gaze in Immersive Archives — KSK432 Projects</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Eye tracking for presenting information in, and studying how people view, VR archives">
+  <link rel="canonical" href="https://ksk432.com/projects/gaze-vr/">
+  <link rel="alternate" hreflang="en" href="https://ksk432.com/projects/gaze-vr/">
+  <link rel="alternate" hreflang="ja" href="https://ksk432.com/projects/gaze-vr/ja/">
+  <meta property="og:title" content="Gaze in Immersive Archives — KSK432 Projects">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://ksk432.com/projects/gaze-vr/">
+  <meta property="og:site_name" content="KSK432">
+  <link rel="stylesheet" href="../../style.css">
+  <link rel="stylesheet" href="../../projects/projects.css">
+</head>
+<body class="projects-body" data-preview-open="Preview" data-preview-close="Close">
+  <nav id="navbar" class="projects-nav">
+    <ul>
+      <li><a class="menu-link" href="../../en/summary.html">Home</a></li>
+      <li><a class="menu-link active" href="../../projects/">Projects</a></li>
+      <li><a class="menu-link" href="../../en/publications.html">Publications</a></li>
+      <li><a class="menu-link" href="../../blog/index.html">Blog</a></li>
+      <li><a class="menu-link" href="../../en/index.html">Terminal</a></li>
+      <li><a class="menu-link" href="../../projects/gaze-vr/ja/">JP</a></li>
+    </ul>
+  </nav>
+
+  <main class="stage">
+    <header class="p-head">
+      <p class="kicker"><a href="../../projects/">Projects</a> / Research</p>
+      <h1>Gaze in Immersive Archives</h1>
+      <p class="p-sub">Eye tracking for presenting information in, and studying how people view, VR archives</p>
+    </header>
+    <figure class="p-cover"><img src="../../image/projects/floating-captions-still.jpg" alt="A war-damaged room in VR with a gaze-triggered caption"></figure>
+    <section class="block">
+      <dl class="meta"><div><dt>Period</dt><dd>2025–2026</dd></div><div><dt>Threads</dt><dd><span class="thread-tag"><b>T3</b>Computational Systems for Human Capability</span></dd></div></dl>
+      <div class="p-text"><p>The Watanave Lab at the University of Tokyo builds immersive archives such as War Damage VR, which reconstructs damaged areas in Ukraine from 3D scans. In these scenes the sense of being in the place is central to the experience. Captions placed on separate panels or laid over the view split the viewer&#x27;s attention and can pull them out of the scene. This project, with Shohei Komatsu and Prof. Hidenori Watanave, uses the eye tracker built into a VR headset in two ways: to show information when the viewer is looking for it, and to measure how people actually look at exhibits.</p><p>Floating Captions (ETRA 2025) places small gaze points in the scene and shows a caption only after the viewer has looked at one for a set dwell time, so that fewer captions are on screen at once. The ETRA 2026 short paper then asked what besides dwell time goes along with sustained viewing. It analysed head motion, gaze dynamics and pupil size recorded while 20 participants freely explored a VR museum.</p><p>A related study led by Komatsu (HAI 2025) used a head-mounted display as a controlled eye-tracking platform to examine how a 3D avatar pointing at regions of historical photographs changes where and when viewers look.</p></div>
+    </section>
+    <section class="block" id="structure"><h2>Structure</h2><div class="block-body"><ol class="tree">
+<li class="node" id="floating-captions">
+  <span class="node-no">01</span>
+  <div>
+    <div class="node-head"><h3>Floating Captions</h3><time>2025</time></div>
+    <p class="node-sub">Gaze-triggered captions for VR exhibits (ETRA 2025)</p>
+    <p class="node-tags"><span class="thread-tag"><b>T3</b>Computational Systems for Human Capability</span></p>
+    <div class="node-body">
+      <div class="node-text"><p>A caption system for VR exhibits, built in Unity on a PICO 4 Enterprise headset with eye tracking. Small circular gaze points sit in the exhibit space, sized to their objects, and a caption appears only after the viewer holds their gaze on one for a set time; 750 ms was chosen conservatively to avoid accidental triggers. The demonstration had two scenes: 3D-scanned items from the Matsudo City Museum, and War Damage VR, an immersive record of damaged areas in Ukraine.</p><ul class="links node-actions"><li><a href="https://github.com/Suke-go/FloatingCaptions" target="_blank" rel="noopener">GitHub</a></li></ul><figure class="figure"><img src="../../image/projects/floating-captions.gif" alt="Gaze-triggered captions appearing on objects in a war-damage VR scene" loading="lazy"><figcaption>Demo: captions surface where the viewer&#x27;s gaze rests (戦災VR content).</figcaption></figure><ul class="pubs">
+<li class="pub"><span class="pub-date">2025.05<span>Late-Breaking Work</span></span><span><strong class="pub-title">Floating Captions: Eyetracking-based Context-aware Captioning System for Immersive VR Contents</strong><span class="pub-line"><span class="self">Kosuke Shimizu</span>, Shohei Komatsu, <a href="https://labo.wtnv.jp/" target="_blank" rel="noopener">Hidenori Watanave</a></span><span class="pub-line">ETRA 2025 LBW Track, pp. 1–3 · DOI <a href="https://doi.org/10.1145/3715669.3726816" target="_blank" rel="noopener">10.1145/3715669.3726816</a></span></span></li>
+</ul></div>
+      
+    </div>
+    
+  </div>
+</li>
+<li class="node" id="sustained-viewing">
+  <span class="node-no">02</span>
+  <div>
+    <div class="node-head"><h3>Sustained Viewing</h3><time>2026</time></div>
+    <p class="node-sub">Head, gaze and pupil markers of sustained viewing in a VR museum (ETRA 2026)</p>
+    
+    <div class="node-body">
+      <div class="node-text"><p>This study looked for signals beyond dwell time that go along with sustained viewing. Twenty participants freely explored a VR museum while gaze, pupil diameter and 6DoF head motion were recorded, and 758 viewing episodes were reviewed with retrospective think-aloud data. Slower head rotation was associated with longer dwell time. In episodes over three seconds, gaze converged on a narrower region while spreading more evenly within it. Pupil dilation just after gaze onset was larger in long episodes, a result the paper treats as exploratory.</p><ul class="pubs">
+<li class="pub"><span class="pub-date">2026.05<span>Short Paper</span></span><span><strong class="pub-title">Behavioral Markers of Sustained Viewing in VR Museum Exploration: Head Stability, Gaze Dynamics, and Pupillary Response</strong><span class="pub-line"><span class="self">Kosuke Shimizu</span>, Shohei Komatsu, <a href="https://labo.wtnv.jp/" target="_blank" rel="noopener">Hidenori Watanave</a></span><span class="pub-line">ETRA 2026 Short Paper Track, pp. 1–6 · DOI <a href="https://doi.org/10.1145/3797246.3803054" target="_blank" rel="noopener">10.1145/3797246.3803054</a></span></span></li>
+</ul></div>
+      
+    </div>
+    
+  </div>
+</li>
+</ol></div></section><section class="block"><h2>Related, by Collaborators</h2><div class="block-body"><ul class="pubs is-related">
+<li class="pub"><span class="pub-date">2025.11<span>Poster</span></span><span><strong class="pub-title">The Effect of an Avatar on Gaze Guidance: An Eye-Tracking Study of Historical Photograph Appreciation</strong><span class="pub-line">Shohei Komatsu, <span class="self">Kosuke Shimizu</span>, <a href="https://labo.wtnv.jp/" target="_blank" rel="noopener">Hidenori Watanave</a></span><span class="pub-line">HAI 2025, pp. 524–526 · DOI <a href="https://doi.org/10.1145/3765766.3765857" target="_blank" rel="noopener">10.1145/3765766.3765857</a></span></span></li>
+</ul></div></section>
+  </main>
+
+  <footer><p>&copy; 2026 ksk432. All Rights Reserved.</p></footer>
+  <script src="../../projects/projects.js"></script>
+</body>
+</html>
