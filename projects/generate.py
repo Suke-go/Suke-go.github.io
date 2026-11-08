@@ -380,7 +380,9 @@ def project_page(p, lang):
     sections = []
     if p.get('preview') or p.get('video') or p.get('media'):
         poster = resolve(p.get('preview_image', p['image']), prefix)
-        sections.append(block(labels['demo'], f'<div class="stack">{preview_panel(p, slug, lang, poster=poster)}{media(p, lang, prefix)}</div>', 'demo'))
+        # A project may rename this block (e.g. a recorded performance is a record, not a demo).
+        demo_label = tx(p, 'demo_label', lang) or labels['demo']
+        sections.append(block(e(demo_label), f'<div class="stack">{preview_panel(p, slug, lang, poster=poster)}{media(p, lang, prefix)}</div>', 'demo'))
     if p.get('children'):
         rows = '\n'.join(tree_node(n, c, lang, prefix) for n, c in numbered(p['children']))
         sections.append(block(labels['structure'], f'<ol class="tree">\n{rows}\n</ol>', 'structure'))

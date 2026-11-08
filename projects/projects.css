@@ -158,12 +158,41 @@ body.projects-body { min-height: 100vh; background: linear-gradient(rgba(20,20,1
 .columns-single p + p { margin-top: 12px; }
 .steps { margin: 0; padding: 0; list-style: none; }
 .steps li { display: grid; grid-template-columns: 84px minmax(0, 1fr); gap: 16px; padding: 14px 0; border-top: 1px solid var(--hair); font-size: 15px; line-height: 1.85; }
+.stack > * + .steps { margin-top: 24px; }
 .steps li:first-child { border-top: 0; padding-top: 0; }
 .steps b { font-family: var(--serif); font-size: 20px; font-weight: 400; line-height: 1.4; }
 .audio { display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 0 24px; margin: 0; padding: 0; list-style: none; }
 .audio li { padding: 12px 0; border-top: 1px solid var(--hair); }
 .audio b { font-family: var(--serif); font-size: 18px; font-weight: 400; }
 .audio audio { display: block; width: 100%; height: 34px; margin-top: 6px; }
+.columns-single p b { font-weight: 700; }
+
+/* System diagram: two zones joined by the links that cross between them */
+.arch { display: grid; grid-template-columns: minmax(0, 1fr) 150px minmax(0, 1fr); align-items: stretch; }
+.arch-zone { padding: 14px 16px 18px; border: 1px solid var(--ink); background: rgba(255,255,255,.4); }
+.arch-label { display: flex; align-items: baseline; gap: 8px; font-family: var(--mono); font-size: 12px; font-weight: 700; letter-spacing: .1em; text-transform: uppercase; }
+.arch-label b, .arch-lane h3 b { color: var(--muted); font-family: var(--mono); font-size: 11px; font-weight: 700; }
+.arch-note { margin-top: 6px; color: var(--muted); font-size: 12.5px; line-height: 1.65; }
+.arch-lane { margin-top: 14px; padding-top: 10px; border-top: 1px solid var(--hair); }
+.arch-lane h3 { display: flex; align-items: baseline; gap: 8px; font-family: var(--serif); font-size: 17px; font-weight: 400; line-height: 1.3; }
+.arch-flow { display: flex; flex-wrap: wrap; align-items: center; gap: 6px 0; margin: 8px 0 0; padding: 0; list-style: none; font-family: var(--mono); font-size: 11.5px; line-height: 1.4; }
+.arch-flow li { display: flex; align-items: center; }
+.arch-flow li + li::before { content: "→"; margin: 0 5px; color: var(--muted); }
+.arch-flow span { padding: 2px 6px; border: 1px solid var(--ink); background: var(--paper); }
+.arch-links { display: flex; flex-direction: column; justify-content: center; gap: 22px; margin: 0; padding: 0 10px; list-style: none; }
+.arch-links li { font-size: 11.5px; line-height: 1.45; text-align: center; }
+.arch-links b { display: block; font-family: var(--mono); font-size: 11px; letter-spacing: .06em; }
+.arch-links span:not(.arch-wire) { display: block; color: var(--muted); font-family: var(--mono); }
+.arch-wire { display: block; position: relative; height: 1px; margin: 0 -10px 6px; background: var(--ink); }
+.arch-wire::after { content: ""; position: absolute; right: 0; top: -4px; border-left: 7px solid var(--ink); border-top: 4.5px solid transparent; border-bottom: 4.5px solid transparent; }
+.arch figcaption { grid-column: 1 / -1; margin-top: 10px; color: var(--muted); font-size: 12.5px; }
+/* Numbered design judgments */
+.judgments { margin: 0; padding: 0; list-style: none; counter-reset: judgment; }
+.judgments li { counter-increment: judgment; display: grid; grid-template-columns: 52px minmax(0, 1fr); gap: 0 16px; padding: 20px 0; border-top: 1px solid var(--hair); }
+.judgments li:first-child { padding-top: 0; border-top: 0; }
+.judgments li::before { content: counter(judgment, decimal-leading-zero); grid-row: span 2; padding-top: 5px; color: var(--muted); font-family: var(--mono); font-size: 12px; font-weight: 700; }
+.judgments h3 { font-family: var(--serif); font-size: 20px; font-weight: 400; line-height: 1.4; }
+.judgments p { grid-column: 2; max-width: 700px; margin-top: 6px; font-size: 15px; line-height: 1.9; }
 
 footer { border-top: 1px solid var(--ink); background: rgba(242,240,230,.92); color: var(--muted); }
 
@@ -186,6 +215,14 @@ footer { border-top: 1px solid var(--ink); background: rgba(242,240,230,.92); co
   .node-body.has-image > img { order: -1; }
   .node .tree { padding-left: 14px; }
   .pub, .steps li { grid-template-columns: 1fr; gap: 2px; }
+  .arch { grid-template-columns: 1fr; }
+  .judgments li { grid-template-columns: 1fr; }
+  .judgments li::before { grid-row: auto; padding-top: 0; }
+  .judgments p { grid-column: 1; }
+  .arch-links { flex-direction: row; gap: 8px; padding: 0; }
+  .arch-links li { flex: 1; min-width: 0; padding-bottom: 8px; }
+  .arch-wire { width: 1px; height: 22px; margin: 0 auto 6px; }
+  .arch-wire::after { right: auto; top: auto; left: -4px; bottom: 0; border-top: 7px solid var(--ink); border-left: 4.5px solid transparent; border-right: 4.5px solid transparent; border-bottom: 0; }
 }
 @media (prefers-reduced-motion: reduce) { .pcard-img img { transition: none; } .pcard:hover .pcard-img img { transform: none; } }
 

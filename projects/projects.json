@@ -384,6 +384,7 @@
                 "Keiichi Zempo"
               ],
               "venue": "Proc. INTERSPEECH 2026, pp. 3696–3700",
+              "doi": "10.21437/Interspeech.2026-250",
               "url": "https://www.isca-archive.org/interspeech_2026/shimizu26b_interspeech.html",
               "url_label": "ISCA Archive"
             }
@@ -1040,16 +1041,21 @@
       "category": "engineering",
       "title": "Let's Pray / Play for Peace 2026",
       "date": "2026",
-      "subtitle": "Infrastructure for a charity concert with audience-participatory visuals",
-      "subtitle_ja": "観客参加型のリアルタイム映像を使ったチャリティーコンサートの基盤",
+      "subtitle": "Streaming and audience-participation systems for a charity concert supporting Ukraine",
+      "subtitle_ja": "ウクライナ支援チャリティーコンサートの配信と観客参加のシステム",
       "image": "image/projects/lets-play-for-peace.jpg",
       "image_alt": "Stage of the Let's Pray / Play for Peace 2026 charity concert",
       "description": [
-        "Backend and infrastructure for a charity concert in which the audience takes part in the realtime visuals: nginx and web server configuration, and a server run on the local network at the venue."
+        "Let's Pray / Play for Peace 2026 is a charity concert in support of Ukraine, held on April 25, 2026 in Meguro, Tokyo, and on May 3 in Hiroshima. People in the hall answer questions from their phones, and their answers flow onto the screen and into the TouchDesigner visuals. The concert was also streamed live with comments on the viewer page, and in Hiroshima, voices sent by children abroad through a Ukrainian-language form joined the same stream as the answers from the hall.",
+        "Kosuke Shimizu designed, built, and ran the technical systems for both shows almost entirely on his own. They fall into four parts: the path that carries the venue video to the internet, the web service for online viewers on Cloudflare, the local system through which the audience in the hall posts answers, and the venue network that carries all of it."
       ],
       "description_ja": [
-        "観客がリアルタイム映像に参加するチャリティーコンサートで、バックエンドと基盤を担当しました。nginxとWebサーバーの設定、会場のローカルネットワーク上でのサーバー運用を行いました。"
+        "Let's Pray / Play for Peace 2026は、ウクライナ支援のチャリティーコンサートです。2026年4月25日に東京・目黒、5月3日に広島で開かれました。会場の観客はスマホから問いに答え、その回答がスクリーンとTouchDesignerの演出に流れます。公演はライブ配信も行い、視聴ページではコメントを受け付けました。広島公演では、海外の子どもたちがウクライナ語のフォームから送った声も、会場の回答と同じ流れに合流させています。",
+        "清水は、この公演を支える技術の設計、実装、当日の運用を、ほぼ一人で担当しました。範囲は、会場の映像をインターネットに送る配信経路、オンライン視聴者向けのWebサービス（Cloudflare）、会場の観客が回答を投稿するローカルシステム、それらを支える会場ネットワークの4つです。"
       ],
+      "demo_label": "Record",
+      "demo_label_ja": "記録",
+      "partial": "_partials/lets-play-for-peace.{lang}.html",
       "video": "jzzpIlikk60",
       "video_title": "Let's Pray / Play for Peace 2026 — YouTube archive",
       "links": [

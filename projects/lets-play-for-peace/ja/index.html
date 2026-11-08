@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <title>Let&#x27;s Pray / Play for Peace 2026 — KSK432 Projects</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="観客参加型のリアルタイム映像を使ったチャリティーコンサートの基盤">
+  <meta name="description" content="ウクライナ支援チャリティーコンサートの配信と観客参加のシステム">
   <link rel="canonical" href="https://ksk432.com/projects/lets-play-for-peace/ja/">
   <link rel="alternate" hreflang="ja" href="https://ksk432.com/projects/lets-play-for-peace/ja/">
   <link rel="alternate" hreflang="en" href="https://ksk432.com/projects/lets-play-for-peace/">
@@ -31,14 +31,201 @@
     <header class="p-head">
       <p class="kicker"><a href="../../../projects/ja/">Projects</a> / 技術支援</p>
       <h1>Let&#x27;s Pray / Play for Peace 2026</h1>
-      <p class="p-sub">観客参加型のリアルタイム映像を使ったチャリティーコンサートの基盤</p>
+      <p class="p-sub">ウクライナ支援チャリティーコンサートの配信と観客参加のシステム</p>
     </header>
     <figure class="p-cover"><img src="../../../image/projects/lets-play-for-peace.jpg" alt="Stage of the Let&#x27;s Pray / Play for Peace 2026 charity concert"></figure>
     <section class="block">
       <dl class="meta"><div><dt>期間</dt><dd>2026</dd></div><div><dt>リンク</dt><dd><ul class="links"><li><a href="https://letsplayforpeace.com/" target="_blank" rel="noopener">プロジェクトサイト</a></li><li><a href="https://www.youtube.com/watch?v=jzzpIlikk60" target="_blank" rel="noopener">YouTube</a></li></ul></dd></div></dl>
-      <div class="p-text"><p>観客がリアルタイム映像に参加するチャリティーコンサートで、バックエンドと基盤を担当しました。nginxとWebサーバーの設定、会場のローカルネットワーク上でのサーバー運用を行いました。</p></div>
+      <div class="p-text"><p>Let&#x27;s Pray / Play for Peace 2026は、ウクライナ支援のチャリティーコンサートです。2026年4月25日に東京・目黒、5月3日に広島で開かれました。会場の観客はスマホから問いに答え、その回答がスクリーンとTouchDesignerの演出に流れます。公演はライブ配信も行い、視聴ページではコメントを受け付けました。広島公演では、海外の子どもたちがウクライナ語のフォームから送った声も、会場の回答と同じ流れに合流させています。</p><p>清水は、この公演を支える技術の設計、実装、当日の運用を、ほぼ一人で担当しました。範囲は、会場の映像をインターネットに送る配信経路、オンライン視聴者向けのWebサービス（Cloudflare）、会場の観客が回答を投稿するローカルシステム、それらを支える会場ネットワークの4つです。</p></div>
     </section>
-    <section class="block" id="demo"><h2>デモ</h2><div class="block-body"><div class="stack"><iframe class="video" src="https://www.youtube-nocookie.com/embed/jzzpIlikk60" title="Let&#x27;s Pray / Play for Peace 2026 — YouTube archive" loading="lazy" referrerpolicy="strict-origin-when-cross-origin" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div></div></section>
+    <section class="block" id="demo"><h2>記録</h2><div class="block-body"><div class="stack"><iframe class="video" src="https://www.youtube-nocookie.com/embed/jzzpIlikk60" title="Let&#x27;s Pray / Play for Peace 2026 — YouTube archive" loading="lazy" referrerpolicy="strict-origin-when-cross-origin" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div></div></section><section class="block" id="architecture">
+  <h2>システム構成</h2>
+  <div class="block-body stack">
+    <p class="lede">システムは、映像配信、オンライン視聴者向けのWeb、会場ローカルの投稿システム、会場ネットワークの4系統に分かれています。会場の中で動く部分とクラウドで動く部分を分け、その間をつなぐ通信を3本に限りました。</p>
+
+    <figure class="arch" aria-label="4系統のシステム構成図">
+      <div class="arch-zone">
+        <p class="arch-label"><b>04</b>会場ネットワーク</p>
+        <p class="arch-note">ルーター、PoEスイッチ、Wi-Fi AP 2台。上流は会場の固定回線とモバイル回線。観客の端末はLANの中だけで完結します。</p>
+        <div class="arch-lane">
+          <h3><b>01</b>映像</h3>
+          <ol class="arch-flow"><li><span>カメラ</span></li><li><span>ATEM Mini Pro</span></li></ol>
+        </div>
+        <div class="arch-lane">
+          <h3><b>03</b>会場の投稿</h3>
+          <ol class="arch-flow"><li><span>観客のスマホ</span></li><li><span>Wi-Fi AP</span></li><li><span>nginx</span></li><li><span>回答API（Node + SQLite）</span></li><li><span>スクリーン / TouchDesigner</span></li></ol>
+          <ol class="arch-flow"><li><span>cloud-poller</span></li><li><span>回答API</span></li></ol>
+        </div>
+      </div>
+
+      <ul class="arch-links">
+        <li><span class="arch-wire" aria-hidden="true"></span><b>RTMPS</b><span>ATEM → Stream Live</span></li>
+        <li><span class="arch-wire" aria-hidden="true"></span><b>HTTPS / 5秒ごと</b><span>cloud-poller → Worker</span></li>
+        <li><span class="arch-wire" aria-hidden="true"></span><b>Zoom</b><span>制御PC → Zoom</span></li>
+      </ul>
+
+      <div class="arch-zone">
+        <p class="arch-label">Cloudflare</p>
+        <p class="arch-note">視聴の負荷はクラウド側で受けます。</p>
+        <div class="arch-lane">
+          <h3><b>01</b>映像配信</h3>
+          <ol class="arch-flow"><li><span>Stream Live</span></li><li><span>視聴ページ</span></li></ol>
+        </div>
+        <div class="arch-lane">
+          <h3><b>02</b>オンラインの投稿</h3>
+          <ol class="arch-flow"><li><span>視聴者</span></li><li><span>Pages（React）</span></li><li><span>Worker（Hono）</span></li><li><span>Durable Objects（SSE）</span></li></ol>
+          <ol class="arch-flow"><li><span>Worker</span></li><li><span>D1 / R2</span></li></ol>
+        </div>
+      </div>
+      <figcaption>番号は系統を表します。中央の3本の接続は、どれも会場の機器から外へ向けて張っています。</figcaption>
+    </figure>
+
+    <div class="columns-single">
+      <p>映像の経路とコメントや投稿の経路は分けています。映像はATEMからCloudflare Streamへ直接送り、コメントのAPIや会場のサーバーを通りません。コメントのAPIが止まっても配信は続き、配信が乱れても投稿は受け付けられます。どちらかで障害が起きても、影響はその系統の中にとどまります。</p>
+    </div>
+  </div>
+</section>
+
+<section class="block" id="judgments">
+  <h2>設計の見立て</h2>
+  <div class="block-body">
+    <ol class="judgments">
+      <li>
+        <h3>クラウドと会場を別の系統に分ける</h3>
+        <p>配信を見る不特定多数の視聴者と会場にいる観客とでは、規模も、信頼できる度合いも、回線の質も大きく違います。そこで両者は、コードもデータベースも別にしました。TypeScriptのモノレポの中で両者が共有するのは、型定義とエクスポート形式の2つのパッケージだけです。会場の回線が不安定になってもクラウド側は影響を受けず、会場側はインターネットがなくても動き、データは後から同じ形式でまとめて扱えます。</p>
+      </li>
+      <li>
+        <h3>観客のスマホはインターネットに出さない</h3>
+        <p>会場の上り回線は細く、配信とZoomのために確保しておく必要がありました。観客のスマホは回答ページに届けば足りるので、観客に配るDHCPの範囲だけ、ルーターでLANからWANへの通信を遮断しました。数百台のスマホが回線を使い切るおそれを、ルール1つでなくせます。インターネットに出る機器は、ATEM、Zoom用のPC、サーバーPCの3台に絞りました。</p>
+      </li>
+      <li>
+        <h3>映像はPCを通さない</h3>
+        <p>PCはZoom、ATEMの操作、会場のサーバーを兼ねる予定でした。処理を切り分けるためにOBSは使わないことにし、ATEM内蔵のエンコーダーから直接Cloudflareへ送る構成にしました。ATEMの公式設定にない配信先は、設定ファイル（Streaming.xml）を書き換えて追加しています。PCが配信の障害点から外れ、負荷も分散できます。</p>
+      </li>
+      <li>
+        <h3>低遅延より途切れないことを優先する</h3>
+        <p>ピアノのコンサートの配信では、遅延を1秒未満に縮めることより、途切れずに届くことのほうが大切です。遅延は約5秒まで許容することにし、WebRTCや低遅延モードは採用しませんでした。配信はマネージドサービスのCloudflare Streamに任せています。実装の量が減り、壊れやすい部分も少なくなりました。</p>
+      </li>
+      <li>
+        <h3>会場のサーバーは脆いものとして守る</h3>
+        <p>会場のサーバーは、ファイアウォールの設定を緩めないと動かせない場面もあり、思った以上に脆いものとして扱う必要があります。外に見せるのはnginxの80番ポートだけにし、回答APIはlocalhostからしか届かないようにしました。入口は観客用と運営用に分け、運営用は管理用の端末からのみ、パスワードつきで受け付けます。管理の認証はサーバー側のセッションで行ってブラウザには秘密を置いておらず、イベントを作れるのも運用者だけなので、同じLANに不特定の参加者がいても何層かの制御で守れます。</p>
+      </li>
+      <li>
+        <h3>質問は即時に届け、投稿は受けて溜める</h3>
+        <p>運用者が質問を切り替える通信は1対多で、即時に届く必要があります。観客の投稿は多対1で、運用者の確認もいくらか遅れて構いません。そこで質問の切り替えはSSEで押し出し、投稿はPOSTで受けて保存するだけにし、運用者の確認画面とスクリーンの表示はポーリングで取りに行く形にしました。SSEには状態だけを流し、投稿そのものは流さないので、N人の投稿をN人に配る通信の膨張が起きません。</p>
+      </li>
+      <li>
+        <h3>接続の上限を超えても参加は続けられるようにする</h3>
+        <p>SSEの同時接続は200本で上限を切りました。上限を超えた端末は、45秒ごとのポーリングで状態を取りに行きます。質問の切り替えが届くまでに時間はかかりますが、全員が参加を続けられます。容量の上限に達したときに締め出しが起きないよう、縮退のしかたを先に決めておきました。</p>
+      </li>
+      <li>
+        <h3>承認なしで投稿を受け、重複と連打だけを防ぐ</h3>
+        <p>投稿は事前の承認制にしていません。1人で何度でも投稿でき、声の量も表現の一部として扱います。会場のWi-Fiで起きる再送は冪等キーで重複させず、機械的な連打だけをレート制限で止めます。問題のある投稿は運用者が非表示にできます。非表示はいつでも戻せてデータも残るので、リアルタイムの流れを止めずに場を整えられます。</p>
+      </li>
+      <li>
+        <h3>演出への入力を変えない</h3>
+        <p>TouchDesignerに送る情報は、途中で書き換えないことにしました。送信は一方向で、間に最大200件のキューと1.5秒のタイムアウトを挟んでいるので、TouchDesignerが止まっても投稿の受付は止まりません。オンラインからの投稿には会場とオンラインを区別するラベルをつけ、作品への入力を乱さないようにしています。演出、保存、表示の3つが、互いの動作を妨げない構造です。</p>
+      </li>
+      <li>
+        <h3>オンラインの投稿は会場から取りに行く</h3>
+        <p>公演当日、海外の子どもたちの声を会場の作品に合流させることになりました。会場はNATの内側にあり、IPアドレスも安定しないので、外から会場へ届ける経路は作れません。そこで、子どもたちにはウクライナ語の限定フォームから投稿してもらい（1人5件まで、他の人の投稿は見えません）、D1に保存された投稿を会場のサーバーが5秒ごとに取りに行く方式にしました。取り込んだ位置を示すカーソルを保存しているので、回線が切れても続きから取り込めます。</p>
+      </li>
+      <li>
+        <h3>どのホスト名で来ても観客の画面を出す</h3>
+        <p>観客用の入口は、nginxの既定のサーバー（default_server と server_name _）にしておきました。当日はホスト名が使えず、サーバーのIPアドレスも何度か変わりましたが、nginxの設定を変えないまま観客の画面を出し続けられました。結果として、これが一番大きな保険になりました。</p>
+      </li>
+    </ol>
+  </div>
+</section>
+
+<section class="block" id="streaming">
+  <h2>映像配信</h2>
+  <div class="block-body">
+    <div class="columns-single">
+      <p>カメラの映像をATEM Mini Proで切り替え、RTMPSでCloudflare Stream Liveのライブ入力に送ります。設定は1080p30、5〜8 Mbps、AAC、キーフレーム2秒のCBRを基準にし、回線が細いときは720p、3〜4.5 Mbpsに下げます。</p>
+      <p>視聴ページは、どのライブ入力を再生するかを、データベース（D1）に登録したイベント情報から読みます。ライブ入力を作り直したり予備に切り替えたりしても、ページを再デプロイする必要はありません。同じ映像はATEMのUSB-C出力からPCにも入れ、Zoomにも流しました。</p>
+    </div>
+  </div>
+</section>
+
+<section class="block" id="cloud">
+  <h2>オンライン視聴者向けのWeb</h2>
+  <div class="block-body">
+    <div class="columns-single">
+      <p>視聴ページはCloudflare Pages（React / Vite）、APIはCloudflare Worker（Hono）で動かし、同じドメインの下に置いています。ページとAPIが同一オリジンになるので、CORSの設定が要らず、Cookieも素直に扱えます。視聴者が増えたときの負荷は、静的ファイルと動画を配るCloudflare側で吸収されます。</p>
+      <p>コメントは、イベントごとに1つのDurable Objectを割り当てて扱います。投稿の受付も、接続中の視聴者へのSSEでの配信も、すべてこの1か所を通ります。投稿モード（OPEN / SLOW / CLOSED）やスローモードの判定もここが持つので、複数のWorkerインスタンスの間で状態を揃える必要がありません。その分、1イベントの接続は1つのDurable Objectに集まります。数百人規模なら問題はなく、1000人を超える場合には負荷試験が必要になる構成です。</p>
+      <p>コメントの正本はD1に保存し、時刻にはWorkerが受信した時刻だけを使います。端末の時計は機種や設定によってずれるので、表示の順序もログの時刻も、サーバー側の1つの時計に揃えました。エクスポートと監査ログはR2に置きます。投稿はWAFとレート制限を通った後、Workerで文字数、ルームの状態、スローモード、NGワードを検証します。ボット対策のTurnstileも組み込んでありますが、視聴者がすぐに書き込めるよう、既定では無効にしています。管理画面はCloudflare Accessの内側に置き、公開ページとは入口を分けました。</p>
+      <p>広島公演に向けて、開演前の待機画面、終演後に自動で切り替わる終了状態、寄付リンク、ウクライナ語の投稿フォームを加えました。</p>
+    </div>
+  </div>
+</section>
+
+<section class="block" id="venue">
+  <h2>会場ローカルの投稿システム</h2>
+  <div class="block-body">
+    <div class="columns-single">
+      <p>会場では、運営が問いを1つずつ出し、観客がスマホで短く答えます。他の人の回答は手元には表示されず、会場のスクリーンにだけ流れます。回答は保存され、TouchDesignerにも送られて演出に使われます。</p>
+      <p>システムは、nginx、回答API（Node + SQLite）、観客用の画面、管理画面からなります。データベースにSQLiteを選んだのは、会場のPC1台で完結させ、外部のサービスに頼らずに動かすためです。nginxは信頼できる上流から来たX-Forwarded-Forだけを使うので、観客の端末がヘッダーを偽ってレート制限の判定を逃れることはできません。</p>
+      <p>重複排除のキーは、イベント、問い、セッション、リクエストのIDを組み合わせたものです。オンラインの投稿にはその投稿のIDを使うので、同じ範囲を取り込み直しても重複しません。管理画面からは、問いの切り替え、受付の開始と終了、回答の非表示、QRコードの表示、エクスポートを操作できます。エクスポートはJSON、JSONL、CSVに対応し、CSVには数式インジェクションの対策を入れました。</p>
+    </div>
+  </div>
+</section>
+
+<section class="block" id="network">
+  <h2>会場ネットワーク</h2>
+  <div class="block-body">
+    <div class="columns-single">
+      <p>会場のネットワークは、VPNルーター（TP-Link ER7206）、PoEスイッチ（TL-SG2008P）、Wi-Fiアクセスポイント（EAP610）2台で組みました。ルーターがDHCP、NAT、ファイアウォールを受け持ち、上流には会場の固定回線とモバイル回線の2系統をつないでいます。2台のアクセスポイントは同じSSIDで会場全体をカバーします。</p>
+      <p>アドレスは役割ごとに分けています。サーバーPC、ATEM、制御PC、TouchDesignerのPCには決まったアドレスを割り当て、観客の端末にはそれとは別の範囲をDHCPで配ります。インターネットへの遮断は、この観客の範囲にかけています。</p>
+    </div>
+  </div>
+</section>
+
+<section class="block" id="security">
+  <h2>本番前のセキュリティ確認</h2>
+  <div class="block-body">
+    <div class="columns-single">
+      <p>見立ての5と7に挙げた対策のうち、サーバー側のセッション、運営用の経路の分離、イベントの許可リスト、SSEの上限は、広島公演の前日に会場ローカル系を見直して入れたものです。あわせて、短い間隔での連投や1分あたりの投稿が多すぎる場合に429を返す制限、管理画面へのログインに続けて失敗したときのロック、公開フィードの件数をSQLで絞る処理、接続数を確認できるヘルスチェックを加えました。</p>
+    </div>
+  </div>
+</section>
+
+<section class="block" id="recovery">
+  <h2>当日の立て直し</h2>
+  <div class="block-body">
+    <div class="columns-single">
+      <p>広島公演の当日は、会場ネットワークの設定が崩れ、配信も一時Disconnectedになりました。立て直しは、配信、観客の入口、オンライン投稿の順に優先度を決めて進めました。</p>
+      <p>配信が切れたときは、プロトコルや機材の相性を疑う前に、ATEMのいるネットワークがインターネットに出られているかを確かめました。前日にも、ATEMの画面では配信中なのに相手に届いていない現象を同じ確認で解決しており、その経験をそのまま切り分けに使っています。配信は開演前に復旧して本番を最後まで届け、会場の投稿システムも、本番中に観客103台が参加できる状態まで戻しました。当日の経緯は<a href="../../../blog/infrastructure-is-hard.html">ブログ記事</a>に書いています。</p>
+    </div>
+  </div>
+</section>
+
+<section class="block" id="operation">
+  <h2>広島公演での運用</h2>
+  <div class="block-body stack">
+    <p class="lede">5月3日の広島公演では、開演後の約20分間、観客がスマホから問いに答えました。nginxのアクセスログから集計した数字です。</p>
+    <ol class="steps">
+      <li><b>103台</b><span>参加した端末の数。約8割がiPhoneでした。</span></li>
+      <li><b>108件</b><span>会場から届いた投稿の数。</span></li>
+      <li><b>約2,300</b><span>リクエストの数。アプリケーション層での5xxエラーは0件でした。</span></li>
+      <li><b>159回</b><span>SSEの接続回数。上限の200本以内に収まりました。</span></li>
+    </ol>
+    <div class="columns-single">
+      <p>海外の子どもたちからのオンライン投稿も、会場の画面に出所つきで並びました。会場ローカルの投稿システムは4月25日の東京・目黒公演で初めて運用し、その経験をもとに広島公演までに構成を整えています。</p>
+    </div>
+  </div>
+</section>
+
+<section class="block" id="review">
+  <h2>振り返り</h2>
+  <div class="block-body">
+    <div class="columns-single">
+      <p>振り返りで行き着いたのは、IPアドレスやMACアドレスのような物理的なアドレスが表すのは機器のネットワーク上の場所であり、機器の身元は別に持たせる必要がある、という整理です。今回はIPアドレスを機器の身元として扱い、アクセス許可、QRコード、設定ファイルに埋め込んでいたため、物理層が揺れたときに影響がすべての層に及びました。同じ回線ならPCを固定IPにすれば変わらない、という当初の仮説がどこで外れたのかまで確かめています。</p>
+      <p>次の設計では、物理層の不確かさを論理層の安定で上書きします。変わらない論理的な身元はTailscaleのようなオーバーレイで持たせ、機器は自前のローカルDNSの名前で引き、構成はTerraformやAnsibleでコードとして宣言します。原因の分析、次回の設計原則、当日のRunbookは、終演の翌日にドキュメントにまとめてリポジトリに残しました。</p>
+    </div>
+  </div>
+</section>
+
   </main>
 
   <footer><p>&copy; 2026 ksk432. All Rights Reserved.</p></footer>

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="チャリティーコンサートの配信と会場インフラをほぼ一人で担当した。アプリケーション層は103台を相手にエラーなく動いたが、その下のネットワークは一つの変更から連鎖的に崩れた。物理層の不確かさを論理層の安定で上書きする設計が必要だと考えている。">
+  <meta name="theme-color" content="#f2f0e6">
+  <meta property="og:type" content="article">
+  <meta property="og:title" content="インフラは難しい">
+  <meta property="og:description" content="チャリティーコンサートの配信と会場インフラをほぼ一人で担当した。アプリケーション層は103台を相手にエラーなく動いたが、その下のネットワークは一つの変更から連鎖的に崩れた。物理層の不確かさを論理層の安定で上書きする設計が必要だと考えている。">
+  <meta property="og:site_name" content="KSK432 — Blog">
+  <title>インフラは難しい — KSK432</title>
+  <link rel="stylesheet" href="blog.css">
+</head>
+<body id="top">
+  <a class="skip-link" href="#main">本文へスキップ</a>
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="wordmark" href="../ja/summary.html" aria-label="KSK432 ホーム">KSK432<span> / JOURNAL</span></a>
+      <nav aria-label="メインナビゲーション">
+        <a href="../ja/summary.html">Home</a>
+        <a href="../projects/ja/index.html">Projects</a>
+        <a href="../en/publications.html">Publications</a>
+        <a href="index.html" aria-current="page">Blog</a>
+        <a href="../en/index.html">Terminal</a>
+      </nav>
+    </div>
+  </header>
+  <main id="main" class="article-page">
+    <div class="article-breadcrumb"><a href="index.html">Blog</a><span aria-hidden="true">/</span><span>Diary</span></div>
+    <article>
+      <header class="article-header">
+        <p class="eyebrow">Diary <span class="label-rule"></span> 2026.05.10</p>
+        <h1><span class="title-line">インフラは難しい</span></h1>
+        <div class="article-meta"><a href="../ja/summary.html">清水 紘輔 <span lang="en">/ Kosuke Shimizu</span></a><span class="meta-divider" aria-hidden="true"></span><time datetime="2026-05-10">2026.05.10</time><span>約5分で読めます</span></div>
+        <div class="tags"><span>インフラ</span><span>ネットワーク</span><span>ライブ配信</span><span>チャリティーコンサート</span></div>
+      </header>
+      <div class="article-layout">
+        <aside class="article-aside">
+          <details class="contents" open>
+            <summary>目次 <span lang="en">CONTENTS</span></summary>
+            <div class="toc">
+<ul>
+<li><a href="#構成">構成</a></li>
+<li><a href="#atemの配信中表示">ATEMの配信中表示</a></li>
+<li><a href="#当日のネットワークで起きた連鎖">当日のネットワークで起きた連鎖</a></li>
+<li><a href="#502の切り分け">502の切り分け</a></li>
+<li><a href="#持ちこたえたもの">持ちこたえたもの</a></li>
+<li><a href="#次に向けて">次に向けて</a></li>
+</ul>
+</div>
+
+          </details>
+          <a class="aside-back" href="index.html"><span aria-hidden="true">←</span> すべての記事</a>
+        </aside>
+        <div class="article-body">
+
+<p>5月3日、ウクライナ支援のチャリティーコンサート「<a href="../projects/lets-play-for-peace/ja/">Let's Pray / Play for Peace 2026</a>」の広島公演が終わった。4月25日の東京・目黒公演とあわせて、配信と会場のインフラをほぼ一人で担当した。終わってみての感想は、インフラは難しいということに尽きる。アプリケーションは事前に作り込めるが、ネットワークには会場に着くまで確かめられない部分が残る。今回の結論は、物理層の不確かさを論理層の安定で上書きする設計が必要だというものである。何が起きたのかを書き留めておく。</p>
+<h2 id="構成">構成</h2>
+<p>システムは4系統に分けていた。ATEMからCloudflare Stream LiveへRTMPSで送る映像配信、オンライン視聴者向けにCloudflare上で動くWebとコメントAPI、会場のLANで動くnginxと回答API、そして自前のルーター、スイッチ、APで組んだ会場ネットワークである。配信系とコメント系は分け、観客のスマホは会場のLANの中だけで完結させた。インターネットに出る機器は3台に絞った。設計としては筋が通っていたと思う。崩れたのは、その下のネットワークだった。</p>
+<h2 id="atemの配信中表示">ATEMの配信中表示</h2>
+<p>準備の段階で一番時間を使ったのは配信である。ATEMの画面では配信中になっているのに、Cloudflare側はDisconnectedのままだった。エンコーダーとの相性を疑い、OBS、VPSにnginx-rtmpを立てる案、Restream、YouTubeまで検討した。実際の原因は、ATEMをつないだLANのセグメントにインターネットへの経路がなかったことだった。ATEMの「配信中」は、ATEMが送信を始めたことを示しているだけで、データが相手に届いていることは保証しない。疑うべきだったのはATEM自身のゲートウェイ、DNS、上流の経路で、配信先のサービスを替えても解決しなかったはずである。本番当日もサブネットが変わった後に再びDisconnectedになり、開演前にどうにか復旧させた。</p>
+<h2 id="当日のネットワークで起きた連鎖">当日のネットワークで起きた連鎖</h2>
+<p>本番当日には、一つの変更から設定が連鎖的に崩れた。起点はUSB-Cドックである。ドックの中にはEthernetのチップがあり、ドックが変わればMACアドレスも変わる。当日はそれまでと違うドックでPCをつないでいた。ルーターではセキュリティのためにMACアドレスとIPアドレスを紐づける設定を有効にしていたので、自分のPCが予定していたアドレスを名乗れず、ルーターの設定に入るのにも手間取った。自分で入れた防御に、自分が締め出された形である。</p>
+<p>次の問題はモバイルルーターだった。上流の回線に使ったモバイルルーターを、LAN側のDHCPの配布元としても動かしていた。この機種はリセットするとLANのサブネットが変わり、Wi-Fi側と有線側で別のネットワークを配ることもある。そのため、サーバーのアドレスが当日のうちに何度も変わった。APのキャプティブポータルが有効なまま残っていて、観客のスマホが認証ページに飛ばされることもあった。</p>
+<p>サーバーのIPアドレスは、.envファイル、nginxの設定、QRコード、hostsファイル、ルーターの紐づけ設定など、6か所以上に直接書いていた。サブネットが変わるたびに、それを全部書き換えることになった。本番の直前には、環境変数の書き換えとビルド、nginxの設定変更、データベースのマイグレーション、PagesとWorkerの再デプロイが並行して進んでいた。一人で判断を続けるうちに、どの設定がいまどの状態なのかを追い切れなくなった。</p>
+<h2 id="502の切り分け">502の切り分け</h2>
+<p>502が出たとき、nginxが応答していることを、サーバーが動いていることと取り違えた。実際にはnginxは動いていて、その裏にある回答APIのプロセスが起動していなかった。後でerror.logを見ると、記録された1033件のエラーはすべてAPIが止まっている間のupstreamへの接続拒否で、nginx自体の障害は1件もなかった。502は、nginxが生きていてその先が応答していないことを示す。見るべきだったのは、APIのプロセスと待ち受けのポートだった。</p>
+<h2 id="持ちこたえたもの">持ちこたえたもの</h2>
+<p>アプリケーション層は最後まで持ちこたえた。開演後の約20分間に103台の端末が参加し、108件の投稿と約2300件のリクエストを処理して、アプリケーション層での5xxエラーは0件だった。SSEの接続は159回で、前日に設けた200本の上限に収まった。オンライン投稿を会場の画面に取り込む機能は当日に実装し、そのまま本番で動いた。配信も開演前には戻った。壊れたのは下の層で、作り込んだ部分は想定どおりに動いた。</p>
+<h2 id="次に向けて">次に向けて</h2>
+<p>振り返ると、問題はどれも物理的な条件の変化から始まっている。NICが変わればMACアドレスが変わり、回線機器をリセットすればサブネットが変わる。会場では、こうした変化を完全には防げない。そのため、物理層が揺れても論理層が変わらない設計にしておく必要がある。</p>
+<p>具体的には、DHCPとDNSの配布元を、自分で管理するルーター1台に絞る。モバイルルーターや会場の回線はそのWAN側につなぎ、インターネットへの出口としてだけ使う。設定の中にはIPアドレスを書かず、サーバーはホスト名で参照し、QRコードは起動時に生成する。nginxはどのホスト名で来ても受けるようにし、観客の入口も複数用意する。設定は本番の24時間前から新しい変更を入れず、1時間前には凍結する。リハーサルは本番と同じ機材と回線で行い、配信の帯域もその回線で事前に試しておく。当日はネットワーク、配信、モデレーションを分けて、3人で見る体制にしたい。</p>
+<p>インフラは難しい。ただ、今回の難しさの多くは、会場に着く前に潰せる種類のものだったとも思う。次は、論理層を固めてから会場に入りたい。</p>
+          <div class="article-end" aria-hidden="true"><span></span><i></i><span></span></div>
+          <footer class="article-footer"><p>清水 紘輔 <span lang="en">/ Kosuke Shimizu</span></p><p>身体・記憶・現実感をめぐるインターフェースの研究と制作。</p><a href="../ja/summary.html">プロフィール <span aria-hidden="true">↗</span></a></footer>
+        </div>
+      </div>
+    </article>
+    <div class="article-return"><a href="index.html"><span aria-hidden="true">←</span> ブログ一覧に戻る</a><span class="eyebrow">KSK432 / BLOG</span></div>
+  </main>
+  <footer class="site-footer">
+    <a class="wordmark" href="../ja/summary.html">KSK432</a>
+    <span>Research, making, and the thoughts in between.</span>
+    <a href="#top">ページの先頭へ <span aria-hidden="true">↑</span></a>
+  </footer>
+</body>
+</html>
